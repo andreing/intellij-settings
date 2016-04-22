@@ -49,11 +49,11 @@
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/DocumentMetaData.java" timestamp="1461239151796">
         <mark key="[" line="0" column="26" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/model/FileMetadata.java" timestamp="1461330809419">
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="14" column="32" />
-        <mark key="." line="14" column="30" />
-        <mark key="^" line="14" column="30" />
+      <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/model/FileMetadata.java" timestamp="1461331993289">
+        <mark key="[" line="35" column="7" />
+        <mark key="]" line="104" column="42" />
+        <mark key="." line="104" column="42" />
+        <mark key="^" line="104" column="42" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/java/protector/takstrekvisisjon/StatusEnum.java" timestamp="1460610040482">
         <mark key="[" line="10" column="28" />
@@ -428,7 +428,7 @@
         <mark key="." line="17" column="64" />
         <mark key="^" line="17" column="64" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/FileOperationsController.java" timestamp="1461330780901">
+      <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/FileOperationsController.java" timestamp="1461331603552">
         <mark key="[" line="46" column="40" />
         <mark key="]" line="46" column="19" />
         <mark key="." line="46" column="19" />
@@ -592,10 +592,10 @@
         <mark key="^" line="8" column="26" />
         <mark key="." line="8" column="26" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/FileOperationsService.java" timestamp="1461330587877">
-        <mark key="[" line="21" column="73" />
-        <mark key="]" line="21" column="0" />
-        <mark key="." line="21" column="0" />
+      <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/FileOperationsService.java" timestamp="1461332096429">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="14" column="0" />
+        <mark key="." line="14" column="0" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/local/components/admin/commissions/commissions.js" timestamp="1460637045176">
         <mark key="[" line="4" column="40" />
@@ -765,7 +765,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Ly8gICAgSW5zdGFudCBnZXRVcGxvYWREYXRlKCk7Ci8vICAgIEluc3RhbnQgZ2V0TW9kaWZpZWREYXRlKCk7Ci8vICAgIFN0cmluZyBnZXRDcmVhdGVkQnlBcHBsaWNhdGlvbigpOwovLyAgICBTdHJpbmcgZ2V0TW9kaWZpZWRCeUFwcGxpY2F0aW9uKCk7Ci8vICAgIFN0cmluZyBnZXRDcmVhdGVkQnlVc2VyKCk7Ci8vICAgIFN0cmluZyBnZXRNb2RpZmllZEJ5VXNlcigpOwo=</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5NYXA7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -824,7 +824,7 @@
         <text encoding="base64">Ly8gICAgSW5zdGFudCBnZXRVcGxvYWREYXRlKCk7Ci8vICAgIEluc3RhbnQgZ2V0TW9kaWZpZWREYXRlKCk7Ci8vICAgIFN0cmluZyBnZXRDcmVhdGVkQnlBcHBsaWNhdGlvbigpOwovLyAgICBTdHJpbmcgZ2V0TW9kaWZpZWRCeUFwcGxpY2F0aW9uKCk7Ci8vICAgIFN0cmluZyBnZXRDcmVhdGVkQnlVc2VyKCk7Ci8vICAgIFN0cmluZyBnZXRNb2RpZmllZEJ5VXNlcigpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gRmlsZU1ldGFkYXRhSW1wbC5uZXdCdWlsZGVyKCkuYnVpbGQoKTsK</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5NYXA7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -832,19 +832,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmV4dHJhY3RvclNlcnZpY2UgPSBleHRyYWN0b3JTZXJ2aWNlOwo=</text>
+        <text encoding="base64">ICAgICAgICBpZiAoZnMuZ2V0TWV0YWRhdGEoKS50b01hcCgpIGluc3RhbmNlb2YgTWFwPFN0cmluZywgT2JqZWN0PikK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgRGF0YUV4dHJhY3RvclNlcnZpY2UgZXh0cmFjdG9yU2VydmljZTsK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIEZ1bmN0aW9uPEZpbGVNZXRhZGF0YSwgPgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljCg==</text>
+        <text encoding="base64">CiAgICBwdWJsaWMgdm9pZCBzZXRDcmVhdGVkRGF0ZShEYXRlIGNyZWF0ZWREYXRlKSB7CiAgICAgICAgdGhpcy5jcmVhdGVkRGF0ZSA9IGNyZWF0ZWREYXRlOwogICAgfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHRoaXMubW9kZWxUcmFuc2xhdG9yID0gbW9kZWxUcmFuc2xhdG9yOwo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gRmlsZU1ldGFkYXRhSW1wbC5uZXdCdWlsZGVyKCkuYnVpbGQoKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLm1vZGVsVHJhbnNsYXRvciA9IG1vZGVsVHJhbnNsYXRvcjsK</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmV4dHJhY3RvclNlcnZpY2UgPSBleHRyYWN0b3JTZXJ2aWNlOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1179,13 +1179,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgTW9kZWxUcmFuc2xhdG9yIG1vZGVsVHJhbnNsYXRvcjsK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgRGF0YUV4dHJhY3RvclNlcnZpY2UgZXh0cmFjdG9yU2VydmljZTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBJbmNvbWluZ0ZpbGVNZXRhZGF0YSgpIHsgfQoKICAgIHB1YmxpYyBJbmNvbWluZ0ZpbGVNZXRhZGF0YShHcmlkRlNGaWxlTW9kZWwgZ3JpZEZzRmlsZSkgewogICAgICAgIHRoaXMuaWQgCiAgICB9Cgo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHRoaXMubW9kZWxUcmFuc2xhdG9yID0gbW9kZWxUcmFuc2xhdG9yOwo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1woc3JjPSJcKS9cMWFwcHNcL3dlYm1lZ2xlclwvLw==</text>

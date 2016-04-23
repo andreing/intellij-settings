@@ -234,11 +234,6 @@
         <mark key="^" line="17" column="34" />
         <mark key="." line="17" column="34" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/src/main/java/protector/DocumentServiceApplication.java" timestamp="1461329410290">
-        <mark key="[" line="35" column="0" />
-        <mark key="]" line="35" column="0" />
-        <mark key="." line="35" column="0" />
-      </file>
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/gridfs/GridFsClient.java" timestamp="1461219541171">
         <mark key="[" line="7" column="24" />
         <mark key="]" line="3" column="0" />
@@ -551,8 +546,11 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/shared/fields/ec-panel-fields.directive.js" timestamp="1460449018865">
         <mark key="[" line="16" column="53" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/build.gradle" timestamp="1461074450835">
-        <mark key="[" line="18" column="24" />
+      <file name="$USER_HOME$/repos/file-service/build.gradle" timestamp="1461413400682">
+        <mark key="[" line="38" column="17" />
+        <mark key="]" line="38" column="61" />
+        <mark key="^" line="38" column="16" />
+        <mark key="." line="38" column="17" />
       </file>
       <file name="/a.regexp" timestamp="1461152228570">
         <mark key="[" line="0" column="0" />
@@ -755,8 +753,8 @@
       <jump line="103" column="38" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/protector.modules.documentservice/documentservice-client-hc/1.1.1/208663ecb462d0a6632ec6380b45edbbef2d3d66/documentservice-client-hc-1.1.1-sources.jar!/protector/modules/documentservice/client/DocumentServiceClient.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zdW1lcyA9IE1lZGlhVHlwZS5NVUxUSVBBUlRfLAo=</text>
+      <register name="&quot;" type="4">
+        <text>org.spockframework:spock-core:1.0-groovy-2.4</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -806,7 +804,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>t/documents</text>
+        <text>org.spockframework:spock-core:1.0-groovy-2.4</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxJbnB1dFN0cmVhbUJvZHlcPg==</text>
@@ -814,8 +812,8 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIEZ1bmN0aW9uPEZpbGVNZXRhZGF0YSwgR3JpZEZTRmlsZU1vZGVsPiBkb21haW5Ub0dyaWRGcyA9IGQgLT4gewogICAgICAgIEdyaWRGU0ZpbGVNb2RlbCBmcyA9IG5ldyBHcmlkRlNGaWxlTW9kZWwoKTsKICAgICAgICBmcy5zZXRGaWxlbmFtZShkLmdldEZpbGVuYW1lKCkpOwogICAgICAgIGZzLnNldENvbnRlbnRUeXBlKGQuZ2V0Q29udGVudFR5cGUoKSk7CiAgICAgICAgZnMuc2V0TWV0YWRhdGEobmV3IEJhc2ljREJPYmplY3QoZC5nZXRFeHRyYSgpKSk7CgogICAgICAgIHJldHVybiBmczsKICAgIH07Cg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zdW1lcyA9IE1lZGlhVHlwZS5NVUxUSVBBUlRfLAo=</text>
+      <register name="1" type="4">
+        <text>org.spockframework:spock-core:1.0-groovy-2.4</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -823,19 +821,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CWNvbXBpbGUoJ29yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdDpzcHJpbmctYm9vdC1zdGFydGVyLXdlYicpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAvLy8vLy8vLy8vLy8vLyBURVNUIC8vLy8vLy8vLy8vLy8vLy8K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zdW1lcyA9IE1lZGlhVHlwZS5NVUxUSVBBUlRfLAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CgogICAgICAgIHJldHVybiBuZXcgRmlsZU1ldGFkYXRhKCk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAvKkdyaWRGU0ZpbGVNb2RlbCBmaWxlTW9kZWwgPSBleHRyYWN0b3JTZXJ2aWNlLmV4dHJhY3RNZXRhZGF0YShtZXRhKTsKICAgICAgICBmaWxlTW9kZWwuc2V0Q29udGVudFR5cGUoZmlsZS5nZXRDb250ZW50VHlwZSgpKTsgLy9UT0RPIHZhbGlkYXRlLiBkZWZhdWx0IHRvIG9jdGV0c3RyZWFtIChkb24ndCB0aGluayB0aGlzIGhhdmUgdG8gYmUgaW4gbWV0YWRhdGEpCgogICAgICAgIEdyaWRGU0RCRmlsZU1vZGVsIGRiRmlsZU1vZGVsID0gbmV3IEdyaWRGU0RCRmlsZU1vZGVsKGZpbGVNb2RlbCwgZmlsZS5nZXRJbnB1dFN0cmVhbSgpKTsKCiAgICAgICAgcmV0dXJuIGZpbGVPcGVyYXRpb25zLnNhdmVGaWxlKGRiRmlsZU1vZGVsKTsqLwoKCg==</text>
+        <text encoding="base64">ICAgICAgICAvLy8vLy8vLy8vLy8vLyBURVNUIC8vLy8vLy8vLy8vLy8vLy8K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CgogICAgICAgIHJldHVybiBuZXcgRmlsZU1ldGFkYXRhKCk7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1170,13 +1168,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEZpbGVNZXRhZGF0YSBzYXZlRmlsZShHcmlkRlNEQkZpbGVNb2RlbCBkYXRhRmlsZSkgewoKICAgICAgICByZXR1cm4gZ3JpZEZzVG9Eb21haW4uYXBwbHkoZmlsZVJlcG8uc2F2ZShkYXRhRmlsZSkpOwogICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAvKkdyaWRGU0ZpbGVNb2RlbCBmaWxlTW9kZWwgPSBleHRyYWN0b3JTZXJ2aWNlLmV4dHJhY3RNZXRhZGF0YShtZXRhKTsKICAgICAgICBmaWxlTW9kZWwuc2V0Q29udGVudFR5cGUoZmlsZS5nZXRDb250ZW50VHlwZSgpKTsgLy9UT0RPIHZhbGlkYXRlLiBkZWZhdWx0IHRvIG9jdGV0c3RyZWFtIChkb24ndCB0aGluayB0aGlzIGhhdmUgdG8gYmUgaW4gbWV0YWRhdGEpCgogICAgICAgIEdyaWRGU0RCRmlsZU1vZGVsIGRiRmlsZU1vZGVsID0gbmV3IEdyaWRGU0RCRmlsZU1vZGVsKGZpbGVNb2RlbCwgZmlsZS5nZXRJbnB1dFN0cmVhbSgpKTsKCiAgICAgICAgcmV0dXJuIGZpbGVPcGVyYXRpb25zLnNhdmVGaWxlKGRiRmlsZU1vZGVsKTsqLwoKCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAvKnJldHVybiBTdHJlYW0ub2YobWV0YWRhdGEpCiAgICAgICAgICAgICAgICAgICAgIC5tYXAoZG9tYWluVG9HcmlkRnMpCiAgICAgICAgICAgICAgICAgICAgIC5tYXAoZnNNZXRhIC0+IG5ldyBHcmlkRlNEQkZpbGVNb2RlbChmc01ldGEsIGRhdGEpKQogICAgICAgICAgICAgICAgICAgICAubWFwKGZpbGVSZXBvOjpzYXZlKQogICAgICAgICAgICAgICAgICAgICAubWFwKGdyaWRGc1RvRG9tYWluKQogICAgICAgICAgICAgICAgICAgICAuZmluZEZpcnN0KCkKICAgICAgICAgICAgICAgICAgICAgLm9yRWxzZVRocm93KCgpIC0+IG5ldyBSdW50aW1lRXhjZXB0aW9uKCJzb21ldGhpbmcgd2VudCBob3JyaWJseSB3cm9uZyIpKTsKKi8KICAgICAgICAKLy8gICAgICAgIEdyaWRGU0RCRmlsZU1vZGVsIGdyaWRGc0ZpbGUgPSBuZXcgR3JpZEZTREJGaWxlTW9kZWwoZG9tYWluVG9HcmlkRnMuYXBwbHkobWV0YWRhdGEpLCBkYXRhKTsKLy8gICAgICAgIHJldHVybiBncmlkRnNUb0RvbWFpbi5hcHBseShmaWxlUmVwby5zYXZlKGdyaWRGc0ZpbGUpKTsK</text>
+        <text encoding="base64">ICAgIEZpbGVNZXRhZGF0YSBzYXZlRmlsZShHcmlkRlNEQkZpbGVNb2RlbCBkYXRhRmlsZSkgewoKICAgICAgICByZXR1cm4gZ3JpZEZzVG9Eb21haW4uYXBwbHkoZmlsZVJlcG8uc2F2ZShkYXRhRmlsZSkpOwogICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1woc3JjPSJcKS9cMWFwcHNcL3dlYm1lZ2xlclwvLw==</text>

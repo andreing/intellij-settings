@@ -170,10 +170,6 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/resources/logback-test.xml" timestamp="1460626962617">
         <mark key="[" line="7" column="223" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/model/FileMetadataImpl.java" timestamp="1461328477504">
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="10" column="22" />
-      </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.6.5/10394a8b3d8af4885e020e2571a7633f7a0bd741/jackson-annotations-2.6.5-sources.jar!/com/fasterxml/jackson/annotation/JsonAnyGetter.java" timestamp="1461327314336" />
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_disability.xml" timestamp="1461077640324">
         <mark key="[" line="1" column="15" />
@@ -483,10 +479,6 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/User.java" timestamp="1461079400669">
         <mark key="[" line="19" column="30" />
       </file>
-      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/protector.modules.documentservice/documentservice-api/1.1.0/80542ce9f7e74663fa0893341eada24365137e8a/documentservice-api-1.1.0-sources.jar!/protector/document/api/DocumentMetadata.java" timestamp="1461249491888">
-        <mark key="[" line="16" column="0" />
-        <mark key="]" line="27" column="22" />
-      </file>
       <file name="$USER_HOME$/repos/file-service/src/main/resources/application-test.properties" timestamp="1461238363669">
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="55" />
@@ -549,10 +541,6 @@
       <file name="/Dummy.txt" timestamp="1461456235291">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.11.4.RELEASE/1080d362b6e9234ac46f008e38eb119609e34c91/spring-data-commons-1.11.4.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java" timestamp="1461229113731">
-        <mark key="[" line="35" column="0" />
-        <mark key="]" line="35" column="35" />
-      </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/shared/fields/ec-panel-fields.directive.js" timestamp="1460449018865">
         <mark key="[" line="16" column="53" />
       </file>
@@ -614,11 +602,11 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/panel/ec-panel.directive.js" timestamp="1460558975007">
         <mark key="[" line="17" column="44" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/src/test/groovy/protector/document/DocumentControllerSpec.groovy" timestamp="1461457532998">
-        <mark key="[" line="74" column="44" />
-        <mark key="]" line="74" column="44" />
-        <mark key="^" line="73" column="48" />
-        <mark key="." line="74" column="0" />
+      <file name="$USER_HOME$/repos/file-service/src/test/groovy/protector/document/DocumentControllerSpec.groovy" timestamp="1461489077599">
+        <mark key="[" line="36" column="0" />
+        <mark key="]" line="39" column="55" />
+        <mark key="^" line="37" column="30" />
+        <mark key="." line="37" column="30" />
       </file>
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/gridfs/GridFSDBFileModel.java" timestamp="1461237543054">
         <mark key="[" line="8" column="51" />
@@ -643,6 +631,12 @@
         <mark key="]" line="43" column="42" />
         <mark key="." line="43" column="42" />
         <mark key="^" line="43" column="42" />
+      </file>
+      <file name="$USER_HOME$/repos/file-service/src/test/groovy/protector/document/FileMetadataSpec.groovy" timestamp="1461489097173">
+        <mark key="[" line="16" column="36" />
+        <mark key="]" line="17" column="15" />
+        <mark key="^" line="17" column="15" />
+        <mark key="." line="17" column="15" />
       </file>
       <file name="/fragment.java" timestamp="1461456235300">
         <mark key="[" line="0" column="0" />
@@ -770,7 +764,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAxICogZG9jdW1lbnRDb250cm9sbGVyLnN0b3JlRmlsZSgqXykK</text>
+        <text encoding="base64">ICAgICAgICBkZWYgeCA9IDEK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -826,10 +820,10 @@
         <text encoding="base64">XDxJbnB1dFN0cmVhbUJvZHlcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAxICogZG9jdW1lbnRDb250cm9sbGVyLnN0b3JlRmlsZSgqXykK</text>
+        <text encoding="base64">ICAgICAgICBkZWYganNvbiA9ICBuZXcgSnNvbk91dHB1dCgpLnRvSnNvbihbZmlsZW5hbWU6ICdmaWxuYW1lLmZvbycsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50VHlwZTogJ3RleHQvcGxhaW4nLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXBwbGljYXRpb246ICd0aGVDYWxsaW5nQXBwbGljYXRpb24nLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdXNlcjogJ2ZvbyddKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAxICogZG9jdW1lbnRDb250cm9sbGVyLnN0b3JlRmlsZShfLF8pCg==</text>
+        <text encoding="base64">ICAgICAgICBkZWYgeCA9IDEK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -837,19 +831,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYyBvcmcuaGFtY3Jlc3QuTWF0Y2hlcnMuKgo=</text>
+        <text encoding="base64">ICAgICAgICAuYW5kRG8oTW9ja012Y1Jlc3VsdEhhbmRsZXJzLnByaW50KCkpY2NjCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsudGVzdC53ZWIuc2VydmxldC5yZXF1ZXN0Lk1vY2tNdWx0aXBhcnRIdHRwU2VydmxldFJlcXVlc3RCdWlsZGVyCg==</text>
+        <text encoding="base64">ICAgIGRlZiBtb2NrTXZjID0gTW9ja012Y0J1aWxkZXJzLnN0YW5kYWxvbmVTZXR1cCgpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IGdyb292eS5qc29uLkpzb25CdWlsZGVyCg==</text>
+        <text encoding="base64">ICAgICAgICAxICogZG9jdW1lbnRDb250cm9sbGVyLnN0b3JlRmlsZShfLF8pCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hbmRFeHBlY3QoY29udGVudCgpLmNvbnRlbnRUeXBlKE1lZGlhVHlwZS5BUFBMSUNBVElPTl9KU09OX1VURjgpKQo=</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBvcmcuaGFtY3Jlc3QuTWF0Y2hlcnMuKgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hbmRFeHBlY3QoanNvblBhdGgoJyQuaWQnLCBpcyhvYmplY3RJZCkpKQo=</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsudGVzdC53ZWIuc2VydmxldC5yZXF1ZXN0Lk1vY2tNdWx0aXBhcnRIdHRwU2VydmxldFJlcXVlc3RCdWlsZGVyCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1184,13 +1178,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgcmVzcG9uc2UgPSBtb2NrTXZjLnBlcmZvcm0oKQo=</text>
+        <text encoding="base64">aW1wb3J0IGdyb292eS5qc29uLkpzb25CdWlsZGVyCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hbmRFeHBlY3QoY29udGVudCgpLmNvbnRlbnRUeXBlKE1lZGlhVHlwZS5BUFBMSUNBVElPTl9KU09OX1VURjgpKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hbmRFeHBlY3QoanNvblBhdGgoJyQuaWQnLCBpcyhvYmplY3RJZCkpKQo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1woc3JjPSJcKS9cMWFwcHNcL3dlYm1lZ2xlclwvLw==</text>

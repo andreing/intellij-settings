@@ -632,11 +632,11 @@
         <mark key="." line="43" column="42" />
         <mark key="^" line="43" column="42" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/src/test/groovy/protector/document/FileMetadataSpec.groovy" timestamp="1461489097173">
-        <mark key="[" line="16" column="36" />
-        <mark key="]" line="17" column="15" />
-        <mark key="^" line="17" column="15" />
-        <mark key="." line="17" column="15" />
+      <file name="$USER_HOME$/repos/file-service/src/test/groovy/protector/document/FileMetadataSpec.groovy" timestamp="1461489931826">
+        <mark key="[" line="15" column="101" />
+        <mark key="]" line="15" column="49" />
+        <mark key="." line="15" column="49" />
+        <mark key="^" line="15" column="49" />
       </file>
       <file name="/fragment.java" timestamp="1461456235300">
         <mark key="[" line="0" column="0" />
@@ -764,7 +764,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgeCA9IDEK</text>
+        <text encoding="base64">ICAgIEBBdXRvd2lyZWQK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -823,7 +823,7 @@
         <text encoding="base64">ICAgICAgICBkZWYganNvbiA9ICBuZXcgSnNvbk91dHB1dCgpLnRvSnNvbihbZmlsZW5hbWU6ICdmaWxuYW1lLmZvbycsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50VHlwZTogJ3RleHQvcGxhaW4nLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXBwbGljYXRpb246ICd0aGVDYWxsaW5nQXBwbGljYXRpb24nLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdXNlcjogJ2ZvbyddKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgeCA9IDEK</text>
+        <text encoding="base64">ICAgIEBBdXRvd2lyZWQK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -831,19 +831,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAuYW5kRG8oTW9ja012Y1Jlc3VsdEhhbmRsZXJzLnByaW50KCkpY2NjCg==</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsudGVzdC53ZWIuc2VydmxldC5zZXR1cC5Nb2NrTXZjQnVpbGRlcnMK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIGRlZiBtb2NrTXZjID0gTW9ja012Y0J1aWxkZXJzLnN0YW5kYWxvbmVTZXR1cCgpCg==</text>
+      <register name="3" type="4">
+        <text>[
+                filename   : 'filname.foo',
+                contentType: 'text/plain',
+                application: 'theCallingApplication',
+                user       : 'foo',
+                adHoc      : 'extra metadata'
+        ]</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAxICogZG9jdW1lbnRDb250cm9sbGVyLnN0b3JlRmlsZShfLF8pCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC50b0pzb24oWwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYyBvcmcuaGFtY3Jlc3QuTWF0Y2hlcnMuKgo=</text>
+        <text encoding="base64">ICAgICAgICBkZWYgeCA9IDEK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsudGVzdC53ZWIuc2VydmxldC5yZXF1ZXN0Lk1vY2tNdWx0aXBhcnRIdHRwU2VydmxldFJlcXVlc3RCdWlsZGVyCg==</text>
+        <text encoding="base64">ICAgICAgICAuYW5kRG8oTW9ja012Y1Jlc3VsdEhhbmRsZXJzLnByaW50KCkpY2NjCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1178,13 +1184,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IGdyb292eS5qc29uLkpzb25CdWlsZGVyCg==</text>
+        <text encoding="base64">ICAgIGRlZiBtb2NrTXZjID0gTW9ja012Y0J1aWxkZXJzLnN0YW5kYWxvbmVTZXR1cCgpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hbmRFeHBlY3QoY29udGVudCgpLmNvbnRlbnRUeXBlKE1lZGlhVHlwZS5BUFBMSUNBVElPTl9KU09OX1VURjgpKQo=</text>
+        <text encoding="base64">ICAgICAgICAxICogZG9jdW1lbnRDb250cm9sbGVyLnN0b3JlRmlsZShfLF8pCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hbmRFeHBlY3QoanNvblBhdGgoJyQuaWQnLCBpcyhvYmplY3RJZCkpKQo=</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBvcmcuaGFtY3Jlc3QuTWF0Y2hlcnMuKgo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1woc3JjPSJcKS9cMWFwcHNcL3dlYm1lZ2xlclwvLw==</text>

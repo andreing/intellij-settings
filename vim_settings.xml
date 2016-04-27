@@ -27,7 +27,7 @@
         <mark key="^" line="20" column="19" />
         <mark key="." line="20" column="19" />
       </file>
-      <file name="/a.dummy" timestamp="1461747584351">
+      <file name="/a.dummy" timestamp="1461748099662">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ContractController.java" timestamp="1461673569651" />
@@ -73,11 +73,11 @@
         <mark key="^" line="14" column="17" />
         <mark key="." line="14" column="17" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/integration/FileStorageTests.groovy" timestamp="1461747398577">
-        <mark key="[" line="137" column="26" />
-        <mark key="]" line="125" column="57" />
-        <mark key="^" line="125" column="57" />
-        <mark key="." line="125" column="57" />
+      <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/integration/FileStorageTests.groovy" timestamp="1461749409333">
+        <mark key="[" line="50" column="88" />
+        <mark key="]" line="51" column="0" />
+        <mark key="^" line="87" column="73" />
+        <mark key="." line="51" column="0" />
       </file>
       <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/protector/DocumentServiceSpecification.groovy" timestamp="1461598068313">
         <mark key="[" line="23" column="42" />
@@ -163,7 +163,7 @@
         <mark key="^" line="22" column="46" />
         <mark key="." line="25" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/resources/logback-test.xml" timestamp="1460626962617">
+      <file name="$USER_HOME$/repos/claims/core/src/main/resources/logback-test.xml" timestamp="1461748969160">
         <mark key="[" line="7" column="223" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_disability.xml" timestamp="1461077640324">
@@ -232,7 +232,7 @@
         <mark key="." line="26" column="30" />
         <mark key="^" line="26" column="30" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/src/main/resources/application.properties" timestamp="1461746516923">
+      <file name="$USER_HOME$/repos/file-service/src/main/resources/application.properties" timestamp="1461749144195">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/claims/Document.java" timestamp="1461142167194">
@@ -266,6 +266,12 @@
         <mark key="]" line="9" column="17" />
         <mark key="^" line="9" column="17" />
         <mark key="." line="9" column="17" />
+      </file>
+      <file name="$USER_HOME$/repos/file-service/src/main/java/protector/filters/MDCFilter.java" timestamp="1461748643217">
+        <mark key="[" line="89" column="40" />
+        <mark key="]" line="42" column="72" />
+        <mark key="^" line="42" column="72" />
+        <mark key="." line="42" column="72" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/shared/salesobject/container/ec-container.html" timestamp="1460386761116">
         <mark key="[" line="23" column="59" />
@@ -625,7 +631,11 @@
         <mark key="^" line="71" column="7" />
         <mark key="." line="71" column="7" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/MDCFilter.java" timestamp="1461672195019" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/MDCFilter.java" timestamp="1461748142751">
+        <mark key="'" line="20" column="31" />
+        <mark key="[" line="103" column="0" />
+        <mark key="]" line="112" column="4" />
+      </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/local/components/admin/commissions/commissions.js" timestamp="1460637045176">
         <mark key="[" line="4" column="40" />
         <mark key="]" line="9" column="12" />
@@ -705,7 +715,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="128" column="20" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/requisition/requisition-ctrl.js" />
       <jump line="143" column="46" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/requisition/requisition-ctrl.js" />
       <jump line="4" column="35" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/requisition/requisition-ctrl.js" />
       <jump line="6" column="13" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/requisition/requisition-ctrl.js" />
@@ -805,10 +814,11 @@
       <jump line="103" column="38" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/protector.modules.documentservice/documentservice-client-hc/1.1.1/208663ecb462d0a6632ec6380b45edbbef2d3d66/documentservice-client-hc-1.1.1-sources.jar!/protector/modules/documentservice/client/DocumentServiceClient.java" />
       <jump line="57" column="55" filename="$USER_HOME$/repos/file-service/src/integration-test/groovy/protector/document/FileStorageTests.groovy" />
       <jump line="67" column="29" filename="$USER_HOME$/repos/file-service/src/integration-test/groovy/protector/document/FileStorageTests.groovy" />
+      <jump line="20" column="31" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/MDCFilter.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>request.getHeader(&quot;Content-Type&quot;)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgIHB1YmxpYyBTdHJpbmcgZ2V0RmlsZW5hbWUoKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gdGVzdEZpbGU7CiAgICAgICAgICAgIH0KICAgICAgICB9Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -861,13 +871,13 @@
         <text>@RequestPart(value = &quot;meta-data&quot;, required = false) FileMetadata metadata,</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxtZXRhZGF0YVw+</text>
+        <text encoding="base64">XDxSRVFVRVNUX1JFUVVFU1RfVVJJXD4=</text>
       </register>
-      <register name="0" type="4">
-        <text>request.getHeader(&quot;Content-Type&quot;)</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIHZvaWQgY2xlYXJNREMoKSB7CiAgICAgICAgTURDLnJlbW92ZShSRVFVRVNUX1JFTU9URV9IT1NUX01EQ19LRVkpOwogICAgICAgIE1EQy5yZW1vdmUoUkVRVUVTVF9SRVFVRVNUX1VSSSk7CiAgICAgICAgTURDLnJlbW92ZShSRVFVRVNUX1FVRVJZX1NUUklORyk7CiAgICAgICAgLy8gcmVtb3ZpbmcgcG9zc2libHkgaW5leGlzdGVudCBpdGVtIGlzIE9LCiAgICAgICAgTURDLnJlbW92ZShSRVFVRVNUX1JFUVVFU1RfVVJMKTsKICAgICAgICBNREMucmVtb3ZlKFJFUVVFU1RfVVNFUl9BR0VOVF9NRENfS0VZKTsKICAgICAgICBNREMucmVtb3ZlKFJFUVVFU1RfWF9GT1JXQVJERURfRk9SKTsKICAgICAgICBNREMucmVtb3ZlKFJFUVVFU1RfUkVNT1RFX0FERFIpOwogICAgfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgIHB1YmxpYyBTdHJpbmcgZ2V0RmlsZW5hbWUoKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gdGVzdEZpbGU7CiAgICAgICAgICAgIH0KICAgICAgICB9Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -875,19 +885,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Ly8gICAgICAgIE91dHB1dFN0cmVhbSBvcyA9IG5ldyBCeXRlQXJyYXlPdXRwdXRTdHJlYW0oKQovLyAgICAgICAgaW50IGJ5dGVzQ29waWVkID0gU3RyZWFtVXRpbHMuY29weShpcywgb3MpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBMT0cuaW5mbygicmVzcG9uc2U6IHt9IixyZXNwb25zZS5nZXRTdGF0dXNMaW5lKCkudG9TdHJpbmcoKSkK</text>
+        <text encoding="base64">ICAgICAgICBCeXRlQXJyYXlSZXNvdXJjZSBtYmFyID0gbmV3IEJ5dGVBcnJheVJlc291cmNlKG1ldGFkYXRhLmdldEJ5dGVzKCJVVEYtOCIpKXsKICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgIHB1YmxpYyBTdHJpbmcgZ2V0RmlsZW5hbWUoKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gIm1ldGEiOwogICAgICAgICAgICB9CiAgICAgICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Ly8JQEJlYW4KLy8JcHVibGljIEZpbHRlciBjdXN0b21SZXF1ZXN0TG9nZ2luZ0ZpbHRlcigpIHsKLy8JCXJldHVybiBuZXcgUmVxdWVzdExvZ2dpbmdGaWx0ZXIoKTsKLy8JfQo=</text>
+        <text encoding="base64">Ly8gICAgICAgIGFkZCgnQ29udGVudC1UeXBlJywnbXVsdGlwYXJ0L21peGVkJykK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5hcGFjaGUuaHR0cC5pbXBsLmNsaWVudC5IdHRwQ2xpZW50QnVpbGRlcgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CUBCZWFuCglwdWJsaWMgTXVsdGlwYXJ0UmVzb2x2ZXIgbXVsdGlwYXJ0UmVzb2x2ZXIoKSB7CgkJQ29tbW9uc011bHRpcGFydFJlc29sdmVyIGNvbW1vbnNNdWx0aXBhcnRSZXNvbHZlciA9IG5ldyBDb21tb25zTXVsdGlwYXJ0UmVzb2x2ZXIoKTsKCQljb21tb25zTXVsdGlwYXJ0UmVzb2x2ZXIuc2V0RGVmYXVsdEVuY29kaW5nKCJVVEYtOCIpOwoJCWNvbW1vbnNNdWx0aXBhcnRSZXNvbHZlci5zZXRNYXhVcGxvYWRTaXplKDUwMDAwMDAwKTsKCXJldHVybiBjb21tb25zTXVsdGlwYXJ0UmVzb2x2ZXI7Cgl9Cg==</text>
+        <text encoding="base64">ICAgICAgICAvL2xvZyBwYXJ0cwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1222,23 +1232,22 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CXJ1bnRpbWUoJ2NvbW1vbnMtZmlsZXVwbG9hZDpjb21tb25zLWZpbGV1cGxvYWQ6MS4zLjEnKQo=</text>
+        <text encoding="base64">ICAgICAgICAvL2xvZyBoZWFkZXJzCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Ly8JdGVzdENvbXBpbGUoJ29yZy5zcG9ja2ZyYW1ld29yazpzcG9jay1jb3JlOjEuMC1ncm9vdnktMi40JykK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBVU0VSX0tFWSA9ICJ1c2VybmFtZSI7Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>@RequestPart(value = &quot;meta&quot;) FileMetadata meta,
-                                  @RequestPart(value = &quot;file&quot;) MultipartFile file</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBNREMucmVtb3ZlKFJFUVVFU1RfVVNFUl9BR0VOVF9NRENfS0VZKTsKICAgICAgICBNREMucmVtb3ZlKFJFUVVFU1RfWF9GT1JXQVJERURfRk9SKTsKICAgICAgICBNREMucmVtb3ZlKFJFUVVFU1RfUkVNT1RFX0FERFIpOwo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1woc3JjPSJcKS9cMWFwcHNcL3dlYm1lZ2xlclwvLw==</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxtZXRhZGF0YVw+</last-search>
+      <last-search encoding="base64">XDxSRVFVRVNUX1JFUVVFU1RfVVJJXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxtZXRhZGF0YVw+</last-pattern>
+      <last-pattern encoding="base64">XDxSRVFVRVNUX1JFUVVFU1RfVVJJXD4=</last-pattern>
       <last-replace>\1apps\/webmegler\/</last-replace>
       <last-substitute>\(src=&quot;\)</last-substitute>
       <last-dir>1</last-dir>
@@ -1246,7 +1255,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx1cGRhdGVFbXB0eUZpZWxkc1w+</entry>
         <entry encoding="base64">XDxleGlzdGluZ0FkZHJlc3NcPg==</entry>
         <entry>vm</entry>
         <entry>elements</entry>
@@ -1266,6 +1274,7 @@
         <entry encoding="base64">XDxqc29uRGF0YVw+</entry>
         <entry encoding="base64">XDxJbnB1dFN0cmVhbUJvZHlcPg==</entry>
         <entry encoding="base64">XDxtZXRhZGF0YVw+</entry>
+        <entry encoding="base64">XDxSRVFVRVNUX1JFUVVFU1RfVVJJXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1woW2EtekEtei5dKlwpLC8nXDEnLC8=</entry>

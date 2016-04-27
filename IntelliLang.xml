@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="LanguageInjectionConfiguration">
     <option name="INSTRUMENTATION" value="ASSERT" />
@@ -6,6 +5,9 @@
     <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
     <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
     <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="RegExp" injector-id="java">
+      <display-name>DocumentControllerSpec.matchesRegex (protector.document)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("matchesRegex").withParameters("java.lang.Object").definedInClass("protector.document.DocumentControllerSpec"))]]></place>
+    </injection>
   </component>
 </application>
-

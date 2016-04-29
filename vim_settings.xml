@@ -78,11 +78,11 @@
         <mark key="^" line="14" column="17" />
         <mark key="." line="14" column="17" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/integration/FileStorageTests.groovy" timestamp="1461852938676">
-        <mark key="[" line="153" column="35" />
-        <mark key="]" line="153" column="0" />
-        <mark key="^" line="153" column="8" />
-        <mark key="." line="153" column="0" />
+      <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/integration/FileStorageTests.groovy" timestamp="1461919544612">
+        <mark key="[" line="166" column="35" />
+        <mark key="]" line="168" column="0" />
+        <mark key="." line="168" column="0" />
+        <mark key="^" line="165" column="0" />
       </file>
       <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/protector/DocumentServiceSpecification.groovy" timestamp="1461598068313">
         <mark key="[" line="23" column="42" />
@@ -329,8 +329,8 @@
         <mark key="^" line="20" column="19" />
         <mark key="." line="20" column="19" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/src/main/resources/application-integration.properties" timestamp="1461826776808">
-        <mark key="[" line="2" column="47" />
+      <file name="$USER_HOME$/repos/file-service/src/main/resources/application-integration.properties" timestamp="1461918546834">
+        <mark key="[" line="18" column="67" />
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
         <mark key="^" line="13" column="36" />
@@ -608,6 +608,7 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/shared/fields/ec-panel-fields.directive.js" timestamp="1460449018865">
         <mark key="[" line="16" column="53" />
       </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/b9f9e3e5255b6ddc3bf21be05428c7a60d00e042/httpclient-4.5.2-sources.jar!/org/apache/http/impl/execchain/ConnectionHolder.java" timestamp="1461918529767" />
       <file name="$USER_HOME$/repos/file-service/build.gradle" timestamp="1461833568942">
         <mark key="[" line="39" column="63" />
         <mark key="]" line="39" column="61" />
@@ -647,11 +648,11 @@
         <mark key="^" line="69" column="7" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/IntegrationTestHelpers.groovy" timestamp="1461847395024">
-        <mark key="'" line="61" column="15" />
-        <mark key="[" line="73" column="15" />
-        <mark key="]" line="86" column="5" />
-        <mark key="." line="69" column="0" />
+      <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/IntegrationTestHelpers.groovy" timestamp="1461919388371">
+        <mark key="'" line="65" column="3" />
+        <mark key="[" line="74" column="0" />
+        <mark key="]" line="74" column="0" />
+        <mark key="." line="74" column="0" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/local/components/admin/commissions/commissions.js" timestamp="1460637045176">
         <mark key="[" line="4" column="40" />
@@ -730,7 +731,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="7" filename="$USER_HOME$/repos/webformdefinitions/src/test/python/validate_test.py" />
       <jump line="43" column="41" filename="$USER_HOME$/repos/webformdefinitions/src/test/python/validate_test.py" />
       <jump line="25" column="15" filename="$USER_HOME$/repos/webformdefinitions/src/test/python/validate_test.py" />
       <jump line="28" column="18" filename="$USER_HOME$/repos/webformdefinitions/src/test/python/validate_test.py" />
@@ -830,10 +830,11 @@
       <jump line="111" column="37" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/1.9.1.RELEASE/3aca792e269eac0c5576fa4a0226af6b73525d76/spring-data-mongodb-1.9.1.RELEASE-sources.jar!/org/springframework/data/mongodb/core/query/Criteria.java" />
       <jump line="532" column="26" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/1.9.1.RELEASE/3aca792e269eac0c5576fa4a0226af6b73525d76/spring-data-mongodb-1.9.1.RELEASE-sources.jar!/org/springframework/data/mongodb/core/query/Criteria.java" />
       <jump line="63" column="15" filename="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/IntegrationTestHelpers.groovy" />
+      <jump line="68" column="3" filename="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/IntegrationTestHelpers.groovy" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBPdXRwdXRTdHJlYW0gb3V0ID0gbmV3IEJ5dGVBcnJheU91dHB1dFN0cmVhbSgpCgogICAgICAgIENsb3NlYWJsZUh0dHBDbGllbnQgaHR0cENsaWVudCA9IEh0dHBDbGllbnRzLmNyZWF0ZURlZmF1bHQoKQogICAgICAgIEh0dHBHZXQgaHR0cEdldCA9IG5ldyBIdHRwR2V0KGdldEJhc2VVcmkoKSArICcvZG9jdW1lbnQvJyArIGZpbGUuaWQgKyAnL2ZpbGU/c3RyZWFtaW5nPXRydWUnKQoKICAgICAgICBDbG9zZWFibGVIdHRwUmVzcG9uc2UgcmVzcG9uc2UgPSBodHRwQ2xpZW50LmV4ZWN1dGUoaHR0cEdldCkK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -889,10 +890,10 @@
         <text encoding="base64">XDxnZXRGaWxlbmFtZUZyb21QYXRoXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBMT0cuZGVidWcoJ3Jlc3BvbnNlOiB7fScscmVzcG9uc2UudG9TdHJpbmcoKSkK</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgcmVzcG9uc2UuZ2V0U3RhdHVzTGluZSgpLmdldFN0YXR1c0NvZGUoKSA9PSAyMDEK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBPdXRwdXRTdHJlYW0gb3V0ID0gbmV3IEJ5dGVBcnJheU91dHB1dFN0cmVhbSgpCgogICAgICAgIENsb3NlYWJsZUh0dHBDbGllbnQgaHR0cENsaWVudCA9IEh0dHBDbGllbnRzLmNyZWF0ZURlZmF1bHQoKQogICAgICAgIEh0dHBHZXQgaHR0cEdldCA9IG5ldyBIdHRwR2V0KGdldEJhc2VVcmkoKSArICcvZG9jdW1lbnQvJyArIGZpbGUuaWQgKyAnL2ZpbGU/c3RyZWFtaW5nPXRydWUnKQoKICAgICAgICBDbG9zZWFibGVIdHRwUmVzcG9uc2UgcmVzcG9uc2UgPSBodHRwQ2xpZW50LmV4ZWN1dGUoaHR0cEdldCkK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -900,19 +901,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYm9zLndyaXRlKGJ1ZiwgMCwgbGVuKTsK</text>
+        <text encoding="base64">ICAgICAgICByZXNwb25zZS53aXRoQ2xvc2VhYmxlIHsgcmVzIC0+CiAgICAgICAgICAgIHJlcy5nZXRFbnRpdHkoKS53cml0ZVRvKG91dCkKICAgICAgICB9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgcmVzcG9uc2Uuc3RhdHVzQ29kZS52YWx1ZSgpID09IDIwMAo=</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgcmVzcG9uc2UuZ2V0U3RhdHVzTGluZSgpLmdldFN0YXR1c0NvZGUoKSA9PSAyMDAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgcmVzcG9uc2Uuc3RhdHVzQ29kZS52YWx1ZSgpID09IDIwMAo=</text>
+        <text encoding="base64">Ly8gICAgICAgIGFzc2VydCByZXNwb25zZS5zdGF0dXNDb2RlLnZhbHVlKCkgPT0gMjAwCi8vICAgICAgICBleHBlY3QgcmVzcG9uc2UuZ2V0Qm9keSgpLmdldElucHV0U3RyZWFtKCksIG1hdGNoZXNJbnB1dFN0cmVhbShuZXcgRmlsZUlucHV0U3RyZWFtKHRlc3RGaWxlMikpCi8vICAgICAgICBMT0cuZGVidWcoJ2NvbnN1bWVkIHJlc3BvbnNlOiB7fScsIHJlc3BvbnNlLnRvU3RyaW5nKCkpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBMT0cuZGVidWcoIkZldGNoIGZpbGUiKTsK</text>
+        <text encoding="base64">Ly8gICAgICAgIE91dHB1dFN0cmVhbVdyaXRlciB3cml0ZXIgPSBuZXcgT3V0cHV0U3RyZWFtV3JpdGVyKG91dCkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgcmVzcG9uc2Uuc3RhdHVzQ29kZS52YWx1ZSgpID09IDIwMAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1247,13 +1248,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBnaXZlbjonc3RvcmVkIGZpbGUnCgo=</text>
+        <text encoding="base64">Ly8gICAgICAgIGRlZiByZXNwb25zZSA9IHJlc3RUZW1wbGF0ZS5nZXRGb3JFbnRpdHkoZ2V0QmFzZVVyaSgpICsgJy9kb2N1bWVudC8nICsgZmlsZS5pZCArICcvZmlsZT9zdHJlYW1pbmc9dHJ1ZScsIElucHV0U3RyZWFtUmVzb3VyY2UuY2xhc3MpCi8vICAgICAgICBMT0cuZGVidWcoJ3Jlc3BvbnNlOiB7fScscmVzcG9uc2UudG9TdHJpbmcoKSkKLy8gICAgICAgIElucHV0U3RyZWFtIGlzID0gcmVzcG9uc2UuZ2V0Qm9keSgpLmdldElucHV0U3RyZWFtKCkKCi8vICAgICAgICBpbnQgbGVuCi8vICAgICAgICBpbnQgc2l6ZSA9IDI1NQovLyAgICAgICAgYnl0ZVtdIGJ1ZjsKLy8gICAgICAgIEJ5dGVBcnJheU91dHB1dFN0cmVhbSBib3MgPSBuZXcgQnl0ZUFycmF5T3V0cHV0U3RyZWFtKCk7Ci8vICAgICAgICBidWYgPSBuZXcgYnl0ZVtzaXplXTsKLy8gICAgICAgIExPRy5kZWJ1Zygnc3RhcnQgcmVhZGluZyBmcm9tIGlucHV0IHN0cmVhbScpCi8vICAgICAgICB3aGlsZSAoKGxlbiA9IGlzLnJlYWQoYnVmLCAwLCBzaXplKSkgIT0gLTEpIHsKLy8gICAgICAgICAgICBib3Mud3JpdGUoYnVmLCAwLCBsZW4pOwovLyAgICAgICAgICAgIExPRy5kZWJ1ZygncmVhZCB7fSBieXRlcycsIHNpemUpCi8vICAgICAgICB9CgovLyAgICAgICAgTE9HLmRlYnVnKCdmaW5pc2hlZCByZWFkaW5nLCB0b3RhbCB7fSBieXRlcyByZWFkJywgYm9zLnRvQnl0ZUFycmF5KCkubGVuZ3RoKQo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHN0YXRpYyBieXRlW10gY29uc3VtZVN0cmVhbShJbnB1dFN0cmVhbSBzdHJlYW0pIHsKICAgICAgICByZXR1cm4gU3RyZWFtVXRpbHMuY29weVRvQnl0ZUFycmF5KHN0cmVhbSkKICAgIH0K</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1woc3JjPSJcKS9cMWFwcHNcL3dlYm1lZ2xlclwvLw==</text>

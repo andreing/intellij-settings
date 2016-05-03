@@ -54,8 +54,8 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/java/protector/takstrekvisisjon/StatusEnum.java" timestamp="1460610040482">
         <mark key="[" line="10" column="28" />
       </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/local/components/admin/upload/file-upload.js" timestamp="1462177545064">
-        <mark key="[" line="8" column="29" />
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/local/components/admin/upload/file-upload.js" timestamp="1462275063628">
+        <mark key="[" line="8" column="36" />
         <mark key="]" line="18" column="3" />
         <mark key="." line="18" column="3" />
         <mark key="^" line="18" column="3" />
@@ -360,6 +360,12 @@
         <mark key="^" line="17" column="4" />
         <mark key="." line="17" column="4" />
       </file>
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/reports/ReportsController.java" timestamp="1462274874174">
+        <mark key="[" line="46" column="0" />
+        <mark key="]" line="62" column="26" />
+        <mark key="^" line="62" column="26" />
+        <mark key="." line="62" column="26" />
+      </file>
       <file name="$USER_HOME$/repos/file-service/src/integration-test/java/IntegrationTestApplicationContext.java" timestamp="1461597680195">
         <mark key="[" line="22" column="34" />
         <mark key="]" line="22" column="34" />
@@ -506,11 +512,11 @@
         <mark key="." line="31" column="19" />
         <mark key="^" line="31" column="19" />
       </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/reports/WebSystemerDocTransfer.java" timestamp="1462268922260">
-        <mark key="[" line="99" column="11" />
-        <mark key="]" line="100" column="28" />
-        <mark key="." line="100" column="28" />
-        <mark key="^" line="100" column="28" />
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/reports/WebSystemerDocTransfer.java" timestamp="1462274808422">
+        <mark key="[" line="145" column="0" />
+        <mark key="]" line="138" column="0" />
+        <mark key="." line="138" column="0" />
+        <mark key="^" line="138" column="0" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/panel/fields/ec-panel-fields.directive.js" timestamp="1460558145022">
         <mark key="[" line="4" column="40" />
@@ -700,6 +706,12 @@
         <mark key="^" line="15" column="4" />
         <mark key="." line="15" column="4" />
       </file>
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/reports/XMLHandler.groovy" timestamp="1462273916206">
+        <mark key="[" line="47" column="98" />
+        <mark key="]" line="47" column="93" />
+        <mark key="^" line="47" column="93" />
+        <mark key="." line="47" column="93" />
+      </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/TakstController.groovy" timestamp="1462263934972">
         <mark key="'" line="23" column="4" />
         <mark key="[" line="23" column="0" />
@@ -854,8 +866,8 @@
       <jump line="23" column="4" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/TakstController.groovy" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>&quot;External broker ID is not set for commission={}&quot;, metaData.getCommissionId()</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiBudWxsOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -910,11 +922,11 @@
       <register name="/" type="4">
         <text encoding="base64">XDxhcHByYWlzYWxTZXJ2aWNlXD4=</text>
       </register>
-      <register name="0" type="4">
-        <text>&quot;External broker ID is not set for commission={}&quot;, metaData.getCommissionId()</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgTE9HLmluZm8oIldlYlN5c3RlbWVyIGZpbGUgcmVxdWVzdCByZXR1cm5lZCB7fTsge30ge30iLCByZXNwb25zZS5nZXRTdGF0dXNUZXh0KCksIHhtbFJlc3BvbnNlLmdldCgic3RhdHVzIiksIHhtbFJlc3BvbnNlLmdldCgic3RhdHVzVGV4dCIpKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5Db2xsZWN0aW9uczsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiBudWxsOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -922,19 +934,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBib29sZWFuIHBvbGxpbmcgPSB0cnVlOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBIdHRwSGVhZGVycyBoZWFkZXJzID0gbmV3IEh0dHBIZWFkZXJzKCk7CiAgICAgICAgaGVhZGVycy5zZXRDb250ZW50VHlwZShuZXcgTWVkaWFUeXBlKCJhcHBsaWNhdGlvbiIsICJ4bWwiLCBDaGFyc2V0LmZvck5hbWUoImlzby04ODU5LTEiKSkpOwogICAgICAgIEh0dHBFbnRpdHk8U3RyaW5nPiBlbnRpdHkgPSBuZXcgSHR0cEVudGl0eTw+KHhtbFJlcXVlc3RCb2R5LCBoZWFkZXJzKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHBvbGxpbmcgPSBmYWxzZTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAvLyAgICAgICAgUmVzcG9uc2VFbnRpdHk8U3RyaW5nPiByZXNwb25zZSA9IHJlc3RUZW1wbGF0ZS5wb3N0Rm9yRW50aXR5KHdzRmlsZVVybCwgZW50aXR5LCBTdHJpbmcuY2xhc3MpOwo=</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnJlc3QgPSByZXN0Owo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBjaGVjayByZXNwb25zZSBzdGF0dXMKICAgICAgICAvLyBpZiBlcnJvciAtPiBsb2cKICAgICAgICAvLyBpZiBvayBzcGF3biBwb2xsaW5nIHRocmVhZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgTWFwIHJlc3BvbnNlOwo=</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1269,13 +1281,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBoZWFkZXJzLnNldEFjY2VwdChDb2xsZWN0aW9ucy5zaW5nbGV0b25MaXN0KE1lZGlhVHlwZS5BUFBMSUNBVElPTl9YTUwpKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaGVhZGVyczEuc2V0QWNjZXB0KENvbGxlY3Rpb25zLnNpbmdsZXRvbkxpc3QoTWVkaWFUeXBlLkFQUExJQ0FUSU9OX1hNTCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICBNYXAgcmVzcG9uc2UgPSByZXN0LmV4ZWN1dGUoc3RhdHVzVXJsLCBIdHRwTWV0aG9kLkdFVCwgcmVxdWVzdENhbGxiYWNrLCByZXNwb25zZUV4dHJhY3Rvcik7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaGVhZGVyczEuc2V0Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1woc3JjPSJcKS9cMWFwcHNcL3dlYm1lZ2xlclwvLw==</text>

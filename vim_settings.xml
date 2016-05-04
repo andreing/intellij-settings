@@ -241,6 +241,12 @@
         <mark key="." line="12" column="41" />
         <mark key="^" line="12" column="41" />
       </file>
+      <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/DocumentServiceException.java" timestamp="1462366393243">
+        <mark key="[" line="2" column="64" />
+        <mark key="]" line="2" column="63" />
+        <mark key="^" line="2" column="63" />
+        <mark key="." line="2" column="63" />
+      </file>
       <file name="/HTML File.txt.ft" timestamp="1461670801283">
         <mark key="[" line="0" column="0" />
       </file>
@@ -421,11 +427,11 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/shared/fields/static-fields-broker.html" timestamp="1460450872525">
         <mark key="[" line="8" column="65" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/DocumentController.java" timestamp="1462262507262">
-        <mark key="[" line="94" column="0" />
-        <mark key="]" line="96" column="50" />
-        <mark key="." line="33" column="57" />
-        <mark key="^" line="33" column="57" />
+      <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/DocumentController.java" timestamp="1462367863194">
+        <mark key="[" line="133" column="55" />
+        <mark key="]" line="136" column="5" />
+        <mark key="." line="133" column="0" />
+        <mark key="^" line="133" column="3" />
       </file>
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/api/DocumentServiceException.java" timestamp="1461239277246">
         <mark key="[" line="2" column="38" />
@@ -896,7 +902,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHNldERvY3VtZW50VXBsb2FkRmFpbGVkU3RhdHVzKCk7Cg==</text>
+        <text encoding="base64">ICAgIEBFeGNlcHRpb25IYW5kbGVyKHtEb2N1bWVudFNlcnZpY2VFeGNlcHRpb24uY2xhc3N9KQogICAgcHVibGljIHZvaWQgY2xpZW50RXJyb3IoSHR0cFNlcnZsZXRSZXNwb25zZSByZXNwb25zZSkgdGhyb3dzIElPRXhjZXB0aW9uIHsKICAgICAgICByZXNwb25zZS5zZW5kRXJyb3IoSHR0cFN0YXR1cy5CQURfUkVRVUVTVC52YWx1ZSgpKTsKICAgIH0K</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -946,16 +952,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>new DocumentServiceException(String.format(&quot;Error when trying to stream file id: [%s]; cause: %s&quot;, objectId, e.getMessage()) ,e);</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDx3c0ZpbGVVcmxcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgTE9HLmluZm8oIkRvd25sb2FkIG5vdCB0cmlnZ2VyZWQgZm9yIGNvbW1pc3Npb24taWQ9e30iLCBjb21taXNzaW9uX2lkKTsKICAgICAgICAgICAgdGhyb3cgbmV3IFJ1bnRpbWVFeGNlcHRpb24oIldlYlN5c3RlbWVyIHJldHVybmVkOiAiICsgcmVzcG9uc2UuZ2V0U3RhdHVzKCkgKyAiICIgKyByZXNwb25zZS5nZXRTdGF0dXNUZXh0KCkpOwo=</text>
+        <text encoding="base64">ICAgIEBFeGNlcHRpb25IYW5kbGVyKHtEb2N1bWVudFNlcnZpY2VFeGNlcHRpb24uY2xhc3N9KQogICAgcHVibGljIHZvaWQgY2xpZW50RXJyb3IoSHR0cFNlcnZsZXRSZXNwb25zZSByZXNwb25zZSkgdGhyb3dzIElPRXhjZXB0aW9uIHsKICAgICAgICByZXNwb25zZS5zZW5kRXJyb3IoSHR0cFN0YXR1cy5CQURfUkVRVUVTVC52YWx1ZSgpKTsKICAgIH0K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHNldERvY3VtZW50VXBsb2FkRmFpbGVkU3RhdHVzKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBjYXRjaCAoRW1wdHlSZXN1bHREYXRhQWNjZXNzRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgTE9HLmluZm8oZS5nZXRNZXNzYWdlKCksIGUpOwogICAgICAgICAgICB0aHJvdyBlOwogICAgICAgIH0K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -963,19 +969,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBib29sZWFuIHBvbGxpbmcgPSB0cnVlOwo=</text>
+        <text encoding="base64">ICAgIEBSZXNwb25zZVN0YXR1cyhIdHRwU3RhdHVzLkJBRF9SRVFVRVNUKQo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJ5IHsK</text>
+      <register name="3" type="4">
+        <text>new DocumentServiceException(String.format(&quot;Error when trying to stream file id: [%s]; cause: %s&quot;, objectId, e.getMessage()) ,e);</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfSBjYXRjaCAoSW50ZXJydXB0ZWRFeGNlcHRpb24gZSkgeyBMT0cuZXJyb3IoZS5nZXRNZXNzYWdlKCksIGUpOwogICAgICAgICAgICAgICAgcG9sbGluZyA9IGZhbHNlOwogICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNldERvY3VtZW50VXBsb2FkRmFpbGVkU3RhdHVzKCk7Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBib29sZWFuIHBvbGxpbmcgPSB0cnVlOwo=</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgdHJ5IHsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1309,14 +1315,14 @@
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="7" type="4">
-        <text>+&quot; ws-reason=&quot;+response.getStatusText()</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgfSBjYXRjaCAoSW50ZXJydXB0ZWRFeGNlcHRpb24gZSkgeyBMT0cuZXJyb3IoZS5nZXRNZXNzYWdlKCksIGUpOwogICAgICAgICAgICAgICAgcG9sbGluZyA9IGZhbHNlOwogICAgICAgICAgICB9Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHBvbGxpbmcgPSBmYWxzZTsK</text>
+      <register name="8" type="4">
+        <text encoding="base64">IA==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">CiAgICAgICAgTE9HLmRlYnVnKCJFeGl0IGNoZWNrRG93bmxvYWRTdGF0dXMgdGhyZWFkIHdpdGggZmFpbHVyZSIpOwogICAgICAgIHJldHVybiBudWxsOwo=</text>
+      <register name="9" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1woc3JjPSJcKS9cMWFwcHNcL3dlYm1lZ2xlclwvLw==</text>

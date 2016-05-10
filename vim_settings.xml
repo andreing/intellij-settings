@@ -103,6 +103,7 @@
         <mark key="^" line="14" column="17" />
         <mark key="." line="14" column="17" />
       </file>
+      <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/integration/FileStorageTests.groovy" timestamp="1462881795794" />
       <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/protector/DocumentServiceSpecification.groovy" timestamp="1461598068313">
         <mark key="[" line="23" column="42" />
         <mark key="]" line="22" column="30" />
@@ -182,7 +183,7 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/panel/fields/ec-help-text.directive.js" timestamp="1460558137623">
         <mark key="[" line="4" column="40" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/DocumentServiceSpecification.groovy" timestamp="1462881721024">
+      <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/DocumentServiceSpecification.groovy" timestamp="1462881736776">
         <mark key="[" line="34" column="0" />
         <mark key="]" line="34" column="0" />
         <mark key="." line="34" column="0" />
@@ -369,6 +370,10 @@
         <mark key="." line="1" column="16" />
         <mark key="^" line="1" column="16" />
       </file>
+      <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/integration/CreateDocumentTests.groovy" timestamp="1462882162558">
+        <mark key="]" line="7" column="38" />
+        <mark key="." line="23" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/gridfs/model/GridFSFileModel.java" timestamp="1461839942813">
         <mark key="[" line="20" column="23" />
         <mark key="]" line="20" column="19" />
@@ -476,9 +481,6 @@
         <mark key="." line="46" column="0" />
         <mark key="^" line="45" column="56" />
       </file>
-      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.3.RELEASE/1604486372a34b5dec0d21bfa5c94e855413f71c/spring-web-4.2.3.RELEASE-sources.jar!/org/springframework/web/client/HttpStatusCodeException.java" timestamp="1462373111957">
-        <mark key="'" line="101" column="57" />
-      </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/shared/salesobject/fields/ec-panel-fields.directive.js" timestamp="1460448275459">
         <mark key="[" line="12" column="26" />
         <mark key="]" line="12" column="24" />
@@ -572,13 +574,6 @@
         <mark key="]" line="31" column="19" />
         <mark key="." line="31" column="19" />
         <mark key="^" line="31" column="19" />
-      </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/reports/WebSystemerDocTransfer.java" timestamp="1462372403966">
-        <mark key="'" line="100" column="19" />
-        <mark key="[" line="139" column="45" />
-        <mark key="]" line="136" column="22" />
-        <mark key="^" line="136" column="22" />
-        <mark key="." line="136" column="22" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/panel/fields/ec-panel-fields.directive.js" timestamp="1460558145022">
         <mark key="[" line="4" column="40" />
@@ -736,6 +731,11 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/reports/DocumentServiceExeption.java" timestamp="1462365641228">
         <mark key="[" line="2" column="62" />
       </file>
+      <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/integration/ReadDocumentTests.groovy" timestamp="1462882367183">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/sweden/auto/se_auto_single.xml" timestamp="1460406124781">
         <mark key="[" line="1" column="17" />
       </file>
@@ -813,7 +813,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="173" column="29" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
       <jump line="187" column="0" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
       <jump line="105" column="8" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
       <jump line="190" column="63" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
@@ -913,10 +912,11 @@
       <jump line="101" column="57" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.3.RELEASE/1604486372a34b5dec0d21bfa5c94e855413f71c/spring-web-4.2.3.RELEASE-sources.jar!/org/springframework/web/client/HttpStatusCodeException.java" />
       <jump line="38" column="31" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/reports/ReportsService.java" />
       <jump line="68" column="23" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/reports/ReportsService.java" />
+      <jump line="16" column="28" filename="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/integration/ReadDocumentTests.groovy" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAub3JFbHNlKCkK</text>
+        <text encoding="base64">aW1wb3J0IGdyb292eS5qc29uLkpzb25TbHVycGVyCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -969,13 +969,13 @@
         <text>'iz': 'inurcomputer', 'icanhaz': 'cheezburger'</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxyZXN0XD4=</text>
+        <text encoding="base64">XDxFeGVjdXRpb25FeGNlcHRpb25cPg==</text>
       </register>
-      <register name="0" type="4">
-        <text>'iz': 'inurcomputer', 'icanhaz': 'cheezburger', 'wow': 'suchsearch'</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIFJlc3RUZW1wbGF0ZSByZXN0VGVtcGxhdGUgPSBuZXcgVGVzdFJlc3RUZW1wbGF0ZSgpOwogICAgZGVmIG1ldGFkYXRhTWFwID0gW2FwcGxpY2F0aW9uOiAnc2VsZicsIHVzZXI6ICd0ZXN0J10KICAgIGRlZiBqc29uUGFyc2VyID0gbmV3IEpzb25TbHVycGVyKCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAub3JFbHNlKCkK</text>
+        <text encoding="base64">aW1wb3J0IGdyb292eS5qc29uLkpzb25TbHVycGVyCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -983,19 +983,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+        <text encoding="base64">ICAgIGRlZiBqc29uUGFyc2VyID0gbmV3IEpzb25TbHVycGVyKCk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBDcml0ZXJpYSBjcml0ZXJpYSA9IG51bGw7Cg==</text>
+        <text encoding="base64">CiAgICBkZWYgJ0dldCBmaWxlIG1ldGFkYXRhIHZpYSBhcGknKCkgewogICAgICAgIGdpdmVuOidzdG9yZWQgZmlsZScKICAgICAgICBtZXRhZGF0YU1hcCA8PCBbJ3Rlc3QnOiAncmV0cmlldmUgbWV0YWRhdGEnXQogICAgICAgIGRlZiBmaWxlID0gaW1wb3J0RmlsZShtZXRhZGF0YU1hcCwgbmV3IEZpbGUodGVzdEZpbGUxKSkKICAgICAgICBhc3NlcnQgZ3JpZEZzRmlsZVJlcG9zaXRvcnkuZXhpc3RzKGZpbGUuaWQgYXMgU3RyaW5nKQoKICAgICAgICB3aGVuOidhc2tpbmcgZm9yIGZpbGUgbWV0YWRhdGEnCiAgICAgICAgZGVmIHJlc3BvbnNlID0gcmVzdFRlbXBsYXRlLmdldEZvckVudGl0eShnZXRCYXNlVXJpKCkgKyAnL2RvY3VtZW50LycgKyBmaWxlLmlkICsgJy9tZXRhJywgU3RyaW5nLmNsYXNzKQoKICAgICAgICB0aGVuOidmaWxlIG1ldGFkYXRhIGlzIHJldHVybmVkJwogICAgICAgIGFzc2VydCByZXNwb25zZS5zdGF0dXNDb2RlLnZhbHVlKCkgPT0gMjAwCiAgICAgICAganNvblBhdGgoJyQuaWQnLCBlcXVhbFRvKGZpbGUuaWQpKQogICAgICAgIGpzb25QYXRoKCckLm1ldGFkYXRhJywgZXF1YWxUbyhtZXRhZGF0YU1hcCkpCiAgICB9CgoKICAgIGRlZiAnR2V0IGZpbGUgZGF0YSB3aXRoIGJ1ZmZlcmluZyBjbGllbnQgdmlhIGFwaScoKSB7CiAgICAgICAgZ2l2ZW46J3N0b3JlZCBmaWxlJwogICAgICAgIG1ldGFkYXRhTWFwIDw8IFsndGVzdCc6ICdyZXRyaWV2ZSBmaWxlIGRhdGEgKGJ1ZmZlcmVkKSddCiAgICAgICAgZGVmIGZpbGUgPSBpbXBvcnRGaWxlKG1ldGFkYXRhTWFwLCBuZXcgRmlsZSh0ZXN0RmlsZTIpKQogICAgICAgIGFzc2VydCBncmlkRnNGaWxlUmVwb3NpdG9yeS5leGlzdHMoZmlsZS5pZCBhcyBTdHJpbmcpCgogICAgICAgIHdoZW46J2Fza2luZyBmb3IgZmlsZSBkYXRhJwogICAgICAgIGRlZiByZXNwb25zZSA9IHJlc3RUZW1wbGF0ZS5nZXRGb3JFbnRpdHkoZ2V0QmFzZVVyaSgpICsgJy9kb2N1bWVudC8nICsgZmlsZS5pZCArICcvZmlsZScsIElucHV0U3RyZWFtUmVzb3VyY2UuY2xhc3MpCiAgICAgICAgTE9HLmRlYnVnKCdyZXNwb25zZToge30nLHJlc3BvbnNlLnRvU3RyaW5nKCkpCgogICAgICAgIHRoZW46J2ZpbGUgZGF0YSBpcyByZXR1cm5lZCcKICAgICAgICBhc3NlcnQgcmVzcG9uc2Uuc3RhdHVzQ29kZS52YWx1ZSgpID09IDIwMAogICAgICAgIGV4cGVjdCByZXNwb25zZS5nZXRCb2R5KCkuZ2V0SW5wdXRTdHJlYW0oKSwgbWF0Y2hlc0lucHV0U3RyZWFtKG5ldyBGaWxlSW5wdXRTdHJlYW0odGVzdEZpbGUyKSkKCiAgICB9CgoKICAgIGRlZiAnR2V0IGZpbGUgZGF0YSB3aXRoIHN0cmVhbWluZyBhcGFjaGUgaHR0cGNsaWVudCcoKSB7CiAgICAgICAgZ2l2ZW46J3N0b3JlZCBmaWxlJwogICAgICAgIG1ldGFkYXRhTWFwIDw8IFsndGVzdCc6ICdyZWFkIHdpdGggYXBhY2hlIGh0dHBjbGllbnQnXQogICAgICAgIGRlZiBmaWxlID0gaW1wb3J0RmlsZShtZXRhZGF0YU1hcCwgbmV3IEZpbGUodGVzdEZpbGUyKSkKICAgICAgICBhc3NlcnQgZ3JpZEZzRmlsZVJlcG9zaXRvcnkuZXhpc3RzKGZpbGUuaWQgYXMgU3RyaW5nKQoKICAgICAgICB3aGVuOidzdHJlYW1pbmcgZmlsZSBkYXRhJwogICAgICAgIE91dHB1dFN0cmVhbSBvdXQgPSBuZXcgQnl0ZUFycmF5T3V0cHV0U3RyZWFtKCkKCiAgICAgICAgQ2xvc2VhYmxlSHR0cENsaWVudCBodHRwQ2xpZW50ID0gSHR0cENsaWVudHMuY3JlYXRlRGVmYXVsdCgpCiAgICAgICAgSHR0cEdldCBodHRwR2V0ID0gbmV3IEh0dHBHZXQoZ2V0QmFzZVVyaSgpICsgJy9kb2N1bWVudC8nICsgZmlsZS5pZCArICcvZmlsZScpCgogICAgICAgIENsb3NlYWJsZUh0dHBSZXNwb25zZSByZXNwb25zZSA9IGh0dHBDbGllbnQuZXhlY3V0ZShodHRwR2V0KQogICAgICAgIExPRy5kZWJ1Zygnc3RhcnQgcmVhZGluZyBzdHJlYW0nKQogICAgICAgIHJlc3BvbnNlLndpdGhDbG9zZWFibGUgeyByZXMgLT4KICAgICAgICAgICAgcmVzLmdldEVudGl0eSgpLndyaXRlVG8ob3V0KQogICAgICAgIH0KICAgICAgICBMT0cuZGVidWcoJ2ZpbmlzaGVkIHJlYWRpbmcgc3RyZWFtJykKCiAgICAgICAgdGhlbjonZmlsZSBkYXRhIGlzIGV2ZW50dWFsbHkgcmV0dXJuZWQnCiAgICAgICAgYXNzZXJ0IHJlc3BvbnNlLmdldFN0YXR1c0xpbmUoKS5nZXRTdGF0dXNDb2RlKCkgPT0gMjAwCiAgICAgICAgZXhwZWN0IG5ldyBCeXRlQXJyYXlJbnB1dFN0cmVhbShvdXQudG9CeXRlQXJyYXkoKSksIG1hdGNoZXNJbnB1dFN0cmVhbShuZXcgRmlsZUlucHV0U3RyZWFtKHRlc3RGaWxlMikpCiAgICB9CgoKICAgIGRlZiAnR2V0IGZpbGUgZGF0YSB3aXRoIHN0cmVhbWluZyBBc3luY1Jlc3RUZW1wbGF0ZScoKSB7CiAgICAgICAgZ2l2ZW46ICdzdG9yZWQgZmlsZScKICAgICAgICBtZXRhZGF0YU1hcCA8PCBbJ3Rlc3QnOiAncmVhZCB3aXRoIEFzeW5jUmVzdFRlbXBsYXRlJ10KICAgICAgICBkZWYgZmlsZSA9IGltcG9ydEZpbGUobWV0YWRhdGFNYXAsIG5ldyBGaWxlKHRlc3RGaWxlMikpCiAgICAgICAgYXNzZXJ0IGdyaWRGc0ZpbGVSZXBvc2l0b3J5LmV4aXN0cyhmaWxlLmlkIGFzIFN0cmluZykKCiAgICAgICAgd2hlbjogJ3N0cmVhbWluZyBmaWxlIGRhdGEnCiAgICAgICAgQXN5bmNSZXN0VGVtcGxhdGUgYXN5bmNSZXN0VGVtcGxhdGUgPSBuZXcgQXN5bmNSZXN0VGVtcGxhdGUoKQoKICAgICAgICBBc3luY1JlcXVlc3RDYWxsYmFjayByZXF1ZXN0Q2FsbGJhY2sgPSBuZXcgQXN5bmNSZXF1ZXN0Q2FsbGJhY2soKSB7CiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgdm9pZCBkb1dpdGhSZXF1ZXN0KEFzeW5jQ2xpZW50SHR0cFJlcXVlc3QgcmVxdWVzdCkKICAgICAgICAgICAgICAgICAgICB0aHJvd3MgSU9FeGNlcHRpb24gewogICAgICAgICAgICAgICAgTE9HLmRlYnVnKCdzdGFydCBnZXQgcmVxdWVzdCcpCiAgICAgICAgICAgIH0KICAgICAgICB9OwoKICAgICAgICBkZWYgYnl0ZXMKICAgICAgICBSZXNwb25zZUV4dHJhY3RvcjxIdHRwU3RhdHVzPiByZXNwb25zZUV4dHJhY3RvciA9IG5ldyBSZXNwb25zZUV4dHJhY3RvcjxIdHRwU3RhdHVzPigpIHsKICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgIEh0dHBTdGF0dXMgZXh0cmFjdERhdGEoQ2xpZW50SHR0cFJlc3BvbnNlIHJlc3BvbnNlKSB0aHJvd3MgSU9FeGNlcHRpb24gewogICAgICAgICAgICAgICAgTE9HLmRlYnVnKCdzdGFydCByZWFkaW5nIHN0cmVhbScpCiAgICAgICAgICAgICAgICByZXNwb25zZS53aXRoQ2xvc2VhYmxlIHsgcmVzIC0+CiAgICAgICAgICAgICAgICAgICAgZGVmIHN0cmVhbSA9IHJlcy5nZXRCb2R5KCkKICAgICAgICAgICAgICAgICAgICAvL2NvbnN1bWUgc3RyZWFtCiAgICAgICAgICAgICAgICAgICAgYnl0ZXMgPSBTdHJlYW1VdGlscy5jb3B5VG9CeXRlQXJyYXkoc3RyZWFtKQogICAgICAgICAgICAgICAgICAgIHN0cmVhbS5jbG9zZSgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBMT0cuZGVidWcoJ2ZpbmlzaGVkIHJlYWRpbmcgc3RyZWFtOyB7fScsIHJlc3BvbnNlLmdldFN0YXR1c1RleHQoKSkKICAgICAgICAgICAgICAgIHJldHVybiByZXNwb25zZS5nZXRTdGF0dXNDb2RlKCkKICAgICAgICAgICAgfQogICAgICAgIH07CgogICAgICAgIExpc3RlbmFibGVGdXR1cmU8SHR0cFN0YXR1cz4gZnV0dXJlID0gYXN5bmNSZXN0VGVtcGxhdGUuZXhlY3V0ZSgKICAgICAgICAgICAgICAgIFVSSS5jcmVhdGUoZ2V0QmFzZVVyaSgpICsgJy9kb2N1bWVudC8nICsgZmlsZS5pZCArICcvZmlsZScpLAogICAgICAgICAgICAgICAgSHR0cE1ldGhvZC5HRVQsCiAgICAgICAgICAgICAgICByZXF1ZXN0Q2FsbGJhY2ssCiAgICAgICAgICAgICAgICByZXNwb25zZUV4dHJhY3RvcikKCiAgICAgICAgSHR0cFN0YXR1cyBzdGF0dXMKICAgICAgICB0cnkgewogICAgICAgICAgICAvLyB3YWl0cyBmb3IgcmVzdWx0CiAgICAgICAgICAgIHN0YXR1cyA9IGZ1dHVyZS5nZXQoKQogICAgICAgIH0gY2F0Y2ggKEludGVycnVwdGVkRXhjZXB0aW9uIHwgRXhlY3V0aW9uRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgTE9HLmVycm9yKCdSZWFkaW5nIHN0cmVhbWVkIHJlcXVlc3QgZmFpbGVkJywgZSkKICAgICAgICB9CgogICAgICAgIHRoZW46ICdmaWxlIGRhdGEgaXMgZXZlbnR1YWxseSByZXR1cm5lZCcKICAgICAgICBhc3NlcnQgc3RhdHVzLnZhbHVlKCkgPT0gMjAwCiAgICAgICAgZXhwZWN0IG5ldyBCeXRlQXJyYXlJbnB1dFN0cmVhbShieXRlcyksIG1hdGNoZXNJbnB1dFN0cmVhbShuZXcgRmlsZUlucHV0U3RyZWFtKHRlc3RGaWxlMikpCiAgICB9Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAub3JFbHNlKCkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBzcGVjaWFsIGNhc2UsIDEga2V5IHZhbHVlIHBhaXIKICAgICAgICBpZiAocGFyYW1zLmtleVNldCgpLnNpemUoKSA9PSAxKSB7Cg==</text>
+        <text encoding="base64">ICAgICAgICBDcml0ZXJpYSBjcml0ZXJpYSA9IG51bGw7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1330,22 +1330,22 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoc2VhcmNoUGFyYW1zLikK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gZmlsZVJlcG8uZmluZEJ5S2V5KGtleSwgdmFsdWUpLm1hcChncmlkRnNUb0RvbWFpbik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBzcGVjaWFsIGNhc2UsIDEga2V5IHZhbHVlIHBhaXIKICAgICAgICBpZiAocGFyYW1zLmtleVNldCgpLnNpemUoKSA9PSAxKSB7Cg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1woc3JjPSJcKS9cMWFwcHNcL3dlYm1lZ2xlclwvLw==</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxyZXN0XD4=</last-search>
+      <last-search encoding="base64">XDxFeGVjdXRpb25FeGNlcHRpb25cPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxyZXN0XD4=</last-pattern>
+      <last-pattern encoding="base64">XDxFeGVjdXRpb25FeGNlcHRpb25cPg==</last-pattern>
       <last-replace>\1apps\/webmegler\/</last-replace>
       <last-substitute>\(src=&quot;\)</last-substitute>
       <last-dir>1</last-dir>
@@ -1353,7 +1353,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxyZXBsYWNlRG9jdW1lbnRcPg==</entry>
         <entry encoding="base64">XDxleHRyYVw+</entry>
         <entry encoding="base64">XDxiYXNlVGFyZ2V0XD4=</entry>
         <entry encoding="base64">XDxkYXRhU3RyZWFtXD4=</entry>
@@ -1373,6 +1372,7 @@
         <entry encoding="base64">XDx3c0ZpbGVVcmxcPg==</entry>
         <entry encoding="base64">XDxyZXNwb25zZUNoYXJzZXRcPg==</entry>
         <entry encoding="base64">XDxyZXN0XD4=</entry>
+        <entry encoding="base64">XDxFeGVjdXRpb25FeGNlcHRpb25cPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1woW2EtekEtei5dKlwpLC8nXDEnLC8=</entry>

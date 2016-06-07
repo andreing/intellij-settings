@@ -144,6 +144,7 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/panel/ec-panel-title.directive.js" timestamp="1460558037572">
         <mark key="[" line="4" column="40" />
       </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1465309779805" />
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/local/index.html" timestamp="1463747606049">
         <mark key="[" line="64" column="72" />
       </file>
@@ -202,8 +203,8 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/MailService.java" timestamp="1465295943540">
         <mark key="'" line="177" column="154" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/DocumentController.java" timestamp="1465299384510">
-        <mark key="'" line="174" column="12" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/DocumentController.java" timestamp="1465309184176">
+        <mark key="'" line="197" column="31" />
         <mark key="[" line="54" column="150" />
         <mark key="]" line="54" column="41" />
         <mark key="^" line="54" column="41" />
@@ -254,7 +255,7 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/panel/ec-panel.directive.js" timestamp="1463639902735">
         <mark key="[" line="15" column="41" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/claims/components/search/pia/search-pia-contracts-ctrl.js" timestamp="1465305741493">
+      <file name="$USER_HOME$/repos/claims/frontend/claims/components/search/pia/search-pia-contracts-ctrl.js" timestamp="1465309943389">
         <mark key="'" line="168" column="13" />
       </file>
       <file name="/fragment.java" timestamp="1465301039036">
@@ -268,7 +269,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1957" column="87" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
       <jump line="231" column="0" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimFormsController.java" />
       <jump line="143" column="105" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/protector.modules.documentservice/documentservice-client-hc/1.1.1/208663ecb462d0a6632ec6380b45edbbef2d3d66/documentservice-client-hc-1.1.1-sources.jar!/protector/modules/documentservice/client/DocumentServiceClient.java" />
       <jump line="145" column="130" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/protector.modules.documentservice/documentservice-client-hc/1.1.1/208663ecb462d0a6632ec6380b45edbbef2d3d66/documentservice-client-hc-1.1.1-sources.jar!/protector/modules/documentservice/client/DocumentServiceClient.java" />
@@ -368,6 +368,7 @@
       <jump line="65" column="16" filename="$USER_HOME$/repos/claims/frontend/claims/components/search/pia/search-pia-contracts-ctrl.js" />
       <jump line="155" column="8" filename="$USER_HOME$/repos/claims/frontend/claims/components/search/pia/search-pia-contracts-ctrl.js" />
       <jump line="168" column="13" filename="$USER_HOME$/repos/claims/frontend/claims/components/search/pia/search-pia-contracts-ctrl.js" />
+      <jump line="197" column="31" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/DocumentController.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -424,7 +425,7 @@
         <text>headers.getContentType()</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxmaW5kVmFsaWRDb250cmFjdHNcPg==</text>
+        <text>uuid</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIEBKc29uUHJvcGVydHkoYWNjZXNzID0gUkVBRF9PTkxZKQo=</text>
@@ -798,9 +799,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxmaW5kVmFsaWRDb250cmFjdHNcPg==</last-search>
+      <last-search>uuid</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxmaW5kVmFsaWRDb250cmFjdHNcPg==</last-pattern>
+      <last-pattern>uuid</last-pattern>
       <last-replace>),</last-replace>
       <last-substitute>;</last-substitute>
       <last-dir>1</last-dir>
@@ -808,7 +809,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxkb2N1bWVudENvbnRyb2xsZXJcPg==</entry>
         <entry encoding="base64">XDxnZXRMb2dvXD4=</entry>
         <entry encoding="base64">XDxieXRlc1w+</entry>
         <entry encoding="base64">XDx2YWx1ZXNNYXBcPg==</entry>
@@ -828,6 +828,7 @@
         <entry encoding="base64">XDxuZXdDbGFpbUxvYlw+</entry>
         <entry encoding="base64">XDxxdWVyeVBhcmFtc1w+</entry>
         <entry encoding="base64">XDxmaW5kVmFsaWRDb250cmFjdHNcPg==</entry>
+        <entry>uuid</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3JlcXVpcmVkPSJ0cnVlIiAvL2c=</entry>

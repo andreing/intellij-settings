@@ -286,6 +286,11 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/DamageInfo.java" timestamp="1465311657173">
         <mark key="[" line="95" column="5" />
       </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1465807371724">
+        <mark key="[" line="887" column="0" />
+        <mark key="]" line="887" column="0" />
+        <mark key="." line="887" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/local/index.html" timestamp="1465802240963">
         <mark key="[" line="51" column="0" />
         <mark key="]" line="54" column="0" />
@@ -557,7 +562,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHRoaXMuZmlsZXNbMV0gIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGhpcy5yZW1vdmVGaWxlKHRoaXMuZmlsZXNbMF0pOwogICAgICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgTE9HLmluZm8oIk5vIGNsYWltIGZvdW5kIGZvciBjbGFpbUhlYWRlcklkPXt9IiwgaGVhZGVyLmdldElkKCkpOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -616,27 +621,27 @@
         <text encoding="base64">c2VydmljZXMuZG9jdW1lbnRzLmhvc3Q9aHR0cDovL3Bmc3Zub2FwcHQwMQpzZXJ2aWNlcy5kb2N1bWVudHMucG9ydD04MDg1Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHRoaXMuZmlsZXNbMV0gIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGhpcy5yZW1vdmVGaWxlKHRoaXMuZmlsZXNbMF0pOwogICAgICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgTE9HLmluZm8oIk5vIGNsYWltIGZvdW5kIGZvciBjbGFpbUhlYWRlcklkPXt9IiwgaGVhZGVyLmdldElkKCkpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text>=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNsYWltQ2F1c2UgPSBDbGFpbUNhdXNlRGVzY3JpcHRpb24uVU5LTk9XTl9OT1RfU0VUOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJ0aGlzIGZpbGVzWzFdICE9IG51bGwiKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHRoaXMuZmlsZXNbMV0gIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGhpcy5yZW1vdmVGaWxlKHRoaXMuZmlsZXNbMF0pOwogICAgICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9ImNvbXBvbmVudHMvZmlsZXMvZmlsZXMubW9kdWxlLmpzIj48L3NjcmlwdD4KICAgIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9ImNvbXBvbmVudHMvZmlsZXMvZHJvcHpvbmUuc2VydmljZS5qcyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSJjb21wb25lbnRzL2ZpbGVzL2Ryb3B6b25lLmRpcmVjdGl2ZS5qcyI+PC9zY3JpcHQ+Cgo=</text>
+      <register name="4" type="4">
+        <text>=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coImRyb3B6b25lRXZlbnRIYW5kbGVyczogYWRkZWRmaWxlIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJ0aGlzIGZpbGVzWzFdICE9IG51bGwiKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgKwo=</text>
+        <text encoding="base64">ICAgIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9ImNvbXBvbmVudHMvZmlsZXMvZmlsZXMubW9kdWxlLmpzIj48L3NjcmlwdD4KICAgIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9ImNvbXBvbmVudHMvZmlsZXMvZHJvcHpvbmUuc2VydmljZS5qcyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSJjb21wb25lbnRzL2ZpbGVzL2Ryb3B6b25lLmRpcmVjdGl2ZS5qcyI+PC9zY3JpcHQ+Cgo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -971,13 +976,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgKwogICAgICAgICAgICA8YWx0ZXJuYXRpdmVzPgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coImRyb3B6b25lRXZlbnRIYW5kbGVyczogYWRkZWRmaWxlIik7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgKwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgKwogICAgICAgICAgICA8YWx0ZXJuYXRpdmVzPgo=</text>
       </register>
       <register name=":" type="4">
         <text>reg</text>

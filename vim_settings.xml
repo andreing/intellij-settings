@@ -20,11 +20,10 @@
       <file name="$USER_HOME$/repos/claims/frontend/build.gradle" timestamp="1466527345460">
         <mark key="[" line="19" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimFormsController.java" timestamp="1466586161127">
-        <mark key="[" line="194" column="99" />
-        <mark key="]" line="28" column="0" />
-        <mark key="^" line="163" column="28" />
-        <mark key="." line="28" column="0" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimFormsController.java" timestamp="1467628612856">
+        <mark key="[" line="335" column="98" />
+        <mark key="]" line="232" column="0" />
+        <mark key="." line="232" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/HealthImportService.java" timestamp="1466524058489">
         <mark key="[" line="127" column="95" />
@@ -235,12 +234,11 @@
         <mark key="^" line="95" column="26" />
         <mark key="." line="95" column="26" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1467627708555">
-        <mark key="'" line="1158" column="22" />
-        <mark key="[" line="166" column="41" />
-        <mark key="]" line="166" column="11" />
-        <mark key="." line="166" column="11" />
-        <mark key="^" line="166" column="11" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1467628074602">
+        <mark key="'" line="1153" column="22" />
+        <mark key="[" line="165" column="0" />
+        <mark key="]" line="165" column="0" />
+        <mark key="." line="165" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/WebClaimController.java" timestamp="1466513200806">
         <mark key="[" line="73" column="102" />
@@ -506,8 +504,8 @@
       <jump line="1150" column="22" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>javax.mail.internet.InternetAddress.parse())</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeSB7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -565,8 +563,8 @@
       <register name="0" type="4">
         <text>getString(formData, FormFields.DAMAGE_COMMENT_OWN)</text>
       </register>
-      <register name="1" type="4">
-        <text>javax.mail.internet.InternetAddress.parse())</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeSB7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -574,19 +572,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgU3RyaW5nIGRhbWFnZUNvbW1lbnQgPSBnZXRTdHJpbmcoZm9ybURhdGEsIEZvcm1GaWVsZHMuREFNQUdFX0NPTU1FTlRfT1dOKTsKICAgICAgICAgICAgZGFtYWdlQ29tbWVudCA9IHN0cmluZ01heDI1NShkYW1hZ2VDb21tZW50KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0gY2F0Y2ggKFN5c3RlbUV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgICAgICAgICAgTE9HLmVycm9yKGUuZ2V0TWVzc2FnZSgpLCBlKTsKICAgICAgICAgICAgICAgIH0K</text>
       </register>
-      <register name="3" type="4">
-        <text>damageComment</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3ViQXV0b0hlYWRlci5zZXREYW1hZ2VMb2NhdGlvbihhY2NpZGVudERlc2NyaXB0aW9uKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIChjbGFpbUZvbGRlci5nZXRFbWFpbERhdGEoKSAhPSBudWxsKSB7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYWNjaWRlbnREZXNjcmlwdGlvbiA9IHN0cmluZ01heDI1NShhY2NpZGVudERlc2NyaXB0aW9uKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJ5IHsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdG1wSGVhZGVyLnNldERhbWFnZUxvY2F0aW9uKGdldFN0cmluZyhmb3JtRGF0YSxGb3JtRmllbGRzLkRBTUFHRV9MT0NBVElPTikpOwo=</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -921,13 +919,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdG1wSGVhZGVyLnNldERhbWFnZUxvY2F0aW9uKGdldFN0cmluZyhmb3JtRGF0YSxGb3JtRmllbGRzLkRBTUFHRV9MT0NBVElPTikpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGhyb3cgZQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB0bXBIZWFkZXIuc2V0RGFtYWdlTG9jYXRpb24oKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgTE9HLmVycm9yKGUuZ2V0TWVzc2FnZSgpLCBlKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIEZpbGVTZXJ2aWNlQ2xpZW50RXhjZXB0aW9uKCkgewogICAgICAgIAogICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICB9IGNhdGNoIChBZGRyZXNzRXhjZXB0aW9uIGUpIHsK</text>
       </register>
       <register name=":" type="4">
         <text>reg</text>

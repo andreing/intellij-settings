@@ -207,8 +207,8 @@
         <mark key="^" line="95" column="26" />
         <mark key="." line="95" column="26" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1467714098419">
-        <mark key="'" line="1149" column="22" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1467715639739">
+        <mark key="'" line="537" column="71" />
         <mark key="[" line="518" column="103" />
         <mark key="]" line="533" column="0" />
         <mark key="^" line="533" column="0" />
@@ -290,13 +290,13 @@
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/header/menu/navBar.js" timestamp="1467636278623">
         <mark key="'" line="31" column="23" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/PartyJdbcDao.java" timestamp="1467712608706">
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/PartyJdbcDao.java" timestamp="1467715090412">
         <mark key="[" line="153" column="8" />
         <mark key="]" line="153" column="7" />
         <mark key="^" line="153" column="7" />
         <mark key="." line="153" column="7" />
       </file>
-      <file name="/Dummy.groovy" timestamp="1467708804589">
+      <file name="/Dummy.groovy" timestamp="1467714864781">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/JavaScript Console" timestamp="1465912687495">
@@ -383,7 +383,7 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/panel/ec-panel.directive.js" timestamp="1463639902735">
         <mark key="[" line="15" column="41" />
       </file>
-      <file name="/fragment.java" timestamp="1467713328142">
+      <file name="/fragment.java" timestamp="1467715038383">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/rates/hour-rate.service.js" timestamp="1460560017029">
@@ -394,7 +394,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="731" column="109" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimHeaderJdbcDao.java" />
       <jump line="738" column="52" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimHeaderJdbcDao.java" />
       <jump line="125" column="102" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimHeaderJdbcDao.java" />
       <jump line="396" column="19" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/claims/claim-header-damage-info-auto-ctrl.js" />
@@ -494,6 +493,7 @@
       <jump line="22" column="50" filename="$USER_HOME$/repos/claims/frontend/claims/index.html" />
       <jump line="27" column="19" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/web-claims-assignee-ctrl.js" />
       <jump line="31" column="23" filename="$USER_HOME$/repos/claims/frontend/claims/components/header/menu/navBar.js" />
+      <jump line="537" column="71" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -550,7 +550,7 @@
         <text>javax.mail.internet.InternetAddress.parse())</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx3ZWJDbGFpbXNVc2Vyc1w+</text>
+        <text encoding="base64">XDxtYXliZUluc3VyYW50UGFydHlcPg==</text>
       </register>
       <register name="0" type="4">
         <text>getString(formData, FormFields.DAMAGE_COMMENT_OWN)</text>
@@ -924,9 +924,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx3ZWJDbGFpbXNVc2Vyc1w+</last-search>
+      <last-search encoding="base64">XDxtYXliZUluc3VyYW50UGFydHlcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx3ZWJDbGFpbXNVc2Vyc1w+</last-pattern>
+      <last-pattern encoding="base64">XDxtYXliZUluc3VyYW50UGFydHlcPg==</last-pattern>
       <last-replace>),</last-replace>
       <last-substitute>;</last-substitute>
       <last-dir>1</last-dir>
@@ -934,7 +934,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxtYXBNZXRhZGF0YVw+</entry>
         <entry encoding="base64">XDxoZWFkZXJJZFw+</entry>
         <entry encoding="base64">XDxzYXZlUGRmXD4=</entry>
         <entry encoding="base64">XDxjbGFpbURvY3VtZW50RGFvXD4=</entry>
@@ -954,6 +953,7 @@
         <entry encoding="base64">XDxqc3JzYXNpZ25cPg==</entry>
         <entry encoding="base64">XDx1c2Vyc1w+</entry>
         <entry encoding="base64">XDx3ZWJDbGFpbXNVc2Vyc1w+</entry>
+        <entry encoding="base64">XDxtYXliZUluc3VyYW50UGFydHlcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3JlcXVpcmVkPSJ0cnVlIiAvL2c=</entry>

@@ -17,12 +17,12 @@
       <file name="/a.dummy" timestamp="1468502993982">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/TakstJdbcDao.groovy" timestamp="1468504456858">
-        <mark key="'" line="45" column="13" />
-        <mark key="[" line="146" column="43" />
-        <mark key="]" line="146" column="42" />
-        <mark key="." line="146" column="42" />
-        <mark key="^" line="146" column="42" />
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/TakstJdbcDao.groovy" timestamp="1468505185066">
+        <mark key="'" line="113" column="29" />
+        <mark key="[" line="82" column="0" />
+        <mark key="]" line="51" column="0" />
+        <mark key="." line="51" column="0" />
+        <mark key="^" line="109" column="14" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ContractController.java" timestamp="1468402920039">
         <mark key="[" line="129" column="82" />
@@ -665,8 +665,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="38" column="40" filename="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/integration/DeleteDocumentsTests.groovy" />
-      <jump line="124" column="0" filename="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/integration/DeleteDocumentsTests.groovy" />
       <jump line="217" column="0" filename="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/integration/DeleteDocumentsTests.groovy" />
       <jump line="2" column="19" filename="$USER_HOME$/repos/file-service/src/integration-test/groovy/test/integration/SearchDocumentTests.groovy" />
       <jump line="106" column="65" filename="$USER_HOME$/repos/file-service/src/main/java/protector/gridfs/GridFsFileRepositoryImpl.java" />
@@ -765,10 +763,12 @@
       <jump line="42" column="13" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/TakstJdbcDao.groovy" />
       <jump line="29" column="29" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/TakstJdbcDao.groovy" />
       <jump line="45" column="13" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/TakstJdbcDao.groovy" />
+      <jump line="109" column="29" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/TakstJdbcDao.groovy" />
+      <jump line="113" column="29" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/TakstJdbcDao.groovy" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIGdldEJyb2tlcklkKGJyb2tlcikK</text>
+        <text encoding="base64">ICAgIC8vLy8gSGVscGVyIG1ldGhvZHMgLy8vCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -818,16 +818,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>entry</text>
+        <text />
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxhcHByYWlzZXJSZXF1ZXN0SW5zZXJ0XD4=</text>
+        <text encoding="base64">XDxpZFw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgdGhyb3cgbmV3IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigicmVhbEVzdGF0ZUlkPSR7cmVhbF9lc3RhdGVfaWR9IHdhcyBub3QgZm91bmQiKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIGdldEJyb2tlcklkKGJyb2tlcikK</text>
+        <text encoding="base64">ICAgIC8vLy8gSGVscGVyIG1ldGhvZHMgLy8vCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -835,19 +835,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gYnJva2VySW5zZXJ0LmV4ZWN1dGVBbmRSZXR1cm5LZXkoZXh0cmFjdFByb3BlcnRpZXMoYnJva2VyKSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICB7CiAgICAgICAgICAgIExPRy5lcnJvcigic2F2ZUFwcHJhaXNlclJlcXVlc3Q6IENvdWxkIG5vdCBpbnNlcnQgaW50byB0YWJsZSBCU1IuQXBwcmFpc2VyX1JlcXVlc3QuIFJlYWxfRXN0YXRlX0lkOiAiICsKICAgICAgICAgICAgICAgICAgICByZWFsX2VzdGF0ZV9pZCArICIsIGFuZC9vciBBcHByYWlzZXJfSWQ6ICIgKyBhcHByYWlzZXJfaWQgKyAiIGNvdWxkIG5vdCBiZSBmb3VuZC4iKQogICAgICAgIH0K</text>
+        <text encoding="base64">ICAgIC8vLy8gU2VsZWN0cyAvLy8vCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoIXJlYWxFc3RhdGVFeGlzdHMocmVhbF9lc3RhdGVfaWQpKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkVycm9yIGluc2VydGluZyBDb3VsZCBub3QgY29ubmVjdCBBcHByYWlzZXIgdG8gUmVhbF9Fc3RhdGU6IHJlYWxFc3RhdGVJZD0ke3JlYWxfZXN0YXRlX2lkfSB3YXMgbm90IGZvdW5kIikKICAgICAgICB9CiAgICAgICAgaWYgKCFhcHByYWlzZXJFeGlzdHMoYXBwcmFpc2VyX2lkKSkgewogICAgICAgICAgICB0aHJvdyBuZXcgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCJDb3VsZCBjb25uZWN0IGFwcHJhaXNlciB0byByZWFsX2VzdGF0ZTogYXBwcmFpc2VySWQ9JHthcHByYWlzZXJfaWR9IHdhcyBub3QgZm91bmQiKQogICAgICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKGFwcHJhaXNlckV4aXN0cyhhcHByYWlzZXJfaWQpKSB7CiAgICAgICAgICAgICAgICBhcHByYWlzZXJSZXF1ZXN0SW5zZXJ0LmV4ZWN1dGUoCiAgICAgICAgICAgICAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAncmVhbF9lc3RhdGVfaWQnOiByZWFsX2VzdGF0ZV9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnYXBwcmFpc2VyX2lkJyAgOiBhcHByYWlzZXJfaWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2NyZWF0ZWQnICAgICAgIDogVGltZXN0YW1wLmZyb20oSW5zdGFudC5ub3coKSkKICAgICAgICAgICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgIC8vLy8gSW5zZXJ0IC8gVXBkYXRlIC8vLy8K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGhyb3cgbmV3IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiIikK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIGdldEJyb2tlcklkKGJyb2tlcikK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1182,22 +1182,22 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgbm93ID0gVGltZXN0YW1wLmZyb20oSW5zdGFudC5ub3coKSkKCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gYnJva2VySW5zZXJ0LmV4ZWN1dGVBbmRSZXR1cm5LZXkoZXh0cmFjdFByb3BlcnRpZXMoYnJva2VyKSk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgamRiY1RlbXBsYXRlLnVwZGF0ZShzcWwsIHJlYWxfZXN0YXRlX2lkLCBhcHByYWlzZXJfaWQsIG5vdykK</text>
+        <text encoding="base64">ICAgICAgICAKICAgICAgICB7CiAgICAgICAgICAgIExPRy5lcnJvcigic2F2ZUFwcHJhaXNlclJlcXVlc3Q6IENvdWxkIG5vdCBpbnNlcnQgaW50byB0YWJsZSBCU1IuQXBwcmFpc2VyX1JlcXVlc3QuIFJlYWxfRXN0YXRlX0lkOiAiICsKICAgICAgICAgICAgICAgICAgICByZWFsX2VzdGF0ZV9pZCArICIsIGFuZC9vciBBcHByYWlzZXJfSWQ6ICIgKyBhcHByYWlzZXJfaWQgKyAiIGNvdWxkIG5vdCBiZSBmb3VuZC4iKQogICAgICAgIH0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAoIXJlYWxFc3RhdGVFeGlzdHMocmVhbF9lc3RhdGVfaWQpKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkVycm9yIGluc2VydGluZyBDb3VsZCBub3QgY29ubmVjdCBBcHByYWlzZXIgdG8gUmVhbF9Fc3RhdGU6IHJlYWxFc3RhdGVJZD0ke3JlYWxfZXN0YXRlX2lkfSB3YXMgbm90IGZvdW5kIikKICAgICAgICB9CiAgICAgICAgaWYgKCFhcHByYWlzZXJFeGlzdHMoYXBwcmFpc2VyX2lkKSkgewogICAgICAgICAgICB0aHJvdyBuZXcgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCJDb3VsZCBjb25uZWN0IGFwcHJhaXNlciB0byByZWFsX2VzdGF0ZTogYXBwcmFpc2VySWQ9JHthcHByYWlzZXJfaWR9IHdhcyBub3QgZm91bmQiKQogICAgICAgIH0K</text>
       </register>
       <register name=":" type="4">
         <text>168,191s/\([a-z]\)\([A-Z]\)/\u\1_\2/</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxhcHByYWlzZXJSZXF1ZXN0SW5zZXJ0XD4=</last-search>
+      <last-search encoding="base64">XDxpZFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxhcHByYWlzZXJSZXF1ZXN0SW5zZXJ0XD4=</last-pattern>
+      <last-pattern encoding="base64">XDxpZFw+</last-pattern>
       <last-replace>\u\1_\2</last-replace>
       <last-substitute>\([a-z]\)\([A-Z]\)</last-substitute>
       <last-dir>1</last-dir>
@@ -1205,7 +1205,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxMb2JTZXJ2aWNlXD4=</entry>
         <entry encoding="base64">XDxzdHJpbmdNYXgyNTVcPg==</entry>
         <entry encoding="base64">XDxUT09fTE9OR19NU0dcPg==</entry>
         <entry encoding="base64">XDxjcmVhdGVTdWJtaXR0ZXJDbGFpbVJvbGVcPg==</entry>
@@ -1225,6 +1224,7 @@
         <entry encoding="base64">XDxicm9rZXJJbnNlcnRcPg==</entry>
         <entry encoding="base64">XDxzZWxsZXJJbnNlcnRcPg==</entry>
         <entry encoding="base64">XDxhcHByYWlzZXJSZXF1ZXN0SW5zZXJ0XD4=</entry>
+        <entry encoding="base64">XDxpZFw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL2NsYWltUmVwb3J0ZWQvZXYv</entry>

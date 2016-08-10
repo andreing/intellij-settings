@@ -12,6 +12,12 @@
       <file name="/a.dummy" timestamp="1470746884562">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/TakstJdbcDao.groovy" timestamp="1470821465510">
+        <mark key="[" line="462" column="52" />
+        <mark key="]" line="88" column="0" />
+        <mark key="^" line="87" column="40" />
+        <mark key="." line="88" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ContractController.java" timestamp="1468402920039">
         <mark key="[" line="129" column="82" />
       </file>
@@ -227,12 +233,11 @@
       <file name="/RegExp Fragment (TakstJdbcDao.groovy:2525).regexp" timestamp="1468502852628">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/domain/CallbackXML.groovy" timestamp="1470749984471">
-        <mark key="'" line="34" column="91" />
-        <mark key="[" line="28" column="117" />
-        <mark key="]" line="28" column="33" />
-        <mark key="." line="28" column="33" />
-        <mark key="^" line="28" column="7" />
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/domain/CallbackXML.groovy" timestamp="1470820757944">
+        <mark key="'" line="103" column="42" />
+        <mark key="[" line="51" column="14" />
+        <mark key="]" line="51" column="0" />
+        <mark key="." line="51" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/resources/test_claims_log_config_secondary.xml" timestamp="1460627004390">
         <mark key="[" line="16" column="162" />
@@ -468,7 +473,7 @@
         <mark key="^" line="8" column="17" />
         <mark key="." line="8" column="17" />
       </file>
-      <file name="/Dummy.groovy" timestamp="1468329996199">
+      <file name="/Dummy.groovy" timestamp="1470821587836">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="16" />
         <mark key="^" line="0" column="16" />
@@ -608,6 +613,7 @@
         <mark key="." line="77" column="0" />
         <mark key="^" line="74" column="37" />
       </file>
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/test/resources/test2.xml" timestamp="1470820621935" />
       <file name="/fragment.java" timestamp="1468488386823">
         <mark key="[" line="0" column="0" />
       </file>
@@ -619,7 +625,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="25" column="109" filename="$USER_HOME$/repos/claims/frontend/claims/components/header/menu/navBar.js" />
       <jump line="337" column="102" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
       <jump line="378" column="90" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
       <jump line="930" column="86" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
@@ -715,14 +720,15 @@
       <jump line="82" column="31" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/TakstController.groovy" />
       <jump line="30" column="23" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/domain/CallbackXML.groovy" />
       <jump line="32" column="12" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/domain/CallbackXML.groovy" />
-      <jump line="102" column="32" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/domain/CallbackXML.groovy" />
       <jump line="25" column="23" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/domain/CallbackXML.groovy" />
       <jump line="27" column="12" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/domain/CallbackXML.groovy" />
       <jump line="43" column="91" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/domain/CallbackXML.groovy" />
+      <jump line="97" column="47" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/domain/CallbackXML.groovy" />
+      <jump line="102" column="42" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/domain/CallbackXML.groovy" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>(</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBkZWYgcnMgPSAK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -778,10 +784,10 @@
         <text encoding="base64">XDx0b0xvbmdcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICByZXMuYWRkKGxpbmtUbyhtZXRob2RPbihUYWtzdENvbnRyb2xsZXIuY2xhc3MpLmdldFJlcXVlc3REYXRhKHJlYWxFc3RhdGUuaWQpKS53aXRoUmVsKCdzdG9yZWQtZm9ybS1kYXRhJykpCg==</text>
+        <text encoding="base64">ICAgICAgICBicm9rZXIucHV0KCdleHRlcm5hbElkJywgdG9Mb25nKHRvcC4nKicuZmluZChub2RlQnlOYW1lLnJjdXJyeSgnYW5zYXR0ZWFuc3ZhcmxpZ21lZ2xlcl9pZCcpKS50ZXh0KCkgYXMgU3RyaW5nKSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICBwcml2YXRlIHN0YXRpYyBkZWYgdG9Mb25nKHN0cikgewogICAgICAgIGlmIChzdHIgPT0gbnVsbCB8fCAhc3RyLmlzTG9uZygpKSByZXR1cm4gc3RyCiAgICAgICAgc3RyLnRvTG9uZygpCiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgZGVmIHRvRG91YmxlKHN0cikgewogICAgICAgIGlmIChzdHIgPT0gbnVsbCB8fCAhc3RyLmlzRG91YmxlKCkpIHJldHVybiBzdHIKICAgICAgICBzdHIudG9Eb3VibGUoKQogICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICBkZWYgcnMgPSAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -789,19 +795,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB3bUluaXRSZXNvdXJjZSwK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzYWxlc09iamVjdDogZnVuY3Rpb24gKCRyb3V0ZSwgc2FsZXNPYmplY3RSZXNvdXJjZSkgewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gc2FsZXNPYmplY3RSZXNvdXJjZS5nZXQoJHJvdXRlLmN1cnJlbnQucGFyYW1zKS4kcHJvbWlzZTsKICAgICAgICAgICAgICAgICAgICB9LAo=</text>
+        <text encoding="base64">ICAgICAgICAvL1RPRE8gdGhpcyBpcyBicm9rZW4uIFdyaXRlIHVuaXQgdGVzdD8K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9ImFwcHMvd2VibWVnbGVyL2NvbXBvbmVudHMvcmVxdWlzaXRpb24vcmVzb3VyY2VzL2luaXRhcHAucmVzb3VyY2UuanMiPjwvc2NyaXB0Pgo=</text>
+        <text encoding="base64">CiAgICBwcml2YXRlIHN0YXRpYyBkZWYgdG9Mb25nKHN0cikgewogICAgICAgIGlmIChzdHIgPT0gbnVsbCB8fCAhc3RyLmlzTG9uZygpKSByZXR1cm4gc3RyCiAgICAgICAgc3RyLnRvTG9uZygpCiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgZGVmIHRvRG91YmxlKHN0cikgewogICAgICAgIGlmIChzdHIgPT0gbnVsbCB8fCAhc3RyLmlzRG91YmxlKCkpIHJldHVybiBzdHIKICAgICAgICBzdHIudG9Eb3VibGUoKQogICAgfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9ImFwcHMvd2VibWVnbGVyL2NvbXBvbmVudHMvcmVxdWlzaXRpb24vcmVxdWlzaXRpb24ubW9kdWxlLmpzIj48L3NjcmlwdD4K</text>
+        <text encoding="base64">ICAgICAgICB3bUluaXRSZXNvdXJjZSwK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci50YWtzdHJla3Zpc2lzam9uLmNvbW1pc3Npb24uVGFrc3RTZXJ2aWNlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzYWxlc09iamVjdDogZnVuY3Rpb24gKCRyb3V0ZSwgc2FsZXNPYmplY3RSZXNvdXJjZSkgewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gc2FsZXNPYmplY3RSZXNvdXJjZS5nZXQoJHJvdXRlLmN1cnJlbnQucGFyYW1zKS4kcHJvbWlzZTsKICAgICAgICAgICAgICAgICAgICB9LAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1136,13 +1142,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgbW9kZWwgPSBbJ3JlX29iamVjdCc6IFsnYWRkcmVzcyc6IGFkZHJlc3NdLCAnZm9ybWRhdGEnOiBbJ3JlcXVpc2l0aW9uX3R5cGUnOiBSZXF1aXNpdGlvblR5cGVFbnVtLkJTUl1dCg==</text>
+        <text encoding="base64">ICAgIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9ImFwcHMvd2VibWVnbGVyL2NvbXBvbmVudHMvcmVxdWlzaXRpb24vcmVzb3VyY2VzL2luaXRhcHAucmVzb3VyY2UuanMiPjwvc2NyaXB0Pgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIEBTaGFyZWQgRW52aXJvbm1lbnQgcHJvZGVudiA9IE1vY2soRW52aXJvbm1lbnQpCg==</text>
+        <text encoding="base64">ICAgIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9ImFwcHMvd2VibWVnbGVyL2NvbXBvbmVudHMvcmVxdWlzaXRpb24vcmVxdWlzaXRpb24ubW9kdWxlLmpzIj48L3NjcmlwdD4K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcm9kZW52LmdldEFjdGl2ZVByb2ZpbGVzKCkgPj4+IFsncHJvZHVjdGlvbiddCg==</text>
+        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci50YWtzdHJla3Zpc2lzam9uLmNvbW1pc3Npb24uVGFrc3RTZXJ2aWNlCg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zLywvLFxuL2c=</text>

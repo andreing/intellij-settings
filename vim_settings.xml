@@ -59,11 +59,11 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/Commission.groovy" timestamp="1460609508468">
         <mark key="[" line="3" column="18" />
       </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/form-filler.service.js" timestamp="1470899560410">
-        <mark key="[" line="17" column="52" />
-        <mark key="]" line="16" column="127" />
-        <mark key="^" line="16" column="127" />
-        <mark key="." line="16" column="127" />
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/form-filler.service.js" timestamp="1470909153931">
+        <mark key="[" line="20" column="71" />
+        <mark key="]" line="20" column="80" />
+        <mark key="^" line="20" column="80" />
+        <mark key="." line="20" column="80" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/consoles/db/02385e45-7817-4344-8aca-b3a8940a4f60/console.sql" timestamp="1467723259542">
         <mark key="[" line="96" column="0" />
@@ -83,11 +83,11 @@
         <mark key="^" line="45" column="6" />
         <mark key="." line="45" column="6" />
       </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/java/protector/takstrekvisisjon/Application.java" timestamp="1470907952811">
-        <mark key="[" line="34" column="40" />
-        <mark key="]" line="32" column="54" />
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/java/protector/takstrekvisisjon/Application.java" timestamp="1470908617430">
+        <mark key="[" line="33" column="0" />
+        <mark key="]" line="33" column="0" />
         <mark key="^" line="32" column="54" />
-        <mark key="." line="32" column="54" />
+        <mark key="." line="33" column="0" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/integration-test/java/protector/IntegrationTestApplicationContext.java" timestamp="1468312628518">
         <mark key="[" line="15" column="48" />
@@ -179,10 +179,11 @@
         <mark key="." line="268" column="118" />
         <mark key="^" line="268" column="118" />
       </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/application.properties" timestamp="1470905208721">
-        <mark key="[" line="16" column="59" />
-        <mark key="]" line="18" column="0" />
-        <mark key="." line="18" column="0" />
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/application.properties" timestamp="1470909399485">
+        <mark key="[" line="17" column="71" />
+        <mark key="]" line="16" column="58" />
+        <mark key="." line="16" column="58" />
+        <mark key="^" line="16" column="58" />
       </file>
       <file name="/HTML File.txt.ft" timestamp="1464855335207">
         <mark key="[" line="0" column="0" />
@@ -307,9 +308,9 @@
       <file name="/JSRegexp Fragment (requisition.module.js:1690).regexp" timestamp="1465815902743">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/requisition.ctrl.js" timestamp="1470899157440">
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/requisition.ctrl.js" timestamp="1470908679954">
         <mark key="'" line="56" column="16" />
-        <mark key="[" line="74" column="0" />
+        <mark key="[" line="67" column="70" />
         <mark key="]" line="89" column="19" />
         <mark key="." line="74" column="0" />
       </file>
@@ -738,8 +739,8 @@
       <jump line="54" column="16" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/requisition.ctrl.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>JSR310Module()</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBvYmplY3RNYXBwZXIuZmluZEFuZFJlZ2lzdGVyTW9kdWxlcygpOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -798,7 +799,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygiZmV0Y2hlZCBzZWxsZXI6ICVPIiwgdm0uc2VsbGVyKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">c3ByaW5nLmphY2tzb24uc2VyaWFsaXphdGlvbi4K</text>
+        <text encoding="base64">ICAgICAgICBvYmplY3RNYXBwZXIuZmluZEFuZFJlZ2lzdGVyTW9kdWxlcygpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -806,19 +807,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW5pdFByb21pc2UKICAgICAgICAgICAgICAgIC50aGVuKGZ1bmN0aW9uKGRhdGEpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gZGF0YS5yZXNvdXJjZSgic2VsbGVyIikuZ2V0KCkuJHByb21pc2U7CiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgLnRoZW4oZnVuY3Rpb24oZGF0YSkgewogICAgICAgICAgICAgICAgICAgIHZtLnNlbGxlciA9IGRhdGEudG9KU09OKCk7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coImZldGNoZWQgc2VsbGVyOiAlTyIsIHZtLnNlbGxlcik7CiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgaW5pdFByb21pc2UKICAgICAgICAgICAgICAgIC50aGVuKGZ1bmN0aW9uKGRhdGEpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gZGF0YS5yZXNvdXJjZSgiYXNzaWduZWQtYnJva2VyIikuZ2V0KCkuJHByb21pc2U7CiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgLnRoZW4oZnVuY3Rpb24oZGF0YSkgewogICAgICAgICAgICAgICAgICAgIHZtLmJyb2tlciA9IGRhdGEudG9KU09OKCk7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coImZldGNoZWQgYnJva2VyOiAlTyIsIHZtLmJyb2tlcik7CiAgICAgICAgICAgICAgICB9KTsK</text>
+        <text encoding="base64">c3ByaW5nLmphY2tzb24uc2VyaWFsaXphdGlvbi4K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJmZXRjaGVkIGJyb2tlcjogJU8iLCB2bS5icm9rZXIpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW5pdFByb21pc2UKICAgICAgICAgICAgICAgIC50aGVuKGZ1bmN0aW9uKGRhdGEpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gZGF0YS5yZXNvdXJjZSgic2VsbGVyIikuZ2V0KCkuJHByb21pc2U7CiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgLnRoZW4oZnVuY3Rpb24oZGF0YSkgewogICAgICAgICAgICAgICAgICAgIHZtLnNlbGxlciA9IGRhdGEudG9KU09OKCk7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coImZldGNoZWQgc2VsbGVyOiAlTyIsIHZtLnNlbGxlcik7CiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgaW5pdFByb21pc2UKICAgICAgICAgICAgICAgIC50aGVuKGZ1bmN0aW9uKGRhdGEpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gZGF0YS5yZXNvdXJjZSgiYXNzaWduZWQtYnJva2VyIikuZ2V0KCkuJHByb21pc2U7CiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgLnRoZW4oZnVuY3Rpb24oZGF0YSkgewogICAgICAgICAgICAgICAgICAgIHZtLmJyb2tlciA9IGRhdGEudG9KU09OKCk7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coImZldGNoZWQgYnJva2VyOiAlTyIsIHZtLmJyb2tlcik7CiAgICAgICAgICAgICAgICB9KTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygiZmV0Y2hlZCBzZWxsZXI6ICVPIiwgdm0uc2VsbGVyKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJmZXRjaGVkIGJyb2tlcjogJU8iLCB2bS5icm9rZXIpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygiZmV0Y2hlZCBzZWxsZXI6ICVPIiwgdm0uc2VsbGVyKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZXR1cm4gcmVhbEVzdGF0ZS5yZXNvdXJjZSgiZm9ybS1kYXRhIikuZ2V0KCkuJHByb21pc2U7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1153,13 +1154,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZXR1cm4gcmVhbEVzdGF0ZS5yZXNvdXJjZSgiZm9ybS1kYXRhIikuZ2V0KCkuJHByb21pc2U7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB2bS5icm9rZXIgPSByZWFsRXN0YXRlLnJlc291cmNlKCJhc3NpZ25lZC1icm9rZXIiKS5nZXQoKS50b0pTT04oKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygiZmV0Y2hlZCByZWFsLWVzdGF0ZTogJU8iLCByZWFsRXN0YXRlLnRvSlNPTigpKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB2bS5icm9rZXIgPSByZWFsRXN0YXRlLnJlc291cmNlKCJhc3NpZ25lZC1icm9rZXIiKS5nZXQoKS50b0pTT04oKTsK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zLyQvOy8=</text>

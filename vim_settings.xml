@@ -15,7 +15,7 @@
         <mark key="." line="12" column="0" />
         <mark key="^" line="12" column="26" />
       </file>
-      <file name="/a.dummy" timestamp="1471507427875">
+      <file name="/a.dummy" timestamp="1471529454295">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/TakstJdbcDao.groovy" timestamp="1471521354494">
@@ -141,11 +141,11 @@
       <file name="$USER_HOME$/repos/claims/integration/src/main/groovy/protector/claims/integration/fileservice/FileServiceClient.groovy" timestamp="1466527849721">
         <mark key="[" line="9" column="10" />
       </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/email/TemplateService.groovy" timestamp="1471528055772">
-        <mark key="[" line="30" column="31" />
-        <mark key="]" line="30" column="16" />
-        <mark key="^" line="30" column="16" />
-        <mark key="." line="30" column="16" />
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/email/TemplateService.groovy" timestamp="1471528886074">
+        <mark key="[" line="37" column="23" />
+        <mark key="]" line="26" column="30" />
+        <mark key="^" line="26" column="30" />
+        <mark key="." line="26" column="30" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/AngularRoutes.groovy" timestamp="1471347146789">
         <mark key="[" line="24" column="36" />
@@ -244,7 +244,6 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/datetimepicker/datetimepicker.directive.js" timestamp="1471500289074" />
       <file name="$USER_HOME$/repos/claims/web/src/main/resources/application-test.properties" timestamp="1466076707939">
         <mark key="[" line="10" column="0" />
         <mark key="]" line="10" column="39" />
@@ -508,8 +507,8 @@
         <mark key="." line="131" column="7" />
         <mark key="^" line="131" column="7" />
       </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/application-dev.properties" timestamp="1471353644290">
-        <mark key="[" line="4" column="0" />
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/application-dev.properties" timestamp="1471529552974">
+        <mark key="[" line="27" column="28" />
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
@@ -662,6 +661,9 @@
       <file name="/dummy.sql" timestamp="1471527273094">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/templates/layouts/body.tpl" timestamp="1471528657862">
+        <mark key="[" line="33" column="93" />
+      </file>
       <file name="$USER_HOME$/repos/file-service/src/integration-test/java/IntegrationTestContext.java" timestamp="1461509778966">
         <mark key="[" line="0" column="28" />
       </file>
@@ -680,11 +682,21 @@
         <mark key="^" line="21" column="54" />
         <mark key="." line="21" column="54" />
       </file>
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/templates/views/email.tpl" timestamp="1471529037333">
+        <mark key="[" line="4" column="16" />
+        <mark key="]" line="4" column="16" />
+        <mark key="." line="9" column="83" />
+        <mark key="^" line="9" column="83" />
+      </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/shared/fields/ec-panel-fields.directive.js" timestamp="1460449018865">
         <mark key="[" line="16" column="53" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/templates/layouts/body_kickoff.tpl" timestamp="1467987548564">
         <mark key="[" line="64" column="212" />
+      </file>
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/templates/views/email_kickoff.tpl" timestamp="1471528381607">
+        <mark key="[" line="57" column="0" />
+        <mark key="]" line="57" column="92" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/test/groovy/protector/claims/service/claims/HealthImportServiceSpec.groovy" timestamp="1465295982317">
         <mark key="[" line="17" column="89" />
@@ -893,7 +905,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>Object.class</text>
+        <text>&quot;</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -948,11 +960,11 @@
       <register name="/" type="4">
         <text>Row</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBMT0cuaW5mbygiYWN0aW9uPXN1Ym1pdC1hc3Nlc3NtZW50IGFwcHJhaXNlclJlcXVlc3RJZD17fSIsIGFwcHJhaXNlckRlY2lzaW9uLmdldElkKCkpOwo=</text>
+      <register name="0" type="4">
+        <text>&quot;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICBMaXN0IGZpbmRBbGxBcHByYWlzZXJSZXF1ZXN0cyhMb25nIHJlYWxFc3RhdGVJZCkgewogICAgICAgIG51bGwKICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgcCgpCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -982,19 +994,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwhLS08ZGl2IGNsYXNzPSJmb3JtLWdyb3VwIGNvbC14cy02IiBzaG93LWVycm9ycyBuZy1jbGFzcz0ieydoYXMtZXJyb3InOiBmb3JtLmFwcHJhaXNlclByaWNlLiRpbnZhbGlkICYmIGZvcm0uYXBwcmFpc2VyUHJpY2UuJGRpcnR5fSI+LS0+Cg==</text>
+        <text encoding="base64">ICAgICAgICBzb21ldGhpbmdFbHNlOiBjb250ZW50c3sgcCgiJHticm9rZXJOYW1lfSIpIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdm0uZm9ybWRhdGEuaWQgPSAkcm91dGVQYXJhbXMuaWQ7Cg==</text>
+        <text encoding="base64">ICAgICAgICBvYmplY3RUYWJsZTogY29udGVudHMgewogICAgICAgICAgICB0YWJsZShjbGFzczonY29udGVudC10YWJsZScsIGJvcmRlcjonMCcsY2VsbHBhZGRpbmc6JzAnLGNlbGxzcGFjaW5nOicwJyx3aWR0aDonNTAycHgnLHN0eWxlOidtYXJnaW4tbGVmdDogNjNweDsgbWFyZ2luLXJpZ2h0OiA2M3B4OyB3aWR0aDogNTAycHg7JykgewogICAgICAgICAgICAgICAgdHIgewogICAgICAgICAgICAgICAgICAgIHRoKGFsaWduOidsZWZ0Jywgd2lkdGg6JzI1MXB4Jywgc3R5bGU6J3dpZHRoOiAyNTFweDsnLCBvYmplY3RUYWJsZS5sZWZ0SGVhZGluZykKICAgICAgICAgICAgICAgICAgICB0aChhbGlnbjoncmlnaHQnLCB3aWR0aDonMjUxcHgnLCBzdHlsZTond2lkdGg6IDI1MXB4OycsIG9iamVjdFRhYmxlLnJpZ2h0SGVhZGluZykKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIG9iamVjdFRhYmxlLnJvd3MuZWFjaCB7CiAgICAgICAgICAgICAgICAgICAgZnJhZ21lbnQgIiB0cnsgdGQoYWxpZ246J2xlZnQnLCByb3cubGVmdENlbGwpIHRkKGFsaWduOidyaWdodCcsIHJvdy5yaWdodENlbGwpIH0gIiwgcm93Oml0CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9LAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnYXJyICVPJyxhcnIpOwo=</text>
+        <text encoding="base64">CiAgICBMaXN0IGZpbmRBbGxBcHByYWlzZXJSZXF1ZXN0cyhMb25nIHJlYWxFc3RhdGVJZCkgewogICAgICAgIG51bGwKICAgIH0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coInAgJU8iLCByZSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwhLS08ZGl2IGNsYXNzPSJmb3JtLWdyb3VwIGNvbC14cy02IiBzaG93LWVycm9ycyBuZy1jbGFzcz0ieydoYXMtZXJyb3InOiBmb3JtLmFwcHJhaXNlclByaWNlLiRpbnZhbGlkICYmIGZvcm0uYXBwcmFpc2VyUHJpY2UuJGRpcnR5fSI+LS0+Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBBcHByYWlzZXJSZXF1ZXN0IGFwcHJhaXNlclJlcXVlc3QgPSB0YWtzdFNlcnZpY2UuZ2V0QXBwcmFpc2VyUmVxdWVzdChhcHByYWlzZXJEZWNpc2lvbi5nZXRJZCgpKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdm0uZm9ybWRhdGEuaWQgPSAkcm91dGVQYXJhbXMuaWQ7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1329,13 +1341,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBBcHByYWlzZXJSZXF1ZXN0IHVwZGF0ZWRPYmplY3QgPSB0YWtzdFNlcnZpY2UuZ2V0QXBwcmFpc2VyUmVxdWVzdChhcHByYWlzZXJEZWNpc2lvbi5nZXRJZCgpKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnYXJyICVPJyxhcnIpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coInAgJU8iLCByZSk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAvL05PVEUgbmVlZCB0byBpZGVudGlmeSBzcGVjaWZpYyBhcHByYWlzZXJfcmVxdWVzdCBpZCwgbWF5IGhhdmUgbXVsdGlwbGUuIFNob3VsZCBiZSBpbiByZXF1ZXN0IGFscmVhZHkK</text>
+        <text encoding="base64">ICAgICAgICBBcHByYWlzZXJSZXF1ZXN0IGFwcHJhaXNlclJlcXVlc3QgPSB0YWtzdFNlcnZpY2UuZ2V0QXBwcmFpc2VyUmVxdWVzdChhcHByYWlzZXJEZWNpc2lvbi5nZXRJZCgpKTsK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1wobW9kZWw9IlwpL1wxdm1cLi8=</text>

@@ -302,6 +302,12 @@
       <file name="$USER_HOME$/repos/claims/frontend/claims/bower.json" timestamp="1467630214442">
         <mark key="[" line="28" column="22" />
       </file>
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/TakstService.groovy" timestamp="1472556815431">
+        <mark key="[" line="175" column="8" />
+        <mark key="]" line="175" column="7" />
+        <mark key="^" line="175" column="7" />
+        <mark key="." line="175" column="7" />
+      </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/domain/AppraisalRequest.groovy" timestamp="1471863950296">
         <mark key="[" line="26" column="22" />
         <mark key="]" line="26" column="17" />
@@ -343,11 +349,11 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/User.java" timestamp="1461079400669">
         <mark key="[" line="19" column="30" />
       </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/mail/TemplateService.groovy" timestamp="1472552009139">
-        <mark key="[" line="38" column="16" />
-        <mark key="]" line="38" column="15" />
-        <mark key="." line="38" column="15" />
-        <mark key="^" line="38" column="15" />
+      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/mail/TemplateService.groovy" timestamp="1472558112289">
+        <mark key="[" line="67" column="8" />
+        <mark key="]" line="67" column="0" />
+        <mark key="." line="67" column="0" />
+        <mark key="^" line="67" column="100" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/domain/Commission.groovy" timestamp="1468486985192">
         <mark key="[" line="9" column="20" />
@@ -1064,7 +1070,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaWNlLnRvU3RyaW5nKCkgKyAiLC0iCg==</text>
+        <text encoding="base64">ICAgICAgICBkZWYgc3ViamVjdCA9ICJGb3Jlc3DDuHJzZWwgb20gdXRhcmJlaWRlbHNlIGF2ICR7cmVxdWlzaXRpb25UeXBlfSAtICR7YWRkcmVzc30iLnRvU3RyaW5nKCkKICAgICAgICBpZiAoaXNVcGRhdGUpIHsKICAgICAgICAgICAgc3ViamVjdCArPSAiIChlbmRyZXQpIgogICAgICAgIH0KICAgICAgICByZXR1cm4gc3ViamVjdAo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1120,28 +1126,28 @@
         <text>yellow</text>
       </register>
       <register name="0" type="4">
-        <text>border: 1px solid #eeedcd;</text>
+        <text>&quot;Forespørsel om utarbeidelse av ${requisitionType} - ${address}&quot;.toString()</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaWNlLnRvU3RyaW5nKCkgKyAiLC0iCg==</text>
+        <text encoding="base64">ICAgICAgICBkZWYgc3ViamVjdCA9ICJGb3Jlc3DDuHJzZWwgb20gdXRhcmJlaWRlbHNlIGF2ICR7cmVxdWlzaXRpb25UeXBlfSAtICR7YWRkcmVzc30iLnRvU3RyaW5nKCkKICAgICAgICBpZiAoaXNVcGRhdGUpIHsKICAgICAgICAgICAgc3ViamVjdCArPSAiIChlbmRyZXQpIgogICAgICAgIH0KICAgICAgICByZXR1cm4gc3ViamVjdAo=</text>
       </register>
       <register name="q" type="4">
         <text>gJj</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0ZChzdHlsZTogJycpCg==</text>
+        <text encoding="base64">ICAgIHByaWNlLnRvU3RyaW5nKCkgKyAiLC0iCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0ZChzdHlsZTogJycpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgICAgICAgICAgICAgIGRpdiggY2xhc3M6ICdjZW50ZXJlZCcsIHN0eWxlOiAiY29sb3I6ICM5ZjlmOWY7IGZvbnQtZmFtaWx5OiAnSGVsdmV0aWNhIE5ldWUnLCAnSGVsdmV0aWNhJywgJ0x1Y2lkYSBHcmFuZGUnLCAnQXJpYWwnLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDExcHg7IGxpbmUtaGVpZ2h0OiAxNHB4OyB0ZXh0LWFsaWduOiBjZW50ZXIgIWltcG9ydGFudDsiLCAnYWxpZ24nOiAnY2VudGVyICFpbXBvcnRhbnQnKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB5aWVsZFVuZXNjYXBlZCgnPGJyPjxicj4nKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZnJhZ21lbnQobG9nbywgaHJlZjonaHR0cDovL3d3dy5wcm90ZWN0b3Jmb3JzaWtyaW5nLm5vJywgYmFzZTogYmFzZVVybCwgbG9nb2ZpbGU6ICdsb2dvLXByb3RlY3Rvci1tZW51LnBuZycpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB5aWVsZFVuZXNjYXBlZCgnPGJyPjxicj4nKQogICAgICAgICAgICAgICAgICAgICAgICB9Cg==</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">CiAgICAgICAgICAgICAgICAgICAgICAgIGRpdiggY2xhc3M6ICdjZW50ZXJlZCcsIHN0eWxlOiAiY29sb3I6ICM5ZjlmOWY7IGZvbnQtZmFtaWx5OiAnSGVsdmV0aWNhIE5ldWUnLCAnSGVsdmV0aWNhJywgJ0x1Y2lkYSBHcmFuZGUnLCAnQXJpYWwnLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDExcHg7IGxpbmUtaGVpZ2h0OiAxNHB4OyB0ZXh0LWFsaWduOiBjZW50ZXIgIWltcG9ydGFudDsiLCAnYWxpZ24nOiAnY2VudGVyICFpbXBvcnRhbnQnKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB5aWVsZFVuZXNjYXBlZCgnPGJyPjxicj4nKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZnJhZ21lbnQobG9nbywgaHJlZjonaHR0cDovL3d3dy5wcm90ZWN0b3Jmb3JzaWtyaW5nLm5vJywgYmFzZTogYmFzZVVybCwgbG9nb2ZpbGU6ICdsb2dvLXByb3RlY3Rvci1tZW51LnBuZycpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB5aWVsZFVuZXNjYXBlZCgnPGJyPjxicj4nKQogICAgICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3BhbihzdHlsZTopCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1475,7 +1481,10 @@
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="7" type="4">
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgc3BhbihzdHlsZTopCg==</text>
+      </register>
+      <register name="8" type="4">
         <text>,
         message: contents {
             if (message) {
@@ -1492,11 +1501,8 @@
             }
         }</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB0bXBsU2Vydi5nZW5lcmF0ZVNlbGxlckVtYWlsKGEpCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHlpZWxkICJEdSBoYXIgbW90dGF0dCBldCB0YWtzdG9wcGRyYWcgZnJhICR7YnJva2VyTmFtZX0gdmlhIFByb3RlY3RvciBGb3JzaWtyaW5nIFRha3N0cmVrdmlyZXJpbmcuIgo=</text>
+        <text encoding="base64">ICAgICAgICB0bXBsU2Vydi5nZW5lcmF0ZVNlbGxlckVtYWlsKGEpCg==</text>
       </register>
       <register name=":" type="4">
         <text>reg</text>

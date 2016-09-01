@@ -18,12 +18,12 @@
       <file name="$USER_HOME$/repos/claims/frontend/build.gradle" timestamp="1466527345460">
         <mark key="[" line="19" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/client/src/main/groovy/protector/fileservice/client/rest/FileServiceRestClient.groovy" timestamp="1472652121547">
+      <file name="$USER_HOME$/repos/file-service/client/src/main/groovy/protector/fileservice/client/rest/FileServiceRestClient.groovy" timestamp="1472655663683">
         <mark key="'" line="75" column="0" />
-        <mark key="[" line="180" column="49" />
-        <mark key="]" line="179" column="59" />
-        <mark key="." line="179" column="59" />
-        <mark key="^" line="179" column="59" />
+        <mark key="[" line="82" column="62" />
+        <mark key="]" line="82" column="57" />
+        <mark key="." line="82" column="57" />
+        <mark key="^" line="82" column="57" />
       </file>
       <file name="$USER_HOME$/repos/file-service/client/src/main/groovy/protector/fileservice/client/domain/FileSearchResult.groovy" timestamp="1472470287543">
         <mark key="[" line="0" column="30" />
@@ -1102,8 +1102,8 @@
       <jump line="75" column="0" filename="$USER_HOME$/repos/file-service/client/src/main/groovy/protector/fileservice/client/rest/FileServiceRestClient.groovy" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgTWFwPFN0cmluZywgT2JqZWN0PiBleHRyYSA9IG5ldyBIYXNoTWFwPD4oKTsK</text>
+      <register name="&quot;" type="4">
+        <text>user: username, filename: filename, contentType: contentType</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1153,7 +1153,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Trykk på knappen for å vurdere om oppdraget er interessant for deg.</text>
+        <text>user: username, filename: filename, contentType: contentType</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxjcmVhdGVTdG9yZUZpbGVNdWx0aXBhcnRSZXF1ZXN0XD4=</text>

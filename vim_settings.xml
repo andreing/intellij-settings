@@ -24,12 +24,12 @@
       <file name="$USER_HOME$/repos/claims/frontend/build.gradle" timestamp="1466527345460">
         <mark key="[" line="19" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/client/src/main/groovy/protector/fileservice/client/rest/FileServiceRestClient.groovy" timestamp="1472810072499">
+      <file name="$USER_HOME$/repos/file-service/client/src/main/groovy/protector/fileservice/client/rest/FileServiceRestClient.groovy" timestamp="1472820337658">
         <mark key="'" line="60" column="23" />
-        <mark key="[" line="167" column="12" />
-        <mark key="]" line="167" column="11" />
-        <mark key="." line="167" column="11" />
-        <mark key="^" line="167" column="11" />
+        <mark key="[" line="121" column="8" />
+        <mark key="]" line="119" column="7" />
+        <mark key="." line="119" column="7" />
+        <mark key="^" line="119" column="7" />
       </file>
       <file name="$USER_HOME$/repos/file-service/client/src/main/groovy/protector/fileservice/client/domain/FileSearchResult.groovy" timestamp="1472716885631">
         <mark key="[" line="3" column="24" />
@@ -370,7 +370,7 @@
         <mark key="^" line="8" column="17" />
         <mark key="." line="8" column="17" />
       </file>
-      <file name="/Dummy.groovy" timestamp="1472809894008">
+      <file name="/Dummy.groovy" timestamp="1472819075471">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="45" />
         <mark key="^" line="0" column="45" />
@@ -717,12 +717,11 @@
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/api/DocumentServiceException.java" timestamp="1461239277246">
         <mark key="[" line="2" column="38" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/client/src/test/groovy/protector/fileservice/client/FileServiceClientSpec.groovy" timestamp="1472809731446">
-        <mark key="[" line="133" column="17" />
-        <mark key="]" line="133" column="16" />
-        <mark key="." line="133" column="16" />
-        <mark key="^" line="133" column="16" />
-        <mark key="o" line="124" column="22" />
+      <file name="$USER_HOME$/repos/file-service/client/src/test/groovy/protector/fileservice/client/FileServiceClientSpec.groovy" timestamp="1472819199170">
+        <mark key="[" line="185" column="41" />
+        <mark key="]" line="186" column="0" />
+        <mark key="." line="186" column="0" />
+        <mark key="o" line="122" column="22" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/local/components/assessment/static-fields-seller.html" timestamp="1471338841761">
         <mark key="[" line="8" column="66" />
@@ -1030,7 +1029,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBkZWYgc3RyaW5nID0gRW50aXR5VXRpbHMudG9TdHJpbmcocmVzcG9uc2UuZ2V0RW50aXR5KCksIENoYXJzZXQuZm9yTmFtZSgnVVRGLTgnKSkK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1085,29 +1084,29 @@
       <register name="/" type="4">
         <text encoding="base64">XDxiYXNlVXJsXD4=</text>
       </register>
-      <register name="0" type="4">
-        <text>this.metadataClass.newInstance(data) as T</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBkZWYgZW50aXR5ID0gY3JlYXRlU3RvcmVGaWxlTXVsdGlwYXJ0UmVxdWVzdChtZXRhZGF0YSwgZmlsZSwgbWV0YWRhdGEuY29udGVudFR5cGUsIG1ldGFkYXRhLmZpbGVuYW1lKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBkZWYgc3RyaW5nID0gRW50aXR5VXRpbHMudG9TdHJpbmcocmVzcG9uc2UuZ2V0RW50aXR5KCksIENoYXJzZXQuZm9yTmFtZSgnVVRGLTgnKSkK</text>
       </register>
       <register name="q" type="4">
         <text>gJj</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGVmIG1vY2tNZXRhID0gWwogICAgICAgICAgICAgICAgICAgIGlkOiAnaScsCiAgICAgICAgICAgICAgICAgICAgdXNlcjondScsCiAgICAgICAgICAgICAgICAgICAgZmlsZW5hbWU6ICdmJywKICAgICAgICAgICAgICAgICAgICBjb250ZW50VHlwZTogJ2MnLAogICAgICAgICAgICAgICAgICAgIGFkZGl0aW9uYWxOdW1iZXI6IDEyMywKICAgICAgICAgICAgICAgICAgICBhZGRpdGlvbmFsU3RyaW5nOiAnaGV5JwogICAgICAgICAgICBdCiAgICAgICAgICAgIGRlZiBtb2NrUmVzcG9uc2UgPSBbCiAgICAgICAgICAgICAgICAgICAgZmlsZXM6IFttb2NrTWV0YV0sCiAgICAgICAgICAgICAgICAgICAgcXVlcnk6IFsnZm9vJzogJ2JhciddLAogICAgICAgICAgICAgICAgICAgIGNvdW50OiAxCiAgICAgICAgICAgIF0KICAgICAgICAgICAgZGVmIHJlcXVlc3REZWxlZ2F0ZSA9IFt1cmk6IFs6XSwgcmVzcG9uc2U6IFs6XV0KICAgICAgICAgICAgMSAqIG1vY2tIdHRwQnVpbGRlci5yZXF1ZXN0KAogICAgICAgICAgICAgICAgICAgIE1ldGhvZC5HRVQsCiAgICAgICAgICAgICAgICAgICAgQ29udGVudFR5cGUuQVBQTElDQVRJT05fSlNPTiwKICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgIGl0LmRlbGVnYXRlID0gcmVxdWVzdERlbGVnYXRlCiAgICAgICAgICAgICAgICAgICAgICAgIGl0KFN0dWIoSHR0cEdldCkpCiAgICAgICAgICAgICAgICAgICAgICAgIHJlcXVlc3REZWxlZ2F0ZS5yZXNwb25zZS5zdWNjZXNzKFN0dWIoSHR0cFJlc3BvbnNlKSwgbW9ja1Jlc3BvbnNlKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgKSA+PiBtb2NrUmVzcG9uc2UK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBleHBlY3QgcmVzdWx0LmZpbGVzLCBoYXNTaXplKDEpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICByZXN1bHQuZmlsZXMuZWFjaCB7CiAgICAgICAgICAgIGV4cGVjdCBpdCwgaXNBKFRlc3RGaWxlTWV0YWRhdGEpCiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICBodHRwQ2xpZW50LmV4ZWN1dGUobmV3IEh0dHBQb3N0KCkpCg==</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcmVxdWVzdERlbGVnYXRlLnJlc3BvbnNlLnN1Y2Nlc3MuZGVsZWdhdGUgPSBmc0NsaWVudAogICAgICAgICAgICAgICAgICAgICAgICByZXF1ZXN0RGVsZWdhdGUucmVzcG9uc2Uuc3VjY2Vzcy5yZXNvbHZlU3RyYXRlZ3kgPSBERUxFR0FURV9GSVJTVA==</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBIdHRwQ2xpZW50cy5jdXN0b20oKS5hZGQK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgbW9kZWwgPSBbOl0gPDwgZGF0YQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpdC5yZXNvbHZlU3RyYXRlZ3kgPSBERUxFR0FURV9GSVJTVAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1442,13 +1441,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZXF1ZXN0RGVsZWdhdGUucmVzcG9uc2Uuc3VjY2Vzcy5kZWxlZ2F0ZSA9IGZzQ2xpZW50CiAgICAgICAgICAgICAgICAgICAgcmVxdWVzdERlbGVnYXRlLnJlc3BvbnNlLnN1Y2Nlc3MucmVzb2x2ZVN0cmF0ZWd5ID0gREVMRUdBVEVfRklSU1QK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIGRlZiBtZXRhZGF0YUNsYXNzID0gVGVzdEZpbGVNZXRhZGF0YQo=</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgcmVzdWx0Cg==</text>
+        <text encoding="base64">ICAgICAgICAvL0ZBRU4K</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL3Byb3RlY3RlZFxzLy8=</text>

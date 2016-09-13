@@ -102,10 +102,11 @@
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/SpringWebConfig.java" timestamp="1464255152570">
         <mark key="[" line="37" column="62" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/client/src/main/groovy/protector/fileservice/client/query/Query.java" timestamp="1473776019232">
-        <mark key="[" line="17" column="0" />
-        <mark key="]" line="2" column="0" />
-        <mark key="." line="2" column="0" />
+      <file name="$USER_HOME$/repos/file-service/client/src/main/groovy/protector/fileservice/client/query/Query.java" timestamp="1473777263355">
+        <mark key="[" line="39" column="42" />
+        <mark key="]" line="39" column="43" />
+        <mark key="." line="39" column="43" />
+        <mark key="^" line="39" column="43" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/resources/initapp.resource.js" timestamp="1470893235789">
         <mark key="[" line="9" column="5" />
@@ -498,8 +499,8 @@
       <jump line="417" column="40" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/1.9.2.RELEASE/5d612fa830d98752e546727ec241d610d8a0f909/spring-data-mongodb-1.9.2.RELEASE-sources.jar!/org/springframework/data/mongodb/core/query/Query.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEubGFuZy5yZWZsZWN0LkZpZWxkOwo=</text>
+      <register name="&quot;" type="4">
+        <text>criteria.getKey()</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -549,7 +550,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>criteria.getKey()</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxmaWVsZFNwZWNcPg==</text>

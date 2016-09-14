@@ -236,6 +236,10 @@
         <mark key="." line="98" column="73" />
         <mark key="^" line="98" column="73" />
       </file>
+      <file name="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" timestamp="1473840464808">
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="53" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/templates/views/email_appraiser.tpl" timestamp="1472542642655">
         <mark key="[" line="8" column="9" />
         <mark key="]" line="10" column="0" />
@@ -397,6 +401,12 @@
       <file name="/Dummy.groovy" timestamp="1473683332287">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/scripts/migrate-docs-to-fileservice/migrate.groovy" timestamp="1473840666105">
+        <mark key="[" line="36" column="47" />
+        <mark key="]" line="24" column="36" />
+        <mark key="." line="24" column="36" />
+        <mark key="^" line="24" column="36" />
+      </file>
       <file name="/JavaScript Console" timestamp="1467814185054">
         <mark key="[" line="0" column="0" />
       </file>
@@ -512,8 +522,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="63" column="14" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/css/takstrekvisisjon.css" />
-      <jump line="69" column="35" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/css/takstrekvisisjon.css" />
       <jump line="269" column="1" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/css/takstrekvisisjon.css" />
       <jump line="274" column="1" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/css/takstrekvisisjon.css" />
       <jump line="151" column="71" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/TakstService.groovy" />
@@ -612,10 +620,12 @@
       <jump line="235" column="47" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/1.9.2.RELEASE/5d612fa830d98752e546727ec241d610d8a0f909/spring-data-mongodb-1.9.2.RELEASE-sources.jar!/org/springframework/data/mongodb/core/query/Query.java" />
       <jump line="397" column="66" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/1.9.2.RELEASE/5d612fa830d98752e546727ec241d610d8a0f909/spring-data-mongodb-1.9.2.RELEASE-sources.jar!/org/springframework/data/mongodb/core/query/Query.java" />
       <jump line="417" column="40" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/1.9.2.RELEASE/5d612fa830d98752e546727ec241d610d8a0f909/spring-data-mongodb-1.9.2.RELEASE-sources.jar!/org/springframework/data/mongodb/core/query/Query.java" />
+      <jump line="2" column="0" filename="$USER_HOME$/repos/scripts/migrate-docs-to-fileservice/migrate.groovy" />
+      <jump line="34" column="0" filename="$USER_HOME$/repos/scripts/migrate-docs-to-fileservice/migrate.groovy" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIC8qKioganVzdCBleGFtcGxlcyAqKiovCg==</text>
+        <text encoding="base64">c3FsLmVhY2hSb3coJ3NlbGVjdCAqIGZyb20gQ2xhaW0nKQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -671,10 +681,10 @@
         <text encoding="base64">XDxmaWVsZFNwZWNcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGNvbG9yOiAjZmZmZmZmOwo=</text>
+        <text encoding="base64">ZGVmIHBhcnNlT3B0aW9ucyhhcmdzKSB7CiAgICBkZWYgY2xpID0gbmV3IENsaUJ1aWxkZXIodXNhZ2U6ICdmb3JtdXBsb2FkIFtvcHRpb25zXScsIGhlYWRlcjogJ09wdGlvbnMnKQogICAgY2xpLnMobG9uZ09wdDogJ2NsYWltcycsIGFyZ3M6IDEsIGFyZ05hbWU6ICdzZXJ2ZXInLCAnQ2xhaW1zIHNlcnZlciBmb3IgdXBsb2FkIFtwcm9kdWN0aW9uLHRlc3QsbG9jYWxdJywgcmVxdWlyZWQ6IHRydWUpCiAgICBjbGkuYShsb25nT3B0OiAnYWxsJywgJ1VwbG9hZCBhbGwgZmlsZXMgaW4gcHJvamVjdCcpCiAgICBjbGkuZihsb25nT3B0OiAnZmlsZScsIGFyZ3M6IE9wdGlvbi5VTkxJTUlURURfVkFMVUVTLCB2YWx1ZVNlcGFyYXRvcjogJywnIGFzIGNoYXIsIGFyZ05hbWU6ICdmaWxlcycsICdMaXN0IG9mIGZpbGVzIHRvIHVwbG9hZCcpCiAgICBjbGkuZyhsb25nT3B0OiAnc3RhZ2VkJywgJ1VwbG9hZCBmaWxlcyBzdGFnZWQgaW4gZ2l0JykKCiAgICBkZWYgb3B0aW9ucyA9IGNsaS5wYXJzZShhcmdzKQogICAgb3B0aW9ucyB8fCBTeXN0ZW0uZXhpdCgxKQoKICAgIFsncHJvZHVjdGlvbicsICd0ZXN0JywgJ2xvY2FsJ10uY29udGFpbnMob3B0aW9ucy5zKSB8fCBleGl0V2l0aE1lc3NhZ2UoJ1Vua25vd24gc2VydmVyICcgKyBvcHRpb25zLnMsIGNsaSkKICAgIChvcHRpb25zLmZzIHx8IG9wdGlvbnMuYSB8fCBvcHRpb25zLmcpIHx8IGV4aXRXaXRoTWVzc2FnZSgnTWlzc2luZyBmaWxlIGFyZ3VtZW50cycsIGNsaSkKCiAgICBkZWYgZmlsZXMKICAgIGlmIChvcHRpb25zLmEpIHsKICAgICAgICBmaWxlcyA9IG51bGwKICAgIH0gZWxzZSBpZiAob3B0aW9ucy5mcykgewogICAgICAgIGZpbGVzID0gb3B0aW9ucy5mcwogICAgfSBlbHNlIGlmIChvcHRpb25zLmcpIHsKICAgICAgICBmaWxlcyA9IGdldFN0YWdlZEZpbGVzKCkKICAgICAgICBpZiAoZmlsZXMuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHByaW50bG4gJ1VwbG9hZDogTm8gZmlsZXMgc3RhZ2VkIGZvciBjb21taXQnCiAgICAgICAgICAgIFN5c3RlbS5leGl0KDApCiAgICAgICAgfQogICAgfQoKICAgIFtiYXNlVXJsOiBzZXJ2ZXJNYXBbb3B0aW9ucy5zXSwgZmlsZXM6IGZpbGVzXQp9CgpleGl0V2l0aE1lc3NhZ2UgPSB7IG1lc3NhZ2UsIGNsaSAtPgogICAgU3lzdGVtLmVyci5wcmludGxuKG1lc3NhZ2UpCiAgICBjbGkudXNhZ2UoKQogICAgU3lzdGVtLmV4aXQoMSkKfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIC8qKioganVzdCBleGFtcGxlcyAqKiovCg==</text>
+        <text encoding="base64">c3FsLmVhY2hSb3coJ3NlbGVjdCAqIGZyb20gQ2xhaW0nKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -696,19 +706,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEBPdmVycmlkZQogICAgcHVibGljIENyaXRlcmlhRGVmaW5pdGlvbiBhbmQoQ3JpdGVyaWFEZWZpbml0aW9uIG90aGVyKSB7CiAgICAgICAgcmV0dXJuIG51bGw7CiAgICB9Cgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIENyaXRlcmlhRGVmaW5pdGlvbiBhbmQoQ3JpdGVyaWFEZWZpbml0aW9uIG90aGVyKTsK</text>
+        <text encoding="base64">cGFja2FnZSBuZXdkb2NzZXJ2Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBDcml0ZXJpYShTdHJpbmcga2V5KQo=</text>
+        <text encoding="base64">ICAgIC8qKioganVzdCBleGFtcGxlcyAqKiovCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEubGFuZy5yZWZsZWN0LkZpZWxkOwo=</text>
+        <text encoding="base64">ICAgIEBPdmVycmlkZQogICAgcHVibGljIENyaXRlcmlhRGVmaW5pdGlvbiBhbmQoQ3JpdGVyaWFEZWZpbml0aW9uIG90aGVyKSB7CiAgICAgICAgcmV0dXJuIG51bGw7CiAgICB9Cgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgUXVlcnkgcXVlcnkoQ3JpdGVyaWEgY3JpdGVyaWEpwqB7CiAgICAgICAgcmV0dXJuIG5ldyBRdWVyeShjcml0ZXJpYSk7CiAgICB9CiAgICAK</text>
+        <text encoding="base64">ICAgIENyaXRlcmlhRGVmaW5pdGlvbiBhbmQoQ3JpdGVyaWFEZWZpbml0aW9uIG90aGVyKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1043,13 +1053,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYyBvcmcuc3ByaW5nZnJhbWV3b3JrLmhhdGVvYXMubXZjLkNvbnRyb2xsZXJMaW5rQnVpbGRlci5tZXRob2RPbjsK</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBDcml0ZXJpYShTdHJpbmcga2V5KQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsudXRpbC5MaW5rZWRNdWx0aVZhbHVlTWFwOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay51dGlsLk11bHRpVmFsdWVNYXA7Cg==</text>
+        <text encoding="base64">aW1wb3J0IGphdmEubGFuZy5yZWZsZWN0LkZpZWxkOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBNdWx0aVZhbHVlTWFwPFN0cmluZyxPYmplY3Q+IHBhcmFtcyA9IG5ldyBMaW5rZWRNdWx0aVZhbHVlTWFwPD4oKTsK</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgUXVlcnkgcXVlcnkoQ3JpdGVyaWEgY3JpdGVyaWEpwqB7CiAgICAgICAgcmV0dXJuIG5ldyBRdWVyeShjcml0ZXJpYSk7CiAgICB9CiAgICAK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zLyQvICIsXFxuIiBcKy8=</text>

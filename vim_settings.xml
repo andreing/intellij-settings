@@ -432,11 +432,12 @@
       <file name="/Dummy.groovy" timestamp="1473926698056">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/scripts/migrate-docs-to-fileservice/migrate.groovy" timestamp="1473948891247">
-        <mark key="[" line="178" column="24" />
-        <mark key="]" line="178" column="49" />
-        <mark key="." line="178" column="49" />
-        <mark key="^" line="178" column="49" />
+      <file name="$USER_HOME$/repos/scripts/migrate-docs-to-fileservice/migrate.groovy" timestamp="1473950079522">
+        <mark key="'" line="15" column="30" />
+        <mark key="[" line="139" column="0" />
+        <mark key="]" line="140" column="51" />
+        <mark key="^" line="139" column="39" />
+        <mark key="." line="139" column="39" />
       </file>
       <file name="/JavaScript Console" timestamp="1467814185054">
         <mark key="[" line="0" column="0" />
@@ -556,7 +557,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="263" column="35" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/org/apache/http/entity/ContentType.java" />
       <jump line="17" column="21" filename="$USER_HOME$/repos/file-service/src/integration-test/groovy/protector/integrationtest/RestIntegrationBase.groovy" />
       <jump line="66" column="20" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.5/542498265bc5a238dcb0275172b8070bd51e30af/httpcore-4.4.5-sources.jar!/org/apache/http/impl/io/ContentLengthInputStream.java" />
       <jump line="96" column="13" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.5/542498265bc5a238dcb0275172b8070bd51e30af/httpcore-4.4.5-sources.jar!/org/apache/http/impl/io/ContentLengthInputStream.java" />
@@ -656,10 +656,11 @@
       <jump line="62" column="23" filename="$USER_HOME$/repos/file-service/src/integration-test/groovy/protector/fileservice/integrationtest/rest/ReadDocumentTests.groovy" />
       <jump line="79" column="23" filename="$USER_HOME$/repos/file-service/src/integration-test/groovy/protector/fileservice/integrationtest/rest/ReadDocumentTests.groovy" />
       <jump line="81" column="52" filename="$USER_HOME$/repos/file-service/src/integration-test/groovy/protector/fileservice/integrationtest/rest/ReadDocumentTests.groovy" />
+      <jump line="15" column="30" filename="$USER_HOME$/repos/scripts/migrate-docs-to-fileservice/migrate.groovy" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkaXMud2kK</text>
+        <text encoding="base64">ICAgICAgICBkZWYgZHNpZCA9IG9wdGlvbnNbJ2RzLWlkLWNvbHVtbiddIGFzIFN0cmluZwogICAgICAgIGRlZiBmc2lkID0gb3B0aW9uc1snZnMtaWQtY29sdW1uJ10gYXMgU3RyaW5nCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -712,13 +713,13 @@
         <text encoding="base64">SUQg</text>
       </register>
       <register name="/" type="4">
-        <text>with</text>
+        <text encoding="base64">XDxEb2N1bWVudE1ldGFkYXRhXD4=</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">eyByb3cgLT4KLy8gICAgICAgIHJvdy50b1Jvd1Jlc3VsdCgpLnZhbHVlcygpLmVhY2ggeyBwcmludCAiJHtpdC5jbGFzcy5zaW1wbGVOYW1lfToke2l0LnRvU3RyaW5nKCl9Ii5wYWRSaWdodCgyMCkgfQogICAgICAgIGRlZiBnUm93UmVzdWx0ID0gcm93LnRvUm93UmVzdWx0KCkKICAgICAgICAKICAgICAgICByb3cudG9Sb3dSZXN1bHQoKS52YWx1ZXMoKS5lYWNoIHsgcHJpbnQgaXQudG9TdHJpbmcoKS5wYWRSaWdodCgyMCkgfQogICAgICAgIHByaW50bG4oKQogICAgfQ==</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBkZWYgZHNpZCA9IG9wdGlvbnNbJ2RzLWlkLWNvbHVtbiddIGFzIFN0cmluZwogICAgICAgIGRlZiBmc2lkID0gb3B0aW9uc1snZnMtaWQtY29sdW1uJ10gYXMgU3RyaW5nCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkaXMud2kK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoRG9jdW1lbnRTZXJ2aWNlRXhjZXB0aW9uIGRzZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3Jtc2cgZHNlLCAnZG9jdW1lbnQgc2VydmljZScKICAgICAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoRmlsZVNlcnZpY2VFeGNlcHRpb24gZnNlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlcnJvcm1zZyBmc2UsICdmaWxlIHNlcnZpY2UnCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -740,19 +741,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludGxuIG1ldGFkYXRhLnRvU3RyaW5nKCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaW50bG4gIlNraXBwZWQgZmlsZTogW2ZpbGUgc2VydmljZSBlcnJvcl0gY2F1c2U6ICR7ZnNlLmdldENhdXNlKCl9IG1lc3NhZ2U6ICR7ZnNlLmdldE1lc3NhZ2UoKX0iCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Ly8gICAgICAgIHByaW50bG4gInZhbCBpbnN0YW5jZSBvZiAke3ZhbCA/IHZhbC5jbGFzcy5uYW1lIDogbnVsbH0iCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaW50bG4gIlNraXBwZWQgZmlsZTogW2ZpbGUgc2VydmljZSBlcnJvcl0gY2F1c2U6ICR7ZnNlLmdldENhdXNlKCl9IG1lc3NhZ2U6ICR7ZnNlLmdldE1lc3NhZ2UoKX0iCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICByb3cudG9Sb3dSZXN1bHQoKS52YWx1ZXMoKS5lYWNoIHsgcHJpbnQgaXQudG9TdHJpbmcoKS5wYWRSaWdodCgyMCkgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaW50bG4gIlNraXBwZWQgZmlsZTogW290aGVyIGVycm9yXSBjYXVzZTogJHtlLmdldENhdXNlKCl9IG1lc3NhZ2U6ICR7ZS5nZXRNZXNzYWdlKCl9Igo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Ly8gICAgICAgIHJvdy50b1Jvd1Jlc3VsdCgpLnZhbHVlcygpLmVhY2ggeyBwcmludCAiJHtpdC5jbGFzcy5zaW1wbGVOYW1lfToke2l0LnRvU3RyaW5nKCl9Ii5wYWRSaWdodCgyMCkgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaW50bG4gIlNraXBwZWQgZmlsZTogW2ZpbGUgc2VydmljZSBlcnJvcl0gY2F1c2U6ICR7ZnNlLmdldENhdXNlKCl9IG1lc3NhZ2U6ICR7ZnNlLmdldE1lc3NhZ2UoKX0iCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGVmIG1ldGFLZXlTZXQgPSBtZXRhS2V5cy5rZXlTZXQoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaW50bG4gIlNraXBwZWQgZmlsZTogW2RvY3VtZW50IHNlcnZpY2UgZXJyb3JdIGNhdXNlOiAke2RzZS5nZXRDYXVzZSgpfSBtZXNzYWdlOiAke2RzZS5nZXRNZXNzYWdlKCl9Igo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1087,22 +1088,22 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ViAgICBkZWYgcHJpbnRSb3cgPSB7IHJvdyAtPgovLyAgICAgICAgcm93LnRvUm93UmVzdWx0KCkudmFsdWVzKCkuZWFjaCB7IHByaW50ICIke2l0LmNsYXNzLnNpbXBsZU5hbWV9OiR7aXQudG9TdHJpbmcoKX0iLnBhZFJpZ2h0KDIwKSB9CiAgICAgICAgZGVmIGdSb3dSZXN1bHQgPSByb3cudG9Sb3dSZXN1bHQoKQogICAgICAgIAogICAgICAgIHJvdy50b1Jvd1Jlc3VsdCgpLnZhbHVlcygpLmVhY2ggeyBwcmludCBpdC50b1N0cmluZygpLnBhZFJpZ2h0KDIwKSB9CiAgICAgICAgcHJpbnRsbigpCiAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaW50bG4gIlNraXBwZWQgZmlsZTogY2F1c2UiCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByb3cudG9Sb3dSZXN1bHQoKS5pdC50b1N0cmluZygpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0uZXhpdCgwKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkaXMud2kK</text>
       </register>
       <register name=":" type="4">
         <text>reg</text>
       </register>
     </registers>
     <search>
-      <last-search>with</last-search>
+      <last-search encoding="base64">XDxEb2N1bWVudE1ldGFkYXRhXD4=</last-search>
       <last-offset />
-      <last-pattern>with</last-pattern>
+      <last-pattern encoding="base64">XDxEb2N1bWVudE1ldGFkYXRhXD4=</last-pattern>
       <last-replace encoding="base64">ICIsXFxuIiBcKw==</last-replace>
       <last-substitute>$</last-substitute>
       <last-dir>1</last-dir>
@@ -1110,7 +1111,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx0ZXN0RmlsZTEwME1cPg==</entry>
         <entry encoding="base64">XDxNaXNzaW5nQ29tbWlzc2lvbklkRXhjZXB0aW9uXD4=</entry>
         <entry encoding="base64">XDxyZXF1ZXN0XD4=</entry>
         <entry encoding="base64">XDxtdWx0aXBhcnRIZWFkZXJzXD4=</entry>
@@ -1130,6 +1130,7 @@
         <entry encoding="base64">XDxsb29rdXBLZXlJZ25vcmluZ0Nhc2VcPg==</entry>
         <entry encoding="base64">XDxnZXRQcm9wZXJ0eVw+</entry>
         <entry>with</entry>
+        <entry encoding="base64">XDxEb2N1bWVudE1ldGFkYXRhXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLzsvKSwv</entry>

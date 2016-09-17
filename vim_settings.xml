@@ -1107,7 +1107,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>s/'/&quot;/g</text>
+        <text>vs</text>
       </register>
     </registers>
     <search>
@@ -1117,7 +1117,7 @@
       <last-replace>&quot;</last-replace>
       <last-substitute>'</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
@@ -1143,8 +1143,6 @@
         <entry encoding="base64">XDxfYWRkU2h1dERvd25Ib29rXD4=</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zLywvLFxuL2c=</entry>
-        <entry>TestSuite</entry>
         <entry encoding="base64">JzwsJz5zLyQvOy8=</entry>
         <entry>%s/transform/deserialize/g</entry>
         <entry encoding="base64">JzwsJz5zL3Njb3BlXC52bS92bS9n</entry>
@@ -1163,6 +1161,8 @@
         <entry encoding="base64">JzwsJz5zLykkLywgcmVxdWlyZWQ9dHJ1ZSkv</entry>
         <entry encoding="base64">JzwsJz5zLykkLywgcmVxdWlyZWQ6IHRydWUpLw==</entry>
         <entry>s/'/&quot;/g</entry>
+        <entry>vs</entry>
+        <entry>o QuerySpec.*</entry>
       </history-cmd>
       <history-expr />
       <history-input />

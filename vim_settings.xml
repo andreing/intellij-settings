@@ -28,7 +28,6 @@
         <mark key="]" line="15" column="0" />
         <mark key="." line="15" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/shared/show-errors.directive.js" timestamp="1474384667246" />
       <file name="/RegExp Fragment (migrate.groovy:5361).regexp" timestamp="1473869564967">
         <mark key="[" line="0" column="0" />
       </file>
@@ -277,6 +276,9 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/DamageInfo.java" timestamp="1465311657173">
         <mark key="[" line="95" column="5" />
       </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1474443502703">
+        <mark key="'" line="90" column="25" />
+      </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/local/index.html" timestamp="1471440919682">
         <mark key="[" line="75" column="102" />
       </file>
@@ -334,6 +336,7 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/logging/exception-logging.service.js" timestamp="1463064482326">
         <mark key="[" line="13" column="46" />
       </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/resources/application-prod.properties" timestamp="1474443555896" />
       <file name="$USER_HOME$/repos/file-service/Dockerfile" timestamp="1473342631799">
         <mark key="[" line="3" column="79" />
         <mark key="]" line="3" column="79" />
@@ -356,13 +359,6 @@
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/java/protector/takstrekvisisjon/documents/WebSystemerDocTransfer.java" timestamp="1462172268595">
         <mark key="[" line="19" column="57" />
-      </file>
-      <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/create-outgoing-payment.html" timestamp="1474385599483">
-        <mark key="'" line="62" column="56" />
-        <mark key="[" line="58" column="55" />
-        <mark key="]" line="58" column="0" />
-        <mark key="^" line="58" column="69" />
-        <mark key="." line="58" column="0" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/local/components/admin/upload/fileread.directive.js" timestamp="1462175576408">
         <mark key="[" line="18" column="43" />
@@ -492,7 +488,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="55" column="33" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.0.0/a37794ada34a38747f692e93720c33c451e8a2e/json-path-2.0.0-sources.jar!/com/jayway/jsonpath/Criteria.java" />
       <jump line="337" column="36" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.0.0/a37794ada34a38747f692e93720c33c451e8a2e/json-path-2.0.0-sources.jar!/com/jayway/jsonpath/Criteria.java" />
       <jump line="345" column="29" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.0.0/a37794ada34a38747f692e93720c33c451e8a2e/json-path-2.0.0-sources.jar!/com/jayway/jsonpath/Criteria.java" />
       <jump line="346" column="13" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.0.0/a37794ada34a38747f692e93720c33c451e8a2e/json-path-2.0.0-sources.jar!/com/jayway/jsonpath/Criteria.java" />
@@ -592,6 +587,7 @@
       <jump line="62" column="56" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/create-outgoing-payment.html" />
       <jump line="23" column="71" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="24" column="74" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
+      <jump line="90" column="25" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -648,7 +644,7 @@
         <text>function(swedishTransaction) {</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxiYW5rXD4=</text>
+        <text encoding="base64">XDx3ZWJDbGFpbXNVcmxcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHNjb3BlLiR3YXRjaCgnc3dlZGlzaFRyYW5zYWN0aW9uJyxmdW5jdGlvbihzd2VkaXNoVHJhbnNhY3Rpb24pIHsKICAgICAgICAgICAgICAgICAgICBpZihzd2VkaXNoVHJhbnNhY3Rpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgc2NvcGUuJHdhdGNoKCdzd2VkaXNoVHJhbnNhY3Rpb24udHJhbnNmZXJUeXBlJywgZnVuY3Rpb24odHlwZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYodHlwZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKHR5cGUpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8qICR2YWxpZGF0ZSgpIGlzIGNhbGxlZCB0byBmb3JjZSBhIG5ldyB2YWxpZGF0aW9uIGltbWVkaWF0ZWx5IHdpdGggdGhlIGN1cnJlbnQgdmFsdWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5kIHRoZSBuZXcgc2V0IG9mIHZhbGlkYXRvcnMgKi8KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZih0eXBlID09PSAnYmcnKXsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3RybC4kdmFsaWRhdG9ycy52YWxpZFBHID0gKCkgPT4ge3JldHVybiB0cnVlO307CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN0cmwuJHZhbGlkYXRvcnMudmFsaWRCRyA9IHZhbGlkYXRlQkc7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIGlmICh0eXBlID09PSAncGcnKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN0cmwuJHZhbGlkYXRvcnMudmFsaWRQRyA9IHZhbGlkYXRlUEc7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN0cmwuJHZhbGlkYXRvcnMudmFsaWRCRyA9ICgpID0+IHtyZXR1cm4gdHJ1ZTt9OwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdHJsLiR2YWxpZGF0ZSgpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9KTsK</text>
@@ -1036,9 +1032,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxiYW5rXD4=</last-search>
+      <last-search encoding="base64">XDx3ZWJDbGFpbXNVcmxcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxiYW5rXD4=</last-pattern>
+      <last-pattern encoding="base64">XDx3ZWJDbGFpbXNVcmxcPg==</last-pattern>
       <last-replace />
       <last-substitute>.*',\?\zs.*$</last-substitute>
       <last-dir>1</last-dir>
@@ -1046,7 +1042,6 @@
     </search>
     <history>
       <history-search>
-        <entry>\(\zs',\?\).*$</entry>
         <entry>\(\zs',\?\).\{-}$</entry>
         <entry>.*'</entry>
         <entry>.*',\?</entry>
@@ -1066,6 +1061,7 @@
         <entry encoding="base64">XDx0cmFuc2ZlcmVUeXBlXD4=</entry>
         <entry encoding="base64">XDx0cmFuc2ZlclR5cGVcPg==</entry>
         <entry encoding="base64">XDxiYW5rXD4=</entry>
+        <entry encoding="base64">XDx3ZWJDbGFpbXNVcmxcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1wobW9kZWw9IlwpL1wxdm1cLi8=</entry>

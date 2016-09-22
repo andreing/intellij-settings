@@ -585,12 +585,12 @@
         <mark key="]" line="3" column="79" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" timestamp="1474546283631">
-        <mark key="'" line="3" column="17" />
-        <mark key="[" line="1" column="49" />
-        <mark key="]" line="1" column="36" />
-        <mark key="^" line="1" column="36" />
-        <mark key="." line="1" column="36" />
+      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" timestamp="1474548110648">
+        <mark key="'" line="51" column="9" />
+        <mark key="[" line="102" column="56" />
+        <mark key="]" line="108" column="69" />
+        <mark key="." line="108" column="69" />
+        <mark key="^" line="108" column="69" />
       </file>
       <file name="$USER_HOME$/repos/claims/claims_togglz.dat" timestamp="1474290159654">
         <mark key="[" line="2" column="22" />
@@ -707,8 +707,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="570" column="95" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
-      <jump line="700" column="36" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="701" column="35" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="703" column="31" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="193" column="64" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
@@ -807,10 +805,12 @@
       <jump line="0" column="57" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header-dto.js" />
       <jump line="3" column="17" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
       <jump line="4" column="15" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/role/claim-roles.js" />
+      <jump line="120" column="16" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
+      <jump line="51" column="9" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -863,13 +863,13 @@
         <text />
       </register>
       <register name="/" type="4">
-        <text>\/claim-type-resolver</text>
+        <text encoding="base64">XDxzYXZlSGVhZGVyVG9DbGFpbXNcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZXhwb3J0cy5nZXREb2N1bWVudHNGcm9tTGlua3NBbmRMaXN0QW5kU2F2ZVRvQ2xhaW1zICA9IGdldERvY3VtZW50c0Zyb21MaW5rc0FuZExpc3RBbmRTYXZlVG9DbGFpbXM7Cg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQgbG9iSWQgPSByZXNvbHZlci5yZXNvbHZlTG9iSWRGcm9tU2VuZGVyKGpzb24uc2VuZGVyKTsKICAgICAgICBpZiAoIWxvYklkKSB7CiAgICAgICAgICAgIHJlamVjdCgiVGhlIHNlbmRlciBpcyBub3QgcmVjb2duaXplZDogIiArIGpzb24uc2VuZGVyKTsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBsZXQgY291bnRyeUlkID0gcmVzb2x2ZXIucmVzb2x2ZUNvdW50cnlJZEZyb21TZW5kZXIoanNvbi5zZW5kZXIpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -891,19 +891,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnVuY3Rpb24gZ2V0Um9sZU9iamVjdChwYXJ0eUlkLHB1YmxpY0lkLGZpcnN0TmFtZSxsYXN0TmFtZSxhZGRyZXNzLHppcENvZGUsemlwQWRkcmVzcyxwaG9uZSxyb2xlVHlwZURlc2MsIHJvbGVUeXBlSWQsaGVhZGVyKXsKICAgIGxldCBwYXJ0eSA9IG51bGw7CiAgICBpZighcGFydHlJZCl7CiAgICAgICAgcGFydHkgPSBnZXRQYXJ0eU9iamVjdChwYXJ0eUlkLHB1YmxpY0lkLGZpcnN0TmFtZSxsYXN0TmFtZSxhZGRyZXNzLHppcENvZGUsemlwQWRkcmVzcyxwaG9uZSkKICAgIH0KICAgIHJldHVybiB7CiAgICAgICAgcm9sZTogcm9sZVR5cGVEZXNjLAogICAgICAgIHJvbGVUeXBlSWQgOiByb2xlVHlwZUlkLAogICAgICAgIHJvbGVUeXBlOiB7CiAgICAgICAgICAgIGlkOiByb2xlVHlwZUlkLAogICAgICAgICAgICBkZXNjcmlwdGlvbjogcm9sZVR5cGVEZXNjLAogICAgICAgICAgICBsb2JJZDogaGVhZGVyLmNsYWltTG9iSWQsCiAgICAgICAgICAgIGNvdW50cnlJZDogaGVhZGVyLmNvdW50cnkKICAgICAgICB9LAogICAgICAgIHBhcnR5SWQ6IHBhcnR5SWQsCiAgICAgICAgcGFydHk6IHBhcnR5LAogICAgICAgIGNsYWltSGVhZGVySWQ6IGhlYWRlci5pZAogICAgfTsKfQoKZnVuY3Rpb24gZ2V0UGFydHlPYmplY3QocGFydHlJZCxwdWJsaWNJZCxmaXJzdE5hbWUsbGFzdE5hbWUsYWRkcmVzcyx6aXBDb2RlLHppcEFkZHJlc3MscGhvbmUpewogICAgcmV0dXJuIHsKICAgICAgICBpZDogcGFydHlJZCwKICAgICAgICBuYW1lOiBsYXN0TmFtZSwKICAgICAgICBmaXJzdE5hbWU6IGZpcnN0TmFtZSwKICAgICAgICBwdWJsaWNJZDogcHVibGljSWQsCiAgICAgICAgbW9iaWxlOnBob25lLAogICAgICAgIHBob25lOnBob25lLAogICAgICAgIGFwcENvZGU6ICdDTEFJTVMnLAogICAgICAgIGFkZHJlc3NlcyA6W3sKICAgICAgICAgICAgZmllbGQxOiBhZGRyZXNzLAogICAgICAgICAgICB6aXBDb2RlOnppcENvZGUsCiAgICAgICAgICAgIHppcFBsYWNlOiB6aXBBZGRyZXNzLAogICAgICAgICAgICB0eXBlOiAnUG9zdGFkcmVzc2UnCiAgICAgICAgfV0KICAgIH0KfQoKZXhwb3J0cy5nZXRSb2xlT2JqZWN0ID0gZ2V0Um9sZU9iamVjdDsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZXhwb3J0cy5nZXRFdmVudER0byA9IGdldEV2ZW50RHRvOwo=</text>
+        <text encoding="base64">ICAgICAgICAudGhlbigpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZXhwb3J0cy5nZXRFdmVudER0byA9IGdldEV2ZW50RHRvOwo=</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnVuY3Rpb24gZ2V0RXZlbnREdG8oaGVhZGVySWQsZXZlbnRUeXBlSWQsY3VzdG9tQ29tbWVudCl7CiAgICBsZXQgbm93ID0gbmV3IERhdGUoKTsKICAgIHJldHVybiB7CiAgICAgICAgc3RhcnREYXRlOiBub3csCiAgICAgICAgZmluaXNoRGF0ZTogbm93LAogICAgICAgIGNsYWltRXZlbnRUeXBlSWQ6IGV2ZW50VHlwZUlkLAogICAgICAgIHN0YXR1c0lkOiAwLAogICAgICAgIGNvbW1lbnRzOiBjdXN0b21Db21tZW50LAogICAgICAgIGNsYWltSGVhZGVySWQ6aGVhZGVySWQKICAgIH0KfQoKCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZXhwb3J0cy5nZXRGaWxlRHRvID0gZ2V0RmlsZUR0bzsK</text>
+        <text encoding="base64">ZnVuY3Rpb24gZ2V0Um9sZU9iamVjdChwYXJ0eUlkLHB1YmxpY0lkLGZpcnN0TmFtZSxsYXN0TmFtZSxhZGRyZXNzLHppcENvZGUsemlwQWRkcmVzcyxwaG9uZSxyb2xlVHlwZURlc2MsIHJvbGVUeXBlSWQsaGVhZGVyKXsKICAgIGxldCBwYXJ0eSA9IG51bGw7CiAgICBpZighcGFydHlJZCl7CiAgICAgICAgcGFydHkgPSBnZXRQYXJ0eU9iamVjdChwYXJ0eUlkLHB1YmxpY0lkLGZpcnN0TmFtZSxsYXN0TmFtZSxhZGRyZXNzLHppcENvZGUsemlwQWRkcmVzcyxwaG9uZSkKICAgIH0KICAgIHJldHVybiB7CiAgICAgICAgcm9sZTogcm9sZVR5cGVEZXNjLAogICAgICAgIHJvbGVUeXBlSWQgOiByb2xlVHlwZUlkLAogICAgICAgIHJvbGVUeXBlOiB7CiAgICAgICAgICAgIGlkOiByb2xlVHlwZUlkLAogICAgICAgICAgICBkZXNjcmlwdGlvbjogcm9sZVR5cGVEZXNjLAogICAgICAgICAgICBsb2JJZDogaGVhZGVyLmNsYWltTG9iSWQsCiAgICAgICAgICAgIGNvdW50cnlJZDogaGVhZGVyLmNvdW50cnkKICAgICAgICB9LAogICAgICAgIHBhcnR5SWQ6IHBhcnR5SWQsCiAgICAgICAgcGFydHk6IHBhcnR5LAogICAgICAgIGNsYWltSGVhZGVySWQ6IGhlYWRlci5pZAogICAgfTsKfQoKZnVuY3Rpb24gZ2V0UGFydHlPYmplY3QocGFydHlJZCxwdWJsaWNJZCxmaXJzdE5hbWUsbGFzdE5hbWUsYWRkcmVzcyx6aXBDb2RlLHppcEFkZHJlc3MscGhvbmUpewogICAgcmV0dXJuIHsKICAgICAgICBpZDogcGFydHlJZCwKICAgICAgICBuYW1lOiBsYXN0TmFtZSwKICAgICAgICBmaXJzdE5hbWU6IGZpcnN0TmFtZSwKICAgICAgICBwdWJsaWNJZDogcHVibGljSWQsCiAgICAgICAgbW9iaWxlOnBob25lLAogICAgICAgIHBob25lOnBob25lLAogICAgICAgIGFwcENvZGU6ICdDTEFJTVMnLAogICAgICAgIGFkZHJlc3NlcyA6W3sKICAgICAgICAgICAgZmllbGQxOiBhZGRyZXNzLAogICAgICAgICAgICB6aXBDb2RlOnppcENvZGUsCiAgICAgICAgICAgIHppcFBsYWNlOiB6aXBBZGRyZXNzLAogICAgICAgICAgICB0eXBlOiAnUG9zdGFkcmVzc2UnCiAgICAgICAgfV0KICAgIH0KfQoKZXhwb3J0cy5nZXRSb2xlT2JqZWN0ID0gZ2V0Um9sZU9iamVjdDsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1238,22 +1238,22 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CmZ1bmN0aW9uIGdldEZpbGVEdG8oZmlsZU5hbWUsYjY0Q29udGVudCxzaXplLHR5cGUsbGFzdE1vZGlmaWVkKXsKICAgIHJldHVybiB7CiAgICAgICAgbmFtZTogZmlsZU5hbWUsCiAgICAgICAgc2l6ZTogc2l6ZSwKICAgICAgICBsYXN0TW9kaWZpZWQ6IGxhc3RNb2RpZmllZCwKICAgICAgICB0eXBlOiB0eXBlLAogICAgICAgIGNvbnRlbnRBc1N0cmluZzogYjY0Q29udGVudAogICAgfTsKfQo=</text>
+        <text encoding="base64">ZXhwb3J0cy5nZXRFdmVudER0byA9IGdldEV2ZW50RHRvOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">bGV0IGNsYWltRG9jdW1lbnRzID0gcmVxdWlyZSgnLi8uLi9kb2N1bWVudCcpOwo=</text>
+        <text encoding="base64">ZXhwb3J0cy5nZXRFdmVudER0byA9IGdldEV2ZW50RHRvOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZXhwb3J0cy5nZXREb2N1bWVudHNGcm9tTGlua3NBbmRMaXN0QW5kU2F2ZVRvQ2xhaW1zICA9IGdldERvY3VtZW50c0Zyb21MaW5rc0FuZExpc3RBbmRTYXZlVG9DbGFpbXM7Cg==</text>
+        <text encoding="base64">ZnVuY3Rpb24gZ2V0RXZlbnREdG8oaGVhZGVySWQsZXZlbnRUeXBlSWQsY3VzdG9tQ29tbWVudCl7CiAgICBsZXQgbm93ID0gbmV3IERhdGUoKTsKICAgIHJldHVybiB7CiAgICAgICAgc3RhcnREYXRlOiBub3csCiAgICAgICAgZmluaXNoRGF0ZTogbm93LAogICAgICAgIGNsYWltRXZlbnRUeXBlSWQ6IGV2ZW50VHlwZUlkLAogICAgICAgIHN0YXR1c0lkOiAwLAogICAgICAgIGNvbW1lbnRzOiBjdXN0b21Db21tZW50LAogICAgICAgIGNsYWltSGVhZGVySWQ6aGVhZGVySWQKICAgIH0KfQoKCg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1wvY2xhaW0tdHlwZS1yZXNvbHZlci8v</text>
       </register>
     </registers>
     <search>
-      <last-search>\/claim-type-resolver</last-search>
+      <last-search encoding="base64">XDxzYXZlSGVhZGVyVG9DbGFpbXNcPg==</last-search>
       <last-offset />
-      <last-pattern>\/claim-type-resolver</last-pattern>
+      <last-pattern encoding="base64">XDxzYXZlSGVhZGVyVG9DbGFpbXNcPg==</last-pattern>
       <last-replace />
       <last-substitute>\/claim-type-resolver</last-substitute>
       <last-dir>1</last-dir>
@@ -1261,7 +1261,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx0cmFuc2ZlcmVUeXBlXD4=</entry>
         <entry encoding="base64">XDx0cmFuc2ZlclR5cGVcPg==</entry>
         <entry encoding="base64">XDxiYW5rXD4=</entry>
         <entry encoding="base64">XDx3ZWJDbGFpbXNVcmxcPg==</entry>
@@ -1274,13 +1273,14 @@
         <entry encoding="base64">XDxjbGFpbXNBcGlcPg==</entry>
         <entry encoding="base64">XDxyZXF1ZXN0XD4=</entry>
         <entry encoding="base64">XDxyZXNvbHZlXD4=</entry>
-        <entry encoding="base64">XDxjb250cmFjdFw+</entry>
         <entry encoding="base64">XDxjbGFpbURvY3VtZW50c1w+</entry>
         <entry encoding="base64">XDxkdG9DcmVhdG9yXD4=</entry>
         <entry encoding="base64">XDxjbGFpbXNFdmVudHNcPg==</entry>
         <entry>= \zs</entry>
         <entry>\/claims-type-resolver</entry>
         <entry>\/claim-type-resolver</entry>
+        <entry encoding="base64">XDxjb250cmFjdFw+</entry>
+        <entry encoding="base64">XDxzYXZlSGVhZGVyVG9DbGFpbXNcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLyQvIFwrICIsXG4iLy8=</entry>

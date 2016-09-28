@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="mongodb" description="local mongodb" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="mongod" />
+      <option name="PARAMETERS" value="--storageEngine wiredTiger --dbpath mongodb/wiredtiger/data/db/" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$" />
+    </exec>
+  </tool>
+</toolSet>

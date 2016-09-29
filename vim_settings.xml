@@ -172,11 +172,11 @@
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/nobina/router.js" timestamp="1475070808758">
-        <mark key="[" line="8" column="42" />
-        <mark key="]" line="5" column="4" />
-        <mark key="^" line="5" column="4" />
-        <mark key="." line="5" column="4" />
+      <file name="$USER_HOME$/repos/webclaims/apps/nobina/router.js" timestamp="1475160377690">
+        <mark key="[" line="29" column="36" />
+        <mark key="]" line="21" column="44" />
+        <mark key="^" line="21" column="44" />
+        <mark key="." line="21" column="44" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/apps/servicecenter/router_external.js" timestamp="1474631846343">
         <mark key="[" line="1" column="3" />
@@ -404,8 +404,12 @@
         <mark key="]" line="3" column="79" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" timestamp="1475069573000">
-        <mark key="'" line="40" column="39" />
+      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" timestamp="1475159744421">
+        <mark key="'" line="11" column="6" />
+        <mark key="[" line="81" column="45" />
+        <mark key="]" line="81" column="50" />
+        <mark key="^" line="81" column="50" />
+        <mark key="." line="81" column="50" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/AppraisalRequestController.java" timestamp="1474449725814">
         <mark key="[" line="244" column="48" />
@@ -439,11 +443,11 @@
         <mark key="^" line="5" column="4" />
         <mark key="." line="5" column="4" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/nobina/validate-input.js" timestamp="1475056568579">
+      <file name="$USER_HOME$/repos/webclaims/apps/nobina/validate-input.js" timestamp="1475160052894">
         <mark key="'" line="14" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="13" />
-        <mark key="." line="0" column="0" />
+        <mark key="[" line="113" column="0" />
+        <mark key="]" line="113" column="0" />
+        <mark key="." line="113" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/role/index.js" timestamp="1475056530064">
         <mark key="[" line="0" column="0" />
@@ -475,7 +479,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="163" column="31" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="165" column="35" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="194" column="59" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="197" column="59" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
@@ -575,10 +578,11 @@
       <jump line="0" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header-dto.js" />
       <jump line="39" column="39" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
+      <jump line="11" column="6" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">YXBwLnVzZShib2R5UGFyc2VyKCkpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -631,13 +635,13 @@
         <text />
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjbGFpbXNBcGlQYXRoXD4=</text>
+        <text encoding="base64">XDxub2JpbmFWYWxpZGF0b3JcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">InVzZSBzdHJpY3QiOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">YXBwLnVzZShib2R5UGFyc2VyKCkpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -659,21 +663,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">YS51c2UoYm9keVBhcnNlci5qc29uKHtsaW1pdDogJzI1MG1iJ30pKTsK</text>
+        <text encoding="base64">ZnVuY3Rpb24gaXNWYWxpZERhdGVTdHJpbmcocyl7CiAgICByZXR1cm4gaXNOYU4oRGF0ZS5wYXJzZShzKSk9PT1mYWxzZTsKfQoK</text>
       </register>
-      <register name="3" type="4">
-        <text>const router = require('./../nobina/router');
-
-exports.router = router;</text>
+      <register name="3" type="2">
+        <text encoding="base64">ZnVuY3Rpb24gbWFuaXB1bGF0ZURhdGVTdHJpbmcoZHMpewogICAgaWYoaXNWYWxpZERhdGVTdHJpbmcoZHMpKXsKICAgICAgICByZXR1cm4gZHM7CiAgICB9CiAgICBpZihkcy5sZW5ndGggPD0gMTApIHsKICAgICAgICBsZXQgdG1wID0gZHMucmVwbGFjZSgvXC8vZywgJy0nKTsKICAgICAgICBpZiAoaXNWYWxpZERhdGVTdHJpbmcodG1wKSkgewogICAgICAgICAgICByZXR1cm4gdG1wOwogICAgICAgIH0KICAgICAgICBsZXQgdG1wU3BsaXQgPSB0bXAuc3BsaXQoJy0nKTsKICAgICAgICBpZiAodG1wU3BsaXQubGVuZ3RoID09PSAzKSB7CiAgICAgICAgICAgIHRtcCA9IHRtcFNwbGl0WzJdICsgJy0nICsgdG1wU3BsaXRbMV0gKyAnLScgKyB0bXBTcGxpdFswXTsKICAgICAgICAgICAgaWYgKGlzVmFsaWREYXRlU3RyaW5nKHRtcCkpIHsKICAgICAgICAgICAgICAgIHJldHVybiB0bXA7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgdG1wU3BsaXQgPSBkcy5zcGxpdCgnLycpOwogICAgICAgIGlmICh0bXBTcGxpdC5sZW5ndGggPT09IDMpIHsKICAgICAgICAgICAgdG1wID0gdG1wU3BsaXRbMV0gKyAnLycgKyB0bXBTcGxpdFswXSArICcvJyArIHRtcFNwbGl0WzJdOwogICAgICAgICAgICBpZiAoaXNWYWxpZERhdGVTdHJpbmcodG1wKSkgewogICAgICAgICAgICAgICAgcmV0dXJuIHRtcDsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIHJldHVybiBkczsKfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxldCBtaXNzaW5nS2V5cyA9IG5vYmluYVZhbGlkYXRvci5pc1ZhbGlkSnNvbihqc29uKTsKICAgIGlmKG1pc3NpbmdLZXlzLmxlbmd0aCA+IDApewogICAgICAgIHJldHVybiBQcm9taXNlLnJlamVjdCgiVGhlIGlucHV0IGpzb24gaXMgbWlzc2luZyB0aGUgZm9sbG93aW5nIGtleXM6ICIgKyBtaXNzaW5nS2V5cy50b1N0cmluZygpKQogICAgfQoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB9KQo=</text>
+        <text encoding="base64">ZnVuY3Rpb24gZW5zdXJlVmFsaWRGaWVsZEZvcm1hdHMob2JqKXsKICAgIGxldCBkYW1hZ2VEYXRlID0gb2JqLmRhbWFnZURhdGU7CiAgICBpZihkYW1hZ2VEYXRlKXsKICAgICAgICBpZighKGRhbWFnZURhdGUgaW5zdGFuY2VvZiBEYXRlKSl7CiAgICAgICAgICAgIGRhbWFnZURhdGUgPSBtYW5pcHVsYXRlRGF0ZVN0cmluZyhkYW1hZ2VEYXRlKTsKICAgICAgICAgICAgaWYgKGlzVmFsaWREYXRlU3RyaW5nKGRhbWFnZURhdGUpKSB7CiAgICAgICAgICAgICAgICBsZXQgZGF0ZUZyb21TdHJpbmcgPSBuZXcgRGF0ZShkYW1hZ2VEYXRlKTsKICAgICAgICAgICAgICAgIGlmIChkYXRlRnJvbVN0cmluZyAhPT0gdW5kZWZpbmVkKSB7CiAgICAgICAgICAgICAgICAgICAgb2JqLmRhbWFnZURhdGUgPSBkYXRlRnJvbVN0cmluZzsKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuICJkYW1hZ2VEYXRlIGlzIGluIGFuIGludmFsaWQgZm9ybWF0IjsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHJldHVybiAiZGFtYWdlRGF0ZSBpcyBpbiBhbiBpbnZhbGlkIGZvcm1hdCI7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9ZWxzZSB7CiAgICAgICAgcmV0dXJuICJkYW1hZ2VEYXRlIGlzIHJlcXVpcmVkIjsKICAgIH0KICAgIGlmKG9iai5yZWZOdW1iZXIgJiYgaXNOYU4ob2JqLnJlZk51bWJlcikpewogICAgICAgIHJldHVybiAicmVmTnVtYmVyIG11c3QgYmUgYSBudW1lcmljYWwgdmFsdWUiOwogICAgfQogICAgaWYob2JqLmRhbWFnZUxvY2F0aW9uICYmIG9iai5kYW1hZ2VMb2NhdGlvbi5sZW5ndGggPiA0MCl7CiAgICAgICAgcmV0dXJuICJkYW1hZ2VMb2NhdGlvbiBpcyB0b28gbG9uZywgbWF4IDQwIGNoYXJzIjsKICAgIH0KICAgIGlmKG9iai5vdGhlckluZm8pewogICAgICAgIGZvcihsZXQga2V5IGluIG9iai5vdGhlckluZm8pewogICAgICAgICAgICBpZihrZXkgPT0gbnVsbCB8fCBvYmoub3RoZXJJbmZvW2tleV0gPT0gbnVsbCl7CiAgICAgICAgICAgICAgICByZXR1cm4gIk5laXRoZXIgdGhlIGtleSBub3IgdGhlIHZhbHVlIGluIHRoZSBvdGhlckluZm8gbWFwIGNhbiBiZSBudWxsIjsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICByZXR1cm4gb2JqOwp9Cgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">bGV0IHJlcXVlc3QgPSByZXF1aXJlKCdyZXF1ZXN0Jyk7Cg==</text>
+        <text encoding="base64">YXBwLnVzZShib2R5UGFyc2VyKCkpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1008,30 +1010,31 @@ exports.router = router;</text>
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">YS51c2UoYm9keVBhcnNlci5qc29uKHtsaW1pdDogJzI1MG1iJ30pKTsK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ZnVuY3Rpb24gZ2V0UmVxdWVzdE9wdHModG9rZW4sdXJpLHR5cGUsYm9keSl7CiAgICByZXR1cm57CiAgICAgICAgdXJsOiBjbGFpbXNBcGlQYXRoK3VyaSwKICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICAgICdBdXRob3JpemF0aW9uJzp0b2tlbiwKICAgICAgICAgICAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJwogICAgICAgIH0sCiAgICAgICAgbWV0aG9kOiB0eXBlLAogICAgICAgIGJvZHk6IHR5cGUgPT09ICdQT1NUJyB8fCB0eXBlID09PSAnUFVUJyA/IEpTT04uc3RyaW5naWZ5KGJvZHkpIDpudWxsCiAgICB9Owp9Cg==</text>
+      <register name="8" type="4">
+        <text>const router = require('./../nobina/router');
+
+exports.router = router;</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Ly8gZXhwb3J0cy5nZXRSZXF1ZXN0T3B0cyA9IGdldFJlcXVlc3RPcHRzOwo=</text>
+        <text encoding="base64">ICAgIGxldCBtaXNzaW5nS2V5cyA9IG5vYmluYVZhbGlkYXRvci5pc1ZhbGlkSnNvbihqc29uKTsKICAgIGlmKG1pc3NpbmdLZXlzLmxlbmd0aCA+IDApewogICAgICAgIHJldHVybiBQcm9taXNlLnJlamVjdCgiVGhlIGlucHV0IGpzb24gaXMgbWlzc2luZyB0aGUgZm9sbG93aW5nIGtleXM6ICIgKyBtaXNzaW5nS2V5cy50b1N0cmluZygpKQogICAgfQoK</text>
       </register>
       <register name=":" type="4">
         <text>onl</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjbGFpbXNBcGlQYXRoXD4=</last-search>
+      <last-search encoding="base64">XDxub2JpbmFWYWxpZGF0b3JcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjbGFpbXNBcGlQYXRoXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxub2JpbmFWYWxpZGF0b3JcPg==</last-pattern>
       <last-replace />
       <last-substitute>\/claim-type-resolver</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxzaW1pbGFyQ2xhaW1zXD4=</entry>
         <entry>'app.*2pdf</entry>
         <entry>irouter</entry>
         <entry encoding="base64">XDx3cmFwXD4=</entry>
@@ -1051,6 +1054,7 @@ exports.router = router;</text>
         <entry encoding="base64">XDxjbGFpbVw+</entry>
         <entry encoding="base64">XDxjbGFpbXNcPg==</entry>
         <entry encoding="base64">XDxjbGFpbXNBcGlQYXRoXD4=</entry>
+        <entry encoding="base64">XDxub2JpbmFWYWxpZGF0b3JcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLyQvIFwrICIsXG4iLw==</entry>

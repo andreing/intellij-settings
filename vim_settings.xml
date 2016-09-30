@@ -399,6 +399,12 @@
         <mark key="]" line="0" column="13" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" timestamp="1475220645192">
+        <mark key="'" line="171" column="0" />
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="23" column="0" />
+        <mark key="." line="23" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/file-service/Dockerfile" timestamp="1473342631799">
         <mark key="[" line="3" column="79" />
         <mark key="]" line="3" column="79" />
@@ -465,6 +471,9 @@
         <mark key="^" line="17" column="3" />
         <mark key="." line="18" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/MDCFilter.java" timestamp="1475221359731">
+        <mark key="'" line="24" column="31" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend-online/build.gradle" timestamp="1473246055079">
         <mark key="[" line="11" column="0" />
         <mark key="]" line="11" column="0" />
@@ -478,8 +487,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="165" column="35" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
-      <jump line="194" column="59" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="197" column="59" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="218" column="63" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="428" column="31" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
@@ -578,10 +585,12 @@
       <jump line="0" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header-dto.js" />
       <jump line="39" column="39" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
       <jump line="11" column="6" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
+      <jump line="178" column="0" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
+      <jump line="24" column="31" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/MDCFilter.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -634,13 +643,13 @@
         <text>;</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxub2JpbmFWYWxpZGF0b3JcPg==</text>
+        <text encoding="base64">XDxSRVFVRVNUX1JFTU9URV9BRERSXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">InVzZSBzdHJpY3QiOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -661,17 +670,17 @@
           <key char="110" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgcmVzLnN0YXR1cyhodHRwQ29kZS5CQURfUkVRVUVTVCkKICAgICAgICAgICAgICAgIC5qc29uKHJlcS5ib2R5KTs=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYoJHNjb3BlLnN3ZWRpc2hUcmFuc2FjdGlvbi50cmFuc2ZlclR5cGUgPT09ICdiYW5rJykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCRzY29wZS5zd2VkaXNoVHJhbnNhY3Rpb24uYmFuayAmJgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICRzY29wZS5zd2VkaXNoVHJhbnNhY3Rpb24uYmFuay5pZCA9PT0gNSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiAyMDsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVzLnN0YXR1cyhodHRwQ29kZS5CQURfUkVRVUVTVCkK</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgcmVzLnN0YXR1cyhodHRwQ29kZS5CQURfUkVRVUVTVCkKICAgICAgICAgICAgICAgIC5qc29uKHJlcS5ib2R5KTs=</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGxldCBtaXNzaW5nS2V5cyA9IG5vYmluYVZhbGlkYXRvci5maW5kTWlzc2luZ0tleXMoanNvbik7CiAgICBpZihtaXNzaW5nS2V5cy5sZW5ndGggPiAwKXsKICAgICAgICByZXR1cm4gUHJvbWlzZS5yZWplY3QoIlRoZSBpbnB1dCBqc29uIGlzIG1pc3NpbmcgdGhlIGZvbGxvd2luZyBrZXlzOiAiICsgbWlzc2luZ0tleXMudG9TdHJpbmcoKSkKICAgIH0KCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVzLnN0YXR1cyhodHRwQ29kZS5CQURfUkVRVUVTVCkK</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
@@ -1009,22 +1018,22 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxldCBtaXNzaW5nS2V5cyA9IG5vYmluYVZhbGlkYXRvci5maW5kTWlzc2luZ0tleXMoanNvbik7CiAgICBpZihtaXNzaW5nS2V5cy5sZW5ndGggPiAwKXsKICAgICAgICByZXR1cm4gUHJvbWlzZS5yZWplY3QoIlRoZSBpbnB1dCBqc29uIGlzIG1pc3NpbmcgdGhlIGZvbGxvd2luZyBrZXlzOiAiICsgbWlzc2luZ0tleXMudG9TdHJpbmcoKSkKICAgIH0KCg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZnVuY3Rpb24ganNvbihpbnB1dCl7CiAgICB0cnkgewogICAgICAgIEpTT04ucGFyc2UoaW5wdXQpOwogICAgfSBjYXRjaChlKXsKICAgICAgICBpbnB1dCA9IEpTT04uc3RyaW5naWZ5KGlucHV0KQogICAgfQogICAgcmV0dXJuIGlucHV0Owp9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>onl</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxub2JpbmFWYWxpZGF0b3JcPg==</last-search>
+      <last-search encoding="base64">XDxSRVFVRVNUX1JFTU9URV9BRERSXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxub2JpbmFWYWxpZGF0b3JcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxSRVFVRVNUX1JFTU9URV9BRERSXD4=</last-pattern>
       <last-replace />
       <last-substitute>\/claim-type-resolver</last-substitute>
       <last-dir>1</last-dir>
@@ -1032,7 +1041,6 @@
     </search>
     <history>
       <history-search>
-        <entry>'app.*2pdf</entry>
         <entry>irouter</entry>
         <entry encoding="base64">XDx3cmFwXD4=</entry>
         <entry encoding="base64">XDxyZXF1ZXN0XD4=</entry>
@@ -1052,6 +1060,7 @@
         <entry encoding="base64">XDxjbGFpbXNcPg==</entry>
         <entry encoding="base64">XDxjbGFpbXNBcGlQYXRoXD4=</entry>
         <entry encoding="base64">XDxub2JpbmFWYWxpZGF0b3JcPg==</entry>
+        <entry encoding="base64">XDxSRVFVRVNUX1JFTU9URV9BRERSXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLyQvIFwrICIsXG4iLw==</entry>

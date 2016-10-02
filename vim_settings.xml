@@ -87,12 +87,12 @@
       <file name="$USER_HOME$/repos/file-service/src/integration-test/java/test/IntegrationTestApplicationContext.java" timestamp="1472072779624">
         <mark key="[" line="6" column="18" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/nobina/validate-input.spec.js" timestamp="1475340597702">
+      <file name="$USER_HOME$/repos/webclaims/apps/nobina/validate-input.spec.js" timestamp="1475435422372">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="39" column="5" />
-        <mark key="." line="1" column="3" />
-        <mark key="^" line="1" column="3" />
+        <mark key="[" line="102" column="39" />
+        <mark key="]" line="105" column="0" />
+        <mark key="." line="105" column="0" />
+        <mark key="^" line="98" column="7" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/RoleController.java" timestamp="1474286356419">
         <mark key="[" line="109" column="108" />
@@ -373,11 +373,11 @@
         <mark key="[" line="0" column="18" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/apps/nobina/validate-input.js" timestamp="1475430285336">
-        <mark key="'" line="17" column="0" />
-        <mark key="[" line="213" column="59" />
-        <mark key="]" line="215" column="23" />
-        <mark key="." line="215" column="23" />
-        <mark key="^" line="215" column="23" />
+        <mark key="'" line="18" column="0" />
+        <mark key="[" line="214" column="59" />
+        <mark key="]" line="216" column="23" />
+        <mark key="." line="216" column="23" />
+        <mark key="^" line="216" column="23" />
       </file>
       <file name="/Dummy.txt" timestamp="1475236126703">
         <mark key="[" line="0" column="0" />
@@ -385,9 +385,9 @@
       <file name="$USER_HOME$/repos/file-service/src/integration-test/java/IntegrationTestContext.java" timestamp="1461509778966">
         <mark key="[" line="0" column="28" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/nobina/router.js" timestamp="1475427375581">
+      <file name="$USER_HOME$/repos/webclaims/apps/nobina/router.js" timestamp="1475435230112">
         <mark key="'" line="56" column="6" />
-        <mark key="[" line="20" column="38" />
+        <mark key="[" line="37" column="62" />
         <mark key="]" line="20" column="35" />
         <mark key="." line="20" column="35" />
         <mark key="^" line="20" column="35" />
@@ -460,7 +460,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="168" column="43" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="169" column="86" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="200" column="81" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="204" column="56" filename="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
@@ -550,7 +549,6 @@
       <jump line="44" column="7" filename="$USER_HOME$/repos/webclaims/apps/nobina/validate-input.spec.js" />
       <jump line="55" column="23" filename="$USER_HOME$/repos/webclaims/apps/nobina/validate-input.spec.js" />
       <jump line="75" column="18" filename="$USER_HOME$/repos/webclaims/apps/nobina/validate-input.spec.js" />
-      <jump line="0" column="0" filename="$USER_HOME$/repos/webclaims/apps/nobina/validate-input.spec.js" />
       <jump line="66" column="60" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
       <jump line="69" column="39" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
       <jump line="55" column="85" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
@@ -560,10 +558,12 @@
       <jump line="8" column="32" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
       <jump line="53" column="55" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
       <jump line="3" column="40" filename="$USER_HOME$/repos/webclaims/apps/servicecenter/router_external.js" />
+      <jump line="52" column="0" filename="$USER_HOME$/repos/webclaims/apps/nobina/validate-input.spec.js" />
+      <jump line="0" column="0" filename="$USER_HOME$/repos/webclaims/apps/nobina/validate-input.spec.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICByZXMuanNvbihlcnJvcnMpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -613,16 +613,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgIA==</text>
+        <text>;</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDx3cmFwXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBEYXRlIHRpbWVzdGFtcCA9IG5ldyBEYXRlKGRhdGUuYXRUaW1lKDAsIDApLnRvRXBvY2hTZWNvbmQoWm9uZU9mZnNldC5vZihab25lSWQuc3lzdGVtRGVmYXVsdCgpLmdldElkKCkpKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHZhbGlkYXRvci52YWxpZGF0ZUlucHV0KHJlcSwgcmVzLCBuZXh0KTsKICAgICAgICAgICAgICAgIGV4cGVjdChuZXh0LmNhbGxDb3VudCkudG8uZXF1YWwoMSk7CiAgICAgICAgICAgICAgICBleHBlY3QobmV4dC5sYXN0Q2FsbC5hcmcpLnRvLmJlLnVuZGVmaW5lZDsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByZXMuanNvbihlcnJvcnMpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -644,19 +644,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXMuc2VuZCgnVGhlcmUgaGF2ZSBiZWVuIHZhbGlkYXRpb24gZXJyb3JzOiAnICsgdXRpbC5pbnNwZWN0KGVycm9ycyksIDQwMCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXMuanNvbihlcnJvcnMpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXMuc2VuZCgnVGhlcmUgaGF2ZSBiZWVuIHZhbGlkYXRpb24gZXJyb3JzOiAnICsgdXRpbC5pbnNwZWN0KGVycm9ycyksIDQwMCk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Y29uc3Qgbm9iaW5hVmFsaWRhdG9yID0gcmVxdWlyZSgnLi8uLi8uLi9ub2JpbmEvdmFsaWRhdGUtaW5wdXQnKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICd3aXRuZXNzJzoge30K</text>
+        <text encoding="base64">Y29uc3Qgbm9iaW5hVmFsaWRhdG9yID0gcmVxdWlyZSgnLi8uLi8uLi9ub2JpbmEvdmFsaWRhdGUtaW5wdXQnKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAucG9zdCh7CiAgICAgICAgICAgIHVyaTogJy9jb250cmFjdC9zZWFyY2gvYXV0by8nICsgcmVnTnVtLAogICAgICAgICAgICBib2R5OiBkYW1hZ2VEYXRlCiAgICAgICAgfSk7Cg==</text>
+        <text encoding="base64">ICAgICd3aXRuZXNzJzoge30K</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -991,13 +991,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAganNvbjogZmFsc2UsCg==</text>
+        <text encoding="base64">ICAgICAgICAucG9zdCh7CiAgICAgICAgICAgIHVyaTogJy9jb250cmFjdC9zZWFyY2gvYXV0by8nICsgcmVnTnVtLAogICAgICAgICAgICBib2R5OiBkYW1hZ2VEYXRlCiAgICAgICAgfSk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAganNvbjogZmFsc2UsCg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgIHRyeSB7CiAgICAgICAgcmV0dXJuCiAgICB9</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

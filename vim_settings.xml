@@ -625,7 +625,7 @@
         <text encoding="base64">ICAgIA==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjb250cmFjdFw+</text>
+        <text>post</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBMT0cuaW5mbygiQXV0byBjb250cmFjdCBzZWFyY2ggd2l0aCByZWdudW09e30gcmVmZGF0ZT17fSIsIHJlZ051bSwgdGltZXN0YW1wLnRvU3RyaW5nKCkpOwo=</text>
@@ -1013,17 +1013,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjb250cmFjdFw+</last-search>
+      <last-search>post</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjb250cmFjdFw+</last-pattern>
+      <last-pattern>post</last-pattern>
       <last-replace>next</last-replace>
       <last-substitute>mockNext</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxjbGFpbURvY3VtZW50c1w+</entry>
         <entry encoding="base64">XDxkdG9DcmVhdG9yXD4=</entry>
         <entry encoding="base64">XDxjbGFpbXNFdmVudHNcPg==</entry>
         <entry>= \zs</entry>
@@ -1043,6 +1042,7 @@
         <entry>mockNext</entry>
         <entry encoding="base64">XDxqc29uVG9PYmplY3RcPg==</entry>
         <entry encoding="base64">XDxjb250cmFjdFw+</entry>
+        <entry>post</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLykkLywgcmVxdWlyZWQ9dHJ1ZSkv</entry>

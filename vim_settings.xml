@@ -24,12 +24,12 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/application-integration.properties" timestamp="1472213246384">
         <mark key="[" line="11" column="50" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/role/claim-roles.spec.js" timestamp="1475573320769">
+      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/role/claim-roles.spec.js" timestamp="1475576715409">
         <mark key="'" line="159" column="8" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="5" column="28" />
-        <mark key="." line="5" column="0" />
-        <mark key="^" line="7" column="19" />
+        <mark key="[" line="32" column="0" />
+        <mark key="]" line="33" column="63" />
+        <mark key="." line="33" column="14" />
+        <mark key="^" line="33" column="14" />
       </file>
       <file name="/Objects.toStringHelper (Guava)" timestamp="1473260084154">
         <mark key="[" line="0" column="0" />
@@ -85,7 +85,12 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/resources/logback-test.xml" timestamp="1461748969160">
         <mark key="[" line="7" column="223" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/event/claim-events.js" timestamp="1475573370575" />
+      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/event/claim-events.js" timestamp="1475577270178">
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="37" column="0" />
+        <mark key="." line="37" column="0" />
+        <mark key="^" line="32" column="7" />
+      </file>
       <file name="$USER_HOME$/repos/file-service/client/gradle.properties" timestamp="1472633760065">
         <mark key="[" line="0" column="0" />
       </file>
@@ -111,11 +116,11 @@
         <mark key="^" line="86" column="4" />
         <mark key="." line="86" column="4" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/event/claim-events.spec.js" timestamp="1475573347550">
-        <mark key="[" line="7" column="40" />
-        <mark key="]" line="7" column="0" />
-        <mark key="." line="7" column="0" />
-        <mark key="^" line="7" column="0" />
+      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/event/claim-events.spec.js" timestamp="1475576998869">
+        <mark key="[" line="50" column="0" />
+        <mark key="]" line="51" column="51" />
+        <mark key="." line="50" column="0" />
+        <mark key="^" line="44" column="40" />
       </file>
       <file name="/a.sql" timestamp="1472048363410">
         <mark key="[" line="0" column="0" />
@@ -582,7 +587,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">InVzZSBzdHJpY3QiOwpjb25zdCBjaGFpID0gcmVxdWlyZSgnY2hhaScpOwpjb25zdCBjaGFpQXNQcm9taXNlZCA9IHJlcXVpcmUoJ2NoYWktYXMtcHJvbWlzZWQnKTsKY2hhaS51c2UoY2hhaUFzUHJvbWlzZWQpOwpjaGFpLnNob3VsZCgpOwpjb25zdCBub2NrID0gcmVxdWlyZSgnbm9jaycpOwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -632,16 +637,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>b</text>
+        <text encoding="base64">IHJlc3BvbnNl</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyZXF1ZXN0XD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">InVzZSBzdHJpY3QiOwpjb25zdCBjaGFpID0gcmVxdWlyZSgnY2hhaScpOwpjb25zdCBjaGFpQXNQcm9taXNlZCA9IHJlcXVpcmUoJ2NoYWktYXMtcHJvbWlzZWQnKTsKY2hhaS51c2UoY2hhaUFzUHJvbWlzZWQpOwpjaGFpLnNob3VsZCgpOwpjb25zdCBub2NrID0gcmVxdWlyZSgnbm9jaycpOwo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgY29tbWVudCA9ICJBdXRvbWF0aWNhbGx5IGNyZWF0ZWQgYnkgd2ViY2xhaW1zIGFzIGEgcmVzcG9uc2UgdG8gYXV0b21hdGljYWxseSBjcmVhdGluZyBhIG5ldyBoZWFkZXIgZHVlIHRvIG5ldyBleHRlcm5hbCBzdWJtaXNzaW9uIjsKICAgICAgICBpZihpbnB1dEV2ZW50Q29tbWVudCl7CiAgICAgICAgICAgIGNvbW1lbnQgKz0gIjxici8+PGJyLz5FdmVudCBjb21tZW50IHBvc3RlZCBieSBleHRlcm5hbCBzeXN0ZW06PGJyLz4iICsgaW5wdXRFdmVudENvbW1lbnQ7CiAgICAgICAgfQogICAgICAgIGxldCBkdG8gPSBkdG9DcmVhdG9yLmdldEV2ZW50RHRvKGhlYWRlci5pZCxyZXNvbHZlci5yZXNvbHZlQ2xhaW1SZXBvcnRlZEV2ZW50VHlwZUJ5TG9iSWQoaGVhZGVyLmNsYWltTG9iSWQpLGNvbW1lbnQpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Y29uc3QgZXhwZWN0ID0gY2hhaS5leHBlY3Q7Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -663,19 +668,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Y29uc3QgcnBlcnJvciA9IHJlcXVpcmUoJ3JlcXVlc3QtcHJvbWlzZS1uYXRpdmUvZXJyb3JzJyk7Cg==</text>
+        <text encoding="base64">ICAgIGxldCByZXF1ZXN0ID0gY2xhaW1zQXBpLmpzb25SZXF1ZXN0KHRva2VuKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIC5yZWR1Y2UoKHByZXYsY3VycikgPT4gewo=</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">Y29uc3QgcmVxdWVzdCA9IHJlcXVpcmUoJ3JlcXVlc3QnKTsK</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIC8vIGxldCByZXF1ZXN0ID0gewogICAgLy8gICAgICAgICBwb3N0KHVyaSwgb2JqKSB7CiAgICAvLyAgICAgICAgICAgICByZXR1cm4gcnAoe21ldGhvZDonUE9TVCcsIHVyaTp1cmksIGJvZHk6b2JqLCBzaW1wbGU6ZmFsc2UsIHJlc29sdmVXaXRoRnVsbFJlc3BvbnNlOiB0cnVlfSkKICAgIC8vICAgICAgICAgfQogICAgLy8gICAgIH07Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2NvcGUKICAgICAgICAgICAgICAgIC4K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Y29uc3QgcmVxdWVzdCA9IHJlcXVpcmUoJ3JlcXVlc3QnKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IGVycjQwMAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1010,13 +1015,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIH07Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLnBvc3QoJy9ldmVudC9uZXcnKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGxldCBjbGFpbXNSZXF1ZXN0ID0gZnVuY3Rpb24oKSB7Cg==</text>
+        <text encoding="base64">Y29uc3QgZXhwZWN0ID0gY2hhaS5leHBlY3Q7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Y29uc3QgcnBlcnJvciA9IHJlcXVpcmUoJ3JlcXVlc3QtcHJvbWlzZS1uYXRpdmUvZXJyb3JzJyk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL2Vyci9lcnJvcnMvZw==</text>

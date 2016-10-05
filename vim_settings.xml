@@ -290,6 +290,9 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/DamageInfo.java" timestamp="1465311657173">
         <mark key="[" line="95" column="5" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/ClaimDocumentService.java" timestamp="1475659694857">
+        <mark key="'" line="84" column="55" />
+      </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/local/index.html" timestamp="1471440919682">
         <mark key="[" line="75" column="102" />
       </file>
@@ -512,8 +515,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="25" column="13" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/integration/email/MailSender.java" />
-      <jump line="3" column="0" filename="$USER_HOME$/repos/webclaims/apps/nobina/index.js" />
       <jump line="13" column="0" filename="$USER_HOME$/repos/webclaims/apps/nobina/validate-input.js" />
       <jump line="84" column="35" filename="$USER_HOME$/repos/webclaims/apps/servicecenter/router_internal.js" />
       <jump line="32" column="37" filename="$USER_HOME$/repos/webclaims/server.js" />
@@ -612,6 +613,8 @@
       <jump line="69" column="38" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/reports/ReportsController.java" />
       <jump line="58" column="87" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/reports/ReportsController.java" />
       <jump line="68" column="39" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/reports/ReportsController.java" />
+      <jump line="120" column="41" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/ClaimDocumentService.java" />
+      <jump line="84" column="55" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/ClaimDocumentService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -668,7 +671,7 @@
         <text>error</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxyZXF1ZXN0XD4=</text>
+        <text encoding="base64">XDxzYXZlRmlsZVw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">Y29uc3QgY2hhaSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgY2hhaUFzUHJvbWlzZWQgPSByZXF1aXJlKCdjaGFpLWFzLXByb21pc2VkJyk7CmNoYWkudXNlKGNoYWlBc1Byb21pc2VkKTsKY2hhaS5zaG91bGQoKTsKY29uc3Qgbm9jayA9IHJlcXVpcmUoJ25vY2snKTsKY29uc3QgaHR0cEVycm9ycyA9IHJlcXVpcmUoJy4uLy4uLy4uL3Rlc3QvZml4dHVyZXMvbm9jay5maXh0dXJlJykuaHR0cEVycm9yczsK</text>
@@ -1056,9 +1059,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxyZXF1ZXN0XD4=</last-search>
+      <last-search encoding="base64">XDxzYXZlRmlsZVw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxyZXF1ZXN0XD4=</last-pattern>
+      <last-pattern encoding="base64">XDxzYXZlRmlsZVw+</last-pattern>
       <last-replace>errors</last-replace>
       <last-substitute>err</last-substitute>
       <last-dir>1</last-dir>
@@ -1066,7 +1069,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxub2JpbmFWYWxpZGF0b3JcPg==</entry>
         <entry encoding="base64">XDxSRVFVRVNUX1JFTU9URV9BRERSXD4=</entry>
         <entry>req\.body</entry>
         <entry>parsedReq</entry>
@@ -1086,6 +1088,7 @@
         <entry encoding="base64">XDxiYXNpY1w+</entry>
         <entry encoding="base64">XDxzaW1wbGVcPg==</entry>
         <entry encoding="base64">XDxyZXF1ZXN0XD4=</entry>
+        <entry encoding="base64">XDxzYXZlRmlsZVw+</entry>
       </history-search>
       <history-cmd>
         <entry>o QuerySpec.*</entry>

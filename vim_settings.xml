@@ -67,11 +67,11 @@
       <file name="$USER_HOME$/repos/file-service/src/test/groovy/protector/fileservice/document/DocumentControllerSpec.groovy" timestamp="1473170443484">
         <mark key="[" line="104" column="84" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.spec.js" timestamp="1475674565696">
-        <mark key="[" line="43" column="44" />
-        <mark key="]" line="43" column="41" />
-        <mark key="^" line="43" column="41" />
-        <mark key="." line="43" column="41" />
+      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.spec.js" timestamp="1475676466694">
+        <mark key="[" line="50" column="53" />
+        <mark key="]" line="51" column="31" />
+        <mark key="^" line="50" column="34" />
+        <mark key="." line="51" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/config/auth.js" timestamp="1475585550344">
         <mark key="'" line="158" column="16" />
@@ -188,12 +188,12 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/resources/initapp.resource.js" timestamp="1470893235789">
         <mark key="[" line="9" column="5" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.js" timestamp="1475673601861">
+      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.js" timestamp="1475675212010">
         <mark key="'" line="7" column="32" />
         <mark key="[" line="159" column="62" />
-        <mark key="]" line="154" column="32" />
-        <mark key="^" line="154" column="32" />
-        <mark key="." line="154" column="32" />
+        <mark key="]" line="159" column="66" />
+        <mark key="^" line="159" column="66" />
+        <mark key="." line="159" column="66" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/update-reserves.html" timestamp="1474289755849">
         <mark key="[" line="14" column="161" />
@@ -640,7 +640,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZpbGVTdHJlYW0uZW1pdCgnJykK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -690,7 +690,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>y</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxzYXZlRmlsZVw+</text>
@@ -699,7 +699,7 @@
         <text>`Expected ${stream.Stream.name}, got ${fileStream.name ? fileStream.name : toString.call(fileStream)}`</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZpbGVTdHJlYW0uZW1pdCgnJykK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -721,19 +721,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbW9ja1JlYWRhYmxlID0gc2ltcGxlLm1vY2soc3RyZWFtZC5SZWFkYWJsZS5wcm90b3R5cGUpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaXQoJ3Nob3VsZCBub3QgdGhyb3cgZXJyb3JzIG9uIHZhbGlkIGlucHV0JywgZnVuY3Rpb24gKCkgewogICAgICAgICAgICAgICAgZXhwZWN0KGZuKG5ldyBzdHJlYW0uUmVhZGFibGUsIG5ldyBGaWxlTWV0YWRhdGEsIDEyMywge30pKS50by5ub3QudGhyb3coVHlwZUVycm9yKTsKICAgICAgICAgICAgfSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQgbW9ja1JlYWRhYmxlID0gc2ltcGxlLm1vY2soc3RyZWFtZC5SZWFkYWJsZS5wcm90b3R5cGUpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdCgxKS50by5iZS5hKE51bWJlcik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaXQoJ3Nob3VsZCBub3QgdGhyb3cgZXJyb3JzIG9uIHZhbGlkIGlucHV0JywgZnVuY3Rpb24gKCkgewogICAgICAgICAgICAgICAgZXhwZWN0KGZuKG5ldyBzdHJlYW0uUmVhZGFibGUsIG5ldyBGaWxlTWV0YWRhdGEsIDEyMywge30pKS50by5ub3QudGhyb3coVHlwZUVycm9yKTsKICAgICAgICAgICAgfSk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdCgxKS50by5iZS5hKE51bWJlcik7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaXQoJ3Nob3VsZCB0aHJvdyBUeXBlRXJyb3IgaWYgZXZlbnRJZCBpcyBub3QgYSBudW1iZXInLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgICAgICBleHBlY3QoZm4obmV3IHN0cmVhbS5SZWFkYWJsZSwgbmV3IEZpbGVNZXRhZGF0YSwgdW5kZWZpbmVkLCBudWxsKSkudG8udGhyb3coVHlwZUVycm9yLCAvTnVtYmVyLykKICAgICAgICAgICAgfSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1068,13 +1068,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGxldCB0b1N0cmluZyA9IE9iamVjdC5wcm90b3R5cGUudG9TdHJpbmc7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaXQoJ3Nob3VsZCB0aHJvdyBUeXBlRXJyb3IgaWYgZXZlbnRJZCBpcyBub3QgYSBudW1iZXInLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgICAgICBleHBlY3QoZm4obmV3IHN0cmVhbS5SZWFkYWJsZSwgbmV3IEZpbGVNZXRhZGF0YSwgdW5kZWZpbmVkLCBudWxsKSkudG8udGhyb3coVHlwZUVycm9yLCAvTnVtYmVyLykKICAgICAgICAgICAgfSk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGxldCB0eXBlRXJyb3IgPSAoaW5wdXQsIGV4cGVjdGVkKSA9PiBuZXcgVHlwZUVycm9yKGBFeHBlY3RlZCAke2V4cGVjdGVkLm5hbWV9LCBnb3QgJHtpbnB1dC5uYW1lID8gaW5wdXQubmFtZSA6IHRvU3RyaW5nLmNhbGwoaW5wdXQpfWApOwo=</text>
+        <text encoding="base64">ICAgIGxldCB0b1N0cmluZyA9IE9iamVjdC5wcm90b3R5cGUudG9TdHJpbmc7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGlmICghKG1ldGFkYXRhIGluc3RhbmNlb2YgRmlsZU1ldGFkYXRhKSkgewogICAgICAgIHRocm93IHR5cGVFcnJvcihtZXRhZGF0YSwgRmlsZU1ldGFkYXRhKTsKICAgIH0K</text>
+        <text encoding="base64">ICAgIGxldCB0eXBlRXJyb3IgPSAoaW5wdXQsIGV4cGVjdGVkKSA9PiBuZXcgVHlwZUVycm9yKGBFeHBlY3RlZCAke2V4cGVjdGVkLm5hbWV9LCBnb3QgJHtpbnB1dC5uYW1lID8gaW5wdXQubmFtZSA6IHRvU3RyaW5nLmNhbGwoaW5wdXQpfWApOwo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

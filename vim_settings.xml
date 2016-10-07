@@ -153,12 +153,12 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/resources/initapp.resource.js" timestamp="1470893235789">
         <mark key="[" line="9" column="5" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.js" timestamp="1475846355576">
-        <mark key="'" line="203" column="32" />
-        <mark key="[" line="190" column="37" />
-        <mark key="]" line="169" column="28" />
-        <mark key="^" line="169" column="28" />
-        <mark key="." line="169" column="28" />
+      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.js" timestamp="1475847004397">
+        <mark key="'" line="201" column="32" />
+        <mark key="[" line="227" column="0" />
+        <mark key="]" line="227" column="0" />
+        <mark key="^" line="229" column="20" />
+        <mark key="." line="227" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/update-reserves.html" timestamp="1474289755849">
         <mark key="[" line="14" column="161" />
@@ -566,8 +566,8 @@
       <jump line="44" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.spec.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICdDb250ZW50LVR5cGUnOiAnaW1hZ2UvcG5nJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICdMYXN0LU1vZGlmaWVkJzogbGFzdE1vZGlmaWVkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ1RyYW5zZmVyLUVuY29kaW5nJzogJ2NodW5rZWQnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ0NvbnRlbnQtRGlzcG9zaXRpb24nOiAnYXR0YWNobWVudDtmaWxlbmFtZT1iYXIn</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3BvbnNlLnBpcGUocik7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -617,16 +617,18 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgICBub2NrKCdodHRwczovL2NsYWltc3Rlc3QucHJvdGVjdG9yZm9yc2lrcmluZy5uby9jbGFpbXMvYXBpJyk=</text>
+        <text>uploadRequest(metadata, eventId, token)</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyXD4=</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IGxhc3RNb2RpZmllZCA9IG5ldyBEYXRlKCk7CiAgICAgICAgICAgIHNjb3BlMQogICAgICAgICAgICAgICAgLmdldCgnL2ZvbycpCiAgICAgICAgICAgICAgICAucmVwbHkoZnVuY3Rpb24odXJpKSB7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ1xudXJpOiAnICsgdXJpICsgJ1xuJyk7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFsKICAgICAgICAgICAgICAgICAgICAgICAgMjAwLAogICAgICAgICAgICAgICAgICAgICAgICBCdWZmZXIuZnJvbSgnaSBhbSB0aGUgZmlsZVxuJyksCiAgICAgICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICdDb250ZW50LVR5cGUnOiAnaW1hZ2UvcG5nJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICdMYXN0LU1vZGlmaWVkJzogbGFzdE1vZGlmaWVkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ1RyYW5zZmVyLUVuY29kaW5nJzogJ2NodW5rZWQnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ0NvbnRlbnQtRGlzcG9zaXRpb24nOiAnYXR0YWNobWVudDtmaWxlbmFtZT1iYXInCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBdOwogICAgICAgICAgICAgICAgfSk7Cg==</text>
+      <register name="0" type="4">
+        <text>uploadRequest(metadata, eventId, token).post({
+                        callback: onSaved(resolve, reject)
+                    })</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICdDb250ZW50LVR5cGUnOiAnaW1hZ2UvcG5nJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICdMYXN0LU1vZGlmaWVkJzogbGFzdE1vZGlmaWVkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ1RyYW5zZmVyLUVuY29kaW5nJzogJ2NodW5rZWQnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ0NvbnRlbnQtRGlzcG9zaXRpb24nOiAnYXR0YWNobWVudDtmaWxlbmFtZT1iYXIn</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3BvbnNlLnBpcGUocik7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -648,45 +650,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgQnVmZmVyLmZyb20oJ2kgYW0gdGhlIGZpbGVcbicpLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlcnJvci5zdGF0dXMgPSByZXNwb25zZS5zdGF0dXNDb2RlOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBuZXJyID0gbmV3IEVycm9yKHJlc3BvbnNlLnN0YXR1c0NvZGUgKyAnIC0gJyArIGVycm9yKTsKICAgICAgICAgICAgICAgIG5lcnIuc3RhdHVzID0gaHR0cENvZGUuSU5UX1NFUlZfRVJSOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IHNjb3BlMiA9IG5vY2soJ2h0dHBzOi8vY2xhaW1zdGVzdC5wcm90ZWN0b3Jmb3JzaWtyaW5nLm5vL2NsYWltcy9hcGknKTsK</text>
+        <text encoding="base64">Cgo=</text>
       </register>
-      <register name="5" type="4">
-        <text>describe('a successful transfer', function () {
-            let lastModified = new Date();
-            scope1
-                .get('/foo')
-                .reply(function(uri) {
-                    console.log('\nuri: ' + uri + '\n');
-                    return [
-                        200,
-                        Buffer.from('i am the file\n'),
-                        {
-                            'Content-Type': 'image/png',
-                            'Last-Modified': lastModified,
-                            'Transfer-Encoding': 'chunked',
-                            'Content-Disposition': 'attachment;filename=bar'
-                        }
-                    ];
-                });
-            let  = nock('https://claimstest.protectorforsikring.no/claims/api');
-            
-                .filteringRequestBody(function (body) {
-                    return '*';
-                })
-                .post('/document/upload-streaming/123', '*')
-                .reply(function(uri, requestBody) {
-                    console.log('\nuri: ' + uri + '\nrequest body: \n' + requestBody);
-                    return [201, {message: 'ok'}, {'Content-Type': 'application/json'}];
-                });</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlcXVlc3QKICAgICAgICAgICAgICAgICAgICAuZ2V0KGRvY3VtZW50TGluaykKICAgICAgICAgICAgICAgICAgICAub24oJ2Vycm9yJywgKGVycm9yUmVzcCk9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxldCBuZXJyID0gbmV3IEVycm9yKGVycm9yUmVzcC5ib2R5IHx8ICdDb3VsZCBub3QgZG93bmxvYWQgZG9jdW1lbnQgZnJvbSB1cmk9JyArIGRvY3VtZW50TGluayk7CiAgICAgICAgICAgICAgICAgICAgICAgIG5lcnIuc3RhdHVzID0gZXJyb3JSZXNwLnN0YXR1c0NvZGU7CiAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgICAucGlwZSh1cGxvYWRSZXF1ZXN0KG1ldGFkYXRhLCBldmVudElkLCB0b2tlbikucG9zdCh7CiAgICAgICAgICAgICAgICAgICAgICAgIGNhbGxiYWNrOiBvblNhdmVkKHJlc29sdmUsIHJlamVjdCkKICAgICAgICAgICAgICAgICAgICB9KSk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IHNjb3BlMSA9IG5vY2soJ2h0dHA6Ly9sb2NhbGhvc3Q6OTk5OS90ZXN0Jyk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBtZXRhZGF0YSA9IG5ldyBGaWxlTWV0YWRhdGEoZmlsZW5hbWUsIGNvbnRlbnRUeXBlLCAwLCBsYXN0TW9kaWZpZWQpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1021,13 +997,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgc3VtICggQ0FTRSBXSEVOIGNoLkN3YiA9IDAgVEhFTiAxIEVMU0UgMCBFTkQgKSBBUyBjbnRfY2xhaW1zLAogICAgICAgICBzdW0gKCBDQVNFIFdIRU4gY2guQ3diID0gMSBUSEVOIDEgRUxTRSAwIEVORCApIEFTIGNudF9jd2IK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBmaWxlc3RyZWFtID0gbmV3IHN0cmVhbS5QYXNzVGhyb3VnaCgpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICBjbnRfdG90YWwgLSAoY250X2N3YiArIGNudF9jbGFpbXMpIGFzIGNudF9ub19jYXRlZ29yeQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBmaWxlc3RyZWFtID0gbmV3IHN0cmVhbS5QYXNzVGhyb3VnaCgpOwogICAgICAgICAgICAgICAgbGV0IG1ldGFkYXRhID0gbmV3IEZpbGVNZXRhZGF0YShmaWxlbmFtZSxjb250ZW50VHlwZSwgbGFzdE1vZGlmaWVkKTsKCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">U0VMRUNUIGNvdW50KCopIGZyb20gQ2xhaW1fRG9jdW1lbnQgd2hlcmUgRmlsZV9TZXJ2aWNlX0lkIGlzIG51bGwgYW5kIGN3Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIGxldCBjb250ZW50TGVuZ3RoID0gcGFyc2VJbnQocmVzcG9uc2UuaGVhZGVyc1snQ29udGVudC1MZW5ndGgnXSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>x</text>

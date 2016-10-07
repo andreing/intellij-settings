@@ -153,12 +153,11 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/resources/initapp.resource.js" timestamp="1470893235789">
         <mark key="[" line="9" column="5" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.js" timestamp="1475847004397">
+      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.js" timestamp="1475850454047">
         <mark key="'" line="201" column="32" />
-        <mark key="[" line="227" column="0" />
-        <mark key="]" line="227" column="0" />
-        <mark key="^" line="229" column="20" />
-        <mark key="." line="227" column="0" />
+        <mark key="[" line="230" column="68" />
+        <mark key="]" line="231" column="0" />
+        <mark key="." line="231" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/update-reserves.html" timestamp="1474289755849">
         <mark key="[" line="14" column="161" />
@@ -567,7 +566,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3BvbnNlLnBpcGUocik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIHJlc3BvbnNlLnBpcGUoZmlsZXN0cmVhbSk7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -622,13 +621,11 @@
       <register name="/" type="4">
         <text encoding="base64">XDxyXD4=</text>
       </register>
-      <register name="0" type="4">
-        <text>uploadRequest(metadata, eventId, token).post({
-                        callback: onSaved(resolve, reject)
-                    })</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBmaWxlc3RyZWFtID0gbmV3IHN0cmVhbS5QYXNzVGhyb3VnaCgpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3BvbnNlLnBpcGUocik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIHJlc3BvbnNlLnBpcGUoZmlsZXN0cmVhbSk7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -650,19 +647,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlcnJvci5zdGF0dXMgPSByZXNwb25zZS5zdGF0dXNDb2RlOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBmaWxlc3RyZWFtID0gbmV3IHN0cmVhbS5QYXNzVGhyb3VnaCgpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBuZXJyID0gbmV3IEVycm9yKHJlc3BvbnNlLnN0YXR1c0NvZGUgKyAnIC0gJyArIGVycm9yKTsKICAgICAgICAgICAgICAgIG5lcnIuc3RhdHVzID0gaHR0cENvZGUuSU5UX1NFUlZfRVJSOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3BvbnNlLnBpcGUoZmlsZXN0cmVhbSk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3BvbnNlLnBpcGUoZmlsZXN0cmVhbSk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlcXVlc3QKICAgICAgICAgICAgICAgICAgICAuZ2V0KGRvY3VtZW50TGluaykKICAgICAgICAgICAgICAgICAgICAub24oJ2Vycm9yJywgKGVycm9yUmVzcCk9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxldCBuZXJyID0gbmV3IEVycm9yKGVycm9yUmVzcC5ib2R5IHx8ICdDb3VsZCBub3QgZG93bmxvYWQgZG9jdW1lbnQgZnJvbSB1cmk9JyArIGRvY3VtZW50TGluayk7CiAgICAgICAgICAgICAgICAgICAgICAgIG5lcnIuc3RhdHVzID0gZXJyb3JSZXNwLnN0YXR1c0NvZGU7CiAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgICAgICAucGlwZSh1cGxvYWRSZXF1ZXN0KG1ldGFkYXRhLCBldmVudElkLCB0b2tlbikucG9zdCh7CiAgICAgICAgICAgICAgICAgICAgICAgIGNhbGxiYWNrOiBvblNhdmVkKHJlc29sdmUsIHJlamVjdCkKICAgICAgICAgICAgICAgICAgICB9KSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3BvbnNlLnBpcGUoZmlsZXN0cmVhbSk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBtZXRhZGF0YSA9IG5ldyBGaWxlTWV0YWRhdGEoZmlsZW5hbWUsIGNvbnRlbnRUeXBlLCAwLCBsYXN0TW9kaWZpZWQpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCByID0gdXBsb2FkUmVxdWVzdChtZXRhZGF0YSwgZXZlbnRJZCwgdG9rZW4pOwogICAgICAgICAgICAgICAgcmVzcG9uc2UucGlwZShyLnBvc3QoewogICAgICAgICAgICAgICAgICAgICAgICBjYWxsYmFjazogb25TYXZlZChyZXNvbHZlLCByZWplY3QpCiAgICAgICAgICAgICAgICAgICAgfSkpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -997,13 +994,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBmaWxlc3RyZWFtID0gbmV3IHN0cmVhbS5QYXNzVGhyb3VnaCgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3BvbnNlLnBpcGUocik7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBmaWxlc3RyZWFtID0gbmV3IHN0cmVhbS5QYXNzVGhyb3VnaCgpOwogICAgICAgICAgICAgICAgbGV0IG1ldGFkYXRhID0gbmV3IEZpbGVNZXRhZGF0YShmaWxlbmFtZSxjb250ZW50VHlwZSwgbGFzdE1vZGlmaWVkKTsKCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlcnJvci5zdGF0dXMgPSByZXNwb25zZS5zdGF0dXNDb2RlOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIGxldCBjb250ZW50TGVuZ3RoID0gcGFyc2VJbnQocmVzcG9uc2UuaGVhZGVyc1snQ29udGVudC1MZW5ndGgnXSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBuZXJyID0gbmV3IEVycm9yKHJlc3BvbnNlLnN0YXR1c0NvZGUgKyAnIC0gJyArIGVycm9yKTsKICAgICAgICAgICAgICAgIG5lcnIuc3RhdHVzID0gaHR0cENvZGUuSU5UX1NFUlZfRVJSOwo=</text>
       </register>
       <register name=":" type="4">
         <text>x</text>

@@ -153,11 +153,11 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/resources/initapp.resource.js" timestamp="1470893235789">
         <mark key="[" line="9" column="5" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.js" timestamp="1476096687431">
-        <mark key="[" line="186" column="109" />
-        <mark key="]" line="173" column="8" />
-        <mark key="^" line="173" column="8" />
-        <mark key="." line="173" column="8" />
+      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.js" timestamp="1476100193131">
+        <mark key="[" line="220" column="1" />
+        <mark key="]" line="219" column="11" />
+        <mark key="." line="219" column="11" />
+        <mark key="^" line="219" column="11" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/update-reserves.html" timestamp="1474289755849">
         <mark key="[" line="14" column="161" />
@@ -565,8 +565,8 @@
       <jump line="44" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.spec.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>*</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIHIub24oJ3JlYWRhYmxlJywgKCkgPT4gci5wYXVzZSgpKTsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -616,18 +616,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>*</text>
+        <text>;</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyXD4=</text>
       </register>
-      <register name="0" type="4">
-        <text>function (error, response, body) {
-            return error ? reject(error) : resolve(JSON.parse(body));
-        }</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBtZXRhZGF0YS5jb250ZW50VHlwZSA9IHJlc3BvbnNlLmhlYWRlcnNbJ0NvbnRlbnQtVHlwZSddIHx8ICdhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0nOwogICAgICAgIG1ldGFkYXRhLmxhc3RNb2RpZmllZCA9IHJlc3BvbnNlLmhlYWRlcnNbJ0xhc3QtTW9kaWZpZWQnXSB8fCBuZXcgRGF0ZSgpOwogICAgICAgIGxldCBjb250ZW50RGlzcCA9IHJlc3BvbnNlLmhlYWRlcnNbJ0NvbnRlbnQtRGlzcG9zaXRpb24nXTsKICAgICAgICBtZXRhZGF0YS5maWxlbmFtZSA9IGNvbnRlbnREaXNwID8gY29udGVudERpc3Bvc2l0aW9uLnBhcnNlKGNvbnRlbnREaXNwKS5wYXJhbWV0ZXJzLmZpbGVuYW1lIDogJyc7CiAgICAgICAgY29uc29sZS5sb2coImhhbmRsZWQgZG93bmxvYWRlZCBoZWFkZXJzLCByZXNwb25zZSBpcyBwYXVzZWQ/IityZXNwb25zZS5pc1BhdXNlZCgpKTsKICAgICAgICByZXNwb25zZS5yZXN1bWUoKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHIub24oJ3JlYWRhYmxlJywgKCkgPT4gci5wYXVzZSgpKTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -649,19 +647,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBjYiA9IGZ1bmN0aW9uIChlcnJvciwgcmVzcG9uc2UsIGJvZHkpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gZXJyb3IgPyByZWplY3QoZXJyb3IpIDogcmVzb2x2ZShKU09OLnBhcnNlKGJvZHkpKTsKICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICBsZXQgZGwgPSBkb2N1bWVudHMuZG93bmxvYWRBdHRhY2htZW50KGZyb20pOwogICAgICAgICAgICAgICAgbGV0IGRlc3QgPSBkb2N1bWVudHMudXBsb2FkKGRsLm1ldGFkYXRhLCAxMjMsIHt9LCBjYik7CiAgICAgICAgICAgICAgICBkbC5zdHJlYW0ucGlwZShkZXN0KTsK</text>
+        <text encoding="base64">ICAgICAgICByZXNwb25zZS5wYXVzZSgpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGxldCBvblNhdmVkID0gZnVuY3Rpb24ocmVzb2x2ZSwgcmVqZWN0KSB7CiAgICAgICAgcmV0dXJuIGZ1bmN0aW9uIChlcnJvciwgcmVzcG9uc2UsIGJvZHkpIHsKICAgICAgICAgICAgcmV0dXJuIGVycm9yID8gcmVqZWN0KGVycm9yKSA6IHJlc29sdmUoSlNPTi5wYXJzZShib2R5KSk7CiAgICAgICAgfQogICAgfTsK</text>
+        <text encoding="base64">ICAgIGxldCByID0gcmVxdWVzdC5nZXQodXJpLCBjYik7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCByZXMgPSBkb2N1bWVudHMudHJhbnNmZXJEb2N1bWVudChmcm9tLCB7fSwgZWlkLCB0b2tlbik7Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGZ1bmN0aW9uIHJlcSAoKSB7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGRlc2NyaWJlKCdhIHRyYW5zZmVyJywgZnVuY3Rpb24gKCkgewogICAgICAgIAogICAgfSk7Cg==</text>
+        <text encoding="base64">ICAgIGZ1bmN0aW9uKiBtZXRhZ2VuKCkgewogICAgICAgIAogICAgfQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -996,13 +994,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IHVmbiA9IHVybC5wYXJzZSh1cmkpLnBhdGguc3BsaXQoJy8nKVstMV0pOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBjYiA9IGZ1bmN0aW9uIChlcnJvciwgcmVzcG9uc2UsIGJvZHkpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gZXJyb3IgPyByZWplY3QoZXJyb3IpIDogcmVzb2x2ZShKU09OLnBhcnNlKGJvZHkpKTsKICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICBsZXQgZGwgPSBkb2N1bWVudHMuZG93bmxvYWRBdHRhY2htZW50KGZyb20pOwogICAgICAgICAgICAgICAgbGV0IGRlc3QgPSBkb2N1bWVudHMudXBsb2FkKGRsLm1ldGFkYXRhLCAxMjMsIHt9LCBjYik7CiAgICAgICAgICAgICAgICBkbC5zdHJlYW0ucGlwZShkZXN0KTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIGxldCBvblNhdmVkID0gZnVuY3Rpb24ocmVzb2x2ZSwgcmVqZWN0KSB7CiAgICAgICAgcmV0dXJuIGZ1bmN0aW9uIChlcnJvciwgcmVzcG9uc2UsIGJvZHkpIHsKICAgICAgICAgICAgcmV0dXJuIGVycm9yID8gcmVqZWN0KGVycm9yKSA6IHJlc29sdmUoSlNPTi5wYXJzZShib2R5KSk7CiAgICAgICAgfQogICAgfTsK</text>
       </register>
       <register name=":" type="4">
         <text>x</text>

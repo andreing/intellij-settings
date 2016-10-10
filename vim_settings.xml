@@ -153,11 +153,10 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/resources/initapp.resource.js" timestamp="1470893235789">
         <mark key="[" line="9" column="5" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.js" timestamp="1476106862562">
-        <mark key="[" line="180" column="11" />
-        <mark key="]" line="180" column="9" />
-        <mark key="^" line="180" column="9" />
-        <mark key="." line="180" column="9" />
+      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.js" timestamp="1476107983417">
+        <mark key="[" line="202" column="58" />
+        <mark key="]" line="207" column="0" />
+        <mark key="." line="207" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/update-reserves.html" timestamp="1474289755849">
         <mark key="[" line="14" column="161" />
@@ -566,7 +565,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc29uCg==</text>
+        <text encoding="base64">ICAgICAgICAvLyByLnBpcGUodWxTdHJlYW0pOwogICAgICAgIHVsU3RyZWFtLnBpcGUocik7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -625,7 +624,7 @@
         <text encoding="base64">ICAgIGxldCBvblNhdmVkID0gZnVuY3Rpb24ocmVzb2x2ZSwgcmVqZWN0KSB7CiAgICAgICAgcmV0dXJuIGZ1bmN0aW9uIChlcnJvciwgcmVzcG9uc2UsIGJvZHkpIHsKICAgICAgICAgICAgcmV0dXJuIGVycm9yID8gcmVqZWN0KGVycm9yKSA6IHJlc29sdmUoSlNPTi5wYXJzZShib2R5KSk7CiAgICAgICAgfQogICAgfTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc29uCg==</text>
+        <text encoding="base64">ICAgICAgICAvLyByLnBpcGUodWxTdHJlYW0pOwogICAgICAgIHVsU3RyZWFtLnBpcGUocik7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -647,19 +646,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc29uCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRvY3VtZW50cy5leGFtcGxlKGZyb20sIGVpZCwgb25TYXZlZChyZXNvbHZlLCByZWplY3QpKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IG9uU2F2ZWQgPSBmdW5jdGlvbiAoZXJyb3IsIHJlc3BvbnNlLCBib2R5KSB7CiAgICAgICAgICAgICAgICByZXR1cm4gZXJyb3IgPyBlcnJvciA6IEpTT04ucGFyc2UoYm9keSkpOwogICAgICAgICAgICB9OwoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRvY3VtZW50cy5leGFtcGxlKGZyb20sIGVpZCwgb25TYXZlZChyZXNvbHZlLCByZWplY3QpKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IG9uU2F2ZWQgPSBmdW5jdGlvbiAoZXJyb3IsIHJlc3BvbnNlLCBib2R5KSB7CiAgICAgICAgICAgICAgICByZXR1cm4gZXJyb3IgPyBlcnJvciA6IEpTT04ucGFyc2UoYm9keSkpOwogICAgICAgICAgICB9OwoK</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ICAgIHJlcXVlc3QuZ2V0KHVyaSwgKGVyciwgcmVzcCkgPT4gewoKICAgIH0p</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgfTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -993,14 +992,14 @@
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHJldHVybiByOwo=</text>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgIHJlcXVlc3QuZ2V0KHVyaSwgKGVyciwgcmVzcCkgPT4gewoKICAgIH0p</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGxldCBtZXRhZGF0YSA9IHt9Owo=</text>
+        <text encoding="base64">ICAgIHJldHVybiByOwo=</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgIHJldHVybiB7CiAgICAgICAgc3RyZWFtOiByLAogICAgICAgIG1ldGFkYXRhOiBtZXRhZGF0YQogICAgfQ==</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIGxldCBtZXRhZGF0YSA9IHt9Owo=</text>
       </register>
       <register name=":" type="4">
         <text>x</text>

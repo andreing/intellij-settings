@@ -67,7 +67,7 @@
       <file name="/StringBuffer" timestamp="1473260084137">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/a.txt" timestamp="1475657474468">
+      <file name="/a.txt" timestamp="1476177729821">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -84,6 +84,13 @@
       <file name="$USER_HOME$/repos/webclaims/apps/submission2pdf/router.js" timestamp="1475749820674">
         <mark key="[" line="20" column="0" />
         <mark key="]" line="24" column="26" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/LifeService.java" timestamp="1476178074007">
+        <mark key="'" line="80" column="20" />
+        <mark key="[" line="70" column="61" />
+        <mark key="]" line="70" column="52" />
+        <mark key="." line="70" column="52" />
+        <mark key="^" line="70" column="52" />
       </file>
       <file name="$USER_HOME$/repos/claims/integration/src/main/groovy/protector/claims/integration/fileservice/FileServiceClient.groovy" timestamp="1466527849721">
         <mark key="[" line="9" column="10" />
@@ -102,13 +109,6 @@
       </file>
       <file name="$USER_HOME$/repos/file-service/src/integration-test/java/test/IntegrationTestApplicationContext.java" timestamp="1472072779624">
         <mark key="[" line="6" column="18" />
-      </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/nobina/validate-input.spec.js" timestamp="1475593821961">
-        <mark key="'" line="99" column="62" />
-        <mark key="[" line="117" column="0" />
-        <mark key="]" line="117" column="0" />
-        <mark key="^" line="53" column="24" />
-        <mark key="." line="117" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/RoleController.java" timestamp="1474286356419">
         <mark key="[" line="109" column="108" />
@@ -253,6 +253,12 @@
       <file name="/Dummy.regexp" timestamp="1473260096070">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/HeaderService.java" timestamp="1476177908459">
+        <mark key="[" line="108" column="57" />
+        <mark key="]" line="108" column="56" />
+        <mark key="^" line="108" column="56" />
+        <mark key="." line="108" column="56" />
+      </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/buffer1" timestamp="1465403342292">
         <mark key="[" line="0" column="0" />
       </file>
@@ -392,7 +398,7 @@
       <file name="restClient/response12.txt" timestamp="1463057839733">
         <mark key="[" line="4" column="33" />
       </file>
-      <file name="/a.regexp" timestamp="1475657443046">
+      <file name="/a.regexp" timestamp="1476177720069">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="18" />
         <mark key="." line="0" column="18" />
@@ -446,11 +452,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="89" column="53" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
-      <jump line="90" column="66" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
-      <jump line="93" column="109" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
-      <jump line="8" column="32" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
-      <jump line="53" column="55" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
       <jump line="3" column="40" filename="$USER_HOME$/repos/webclaims/apps/servicecenter/router_external.js" />
       <jump line="52" column="0" filename="$USER_HOME$/repos/webclaims/apps/nobina/validate-input.spec.js" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/webclaims/node_modules/express-validator/lib/express_validator.js" />
@@ -546,10 +547,15 @@
       <jump line="139" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.js" />
       <jump line="138" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.js" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.js" />
+      <jump line="70" column="51" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/LifeService.java" />
+      <jump line="71" column="71" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/LifeService.java" />
+      <jump line="76" column="161" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/LifeService.java" />
+      <jump line="79" column="115" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/LifeService.java" />
+      <jump line="80" column="20" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/LifeService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text />
+        <text>, Long countryId</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -599,10 +605,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>, Long countryId</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxyXD4=</text>
+        <text encoding="base64">XDxsaWZlSGVhZGVyXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHJlcy5yZXN1bWUoKTsK</text>
@@ -990,18 +996,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxyXD4=</last-search>
+      <last-search encoding="base64">XDxsaWZlSGVhZGVyXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxyXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxsaWZlSGVhZGVyXD4=</last-pattern>
       <last-replace>errors</last-replace>
       <last-substitute>err</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>mockNext</entry>
-        <entry encoding="base64">XDxqc29uVG9PYmplY3RcPg==</entry>
         <entry encoding="base64">XDxjb250cmFjdFw+</entry>
         <entry>post</entry>
         <entry encoding="base64">XDx3cmFwXD4=</entry>
@@ -1020,6 +1024,8 @@
         <entry encoding="base64">XDxmaW5hbFw+</entry>
         <entry encoding="base64">XDx1cGxvYWRSZXF1ZXN0XD4=</entry>
         <entry encoding="base64">XDxyXD4=</entry>
+        <entry encoding="base64">XDxjb3VudHJ5SWRcPg==</entry>
+        <entry encoding="base64">XDxsaWZlSGVhZGVyXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLywuKiQvLCQv</entry>

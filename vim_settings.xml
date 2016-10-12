@@ -272,11 +272,11 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/DamageInfo.java" timestamp="1465311657173">
         <mark key="[" line="95" column="5" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/role/role-dto.js" timestamp="1476271152847">
-        <mark key="[" line="73" column="52" />
-        <mark key="]" line="73" column="32" />
-        <mark key="." line="73" column="32" />
-        <mark key="^" line="73" column="32" />
+      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/role/role-dto.js" timestamp="1476272461650">
+        <mark key="[" line="46" column="19" />
+        <mark key="]" line="46" column="17" />
+        <mark key="." line="46" column="17" />
+        <mark key="^" line="46" column="17" />
       </file>
       <file name="/Dummy.regexp" timestamp="1473260096070">
         <mark key="[" line="0" column="0" />
@@ -483,7 +483,7 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/integration-test/groovy/protector/takstrekvisisjon/integrationtest/ApplicationTests.java" timestamp="1472126310315">
         <mark key="[" line="8" column="74" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/type/claim-type-resolver.js" timestamp="1476198272905">
+      <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/type/claim-type-resolver.js" timestamp="1476272380134">
         <mark key="[" line="7" column="0" />
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
@@ -629,7 +629,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -688,7 +688,7 @@
         <text encoding="base64">ICAgICAgIGpzb25SZXNwb25zZS5zdWJtaXNzaW9uU3RhdHVzID0gJ0NSRUFURURfV0lUSF9FUlJPUlMnOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -709,21 +709,20 @@
           <key char="110" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ICAgICAgICB0aGlzLnJvbGVUeXBlSWQgPSB0eXBlSWQ7CiAgICAgICAgdGhpcy5yb2xlID0gZ2V0Um9sZURlc2NyaXB0aW9uKHR5cGVJZCk7</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICB0aGlzLnNldFBhcnR5KHBhcnR5KTsK</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgICAgICB0aGlzLnJvbGVUeXBlSWQgPSB0eXBlSWQ7CiAgICAgICAgdGhpcy5yb2xlID0gZ2V0Um9sZURlc2NyaXB0aW9uKHR5cGVJZCk7</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgIGlmICghdHlwZU1hcC5oYXNPd25Qcm9wZXJ0eSgpKQo=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBtdWx0aXBhcnRIdHRwU2VydmxldFJlcXVlc3QuZ2V0RmlsZU5hbWVzKCk7JycK</text>
-      </register>
-      <register name="5" type="4">
-        <text>@RequestPart(value = &quot;meta&quot;) FileMetadata meta,
-                                                            @RequestPart(value = &quot;file&quot;) MultipartFile file</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBvdXQuc2V0Cg==</text>
+        <text encoding="base64">ICAgICAgICBtdWx0aXBhcnRIdHRwU2VydmxldFJlcXVlc3QuZ2V0RmlsZU5hbWVzKCk7JycK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1062,10 +1061,11 @@
                                                             @RequestPart(value = &quot;file&quot;) MultipartFile file</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBvdXQuc2V0Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Y29uc3QgY2xhaW1Sb2xlcyA9IHJlcXVpcmUoJy4vLi4vcm9sZScpOwo=</text>
+      <register name="9" type="4">
+        <text>@RequestPart(value = &quot;meta&quot;) FileMetadata meta,
+                                                            @RequestPart(value = &quot;file&quot;) MultipartFile file</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL2NvbnN0IC9leHBvcnRzXC4v</text>

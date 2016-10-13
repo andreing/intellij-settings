@@ -23,11 +23,11 @@
       <file name="$USER_HOME$/repos/webclaims/apps/claims/router.js" timestamp="1474532323420">
         <mark key="[" line="3" column="31" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claims/role/role-dto.js" timestamp="1476350881721">
-        <mark key="[" line="61" column="19" />
-        <mark key="]" line="90" column="13" />
-        <mark key="." line="90" column="13" />
-        <mark key="^" line="90" column="13" />
+      <file name="$USER_HOME$/repos/webclaims/apps/claims/role/role-dto.js" timestamp="1476359672787">
+        <mark key="[" line="42" column="110" />
+        <mark key="]" line="42" column="123" />
+        <mark key="." line="42" column="123" />
+        <mark key="^" line="42" column="123" />
       </file>
       <file name="/RegExp Fragment (migrate.groovy:5361).regexp" timestamp="1473869564967">
         <mark key="[" line="0" column="0" />
@@ -271,11 +271,11 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/shared/fields/static-fields-broker.html" timestamp="1460450872525">
         <mark key="[" line="8" column="65" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claims/role/role-dto.spec.js" timestamp="1476358923171">
-        <mark key="[" line="56" column="85" />
-        <mark key="]" line="56" column="64" />
-        <mark key="." line="56" column="64" />
-        <mark key="^" line="56" column="64" />
+      <file name="$USER_HOME$/repos/webclaims/apps/claims/role/role-dto.spec.js" timestamp="1476359850236">
+        <mark key="'" line="47" column="12" />
+        <mark key="[" line="77" column="78" />
+        <mark key="]" line="76" column="0" />
+        <mark key="." line="76" column="0" />
       </file>
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/api/DocumentServiceException.java" timestamp="1461239277246">
         <mark key="[" line="2" column="38" />
@@ -532,7 +532,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="77" column="30" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/role/claim-roles.js" />
       <jump line="30" column="20" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/role/claim-roles.js" />
       <jump line="31" column="18" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/role/claim-roles.js" />
       <jump line="48" column="33" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/role/claim-roles.js" />
@@ -632,10 +631,11 @@
       <jump line="8" column="20" filename="$USER_HOME$/repos/webclaims/apps/nobina/api.js" />
       <jump line="4" column="6" filename="$USER_HOME$/repos/webclaims/apps/nobina/api.js" />
       <jump line="14" column="8" filename="$USER_HOME$/repos/webclaims/apps/nobina/api.js" />
+      <jump line="49" column="12" filename="$USER_HOME$/repos/webclaims/apps/claims/role/role-dto.spec.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>claimHeaderId</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -685,16 +685,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>claimHeaderId</text>
+        <text>a</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx0cmFuZm9ybVw+</text>
+        <text>\ccreate\(in\)\?validrole</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IHBhcnR5ID0gbmV3IFBhcnR5KDEsJzEyMzEnLCdKb24nLCdTbm93JywnOTI5MjkyOScsIHBvc3RhbEFkZHJlc3MpOwo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgaGVhZGVyID0gIHsgaWQ6MSwgY2xhaW1Mb2JJZDogNCwgY291bnRyeUlkOiA0LCBmb286ICdiYXInfTsKICAgICAgICBsZXQgcGFydHkgPSBuZXcgUGFydHkoMSwnMTIzMScsJ0pvbicsJ1Nub3cnLCc5MjkyOTI5JywgcG9zdGFsQWRkcmVzcyk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCB2YWxpZFJvbGUgPSBjcmVhdGVWYWxpZFJvbGUoMiw0LDIsMSwpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -716,16 +716,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBleHBlY3RlZCA9IHsKICAgICAgICAgICAgICAgICAgICByb2xlVHlwZTogCiAgICAgICAgICAgICAgICB9Owo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgaGVhZGVyID0gIHsgaWQ6MSwgY2xhaW1Mb2JJZDogNCwgY291bnRyeUlkOiA0LCBmb286ICdiYXInfTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KCkK</text>
+        <text encoding="base64">ICAgICAgICBsZXQgY3JlYXRlUm9sZSA9ICh0eXBlSWQsbG9iSWQsY291bnRyeUlkLGhlYWRlcklkLHBhcnR5KSA9PiBuZXcgUm9sZSgyLCBsb2JJZCwgY291bnRyeUlkLCBoZWFkZXJJZCwgcGFydHkpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KGNyZWF0ZVJvbGUpLnRvLm5vdC50aHJvdygpOwo=</text>
+        <text encoding="base64">ICAgICAgICBpZiAocGFydHkpIHsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB0aHJvdyBuZXcgCiAgICAgICAgfQo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
@@ -1063,33 +1063,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHNldFBhcnR5KHBhcnR5KSB7CiAgICAgICAgdGhpcy5wYXJ0eSA9IHBhcnR5OwogICAgfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgcG9zdGFsQWRkcmVzcyA9IHtzdHJlZXQ6J0Nhc3RsZSBCbGFjaycsIHppcENvZGU6JzAxMDAnLCBwbGFjZTonVGhlIE5vcnRoJ307Cg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQgY3JlYXRlVmFsaWRSb2xlID0gKCkgPT4gY3JlYXRlUm9sZSgyLDQsMiwxLHBhcnR5KTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICB9KTsK</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5zL2NvbnN0IC9leHBvcnRzXC4v</text>
+        <text>50,70s//create/</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx0cmFuZm9ybVw+</last-search>
+      <last-search>\ccreate\(in\)\?validrole</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx0cmFuZm9ybVw+</last-pattern>
-      <last-replace>exports\.</last-replace>
-      <last-substitute encoding="base64">Y29uc3Qg</last-substitute>
+      <last-pattern>\ccreate\(in\)\?validrole</last-pattern>
+      <last-replace>create</last-replace>
+      <last-substitute>\ccreate\(in\)\?validrole</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxjb3VudHJ5SWRcPg==</entry>
-        <entry encoding="base64">XDxsaWZlSGVhZGVyXD4=</entry>
-        <entry>datetime</entry>
-        <entry encoding="base64">XDxyZWZyZXNoU2FsZXNPYmplY3RcPg==</entry>
         <entry encoding="base64">XDxqc29uXD4=</entry>
         <entry>headerDto</entry>
         <entry encoding="base64">XDxoYW5kbGVDcmVhdGlvbkVycm9yXD4=</entry>
@@ -1106,13 +1102,12 @@
         <entry encoding="base64">XDxib2R5XD4=</entry>
         <entry encoding="base64">XDx0cmFuc2Zvcm1cPg==</entry>
         <entry encoding="base64">XDx0cmFuZm9ybVw+</entry>
+        <entry>create[in]validrole</entry>
+        <entry>create[in]\?validrole</entry>
+        <entry>create\(in\)\?validrole</entry>
+        <entry>\ccreate\(in\)\?validrole</entry>
       </history-search>
       <history-cmd>
-        <entry>/</entry>
-        <entry encoding="base64">JzwsJz5zLy8v</entry>
-        <entry encoding="base64">JzwsJz5zLydhcHAuKjJwZGYvX19kaXJuYW1lIFwrICcv</entry>
-        <entry encoding="base64">JzwsJz5zLz0gXHpzL3R5cGVSZXNvbHZlclwuLw==</entry>
-        <entry encoding="base64">JzwsJz5zL1wvY2xhaW1zLXR5cGUtcmVzb2x2ZXIvLw==</entry>
         <entry encoding="base64">JzwsJz5zL1wvY2xhaW0tdHlwZS1yZXNvbHZlci8v</entry>
         <entry>onl</entry>
         <entry>19,s/req\.body/parsedReq/g</entry>
@@ -1128,6 +1123,11 @@
         <entry encoding="base64">JzwsJz5zL2hlYWRlckR0by9maWxlc09iai9n</entry>
         <entry encoding="base64">JzwsJz5zL2NvbnN0IC9leHBvcnRzLw==</entry>
         <entry encoding="base64">JzwsJz5zL2NvbnN0IC9leHBvcnRzXC4v</entry>
+        <entry encoding="base64">JzwsJz5zL2NyZWF0ZVtpbl12YWxpZHJvbGUvY3JlYXRlL2k=</entry>
+        <entry encoding="base64">JzwsJz5zL2NyZWF0ZVtpbl1cP3ZhbGlkcm9sZS9jcmVhdGUv</entry>
+        <entry encoding="base64">JzwsJz5zL2NyZWF0ZVwoaW5cKVw/dmFsaWRyb2xlL2NyZWF0ZS8=</entry>
+        <entry>/\ccreate\(in\)\?validrole</entry>
+        <entry>50,70s//create/</entry>
       </history-cmd>
       <history-expr />
       <history-input />

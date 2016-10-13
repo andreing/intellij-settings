@@ -271,10 +271,11 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/shared/fields/static-fields-broker.html" timestamp="1460450872525">
         <mark key="[" line="8" column="65" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claims/role/role-dto.spec.js" timestamp="1476351156346">
-        <mark key="[" line="49" column="45" />
-        <mark key="]" line="54" column="0" />
-        <mark key="." line="54" column="0" />
+      <file name="$USER_HOME$/repos/webclaims/apps/claims/role/role-dto.spec.js" timestamp="1476358923171">
+        <mark key="[" line="56" column="85" />
+        <mark key="]" line="56" column="64" />
+        <mark key="." line="56" column="64" />
+        <mark key="^" line="56" column="64" />
       </file>
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/api/DocumentServiceException.java" timestamp="1461239277246">
         <mark key="[" line="2" column="38" />
@@ -633,8 +634,8 @@
       <jump line="14" column="8" filename="$USER_HOME$/repos/webclaims/apps/nobina/api.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KCkK</text>
+      <register name="&quot;" type="4">
+        <text>claimHeaderId</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -684,7 +685,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Y2xhaW1IZWFkZXIucmVnTnVtYmVyICYmIGkuZGFtYWdlRGF0ZQ==</text>
+        <text>claimHeaderId</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDx0cmFuZm9ybVw+</text>
@@ -693,7 +694,7 @@
         <text encoding="base64">ICAgICAgICAgICAgbGV0IHBhcnR5ID0gbmV3IFBhcnR5KDEsJzEyMzEnLCdKb24nLCdTbm93JywnOTI5MjkyOScsIHBvc3RhbEFkZHJlc3MpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCB2YWxpZFJvbGUgPSBjcmVhdGVWYWxpZFJvbGUoMiw0LDIsMSwpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -715,19 +716,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KGNyZWF0ZVJvbGUpLnRvLm5vdC50aHJvdygpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBleHBlY3RlZCA9IHsKICAgICAgICAgICAgICAgICAgICByb2xlVHlwZTogCiAgICAgICAgICAgICAgICB9Owo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KGNyZWF0ZVJvbGUpLnRvLm5vdC50aHJvdygpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgcG9zdGFsQWRkcmVzcyA9IHtzdHJlZXQ6J0Nhc3RsZSBCbGFjaycsIHppcENvZGU6JzAxMDAnLCBwbGFjZTonVGhlIE5vcnRoJ307Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1062,13 +1063,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAoe3N0cmVldCx6aXBDb2RlLHBsYWNlLHR5cGU9J1Bvc3RhZHJlc3NlJ30pID0+ICh7ZmllbGR9KQo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgcG9zdGFsQWRkcmVzcyA9IHtzdHJlZXQ6J0Nhc3RsZSBCbGFjaycsIHppcENvZGU6JzAxMDAnLCBwbGFjZTonVGhlIE5vcnRoJ307Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IHBvc3RhbEFkZHJlc3MgPSB7c3RyZWV0OidDYXN0bGUgQmxhY2snLCB6aXBDb2RlOicwMTAwJywgcGxhY2U6J1RoZSBOb3J0aCd9Owo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL2NvbnN0IC9leHBvcnRzXC4v</text>

@@ -65,8 +65,9 @@
         <mark key="." line="12" column="97" />
         <mark key="^" line="12" column="97" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e993bad3-a144-410e-b30a-8ab41915d43e/console.sql" timestamp="1476781148177">
-        <mark key="[" line="315" column="46" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e993bad3-a144-410e-b30a-8ab41915d43e/console.sql" timestamp="1476862175719">
+        <mark key="[" line="312" column="79" />
+        <mark key="]" line="313" column="102" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/Commission.groovy" timestamp="1460609508468">
         <mark key="[" line="3" column="18" />
@@ -233,7 +234,7 @@
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/update-reserves.html" timestamp="1474289755849">
         <mark key="[" line="14" column="161" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" timestamp="1476712331712">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" timestamp="1476861713279">
         <mark key="[" line="0" column="4" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/create/claim-header-damage-info-simple.html" timestamp="1476278988724">
@@ -320,6 +321,12 @@
       </file>
       <file name="$USER_HOME$/repos/webclaims/apps/claims/contract/contract.spec.js" timestamp="1476292904378">
         <mark key="[" line="17" column="24" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e9b2d187-e3a6-4d0f-9c10-1aeabe30a366/console.sql" timestamp="1476862271071">
+        <mark key="[" line="225" column="74" />
+        <mark key="]" line="225" column="77" />
+        <mark key="^" line="225" column="77" />
+        <mark key="." line="225" column="77" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/reports/exceptions/DocumentServiceClientException.java" timestamp="1462372962389">
         <mark key="[" line="8" column="78" />
@@ -611,8 +618,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="5" column="27" filename="$USER_HOME$/repos/webclaims/config/auth.js" />
-      <jump line="10" column="4" filename="$USER_HOME$/repos/webclaims/config/auth.js" />
       <jump line="91" column="48" filename="$USER_HOME$/repos/webclaims/config/auth.js" />
       <jump line="145" column="16" filename="$USER_HOME$/repos/webclaims/config/auth.js" />
       <jump line="3" column="24" filename="$USER_HOME$/repos/webclaims/apps/nobina/router.spec.js" />
@@ -711,10 +716,12 @@
       <jump line="154" column="12" filename="$USER_HOME$/repos/scripts/migrate-docs-to-fileservice/migrate_prolink.groovy" />
       <jump line="168" column="71" filename="$USER_HOME$/repos/scripts/migrate-docs-to-fileservice/migrate_prolink.groovy" />
       <jump line="145" column="8" filename="$USER_HOME$/repos/scripts/migrate-docs-to-fileservice/migrate_prolink.groovy" />
+      <jump line="221" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e9b2d187-e3a6-4d0f-9c10-1aeabe30a366/console.sql" />
+      <jump line="225" column="13" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e9b2d187-e3a6-4d0f-9c10-1aeabe30a366/console.sql" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Y2hhaS5zaG91bGQoKTsK</text>
+        <text encoding="base64">U0VMRUNUICogZnJvbSBQcm90ZWN0Mi5DaG93bl9Eb2N1bWVudCB3aGVyZSBEb2NzZXJ2aWNlX1N0b3JhZ2VfS2V5IGxpa2UgJyVmODhjMDVkNi00MGM5LTRjMGMtOTNjMi1lMDFmMTNlZjk0ZjElJwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -767,13 +774,13 @@
         <text>returned //seems only way to test promised mocks in simple-mock</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxmc2NcPg==</text>
+        <text>\(Chown_Document\)</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">Y29uc3QgY2hhaSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgY2hhaUFzUHJvbWlzZWQgPSByZXF1aXJlKCdjaGFpLWFzLXByb21pc2VkJyk7CmNoYWkudXNlKGNoYWlBc1Byb21pc2VkKTsKY2hhaS5zaG91bGQoKTsKY29uc3QgZXhwZWN0ID0gY2hhaS5leHBlY3Q7Cg==</text>
+        <text encoding="base64">U0VMRUNUICogZnJvbSBDaG93bl9Eb2N1bWVudCB3aGVyZSBET0NTRVJWSUNFX1NUT1JBR0VfS0VZIGxpa2UgJ2h0dHA6Ly9wZnN2bm9maWxwMDIucHJvdGVjdG9yLmxvY2FsOjc3NzklJwpTRUxFQ1QgKiBmcm9tIENob3duX0RvY3VtZW50IHdoZXJlIERPQ1NFUlZJQ0VfU1RPUkFHRV9LRVkgbm90IGxpa2UgJ2h0dHA6Ly9wZnN2bm9maWxwMDIucHJvdGVjdG9yLmxvY2FsOjc3NzklJwpTRUxFQ1QgKiBmcm9tIENob3duX0RvY3VtZW50IHdoZXJlIERPQ1NFUlZJQ0VfU1RPUkFHRV9LRVkgbm90IGxpa2UgJ2h0dHA6Ly9wZnN2bm9maWxwMDIucHJvdGVjdG9yLmxvY2FsOjc3NzklJyBhbmQgQ2hvd25fRG9jdW1lbnQuRE9DU0VSVklDRV9TVE9SQUdFX0tFWSBub3QgbGlrZSAnaHR0cDovL3Bmc3Zub2FwcHQwMTo3Nzc5JScKU0VMRUNUIERPQ1NFUlZJQ0VfU1RPUkFHRV9LRVkgZnJvbSBDaG93bl9Eb2N1bWVudCB3aGVyZSBEb2NzZXJ2aWNlX1N0b3JhZ2VfS2V5IGxpa2UgJyVmaWxlJWRvY3VtZW50JWZpbGUnClNFTEVDVCAqIGZyb20gQ2hvd25fRG9jdW1lbnQgd2hlcmUgRG9jc2VydmljZV9TdG9yYWdlX0tleSBsaWtlICclZjg4YzA1ZDYtNDBjOS00YzBjLTkzYzItZTAxZjEzZWY5NGYxJScK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Y2hhaS5zaG91bGQoKTsK</text>
+        <text encoding="base64">U0VMRUNUICogZnJvbSBQcm90ZWN0Mi5DaG93bl9Eb2N1bWVudCB3aGVyZSBEb2NzZXJ2aWNlX1N0b3JhZ2VfS2V5IGxpa2UgJyVmODhjMDVkNi00MGM5LTRjMGMtOTNjMi1lMDFmMTNlZjk0ZjElJwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -795,19 +802,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Y29uc3QgZXhwZWN0ID0gcmVxdWlyZSgnY2hhaScpLmV4cGVjdDsK</text>
+        <text encoding="base64">Y2hhaS5zaG91bGQoKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAuY2F0Y2goZXJyID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgZXhwZWN0KGVycikudG8uYmUuYW4uKCdlcnJvcicpOwogICAgICAgICAgICAgICAgICAgICAgICBkb25lKCkKICAgICAgICAgICAgICAgICAgICB9KTsK</text>
+        <text encoding="base64">Y29uc3QgZXhwZWN0ID0gcmVxdWlyZSgnY2hhaScpLmV4cGVjdDsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG1vY2tMb29rdXAubGFzdENhbGwuampqagogICAgICAgICAgICAgICAgICAgIC50aGVuKGRvbmUpCiAgICAgICAgICAgICAgICAgICAgLmNhdGNoKChpZ25vcmUpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgZXhwZWN0KG5leHQuY2FsbENvdW50KS50by5lcXVhbCgxKTsKICAgICAgICAgICAgICAgICAgICAgICAgZXhwZWN0KG5leHQubGFzdENhbGwuYXJnKS50by5iZS5hbignZXJyb3InKTsKICAgICAgICAgICAgICAgICAgICAgICAgZG9uZSgpOwogICAgICAgICAgICAgICAgfSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAuY2F0Y2goZXJyID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgZXhwZWN0KGVycikudG8uYmUuYW4uKCdlcnJvcicpOwogICAgICAgICAgICAgICAgICAgICAgICBkb25lKCkKICAgICAgICAgICAgICAgICAgICB9KTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgQ2xhaW1IZWFkZXIgPSBjbGFpbXMuaGVhZGVycy5DbGFpbUhlYWRlcjsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG1vY2tMb29rdXAubGFzdENhbGwuampqagogICAgICAgICAgICAgICAgICAgIC50aGVuKGRvbmUpCiAgICAgICAgICAgICAgICAgICAgLmNhdGNoKChpZ25vcmUpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgZXhwZWN0KG5leHQuY2FsbENvdW50KS50by5lcXVhbCgxKTsKICAgICAgICAgICAgICAgICAgICAgICAgZXhwZWN0KG5leHQubGFzdENhbGwuYXJnKS50by5iZS5hbignZXJyb3InKTsKICAgICAgICAgICAgICAgICAgICAgICAgZG9uZSgpOwogICAgICAgICAgICAgICAgfSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAvKmxldCB0cmFuc2Zvcm1Nb2NrID0gKCkgPT4KICAgICAgICAgICAgKHtjbGFpbUhlYWRlcjpoZWFkZXIsY2xhaW06e30sZGFtYWdlUmVwb3J0ZWRFdmVudDp7fSxmaWxlczp7fSxhZGRpdGlvbmFsSW5mbzp7fSxyb2xlczpbXX0pOwogICAgICAgIGxldCByZXZlcnQgPSB0cmFuc2Zvcm0uX19zZXRfXyh7CiAgICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNmb3JtTW9jawogICAgICAgIH0pOwoKICAgICAgICBhZnRlcihmdW5jdGlvbigpIHsKICAgICAgICAgICAgcmV2ZXJ0KCk7CiAgICAgICAgfSk7Ki8K</text>
+        <text encoding="base64">ICAgICAgICBsZXQgQ2xhaW1IZWFkZXIgPSBjbGFpbXMuaGVhZGVycy5DbGFpbUhlYWRlcjsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1142,30 +1149,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Y29uc3QgcmV3aXJlID0gcmVxdWlyZSgncmV3aXIpOwo=</text>
+        <text encoding="base64">ICAgICAgICAvKmxldCB0cmFuc2Zvcm1Nb2NrID0gKCkgPT4KICAgICAgICAgICAgKHtjbGFpbUhlYWRlcjpoZWFkZXIsY2xhaW06e30sZGFtYWdlUmVwb3J0ZWRFdmVudDp7fSxmaWxlczp7fSxhZGRpdGlvbmFsSW5mbzp7fSxyb2xlczpbXX0pOwogICAgICAgIGxldCByZXZlcnQgPSB0cmFuc2Zvcm0uX19zZXRfXyh7CiAgICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNmb3JtTW9jawogICAgICAgIH0pOwoKICAgICAgICBhZnRlcihmdW5jdGlvbigpIHsKICAgICAgICAgICAgcmV2ZXJ0KCk7CiAgICAgICAgfSk7Ki8K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBoZWFkZXIgPSBzaW1wbGUubW9jayhDbGFpbUhlYWRlciwgJ2V4dGVybmFsSWQnLCAxMjMpOwogICAgICAgICAgICAgICAgbGV0IHRyYW5zZm9ybU1vY2sgPSAoKSA9PiAKICAgICAgICAgICAgICAgICAgICAoe2NsYWltSGVhZGVyOmhlYWRlcixjbGFpbTp7fSxkYW1hZ2VSZXBvcnRlZEV2ZW50Ont9LGZpbGVzOnt9LGFkZGl0aW9uYWxJbmZvOnt9LHJvbGVzOltdfSk7CiAgICAgICAgICAgICAgICB0cmFuc2Zvcm0uX19zZXRfXyh7CiAgICAgICAgICAgICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2Zvcm1Nb2NrCiAgICAgICAgICAgICAgICB9KTsK</text>
+        <text encoding="base64">Y29uc3QgcmV3aXJlID0gcmVxdWlyZSgncmV3aXIpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0cmFuc2Zvcm0uX19zZXRfXygndHJhbnNmb3JuJykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxldCBoZWFkZXIgPSBzaW1wbGUubW9jayhDbGFpbUhlYWRlciwgJ2V4dGVybmFsSWQnLCAxMjMpOwogICAgICAgICAgICAgICAgbGV0IHRyYW5zZm9ybU1vY2sgPSAoKSA9PiAKICAgICAgICAgICAgICAgICAgICAoe2NsYWltSGVhZGVyOmhlYWRlcixjbGFpbTp7fSxkYW1hZ2VSZXBvcnRlZEV2ZW50Ont9LGZpbGVzOnt9LGFkZGl0aW9uYWxJbmZvOnt9LHJvbGVzOltdfSk7CiAgICAgICAgICAgICAgICB0cmFuc2Zvcm0uX19zZXRfXyh7CiAgICAgICAgICAgICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2Zvcm1Nb2NrCiAgICAgICAgICAgICAgICB9KTsK</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5zL1woc3RhdGljRmllbGRzXHxzdWJtaXNzaW9uXClcLi8v</text>
+        <text encoding="base64">JzwsJz5zL1woQ2hvd25fRG9jdW1lbnRcKS9Qcm90ZWN0MlwuXDEvZw==</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxmc2NcPg==</last-search>
+      <last-search>\(Chown_Document\)</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxmc2NcPg==</last-pattern>
-      <last-replace />
-      <last-substitute>\(staticFields\|submission\)\.</last-substitute>
+      <last-pattern>\(Chown_Document\)</last-pattern>
+      <last-replace>Protect2\.\1</last-replace>
+      <last-substitute>\(Chown_Document\)</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxjb250cmFjdFw+</entry>
         <entry encoding="base64">XDxib2R5XD4=</entry>
         <entry encoding="base64">XDx0cmFuc2Zvcm1cPg==</entry>
         <entry encoding="base64">XDx0cmFuZm9ybVw+</entry>
@@ -1185,9 +1191,9 @@
         <entry>application</entry>
         <entry encoding="base64">XDxhcHBuYW1lXD4=</entry>
         <entry encoding="base64">XDxmc2NcPg==</entry>
+        <entry>\(Chown_Document\)</entry>
       </history-search>
       <history-cmd>
-        <entry>20,56s/parsedReq/req\.parsed/g</entry>
         <entry>%s/mockNext/next/g</entry>
         <entry>o claim-roles.spec.js</entry>
         <entry encoding="base64">JzwsJz5zL2Vyci9lcnJvcnMvZw==</entry>
@@ -1207,6 +1213,7 @@
         <entry encoding="base64">JzwsJz5zLywkLzsv</entry>
         <entry encoding="base64">JzwsJz5zL1woc3RhdGljRmllbGRzfHN1Ym1pc3Npb25cKVwuLy8=</entry>
         <entry encoding="base64">JzwsJz5zL1woc3RhdGljRmllbGRzXHxzdWJtaXNzaW9uXClcLi8v</entry>
+        <entry encoding="base64">JzwsJz5zL1woQ2hvd25fRG9jdW1lbnRcKS9Qcm90ZWN0MlwuXDEvZw==</entry>
       </history-cmd>
       <history-expr />
       <history-input />

@@ -40,8 +40,8 @@
         <mark key="." line="42" column="123" />
         <mark key="^" line="42" column="123" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/config/default.yaml" timestamp="1476868592239">
-        <mark key="[" line="0" column="24" />
+      <file name="$USER_HOME$/repos/webclaims/config/default.yaml" timestamp="1476886336846">
+        <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
         <mark key="^" line="1" column="0" />
@@ -128,11 +128,11 @@
       <file name="$USER_HOME$/repos/claims/integration/src/main/groovy/protector/claims/integration/fileservice/FileServiceClient.groovy" timestamp="1466527849721">
         <mark key="[" line="9" column="10" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/db.js" timestamp="1476868625120">
-        <mark key="[" line="2" column="13" />
-        <mark key="]" line="10" column="47" />
-        <mark key="^" line="10" column="47" />
-        <mark key="." line="10" column="47" />
+      <file name="$USER_HOME$/repos/webclaims/db.js" timestamp="1476886100905">
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="5" column="0" />
+        <mark key="." line="5" column="0" />
+        <mark key="^" line="33" column="27" />
       </file>
       <file name="/Python Console" timestamp="1473333659960">
         <mark key="[" line="0" column="0" />
@@ -178,6 +178,12 @@
         <mark key="]" line="5" column="49" />
         <mark key="." line="5" column="49" />
         <mark key="^" line="5" column="49" />
+      </file>
+      <file name="$USER_HOME$/repos/file-service/src/main/java/protector/fileservice/document/DocumentController.java" timestamp="1476785888897">
+        <mark key="[" line="73" column="0" />
+        <mark key="]" line="73" column="0" />
+        <mark key="." line="73" column="0" />
+        <mark key="^" line="122" column="0" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/rates/hour-rate.service.spec.js" timestamp="1460560084728">
         <mark key="[" line="3" column="51" />
@@ -242,9 +248,6 @@
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/transactions/update-reserves.html" timestamp="1474289755849">
         <mark key="[" line="14" column="161" />
-      </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" timestamp="1476861713279">
-        <mark key="[" line="0" column="4" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/create/claim-header-damage-info-simple.html" timestamp="1476278988724">
         <mark key="[" line="6" column="294" />
@@ -312,9 +315,6 @@
       <file name="/RegExp Fragment (migrate.groovy:5303).regexp" timestamp="1473864250788">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.js" timestamp="1476792413677">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/email/mail-templates.js" timestamp="1474378612180">
         <mark key="[" line="1" column="60" />
       </file>
@@ -379,7 +379,12 @@
       <file name="/Dummy.regexp" timestamp="1473260096070">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/server.js" timestamp="1476871080595" />
+      <file name="$USER_HOME$/repos/webclaims/server.js" timestamp="1476886434750">
+        <mark key="[" line="21" column="51" />
+        <mark key="]" line="38" column="0" />
+        <mark key="^" line="38" column="46" />
+        <mark key="." line="38" column="0" />
+      </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/buffer1" timestamp="1465403342292">
         <mark key="[" line="0" column="0" />
       </file>
@@ -515,8 +520,11 @@
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/model/FileMeta.java" timestamp="1461318355463">
         <mark key="[" line="11" column="22" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/PartyService.java" timestamp="1476881896903">
-        <mark key="[" line="232" column="46" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/PartyService.java" timestamp="1476885632976">
+        <mark key="[" line="232" column="110" />
+        <mark key="]" line="232" column="40" />
+        <mark key="^" line="232" column="40" />
+        <mark key="." line="232" column="40" />
       </file>
       <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/protector/fileservice/integrationtest/IntegrationTestApplicationContext.java" timestamp="1473086505780">
         <mark key="[" line="0" column="18" />
@@ -756,7 +764,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">VXNlcyBub2RlLWNvbmZpZyAoaHR0cHM6Ly9naXRodWIuY29tL2xvcmVud2VzdC9ub2RlLWNvbmZpZy93aWtpKS4gCg==</text>
+        <text encoding="base64">bGV0IGh0dHBMb2dnZXJGb3JtYXQgPSAnWzpkYXRlW2lzb11dIFtJTkZPXSAtIGh0dHB0b29rPTpyZXNwb25zZS10aW1lIC0gbWV0aG9kPTptZXRob2QgdXJpPTp1cmwgaHR0cHN0YXR1cz06c3RhdHVzIHVzZXJuYW1lPTpyZW1vdGUtdXNlcic7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -815,7 +823,7 @@
         <text encoding="base64">ICAgICAgICBwcm9jZXNzLmVudlsnTk9ERV9FTlYnXSA9ICd0ZXN0JzsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">VXNlcyBub2RlLWNvbmZpZyAoaHR0cHM6Ly9naXRodWIuY29tL2xvcmVud2VzdC9ub2RlLWNvbmZpZy93aWtpKS4gCg==</text>
+        <text encoding="base64">bGV0IGh0dHBMb2dnZXJGb3JtYXQgPSAnWzpkYXRlW2lzb11dIFtJTkZPXSAtIGh0dHB0b29rPTpyZXNwb25zZS10aW1lIC0gbWV0aG9kPTptZXRob2QgdXJpPTp1cmwgaHR0cHN0YXR1cz06c3RhdHVzIHVzZXJuYW1lPTpyZW1vdGUtdXNlcic7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -836,20 +844,20 @@
           <key char="110" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwYXJ0eS5zZXRBcHBDb2RlKCJDTEFJTVMiKTsgLy9zZWUgQ0xBSU1TLTQ4OTcK</text>
+      <register name="2" type="4">
+        <text encoding="base64">aWYgKCFwcm9jZXNzLmVudi5OT0RFX0VOVikgewogICAgcmVxdWlyZSgnLi9lbnYnKTsKfQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICBkYXRhc291cmNlOgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">c2VydmljZWNlbnRlcjoKICBkYXRhc291cmNlOgogICAgZGJVcmk6IG1vbmdvZGI6Ly9wZnN2bm9maWx0MDIvd2ViY2xhaW1zCgo=</text>
+        <text encoding="base64">bW9uZ29vc2UuY29ubmVjdChkYlVSSSk7IAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">c2VydmljZWNlbnRlcjoK</text>
+        <text encoding="base64">ICBtb25nb28KfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">dmFyIGRiVVJJID0gJ21vbmdvZGI6Ly8nICsgKHByb2Nlc3MuZW52Lk1PTkdPIHx8ICdsb2NhbGhvc3Qvd2ViY2xhaW1zJyk7IAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1184,13 +1192,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGl0KCdjYW4gZ2V0IG9iamVjdCcsIGZ1bmN0aW9uIChkb25lKSB7CiAgICAgICAgbGV0IGFkY29uZiA9IAogICAgfSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">aWYgKCFwcm9jZXNzLmVudi5OT0RFX0VOVikgewogICAgcmVxdWlyZSgnLi9lbnYnKTsKfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcgo=</text>
+        <text encoding="base64">VXNlcyBub2RlLWNvbmZpZyAoaHR0cHM6Ly9naXRodWIuY29tL2xvcmVud2VzdC9ub2RlLWNvbmZpZy93aWtpKS4gCg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

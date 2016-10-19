@@ -81,13 +81,6 @@
       <file name="/StringBuffer" timestamp="1473260084137">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/scripts/migrate-docs-to-fileservice/migrate_prolink.groovy" timestamp="1476780095208">
-        <mark key="'" line="145" column="8" />
-        <mark key="[" line="323" column="0" />
-        <mark key="]" line="323" column="0" />
-        <mark key="^" line="250" column="98" />
-        <mark key="." line="323" column="0" />
-      </file>
       <file name="$USER_HOME$/repos/webclaims/apps/claims/claim/index.js" timestamp="1476369280919">
         <mark key="[" line="1" column="0" />
       </file>
@@ -326,6 +319,9 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/DamageInfo.java" timestamp="1465311657173">
         <mark key="[" line="95" column="5" />
       </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1476878653135">
+        <mark key="'" line="846" column="43" />
+      </file>
       <file name="$USER_HOME$/repos/webclaims/apps/claimsintegration/role/role-dto.js" timestamp="1476281283830">
         <mark key="[" line="102" column="27" />
         <mark key="]" line="92" column="70" />
@@ -360,6 +356,9 @@
       <file name="$USER_HOME$/repos/webclaims/apps/claims/header/index.js" timestamp="1476372619924">
         <mark key="[" line="1" column="40" />
       </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/resources/rebel.xml" timestamp="1476878269397">
+        <mark key="[" line="10" column="68" />
+      </file>
       <file name="$USER_HOME$/repos/file-service/client/src/main/groovy/protector/fileservice/client/domain/FileServiceServerException.java" timestamp="1473260035966">
         <mark key="[" line="5" column="5" />
       </file>
@@ -383,13 +382,6 @@
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/bower.json" timestamp="1467630214442">
         <mark key="[" line="28" column="22" />
-      </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/nobina/transform.js" timestamp="1476795897266">
-        <mark key="'" line="75" column="18" />
-        <mark key="[" line="150" column="11" />
-        <mark key="]" line="149" column="10" />
-        <mark key="." line="149" column="10" />
-        <mark key="^" line="149" column="10" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/logging/exception-logging.service.js" timestamp="1463064482326">
         <mark key="[" line="13" column="46" />
@@ -469,6 +461,7 @@
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/model/FileMeta.java" timestamp="1461318355463">
         <mark key="[" line="11" column="22" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/PartyService.java" timestamp="1476878155458" />
       <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/protector/fileservice/integrationtest/IntegrationTestApplicationContext.java" timestamp="1473086505780">
         <mark key="[" line="0" column="18" />
       </file>
@@ -554,13 +547,6 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/RRQuestion.java" timestamp="1465892170915">
         <mark key="[" line="150" column="74" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/claims/header/header-dto.js" timestamp="1476372413184">
-        <mark key="'" line="41" column="26" />
-        <mark key="[" line="2" column="72" />
-        <mark key="]" line="2" column="129" />
-        <mark key="." line="42" column="46" />
-        <mark key="^" line="42" column="46" />
-      </file>
       <file name="/String concat (+) and super.toString()" timestamp="1473260084131">
         <mark key="[" line="0" column="0" />
       </file>
@@ -570,7 +556,7 @@
       <file name="/Groovy: String concat (+) and super.toString()" timestamp="1473260084164">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1476364129642">
+      <file name="/fragment.java" timestamp="1476878665044">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/MoreObjects.toStringHelper (Guava 18+)" timestamp="1473260084157">
@@ -581,7 +567,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="62" column="0" filename="$USER_HOME$/repos/webclaims/apps/nobina/router.spec.js" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/webclaims/apps/nobina/router.spec.js" />
       <jump line="41" column="37" filename="$USER_HOME$/repos/webclaims/server.js" />
       <jump line="87" column="0" filename="$USER_HOME$/repos/webclaims/server.js" />
@@ -681,6 +666,7 @@
       <jump line="2" column="15" filename="$USER_HOME$/repos/webclaims/auth.js" />
       <jump line="12" column="20" filename="$USER_HOME$/repos/webclaims/auth.js" />
       <jump line="15" column="11" filename="$USER_HOME$/repos/webclaims/config/conf.spec.js" />
+      <jump line="846" column="43" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -737,7 +723,7 @@
         <text>,</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxlbnZcPg==</text>
+        <text>service</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBwcm9jZXNzLmVudlsnTk9ERV9FTlYnXSA9ICd0ZXN0JzsK</text>
@@ -1125,9 +1111,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxlbnZcPg==</last-search>
+      <last-search>service</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxlbnZcPg==</last-pattern>
+      <last-pattern>service</last-pattern>
       <last-replace>Protect2\.\1</last-replace>
       <last-substitute>\(Chown_Document\)</last-substitute>
       <last-dir>1</last-dir>
@@ -1135,7 +1121,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx0cmFuc2Zvcm1cPg==</entry>
         <entry encoding="base64">XDx0cmFuZm9ybVw+</entry>
         <entry>create[in]validrole</entry>
         <entry>create[in]\?validrole</entry>
@@ -1155,6 +1140,7 @@
         <entry encoding="base64">XDxmc2NcPg==</entry>
         <entry>\(Chown_Document\)</entry>
         <entry encoding="base64">XDxlbnZcPg==</entry>
+        <entry>service</entry>
       </history-search>
       <history-cmd>
         <entry>%s/mockNext/next/g</entry>

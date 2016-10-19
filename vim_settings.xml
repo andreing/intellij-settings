@@ -244,10 +244,11 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/datetimepicker/datetimepicker.module.js" timestamp="1460557550269">
         <mark key="[" line="3" column="48" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/config/test.yaml" timestamp="1476868903753">
-        <mark key="[" line="2" column="0" />
-        <mark key="]" line="2" column="0" />
-        <mark key="." line="2" column="0" />
+      <file name="$USER_HOME$/repos/webclaims/config/test.yaml" timestamp="1476870024382">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="5" column="2" />
+        <mark key="." line="5" column="2" />
+        <mark key="^" line="2" column="1" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/integration/dmr/DmrAutoSearchClient.java" timestamp="1465472105132">
         <mark key="[" line="45" column="42" />
@@ -314,6 +315,13 @@
       </file>
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/gridfs/FsFilesModel.java" timestamp="1461155045727">
         <mark key="[" line="2" column="27" />
+      </file>
+      <file name="$USER_HOME$/repos/webclaims/config/conf.spec.js" timestamp="1476869873813">
+        <mark key="'" line="15" column="11" />
+        <mark key="[" line="20" column="53" />
+        <mark key="]" line="21" column="42" />
+        <mark key="." line="21" column="42" />
+        <mark key="^" line="21" column="42" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/auth.js" timestamp="1476868710920">
         <mark key="'" line="12" column="20" />
@@ -577,7 +585,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2" column="0" filename="$USER_HOME$/repos/webclaims/apps/nobina/router.spec.js" />
       <jump line="62" column="0" filename="$USER_HOME$/repos/webclaims/apps/nobina/router.spec.js" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/webclaims/apps/nobina/router.spec.js" />
       <jump line="41" column="37" filename="$USER_HOME$/repos/webclaims/server.js" />
@@ -677,10 +684,11 @@
       <jump line="1" column="13" filename="$USER_HOME$/repos/webclaims/auth.js" />
       <jump line="2" column="15" filename="$USER_HOME$/repos/webclaims/auth.js" />
       <jump line="12" column="20" filename="$USER_HOME$/repos/webclaims/auth.js" />
+      <jump line="15" column="11" filename="$USER_HOME$/repos/webclaims/config/conf.spec.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -730,16 +738,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>&quot;</text>
+        <text>,</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxlbnZcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">Y29uc3QgYWRDb25maWcgPSB7CiAgICB1cmw6ICdsZGFwOi8vMTAuNDcuMTAwLjEwJywKICAgIC8vdXJsIGFzIGluIFBGU1ZOT0RDUDAxCiAgICAvL2Jhc2VETjogJ09VPU9zbG8sT1U9SW50ZXJuYWwgVXNlcnMsb3U9VXNlcnMsb3U9UHJvdGVjdG9yIEZvcnNpa3JpbmcsZGM9cHJvdGVjdG9yLGRjPWxvY2FsJywKICAgIGJhc2VETjogJ09VPVByb3RlY3RvciBGb3JzaWtyaW5nLERDPXByb3RlY3RvcixEQz1sb2NhbCcsCiAgICAvL2Jhc2VETiBhcyBpbiBBRFVDc25hcC1pbjogInByb3RlY3Rvci5sb2NhbFxQcm90ZWN0b3IgRm9yc2lrcmluZ1xVc2Vyc1xJbnRlcm5hbCBVc2Vyc1xPc2xvIgogICAgdXNlcm5hbWU6ICdsZGFwX2FkJywKICAgIHBhc3N3b3JkOiAnczI0S3V4YXQnLAp9Owo=</text>
+        <text encoding="base64">ICAgICAgICBwcm9jZXNzLmVudlsnTk9ERV9FTlYnXSA9ICd0ZXN0JzsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -761,19 +769,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">ICAgIGl0KCdjYW4gZ2V0IG9iamVjdCcsIGZ1bmN0aW9uIChkb25lKSB7CiAgICAgICAgbGV0IGFkY29uZiA9IAogICAgfSk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">fTsK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIC8vYmFzZUROIGFzIGluIEFEVUNzbmFwLWluOiAicHJvdGVjdG9yLmxvY2FsXFByb3RlY3RvciBGb3JzaWtyaW5nXFVzZXJzXEludGVybmFsIFVzZXJzXE9zbG8iCg==</text>
+        <text encoding="base64">ICAgICAgICBwcgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIC8vYmFzZUROOiAnT1U9T3NsbyxPVT1JbnRlcm5hbCBVc2VycyxvdT1Vc2VycyxvdT1Qcm90ZWN0b3IgRm9yc2lrcmluZyxkYz1wcm90ZWN0b3IsZGM9bG9jYWwnLAo=</text>
+        <text encoding="base64">CmNvbnN0IGNvbmZpZyA9IHJlcXVpcmUoJ2NvbmZpZycpOwoKCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIC8vdXJsIGFzIGluIFBGU1ZOT0RDUDAxCg==</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1108,13 +1116,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Y2xhaW1zOgogIGJhc2VVcmw6ICJodHRwczovL2NsYWltc3Rlc3QucHJvdGVjdG9yZm9yc2lrcmluZy5ubyIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">fQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICB9Cg==</text>
+        <text encoding="base64">fTsK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

@@ -26,13 +26,6 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/shared/resources/appraisers.resource.js" timestamp="1471207304925">
         <mark key="[" line="7" column="52" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/nobina/api.js" timestamp="1476865272610">
-        <mark key="'" line="12" column="8" />
-        <mark key="[" line="12" column="104" />
-        <mark key="]" line="12" column="97" />
-        <mark key="." line="12" column="97" />
-        <mark key="^" line="12" column="97" />
-      </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/Commission.groovy" timestamp="1460609508468">
         <mark key="[" line="3" column="18" />
       </file>
@@ -191,12 +184,13 @@
       <file name="$USER_HOME$/repos/webclaims/apps/claims_integration/index.js" timestamp="1474535376560">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/servicecenter/servicecenter.js" timestamp="1476967050526">
-        <mark key="'" line="131" column="14" />
-        <mark key="[" line="158" column="8" />
-        <mark key="]" line="158" column="7" />
-        <mark key="^" line="158" column="7" />
-        <mark key="." line="158" column="7" />
+      <file name="$USER_HOME$/repos/webclaims/apps/servicecenter/servicecenter.js" timestamp="1476968385327">
+        <mark key="'" line="135" column="14" />
+        <mark key="i" line="8" column="31" />
+        <mark key="[" line="29" column="8" />
+        <mark key="]" line="6" column="25" />
+        <mark key="." line="6" column="25" />
+        <mark key="^" line="6" column="25" />
       </file>
       <file name="$USER_HOME$/repos/file-service/client/src/test/groovy/protector/fileservice/client/FileServiceClientCustom.java" timestamp="1472717510650">
         <mark key="[" line="2" column="40" />
@@ -541,13 +535,6 @@
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/api/DocumentServiceException.java" timestamp="1461239277246">
         <mark key="[" line="2" column="38" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/config/conf.spec.js" timestamp="1476881828665">
-        <mark key="'" line="15" column="11" />
-        <mark key="[" line="25" column="52" />
-        <mark key="]" line="23" column="18" />
-        <mark key="." line="23" column="18" />
-        <mark key="^" line="23" column="18" />
-      </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/panel/ec-panel-title.directive.js" timestamp="1460558037572">
         <mark key="[" line="4" column="40" />
       </file>
@@ -840,7 +827,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ZXhwb3J0cy52YWxpZGF0ZUlkID0gdmFsaWRhdGVJZDsK</text>
+        <text encoding="base64">Y29uc3QgbW9kZWwgPSByZXF1aXJlKCcuL21vZGVsL3NlcnZpY2VjZW50ZXInKTsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -915,7 +902,7 @@
 }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZXhwb3J0cy52YWxpZGF0ZUlkID0gdmFsaWRhdGVJZDsK</text>
+        <text encoding="base64">Y29uc3QgbW9kZWwgPSByZXF1aXJlKCcuL21vZGVsL3NlcnZpY2VjZW50ZXInKTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -937,12 +924,15 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZXhwb3J0cy52YWxpZGF0ZUlkID0gdmFsaWRhdGVJZDsK</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Ly8gcm91dGUgbWlkZGxld2FyZSB0byB2YWxpZGF0ZSA6aWQK</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>function (req, res){
     ServiceCenters.findById(req.id, function (err, servicecenter) {
         if (err) {
@@ -970,7 +960,7 @@
     });
 }</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>function(req, res) {
     ServiceCenters.findById(req.id, function (err, servicecenter) {
         servicecenter.update(reqToModel(req), function (err, servicecenterID) {
@@ -988,29 +978,6 @@
                 });
             }
         });
-    });
-}</text>
-      </register>
-      <register name="6" type="4">
-        <text>function(req, res) {
-    ServiceCenters.findById(req.id, function (err, servicecenter) {
-        if (err) {
-            console.error('There was a problem retrieving: ' + err);
-        } else {
-            console.log('Retrieving ID: ' + servicecenter._id);
-            res.format({
-                html: function(){
-                          res.render('servicecenter/views/edit', {
-                              servicecenter: servicecenter,
-                              edit: true,
-                              layout: 'servicecenter/views/layout.hbs'
-                          });
-                      },
-                json: function(){
-                          res.json(servicecenter);
-                      }
-            });
-        }
     });
 }</text>
       </register>
@@ -1392,8 +1359,28 @@
     });
 }</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIGZpbmRCeUlkLAo=</text>
+      <register name="9" type="4">
+        <text>function(req, res) {
+    ServiceCenters.findById(req.id, function (err, servicecenter) {
+        if (err) {
+            console.error('There was a problem retrieving: ' + err);
+        } else {
+            console.log('Retrieving ID: ' + servicecenter._id);
+            res.format({
+                html: function(){
+                          res.render('servicecenter/views/edit', {
+                              servicecenter: servicecenter,
+                              edit: true,
+                              layout: 'servicecenter/views/layout.hbs'
+                          });
+                      },
+                json: function(){
+                          res.json(servicecenter);
+                      }
+            });
+        }
+    });
+}</text>
       </register>
       <register name=":" type="4">
         <text>reg</text>

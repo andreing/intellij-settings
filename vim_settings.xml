@@ -184,13 +184,13 @@
       <file name="$USER_HOME$/repos/webclaims/apps/claims_integration/index.js" timestamp="1474535376560">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/servicecenter/servicecenter.js" timestamp="1476968385327">
-        <mark key="'" line="135" column="14" />
+      <file name="$USER_HOME$/repos/webclaims/apps/servicecenter/servicecenter.js" timestamp="1476969639083">
+        <mark key="'" line="85" column="8" />
         <mark key="i" line="8" column="31" />
-        <mark key="[" line="29" column="8" />
-        <mark key="]" line="6" column="25" />
-        <mark key="." line="6" column="25" />
-        <mark key="^" line="6" column="25" />
+        <mark key="[" line="83" column="25" />
+        <mark key="]" line="83" column="30" />
+        <mark key="^" line="83" column="30" />
+        <mark key="." line="83" column="30" />
       </file>
       <file name="$USER_HOME$/repos/file-service/client/src/test/groovy/protector/fileservice/client/FileServiceClientCustom.java" timestamp="1472717510650">
         <mark key="[" line="2" column="40" />
@@ -329,11 +329,11 @@
         <mark key="]" line="42" column="0" />
         <mark key="." line="42" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/servicecenter/router_internal.js" timestamp="1476966987191">
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="9" column="0" />
-        <mark key="." line="9" column="0" />
-        <mark key="^" line="17" column="6" />
+      <file name="$USER_HOME$/repos/webclaims/apps/servicecenter/router_internal.js" timestamp="1476969168050">
+        <mark key="[" line="16" column="10" />
+        <mark key="]" line="16" column="13" />
+        <mark key="." line="16" column="13" />
+        <mark key="^" line="16" column="13" />
       </file>
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/DocumentMetaData.java" timestamp="1461239151796">
         <mark key="[" line="0" column="26" />
@@ -724,9 +724,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="201" column="32" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.js" />
-      <jump line="28" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.spec.js" />
-      <jump line="44" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.spec.js" />
       <jump line="221" column="8" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.js" />
       <jump line="134" column="72" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.spec.js" />
       <jump line="91" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/document/claim-document.spec.js" />
@@ -824,10 +821,13 @@
       <jump line="5" column="30" filename="$USER_HOME$/repos/webclaims/apps/servicecenter/model/servicecenter.js" />
       <jump line="21" column="12" filename="$USER_HOME$/repos/webclaims/apps/servicecenter/router_external.js" />
       <jump line="129" column="14" filename="$USER_HOME$/repos/webclaims/apps/servicecenter/servicecenter.js" />
+      <jump line="65" column="9" filename="$USER_HOME$/repos/webclaims/apps/servicecenter/servicecenter.js" />
+      <jump line="90" column="51" filename="$USER_HOME$/repos/webclaims/apps/servicecenter/servicecenter.js" />
+      <jump line="91" column="8" filename="$USER_HOME$/repos/webclaims/apps/servicecenter/servicecenter.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Y29uc3QgbW9kZWwgPSByZXF1aXJlKCcuL21vZGVsL3NlcnZpY2VjZW50ZXInKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coJ1JldHJpZXZpbmcgSUQ6ICcgKyBzZXJ2aWNlY2VudGVyLl9pZCk7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -877,10 +877,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>{config.get('servicecenter.dbUri')}</text>
+        <text>ServiceCenters.find({deleted: {$ne: true}}</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxtb25nb29zZVw+</text>
+        <text encoding="base64">XDxzZXJ2aWNlY2VudGVyXD4=</text>
       </register>
       <register name="0" type="4">
         <text>function(req, res) {
@@ -902,7 +902,7 @@
 }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Y29uc3QgbW9kZWwgPSByZXF1aXJlKCcuL21vZGVsL3NlcnZpY2VjZW50ZXInKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coJ1JldHJpZXZpbmcgSUQ6ICcgKyBzZXJ2aWNlY2VudGVyLl9pZCk7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -924,62 +924,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZXhwb3J0cy52YWxpZGF0ZUlkID0gdmFsaWRhdGVJZDsK</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIH0pOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Ly8gcm91dGUgbWlkZGxld2FyZSB0byB2YWxpZGF0ZSA6aWQK</text>
+        <text encoding="base64">ICAgICAgICBpZiAoZXJyKSB7CiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ1RoZXJlIHdhcyBhIHByb2JsZW0gcmV0cmlldmluZzogJyArIGVycik7CiAgICAgICAgfSBlbHNlIHsK</text>
       </register>
-      <register name="5" type="4">
-        <text>function (req, res){
-    ServiceCenters.findById(req.id, function (err, servicecenter) {
-        if (err) {
-            return console.error(err);
-        } else {
-            servicecenter.update({$set: {deleted:true}}, function (err, servicecenter) {
-                if (err) {
-                    return console.error(err);
-                } else {
-                    debug('Removing ID: ' + servicecenter._id);
-                    res.format({
-                        html: function(){
-                                  res.redirect(&quot;/service-centers&quot;);
-                              },
-                        json: function(){
-                                  res.json({
-                                      message : 'deleted',
-                                      item : servicecenter
-                                  });
-                              }
-                    });
-                }
-            });
-        }
-    });
-}</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICB9CiAgICB9KTsK</text>
       </register>
-      <register name="6" type="4">
-        <text>function(req, res) {
-    ServiceCenters.findById(req.id, function (err, servicecenter) {
-        servicecenter.update(reqToModel(req), function (err, servicecenterID) {
-            if (err) {
-                res.send(&quot;There was a problem updating the information to the database: &quot; + err);
-            } 
-            else {
-                res.format({
-                    html: function(){
-                              res.redirect(&quot;/service-centers/&quot; + servicecenter._id);
-                          },
-                json: function(){
-                          res.json(servicecenter);
-                      }
-                });
-            }
-        });
-    });
-}</text>
+      <register name="6" type="2">
+        <text encoding="base64">LCBmdW5jdGlvbiAoZXJyLCBzZXJ2aWNlY2VudGVyKSB7CiAgICAgICAgaWYgKGVycikgewogICAgICAgICAgICBjb25zb2xlLmVycm9yKCdUaGVyZSB3YXMgYSBwcm9ibGVtIHJldHJpZXZpbmc6ICcgKyBlcnIpOwogICAgICAgIH0gZWxzZSB7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1313,83 +1270,23 @@
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="7" type="4">
-        <text>function(req, res) {
-    ServiceCenters.findById(req.id, function (err, servicecenter) {
-        if (err) {
-            console.error('There was a problem retrieving: ' + err);
-        } else {
-            console.log('Retrieving ID: ' + servicecenter._id);
-            res.format({
-                html: function(){
-                          res.render('servicecenter/views/edit', {
-                              servicecenter: servicecenter,
-                              edit: true,
-                              layout: 'servicecenter/views/layout.hbs'
-                          });
-                      },
-                json: function(){
-                          res.json(servicecenter);
-                      }
-            });
-        }
-    });
-}</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBpZiAoZXJyKSB7CiAgICAgICAgICAgIHJlcy5zZW5kKCJUaGVyZSB3YXMgYSBwcm9ibGVtIGFkZGluZyB0aGUgaW5mb3JtYXRpb24gdG8gdGhlIGRhdGFiYXNlLiIpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgfQogICAgfSk7Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text>function(req, res) {
-    ServiceCenters.findById(req.id, function (err, servicecenter) {
-        if (err) {
-            console.error('There was a problem retrieving: ' + err);
-        } else {
-            console.log('Retrieving ID: ' + servicecenter._id);
-            res.format({
-                html: function(){
-                          res.render('servicecenter/views/edit', {
-                              servicecenter: servicecenter,
-                              edit: true,
-                              layout: 'servicecenter/views/layout.hbs'
-                          });
-                      },
-                json: function(){
-                          res.json(servicecenter);
-                      }
-            });
-        }
-    });
-}</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcmVzLmZvcm1hdCh7CiAgICAgICAgICAgICAgICBodG1sOiBmdW5jdGlvbigpewogICAgICAgICAgICAgICAgICAgICAgICAgIHJlcy5sb2NhdGlvbigic2VydmljZS1jZW50ZXJzIik7CiAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzLnJlZGlyZWN0KCIvc2VydmljZS1jZW50ZXJzIik7CiAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAganNvbjogZnVuY3Rpb24oKXsKICAgICAgICAgICAgICAgICAgICAgICAgICByZXMuanNvbihzZXJ2aWNlY2VudGVyKTsKICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSk7Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>function(req, res) {
-    ServiceCenters.findById(req.id, function (err, servicecenter) {
-        if (err) {
-            console.error('There was a problem retrieving: ' + err);
-        } else {
-            console.log('Retrieving ID: ' + servicecenter._id);
-            res.format({
-                html: function(){
-                          res.render('servicecenter/views/edit', {
-                              servicecenter: servicecenter,
-                              edit: true,
-                              layout: 'servicecenter/views/layout.hbs'
-                          });
-                      },
-                json: function(){
-                          res.json(servicecenter);
-                      }
-            });
-        }
-    });
-}</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICwgZnVuY3Rpb24gKGVyciwgc2VydmljZWNlbnRlcnMpIHsKICAgICAgICBpZiAoZXJyKSByZXR1cm4gY29uc29sZS5lcnJvcihlcnIpOwogICAgICAgIH0pOwogICAgfSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>reg</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxtb25nb29zZVw+</last-search>
+      <last-search encoding="base64">XDxzZXJ2aWNlY2VudGVyXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxtb25nb29zZVw+</last-pattern>
+      <last-pattern encoding="base64">XDxzZXJ2aWNlY2VudGVyXD4=</last-pattern>
       <last-replace>Protect2\.\1</last-replace>
       <last-substitute>\(Chown_Document\)</last-substitute>
       <last-dir>1</last-dir>
@@ -1397,8 +1294,6 @@
     </search>
     <history>
       <history-search>
-        <entry>,$</entry>
-        <entry>\(staticFields|submission\)\.</entry>
         <entry>\(staticFields|submission\)</entry>
         <entry>\(staticFields\|submission\)</entry>
         <entry>\(staticFields\|submission\)\.</entry>
@@ -1417,6 +1312,8 @@
         <entry encoding="base64">XDxjb25maWdcPg==</entry>
         <entry encoding="base64">XDxTZXJ2aWNlQ2VudGVyc1w+</entry>
         <entry encoding="base64">XDxtb25nb29zZVw+</entry>
+        <entry encoding="base64">XDxmaW5kQnlJZFw+</entry>
+        <entry encoding="base64">XDxzZXJ2aWNlY2VudGVyXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>%s/mockNext/next/g</entry>

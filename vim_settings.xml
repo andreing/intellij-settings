@@ -8,11 +8,11 @@
         <mark key="]" line="42" column="0" />
         <mark key="." line="42" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/servicecenter/router_internal.js" timestamp="1476972534206">
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="7" column="0" />
-        <mark key="." line="7" column="0" />
-        <mark key="^" line="17" column="37" />
+      <file name="$USER_HOME$/repos/webclaims/apps/servicecenter/router_internal.js" timestamp="1477039229822">
+        <mark key="[" line="9" column="49" />
+        <mark key="]" line="9" column="49" />
+        <mark key="^" line="9" column="49" />
+        <mark key="." line="9" column="49" />
       </file>
       <file name="/a.dummy" timestamp="1476797631036">
         <mark key="[" line="0" column="0" />
@@ -397,12 +397,12 @@
       <file name="/Dummy.regexp" timestamp="1473260096070">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/server.js" timestamp="1477037730227">
+      <file name="$USER_HOME$/repos/webclaims/server.js" timestamp="1477039178471">
         <mark key="'" line="1" column="24" />
-        <mark key="[" line="31" column="25" />
-        <mark key="]" line="31" column="24" />
-        <mark key="^" line="31" column="24" />
-        <mark key="." line="31" column="24" />
+        <mark key="[" line="31" column="70" />
+        <mark key="]" line="32" column="2" />
+        <mark key="." line="32" column="2" />
+        <mark key="^" line="32" column="2" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/buffer1" timestamp="1465403342292">
         <mark key="[" line="0" column="0" />
@@ -422,8 +422,9 @@
       <file name="/String concat (+)" timestamp="1473260084124">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/servicecenter/servicecenter.js" timestamp="1477037586706">
+      <file name="$USER_HOME$/repos/webclaims/apps/servicecenter/servicecenter.js" timestamp="1477038536293">
         <mark key="i" line="9" column="31" />
+        <mark key="[" line="30" column="80" />
         <mark key="]" line="114" column="20" />
         <mark key="^" line="114" column="20" />
         <mark key="." line="114" column="20" />
@@ -835,7 +836,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGxldCBzY3MgPSB5aWVsZCBTZXJ2aWNlQ2VudGVycy5maW5kQWxsR3JvdXBCeUNvdW50cnkoKTsKICAgIHJlcy5qc29uKCBzY3MubWFwKCAoe19pZCwgZGF0YX0pID0+ICh7W19pZF06IGRhdGF9KSlbMF0gKTsK</text>
+        <text encoding="base64">Y29uc3QgaGJzID0gcmVxdWlyZSgnaGJzJyk7Cmlyb3V0ZXIuc2V0KCd2aWV3cycsIHBhdGguam9pbihfX2Rpcm5hbWUsICdhcHBzJywgJ3NlcnZpY2VjZW50ZXInLCAndmlld3MnKSk7Cmlyb3V0ZXIuc2V0KCd2aWV3IGVuZ2luZScsICdoYnMnKTsKCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -885,16 +886,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>scs</text>
+        <text>let hbs = require('hbs');</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyZXFUb01vZGVsXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGxldCBzY3MgPSB5aWVsZCBTZXJ2aWNlQ2VudGVycy5maW5kQWxsR3JvdXBCeUNvdW50cnkoKTsKICAgIHJlcy5qc29uKCBzY3MubWFwKCAoe19pZCwgZGF0YX0pID0+ICh7W19pZF06IGRhdGF9KSlbMF0gKTsK</text>
+        <text encoding="base64">Y29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHJlcy5qc29uKHRyKTsK</text>
+        <text encoding="base64">Y29uc3QgaGJzID0gcmVxdWlyZSgnaGJzJyk7Cmlyb3V0ZXIuc2V0KCd2aWV3cycsIHBhdGguam9pbihfX2Rpcm5hbWUsICdhcHBzJywgJ3NlcnZpY2VjZW50ZXInLCAndmlld3MnKSk7Cmlyb3V0ZXIuc2V0KCd2aWV3IGVuZ2luZScsICdoYnMnKTsKCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -916,19 +917,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Y29uc3QgaGJzID0gcmVxdWlyZSgnaGJzJyk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIC8vIGxldCB0ciA9IHtfaWQ6IGRhdGF9ID0gc2NzOwovKiAgICBmb3IgKGxldCBlbCBvZiBzY3MpIHsKICAgICAgICB0cltlbC5faWRdID0gZWwuZGF0YTsKICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IGVsLmRhdGEubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgdHJbZWwuX2lkXVtpXS5pZCA9IHRyW2VsLl9pZF1baV0uX2lkOwogICAgICAgICAgICBkZWxldGUgdHJbZWwuX2lkXVtpXS5faWQ7CiAgICAgICAgfQogICAgfSovCg==</text>
+        <text encoding="base64">YXBwLnVzZShleHByZXNzLnN0YXRpYyhwYXRoLmpvaW4oX19kaXJuYW1lLCAncHVibGljJykpKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHsgJHByb2plY3Q6IHsgfX0K</text>
+        <text encoding="base64">Y29uc3QgaGJzID0gcmVxdWlyZSgnaGJzJyk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKGJ5Q291bnRyeSk7Cgo=</text>
+        <text encoding="base64">bGV0IGhicyA9IHJlcXVpcmUoJ2hicycpOwoKYXBwLnNldCgndmlld3MnLCBwYXRoLmpvaW4oX19kaXJuYW1lLCAnYXBwcycpKTsKYXBwLnNldCgndmlldyBlbmdpbmUnLCAnaGJzJyk7Cgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGxldCBbLi4uYnlDb3VudHJ5XSA9IHNjczsK</text>
+        <text encoding="base64">ICAgIHJlcy5qc29uKHRyKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1263,13 +1264,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGxldCB4ID0gMjsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Y29uc3QgZGVidWcgPSByZXF1aXJlKCdkZWJ1ZycpKCd3ZWJjbGFpbXM6c2VydmljZWNlbnRlcnMnKTsK</text>
+        <text encoding="base64">ICAgIC8vIGxldCB0ciA9IHtfaWQ6IGRhdGF9ID0gc2NzOwovKiAgICBmb3IgKGxldCBlbCBvZiBzY3MpIHsKICAgICAgICB0cltlbC5faWRdID0gZWwuZGF0YTsKICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IGVsLmRhdGEubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgdHJbZWwuX2lkXVtpXS5pZCA9IHRyW2VsLl9pZF1baV0uX2lkOwogICAgICAgICAgICBkZWxldGUgdHJbZWwuX2lkXVtpXS5faWQ7CiAgICAgICAgfQogICAgfSovCg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ZnVuY3Rpb24gKihyZXEsIHJlcywgbmV4dCkgewogICAgbGV0IHNjcyA9IHlpZWxkIFNlcnZpY2VDZW50ZXJzLmZpbmRBbGxHcm91cEJ5Q291bnRyeSgpOwogICAgbGV0IHRyID0ge307CiAgICBmb3IgKGxldCBlbCBvZiBzY3MpIHsKICAgICAgICB0cltlbC5faWRdID0gZWwuZGF0YTsKICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IGVsLmRhdGEubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgdHJbZWwuX2lkXVtpXS5pZCA9IHRyW2VsLl9pZF1baV0uX2lkOwogICAgICAgICAgICBkZWxldGUgdHJbZWwuX2lkXVtpXS5faWQ7CiAgICAgICAgfQogICAgfQogICAgcmVzLmpzb24odHIpOwp9</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHsgJHByb2plY3Q6IHsgfX0K</text>
       </register>
       <register name=":" type="4">
         <text>reg</text>

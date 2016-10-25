@@ -215,9 +215,9 @@
       <file name="$USER_HOME$/repos/file-service/settings.gradle" timestamp="1472467924412">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/auto/no_auto_burglary.xml" timestamp="1477401854792">
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="20" column="73" />
+      <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/auto/no_auto_burglary.xml" timestamp="1477404385926">
+        <mark key="[" line="58" column="0" />
+        <mark key="]" line="59" column="58" />
       </file>
       <file name="/RegExp Fragment (TakstJdbcDao.groovy:2549).regexp" timestamp="1468502645895">
         <mark key="[" line="0" column="0" />
@@ -233,6 +233,13 @@
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/datetimepicker/datetimepicker.module.js" timestamp="1460557550269">
         <mark key="[" line="3" column="48" />
+      </file>
+      <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_schema.xml" timestamp="1477404818659">
+        <mark key="'" line="108" column="12" />
+        <mark key="[" line="1" column="18" />
+        <mark key="]" line="186" column="43" />
+        <mark key="." line="186" column="43" />
+        <mark key="^" line="186" column="43" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/integration/dmr/DmrAutoSearchClient.java" timestamp="1465472105132">
         <mark key="[" line="45" column="42" />
@@ -546,9 +553,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="276" column="73" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/commission/AppraisalRequestController.java" />
-      <jump line="22" column="35" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/requisition.ctrl.js" />
-      <jump line="30" column="28" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/requisition.ctrl.js" />
       <jump line="10" column="24" filename="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/apps/webmegler/components/requisition/form-filler.service.js" />
       <jump line="51" column="34" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
       <jump line="53" column="61" filename="$USER_HOME$/repos/webclaims/apps/claimsintegration/header/header.js" />
@@ -646,10 +650,13 @@
       <jump line="80" column="0" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_schema.xml" />
       <jump line="85" column="25" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_schema.xml" />
       <jump line="88" column="8" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_schema.xml" />
+      <jump line="75" column="91" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_schema.xml" />
+      <jump line="49" column="8" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_schema.xml" />
+      <jump line="105" column="12" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_schema.xml" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICA8ZmllbGQgdGl0bGU9IkRhdG8gb2cga2xva2tlc2xldHQgc2thZGVuIG9wcHN0b2QiIHJlcXVpcmVkPSJ0cnVlIiBuYW1lPSJ3ZWJfZGlzcGxheV9maWVsZF9kYW1hZ2VfZGF0ZSIKICAgICAgICAgICAgICAgdHlwZT0iZGF0ZXRpbWUiLz4KICAgICAgICA8ZmllbGQgdGl0bGU9IiIgcmVxdWlyZWQ9InRydWUiIG5hbWU9ImRhbWFnZV9kYXRlIiB0eXBlPSJoaWRkZW4iLz4K</text>
+        <text encoding="base64">ICAgICAgICA8ZmllbGQgdGl0bGU9IktvbW1lbnRhciB0aWwgc2thZGUiIG5hbWU9ImRhbWFnZV9jb21tZW50X293biIgcGF0dGVybj0iXi57MCwyNTV9JCIgdHlwZT0idGV4dCIKICAgICAgICBlcnJvcm1lc3NhZ2U9IkZlbHRldCBrYW4gbWFrcyBpbm5laG9sZGUgMjU1IHRlZ24iLz4K</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -699,16 +706,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>theft</text>
+        <text>Was any other property affected?</text>
       </register>
       <register name="/" type="4">
         <text>theft</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICA8ZmllbGQgdGl0bGU9IkRhdG8gb2cga2xva2tlc2xldHQgc2thZGVuIG9wcHN0b2QiIHJlcXVpcmVkPSJ0cnVlIiBuYW1lPSJ3ZWJfZGlzcGxheV9maWVsZF9kYW1hZ2VfZGF0ZSIKICAgICAgICAgICAgICAgdHlwZT0iZGF0ZXRpbWUiLz4KICAgICAgICA8ZmllbGQgdGl0bGU9IiIgcmVxdWlyZWQ9InRydWUiIG5hbWU9ImRhbWFnZV9kYXRlIiB0eXBlPSJoaWRkZW4iLz4K</text>
+        <text encoding="base64">ICAgICAgICA8ZmllbGQgdGl0bGU9IktvbW1lbnRhciB0aWwgc2thZGUiIG5hbWU9ImRhbWFnZV9jb21tZW50X293biIgcGF0dGVybj0iXi57MCwyNTV9JCIgdHlwZT0idGV4dCIKICAgICAgICBlcnJvcm1lc3NhZ2U9IkZlbHRldCBrYW4gbWFrcyBpbm5laG9sZGUgMjU1IHRlZ24iLz4K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgPC9wcm9wZXJ0aWVzPgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgPCEtLURhdGUgcmVwb3J0ZWQgdG8gcG9saWNlIOKAkyBDYWxlbmRhciBzZWxlY3Rpb24tLT4KICAgICAgICAgICAgPCEtLU5hbWUgb2YgcG9saWNlIGZvcmNlIGludm9sdmVkIOKAkyBmcmVlIHRleHQgYm94LS0+CiAgICAgICAgICAgIDwhLS1DcmltZSByZWZlcmVuY2UgbnVtYmVyIOKAkyBmcmVlIHRleHQgYm94LS0+Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -730,19 +737,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDwvZmllbGQ+CiAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgPC9wcm9wZXJ0aWVzPgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxmaWVsZCB0aXRsZT0iVXBsb2FkIHBob3Rvcy9vdGhlciBmaWxlcyIgbmFtZT0iZmlsZV91cGxvYWRzIiB0eXBlPSJmaWxlIi8+Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgPC9wcm9wZXJ0aWVzPgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxmaWVsZCB0aXRsZT0iQmxlIHBvbGl0aWV0IGtvbnRha3RldD8iIGlubGluZXRpdGxlPSJKYSIgbmFtZT0iaXNfcmVwb3J0ZWRfcG9saWNlIiB0eXBlPSJib29sZWFuIi8+Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIDwvZmllbGRzZXQ+CiAgICA8ZmllbGRzZXQgbmFtZT0iZGFtYWdlX2luZm8iIHRpdGxlPSJTdGVwIDQiPgo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1077,13 +1084,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgICAgICAgICA8L3Byb3BlcnRpZXM+Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgPGZpZWxkIG5hbWU9ImRhbWFnZV9sb2NhdGlvbiIgdGl0bGU9IkxvY2F0aW9uIG9mIGluY2lkZW50IiB0eXBlPSJ0ZXh0Ii8+Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgPGZpZWxkIG5hbWU9ImRhbWFnZV9sb2NhdGlvbiIgdGl0bGU9IiIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIDxmaWVsZHNldCBuYW1lPSJzb21lX25hbWUiIHRpdGxlPSJTb21lIHRpdGxlIj4KCiAgICA8L2ZpZWxkc2V0PgogICAgPGZpZWxkc2V0IG5hbWU9InNvbWVfbmFtZSIgdGl0bGU9IlNvbWUgdGl0bGUiPgoKICAgIDwvZmllbGRzZXQ+Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>s/theft/malicious_damage/g</text>

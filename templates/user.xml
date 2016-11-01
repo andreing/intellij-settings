@@ -32,4 +32,45 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="xyn" value="&lt;field name=&quot;$name$&quot; title=&quot;$title$&quot; type=&quot;string&quot;&gt;&#10;    &lt;alternatives&gt;&#10;        &lt;alternative title=&quot;Yes&quot; value=&quot;true&quot;/&gt;&#10;        &lt;alternative title=&quot;No&quot; value=&quot;false&quot;/&gt;&#10;    &lt;/alternatives&gt;&#10;&lt;/field&gt;" description="XML Yes/No fields" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="snakeCase(clipboard())" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="xfi" value="&lt;field name=&quot;$name$&quot; title=&quot;$title$&quot; type=&quot;$type$&quot; $extra$/&gt;" description="XML Simple field" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="snakeCase(clipboard())" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="text" alwaysStopAt="true" />
+    <variable name="extra" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="xalt" value="&lt;field name=&quot;$name$&quot; title=&quot;$title$&quot; type=&quot;string&quot;&gt;&#10;    &lt;alternatives&gt;&#10;        &lt;alternative value=&quot;$val$&quot; title=&quot;$atitle$&quot;/&gt;&#10;        $END$ &#10;    &lt;/alternatives&gt;&#10;&lt;/field&gt;" description="XML alternatives" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="snakeCase(clipboard())" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="val" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="atitle" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="xobj" value="&lt;field name=&quot;$name$&quot; title=&quot;$title$&quot; type=&quot;object&quot;&gt;&#10;    &lt;properties&gt;&#10;        $END$&#10;    &lt;/properties&gt;&#10;&lt;/field&gt;&#10;" description="XML field with properties" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="snakeCase(clipboard())" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="xcomp" value="field('$name$') == '$value$'" description="XML dsl comparison" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="false" />
+    </context>
+  </template>
 </templateSet>

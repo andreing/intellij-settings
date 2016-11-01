@@ -52,6 +52,7 @@
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/dao/ClaimFormJdbcDao.java" timestamp="1477996829506" />
       <file name="/RegExp Fragment (migrate.groovy:5361).regexp" timestamp="1473869564967">
         <mark key="[" line="0" column="0" />
       </file>
@@ -224,8 +225,11 @@
       <file name="/RegExp Fragment (TakstJdbcDao.groovy:2525).regexp" timestamp="1468502852628">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1477992136616">
-        <mark key="[" line="277" column="0" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1477997029123">
+        <mark key="[" line="280" column="90" />
+        <mark key="]" line="280" column="57" />
+        <mark key="^" line="280" column="57" />
+        <mark key="." line="280" column="57" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/resources/test_claims_log_config_secondary.xml" timestamp="1460627004390">
         <mark key="[" line="16" column="162" />
@@ -352,12 +356,12 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/DamageInfo.java" timestamp="1465311657173">
         <mark key="[" line="95" column="5" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1477995280285">
-        <mark key="'" line="572" column="25" />
-        <mark key="[" line="869" column="62" />
-        <mark key="]" line="870" column="12" />
-        <mark key="." line="870" column="12" />
-        <mark key="^" line="870" column="12" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1477997178600">
+        <mark key="'" line="526" column="25" />
+        <mark key="[" line="465" column="0" />
+        <mark key="]" line="465" column="0" />
+        <mark key="." line="465" column="0" />
+        <mark key="^" line="468" column="18" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/apps/fileservice/fs-client.js" timestamp="1477663877809">
         <mark key="[" line="1" column="0" />
@@ -725,7 +729,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAocG9saWN5TnVtYmVyU3RyaW5nICE9IG51bGwgJiYgIXBvbGljeU51bWJlclN0cmluZy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgTG9uZyBwb2xpY3lOdW1iZXIgPSBwb2xpY3lOdW1iZXJUb0Jhc2VDb250cmFjdE51bWJlcihwb2xpY3lOdW1iZXJTdHJpbmcpOwogICAgICAgICAgICBpZiAocG9saWN5TnVtYmVyICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIFN0cmluZyByZWZEYXRlID0gX2RhbWFnZURhdGUudG9Mb2NhbERhdGUoKS50b1N0cmluZygpOwogICAgICAgICAgICAgICAgbWF5YmVDb250cmFjdCA9IGNvbnRyYWN0U2VydmljZS5maW5kQ29udHJhY3RzKHBvbGljeU51bWJlciwgbnVsbCwgbnVsbCwgcmVmRGF0ZSwgTGluZU9mQnVzaW5lc3NFbnVtLkFVVE8uZ2V0TG9iSWQoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuc3RyZWFtKCkuZmluZEZpcnN0KCk7CiAgICAgICAgICAgIH0KICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAvL3JldHVybiBzdWJtaXNzaW9uLmdldFR5cGUoKSAhPSBudWxsICYmICJhZnRlcm1hdGgiLmVxdWFscyhzdWJtaXNzaW9uLmdldFR5cGUoKS50b0xvd2VyQ2FzZSgpKTsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -781,10 +785,10 @@
         <text>\[A-Z\]</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgcmVmRGF0ZSA9IGRhbWFnZURhdGUudG9Mb2NhbERhdGUoKS50b1N0cmluZygpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCJzZV9saWZlX2RpYWJldGVzZm9yYnVuZGV0Ii5lcXVhbHMoZm9ybU5hbWUpIHx8ICJzZV9saWZlX211bmljaXBhbCIuZXF1YWxzKGZvcm1OYW1lKSB8fCAic2VfbGlmZV9kZW50YWwiLmVxdWFscyhmb3JtTmFtZSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVzZXJJZCA9IGdldERlZmF1bHRBc3NpZ25lZVdpdGhGb3JtTmFtZShjb3VudHJ5LmdldENvdW50cnlJZCgpLGxvYi5nZXRMb2JJZCgpLGZvcm1OYW1lKTsKICAgICAgICAgICAgICAgICAgICAgICAgfWVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdXNlcklkID0gZ2V0RGVmYXVsdEFzc2lnbmVlKGNvdW50cnkuZ2V0Q291bnRyeUlkKCksbG9iLmdldExvYklkKCkpOwogICAgICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAocG9saWN5TnVtYmVyU3RyaW5nICE9IG51bGwgJiYgIXBvbGljeU51bWJlclN0cmluZy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgTG9uZyBwb2xpY3lOdW1iZXIgPSBwb2xpY3lOdW1iZXJUb0Jhc2VDb250cmFjdE51bWJlcihwb2xpY3lOdW1iZXJTdHJpbmcpOwogICAgICAgICAgICBpZiAocG9saWN5TnVtYmVyICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIFN0cmluZyByZWZEYXRlID0gX2RhbWFnZURhdGUudG9Mb2NhbERhdGUoKS50b1N0cmluZygpOwogICAgICAgICAgICAgICAgbWF5YmVDb250cmFjdCA9IGNvbnRyYWN0U2VydmljZS5maW5kQ29udHJhY3RzKHBvbGljeU51bWJlciwgbnVsbCwgbnVsbCwgcmVmRGF0ZSwgTGluZU9mQnVzaW5lc3NFbnVtLkFVVE8uZ2V0TG9iSWQoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuc3RyZWFtKCkuZmluZEZpcnN0KCk7CiAgICAgICAgICAgIH0KICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAvL3JldHVybiBzdWJtaXNzaW9uLmdldFR5cGUoKSAhPSBudWxsICYmICJhZnRlcm1hdGgiLmVxdWFscyhzdWJtaXNzaW9uLmdldFR5cGUoKS50b0xvd2VyQ2FzZSgpKTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -810,20 +814,72 @@
           <key char="94" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+      <register name="2" type="4">
+        <text>switch (lob) {
+            case AUTO:
+                switch (country) {
+                    case NORWAY: userId = isProd ? getDefaultAssignee(country.getCountryId(),lob.getLobId()) : 754L; // anin99      /*524L == kael99 på ferie i juni
+                        break;
+                    case SWEDEN: userId = getDefaultAssignee(country.getCountryId(),lob.getLobId()); //roda99
+                        break;
+                    case DENMARK: userId = isProd ? getDefaultAssignee(country.getCountryId(),lob.getLobId()) : 749L; // jeha99
+                        break;
+                    case FINLAND: userId = getDefaultAssignee(country.getCountryId(),lob.getLobId());
+                        break;
+                    case UK: userId = getDefaultAssignee(country.getCountryId(), lob.getLobId());
+                        break;
+                }
+                break;
+            case LIFE:
+                switch (country) {
+                    case NORWAY: userId = getDefaultAssignee(country.getCountryId(),lob.getLobId());
+                        break;
+                    case SWEDEN:
+                        if (&quot;se_life_diabetesforbundet&quot;.equals(formName) || &quot;se_life_municipal&quot;.equals(formName) || &quot;se_life_dental&quot;.equals(formName)) {
+                            userId = getDefaultAssigneeWithFormName(country.getCountryId(),lob.getLobId(),formName);
+                        }else {
+                            userId = getDefaultAssignee(country.getCountryId(),lob.getLobId());
+                        }
+                        break;
+                    case DENMARK: userId = getDefaultAssignee(country.getCountryId(),lob.getLobId());
+                        break;
+                    case FINLAND: userId = getDefaultAssignee(country.getCountryId(),lob.getLobId());
+                        break;
+                }
+                break;
+            case PROPERTY:
+                switch (country) {
+                    case NORWAY: userId = isProd ? getDefaultAssignee(country.getCountryId(),lob.getLobId()) : 754L; // anin99      /*524L == kael99 på ferie i juni
+                        break;
+                    case SWEDEN: userId = isProd ? getDefaultAssignee(country.getCountryId(),lob.getLobId()) : 694L; // roda99
+                        break;
+                    case DENMARK: userId = getDefaultAssignee(country.getCountryId(),lob.getLobId()); //jeha99
+                        break;
+                }
+                break;
+            case LIABILITY:
+                switch (country) {
+                    case NORWAY: userId = isProd ? getDefaultAssignee(country.getCountryId(),lob.getLobId()) : 754L; // anin99      /*524L == kael99 på ferie i juni
+                        break;
+                    case SWEDEN: userId = isProd ? getDefaultAssignee(country.getCountryId(),lob.getLobId()) : 694L; // roda99
+                        break;
+                    case DENMARK: userId = isProd ? getDefaultAssignee(country.getCountryId(),lob.getLobId()) : 749L;  // jeha99
+                        break;
+                }
+                break;
+        }</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoZm9ybURhdGEuY29udGFpbnNLZXkoRm9ybUZpZWxkcy5QT0xJQ1lfTlVNQkVSLmdldEtleSgpKSkgewo=</text>
+        <text encoding="base64">ICAgICAgICBpZiAoZm9ybU5hbWUgIT0gbnVsbCkgewogICAgICAgICAgICBnZXREZWZhdWx0QXNzaWduZWVXaXRoRm9ybU5hbWUoY291bnRyeS5nZXRDb3VudHJ5SWQoKS4pCiAgICAgICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBMb2NhbERhdGVUaW1lIGRhbWFnZURhdGUgPSBfZGFtYWdlRGF0ZS50b0xvY2FsRGF0ZVRpbWUoKTsK</text>
+        <text encoding="base64">ICAgICAgICBpZiAocG9saWN5TnVtYmVyU3RyaW5nICE9IG51bGwgJiYgIXBvbGljeU51bWJlclN0cmluZy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgTG9uZyBwb2xpY3lOdW1iZXIgPSBwb2xpY3lOdW1iZXJUb0Jhc2VDb250cmFjdE51bWJlcihwb2xpY3lOdW1iZXJTdHJpbmcpOwogICAgICAgICAgICBpZiAocG9saWN5TnVtYmVyICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIFN0cmluZyByZWZEYXRlID0gX2RhbWFnZURhdGUudG9Mb2NhbERhdGUoKS50b1N0cmluZygpOwogICAgICAgICAgICAgICAgbWF5YmVDb250cmFjdCA9IGNvbnRyYWN0U2VydmljZS5maW5kQ29udHJhY3RzKHBvbGljeU51bWJlciwgbnVsbCwgbnVsbCwgcmVmRGF0ZSwgTGluZU9mQnVzaW5lc3NFbnVtLkFVVE8uZ2V0TG9iSWQoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuc3RyZWFtKCkuZmluZEZpcnN0KCk7CiAgICAgICAgICAgIH0KICAgICAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29udHJhY3RTZXJ2aWNlLgo=</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgQm9vbGVhbiBoYXNMaWNlbmNlID0gZm9ybURhdGEuY29udGFpbnNLZXkoRm9ybUZpZWxkcy5IQVNfTElDRU5DRS5nZXRLZXkoKSkgPyAidHJ1ZSIuZXF1YWxzKGdldFN0cmluZyhmb3JtRGF0YSwgRm9ybUZpZWxkcy5IQVNfTElDRU5DRSkpIDogbnVsbDsKICAgICAgICAgICAgc3ViQXV0b0hlYWRlci5zZXRWYWxpZExpY2VuY2UoaGFzTGljZW5jZSk7Cgo=</text>
+        <text encoding="base64">ICAgICAgICBpZiAoZm9ybURhdGEuY29udGFpbnNLZXkoRm9ybUZpZWxkcy5QT0xJQ1lfTlVNQkVSLmdldEtleSgpKSkgewo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1158,13 +1214,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEhBU19MSUNFTkNFKCJoYXNfbGljZW5jZSIpLAo=</text>
+        <text encoding="base64">ICAgICAgICBMb2NhbERhdGVUaW1lIGRhbWFnZURhdGUgPSBfZGFtYWdlRGF0ZS50b0xvY2FsRGF0ZVRpbWUoKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAubWFwKE9wdGlvbmFsOjpvZk51bGxhYmxlKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29udHJhY3RTZXJ2aWNlLgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBMb2NhbERhdGVUaW1lIGRhbWFnZURhdGUgPSBfZGFtYWdlRGF0ZS50b0xvY2FsRGF0ZVRpbWUoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgQm9vbGVhbiBoYXNMaWNlbmNlID0gZm9ybURhdGEuY29udGFpbnNLZXkoRm9ybUZpZWxkcy5IQVNfTElDRU5DRS5nZXRLZXkoKSkgPyAidHJ1ZSIuZXF1YWxzKGdldFN0cmluZyhmb3JtRGF0YSwgRm9ybUZpZWxkcy5IQVNfTElDRU5DRSkpIDogbnVsbDsKICAgICAgICAgICAgc3ViQXV0b0hlYWRlci5zZXRWYWxpZExpY2VuY2UoaGFzTGljZW5jZSk7Cgo=</text>
       </register>
       <register name=":" type="4">
         <text>s/\[A-Z\]/\[a-zA-Z\]/g</text>

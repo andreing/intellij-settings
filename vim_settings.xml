@@ -84,11 +84,11 @@
       <file name="$USER_HOME$/repos/webclaims/apps/servicecenter/views/layout.hbs" timestamp="1477040990207">
         <mark key="[" line="11" column="17" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/nobina/api.js" timestamp="1478091260560">
-        <mark key="[" line="36" column="90" />
-        <mark key="]" line="36" column="26" />
-        <mark key="." line="36" column="26" />
-        <mark key="^" line="36" column="26" />
+      <file name="$USER_HOME$/repos/webclaims/apps/nobina/api.js" timestamp="1478095295797">
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="^" line="21" column="7" />
+        <mark key="." line="17" column="0" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/Commission.groovy" timestamp="1460609508468">
         <mark key="[" line="3" column="18" />
@@ -339,20 +339,21 @@
         <mark key="." line="1" column="16" />
         <mark key="^" line="15" column="82" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/fileservice/fileservice-client.js" timestamp="1478092786024">
-        <mark key="[" line="24" column="30" />
-        <mark key="]" line="24" column="36" />
-        <mark key="." line="24" column="36" />
-        <mark key="^" line="24" column="36" />
+      <file name="$USER_HOME$/repos/webclaims/apps/fileservice/fileservice-client.js" timestamp="1478094478138">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="3" column="32" />
+        <mark key="]" line="3" column="29" />
+        <mark key="." line="3" column="29" />
+        <mark key="^" line="3" column="29" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/reports/exceptions/DocumentServiceClientException.java" timestamp="1462372962389">
         <mark key="[" line="8" column="78" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/fileservice/fileservice-client.spec.js" timestamp="1478093095375">
-        <mark key="[" line="38" column="55" />
-        <mark key="]" line="38" column="51" />
-        <mark key="." line="38" column="51" />
-        <mark key="^" line="38" column="51" />
+      <file name="$USER_HOME$/repos/webclaims/apps/fileservice/fileservice-client.spec.js" timestamp="1478094157204">
+        <mark key="[" line="35" column="10" />
+        <mark key="]" line="35" column="15" />
+        <mark key="." line="35" column="10" />
+        <mark key="^" line="30" column="13" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/shared/fields/static-fields-broker.html" timestamp="1460450872525">
         <mark key="[" line="8" column="65" />
@@ -496,11 +497,11 @@
       <file name="restClient/response16.xml" timestamp="1463058126709">
         <mark key="[" line="0" column="349" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/test/integration/fileservice.test.js" timestamp="1478089164741">
-        <mark key="[" line="16" column="50" />
-        <mark key="]" line="21" column="26" />
-        <mark key="^" line="21" column="26" />
-        <mark key="." line="21" column="26" />
+      <file name="$USER_HOME$/repos/webclaims/test/integration/fileservice.test.js" timestamp="1478095245811">
+        <mark key="[" line="42" column="39" />
+        <mark key="]" line="43" column="28" />
+        <mark key="^" line="43" column="28" />
+        <mark key="." line="43" column="28" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/User.java" timestamp="1461079400669">
         <mark key="[" line="19" column="30" />
@@ -655,8 +656,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="59" column="0" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_schema.xml" />
-      <jump line="96" column="64" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_schema.xml" />
       <jump line="104" column="74" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_schema.xml" />
       <jump line="165" column="21" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_schema.xml" />
       <jump line="31" column="84" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_schema.xml" />
@@ -755,10 +754,12 @@
       <jump line="252" column="42" filename="$USER_HOME$/repos/claims/frontend/claims/js/controllers/ClaimFormDataCtrl.js" />
       <jump line="283" column="33" filename="$USER_HOME$/repos/claims/frontend/claims/js/controllers/ClaimFormDataCtrl.js" />
       <jump line="1" column="15" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_malicious_damage.xml" />
+      <jump line="23" column="3" filename="$USER_HOME$/repos/webclaims/apps/fileservice/fileservice-client.js" />
+      <jump line="0" column="0" filename="$USER_HOME$/repos/webclaims/apps/fileservice/fileservice-client.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">cmV0dXJuIA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -808,16 +809,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">cmV0dXJuIA==</text>
+        <text>fs.store(pdfBytesBuffer, 'integration-submission-summary_' + jsonInput.sender + '_' + (new Date()).toISOString() + '.pdf', 'application/pdf');</text>
       </register>
       <register name="/" type="4">
-        <text>police</text>
+        <text encoding="base64">XDx1c2VcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIGZzYy5zdG9yZShmaWxlc3RyZWFtLCBmaWxlbmFtZSwgY29udGVudFR5cGUpCg==</text>
+        <text encoding="base64">ICAgIGZpbGVjbGllbnQuc3RvcmUoZmlsZXN0cmVhbSwgJ2ludGVncmF0aW9uLXN1Ym1pc3Npb24tc3VtbWFyeV8nICsganNvbklucHV0LnNlbmRlciArICdfJyArIChuZXcgRGF0ZSgpKS50b0lTT1N0cmluZygpICsgJy5wZGYnLCAnYXBwbGljYXRpb24vcGRmJyk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -844,19 +845,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">LHtjYWxsYmFjazpvblNhdmVkKHJlc29sdmUsIHJlamVjdCl9KTsK</text>
+        <text encoding="base64">ICAgIC8vIGxldCBwZGZCeXRlc0J1ZmZlcjsKICAgIC8vIHRyeSB7CiAgICAvLyAgICAgcGRmQnl0ZXNCdWZmZXIgPSB5aWVsZCBzdWJtaXNzaW9uMnBkZi5qc29uVG9QZGZQcm9taXNlKGpzb25JbnB1dCwgc3VibWlzc2lvblR5cGVzLnN1Ym1pc3Npb25UeXBlTG9va3VwKGpzb25JbnB1dC5zZW5kZXIpKTsKICAgIC8vIH0gY2F0Y2ggKGVycikgewogICAgLy8gICAgIGVyci5zdWJtaXNzaW9uU3RhdHVzID0gJ1BERl9HRU5FUkFUSU9OX0ZBSUxFRCc7CiAgICAvLyAgICAgdGhyb3cgZXJyOyAvLyB3cmFwIHdpbGwgY2FsbCBuZXh0KGVycikKICAgIC8vIH0KICAgIC8vCiAgICB0cnl7CiAgICAgICAgbGV0IG1ldGFkYXRhID0geWllbGQgZnMuc3RvcmUocGRmQnl0ZXNCdWZmZXIsICdpbnRlZ3JhdGlvbi1zdWJtaXNzaW9uLXN1bW1hcnlfJyArIGpzb25JbnB1dC5zZW5kZXIgKyAnXycgKyAobmV3IERhdGUoKSkudG9JU09TdHJpbmcoKSArICcucGRmJywgJ2FwcGxpY2F0aW9uL3BkZicpOwogICAgfSBjYXRjaCAoZXJyKSB7CiAgICAgICAgZXJyLnN1Ym1pc3Npb25TdGF0dXMgPSAnRlNfU1RPUkVfRkFJTEVEJzsKICAgICAgICB0aHJvdyBlcnI7IC8vIHdyYXAgd2lsbCBjYWxsIG5leHQoZXJyKQogICAgfQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAub24oJ3Jlc3BvbnNlJywgcmVzcG9uc2UgPT4gewogICAgICAgICAgICBjb25zb2xlLmluZm8oJ3BkZi1zZXJ2aWNlIHN0YXR1cy1jb2RlPScgKyByZXNwb25zZS5zdGF0dXNDb2RlKTsKICAgICAgICAgICAgaWYgKFtodHRwQ29kZS5PSywgaHR0cENvZGUuQ1JFQVRFRF0uaW5kZXhPZihyZXNwb25zZS5zdGF0dXNDb2RlKSA9PT0gLTEpIHsKICAgICAgICAgICAgICAgIGxldCBuZXJyID0gbmV3IEVycm9yKCdwZGYtc2VydmljZSByZXNwb25kZWQgd2l0aCAnICsgcmVzcG9uc2Uuc3RhdHVzQ29kZSk7CiAgICAgICAgICAgICAgICAvLyBuZXJyLnJlc3BvbnNlID0gcmVzcG9uc2UuYm9keTsKICAgICAgICAgICAgICAgIG5lcnIuc3RhdHVzID0gaHR0cENvZGUuSU5UX1NFUlZfRVJSOwogICAgICAgICAgICAgICAgdGhyb3cgbmVycjsKICAgICAgICAgICAgfQogICAgICAgIH0pCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnVuY3Rpb24gX2RvU3RvcmUodGhlc3RyZWFtLCApCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGNvbnN0IHVsUGF0aCA9IGAke2ZzQ29uZmlnLmJhc2VVcml9L2RvY3VtZW50L3VwbG9hZGA7Cg==</text>
+        <text encoding="base64">ICAgIGZpbGVjbGllbnQuc3RvcmUoZmlsZXN0cmVhbSwgJ2ludGVncmF0aW9uLXN1Ym1pc3Npb24tc3VtbWFyeV8nICsganNvbklucHV0LnNlbmRlciArICdfJyArIChuZXcgRGF0ZSgpKS50b0lTT1N0cmluZygpICsgJy5wZGYnLCAnYXBwbGljYXRpb24vcGRmJyk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIH0pOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1190,23 +1191,23 @@
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KT0+IHsK</text>
+      <register name="7" type="4">
+        <text encoding="base64">IGVsc2UgewogICAgICAgICAgICAgICAgCiAgICAgICAgICAgIH0=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHJlcy5zdGF0dXMoaHR0cENvZGUuSU5UX1NFUlZfRVJSKTsK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlcy5zdGF0dXMoaHR0cENvZGUuSU5UX1NFUlZfRVJSKTsK</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name=":" type="4">
         <text>s/\[A-Z\]/\[a-zA-Z\]/g</text>
       </register>
     </registers>
     <search>
-      <last-search>police</last-search>
+      <last-search encoding="base64">XDx1c2VcPg==</last-search>
       <last-offset />
-      <last-pattern>police</last-pattern>
+      <last-pattern encoding="base64">XDx1c2VcPg==</last-pattern>
       <last-replace>\[a-zA-Z\]</last-replace>
       <last-substitute>\[A-Z\]</last-substitute>
       <last-dir>1</last-dir>
@@ -1214,7 +1215,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxkYW1hZ2VfZGVzY3JpcHRpb25cPg==</entry>
         <entry>convictions</entry>
         <entry encoding="base64">XDxwcmludFw+</entry>
         <entry encoding="base64">XDxwcHJpbnRcPg==</entry>
@@ -1234,6 +1234,7 @@
         <entry encoding="base64">XDxtdWx0aVw+</entry>
         <entry encoding="base64">XDxwcm9wZXJ0aWVzXD4=</entry>
         <entry>police</entry>
+        <entry encoding="base64">XDx1c2VcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL2hlYWRlckR0by9maWxlc09iai9n</entry>

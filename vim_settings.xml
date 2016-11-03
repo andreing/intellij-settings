@@ -341,21 +341,21 @@
         <mark key="." line="1" column="16" />
         <mark key="^" line="15" column="82" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/fileservice/fileservice-client.js" timestamp="1478173725534">
+      <file name="$USER_HOME$/repos/webclaims/apps/fileservice/fileservice-client.js" timestamp="1478175429040">
         <mark key="'" line="14" column="15" />
-        <mark key="[" line="34" column="43" />
-        <mark key="]" line="27" column="14" />
-        <mark key="." line="27" column="14" />
-        <mark key="^" line="27" column="14" />
+        <mark key="[" line="54" column="92" />
+        <mark key="]" line="54" column="9" />
+        <mark key="^" line="54" column="9" />
+        <mark key="." line="54" column="9" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/reports/exceptions/DocumentServiceClientException.java" timestamp="1462372962389">
         <mark key="[" line="8" column="78" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/fileservice/fileservice-client.spec.js" timestamp="1478173963178">
-        <mark key="[" line="35" column="15" />
-        <mark key="]" line="30" column="14" />
-        <mark key="." line="30" column="14" />
-        <mark key="^" line="30" column="14" />
+      <file name="$USER_HOME$/repos/webclaims/apps/fileservice/fileservice-client.spec.js" timestamp="1478174330919">
+        <mark key="[" line="41" column="55" />
+        <mark key="]" line="41" column="23" />
+        <mark key="." line="41" column="23" />
+        <mark key="^" line="41" column="23" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/shared/fields/static-fields-broker.html" timestamp="1460450872525">
         <mark key="[" line="8" column="65" />
@@ -499,11 +499,11 @@
       <file name="restClient/response16.xml" timestamp="1463058126709">
         <mark key="[" line="0" column="349" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/test/integration/fileservice.test.js" timestamp="1478173763560">
-        <mark key="[" line="21" column="39" />
-        <mark key="]" line="25" column="10" />
-        <mark key="." line="25" column="10" />
-        <mark key="^" line="25" column="10" />
+      <file name="$USER_HOME$/repos/webclaims/test/integration/fileservice.test.js" timestamp="1478174643849">
+        <mark key="[" line="25" column="45" />
+        <mark key="]" line="25" column="50" />
+        <mark key="." line="25" column="50" />
+        <mark key="^" line="25" column="50" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/User.java" timestamp="1461079400669">
         <mark key="[" line="19" column="30" />
@@ -760,8 +760,8 @@
       <jump line="14" column="15" filename="$USER_HOME$/repos/webclaims/apps/fileservice/fileservice-client.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmlsZXN0cmVhbS5waXBlKGZzYy5zdG9yZVN0cmVhbShmaWxlbmFtZSwgY29udGVudFR5cGUpKQo=</text>
+      <register name="&quot;" type="4">
+        <text>new stream.PassThrough()</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -811,7 +811,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>, function (err) {</text>
+        <text>new stream.PassThrough()</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxmaWxlc3RyZWFtXD4=</text>
@@ -820,7 +820,7 @@
         <text encoding="base64">Y29uc3QgY2hhaSA9IHJlcXVpcmUoJ2NoYWknKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmlsZXN0cmVhbS5waXBlKGZzYy5zdG9yZVN0cmVhbShmaWxlbmFtZSwgY29udGVudFR5cGUpKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -847,19 +847,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBtdWx0aXBhcnQuYXBwZW5kKCdmaWxlJywgZmlsZXN0cmVhbSk7Cg==</text>
+        <text encoding="base64">ICAgIGxldCByID0gcmVxdWVzdC5wb3N0KHt1cmk6IHVsUGF0aCwgY2FsbGJhY2s6Y2J9KTsKICAgIGxldCBtdWx0aXBhcnQgPSByLmZvcm0oKTsKICAgIG11bHRpcGFydC5hcHBlbmQoJ21ldGEnLCBKU09OLnN0cmluZ2lmeShtZXRhZGF0YSkpOwogICAgbXVsdGlwYXJ0LmFwcGVuZCgnZmlsZScsIGZpbGVzdHJlYW0sIHtmaWxlbmFtZTogZmlsZW5hbWUsIGNvbnRlbnRUeXBlOiBjb250ZW50VHlwZX0pOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC50by5ldmVudHVhbGx5LmJlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5zaG91bGQuZXZlbnR1YWxseS5oYXZlLnByb3BlcnR5KCdpZCcpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Y29uc3Qgc2hvdWxkID0gcmVxdWlyZSgnY2hhaScpLnNob3VsZCgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmlsZXN0cmVhbS5waXBlKGZzYy5zdG9yZVN0cmVhbShmaWxlbmFtZSwgY29udGVudFR5cGUpKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBtdWx0aXBhcnQuYXBwZW5kKCdmaWxlJywgZmlsZXN0cmVhbSk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGxldCBwYXlsb2FkID0gCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC50by5ldmVudHVhbGx5LmJlCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1193,14 +1193,14 @@
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">ewogICAgICAgICJzZW5kZXIiOiAiTk9CSU5BU0UiLAogICAgICAgICJleHRlcm5hbElkIjogMjAwMDEsCiAgICAgICAgImRhbWFnZURhdGUiOiAiMDktMDEtMjAwNSIsCiAgICAgICAgImRhbWFnZUxvY2F0aW9uIjogIktvcnNuaW5nIEhhbnR2ZXJrYXJlZ2F0YW4gLyBDaGFwbWFuc3BsYW4iLAogICAgICAgICJkcml2ZXJOYW1lIjogIktlaXRoIE9sc3NvbiIsCiAgICAgICAgImRyaXZlclB1YmxpY0lkIjogIjQ5MTEwNy0zMzEyIiwKICAgICAgICAicmVnTnVtYmVyIjogIlBTQTI5MCIsCiAgICAgICAgImRhbWFnZURlc2NyaXB0aW9uIjogIkvDtnJ0IMO2dmVyIGVuIGzDpWcgc3RlbmJlbGFnIHJlZnVnIHAuZy5hIGF2c8OkbmdkIG9yZGluYXJpZSBsaW5qZXN0csOkY2tuaW5nLiBLdW5kZSBlaiBzdsOkbmdhIGjDtmdlciB2aWQga29yc25pbmdlbiBBcmtsaW3DpHN0YXJlZ2F0YW4gdXRhbiBmb3J0c2F0dGUgbmVkIHRpbGwgQ2hhcG1hbnNwbGFuLiIsCiAgICAgICAgInJlZk51bWJlciI6IDAsCiAgICAgICAgImNhbGxiYWNrVXJsIjogImh0dHBzOi8vd3N0ZXN0Lm5vYmluYS5jb20vT01TU2VydmljZS9JbnN1cmFuY2VGYWNhZGUuc3ZjIiwKICAgICAgICAiaW5pdGlhbEV2ZW50Q29tbWVudCI6IG51bGwsCiAgICAgICAgImNvdW50ZXJQYXJ0IjogewogICAgICAgICAgICAibmFtZSI6ICIiLAogICAgICAgICAgICAiYWRkcmVzcyI6ICIiLAogICAgICAgICAgICAiemlwQ29kZSI6ICIiLAogICAgICAgICAgICAiemlwQWRkcmVzcyI6ICIiLAogICAgICAgICAgICAicGhvbmUiOiAiIiwKICAgICAgICAgICAgInJlZ051bSI6ICIiCiAgICAgICAgfSwKICAgICAgICAib3RoZXJJbmZvIjogewogICAgICAgICAgICAiQW9tciI6ICIxMjM0IgogICAgICAgIH0sCiAgICAgICAgImZpbGVMaXN0Ijoge30KICAgIH07Cg==</text>
+      <register name="7" type="2">
+        <text encoding="base64">Y29uc3Qgc2hvdWxkID0gcmVxdWlyZSgnY2hhaScpLnNob3VsZCgpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAub24oJ2Vycm9yJywgZnVuY3Rpb24gKGVycikgewogICAgICAgICAgICAvLyByZXMuc3RhdHVzKGh0dHBDb2RlLklOVF9TRVJWX0VSUik7CiAgICAgICAgICAgIGxldCBuZXJyID0gbmV3IEVycm9yKGVycik7CiAgICAgICAgICAgIG5lcnIuc3RhdHVzID0gaHR0cENvZGUuSU5UX1NFUlZfRVJSOwogICAgICAgICAgICB0aHJvdyBuZXJyOwogICAgICAgIH0pCiAgICAgICAgLm9uKCdyZXNwb25zZScsIGZ1bmN0aW9uIChyZXNwb25zZSkgewogICAgICAgICAgICBjb25zb2xlLmluZm8oJ3BkZi1zZXJ2aWNlIHN0YXR1cy1jb2RlPScgKyByZXNwb25zZS5zdGF0dXNDb2RlKTsKICAgICAgICAgICAgaWYgKFtodHRwQ29kZS5PSywgaHR0cENvZGUuQ1JFQVRFRF0uaW5kZXhPZihyZXNwb25zZS5zdGF0dXNDb2RlKSA9PT0gLTEpIHsKICAgICAgICAgICAgICAgIGxldCBuZXJyID0gbmV3IEVycm9yKCdwZGYtc2VydmljZSByZXNwb25kZWQgd2l0aCAnICsgcmVzcG9uc2Uuc3RhdHVzQ29kZSk7CiAgICAgICAgICAgICAgICBuZXJyLnN0YXR1cyA9IGh0dHBDb2RlLklOVF9TRVJWX0VSUjsKICAgICAgICAgICAgICAgIHRocm93IG5lcnI7CiAgICAgICAgICAgIH0KICAgICAgICB9KQoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Y29uc3QgcmVxdWVzdCA9IHJlcXVpcmUoJ3N1cGVydGVzdCcpOwo=</text>
+        <text encoding="base64">ICAgIGxldCBwYXlsb2FkID0gCg==</text>
       </register>
       <register name=":" type="4">
         <text>s/\[A-Z\]/\[a-zA-Z\]/g</text>

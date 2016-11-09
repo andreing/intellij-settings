@@ -9,7 +9,7 @@
         <mark key="^" line="9" column="49" />
         <mark key="." line="9" column="49" />
       </file>
-      <file name="/a.dummy" timestamp="1478522305971">
+      <file name="/a.dummy" timestamp="1478682795840">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/file-service/client/src/main/groovy/protector/fileservice/client/domain/FileServiceServerException.groovy" timestamp="1472470316161">
@@ -112,6 +112,13 @@
       </file>
       <file name="$USER_HOME$/repos/file-service/client/gradle.properties" timestamp="1478615382550">
         <mark key="[" line="0" column="21" />
+      </file>
+      <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_collision.xml" timestamp="1478682905794">
+        <mark key="'" line="1" column="15" />
+        <mark key="[" line="1" column="15" />
+        <mark key="]" line="1" column="17" />
+        <mark key="^" line="162" column="113" />
+        <mark key="." line="1" column="17" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/config/dev.json" timestamp="1476865658331">
         <mark key="[" line="0" column="0" />
@@ -295,6 +302,9 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/ClaimDocumentService.java" timestamp="1478513781690">
         <mark key="[" line="84" column="54" />
       </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1478683178858">
+        <mark key="[" line="450" column="33" />
+      </file>
       <file name="$USER_HOME$/repos/webclaims/apps/fileservice/fs-client.js" timestamp="1477663877809">
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="0" />
@@ -418,7 +428,7 @@
       <file name="$USER_HOME$/repos/file-service/src/integration-test/groovy/protector/fileservice/integrationtest/DocumentServiceApplicationTests.java" timestamp="1473086516301">
         <mark key="[" line="0" column="18" />
       </file>
-      <file name="/Dummy.txt" timestamp="1478619704163">
+      <file name="/Dummy.txt" timestamp="1478683507767">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="1" />
         <mark key="^" line="0" column="1" />
@@ -519,7 +529,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="84" column="8" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_fire.xml" />
       <jump line="90" column="92" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_fire.xml" />
       <jump line="92" column="94" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_fire.xml" />
       <jump line="106" column="48" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_fire.xml" />
@@ -619,6 +628,7 @@
       <jump line="92" column="21" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ContractController.java" />
       <jump line="23" column="15" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ContractController.java" />
       <jump line="220" column="11" filename="$APPLICATION_CONFIG_DIR$/consoles/db/02385e45-7817-4344-8aca-b3a8940a4f60/console.sql" />
+      <jump line="1" column="15" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/auto/uk_auto_collision.xml" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -675,7 +685,7 @@
         <text>d</text>
       </register>
       <register name="/" type="4">
-        <text>pia</text>
+        <text>number_of</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">bnBtSW5zdGFsbC5lbmFibGVkID0gZmFsc2UK</text>
@@ -1068,9 +1078,9 @@
       </register>
     </registers>
     <search>
-      <last-search>pia</last-search>
+      <last-search>number_of</last-search>
       <last-offset />
-      <last-pattern>pia</last-pattern>
+      <last-pattern>number_of</last-pattern>
       <last-replace>lima</last-replace>
       <last-substitute>pia</last-substitute>
       <last-dir>1</last-dir>
@@ -1078,7 +1088,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxjcnlwdG9cPg==</entry>
         <entry encoding="base64">XDxmc0NvbmZpZ1w+</entry>
         <entry encoding="base64">XDxfZGFtYWdlRGF0ZVw+</entry>
         <entry encoding="base64">XDxzZXRWYWxpZExpY2VuY2VcPg==</entry>
@@ -1098,6 +1107,7 @@
         <entry encoding="base64">XDxVUklTeW50YXhFeGNlcHRpb25cPg==</entry>
         <entry encoding="base64">XDxJT0V4Y2VwdGlvblw+</entry>
         <entry>pia</entry>
+        <entry>number_of</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL2NvbnN0IC9leHBvcnRzLw==</entry>

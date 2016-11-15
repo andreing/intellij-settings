@@ -352,11 +352,11 @@
         <mark key="^" line="9" column="49" />
         <mark key="." line="9" column="49" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssignment.java" timestamp="1479219174172">
-        <mark key="[" line="41" column="51" />
-        <mark key="]" line="63" column="16" />
-        <mark key="^" line="63" column="16" />
-        <mark key="." line="63" column="16" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssignment.java" timestamp="1479221995635">
+        <mark key="[" line="46" column="32" />
+        <mark key="]" line="45" column="33" />
+        <mark key="." line="45" column="33" />
+        <mark key="^" line="45" column="33" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/WRRAssigneePool.java" timestamp="1479135233688">
         <mark key="[" line="51" column="33" />
@@ -576,7 +576,7 @@
       <file name="/Dummy.regexp" timestamp="1473260096070">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/HeaderService.java" timestamp="1479215670463">
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/HeaderService.java" timestamp="1479221770460">
         <mark key="'" line="330" column="12" />
         <mark key="[" line="349" column="50" />
         <mark key="]" line="349" column="51" />
@@ -838,8 +838,8 @@
       <jump line="16" column="48" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/AssigmentOperations.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBmaW5kQ3VycmVudEFzc2lnbmVlKGFzc2lnbmVlLmdldENsYWltSGVhZGVySWQoKSkKICAgICAgICAgICAgICAgIC4K</text>
+      <register name="&quot;" type="4">
+        <text>return new IllegalArgumentException(&quot;Unable to delete the last assignee of this case. There must always be an assignee&quot;)</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -889,7 +889,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>L</text>
+        <text>return new IllegalArgumentException(&quot;Unable to delete the last assignee of this case. There must always be an assignee&quot;)</text>
       </register>
       <register name="/" type="4">
         <text>Assignee</text>
@@ -898,7 +898,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjbGFpbUFzc2lnbm1lbnREYW8uYXNzaWduSGVhZGVyKGNsYWltSGVhZGVySWQsIHVzZXJJZCwgYWRtaW5Vc2VySWQpOwogICAgICAgICAgICAgICAgICAgIGNsYWltQXNzaWdubWVudERhby5pbnNlcnRDbGFpbUFkanVzdGVyKGNsYWltSGVhZGVySWQsIHVzZXJJZCwgYWRtaW5Vc2VySWQpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBmaW5kQ3VycmVudEFzc2lnbmVlKGFzc2lnbmVlLmdldENsYWltSGVhZGVySWQoKSkKICAgICAgICAgICAgICAgIC4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5vckVsc2VUaHJvdygoKSAtPiApCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -925,19 +925,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsb25nIGNsYWltSGVhZGVySWQgPSB0b1JlbW92ZS5nZXRDbGFpbUhlYWRlcklkKCk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsb25nIHVzZXJJZCA9IHRvUmVtb3ZlLmdldFVzZXJJZCgpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgT3B0aW9uYWw8Q2xhaW1Bc3NpZ25lZT4gZmluZFByZXZpb3VzQXNzaWduZWUobG9uZyBjbGFpbUhlYWRlcklkKSB7Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBBc3NpZ25lZSBhc3NpZ25lZSA9IGZpbmRBc3NpZ25lZUJ5SWQoYXNzaWdubWVudElkKTsK</text>
+        <text encoding="base64">ICAgICAgICBPcHRpb25hbDxDbGFpbUFzc2lnbmVlPiBjdXJyZW50QXNzaWduZWUgPSBkZWxldGVDYW5kaWRhdGUKICAgICAgICAgICAgICAgIC5tYXAoQ2xhaW1Bc3NpZ25lZTo6Z2V0Q2xhaW1IZWFkZXJJZCkKICAgICAgICAgICAgICAgIC5mbGF0TWFwKHRoaXM6OmZpbmRDdXJyZW50QXNzaWduZWUpOwogICAgICAgIAogICAgICAgIGRlbGV0ZUNhbmRpZGF0ZQogICAgICAgICAgICAgICAgLm1hcChDbGFpbUFzc2lnbmVlOjpnZXRVc2VySWQpCiAgICAgICAgICAgICAgICAuZmlsdGVyKHVzZXJJZCAtPiBjdXJyZW50QXNzaWduZWUubWFwKENsYWltQXNzaWduZWU6OmdldFVzZXJJZCkuKX0pOwoKICAgICAgICBjbGFpbUFzc2lnbm1lbnREYW8uc2V0Q2xhaW1BZGp1c3RlckRlbGV0ZWQoYXNzaWdubWVudElkKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">QFRyYW5zYWN0aW9uYWwK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgQ2xhaW1Bc3NpZ25lZSBhc3NpZ24obG9uZyBjbGFpbUhlYWRlcklkLCBsb25nIHVzZXJJZCkgewogICAgCiAgICB9Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1272,13 +1272,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoYXNzaWduZWVzIC0+IHsKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIH0pCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoZXF1YWxUb1ByZXZpb3VzQXNzaWduZWUoY2xhaW1IZWFkZXJJZCwgdXNlcklkKSkgewogICAgICAgICAgICB0aHJvdyBuZXcgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJOZXcgYXNzaWduZWUgY2Fubm90IGJlIHNhbWUgYXMgcHJldmlvdXMgYXNzaWduZWUgZm9yIGNsYWltICIgKyBoZWFkZXJJZCk7CiAgICAgICAgfQogICAgICAgIGNsYWltSGVhZGVyRGFvLmFzc2lnbk5ld1VzZXJUb0hlYWRlcihoZWFkZXJJZCwgdXNlcklkLCB1c2VyU2VydmljZS5nZXRDdXJyZW50VXNlcigpLm9yRWxzZVRocm93KCgpIC0+IG5ldyBSdW50aW1lRXhjZXB0aW9uKFVzZXJTZXJ2aWNlLk5PX0NVUlJFTlRfVVNFUikpLmdldElkKCksIG51bGwsIHRydWUpOwogICAgICAgIHJldHVybiB1c2VyU2VydmljZS5nZXRVc2VyQnlJZCh1c2VySWQpOwo=</text>
+        <text encoding="base64">ICAgICAgICBmaW5kQ3VycmVudEFzc2lnbmVlKGFzc2lnbmVlLmdldENsYWltSGVhZGVySWQoKSkKICAgICAgICAgICAgICAgIC4K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5mbGF0TWFwKGN1cnJlbnRVc2VyIC0+IGN1cnJlbnRVc2VyLmdldElkKCkpCiAgICAgICAgICAgICAgICAuZmxhdE1hcChhZG1pblVzZXJJZCAtPiBhc3NpZ25IZWFkZXIoY2xhaW1IZWFkZXJJZCwgdXNlcklkLCBhZG1pblVzZXJJZCkpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL0Fzc2lnbmVlL1Qv</text>

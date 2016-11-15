@@ -352,11 +352,11 @@
         <mark key="^" line="9" column="49" />
         <mark key="." line="9" column="49" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssignment.java" timestamp="1479223162743">
-        <mark key="[" line="53" column="67" />
-        <mark key="]" line="53" column="64" />
-        <mark key="." line="53" column="64" />
-        <mark key="^" line="53" column="64" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssignment.java" timestamp="1479224940307">
+        <mark key="[" line="70" column="19" />
+        <mark key="]" line="70" column="69" />
+        <mark key="." line="70" column="69" />
+        <mark key="^" line="70" column="69" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/WRRAssigneePool.java" timestamp="1479135233688">
         <mark key="[" line="51" column="33" />
@@ -458,12 +458,12 @@
         <mark key="^" line="9" column="55" />
         <mark key="." line="86" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/AssigmentOperations.java" timestamp="1479218920991">
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/AssigmentOperations.java" timestamp="1479224558051">
         <mark key="'" line="17" column="48" />
-        <mark key="[" line="13" column="4" />
-        <mark key="]" line="17" column="14" />
-        <mark key="." line="17" column="14" />
-        <mark key="^" line="17" column="14" />
+        <mark key="[" line="11" column="32" />
+        <mark key="]" line="11" column="30" />
+        <mark key="." line="11" column="30" />
+        <mark key="^" line="11" column="30" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/create/claim-header-damage-info-liability-property.html" timestamp="1476278721587">
         <mark key="[" line="6" column="105" />
@@ -576,7 +576,7 @@
       <file name="/Dummy.regexp" timestamp="1473260096070">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/HeaderService.java" timestamp="1479221770460">
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/HeaderService.java" timestamp="1479224746775">
         <mark key="'" line="330" column="12" />
         <mark key="[" line="349" column="50" />
         <mark key="]" line="349" column="51" />
@@ -674,11 +674,11 @@
       <file name="/JavaScript Console" timestamp="1478076642188">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/assignment/ClaimAssignmentDao.java" timestamp="1479218546527">
-        <mark key="[" line="10" column="4" />
-        <mark key="]" line="10" column="8" />
-        <mark key="." line="10" column="8" />
-        <mark key="^" line="10" column="8" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/assignment/ClaimAssignmentDao.java" timestamp="1479224521923">
+        <mark key="[" line="21" column="69" />
+        <mark key="]" line="19" column="3" />
+        <mark key="." line="19" column="3" />
+        <mark key="^" line="19" column="3" />
       </file>
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/model/FileMeta.java" timestamp="1461318355463">
         <mark key="[" line="11" column="22" />
@@ -839,7 +839,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAvLyB0aHJvd3MgaWxsZWdhbHN0YXRlZXhjZXB0aW9uIGlmIG5vbmUgYXJlIGZvdW5kCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -889,7 +889,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>return new IllegalArgumentException(&quot;Unable to delete the last assignee of this case. There must always be an assignee&quot;)</text>
+        <text>Unable to remove assignee with id : &quot; + assigneeUserId + &quot; from header &quot; + headerId + &quot; when there are no non-deleted assignees</text>
       </register>
       <register name="/" type="4">
         <text>asdasd</text>
@@ -898,7 +898,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjbGFpbUFzc2lnbm1lbnREYW8uYXNzaWduSGVhZGVyKGNsYWltSGVhZGVySWQsIHVzZXJJZCwgYWRtaW5Vc2VySWQpOwogICAgICAgICAgICAgICAgICAgIGNsYWltQXNzaWdubWVudERhby5pbnNlcnRDbGFpbUFkanVzdGVyKGNsYWltSGVhZGVySWQsIHVzZXJJZCwgYWRtaW5Vc2VySWQpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAvLyB0aHJvd3MgaWxsZWdhbHN0YXRlZXhjZXB0aW9uIGlmIG5vbmUgYXJlIGZvdW5kCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -925,19 +925,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmaW5kUHJldmlvdXNBc3NpZ25lZSh0b1JlbW92ZS5nZXRDbGFpbUhlYWRlcklkKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAubWFwKHByZXZpb3VzIC0+IGFzc2lnbihwcmV2aW91cy5nZXRDbGFpbUhlYWRlcklkKCksIHByZXZpb3VzLmdldFVzZXJJZCgpKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5vckVsc2VUaHJvdygoKSAtPiBuZXcgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJVbmFibGUgdG8gZGVsZXRlIHRoZSBsYXN0IGFzc2lnbmVlIG9mIHRoaXMgY2FzZS4gVGhlcmUgbXVzdCBhbHdheXMgYmUgYW4gYXNzaWduZWUiKSk7Cg==</text>
+        <text encoding="base64">ICAgIEBUcmFuc2FjdGlvbmFsCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBPcHRpb25hbC5vZih0b1JlbW92ZS5nZXRVc2VySWQoKSA9PSBjdXJyZW50QXNzaWduZWUuZ2V0VXNlcklkKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZmlsdGVyKGN1cnJlbnQgLT4gY3VycmVudC5nZXRVc2VySWQoKSA9PSB0b1JlbW92ZS5nZXRVc2VySWQoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5mbGF0TWFwKGN1cnJlbnQgLT4gZmluZFByZXZpb3VzQXNzaWduZWUoY3VycmVudC5nZXRDbGFpbUhlYWRlcklkKCkpKQo=</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBpbnQgY291bnRBc3NpZ25lZXMobG9uZyBjbGFpbUhlYWRlcklkKSB7CiAgICAgICAgcmV0dXJuIDA7CiAgICB9Cgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5tYXAocHJldmlvdXMgLT4gYXNzaWduKHByZXZpb3VzLmdldENsYWltSGVhZGVySWQoKSwgcHJldmlvdXMuZ2V0VXNlcklkKCkpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAub3JFbHNlVGhyb3coKCkgLT4gbmV3IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiVW5hYmxlIHRvIGRlbGV0ZSB0aGUgbGFzdCBhc3NpZ25lZSBvZiB0aGlzIGNhc2UuIFRoZXJlIG11c3QgYWx3YXlzIGJlIGFuIGFzc2lnbmVlIikpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG5ldyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIlVuYWJsZSB0byByZW1vdmUgYXNzaWduZWUgd2l0aCBpZCA6ICIgKyB0b1JlbW92ZS5nZXRVc2VySWQoKSArICIgZnJvbSBoZWFkZXIgIiArIHRvUmVtb3ZlLmdldENsYWltSGVhZGVySWQoKSArICIgd2hlbiB0aGVyZSBhcmUgbm8gbm9uLWRlbGV0ZWQgYXNzaWduZWVzIik7CiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBDbGFpbUFzc2lnbmVlIGN1cnJlbnRBc3NpZ25lZSA9IGZpbmRDdXJyZW50QXNzaWduZWUodG9SZW1vdmUuZ2V0Q2xhaW1IZWFkZXJJZCgpKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1272,13 +1272,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmaW5kUHJldmlvdXNBc3NpZ25lZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmaW5kUHJldmlvdXNBc3NpZ25lZSh0b1JlbW92ZS5nZXRDbGFpbUhlYWRlcklkKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAubWFwKHByZXZpb3VzIC0+IGFzc2lnbihwcmV2aW91cy5nZXRDbGFpbUhlYWRlcklkKCksIHByZXZpb3VzLmdldFVzZXJJZCgpKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5vckVsc2VUaHJvdygoKSAtPiBuZXcgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJVbmFibGUgdG8gZGVsZXRlIHRoZSBsYXN0IGFzc2lnbmVlIG9mIHRoaXMgY2FzZS4gVGhlcmUgbXVzdCBhbHdheXMgYmUgYW4gYXNzaWduZWUiKSk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBPcHRpb25hbC5vZih0b1JlbW92ZS5nZXRVc2VySWQoKSA9PSBjdXJyZW50QXNzaWduZWUuZ2V0VXNlcklkKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZmlsdGVyKGN1cnJlbnQgLT4gY3VycmVudC5nZXRVc2VySWQoKSA9PSB0b1JlbW92ZS5nZXRVc2VySWQoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5mbGF0TWFwKGN1cnJlbnQgLT4gZmluZFByZXZpb3VzQXNzaWduZWUoY3VycmVudC5nZXRDbGFpbUhlYWRlcklkKCkpKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5tYXAocHJldmlvdXMgLT4gYXNzaWduKHByZXZpb3VzLmdldENsYWltSGVhZGVySWQoKSwgcHJldmlvdXMuZ2V0VXNlcklkKCkpKQo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL0Fzc2lnbmVlL1Qv</text>

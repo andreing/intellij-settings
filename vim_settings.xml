@@ -278,11 +278,11 @@
         <mark key="^" line="0" column="1" />
         <mark key="." line="0" column="1" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/test/groovy/protector/claims/service/assignment/WRRClaimAssignerSpec.groovy" timestamp="1479286673725">
-        <mark key="[" line="7" column="50" />
-        <mark key="]" line="15" column="0" />
-        <mark key="." line="15" column="0" />
-        <mark key="^" line="15" column="0" />
+      <file name="$USER_HOME$/repos/claims/core/src/test/groovy/protector/claims/service/assignment/WRRClaimAssignerSpec.groovy" timestamp="1479288770393">
+        <mark key="[" line="19" column="8" />
+        <mark key="]" line="19" column="33" />
+        <mark key="^" line="15" column="35" />
+        <mark key="." line="19" column="0" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/shared/fields/ec-panel-fields.directive.js" timestamp="1460449018865">
         <mark key="[" line="16" column="53" />
@@ -431,11 +431,11 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/Assignee.java" timestamp="1479205108394">
         <mark key="[" line="4" column="22" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/WRRClaimAssigner.java" timestamp="1479287279233">
-        <mark key="[" line="27" column="72" />
-        <mark key="]" line="5" column="0" />
-        <mark key="." line="5" column="0" />
-        <mark key="^" line="4" column="54" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/WRRClaimAssigner.java" timestamp="1479287622902">
+        <mark key="[" line="18" column="64" />
+        <mark key="]" line="19" column="3" />
+        <mark key="." line="19" column="3" />
+        <mark key="^" line="19" column="3" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/WRRAssigneePoolDao.java" timestamp="1479204202296">
         <mark key="[" line="12" column="41" />
@@ -501,6 +501,9 @@
         <mark key="." line="13" column="83" />
         <mark key="^" line="13" column="83" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/assignment/WRRStateJdbcDao.java" timestamp="1479288153295">
+        <mark key="[" line="16" column="15" />
+      </file>
       <file name="/RegExp Fragment (DocumentControllerSpec.groovy:2386).regexp" timestamp="1461760039417">
         <mark key="[" line="0" column="0" />
       </file>
@@ -518,6 +521,12 @@
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/datetimepicker/datetimepicker.module.js" timestamp="1460557550269">
         <mark key="[" line="3" column="48" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/assignment/WRRStateDao.java" timestamp="1479288148068">
+        <mark key="[" line="6" column="8" />
+        <mark key="]" line="6" column="11" />
+        <mark key="^" line="6" column="11" />
+        <mark key="." line="6" column="11" />
+      </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/groovy/protector/takstrekvisisjon/oppdrag/TakstService.groovy" timestamp="1460609134703">
         <mark key="[" line="212" column="29" />
       </file>
@@ -533,8 +542,11 @@
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/AuthenticationFilter.java" timestamp="1475421404471">
         <mark key="[" line="161" column="50" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/WRRSelector.java" timestamp="1479203741628">
-        <mark key="[" line="48" column="9" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/WRRSelector.java" timestamp="1479287561419">
+        <mark key="[" line="65" column="39" />
+        <mark key="]" line="42" column="59" />
+        <mark key="^" line="42" column="59" />
+        <mark key="." line="42" column="59" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" timestamp="1477397069208">
         <mark key="[" line="11" column="25" />
@@ -851,7 +863,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBMaXN0PFdlaWdodGVkU2VydmVyPiBnZXRTZXJ2ZXJzKCkgewogICAgICAgIHJldHVybiBwb29sLnN0cmVhbSgpLm1hcChhc3NpZ25lZSAtPiAoV2VpZ2h0ZWRTZXJ2ZXIpIGFzc2lnbmVlKS5jb2xsZWN0KENvbGxlY3RvcnMudG9MaXN0KCkpOwogICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICBnZXRBc3NpZ25lZVBvb2woXyxfLF8pID4+Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -901,7 +913,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Unable to remove assignee with id : &quot; + assigneeUserId + &quot; from header &quot; + headerId + &quot; when there are no non-deleted assignees</text>
+        <text>WeightedServer</text>
       </register>
       <register name="/" type="4">
         <text>asdasd</text>
@@ -910,7 +922,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjbGFpbUFzc2lnbm1lbnREYW8uYXNzaWduSGVhZGVyKGNsYWltSGVhZGVySWQsIHVzZXJJZCwgYWRtaW5Vc2VySWQpOwogICAgICAgICAgICAgICAgICAgIGNsYWltQXNzaWdubWVudERhby5pbnNlcnRDbGFpbUFkanVzdGVyKGNsYWltSGVhZGVySWQsIHVzZXJJZCwgYWRtaW5Vc2VySWQpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBMaXN0PFdlaWdodGVkU2VydmVyPiBnZXRTZXJ2ZXJzKCkgewogICAgICAgIHJldHVybiBwb29sLnN0cmVhbSgpLm1hcChhc3NpZ25lZSAtPiAoV2VpZ2h0ZWRTZXJ2ZXIpIGFzc2lnbmVlKS5jb2xsZWN0KENvbGxlY3RvcnMudG9MaXN0KCkpOwogICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICBnZXRBc3NpZ25lZVBvb2woXyxfLF8pID4+Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -937,19 +949,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5jbGFpbXMuZGFvLmFzc2lnbm1lbnQuV1JSQXNzaWduZWVQb29sSmRiY0RhbzsK</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgdGVzdHMgPSBbCiAgICAgICAgICAgICAgICAKICAgICAgICBdCg==</text>
+        <text encoding="base64">ICAgIEFzc2lnbmVlUG9vbERhbyBwb29sRGFvID0gU3R1YigpIHsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAvLyB0aHJvd3MgaWxsZWdhbHN0YXRlZXhjZXB0aW9uIGlmIG5vbmUgYXJlIGZvdW5kCg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIEBUcmFuc2FjdGlvbmFsCg==</text>
+        <text encoding="base64">ICAgIEFzc2lnbmVlUG9vbCBwb29sID0gU3R1YigpIHsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBpbnQgY291bnRBc3NpZ25lZXMobG9uZyBjbGFpbUhlYWRlcklkKSB7CiAgICAgICAgcmV0dXJuIDA7CiAgICB9Cgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1284,13 +1296,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICBpbml0U3RhdGUoXyxfLF8pID4+IG5ldyBXUlJTdGF0ZSgtMSwgMCkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG5ldyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIlVuYWJsZSB0byByZW1vdmUgYXNzaWduZWUgd2l0aCBpZCA6ICIgKyB0b1JlbW92ZS5nZXRVc2VySWQoKSArICIgZnJvbSBoZWFkZXIgIiArIHRvUmVtb3ZlLmdldENsYWltSGVhZGVySWQoKSArICIgd2hlbiB0aGVyZSBhcmUgbm8gbm9uLWRlbGV0ZWQgYXNzaWduZWVzIik7CiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIFdSUlN0YXRlRGFvIHN0YXRlRGFvID0gU3R1YigpIHsK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL0Fzc2lnbmVlL1Qv</text>

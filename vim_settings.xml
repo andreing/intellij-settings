@@ -420,11 +420,11 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/Assignee.java" timestamp="1479205108394">
         <mark key="[" line="4" column="22" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/WRRClaimAssigner.java" timestamp="1479388052652">
-        <mark key="[" line="58" column="51" />
-        <mark key="]" line="59" column="29" />
-        <mark key="." line="59" column="29" />
-        <mark key="^" line="59" column="29" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/WRRClaimAssigner.java" timestamp="1479388756992">
+        <mark key="[" line="61" column="104" />
+        <mark key="]" line="58" column="45" />
+        <mark key="^" line="58" column="45" />
+        <mark key="." line="58" column="45" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/WRRAssigneePoolDao.java" timestamp="1479204202296">
         <mark key="[" line="12" column="41" />
@@ -858,7 +858,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGhpcy5hc3NpZ25lci4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGhpcy5hc3NpZ25lci5nZXROZXh0QXNzaWduZWUoYXNzaWduZXIuZ2V0UG9vbChjb3VudHJ5SWQsIGNsYWltTG9iSWQsIGNsYWltVHlwZUlkKSk7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -908,16 +908,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">dGhpcy5zdGF0ZSA9IA==</text>
       </register>
       <register name="/" type="4">
-        <text>asdasd</text>
+        <text encoding="base64">XDx0aGlzXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgdGhpcy5zdGF0ZSA9IGFzc2lnbmVyLmdldE5leHRBc3NpZ25lZShhc3NpZ25lci5nZXRQb29sKGNvdW50cnlJZCwgY2xhaW1Mb2JJZCwgY2xhaW1UeXBlSWQpKTsKICAgICAgICAgICAgcmV0dXJuIHRoaXM7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGhpcy5hc3NpZ25lci4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGhpcy5hc3NpZ25lci5nZXROZXh0QXNzaWduZWUoYXNzaWduZXIuZ2V0UG9vbChjb3VudHJ5SWQsIGNsYWltTG9iSWQsIGNsYWltVHlwZUlkKSk7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -943,22 +943,22 @@
           <key char="94" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHRoaXM7Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgdGhpcy5hc3NpZ25lci4K</text>
+      </register>
+      <register name="4" type="4">
         <text>nextAssignee() {
             return 
         }</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgY29uc3VtZXIuYW5kVGhlbihjb25zdW1lci5hY2NlcHQoKTspCg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIE9wdGlvbmFsLmVtcHR5KCk7Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVzZXRQb29sU3RhdGUoY291bnRyeUlkLCBsb2JJZCwgY2xhaW1UeXBlSWQpOwo=</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICBMT0cuZXJyb3IoZS5nZXRNZXNzYWdlKCksIGUpOwogICAgICAgICAgICByZXNldFBvb2xTdGF0ZShjb3VudHJ5SWQsIGxvYklkLCBjbGFpbVR5cGVJZCk7CiAgICAgICAgICAgIHJldHVybiBPcHRpb25hbC5lbXB0eSgpOwogICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIE9wdGlvbmFsLmVtcHR5KCk7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1293,30 +1293,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB0cnkgewo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgcmVzZXRQb29sU3RhdGUoY291bnRyeUlkLCBsb2JJZCwgY2xhaW1UeXBlSWQpOwo=</text>
       </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICBMT0cuZXJyb3IoZS5nZXRNZXNzYWdlKCksIGUpOwogICAgICAgICAgICByZXNldFBvb2xTdGF0ZShjb3VudHJ5SWQsIGxvYklkLCBjbGFpbVR5cGVJZCk7CiAgICAgICAgICAgIHJldHVybiBPcHRpb25hbC5lbXB0eSgpOwogICAgICAgIH0K</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBBc3NpZ25lZVBvb2w8V1JSQXNzaWduZWU+IGFzc2lnbmVlUG9vbCA9IGdldFBvb2woY291bnRyeUlkLCBsb2JJZCwgY2xhaW1UeXBlSWQpOwo=</text>
+        <text encoding="base64">ICAgICAgICB0cnkgewo=</text>
       </register>
       <register name=":" type="4">
         <text>h</text>
       </register>
     </registers>
     <search>
-      <last-search>asdasd</last-search>
+      <last-search encoding="base64">XDx0aGlzXD4=</last-search>
       <last-offset />
-      <last-pattern>asdasd</last-pattern>
+      <last-pattern encoding="base64">XDx0aGlzXD4=</last-pattern>
       <last-replace>T</last-replace>
       <last-substitute>Assignee</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxqc29uUmVzcG9uc2VcPg==</entry>
         <entry encoding="base64">XDxCeXRlQXJyYXlJbnB1dFN0cmVhbVw+</entry>
         <entry encoding="base64">XDxVUklTeW50YXhFeGNlcHRpb25cPg==</entry>
         <entry encoding="base64">XDxJT0V4Y2VwdGlvblw+</entry>
@@ -1336,6 +1335,7 @@
         <entry>Assignee</entry>
         <entry>assign</entry>
         <entry>asdasd</entry>
+        <entry encoding="base64">XDx0aGlzXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1woc3RhdGljRmllbGRzXHxzdWJtaXNzaW9uXClcLi8v</entry>

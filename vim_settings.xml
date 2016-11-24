@@ -187,6 +187,13 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/DamageInfo.java" timestamp="1465311657173">
         <mark key="[" line="95" column="5" />
       </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1479973521819">
+        <mark key="[" line="698" column="67" />
+        <mark key="]" line="698" column="68" />
+        <mark key="." line="698" column="68" />
+        <mark key="^" line="698" column="68" />
+        <mark key="o" line="691" column="18" />
+      </file>
       <file name="$USER_HOME$/repos/webclaims/apps/fileservice/fs-client.js" timestamp="1477663877809">
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="0" />
@@ -638,13 +645,6 @@
       <file name="/Dummy.regexp" timestamp="1473260096070">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/HeaderService.java" timestamp="1479224746775">
-        <mark key="'" line="330" column="12" />
-        <mark key="[" line="349" column="50" />
-        <mark key="]" line="349" column="51" />
-        <mark key="^" line="349" column="51" />
-        <mark key="." line="349" column="51" />
-      </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/resources/application.properties" timestamp="1478612867675">
         <mark key="[" line="14" column="63" />
         <mark key="]" line="16" column="55" />
@@ -910,9 +910,8 @@
       <jump line="99" column="25" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/assignment/ClaimAssignmentJdbcDao.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>UPDATE Claim_Header SET Last_Updated_User_Id = 0 WHERE ID = 99999999
-SELECT * FROM Claim_Header where  ID = 99999999</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBMb2NhbERhdGUgcmVtaW5kZXJEYXRlID0gcmVwb3J0ZWREYXRlLnBsdXNEYXlzKDMpOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -970,9 +969,8 @@ SELECT * FROM Claim_Header where  ID = 99999999</text>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBTdHJpbmcgc3FsID0gIlVQREFURSBDbGFpbXNfV3JyX0Fzc2lnbmVlX1Bvb2wgU0VUIFdlaWdodCA9ID8gV0hFUkUgVXNlcl9JZCA9ID8gQU5EIENvdW50cnlfSWQgPSA/IEFORCBDbGFpbV9Mb2JfSWQgPSA/IEFORCBDbGFpbV9UeXBlX0lkID0gPyI7Cg==</text>
       </register>
-      <register name="1" type="4">
-        <text>UPDATE Claim_Header SET Last_Updated_User_Id = 0 WHERE ID = 99999999
-SELECT * FROM Claim_Header where  ID = 99999999</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBMb2NhbERhdGUgcmVtaW5kZXJEYXRlID0gcmVwb3J0ZWREYXRlLnBsdXNEYXlzKDMpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -999,19 +997,20 @@ SELECT * FROM Claim_Header where  ID = 99999999</text>
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgdXBkYXRlU3FsID0gIlVQREFURSBDbGFpbXNfV3JyX1N0YXRlIFNFVCBMYXN0U2VsZWN0ZWRfSW5kZXggPSA/LCBDdXJyZW50XyIK</text>
+        <text encoding="base64">ICAgICAgICBPcHRpb25hbDxCb29sZWFuPiBpc0NsYWltSGFuZGxpbmdSZXF1aXJlZCA9IGZvcm1EYXRhLmVudHJ5U2V0KCkuc3RyZWFtKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZpbHRlcihlbnRyeSAtPiBlbnRyeS5nZXRLZXkoKS5zdGFydHNXaXRoKEZvcm1GaWVsZHMuSVNfQ09OVEFDVF9SRVFVSVJFRC5nZXRLZXkoKSkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5tYXAoTWFwLkVudHJ5OjpnZXRWYWx1ZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLm1hcCgidHJ1ZSI6OmVxdWFscykuZmluZEZpcnN0KCk7CgogICAgICAgIGlzQ2xhaW1IYW5kbGluZ1JlcXVpcmVkLmlmUHJlc2VudChpc1JlcXVpcmVkIC0+IHsKICAgICAgICAgICAgaWYgKCFpc1JlcXVpcmVkKSB7CiAgICAgICAgICAgICAgICBMT0cuaW5mbygiQ2xvc2luZyBjbGFpbSBiZWNhdXNlIGNsYWltIGhhbmRsaW5nIGlzIG5vdCByZXF1aXJlZCBjbGFpbUhlYWRlcklkPXt9IiwgZmluYWxIZWFkZXIuZ2V0SWQoKSk7CiAgICAgICAgICAgICAgICBjbGFpbUNsb3NpbmdTZXJ2aWNlLmNsb3NlSGVhZGVyKGZpbmFsSGVhZGVyLmdldElkKCksICJDbG9zaW5nIGNsYWltIGF1dG9tYXRpY2FsbHkgYmVjYXVzZSBjbGFpbSBoYW5kbGluZyBpcyBub3QgcmVxdWlyZWQuIik7CiAgICAgICAgICAgIH0KICAgICAgICB9KTsKCg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+      <register name="3" type="4">
+        <text>UPDATE Claim_Header SET Last_Updated_User_Id = 0 WHERE ID = 99999999
+SELECT * FROM Claim_Header where  ID = 99999999</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICJPUkRFUiBCWSBTdGFydF9EYXRlIERFU0MiOwo=</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgdXBkYXRlU3FsID0gIlVQREFURSBDbGFpbXNfV3JyX1N0YXRlIFNFVCBMYXN0U2VsZWN0ZWRfSW5kZXggPSA/LCBDdXJyZW50XyIK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgYXNzaWduZWQudXNlcklkID09IG5ld0Fzc2lnbmVlLnVzZXJJZAo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgYXNzaWduZWQudXNlcklkID09IGNsYWltQXNzaWduZWUudXNlcklkCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICJPUkRFUiBCWSBTdGFydF9EYXRlIERFU0MiOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1346,13 +1345,13 @@ SELECT * FROM Claim_Header where  ID = 99999999</text>
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGVmIG5ld0Fzc2lnbmVlID0gW2dldFVzZXJJZDogeyA5OSB9LCBnZXRjbGFpbUhlYWRlcklkOiB7IGhlYWRlcklkIH1dIGFzIEFzc2lnbmVlCg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgYXNzaWduZWQudXNlcklkID09IG5ld0Fzc2lnbmVlLnVzZXJJZAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgYXNzaWduZWQudXNlcklkID09IGNsYWltQXNzaWduZWUudXNlcklkCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgY3VycmVudEFzc2lnbmVlID0gbmV3IENsYWltQXNzaWduZWUoaWQ6IDEsIHVzZXJJZDogMTEsIGNsYWltSGVhZGVySWQ6IGhlYWRlcklkKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGVmIG5ld0Fzc2lnbmVlID0gW2dldFVzZXJJZDogeyA5OSB9LCBnZXRjbGFpbUhlYWRlcklkOiB7IGhlYWRlcklkIH1dIGFzIEFzc2lnbmVlCg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1xcbi8vZw==</text>

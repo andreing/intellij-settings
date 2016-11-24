@@ -535,11 +535,11 @@
         <mark key="." line="13" column="83" />
         <mark key="^" line="13" column="83" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/assignment/WRRStateJdbcDao.java" timestamp="1479935756221">
-        <mark key="[" line="33" column="0" />
-        <mark key="]" line="33" column="0" />
-        <mark key="^" line="32" column="14" />
-        <mark key="." line="33" column="0" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/assignment/WRRStateJdbcDao.java" timestamp="1479972748191">
+        <mark key="[" line="21" column="138" />
+        <mark key="]" line="21" column="101" />
+        <mark key="^" line="21" column="101" />
+        <mark key="." line="21" column="101" />
       </file>
       <file name="/RegExp Fragment (DocumentControllerSpec.groovy:2386).regexp" timestamp="1461760039417">
         <mark key="[" line="0" column="0" />
@@ -550,17 +550,17 @@
       <file name="/RegExp Fragment (TakstJdbcDao.groovy:2525).regexp" timestamp="1468502852628">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1479918201208">
-        <mark key="[" line="328" column="2" />
-        <mark key="]" line="312" column="3" />
-        <mark key="." line="312" column="3" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1479972863063">
+        <mark key="[" line="345" column="0" />
+        <mark key="]" line="345" column="0" />
+        <mark key="." line="345" column="0" />
         <mark key="^" line="312" column="3" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/static/components/datetimepicker/datetimepicker.module.js" timestamp="1460557550269">
         <mark key="[" line="3" column="48" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/assignment/WRRStateDao.java" timestamp="1479288148068">
-        <mark key="[" line="6" column="8" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/assignment/WRRStateDao.java" timestamp="1479972173108">
+        <mark key="[" line="6" column="12" />
         <mark key="]" line="6" column="11" />
         <mark key="^" line="6" column="11" />
         <mark key="." line="6" column="11" />
@@ -910,8 +910,9 @@
       <jump line="99" column="25" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/assignment/ClaimAssignmentJdbcDao.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+      <register name="&quot;" type="4">
+        <text>UPDATE Claim_Header SET Last_Updated_User_Id = 0 WHERE ID = 99999999
+SELECT * FROM Claim_Header where  ID = 99999999</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -969,8 +970,9 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBTdHJpbmcgc3FsID0gIlVQREFURSBDbGFpbXNfV3JyX0Fzc2lnbmVlX1Bvb2wgU0VUIFdlaWdodCA9ID8gV0hFUkUgVXNlcl9JZCA9ID8gQU5EIENvdW50cnlfSWQgPSA/IEFORCBDbGFpbV9Mb2JfSWQgPSA/IEFORCBDbGFpbV9UeXBlX0lkID0gPyI7Cg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+      <register name="1" type="4">
+        <text>UPDATE Claim_Header SET Last_Updated_User_Id = 0 WHERE ID = 99999999
+SELECT * FROM Claim_Header where  ID = 99999999</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -997,19 +999,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICJPUkRFUiBCWSBTdGFydF9EYXRlIERFU0MiOwo=</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgdXBkYXRlU3FsID0gIlVQREFURSBDbGFpbXNfV3JyX1N0YXRlIFNFVCBMYXN0U2VsZWN0ZWRfSW5kZXggPSA/LCBDdXJyZW50XyIK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgYXNzaWduZWQudXNlcklkID09IG5ld0Fzc2lnbmVlLnVzZXJJZAo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgYXNzaWduZWQudXNlcklkID09IGNsYWltQXNzaWduZWUudXNlcklkCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICJPUkRFUiBCWSBTdGFydF9EYXRlIERFU0MiOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGVmIG5ld0Fzc2lnbmVlID0gW2dldFVzZXJJZDogeyA5OSB9LCBnZXRjbGFpbUhlYWRlcklkOiB7IGhlYWRlcklkIH1dIGFzIEFzc2lnbmVlCg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgYXNzaWduZWQudXNlcklkID09IG5ld0Fzc2lnbmVlLnVzZXJJZAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgYXNzaWduZWQudXNlcklkID09IGNsYWltQXNzaWduZWUudXNlcklkCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1344,13 +1346,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgY3VycmVudEFzc2lnbmVlID0gbmV3IENsYWltQXNzaWduZWUoaWQ6IDEsIHVzZXJJZDogMTEsIGNsYWltSGVhZGVySWQ6IGhlYWRlcklkKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGVmIG5ld0Fzc2lnbmVlID0gW2dldFVzZXJJZDogeyA5OSB9LCBnZXRjbGFpbUhlYWRlcklkOiB7IGhlYWRlcklkIH1dIGFzIEFzc2lnbmVlCg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGVmIGFzc2lnbmVlID0gW2dldFVzZXJJZDogeyA5OSB9LCBnZXRjbGFpbUhlYWRlcklkOiB7IGhlYWRlcklkIH1dIGFzIEFzc2lnbmVlCg==</text>
+        <text encoding="base64">ICAgICAgICBkZWYgY3VycmVudEFzc2lnbmVlID0gbmV3IENsYWltQXNzaWduZWUoaWQ6IDEsIHVzZXJJZDogMTEsIGNsYWltSGVhZGVySWQ6IGhlYWRlcklkKQo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1xcbi8vZw==</text>

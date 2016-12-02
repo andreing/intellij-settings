@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/a.dummy" timestamp="1480601501311">
+      <file name="/a.dummy" timestamp="1480683705271">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -714,11 +714,11 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/resources/logo/protector_logo_se.svg" timestamp="1464963947026">
         <mark key="[" line="4" column="66" />
       </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/build.gradle" timestamp="1480675202582">
-        <mark key="[" line="55" column="81" />
-        <mark key="]" line="61" column="82" />
-        <mark key="." line="59" column="37" />
-        <mark key="^" line="58" column="80" />
+      <file name="$USER_HOME$/repos/takstrekvisisjon/build.gradle" timestamp="1480683458640">
+        <mark key="[" line="57" column="37" />
+        <mark key="]" line="57" column="62" />
+        <mark key="." line="57" column="37" />
+        <mark key="^" line="56" column="69" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/claims/claim-header-damage-info-auto.html" timestamp="1476278683566">
         <mark key="[" line="11" column="119" />
@@ -913,7 +913,8 @@
     <registers>
       <register name="&quot;" type="4">
         <text>[&quot;src/main/resources/static/node_modules/**&quot;,
-                                      &quot;src/main/resources/static/bower_components/**&quot;]</text>
+                                      &quot;src/main/resources/static/bower_components/**&quot;,
+                                      &quot;src/main/resources/static/css/**&quot;]</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -963,19 +964,18 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>&quot;src/main/resources/static/node_modules/**, src/main/resources/static/bower_components/**&quot;</text>
+        <text>&quot;</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDx0cmFuc2xhdGlvbnNcPg==</text>
       </register>
       <register name="0" type="4">
-        <text>[&quot;src/main/resources/static/node_modules/**&quot;,
-                                               &quot;src/main/resources/static/bower_components/**&quot;,
-                                               &quot;src/main/resources/static/css/**&quot;]</text>
+        <text>[&quot;src/main/resources/**&quot;]</text>
       </register>
       <register name="1" type="4">
         <text>[&quot;src/main/resources/static/node_modules/**&quot;,
-                                      &quot;src/main/resources/static/bower_components/**&quot;]</text>
+                                      &quot;src/main/resources/static/bower_components/**&quot;,
+                                      &quot;src/main/resources/static/css/**&quot;]</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1002,19 +1002,20 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcm9wZXJ0eSAic29uYXIuaW5jbHVzaW9ucyIK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAic3JjL21haW4vcmVzb3VyY2VzL3N0YXRpYy9ib3dlcl9jb21wb25lbnRzLyoqIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAic3JjL21haW4vcmVzb3VyY2VzL3N0YXRpYy9jc3MvKioiXQo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcm9wZXJ0eSAic29uYXIudGVpbmNsdXNpb25zIgo=</text>
+      <register name="3" type="4">
+        <text>[&quot;src/main/resources/static/node_modules/**&quot;,
+                                      &quot;src/main/resources/static/bower_components/**&quot;]</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIG1hdmVuQ2VudHJhbCgpCg==</text>
+        <text encoding="base64">ICAgICAgICBwcm9wZXJ0eSAic29uYXIuaW5jbHVzaW9ucyIK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIG1hdmVuIHsgdXJsICdodHRwczovL3JlcG8uc3ByaW5nLmlvL21pbGVzdG9uZScgfQo=</text>
+        <text encoding="base64">ICAgICAgICBwcm9wZXJ0eSAic29uYXIudGVpbmNsdXNpb25zIgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIG1hdmVuIHsgdXJsICdodHRwczovL3JlcG8uc3ByaW5nLmlvL3NuYXBzaG90JyB9Cg==</text>
+        <text encoding="base64">ICAgIG1hdmVuQ2VudHJhbCgpCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1349,13 +1350,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIG1hdmVuIHsgdXJsICJodHRwOi8vcGZzdm5vYnVpbGRwMDE6ODA4MS9uZXh1cy9jb250ZW50L3JlcG9zaXRvcmllcy9wcm90ZWN0b3IvIiB9Cg==</text>
+        <text encoding="base64">ICAgIG1hdmVuIHsgdXJsICdodHRwczovL3JlcG8uc3ByaW5nLmlvL21pbGVzdG9uZScgfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAkc2NvcGUudHJhbnNsYXRpb25zID0gVHJhbnNsYXRpb25zRmFjdG9yeS5nZXRUcmFuc2xhdGlvbnMoZm9ybVN1Ym1pc3Npb24pOwo=</text>
+        <text encoding="base64">ICAgIG1hdmVuIHsgdXJsICdodHRwczovL3JlcG8uc3ByaW5nLmlvL3NuYXBzaG90JyB9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIC5mYWN0b3J5KCdUcmFuc2xhdGlvbnNGYWN0b3J5JywgZnVuY3Rpb24gKCkgewo=</text>
+        <text encoding="base64">ICAgIG1hdmVuIHsgdXJsICJodHRwOi8vcGZzdm5vYnVpbGRwMDE6ODA4MS9uZXh1cy9jb250ZW50L3JlcG9zaXRvcmllcy9wcm90ZWN0b3IvIiB9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

@@ -312,7 +312,13 @@
       <file name="$USER_HOME$/repos/claims/web/src/main/resources/templates/email/claimforms/liability_uk.tmpl" timestamp="1479200199994">
         <mark key="[" line="103" column="85" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/build.gradle" timestamp="1480685215697" />
+      <file name="$USER_HOME$/repos/file-service/build.gradle" timestamp="1480686034765">
+        <mark key="'" line="65" column="26" />
+        <mark key="[" line="49" column="0" />
+        <mark key="]" line="49" column="0" />
+        <mark key="^" line="55" column="10" />
+        <mark key="." line="49" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/file-service/src/main/java/protector/document/model/DataFile.java" timestamp="1461251225705">
         <mark key="[" line="2" column="23" />
       </file>
@@ -709,7 +715,7 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/resources/logo/protector_logo_se.svg" timestamp="1464963947026">
         <mark key="[" line="4" column="66" />
       </file>
-      <file name="$USER_HOME$/repos/takstrekvisisjon/build.gradle" timestamp="1480685236931">
+      <file name="$USER_HOME$/repos/takstrekvisisjon/build.gradle" timestamp="1480685501845">
         <mark key="[" line="57" column="37" />
         <mark key="]" line="57" column="62" />
         <mark key="." line="57" column="37" />
@@ -804,7 +810,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="225" column="16" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimHeaderJdbcDao.java" />
       <jump line="232" column="16" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimHeaderJdbcDao.java" />
       <jump line="16" column="48" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/AssigmentOperations.java" />
       <jump line="268" column="0" filename="$USER_HOME$/repos/claims/core/src/test/groovy/protector/claims/service/claims/HeaderServiceSpec.groovy" />
@@ -904,12 +909,11 @@
       <jump line="2206" column="10" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
       <jump line="2223" column="10" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
       <jump line="167" column="27" filename="$USER_HOME$/repos/claims/frontend/claims/js/controllers/ClaimFormDataCtrl.js" />
+      <jump line="57" column="26" filename="$USER_HOME$/repos/file-service/build.gradle" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>[&quot;src/main/resources/static/node_modules/**&quot;,
-                                      &quot;src/main/resources/static/bower_components/**&quot;,
-                                      &quot;src/main/resources/static/css/**&quot;]</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">CQlwcm9wZXJ0eSAic29uYXIubGlicmFyaWVzIiwgIiIK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -962,15 +966,13 @@
         <text>&quot;</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx0cmFuc2xhdGlvbnNcPg==</text>
+        <text>)$</text>
       </register>
-      <register name="0" type="4">
-        <text>[&quot;src/main/resources/**&quot;]</text>
+      <register name="0" type="2">
+        <text encoding="base64">CQlwcm9wZXJ0eSAic29uYXIubGlicmFyaWVzIiwgIiIK</text>
       </register>
-      <register name="1" type="4">
-        <text>[&quot;src/main/resources/static/node_modules/**&quot;,
-                                      &quot;src/main/resources/static/bower_components/**&quot;,
-                                      &quot;src/main/resources/static/css/**&quot;]</text>
+      <register name="1" type="2">
+        <text encoding="base64">CQlwcm9wZXJ0eSAic29uYXIubGlicmFyaWVzIiwgIiIK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -996,21 +998,23 @@
           <key char="94" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text>[&quot;src/main/resources/static/node_modules/**&quot;,
+                                      &quot;src/main/resources/static/bower_components/**&quot;,
+                                      &quot;src/main/resources/static/css/**&quot;]</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAic3JjL21haW4vcmVzb3VyY2VzL3N0YXRpYy9ib3dlcl9jb21wb25lbnRzLyoqIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAic3JjL21haW4vcmVzb3VyY2VzL3N0YXRpYy9jc3MvKioiXQo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>[&quot;src/main/resources/static/node_modules/**&quot;,
                                       &quot;src/main/resources/static/bower_components/**&quot;]</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICBwcm9wZXJ0eSAic29uYXIuaW5jbHVzaW9ucyIK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcm9wZXJ0eSAic29uYXIudGVpbmNsdXNpb25zIgo=</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIG1hdmVuQ2VudHJhbCgpCg==</text>
+        <text encoding="base64">ICAgICAgICBwcm9wZXJ0eSAic29uYXIudGVpbmNsdXNpb25zIgo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1345,30 +1349,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIG1hdmVuIHsgdXJsICdodHRwczovL3JlcG8uc3ByaW5nLmlvL21pbGVzdG9uZScgfQo=</text>
+        <text encoding="base64">ICAgIG1hdmVuQ2VudHJhbCgpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIG1hdmVuIHsgdXJsICdodHRwczovL3JlcG8uc3ByaW5nLmlvL3NuYXBzaG90JyB9Cg==</text>
+        <text encoding="base64">ICAgIG1hdmVuIHsgdXJsICdodHRwczovL3JlcG8uc3ByaW5nLmlvL21pbGVzdG9uZScgfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIG1hdmVuIHsgdXJsICJodHRwOi8vcGZzdm5vYnVpbGRwMDE6ODA4MS9uZXh1cy9jb250ZW50L3JlcG9zaXRvcmllcy9wcm90ZWN0b3IvIiB9Cg==</text>
+        <text encoding="base64">ICAgIG1hdmVuIHsgdXJsICdodHRwczovL3JlcG8uc3ByaW5nLmlvL3NuYXBzaG90JyB9Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text encoding="base64">JzwsJz5zLykkLy8=</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx0cmFuc2xhdGlvbnNcPg==</last-search>
+      <last-search>)$</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx0cmFuc2xhdGlvbnNcPg==</last-pattern>
+      <last-pattern>)$</last-pattern>
       <last-replace />
-      <last-substitute>\\n</last-substitute>
+      <last-substitute>)$</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>asdasd</entry>
         <entry encoding="base64">XDx0aGlzXD4=</entry>
         <entry encoding="base64">XDxjdXJyZW50U3RhdGVcPg==</entry>
         <entry encoding="base64">XDxuYW1lZFRlbXBsYXRlXD4=</entry>
@@ -1388,9 +1391,9 @@
         <entry encoding="base64">XDxMaW5lT2ZCdXNpbmVzc0VudW1cPg==</entry>
         <entry encoding="base64">XDxjYXRjaFw+</entry>
         <entry encoding="base64">XDx0cmFuc2xhdGlvbnNcPg==</entry>
+        <entry>)$</entry>
       </history-search>
       <history-cmd>
-        <entry>s/theft/collision/g</entry>
         <entry>s/theft/malicious_damage/g</entry>
         <entry>s/\[A-Z\]/\[a-zA-Z\]/g</entry>
         <entry encoding="base64">JzwsJz5zL3BpYS9saW1hL2c=</entry>
@@ -1410,6 +1413,7 @@
         <entry>Q</entry>
         <entry encoding="base64">JzwsJz5x</entry>
         <entry>q</entry>
+        <entry encoding="base64">JzwsJz5zLykkLy8=</entry>
       </history-cmd>
       <history-expr />
       <history-input />

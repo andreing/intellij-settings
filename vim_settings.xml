@@ -191,9 +191,9 @@
       <file name="/DummyFile.xpath" timestamp="1477657382315">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/02385e45-7817-4344-8aca-b3a8940a4f60/console.sql" timestamp="1481804990445">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/02385e45-7817-4344-8aca-b3a8940a4f60/console.sql" timestamp="1481815212809">
         <mark key="'" line="216" column="11" />
-        <mark key="[" line="319" column="57" />
+        <mark key="[" line="321" column="59" />
         <mark key="]" line="322" column="0" />
         <mark key="." line="322" column="0" />
       </file>
@@ -233,6 +233,12 @@
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/DamageInfo.java" timestamp="1465311657173">
         <mark key="[" line="95" column="5" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1481815691616">
+        <mark key="[" line="1094" column="0" />
+        <mark key="]" line="1094" column="0" />
+        <mark key="^" line="1094" column="55" />
+        <mark key="." line="1094" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/apps/fileservice/fs-client.js" timestamp="1477663877809">
         <mark key="[" line="1" column="0" />
@@ -437,7 +443,7 @@
       <file name="/Groovy: String concat (+) and super.toString()" timestamp="1473260084164">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1481801313176">
+      <file name="/fragment.java" timestamp="1481815658728">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="11" />
         <mark key="^" line="0" column="11" />
@@ -912,6 +918,7 @@
         <mark key="." line="24" column="4" />
         <mark key="^" line="24" column="4" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimJdbcDao.java" timestamp="1481814144755" />
       <file name="$USER_HOME$/repos/file-service/src/integration-test/java/IntegrationTestContext.java" timestamp="1461509778966">
         <mark key="[" line="0" column="28" />
       </file>
@@ -1069,7 +1076,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIC8vIC4uLiBvciBzb21ldGhpbmcgbGlrZSB0aGF0Cg==</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgZGFtYWdlQ29tbWVudCA9IGdldFN0cmluZyhmb3JtRGF0YSwgRm9ybUZpZWxkcy5EQU1BR0VfQ09NTUVOVF9DUCk7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1124,11 +1131,11 @@
       <register name="/" type="4">
         <text>String</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIHRoaXMuJHRpbWVvdXQoKCkgPT4gCg==</text>
+      <register name="0" type="4">
+        <text>getString(formData, FormFields.DAMAGE_COMMENT_CP)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIC8vIC4uLiBvciBzb21ldGhpbmcgbGlrZSB0aGF0Cg==</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgZGFtYWdlQ29tbWVudCA9IGdldFN0cmluZyhmb3JtRGF0YSwgRm9ybUZpZWxkcy5EQU1BR0VfQ09NTUVOVF9DUCk7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1155,19 +1162,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIC8vIC4uLiBvciBzb21ldGhpbmcgbGlrZSB0aGF0Cg==</text>
+        <text encoding="base64">ICAgICAgICBkYW1hZ2VDb21tZW50ID0gc3RyaW5nTWF4MjU1KGRhbWFnZUNvbW1lbnQpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIC8vYWRkIGJsdXIgZXZlbnQgbGlzdGVuZXIgdG8gaW5wdXQgZWxlbWVudAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIC8vIC4uLiBvciBzb21ldGhpbmcgbGlrZSB0aGF0Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJhZGRpbmcgYmx1ciBldmVudCBsaXN0ZW5lciIpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIC8vIC4uLiBvciBzb21ldGhpbmcgbGlrZSB0aGF0Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJpbiB3YXRjaDogbmV3VmFsICVvIiwgbmV3VmFsKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIC8vYWRkIGJsdXIgZXZlbnQgbGlzdGVuZXIgdG8gaW5wdXQgZWxlbWVudAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygiaW4gbGluayAlTyIsIHRoaXMpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJhZGRpbmcgYmx1ciBldmVudCBsaXN0ZW5lciIpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1502,13 +1509,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygiYmx1ciBldmVudCAlTyIsICRldmVudCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJpbiB3YXRjaDogbmV3VmFsICVvIiwgbmV3VmFsKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAvLyAkZXZlbnQucHJldmVudERlZmF1bHQoKTsK</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygiaW4gbGluayAlTyIsIHRoaXMpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgZWxzZSB7IC8vcmVtb3ZlIGJsdXIgZXZlbnQgbGlzdGVuZXIKICAgICAgICAgICAgICAgICAgIHRoaXMuJHRpbWVvdXQoKCkgPT4KICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygicmVtb3ZpbmcgYmx1ciBldmVudCBsaXN0ZW5lciIpLCAwKTsKICAgICAgICAgICAgICAgICAgIC8vIGVsZW0uZmluZCgnaW5wdXRbdHlwZT0ibnVtYmVyIl0nKS5vZmYoJ2JsdXIubm9lZGl0JykKICAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygiYmx1ciBldmVudCAlTyIsICRldmVudCk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1N0cmluZy9Mb25nL2c=</text>

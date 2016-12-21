@@ -96,12 +96,11 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/src/test/python/validate_test.py" timestamp="1482319823894">
+      <file name="$USER_HOME$/repos/webformdefinitions/src/test/python/validate_test.py" timestamp="1482322618691">
         <mark key="'" line="1" column="7" />
-        <mark key="[" line="39" column="0" />
-        <mark key="]" line="9" column="0" />
-        <mark key="^" line="9" column="0" />
-        <mark key="." line="9" column="0" />
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="." line="11" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/claim-header.html" timestamp="1481883927594">
         <mark key="[" line="331" column="103" />
@@ -675,8 +674,14 @@
       <jump line="1" column="7" filename="$USER_HOME$/repos/webformdefinitions/src/test/python/validate_test.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Y2xhc3MgTWV0YSh0eXBlKToKICAgIGRlZiBfX25ld19fKGNscywgbmFtZSwgYmFzZXMsIGF0dHJzKToKICAgICAgICBhdHRyc1sndmFsaWRhdGVfJXMnICUgeF0KCiAgICBkZWYgZ2VuKGNscywgeCk6CiAgICAgICAgZGVmIGZuKHNlbGYpOgogICAgICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHRlc3QoeCksKQoKCg==</text>
+      <register name="&quot;" type="4">
+        <text>class Meta(type):
+    def __new__(cls, name, bases, attrs):
+        attrs['validate_%s' % x]
+
+    def gen(cls, x):
+        def fn(self):
+            self.assertEqual(test(x),)</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -732,10 +737,16 @@
         <text encoding="base64">XDxwcHJpbnRcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGlmIHJlcXVlc3QuY2xzIGlzIG5vdCBOb25lOgogICAgICAgIHByaW50ICJzZXR0aW5nIHNjaGVtYSBvbiBjbGFzcyIKICAgICAgICByZXF1ZXN0LmNscy5zY2hlbWEgPSBzY2hlbWEK</text>
+        <text encoding="base64">ICAgICMgICAgICAgICByZXR1cm4gZWwudGFnID09ICJmb3JtIiwgZ2V0X2Vycm9yX3N0cmluZyhlbCwgJ1RFU1QnLCAiRWxlbWVudCB7fSB3YXMgbm90IHt9Ii5mb3JtYXQoZWwudGFnLCAiZmllbGQiKSkK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Y2xhc3MgTWV0YSh0eXBlKToKICAgIGRlZiBfX25ld19fKGNscywgbmFtZSwgYmFzZXMsIGF0dHJzKToKICAgICAgICBhdHRyc1sndmFsaWRhdGVfJXMnICUgeF0KCiAgICBkZWYgZ2VuKGNscywgeCk6CiAgICAgICAgZGVmIGZuKHNlbGYpOgogICAgICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHRlc3QoeCksKQoKCg==</text>
+      <register name="1" type="4">
+        <text>class Meta(type):
+    def __new__(cls, name, bases, attrs):
+        attrs['validate_%s' % x]
+
+    def gen(cls, x):
+        def fn(self):
+            self.assertEqual(test(x),)</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -762,19 +773,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGRlZiBtYWtlX21ldGhvZChzZWxmLCk6Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">ICAgICAgICBmb3IgZWxlbWVudCBpbiBzY2hlbWEuZWxlbWVudHMoKToKICAgICAgICAgICAgc2V0YXR0cihzZWxmLCApCiAgICAgICAgYXNzZXJ0IFRydWU=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICMgQHB5dGVzdC5tYXJrLnBhcmFtZXRyaXplKCdlbGVtZW50JywgWygnZHVtbXknKV0sIGluZGlyZWN0PVsnZWxlbWVudCddKQo=</text>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgIGRlZiB0ZXN0X3goY2xzLCApOgogICAgICAgIHBhc3M=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEBjbGFzc21ldGhvZAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">IyBAcHl0ZXN0LmZpeHR1cmUoc2NvcGU9ImNsYXNzIikKIyBkZWYgZWxlbWVudHMocmVxdWVzdCwgc2NoZW1hKToKIyAgICAgcHJpbnQgImVsZW1lbnRzIHNldHVwIC0gY2xhc3MgZml4dHVyZSIKIyAgICAgaWYgcmVxdWVzdC5jbHMgaXMgbm90IE5vbmU6CiMgICAgICAgICBwcmludCAic2V0dGluZyBzY2hlbWEgb24gY2xhc3MiCiMgICAgICAgICByZXF1ZXN0LmNscy5zY2hlbWEgPSBzY2hlbWEKIyAgICAgeWllbGQgc2NoZW1hLmVsZW1lbnRzKCkK</text>
+        <text encoding="base64">Y2xhc3MgTWV0YSh0eXBlKToKICAgIGRlZiBfX25ld19fKGNscywgbmFtZSwgYmFzZXMsIGF0dHJzKToKICAgICAgICBhdHRyc1sndmFsaWRhdGVfJXMnICUgeF0KCiAgICBkZWYgZ2VuKGNscywgeCk6CiAgICAgICAgZGVmIGZuKHNlbGYpOgogICAgICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHRlc3QoeCksKQoKCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1109,13 +1120,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEBweXRlc3QubWFyay50d29fbGV2ZWxkZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZGVmIHB5dGVzdF9nZW5lcmF0ZV90ZXN0cyhtZXRhZnVuYyk6CiAgICBwcmludCAicHl0ZXN0X2dlbmVyYXRlX3Rlc3RzIgogICAgaWYgaGFzYXR0cihtZXRhZnVuYy5mdW5jdGlvbiwgJ3R3b19sZXZlbCcpOgogICAgICAgIGZpcnN0ID0gbWV0YWZ1bmMuZnVuY3Rpb24ucGFyYW1ldHJpemUKICAgICAgICBwcmludCBtZXRhZnVuYy5mdW5jdGlvbi5fX2RpY3RfXwo=</text>
+        <text encoding="base64">ICAgICMgQHB5dGVzdC5tYXJrLnBhcmFtZXRyaXplKCdlbGVtZW50JywgWygnZHVtbXknKV0sIGluZGlyZWN0PVsnZWxlbWVudCddKQo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL2ZpbHRlcmVkUmVtaW5kZXJzL3ZtXC4mL2c=</text>

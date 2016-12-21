@@ -96,11 +96,12 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/src/test/python/validate_test.py" timestamp="1482322618691">
+      <file name="$USER_HOME$/repos/webformdefinitions/src/test/python/validate_test.py" timestamp="1482325994954">
         <mark key="'" line="1" column="7" />
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="11" column="0" />
-        <mark key="." line="11" column="0" />
+        <mark key="[" line="43" column="0" />
+        <mark key="]" line="45" column="28" />
+        <mark key="^" line="45" column="28" />
+        <mark key="." line="45" column="28" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/claim-header.html" timestamp="1481883927594">
         <mark key="[" line="331" column="103" />
@@ -203,10 +204,11 @@
         <mark key="^" line="0" column="55" />
         <mark key="." line="0" column="55" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/src/test/python/conftest.py" timestamp="1482317211845">
-        <mark key="[" line="93" column="35" />
-        <mark key="]" line="104" column="0" />
-        <mark key="." line="104" column="0" />
+      <file name="$USER_HOME$/repos/webformdefinitions/src/test/python/conftest.py" timestamp="1482327228204">
+        <mark key="[" line="64" column="58" />
+        <mark key="]" line="64" column="28" />
+        <mark key="." line="64" column="28" />
+        <mark key="^" line="64" column="28" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/WRRAssignerState.java" timestamp="1478876635120">
         <mark key="[" line="10" column="0" />
@@ -428,6 +430,11 @@
         <mark key="]" line="57" column="62" />
         <mark key="." line="57" column="37" />
         <mark key="^" line="56" column="69" />
+      </file>
+      <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/sweden/property/se_property_schema.xml" timestamp="1482325012904">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/src/test/python/test_nose2/test_layers.py" timestamp="1482240859829" />
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/ClaimAssignmentException.java" timestamp="1479842380587">
@@ -674,14 +681,8 @@
       <jump line="1" column="7" filename="$USER_HOME$/repos/webformdefinitions/src/test/python/validate_test.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>class Meta(type):
-    def __new__(cls, name, bases, attrs):
-        attrs['validate_%s' % x]
-
-    def gen(cls, x):
-        def fn(self):
-            self.assertEqual(test(x),)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">QHB5dGVzdC5ob29raW1wbCh0cnlmaXJzdD1UcnVlKQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -731,7 +732,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text encoding="base64">PA==</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxwcHJpbnRcPg==</text>
@@ -739,14 +740,8 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICMgICAgICAgICByZXR1cm4gZWwudGFnID09ICJmb3JtIiwgZ2V0X2Vycm9yX3N0cmluZyhlbCwgJ1RFU1QnLCAiRWxlbWVudCB7fSB3YXMgbm90IHt9Ii5mb3JtYXQoZWwudGFnLCAiZmllbGQiKSkK</text>
       </register>
-      <register name="1" type="4">
-        <text>class Meta(type):
-    def __new__(cls, name, bases, attrs):
-        attrs['validate_%s' % x]
-
-    def gen(cls, x):
-        def fn(self):
-            self.assertEqual(test(x),)</text>
+      <register name="1" type="2">
+        <text encoding="base64">QHB5dGVzdC5ob29raW1wbCh0cnlmaXJzdD1UcnVlKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -773,19 +768,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRlZiBtYWtlX21ldGhvZChzZWxmLCk6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBtZXRhZnVuYy5wYXJhbWV0cml6ZSgKICAgICAgICAgICAgIyAgICAgImVsZW1lbnQiLAogICAgICAgICAgICAjCiAgICAgICAgICAgICMgKQo=</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">ICAgICAgICBmb3IgZWxlbWVudCBpbiBzY2hlbWEuZWxlbWVudHMoKToKICAgICAgICAgICAgc2V0YXR0cihzZWxmLCApCiAgICAgICAgYXNzZXJ0IFRydWU=</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgIGRlZiB0ZXN0X3goY2xzLCApOgogICAgICAgIHBhc3M=</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGRlZiB2YWxpZGF0ZV9zZXR1cChzZWxmLCBzY2hlbWEpOgogICAgICAgIGZuID0gbWFrZV9tZXRob2Qoc2VsZi5lbGVtZW50X2lzX2Zvcm0sICdzb21lYXJnJykKICAgICAgICBzZXRhdHRyKHNlbGYsIGZuLl9fbmFtZV9fLCBmbikKICAgICAgICBwcmludCBzZWxmLl9fZGljdF9fCiAgICAgICAgYXNzZXJ0IFRydWUK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIEBjbGFzc21ldGhvZAo=</text>
+        <text encoding="base64">ICAgIHByaW50IHJlcXVlc3QuY2xzLl9fZGljdF9fCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Y2xhc3MgTWV0YSh0eXBlKToKICAgIGRlZiBfX25ld19fKGNscywgbmFtZSwgYmFzZXMsIGF0dHJzKToKICAgICAgICBhdHRyc1sndmFsaWRhdGVfJXMnICUgeF0KCiAgICBkZWYgZ2VuKGNscywgeCk6CiAgICAgICAgZGVmIGZuKHNlbGYpOgogICAgICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHRlc3QoeCksKQoKCg==</text>
+        <text encoding="base64">ICAgIHlpZWxkIHJlcXVlc3QucGFyYW0K</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1120,13 +1115,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBsaXN0KGZpbGVuYW1lX2dlbmVyYXRvcigiKi54bWwiLCAiZm9ybXMveG1sIikpLAogICAgICAgICAgICBsaXN0KGZpbGVuYW1lX2dlbmVyYXRvcigiKi54bWwiLCAiZm9ybXMveG1sL3N3ZWRlbi9wcm9wZXJ0eSIpKSwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAiZWxlbWVudCIgaW4gbWV0YWZ1bmMuZml4dHVyZW5hbWVzOgogICAgICAgICAgICBwcmludCAic2NoZW1hIGFuZCBlbGVtZW50IGluIGZpeHR1cmUsIHRyeSB0byBnZXQgbmFtZXMiCiAgICAgICAgICAgIHByaW50IHBwcmludC5wZm9ybWF0KG1ldGFmdW5jLmZ1bmN0aW9uKQogICAgICAgICAgICBwcmludCBwcHJpbnQucGZvcm1hdChtZXRhZnVuYy5fYXJnMmZpeHR1cmVkZWZzWydzY2hlbWEnXVswXS5fZml4dHVyZW1hbmFnZXIuc2Vzc2lvbi5fX2RpY3RfXykK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICMgQHB5dGVzdC5tYXJrLnBhcmFtZXRyaXplKCdlbGVtZW50JywgWygnZHVtbXknKV0sIGluZGlyZWN0PVsnZWxlbWVudCddKQo=</text>
+        <text encoding="base64">ZGVmIHB5dGVzdF9jb25maWd1cmUoY29uZmlnKToKICAgIHByaW50ICJDb25maWd1cmUgaG9vaywgb3B0aW9uczoiCiAgICBwcmludCBjb25maWcuZ2V0b3B0aW9uKCd4bWxmaWxlcycpCg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL2ZpbHRlcmVkUmVtaW5kZXJzL3ZtXC4mL2c=</text>

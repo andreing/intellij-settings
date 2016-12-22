@@ -229,8 +229,8 @@
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/src/main/python/validateforms.py" timestamp="1482416647495">
-        <mark key="'" line="158" column="8" />
+      <file name="$USER_HOME$/repos/webformdefinitions/src/main/python/validateforms.py" timestamp="1482417622271">
+        <mark key="'" line="42" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/assignment/WeightedRoundRobin.java" timestamp="1478877999797">
         <mark key="[" line="13" column="91" />
@@ -449,12 +449,12 @@
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/dtd/claims_web_form_definition.dtd" timestamp="1482408660520" />
-      <file name="$USER_HOME$/repos/webformdefinitions/src/test/groovy/ValidateForm.groovy" timestamp="1482416803116">
-        <mark key="'" line="10" column="12" />
-        <mark key="[" line="53" column="8" />
-        <mark key="]" line="53" column="7" />
-        <mark key="." line="53" column="7" />
-        <mark key="^" line="53" column="7" />
+      <file name="$USER_HOME$/repos/webformdefinitions/src/test/groovy/ValidateForm.groovy" timestamp="1482419388002">
+        <mark key="'" line="12" column="12" />
+        <mark key="[" line="59" column="15" />
+        <mark key="]" line="59" column="15" />
+        <mark key="." line="59" column="15" />
+        <mark key="^" line="59" column="15" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/ClaimAssignmentException.java" timestamp="1479842380587">
         <mark key="[" line="2" column="46" />
@@ -592,8 +592,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="60" column="60" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox.html" />
-      <jump line="30" column="38" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox.html" />
       <jump line="119" column="74" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox.html" />
       <jump line="125" column="0" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox.html" />
       <jump line="40" column="28" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox.html" />
@@ -692,10 +690,12 @@
       <jump line="9" column="24" filename="$USER_HOME$/repos/webformdefinitions/src/main/python/validateforms.py" />
       <jump line="158" column="8" filename="$USER_HOME$/repos/webformdefinitions/src/main/python/validateforms.py" />
       <jump line="10" column="12" filename="$USER_HOME$/repos/webformdefinitions/src/test/groovy/ValidateForm.groovy" />
+      <jump line="180" column="24" filename="$USER_HOME$/repos/webformdefinitions/src/main/python/validateforms.py" />
+      <jump line="42" column="0" filename="$USER_HOME$/repos/webformdefinitions/src/main/python/validateforms.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICJBRlRFUk1BVEgiCg==</text>
+        <text encoding="base64">ICAgICAgICBmb3JtID0gcGFyc2VyLnBhcnNlKGZpbGUpCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -745,16 +745,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>form, type, id</text>
       </register>
       <register name="/" type="4">
-        <text>&quot;</text>
+        <text encoding="base64">XDxWQUxJRF9UWVBFX0FUVFJTXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIG1hdmVuIHsgdXJsICIke25leHVzVXJsfS9yZXBvc2l0b3J5L3Byb3RlY3Rvci1hbGwvIiB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBmb3JtIDw8IHBhcnNlci5wYXJzZShmaWxlKQogICAgICAgIHR5cGUgPDwgZm9ybS4nKionLmZpbmRBbGx7IG5vZGUgLT4gbm9kZS5uYW1lKCkgPT0gJ2ZpZWxkJyB9Ki5AdHlwZQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICJBRlRFUk1BVEgiCg==</text>
+        <text encoding="base64">ICAgICAgICBmb3JtID0gcGFyc2VyLnBhcnNlKGZpbGUpCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -781,19 +781,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEBTaGFyZWQgdmFsaWRhdGlvbmZpbGUK</text>
+        <text encoding="base64">ICAgICAgICBmb3JtID0gcGFyc2VyLnBhcnNlKGZpbGUpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGVsZW1lbnQgZmllbGRzZXQgewogICAgICAgIAogICAgfSssCg==</text>
+        <text encoding="base64">ICAgICAgICBmaWxlIDw8IGZpbGVzCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIG1hdmVuIHsgdXJsICJodHRwOi8vcGZzdm5vYnVpbGRwMDE6ODA4MS9uZXh1cy9jb250ZW50L2dyb3Vwcy9wdWJsaWMvIiB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBmb3JtcyA9IGZpbGVzLmNvbGxlY3Qge2ZpbGUgLT4gcGFyc2VyLnBhcnNlKGZpbGUpfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Ly8gICAgY29tcGlsZSAnb3JnLmNvZGVoYXVzLmdyb292eTpncm9vdnktYWxsOjIuNC41Jwo=</text>
+        <text encoding="base64">ICAgICAgICBwYXJzZXIgPSBuZXcgWG1sU2x1cnBlcihmYWxzZSwgZmFsc2UsIGZhbHNlKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBmb3JtcyA9IGZpbGVzLmNvbGxlY3Qge2ZpbGUgLT4gcGFyc2VyLnBhcnNlKGZpbGUpfQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1128,22 +1128,22 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBmb3JtID0gcGFyc2VyLnBhcnNlKGZpbGUpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICBkZWYgdmFsaWRhdGVfZWxlbWVudF9pc19mb3JtKHNlbGYsIHNjaGVtYSwgZWxlbWVudCk6CiAgICAgICAgYXNzZXJ0IDAgIyBmYWlsIGZvciB0ZXN0Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCAic2NoZW1hIHBhcmFtZXRyaXplIgo=</text>
+        <text encoding="base64">ICAgICAgICBnaXZlbjoKICAgICAgICBkZWYgZm9ybSA9IHBhcnNlci5wYXJzZShmaWxlKQoK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zLyIvJy9n</text>
       </register>
     </registers>
     <search>
-      <last-search>&quot;</last-search>
+      <last-search encoding="base64">XDxWQUxJRF9UWVBFX0FUVFJTXD4=</last-search>
       <last-offset />
-      <last-pattern>&quot;</last-pattern>
+      <last-pattern encoding="base64">XDxWQUxJRF9UWVBFX0FUVFJTXD4=</last-pattern>
       <last-replace>'</last-replace>
       <last-substitute>&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1151,7 +1151,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxxXD4=</entry>
         <entry encoding="base64">XDxsb2FkaW5nXD4=</entry>
         <entry>mySort</entry>
         <entry>filteredR</entry>
@@ -1171,6 +1170,7 @@
         <entry encoding="base64">XDxwcHJpbnRcPg==</entry>
         <entry encoding="base64">XDxkZWZhdWx0ZGljdFw+</entry>
         <entry>&quot;</entry>
+        <entry encoding="base64">XDxWQUxJRF9UWVBFX0FUVFJTXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>s/claimHeaderId/injured/g</entry>

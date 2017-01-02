@@ -351,12 +351,12 @@
         <mark key="]" line="15" column="6" />
         <mark key="." line="15" column="6" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1483370942114">
-        <mark key="'" line="238" column="60" />
-        <mark key="[" line="1070" column="0" />
-        <mark key="]" line="1070" column="0" />
-        <mark key="^" line="1063" column="60" />
-        <mark key="." line="1070" column="0" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1483371997271">
+        <mark key="'" line="1334" column="31" />
+        <mark key="[" line="898" column="39" />
+        <mark key="]" line="898" column="37" />
+        <mark key="^" line="898" column="37" />
+        <mark key="." line="898" column="37" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/apps/fileservice/fs-client.js" timestamp="1477663877809">
         <mark key="[" line="1" column="0" />
@@ -609,8 +609,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="65" column="36" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox-ctrl.js" />
-      <jump line="231" column="24" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox-ctrl.js" />
       <jump line="233" column="19" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox-ctrl.js" />
       <jump line="28" column="23" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox-ctrl.js" />
       <jump line="175" column="61" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox.html" />
@@ -709,10 +707,12 @@
       <jump line="238" column="15" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
       <jump line="239" column="60" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
       <jump line="37" column="82" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/RoleService.java" />
+      <jump line="1197" column="21" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
+      <jump line="1334" column="31" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwYXJ0eS5zZXRQaG9uZShwYXJ0eVBob25lKTsK</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgZm9ybU5hbWUgPSBmb3JtU3VibWlzc2lvbi5nZXROYW1lKCk7CgogICAgICAgIENsYWltVHlwZURlc2NyaXB0aW9uIGNsYWltVHlwZSA9IENsYWltVHlwZURlc2NyaXB0aW9uLk9USEVSX0FJTE1FTlQ7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -765,10 +765,10 @@
         <text>partyPhone</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjb25uZWN0VG9DbGFpbVw+</text>
+        <text encoding="base64">XDxBZGRpdGlvbmFsQ3JlYXRpb25JbmZvXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBmaW5hbCBib29sZWFuIGhhc19vdGhlcl9kbWc9ICIxIi5lcXVhbHMoZm9ybURhdGEuZ2V0KEZvcm1GaWVsZHMuSEFTX09USEVSX0RNRy5nZXRLZXkoKSkpOwogICAgICAgIFN0cmluZyBwYXJ0eU5hbWUgPSBnZXRTdHJpbmcoZm9ybURhdGEsIEZvcm1GaWVsZHMuT1RIRVJfRE1HX1BBUlRZX05BTUUpOwogICAgICAgIFN0cmluZyBwYXJ0eUZpcnN0TmFtZSA9IGdldFN0cmluZyhmb3JtRGF0YSwgRm9ybUZpZWxkcy5PVEhFUl9ETUdfUEFSVFlfRklSU1RfTkFNRSk7CiAgICAgICAgU3RyaW5nIHBhcnR5TGFzdE5hbWUgPSBnZXRTdHJpbmcoZm9ybURhdGEsIEZvcm1GaWVsZHMuT1RIRVJfRE1HX1BBUlRZX0ZJUlNUX05BTUUpOwogICAgICAgIFN0cmluZyBwYXJ0eUFkZHJlc3MgPSBnZXRTdHJpbmcoZm9ybURhdGEsIEZvcm1GaWVsZHMuT1RIRVJfRE1HX1BBUlRZX0FERFJFU1MpOwogICAgICAgIFN0cmluZyBwYXJ0eUVtYWlsID0gZ2V0U3RyaW5nKGZvcm1EYXRhLCBGb3JtRmllbGRzLk9USEVSX0RNR19QQVJUWV9FTUFJTCk7CiAgICAgICAgU3RyaW5nIHBhcnR5UGhvbmUgPSBnZXRTdHJpbmcoZm9ybURhdGEsIEZvcm1GaWVsZHMuT1RIRVJfRE1HX1BBUlRZX1BIT05FKTsKCiAgICAgICAgZmluYWwgTGlzdDxTdHJpbmc+IHN0cmluZ3MgPSBBcnJheXMuYXNMaXN0KHBhcnR5TmFtZSwgcGFydHlGaXJzdE5hbWUsIHBhcnR5TGFzdE5hbWUsIHBhcnR5QWRkcmVzcywgcGFydHlFbWFpbCwgcGFydHlQaG9uZSk7CiAgICAgICAgaWYgKCFoYXNfb3RoZXJfZG1nIHx8IHN0cmluZ3Muc3RyZWFtKCkuYWxsTWF0Y2goT2JqZWN0czo6aXNOdWxsKSB8fCBzdHJpbmdzLnN0cmVhbSgpLmZpbHRlcihPYmplY3RzOjpub25OdWxsKS5hbGxNYXRjaChTdHJpbmc6OmlzRW1wdHkpKSB7CiAgICAgICAgICAgIHJldHVybiBPcHRpb25hbC5lbXB0eSgpOwogICAgICAgIH0KCiAgICAgICAgUGFydHkgcGFydHkgPSBuZXcgUGFydHkoKTsKICAgICAgICBpZiAocGFydHlOYW1lICE9IG51bGwgJiYgIXBhcnR5TmFtZS5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgcGFydHkuc2V0TmFtZShwYXJ0eU5hbWUpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHBhcnR5LnNldEZpcnN0TmFtZShwYXJ0eUZpcnN0TmFtZSk7CiAgICAgICAgICAgIHBhcnR5LnNldE5hbWUocGFydHlMYXN0TmFtZSk7CiAgICAgICAgfQogICAgICAgIEFkZHJlc3MgYWRkcmVzcyA9IG5ldyBBZGRyZXNzKCk7CiAgICAgICAgYWRkcmVzcy5zZXRGaWVsZDEocGFydHlBZGRyZXNzKTsKICAgICAgICBwYXJ0eS5zZXRBZGRyZXNzZXMoQ29sbGVjdGlvbnMuc2luZ2xldG9uTGlzdChhZGRyZXNzKSk7CiAgICAgICAgcGFydHkuc2V0RW1haWwocGFydHlFbWFpbCk7CiAgICAgICAgcGFydHkuc2V0UGhvbmUocGFydHlQaG9uZSk7CiAgICAgICAgcGFydHkuc2V0Q291bnRyeUlkKGhlYWRlci5nZXRDb3VudHJ5KCkpOwoKICAgICAgICBwYXJ0eSA9IGZpbmRPckNyZWF0ZVBhcnR5KHBhcnR5KTsKCiAgICAgICAgQ2xhaW1Sb2xlIHJvbGUgPSBuZXcgQ2xhaW1Sb2xlKCk7CiAgICAgICAgcm9sZS5zZXRSb2xlVHlwZUlkKENsYWltUm9sZVR5cGVEZXNjcmlwdGlvbi5PVEhFUi5nZXRJZCgpKTsKICAgICAgICByb2xlLnNldFJvbGUoQ2xhaW1Sb2xlVHlwZURlc2NyaXB0aW9uLk9USEVSLmdldERlc2NyaXB0aW9uKCkpOwogICAgICAgIHJvbGUuc2V0UGFydHkocGFydHkpOwogICAgICAgIHJvbGUuc2V0Q2xhaW1IZWFkZXJJZChoZWFkZXIuZ2V0SWQoKSk7CiAgICAgICAgcm9sZS5zZXRDcmVhdGVkVXNlcihjdXJyZW50VXNlcik7CiAgICAgICAgcm9sZS5zZXRMYXN0VXBkYXRlZFVzZXIoY3VycmVudFVzZXIpOwogICAgICAgIHJvbGUuc2V0Q3JlYXRlZChMb2NhbERhdGVUaW1lLm5vdygpKTsKICAgICAgICByb2xlLnNldExhc3RVcGRhdGUocm9sZS5nZXRDcmVhdGVkKCkpOwogICAgICAgIAogICAgICAgIHJldHVybiBPcHRpb25hbC5vZihyb2xlU2VydmljZS5jcmVhdGVSb2xlKHJvbGUpKTsK</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgZm9ybU5hbWUgPSBmb3JtU3VibWlzc2lvbi5nZXROYW1lKCk7CgogICAgICAgIENsYWltVHlwZURlc2NyaXB0aW9uIGNsYWltVHlwZSA9IENsYWltVHlwZURlc2NyaXB0aW9uLk9USEVSX0FJTE1FTlQ7Cg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBwYXJ0eS5zZXRQaG9uZShwYXJ0eVBob25lKTsK</text>
@@ -1158,9 +1158,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjb25uZWN0VG9DbGFpbVw+</last-search>
+      <last-search encoding="base64">XDxBZGRpdGlvbmFsQ3JlYXRpb25JbmZvXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjb25uZWN0VG9DbGFpbVw+</last-pattern>
+      <last-pattern encoding="base64">XDxBZGRpdGlvbmFsQ3JlYXRpb25JbmZvXD4=</last-pattern>
       <last-replace>'</last-replace>
       <last-substitute>&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1168,7 +1168,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxFbGVtZW50XD4=</entry>
         <entry encoding="base64">XDxwcHJpbnRcPg==</entry>
         <entry encoding="base64">XDxkZWZhdWx0ZGljdFw+</entry>
         <entry>&quot;</entry>
@@ -1188,6 +1187,7 @@
         <entry encoding="base64">XDxfZGFtYWdlRGF0ZVw+</entry>
         <entry encoding="base64">XDxfbG9iXD4=</entry>
         <entry encoding="base64">XDxjb25uZWN0VG9DbGFpbVw+</entry>
+        <entry encoding="base64">XDxBZGRpdGlvbmFsQ3JlYXRpb25JbmZvXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>s/claimHeaderId/injured/g</entry>

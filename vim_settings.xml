@@ -150,7 +150,6 @@
         <mark key="]" line="163" column="0" />
         <mark key="." line="163" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/file-service/client/gradle.properties" timestamp="1482401499007" />
       <file name="$USER_HOME$/repos/webformdefinitions/build.gradle" timestamp="1482401506797">
         <mark key="[" line="6" column="0" />
         <mark key="]" line="6" column="0" />
@@ -350,9 +349,9 @@
         <mark key="]" line="15" column="6" />
         <mark key="." line="15" column="6" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1482223464821">
-        <mark key="'" line="928" column="0" />
-        <mark key="[" line="368" column="74" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1483346204370">
+        <mark key="'" line="1008" column="143" />
+        <mark key="[" line="270" column="131" />
         <mark key="]" line="368" column="74" />
         <mark key="^" line="368" column="51" />
         <mark key="." line="368" column="74" />
@@ -448,7 +447,6 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/forms/dtd/claims_web_form_definition.dtd" timestamp="1482408660520" />
       <file name="$USER_HOME$/repos/webformdefinitions/src/test/groovy/ValidateForm.groovy" timestamp="1482419388002">
         <mark key="'" line="12" column="12" />
         <mark key="[" line="59" column="15" />
@@ -592,9 +590,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="119" column="74" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox.html" />
-      <jump line="125" column="0" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox.html" />
-      <jump line="40" column="28" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox.html" />
       <jump line="129" column="0" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox.html" />
       <jump line="44" column="28" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox.html" />
       <jump line="237" column="6" filename="$USER_HOME$/repos/claims/frontend/claims/components/dashboard/inbox/inbox-ctrl.js" />
@@ -692,6 +687,9 @@
       <jump line="10" column="12" filename="$USER_HOME$/repos/webformdefinitions/src/test/groovy/ValidateForm.groovy" />
       <jump line="180" column="24" filename="$USER_HOME$/repos/webformdefinitions/src/main/python/validateforms.py" />
       <jump line="42" column="0" filename="$USER_HOME$/repos/webformdefinitions/src/main/python/validateforms.py" />
+      <jump line="270" column="121" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
+      <jump line="721" column="143" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
+      <jump line="1008" column="143" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -748,7 +746,7 @@
         <text>form, type, id</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxWQUxJRF9UWVBFX0FUVFJTXD4=</text>
+        <text encoding="base64">XDxLdml0dGVyaW5nXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBmb3JtIDw8IHBhcnNlci5wYXJzZShmaWxlKQogICAgICAgIHR5cGUgPDwgZm9ybS4nKionLmZpbmRBbGx7IG5vZGUgLT4gbm9kZS5uYW1lKCkgPT0gJ2ZpZWxkJyB9Ki5AdHlwZQo=</text>
@@ -1141,9 +1139,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxWQUxJRF9UWVBFX0FUVFJTXD4=</last-search>
+      <last-search encoding="base64">XDxLdml0dGVyaW5nXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxWQUxJRF9UWVBFX0FUVFJTXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxLdml0dGVyaW5nXD4=</last-pattern>
       <last-replace>'</last-replace>
       <last-substitute>&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1151,7 +1149,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxsb2FkaW5nXD4=</entry>
         <entry>mySort</entry>
         <entry>filteredR</entry>
         <entry encoding="base64">XDxmaWx0ZXJlZFJlbWluZGVyc1w+</entry>
@@ -1171,6 +1168,7 @@
         <entry encoding="base64">XDxkZWZhdWx0ZGljdFw+</entry>
         <entry>&quot;</entry>
         <entry encoding="base64">XDxWQUxJRF9UWVBFX0FUVFJTXD4=</entry>
+        <entry encoding="base64">XDxLdml0dGVyaW5nXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>s/claimHeaderId/injured/g</entry>

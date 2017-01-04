@@ -578,12 +578,12 @@
         <mark key="]" line="24" column="0" />
         <mark key="." line="24" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" timestamp="1483533745101">
-        <mark key="'" line="186" column="149" />
-        <mark key="[" line="93" column="33" />
-        <mark key="]" line="93" column="34" />
-        <mark key="^" line="93" column="34" />
-        <mark key="." line="93" column="34" />
+      <file name="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" timestamp="1483538529487">
+        <mark key="'" line="152" column="29" />
+        <mark key="[" line="59" column="16" />
+        <mark key="]" line="59" column="15" />
+        <mark key="^" line="59" column="15" />
+        <mark key="." line="59" column="15" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/admin/assignment/editable-input.js" timestamp="1481810674439">
         <mark key="[" line="36" column="95" />
@@ -611,9 +611,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="37" column="10" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
-      <jump line="53" column="8" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
-      <jump line="68" column="10" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="72" column="19" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="89" column="4" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="93" column="4" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
@@ -655,7 +652,6 @@
       <jump line="52" column="13" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="60" column="13" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="112" column="13" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
-      <jump line="152" column="21" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="7" column="27" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="29" column="60" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="51" column="29" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
@@ -700,7 +696,6 @@
       <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/assignment/assignee-pool-directive.js" />
       <jump line="165" column="31" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="110" column="0" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
-      <jump line="15" column="31" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="19" column="26" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="71" column="19" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="132" column="19" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
@@ -711,10 +706,15 @@
       <jump line="172" column="117" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="179" column="42" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="186" column="149" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
+      <jump line="15" column="13" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
+      <jump line="55" column="21" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
+      <jump line="109" column="47" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
+      <jump line="143" column="29" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
+      <jump line="152" column="29" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>this.countries[countryId] + &quot; : &quot; + this.getLobDescription(lobId)</text>
+        <text>s</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -764,10 +764,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>The following</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
-        <text>for</text>
+        <text encoding="base64">XDxtYWlsVGVtcGxhdGVzXD4=</text>
       </register>
       <register name="0" type="4">
         <text>this.countries[countryId] + &quot; : &quot; + this.getLobDescription(lobId)</text>
@@ -1193,9 +1193,9 @@
       </register>
     </registers>
     <search>
-      <last-search>for</last-search>
+      <last-search encoding="base64">XDxtYWlsVGVtcGxhdGVzXD4=</last-search>
       <last-offset />
-      <last-pattern>for</last-pattern>
+      <last-pattern encoding="base64">XDxtYWlsVGVtcGxhdGVzXD4=</last-pattern>
       <last-replace>vm\.\1</last-replace>
       <last-substitute>\(mailTemplates\)</last-substitute>
       <last-dir>1</last-dir>
@@ -1203,7 +1203,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxfbG9iXD4=</entry>
         <entry encoding="base64">XDxjb25uZWN0VG9DbGFpbVw+</entry>
         <entry encoding="base64">XDxBZGRpdGlvbmFsQ3JlYXRpb25JbmZvXD4=</entry>
         <entry>\(\$scope\)</entry>
@@ -1223,6 +1222,7 @@
         <entry encoding="base64">XDxpbnB1dFRlbXBsYXRlXD4=</entry>
         <entry>splice</entry>
         <entry>for</entry>
+        <entry encoding="base64">XDxtYWlsVGVtcGxhdGVzXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>s/\$scope/this/g</entry>

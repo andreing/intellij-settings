@@ -579,12 +579,12 @@
         <mark key="]" line="24" column="0" />
         <mark key="." line="24" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" timestamp="1483622248985">
-        <mark key="'" line="117" column="22" />
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="8" column="23" />
-        <mark key="." line="8" column="23" />
-        <mark key="^" line="8" column="23" />
+      <file name="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" timestamp="1483623627868">
+        <mark key="'" line="126" column="22" />
+        <mark key="[" line="117" column="46" />
+        <mark key="]" line="131" column="40" />
+        <mark key="^" line="131" column="40" />
+        <mark key="." line="131" column="40" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/admin/assignment/editable-input.js" timestamp="1481810674439">
         <mark key="[" line="36" column="95" />
@@ -715,7 +715,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJlZSA9IHF1ZXVlLnNoaWZ0KCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAvLyByZW1vdmUgcHJveGllcyBsZXQgcmVjdXJzZSA9ICh0cmVlKSA9PiB7CiAgICAgICAgICAgIGZvciAobGV0IHN1YnRyZWUgb2YgT2JqZWN0LmtleXModHJlZSkpIHsKICAgICAgICAgICAgICAgIHRyZWVbc3VidHJlZV0gPSBPYmplY3QuYXNzaWduKHt9LCByZWN1cnNlKHRyZWVbc3VidHJlZV0pKTsKICAgICAgICAgICAgfQogICAgICAgIH07CgogICAgICAgIGxldCB0dHJlZSA9IHJlY3Vyc2UodHJlZSk7CgogICAgICAgIGNvbnNvbGUubG9nKCJ0cmVlICVPIiwgdHRyZWUpOwogICAgICAgIHJldHVybiB0cmVlOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -774,7 +774,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJCUkFOQ0ggMiIpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJlZSA9IHF1ZXVlLnNoaWZ0KCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAvLyByZW1vdmUgcHJveGllcyBsZXQgcmVjdXJzZSA9ICh0cmVlKSA9PiB7CiAgICAgICAgICAgIGZvciAobGV0IHN1YnRyZWUgb2YgT2JqZWN0LmtleXModHJlZSkpIHsKICAgICAgICAgICAgICAgIHRyZWVbc3VidHJlZV0gPSBPYmplY3QuYXNzaWduKHt9LCByZWN1cnNlKHRyZWVbc3VidHJlZV0pKTsKICAgICAgICAgICAgfQogICAgICAgIH07CgogICAgICAgIGxldCB0dHJlZSA9IHJlY3Vyc2UodHJlZSk7CgogICAgICAgIGNvbnNvbGUubG9nKCJ0cmVlICVPIiwgdHRyZWUpOwogICAgICAgIHJldHVybiB0cmVlOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -834,19 +834,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB7CiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKHRvTm9kZS5wb3MpIHsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgfSBlbHNlCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJlZS5jaGlsZHJlbi5mb3JFYWNoKGVucXVldWUpOwogICAgICAgICAgICBkb25lID0gY2FsbGJhY2sodHJlZSk7CiAgICAgICAgICAgIHRyZWUgPSBxdWV1ZS5zaGlmdCgpOwo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgY2hpbGQgPSBuZXcgTm9kZShpZCwgZGF0YSk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAoZnVuY3Rpb24gdmlzaXQobm9kZSkgewogICAgICAgICAgICAKICAgICAgICB9KSh0aGlzLl9yb290KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJlZSA9IHF1ZXVlLnNoaWZ0KCk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">bGV0IG5vZGVIYW5kbGVyID0gewogICAgZ2V0OiBmdW5jdGlvbiAodGFyZ2V0LCBrZXksIHJlY2VpdmVyKSB7CiAgICAgICAgaWYgKCEoa2V5IGluIHRhcmdldCkpIHsKICAgICAgICAgICAgdGFyZ2V0W2tleV0gPSBUcmVlKCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBSZWZsZWN0LmdldCh0YXJnZXQsIGtleSwgcmVjZWl2ZXIpOwogICAgfQp9OwoKZnVuY3Rpb24gVHJlZSgpIHsKICAgIHJldHVybiBuZXcgUHJveHkoe2l0ZW1zOltdfSwgbm9kZUhhbmRsZXIpOwp9Cgo=</text>
+        <text encoding="base64">ICAgICAgICB7CiAgICAgICAgfQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1181,13 +1181,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgdHRyZWUgPSB7fTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGFjY1tzdWJ0cmVlXSA9IE9iamVjdC5hc3NpZ24oe30sIHRyZWVbc3VidHJlZV0pOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJlZS5jaGlsZHJlbi5mb3JFYWNoKGVucXVldWUpOwogICAgICAgICAgICBkb25lID0gY2FsbGJhY2sodHJlZSk7CiAgICAgICAgICAgIHRyZWUgPSBxdWV1ZS5zaGlmdCgpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgdHRyZWUgPSB7fTsKICAgICAgICAvLyByZW1vdmUgcHJveGllcwo=</text>
+        <text encoding="base64">ICAgICAgICAoZnVuY3Rpb24gdmlzaXQobm9kZSkgewogICAgICAgICAgICAKICAgICAgICB9KSh0aGlzLl9yb290KTsK</text>
       </register>
       <register name=":" type="4">
         <text>%s/\(mailTemplates\)/vm\.\1/g</text>

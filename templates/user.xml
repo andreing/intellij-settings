@@ -14,9 +14,9 @@
   <template name="lgr" value="private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger($className$.class);" description="Slf4j logger for class" toReformat="true" toShortenFQNames="true">
     <variable name="className" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="SPOCK_SPECIFICATION" value="true" />
       <option name="GROOVY_DECLARATION" value="true" />
+      <option name="SPOCK_SPECIFICATION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
   <template name="jstd" value="describe('$testName$', function() {&#10;    $END$&#10;});&#10;" description="js test describe block" toReformat="true" toShortenFQNames="true">

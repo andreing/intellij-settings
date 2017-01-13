@@ -8,17 +8,9 @@
   </component>
   <component name="LiveEditOptions" autoDelay="2000" restartIfHotSwapFailed="true" />
   <component name="TodoConfiguration">
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
-      <option name="FOREGROUND" value="a8c023" />
-      <option name="FONT_TYPE" value="2" />
-      <option name="ERROR_STRIPE_COLOR" value="977ab" />
-    </pattern>
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bfixme\b.*">
-      <option name="FOREGROUND" value="a8c023" />
-      <option name="FONT_TYPE" value="2" />
-      <option name="ERROR_STRIPE_COLOR" value="977ab" />
-    </pattern>
-    <pattern icon="default" useCustomColors="true" case-sensitive="false" pattern="\bnote\b.*">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern useCustomColors="true" pattern="\bnote\b.*">
       <option name="FOREGROUND" value="20a5c0" />
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="ab7415" />
@@ -26,6 +18,8 @@
     </pattern>
   </component>
   <component name="XmlEditorOptions">
+    <option name="showCssColorPreviewInGutter" value="false" />
+    <option name="showCssInlineColorPreview" value="true" />
     <option name="tagTreeHighlightingLevelCount" value="8" />
     <option name="tagTreeHighlightingOpacity" value="20" />
   </component>

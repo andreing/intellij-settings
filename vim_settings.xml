@@ -261,12 +261,12 @@
         <mark key="^" line="57" column="41" />
         <mark key="." line="57" column="41" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/TemplateDao.java" timestamp="1484236237029">
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/TemplateDao.java" timestamp="1484296737921">
         <mark key="'" line="16" column="60" />
-        <mark key="[" line="13" column="15" />
-        <mark key="]" line="13" column="12" />
-        <mark key="^" line="13" column="12" />
-        <mark key="." line="13" column="12" />
+        <mark key="[" line="29" column="108" />
+        <mark key="]" line="29" column="107" />
+        <mark key="^" line="29" column="107" />
+        <mark key="." line="29" column="107" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/LobService.java" timestamp="1481205470934">
         <mark key="[" line="24" column="30" />
@@ -420,12 +420,12 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/MailTemplateService.java" timestamp="1484295904239">
-        <mark key="'" line="51" column="8" />
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="20" column="120" />
-        <mark key="." line="20" column="120" />
-        <mark key="^" line="23" column="38" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/MailTemplateService.java" timestamp="1484297079817">
+        <mark key="'" line="31" column="15" />
+        <mark key="[" line="21" column="32" />
+        <mark key="]" line="21" column="32" />
+        <mark key="." line="21" column="32" />
+        <mark key="^" line="25" column="37" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/test/groovy/protector/claims/service/assignment/ClaimAssignmentServiceSpec.groovy" timestamp="1480077743933">
         <mark key="[" line="38" column="21" />
@@ -693,8 +693,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="43" column="21" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
-      <jump line="77" column="105" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="81" column="93" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="120" column="43" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
       <jump line="146" column="37" filename="$USER_HOME$/repos/claims/frontend/claims/components/admin/mail-template-admin.js" />
@@ -793,10 +791,12 @@
       <jump line="41" column="0" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/MailTemplateService.java" />
       <jump line="55" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/MailTemplateService.java" />
       <jump line="48" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/MailTemplateService.java" />
+      <jump line="26" column="27" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/MailTemplateService.java" />
+      <jump line="31" column="15" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/MailTemplateService.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBUT0RPCg==</text>
+      <register name="&quot;" type="4">
+        <text>a</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -846,16 +846,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text>a</text>
       </register>
       <register name="/" type="4">
-        <text>case</text>
+        <text encoding="base64">XDx0ZW1wbGF0ZURhb1w+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIGFwcCA9ICJDTEFJTVMiOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBUT0RPCg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnVzZXJTZXJ2aWNlID0gdXNlclNlcnZpY2U7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -915,19 +915,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgdm9pZCB2YWxpZGF0ZUZvbGRlcihUZW1wbGF0ZUZvbGRlcjxNYWlsVGVtcGxhdGU+IGZvbGRlcikgewogICAgICAgIGFzc2VydCBmb2xkZXIuZ2V0TmFtZSgpICE9IG51bGw7CiAgICAgICAgYXNzZXJ0IGZvbGRlci5nZXRDb3VudHJ5SWQoKSAhPSBudWxsOwogICAgICAgIGFzc2VydCBmb2xkZXIuZ2V0TG9iSWQoKSAhPSBudWxsOwogICAgfSAK</text>
+        <text encoding="base64">ICAgICAgICAvLyBUT0RPCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBuZXdGb2xkZXIuc2V0Cg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgdm9pZCB2YWxpZGF0ZUZvbGRlcihUZW1wbGF0ZUZvbGRlcjxNYWlsVGVtcGxhdGU+IGZvbGRlcikgewogICAgICAgIGFzc2VydCBmb2xkZXIuZ2V0TmFtZSgpICE9IG51bGw7CiAgICAgICAgYXNzZXJ0IGZvbGRlci5nZXRDb3VudHJ5SWQoKSAhPSBudWxsOwogICAgICAgIGFzc2VydCBmb2xkZXIuZ2V0TG9iSWQoKSAhPSBudWxsOwogICAgfSAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBuZXdGb2xkZXIuc2V0VHlwZSgpOwo=</text>
+        <text encoding="base64">ICAgICAgICBuZXdGb2xkZXIuc2V0Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgZm9sZGVyLmdldAo=</text>
+        <text encoding="base64">ICAgICAgICBuZXdGb2xkZXIuc2V0VHlwZSgpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgZm9sZGVyLmdldAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1262,30 +1262,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgZm9sZGVyLmdldE5hbWUoKSAhPSBudWxsOwogICAgICAgIGFzc2VydCBmb2xkZXIuZ2V0Q291bnRyeUlkKCkgIT0gbnVsbDsKICAgICAgICBhc3NlcnQgZm9sZGVyLgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgVGVtcGxhdGVGb2xkZXIgZmluZE9yQ3JlYXRlKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgZm9sZGVyLmdldE5hbWUoKSAhPSBudWxsOwogICAgICAgIGFzc2VydCBmb2xkZXIuZ2V0Q291bnRyeUlkKCkgIT0gbnVsbDsKICAgICAgICBhc3NlcnQgZm9sZGVyLgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBBUFAgPSAiQ0xBSU1TIjsK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgVGVtcGxhdGVGb2xkZXIgZmluZE9yQ3JlYXRlKCk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>case</last-search>
+      <last-search encoding="base64">XDx0ZW1wbGF0ZURhb1w+</last-search>
       <last-offset />
-      <last-pattern>case</last-pattern>
+      <last-pattern encoding="base64">XDx0ZW1wbGF0ZURhb1w+</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute encoding="base64">LCA=</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>\(mailTemplates\)</entry>
         <entry encoding="base64">XDxjbGlja1w+</entry>
         <entry encoding="base64">XDxtb2RlbFw+</entry>
         <entry encoding="base64">XDx0aGVuXD4=</entry>
@@ -1305,6 +1304,7 @@
         <entry>google</entry>
         <entry>caswe</entry>
         <entry>case</entry>
+        <entry encoding="base64">XDx0ZW1wbGF0ZURhb1w+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JXMvZmlsdGVyZWRSZW1pbmRlcnMvdm1cLiYvZw==</entry>

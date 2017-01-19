@@ -73,6 +73,7 @@
         <mark key="^" line="58" column="10" />
         <mark key="." line="58" column="10" />
       </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.3.RELEASE/5043c854ad38b2932370a3a15a3d9e6faaeaf53a/spring-jdbc-4.3.3.RELEASE-sources.jar!/org/springframework/jdbc/support/rowset/SqlRowSet.java" timestamp="1484835616939" />
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/LineOfBusinessEnum.java" timestamp="1484228080971">
         <mark key="[" line="5" column="31" />
       </file>
@@ -830,11 +831,12 @@
         <mark key="." line="2" column="49" />
         <mark key="^" line="2" column="49" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" timestamp="1484834909354">
-        <mark key="'" line="86" column="99" />
-        <mark key="[" line="267" column="0" />
-        <mark key="]" line="267" column="0" />
-        <mark key="." line="267" column="0" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" timestamp="1484836294780">
+        <mark key="'" line="113" column="98" />
+        <mark key="[" line="261" column="52" />
+        <mark key="]" line="113" column="44" />
+        <mark key="." line="113" column="44" />
+        <mark key="^" line="113" column="44" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/TestingTree.java" timestamp="1484576470603">
         <mark key="[" line="2" column="25" />
@@ -868,8 +870,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="86" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/MailTemplateService.java" />
-      <jump line="123" column="0" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/MailTemplateService.java" />
       <jump line="122" column="0" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/MailTemplateService.java" />
       <jump line="29" column="34" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/TemplateDao.java" />
       <jump line="27" column="84" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/TemplateDao.java" />
@@ -968,10 +968,12 @@
       <jump line="16" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/ClaimsTemplate.java" />
       <jump line="27" column="0" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/ClaimsTemplate.java" />
       <jump line="6" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/ClaimsTemplateFactory.java" />
+      <jump line="113" column="39" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
+      <jump line="112" column="98" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text>sqø</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1021,13 +1023,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Instance(</text>
+        <text>sqø</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxwYXltZW50RGF0ZVw+</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Ly9Zcmtlc3NrYWRlLCBZcmtlc3NrYWRlIHRhcmlmZiAmIFlya2Vzc2thZGUgdGlsIGZyYSBhcmJlaWQsIHJlc3BlY3Rpdmx5</text>
+        <text>sql, type.getId(), countryId, lobId, Status.OBJECT_DELETED</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIAo=</text>
@@ -1456,7 +1458,7 @@
       <last-replace />
       <last-substitute>t\.</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>

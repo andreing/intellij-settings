@@ -324,6 +324,9 @@
         <mark key="^" line="167" column="13" />
         <mark key="." line="167" column="13" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/TemplateFolder.java" timestamp="1484923875508">
+        <mark key="[" line="12" column="42" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/assignment/WeightedRoundRobin.java" timestamp="1478877999797">
         <mark key="[" line="13" column="91" />
         <mark key="]" line="13" column="83" />
@@ -458,12 +461,11 @@
         <mark key="^" line="26" column="36" />
         <mark key="." line="26" column="36" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/TemplateRoot.java" timestamp="1484606512534">
-        <mark key="'" line="6" column="4" />
-        <mark key="[" line="28" column="5" />
-        <mark key="]" line="28" column="3" />
-        <mark key="^" line="28" column="3" />
-        <mark key="." line="28" column="3" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/TemplateRoot.java" timestamp="1484923910604">
+        <mark key="'" line="7" column="4" />
+        <mark key="[" line="13" column="40" />
+        <mark key="]" line="22" column="0" />
+        <mark key="." line="22" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/apps/fileservice/fileservice-client.js" timestamp="1478509558604">
         <mark key="[" line="23" column="48" />
@@ -826,11 +828,12 @@
         <mark key="." line="2" column="49" />
         <mark key="^" line="2" column="49" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" timestamp="1484922758269">
-        <mark key="[" line="114" column="56" />
-        <mark key="]" line="114" column="33" />
-        <mark key="." line="114" column="33" />
-        <mark key="^" line="114" column="33" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" timestamp="1484923850191">
+        <mark key="'" line="114" column="20" />
+        <mark key="[" line="127" column="93" />
+        <mark key="]" line="127" column="59" />
+        <mark key="." line="127" column="59" />
+        <mark key="^" line="127" column="59" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/TestingTree.java" timestamp="1484576470603">
         <mark key="[" line="2" column="25" />
@@ -864,9 +867,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="85" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/MailTemplateService.java" />
-      <jump line="66" column="60" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/MailTemplateService.java" />
-      <jump line="94" column="0" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/MailTemplateService.java" />
       <jump line="90" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/MailTemplateService.java" />
       <jump line="96" column="33" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/MailTemplateService.java" />
       <jump line="6" column="4" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/ClaimsTemplate.java" />
@@ -959,11 +959,14 @@
       <jump line="282" column="0" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="246" column="0" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="279" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
-      <jump line="119" column="20" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="117" column="25" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="86" column="0" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="82" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="268" column="12" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
+      <jump line="119" column="35" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
+      <jump line="110" column="12" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
+      <jump line="114" column="20" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -1017,7 +1020,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxwYXltZW50RGF0ZVw+</text>
@@ -1086,19 +1089,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgVGVtcGxhdGVSb290IHJvb3Q7Cg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBUZW1wbGF0ZVJvb3QoCiAgICAgICAgICAgIExvbmcgaWQsCiAgICAgICAgICAgIExvbmcgY291bnRyeUlkLAogICAgICAgICAgICBMb25nIGxvYklkLAogICAgICAgICAgICBDbGFpbXNUZW1wbGF0ZVR5cGUgdHlwZSwKICAgICkgewogICAgICAgIHRoaXMuaWQgPSBpZDsKICAgICAgICB0aGlzLmNvdW50cnlJZCA9IGNvdW50cnlJZDsKICAgICAgICB0aGlzLmxvYklkID0gbG9iSWQ7CiAgICAgICAgdGhpcy50eXBlID0gdHlwZTsKICAgIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBUZW1wbGF0ZVJvb3Qgcm9vdCA9IHRoaXMudGVtcGxhdGVSb290Um93TWFwcGVyKHJzLCByb3dOdW0pOwo=</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmZvbGRlcnMgPSBmb2xkZXJzOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICByb290LnNldEZvbGRlcnModGhpczsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgTGlzdDxUZW1wbGF0ZUZvbGRlcj4gZm9sZGVycwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiAgICBwcml2YXRlIFRlbXBsYXRlUm9vdCBnZXRSb290Q2hpbGRyZW4oQ2xhaW1zVGVtcGxhdGVUeXBlIHR5cGUsIExvbmcgY291bnRyeUlkLCBMb25nIGxvYklkKSB7CiAgICAgICAgU3RyaW5nIHNxbCA9ICJzZWxlY3QgIiArCiAgICAgICAgICAgICAgICAidHIuSWQgYXMgUm9vdF9JZCwiICsKICAgICAgICAgICAgICAgICJ0ci5UZW1wbGF0ZV9UeXBlX0lkIGFzIFRlbXBsYXRlX1R5cGVfSWQsIiArCiAgICAgICAgICAgICAgICAidHIuQ291bnRyeV9JZCBhcyBDb3VudHJ5X0lkLCIgKwogICAgICAgICAgICAgICAgInRyLkxvYl9JZCBhcyBMb2JfSWQsIiArCiAgICAgICAgICAgICAgICAidGYuSWQgYXMgRm9sZGVyX0lkLCIgKwogICAgICAgICAgICAgICAgInRmLk5hbWUgYXMgRm9sZGVyX05hbWUsIiArCiAgICAgICAgICAgICAgICAidGYuU29ydCBhcyBGb2xkZXJfU29ydCwiICsKICAgICAgICAgICAgICAgICJ0LklkIGFzIFRlbXBsYXRlX0lkLCIgKwogICAgICAgICAgICAgICAgInQuU29ydCBhcyBUZW1wbGF0ZV9Tb3J0LCIgKwogICAgICAgICAgICAgICAgInQuTmFtZSBhcyBUZW1wbGF0ZV9OYW1lLCIgKwogICAgICAgICAgICAgICAgInQuRGVzY3JpcHRpb24gYXMgRGVzY3JpcHRpb24sIiArCiAgICAgICAgICAgICAgICAidC5DcmVhdGVkIGFzIENyZWF0ZWQsIiArCiAgICAgICAgICAgICAgICAidC5MYXN0X1VwZGF0ZWQgYXMgTGFzdF9VcGRhdGVkICIgKwogICAgICAgICAgICAgICAgImZyb20gQ2xhaW1zX1RlbXBsYXRlIHQgIiArCiAgICAgICAgICAgICAgICAiam9pbiBDbGFpbXNfVGVtcGxhdGVfRm9sZGVyIHRmIG9uIHQuRm9sZGVyX0lkID0gdGYuSWQgIiArCiAgICAgICAgICAgICAgICAiam9pbiBDbGFpbXNfVGVtcGxhdGVfUm9vdCB0ciBvbiB0Zi5QYXJlbnRfSWQgPSB0ci5JZCAiICsKICAgICAgICAgICAgICAgICJ3aGVyZSB0ci5UZW1wbGF0ZV9UeXBlX0lkID0/IGFuZCB0ci5Db3VudHJ5X0lkID0gPyBhbmQgdHIuTG9iX0lkID0gPyBhbmQgdC5TdGF0dXNfSWQgIT0gPyI7CgogICAgICAgIFNxbFJvd1NldCByb3dTZXQgPSB0aGlzLmpkYmNUZW1wbGF0ZS5xdWVyeUZvclJvd1NldChzcWwsIHR5cGUuZ2V0SWQoKSwgY291bnRyeUlkLCBsb2JJZCwgU3RhdHVzLk9CSkVDVF9ERUxFVEVEKTsKICAgICAgICBTdXBwbGllcjxDbGFpbXNUZW1wbGF0ZT4gdGVtcGxhdGVTdXBwbGllciA9IENsYWltc1RlbXBsYXRlRmFjdG9yeS5zdXBwbGllckZyb21UeXBlLmFwcGx5KHR5cGUpOwoKICAgICAgICBNYXA8TG9uZywgTGlzdDxDbGFpbXNUZW1wbGF0ZT4+IHRlbXBsYXRlc0J5Rm9sZGVyID0KICAgICAgICAgICAgICAgIHRoaXMuc3FsUm93U2V0RHJpdmVyKHJvd1NldCwgdGVtcGxhdGVTdXBwbGllclRvTWFwcGVyLmFwcGx5KHRlbXBsYXRlU3VwcGxpZXIpKQogICAgICAgICAgICAgICAgICAgIC5jb2xsZWN0KENvbGxlY3RvcnMuZ3JvdXBpbmdCeShDbGFpbXNUZW1wbGF0ZTo6Z2V0Rm9sZGVySWQpKTsKCiAgICAgICAgTGlzdDxUZW1wbGF0ZUZvbGRlcj4gdGVtcGxhdGVGb2xkZXJzID0KICAgICAgICAgICAgICAgIHRoaXMuc3FsUm93U2V0RHJpdmVyKHJvd1NldCwgZm9sZGVyTWFwcGVyKQogICAgICAgICAgICAgICAgICAgIC5kaXN0aW5jdCgpCiAgICAgICAgICAgICAgICAgICAgLnNvcnRlZChDb21wYXJhdG9yLmNvbXBhcmluZyhUZW1wbGF0ZUZvbGRlcjo6Z2V0U29ydCkpCiAgICAgICAgICAgICAgICAgICAgLmNvbGxlY3QoQ29sbGVjdG9ycy50b0xpc3QoKSk7CiAgICAgICAgdGVtcGxhdGVGb2xkZXJzLmZvckVhY2goZm9sZGVyIC0+IGZvbGRlci5zZXRUZW1wbGF0ZXModGVtcGxhdGVzQnlGb2xkZXIuZ2V0KGZvbGRlci5nZXRJZCgpKS5zb3J0KENvbXBhcmF0b3IuY29tcGFyaW5nKENsYWltc1RlbXBsYXRlOjpnZXRTb3J0KSk7CgoKICAgICAgICBPcHRpb25hbDxUZW1wbGF0ZVJvb3Q+IHJvb3QgPSB0aGlzLnNxbFJvd1NldERyaXZlcihyb3dTZXQsIHJvb3RNYXBwZXIpLmZpbmRGaXJzdCgpOwogICAgICAgIHJvb3QuaWZQcmVzZW50KHRlbXBsYXRlUm9vdCAtPiB0ZW1wbGF0ZVJvb3Quc2V0Rm9sZGVycyh0ZW1wbGF0ZUZvbGRlcnMpKTsKICAgICAgICAKICAgICAgICByZXR1cm4gcm9vdC5vckVsc2VUaHJvdygoKSAtPiBuZXcgRW1wdHlSZXN1bHREYXRhQWNjZXNzRXhjZXB0aW9uKDEpKTsKICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFN1cHBsaWVyPENsYWltc1RlbXBsYXRlPiB0ZW1wbGF0ZVN1cHBsaWVyID0gQ2xhaW1zVGVtcGxhdGVGYWN0b3J5LnN1cHBsaWVyRnJvbVR5cGUuYXBwbHkocm9vdC5nZXRUeXBlKCkpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gdGhpcy5nZXRSb290Q2hpbGRyZW4oKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgTE9HLmVycm9yKGUuZ2V0TWVzc2FnZSgpLCBlKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1433,13 +1436,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB9KTtkZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgTE9HLmVycm9yKGUuZ2V0TWVzc2FnZSgpLCBlKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAuc3RyZWFtKCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAubWFwKGZvbGRlciAtPiBmb2xkZXIuc2V0VGVtcGxhdGVzKHRlbXBsYXRlc0J5Rm9sZGVyLmdldChmb2xkZXIuZ2V0SWQoKSkpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmb2xkZXIgPSB0aGlzLnRlbXBsYXRlRm9sZGVyUm93TWFwcGVyKHJzLCBycy5nZXRSb3coKSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

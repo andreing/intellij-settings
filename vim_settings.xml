@@ -119,6 +119,9 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/search/freetext/freetext.html" timestamp="1484818910773">
         <mark key="[" line="53" column="42" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-directive.js" timestamp="1485257993240">
+        <mark key="'" line="25" column="46" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/common/angular-filters.js" timestamp="1484820358433">
         <mark key="[" line="333" column="17" />
         <mark key="]" line="333" column="14" />
@@ -399,7 +402,7 @@
         <mark key="^" line="6" column="11" />
         <mark key="." line="6" column="11" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/AssignmentPoolController.java" timestamp="1481878682791">
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/AssignmentPoolController.java" timestamp="1485257648444">
         <mark key="[" line="74" column="87" />
         <mark key="]" line="74" column="87" />
         <mark key="." line="74" column="87" />
@@ -668,6 +671,9 @@
         <mark key="." line="57" column="37" />
         <mark key="^" line="56" column="69" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-admin-ctrl.js" timestamp="1485257833777">
+        <mark key="'" line="13" column="30" />
+      </file>
       <file name="$USER_HOME$/repos/protector-commons/src/test/java/protector/util/NumberCheckDenmarkTest.java" timestamp="1483957663168">
         <mark key="[" line="2" column="36" />
       </file>
@@ -893,9 +899,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="430" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
-      <jump line="458" column="155" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/claim-header-damage-info-life-ctrl.js" />
-      <jump line="17" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-resource.js" />
       <jump line="43" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-resource.js" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-resource.js" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/static_data/static-data-resource.js" />
@@ -993,6 +996,9 @@
       <jump line="126" column="4" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/TemplateService.java" />
       <jump line="50" column="103" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/TemplateService.java" />
       <jump line="100" column="103" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/integration/changes/ChangeService.java" />
+      <jump line="13" column="30" filename="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-admin-ctrl.js" />
+      <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-directive.js" />
+      <jump line="25" column="46" filename="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-directive.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -1049,7 +1055,7 @@
         <text encoding="base64">bW90cGFydCA=</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxnZXRUZW1wbGF0ZVw+</text>
+        <text>add</text>
       </register>
       <register name="0" type="4">
         <text>ClaimsTemplateType templateType, Long countryId, Long lobId</text>
@@ -1477,18 +1483,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxnZXRUZW1wbGF0ZVw+</last-search>
+      <last-search>add</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxnZXRUZW1wbGF0ZVw+</last-pattern>
+      <last-pattern>add</last-pattern>
       <last-replace />
       <last-substitute>t\.</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>s</entry>
-        <entry>r</entry>
         <entry>template</entry>
         <entry>templater</entry>
         <entry>templater\c</entry>
@@ -1507,6 +1511,8 @@
         <entry encoding="base64">XDxwYXltZW50RGF0ZVw+</entry>
         <entry encoding="base64">XDx0ZW1wbGF0ZUZvbGRlclJvd01hcHBlclw+</entry>
         <entry encoding="base64">XDxnZXRUZW1wbGF0ZVw+</entry>
+        <entry>addassignee</entry>
+        <entry>add</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLywgL1xyL2c=</entry>

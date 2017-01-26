@@ -613,7 +613,6 @@
         <mark key="^" line="104" column="13" />
         <mark key="." line="104" column="13" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" timestamp="1485365546181" />
       <file name="$USER_HOME$/repos/takstrekvisisjon/build.gradle" timestamp="1480686858460">
         <mark key="[" line="57" column="37" />
         <mark key="]" line="57" column="62" />
@@ -647,6 +646,13 @@
         <mark key="]" line="1" column="16" />
         <mark key="." line="1" column="16" />
         <mark key="^" line="1" column="15" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/forms/ClaimFormEmailTemplateInserts.java" timestamp="1485422446931">
+        <mark key="'" line="76" column="16" />
+        <mark key="[" line="75" column="78" />
+        <mark key="]" line="77" column="12" />
+        <mark key="^" line="77" column="12" />
+        <mark key="." line="77" column="12" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/assignment/WRRAssigneePoolJdbcDao.java" timestamp="1482142647963">
         <mark key="[" line="97" column="66" />
@@ -818,7 +824,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="6" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/ClaimsTemplateFactory.java" />
       <jump line="113" column="39" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="112" column="98" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="282" column="0" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
@@ -918,10 +923,11 @@
       <jump line="228" column="103" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/PartyService.java" />
       <jump line="234" column="11" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/PartyService.java" />
       <jump line="229" column="79" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/PartyService.java" />
+      <jump line="77" column="16" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/forms/ClaimFormEmailTemplateInserts.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IWlzVmFsaWQobmV3UGFydHkuZ2V0RW1haWwoKSkgJiYgaXNWYWxpZChvbGRQYXJ0eS5nZXRFbWFpbCgpKQ==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRlZHVjdGlibGVzID0gIiI7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -980,7 +986,7 @@
         <text encoding="base64">IWlzVmFsaWQobmV3UGFydHkuZ2V0RW1haWwoKSkgJiYgaXNWYWxpZChvbGRQYXJ0eS5nZXRFbWFpbCgpKQ==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">U0VMRUNUICoKRlJPTSBVc2VycyB1CiAgSk9JTiBDbGFpbV9Vc2VyIGN1IE9OIHUuSWQgPSBjdS5Vc2VyX0lkCldIRVJFIHUuVXNlcl9OYW1lID0gJ2p1a2U5OScK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRlZHVjdGlibGVzID0gIiI7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1040,46 +1046,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">VkFMVUVTICg1LCAzLCAxMDY2KSwgKDUsIDQsIDEwNjYpLCAoNSwgOCwgMTA2NikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2UoaW5qdXJlZFJvbGUuZ2V0KCkuZ2V0UGFydHkoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGVkdWN0aWJsZXMgPSBuZXcgVGVtcGxhdGVUb2tlblJlcGxhY2VyKHRhYmxlSW5zZXJ0cywgbmV3IFN0cmluZ0J1aWxkZXIoVFdPX1JPV19UQUJMRV9URU1QTEFURSkpLmdldFByb2Nlc3NlZFRlbXBsYXRlKCk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBjcmVhdGVDbGFpbWFudFJvbGUoZmluYWxIZWFkZXIsIGNsYWltYW50UGFydHksIGN1cnJlbnRVc2VyKTsK</text>
+        <text encoding="base64">U0VMRUNUICoKRlJPTSBVc2VycyB1CiAgSk9JTiBDbGFpbV9Vc2VyIGN1IE9OIHUuSWQgPSBjdS5Vc2VyX0lkCldIRVJFIHUuVXNlcl9OYW1lID0gJ2p1a2U5OScK</text>
       </register>
-      <register name="5" type="4">
-        <text>- insert new tree
-select count(*) from Claims_Template_Tree
-where App = 'CLAIMS' and Country_Id = ? and Lob_Id = ? and Template_Type_Id = ?
--- if 0 then insert entry
-insert into Claims_Template_Tree (Template_Type_Id, App, Country_Id, Lob_Id)
--- etc, and return key
-
--- insert new folder
-select tf.Id from Claims_Template_Folder tf
-join Claims_Template_Tree tt on tf.Tree_Id = tt.Id
-where tt.Country_Id = ? and tt.Lob_Id = ? and tt.Template_Type_Id = ?
-and tf.name = ?
--- if 0 then insert entry
-insert into Claims_Template_Folder (Tree_Id, Name, Sort)
--- etc with Tree_Id from previous query
-
--- insert new template
--- tree and folder have been inserted or found, just insert with folder id
-
--- delete folder
--- not allowed if not empty, else just delete
-
--- reorder folders
--- update sorts on all folders for this tree according to new order
-
--- reorder templates in folder
--- update sorts on all templates in this folder according to new order
-update Claims_Template t</text>
+      <register name="5" type="2">
+        <text encoding="base64">VkFMVUVTICg1LCAzLCAxMDY2KSwgKDUsIDQsIDEwNjYpLCAoNSwgOCwgMTA2NikK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICBGaWxlX1NlcnZpY2VfSWQgQ0hBUigyNCkgbm90IG51bGwsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2UoaW5qdXJlZFJvbGUuZ2V0KCkuZ2V0UGFydHkoKSk7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1414,13 +1393,40 @@ update Claims_Template t</text>
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwYXJhbXMucHV0KCJBcHAiLCBUZW1wbGF0ZVJvb3QuYXBwKTsK</text>
+        <text encoding="base64">ICAgICAgICBjcmVhdGVDbGFpbWFudFJvbGUoZmluYWxIZWFkZXIsIGNsYWltYW50UGFydHksIGN1cnJlbnRVc2VyKTsK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>- insert new tree
+select count(*) from Claims_Template_Tree
+where App = 'CLAIMS' and Country_Id = ? and Lob_Id = ? and Template_Type_Id = ?
+-- if 0 then insert entry
+insert into Claims_Template_Tree (Template_Type_Id, App, Country_Id, Lob_Id)
+-- etc, and return key
+
+-- insert new folder
+select tf.Id from Claims_Template_Folder tf
+join Claims_Template_Tree tt on tf.Tree_Id = tt.Id
+where tt.Country_Id = ? and tt.Lob_Id = ? and tt.Template_Type_Id = ?
+and tf.name = ?
+-- if 0 then insert entry
+insert into Claims_Template_Folder (Tree_Id, Name, Sort)
+-- etc with Tree_Id from previous query
+
+-- insert new template
+-- tree and folder have been inserted or found, just insert with folder id
+
+-- delete folder
+-- not allowed if not empty, else just delete
+
+-- reorder folders
+-- update sorts on all folders for this tree according to new order
+
+-- reorder templates in folder
+-- update sorts on all templates in this folder according to new order
+update Claims_Template t</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIGFwcCA9ICJDTEFJTVMiOwo=</text>
+        <text encoding="base64">ICBGaWxlX1NlcnZpY2VfSWQgQ0hBUigyNCkgbm90IG51bGwsCg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL0ZvbGRlcl8vUGFyZW50Xy9n</text>
@@ -1433,7 +1439,7 @@ update Claims_Template t</text>
       <last-replace>Parent_</last-replace>
       <last-substitute>Folder_</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>

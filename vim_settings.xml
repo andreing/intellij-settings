@@ -809,11 +809,11 @@
         <mark key="." line="2" column="49" />
         <mark key="^" line="2" column="49" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" timestamp="1485436064759">
-        <mark key="'" line="144" column="71" />
-        <mark key="[" line="329" column="54" />
-        <mark key="]" line="337" column="0" />
-        <mark key="." line="337" column="0" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" timestamp="1485436916332">
+        <mark key="'" line="335" column="8" />
+        <mark key="[" line="246" column="16" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/admin/assignment/editable-input.js" timestamp="1481810674439">
         <mark key="[" line="36" column="95" />
@@ -844,7 +844,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="344" column="20" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="340" column="12" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="148" column="16" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="333" column="30" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
@@ -944,10 +943,11 @@
       <jump line="7" column="31" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="111" column="38" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="143" column="71" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
+      <jump line="328" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBycy5maW5kQ29sdW1uKCkK</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5nb29nbGUuY29tbW9uLmJhc2UuRnVuY3Rpb247Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1006,7 +1006,7 @@
         <text encoding="base64">IWlzVmFsaWQobmV3UGFydHkuZ2V0RW1haWwoKSkgJiYgaXNWYWxpZChvbGRQYXJ0eS5nZXRFbWFpbCgpKQ==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBycy5maW5kQ29sdW1uKCkK</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5nb29nbGUuY29tbW9uLmJhc2UuRnVuY3Rpb247Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1065,24 +1065,20 @@
           <key char="48" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="8">
-        <text>&quot;
-&quot;
-&quot;
-&quot;
-&quot;</text>
+      <register name="2" type="2">
+        <text encoding="base64">aW1wb3J0IGNvbS5naXRodWIuYmVubWFuZXMuY2FmZmVpbmUuY2FjaGUuQ2FjaGVMb2FkZXI7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIENPVU5URVJfUEFSVFlfUkVGRVJFTkNFKCJDT1VOVEVSX1BBUlRZX1JFRkVSRU5DRSIpCg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRlZHVjdGlibGVzID0gIiI7Cg==</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHByaXZhdGUgdGVtcGxhdGVSb3dNYXBwZXJGdW5jdGlvbiA9IHRoaXM6OnRlbXBsYXRlUm93TWFwcGVyOwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">aW1wb3J0IGphdmEuc3FsLlJlc3VsdFNldE1ldGFEYXRhOwo=</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGVkdWN0aWJsZXMgPSBuZXcgVGVtcGxhdGVUb2tlblJlcGxhY2VyKHRhYmxlSW5zZXJ0cywgbmV3IFN0cmluZ0J1aWxkZXIoVFdPX1JPV19UQUJMRV9URU1QTEFURSkpLmdldFByb2Nlc3NlZFRlbXBsYXRlKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBSZXN1bHRTZXRNZXRhRGF0YSBtZXRhRGF0YSA9IHJzLmdldE1ldGFEYXRhKCk7CiAgICAgICAgbWV0YURhdGEuJycK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1417,13 +1413,17 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">U0VMRUNUICoKRlJPTSBVc2VycyB1CiAgSk9JTiBDbGFpbV9Vc2VyIGN1IE9OIHUuSWQgPSBjdS5Vc2VyX0lkCldIRVJFIHUuVXNlcl9OYW1lID0gJ2p1a2U5OScK</text>
+        <text encoding="base64">ICAgICAgICBycy5maW5kQ29sdW1uKCkK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">VkFMVUVTICg1LCAzLCAxMDY2KSwgKDUsIDQsIDEwNjYpLCAoNSwgOCwgMTA2NikK</text>
+      <register name="8" type="8">
+        <text>&quot;
+&quot;
+&quot;
+&quot;
+&quot;</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2UoaW5qdXJlZFJvbGUuZ2V0KCkuZ2V0UGFydHkoKSk7Cg==</text>
+        <text encoding="base64">ICAgIENPVU5URVJfUEFSVFlfUkVGRVJFTkNFKCJDT1VOVEVSX1BBUlRZX1JFRkVSRU5DRSIpCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/Claims_Template_Tree/Claims_Template_Root/g</text>

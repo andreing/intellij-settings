@@ -29,7 +29,7 @@
         <mark key="^" line="30" column="13" />
         <mark key="." line="30" column="13" />
       </file>
-      <file name="/a.dummy" timestamp="1485431573070">
+      <file name="/a.dummy" timestamp="1485434227057">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -258,12 +258,12 @@
         <mark key="^" line="4" column="49" />
         <mark key="." line="8" column="0" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1485365585604">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1485434104577">
         <mark key="'" line="401" column="14" />
-        <mark key="[" line="399" column="19" />
-        <mark key="]" line="399" column="11" />
-        <mark key="." line="399" column="11" />
-        <mark key="^" line="399" column="11" />
+        <mark key="[" line="411" column="56" />
+        <mark key="]" line="411" column="0" />
+        <mark key="." line="411" column="0" />
+        <mark key="^" line="411" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssingment.java" timestamp="1479213358551">
         <mark key="[" line="11" column="4" />
@@ -382,6 +382,7 @@
         <mark key="^" line="176" column="40" />
         <mark key="." line="176" column="40" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/RoleTypeJdbcDao.java" timestamp="1485434015265" />
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/LobController.java" timestamp="1481205015484">
         <mark key="[" line="28" column="36" />
         <mark key="]" line="28" column="39" />
@@ -754,7 +755,7 @@
         <mark key="." line="1029" column="68" />
         <mark key="^" line="1029" column="68" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/email/mail-template-context-service.js" timestamp="1485431661042">
+      <file name="$USER_HOME$/repos/claims/frontend/components/email/mail-template-context-service.js" timestamp="1485434149450">
         <mark key="'" line="0" column="25" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/search/freetext/freetextCtrl.js" timestamp="1484821178028">
@@ -946,8 +947,8 @@
       <jump line="0" column="25" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-template-context-service.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIENPVU5URVJfUEFSVFlfUkVGRVJFTkNFKCJDT1VOVEVSX1BBUlRZX1JFRkVSRU5DRSIpCg==</text>
+      <register name="&quot;" type="4">
+        <text>role.referenc</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -997,7 +998,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">bW90cGFydCA=</text>
+        <text>role.referenc</text>
       </register>
       <register name="/" type="4">
         <text>getcontext</text>
@@ -1005,8 +1006,12 @@
       <register name="0" type="4">
         <text encoding="base64">IWlzVmFsaWQobmV3UGFydHkuZ2V0RW1haWwoKSkgJiYgaXNWYWxpZChvbGRQYXJ0eS5nZXRFbWFpbCgpKQ==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIENPVU5URVJfUEFSVFlfUkVGRVJFTkNFKCJDT1VOVEVSX1BBUlRZX1JFRkVSRU5DRSIpCg==</text>
+      <register name="1" type="8">
+        <text>&quot;
+&quot;
+&quot;
+&quot;
+&quot;</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1066,19 +1071,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRlZHVjdGlibGVzID0gIiI7Cg==</text>
+        <text encoding="base64">ICAgIENPVU5URVJfUEFSVFlfUkVGRVJFTkNFKCJDT1VOVEVSX1BBUlRZX1JFRkVSRU5DRSIpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRlZHVjdGlibGVzID0gIiI7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGVkdWN0aWJsZXMgPSBuZXcgVGVtcGxhdGVUb2tlblJlcGxhY2VyKHRhYmxlSW5zZXJ0cywgbmV3IFN0cmluZ0J1aWxkZXIoVFdPX1JPV19UQUJMRV9URU1QTEFURSkpLmdldFByb2Nlc3NlZFRlbXBsYXRlKCk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">U0VMRUNUICoKRlJPTSBVc2VycyB1CiAgSk9JTiBDbGFpbV9Vc2VyIGN1IE9OIHUuSWQgPSBjdS5Vc2VyX0lkCldIRVJFIHUuVXNlcl9OYW1lID0gJ2p1a2U5OScK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGVkdWN0aWJsZXMgPSBuZXcgVGVtcGxhdGVUb2tlblJlcGxhY2VyKHRhYmxlSW5zZXJ0cywgbmV3IFN0cmluZ0J1aWxkZXIoVFdPX1JPV19UQUJMRV9URU1QTEFURSkpLmdldFByb2Nlc3NlZFRlbXBsYXRlKCk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">VkFMVUVTICg1LCAzLCAxMDY2KSwgKDUsIDQsIDEwNjYpLCAoNSwgOCwgMTA2NikK</text>
+        <text encoding="base64">U0VMRUNUICoKRlJPTSBVc2VycyB1CiAgSk9JTiBDbGFpbV9Vc2VyIGN1IE9OIHUuSWQgPSBjdS5Vc2VyX0lkCldIRVJFIHUuVXNlcl9OYW1lID0gJ2p1a2U5OScK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1413,40 +1418,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2UoaW5qdXJlZFJvbGUuZ2V0KCkuZ2V0UGFydHkoKSk7Cg==</text>
+        <text encoding="base64">VkFMVUVTICg1LCAzLCAxMDY2KSwgKDUsIDQsIDEwNjYpLCAoNSwgOCwgMTA2NikK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBjcmVhdGVDbGFpbWFudFJvbGUoZmluYWxIZWFkZXIsIGNsYWltYW50UGFydHksIGN1cnJlbnRVc2VyKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2UoaW5qdXJlZFJvbGUuZ2V0KCkuZ2V0UGFydHkoKSk7Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>- insert new tree
-select count(*) from Claims_Template_Tree
-where App = 'CLAIMS' and Country_Id = ? and Lob_Id = ? and Template_Type_Id = ?
--- if 0 then insert entry
-insert into Claims_Template_Tree (Template_Type_Id, App, Country_Id, Lob_Id)
--- etc, and return key
-
--- insert new folder
-select tf.Id from Claims_Template_Folder tf
-join Claims_Template_Tree tt on tf.Tree_Id = tt.Id
-where tt.Country_Id = ? and tt.Lob_Id = ? and tt.Template_Type_Id = ?
-and tf.name = ?
--- if 0 then insert entry
-insert into Claims_Template_Folder (Tree_Id, Name, Sort)
--- etc with Tree_Id from previous query
-
--- insert new template
--- tree and folder have been inserted or found, just insert with folder id
-
--- delete folder
--- not allowed if not empty, else just delete
-
--- reorder folders
--- update sorts on all folders for this tree according to new order
-
--- reorder templates in folder
--- update sorts on all templates in this folder according to new order
-update Claims_Template t</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBjcmVhdGVDbGFpbWFudFJvbGUoZmluYWxIZWFkZXIsIGNsYWltYW50UGFydHksIGN1cnJlbnRVc2VyKTsK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL0ZvbGRlcl8vUGFyZW50Xy9n</text>

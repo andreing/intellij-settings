@@ -639,6 +639,12 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-admin-ctrl.js" timestamp="1485257833777">
         <mark key="'" line="13" column="30" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/util/TreeNode.java" timestamp="1485440312934">
+        <mark key="[" line="24" column="17" />
+        <mark key="]" line="24" column="16" />
+        <mark key="^" line="24" column="16" />
+        <mark key="." line="24" column="16" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/TNode.java" timestamp="1484608492529">
         <mark key="'" line="49" column="4" />
         <mark key="[" line="22" column="21" />
@@ -809,11 +815,12 @@
         <mark key="." line="2" column="49" />
         <mark key="^" line="2" column="49" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" timestamp="1485438597057">
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" timestamp="1485439391979">
         <mark key="'" line="245" column="60" />
         <mark key="[" line="247" column="84" />
-        <mark key="]" line="246" column="0" />
-        <mark key="." line="246" column="0" />
+        <mark key="]" line="18" column="29" />
+        <mark key="." line="18" column="29" />
+        <mark key="^" line="18" column="29" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/admin/assignment/editable-input.js" timestamp="1481810674439">
         <mark key="[" line="36" column="95" />
@@ -947,7 +954,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBGdW5jdGlvbjxDbGFpbXNUZW1wbGF0ZSwgUm93TWFwcGVyPENsYWltc1RlbXBsYXRlPj4gZ2V0VGVtcGxhdGVSb3dNYXBwZXIgPSB0aGlzOjpnZXRUZW1wbGF0ZVJvd01hcHBlcjsKICAgICAgICBGdW5jdGlvbjxDbGFpbXNUZW1wbGF0ZSwgUm93TWFwcGVyPENsYWltc1RlbXBsYXRlPj4gd2l0aENvbnRlbnQgPSB0aGlzOjp3aXRoTWFwQ29udGVudDsKICAgICAgICAK</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBUcmVlTm9kZSgpIHsKICAgIH0KCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1006,7 +1013,7 @@
         <text encoding="base64">ICAgICAgICAgICAgLy8gICAgICAgIGNsYWltc1RlbXBsYXRlLnNldENvbnRlbnQocnMuZ2V0U3RyaW5nKCJDb250ZW50IikpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBGdW5jdGlvbjxDbGFpbXNUZW1wbGF0ZSwgUm93TWFwcGVyPENsYWltc1RlbXBsYXRlPj4gZ2V0VGVtcGxhdGVSb3dNYXBwZXIgPSB0aGlzOjpnZXRUZW1wbGF0ZVJvd01hcHBlcjsKICAgICAgICBGdW5jdGlvbjxDbGFpbXNUZW1wbGF0ZSwgUm93TWFwcGVyPENsYWltc1RlbXBsYXRlPj4gd2l0aENvbnRlbnQgPSB0aGlzOjp3aXRoTWFwQ29udGVudDsKICAgICAgICAK</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBUcmVlTm9kZSgpIHsKICAgIH0KCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1066,19 +1073,19 @@
         </keys>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBGdW5jdGlvbjxDbGFpbXNUZW1wbGF0ZSwgUm93TWFwcGVyPENsYWltc1RlbXBsYXRlPj4gZ2V0VGVtcGxhdGVSb3dNYXBwZXIgPSB0aGlzOjpnZXRUZW1wbGF0ZVJvd01hcHBlcjsKICAgICAgICBGdW5jdGlvbjxDbGFpbXNUZW1wbGF0ZSwgUm93TWFwcGVyPENsYWltc1RlbXBsYXRlPj4gd2l0aENvbnRlbnQgPSB0aGlzOjp3aXRoTWFwQ29udGVudDsKICAgICAgICAK</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAoY2xhaW1zVGVtcGxhdGUpOwo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">ICAgICAgICBTdXBwbGllcjxDbGFpbXNUZW1wbGF0ZT4gY2xhaW1zVGVtcGxhdGVTdXBwbGllciA9IENsYWltc1RlbXBsYXRlOjpuZXc7CiAgICAgICAgRnVuY3Rpb248Q2xhaW1zVGVtcGxhdGUsIENsYWltc1RlbXBsYXRlPiB3aXRoQ29udGVudDs=</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgUm93TWFwcGVyCg==</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgUm93TWFwcGVyCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1413,10 +1420,10 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBTdXBwbGllcjxDbGFpbXNUZW1wbGF0ZT4gY2xhaW1zVGVtcGxhdGVTdXBwbGllciA9IENsYWltc1RlbXBsYXRlOjpuZXc7CiAgICAgICAgRnVuY3Rpb248Q2xhaW1zVGVtcGxhdGUsIENsYWltc1RlbXBsYXRlPiB3aXRoQ29udGVudDsKCiAgICAgICAgRnVuY3Rpb248U3VwcGxpZXI8Q2xhaW1zVGVtcGxhdGU+LCBSb3dNYXBwZXI8Q2xhaW1zVGVtcGxhdGU+PiBmbiA9IHN1cHAgLT4gCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBTdXBwbGllcjxDbGFpbXNUZW1wbGF0ZT4gY2xhaW1zVGVtcGxhdGVTdXBwbGllciA9IENsYWltc1RlbXBsYXRlOjpuZXc7CiAgICAgICAgRnVuY3Rpb248Q2xhaW1zVGVtcGxhdGUsIENsYWltc1RlbXBsYXRlPiB3aXRoQ29udGVudDsKCiAgICAgICAgRnVuY3Rpb248U3VwcGxpZXI8Q2xhaW1zVGVtcGxhdGU+LCBSb3dNYXBwZXI8Q2xhaW1zVGVtcGxhdGU+PiBmbiA9IHN1cHAgLT4gCg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>

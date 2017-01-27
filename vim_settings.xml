@@ -327,9 +327,9 @@
         <mark key="^" line="26" column="38" />
         <mark key="." line="26" column="38" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/TemplateDao.java" timestamp="1485446113256">
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/TemplateDao.java" timestamp="1485526480839">
         <mark key="'" line="11" column="17" />
-        <mark key="[" line="25" column="47" />
+        <mark key="[" line="15" column="45" />
         <mark key="]" line="25" column="57" />
         <mark key="^" line="25" column="57" />
         <mark key="." line="25" column="57" />
@@ -629,12 +629,12 @@
         <mark key="." line="57" column="37" />
         <mark key="^" line="56" column="69" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/util/TreeNode.java" timestamp="1485445484294">
-        <mark key="'" line="13" column="17" />
-        <mark key="[" line="22" column="0" />
-        <mark key="]" line="22" column="0" />
-        <mark key="." line="22" column="0" />
-        <mark key="^" line="67" column="20" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/util/TreeNode.java" timestamp="1485527849567">
+        <mark key="'" line="14" column="17" />
+        <mark key="[" line="29" column="63" />
+        <mark key="]" line="64" column="14" />
+        <mark key="." line="64" column="14" />
+        <mark key="^" line="64" column="14" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/TNode.java" timestamp="1484608492529">
         <mark key="'" line="49" column="4" />
@@ -805,10 +805,12 @@
         <mark key="." line="2" column="49" />
         <mark key="^" line="2" column="49" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" timestamp="1485525775469">
-        <mark key="[" line="93" column="29" />
-        <mark key="]" line="108" column="0" />
-        <mark key="." line="108" column="0" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" timestamp="1485528456110">
+        <mark key="'" line="360" column="39" />
+        <mark key="[" line="368" column="55" />
+        <mark key="]" line="342" column="0" />
+        <mark key="." line="342" column="0" />
+        <mark key="^" line="341" column="30" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/admin/assignment/editable-input.js" timestamp="1481810674439">
         <mark key="[" line="36" column="95" />
@@ -839,8 +841,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="37" column="4" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TemplateController.java" />
-      <jump line="50" column="4" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TemplateController.java" />
       <jump line="45" column="12" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TemplateController.java" />
       <jump line="48" column="8" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TemplateController.java" />
       <jump line="25" column="4" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TemplateController.java" />
@@ -939,10 +939,12 @@
       <jump line="80" column="8" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TemplateController.java" />
       <jump line="78" column="4" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TemplateController.java" />
       <jump line="40" column="13" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/TemplateService.java" />
+      <jump line="88" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
+      <jump line="360" column="39" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBMb25nIGN1cnJlbnRGb2xkZXJTb3J0Owo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -995,13 +997,13 @@
         <text>)</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjcmVhdGVGb2xkZXJcPg==</text>
+        <text encoding="base64">XDxGb2xkZXJfU29ydFw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBUZW1wbGF0ZVJvb3QgdGVtcGxhdGVSb290ID0gbmV3IFRlbXBsYXRlUm9vdChDbGFpbXNUZW1wbGF0ZVR5cGUuZnJvbSh0eXBlKSwgY291bnRyeUlkLCBsb2JJZCk7CiAgICAgICAgVHJlZU5vZGU8VGVtcGxhdGVSb290PiB0cmVlID0gbmV3IFRyZWVOb2RlPD4odGVtcGxhdGVSb290KTsKICAgICAgICB0cmVlLnNldENoaWxkcmVuKChMaXN0KSBmb2xkZXJMaXN0KTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBMb25nIGN1cnJlbnRGb2xkZXJTb3J0Owo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1061,19 +1063,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICBjbGFpbXNUZW1wbGF0ZS5zZXRTb3J0KHJzLmdldEludCgiVGVtcGxhdGVfU29ydCIpKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLnNvcnQgPSBzb3J0Owo=</text>
+        <text encoding="base64">ICAgICAgICBmb2xkZXIuc2V0VHJlZUlkKHJzLmdldExvbmcoIlJvb3RfSWQiKSk7CiAgICAgICAgZm9sZGVyLnNldFNvcnQocnMuZ2V0SW50KCJGb2xkZXJfU29ydCIpKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNldFNvcnQoSW50ZWdlciBzb3J0KSB7Cg==</text>
+        <text encoding="base64">ICAgICAgICBwYXJhbXMucHV0KCJTb3J0Iiwgb2JqLmdldFNvcnQoKSk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRlbXBsYXRlcwogICAgICAgICAgICAgICAgICAgICAgLnN0cmVhbSgpCiAgICAgICAgICAgICAgICAgICAgICAubWFwKHRlbXBsYXRlIC0+IG5ldyBPYmplY3RbXXt0ZW1wbGF0ZS5nZXRTb3J0KCksIHRlbXBsYXRlLmdldElkKCl9KQogICAgICAgICAgICAgICAgICAgICAgLmNvbGxlY3QoQ29sbGVjdG9ycy50b0xpc3QoKSk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZvbGRlcnMKICAgICAgICAgICAgICAgICAgICAuc3RyZWFtKCkKICAgICAgICAgICAgICAgICAgICAubWFwVG9JbnQoKQogICAgICAgICAgICAgICAgICAgIC5tYXAoZm9sZGVyIC0+IG5ldyBPYmplY3RbXXtmb2xkZXIuZ2V0U29ydCgpLCBmb2xkZXIuZ2V0SWQoKX0pCiAgICAgICAgICAgICAgICAgICAgLmNvbGxlY3QoQ29sbGVjdG9ycy50b0xpc3QoKSk7Cgo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1408,30 +1410,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gc29ydDsK</text>
+        <text encoding="base64">ICAgICAgICBMaXN0PE9iamVjdFtdPiBhcmdzID0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBJbnRlZ2VyIGdldFNvcnQoKSB7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBUZW1wbGF0ZUZvbGRlcigpIHsgfQo=</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name=":" type="4">
         <text>%s/Object/T/g</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjcmVhdGVGb2xkZXJcPg==</last-search>
+      <last-search encoding="base64">XDxGb2xkZXJfU29ydFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjcmVhdGVGb2xkZXJcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxGb2xkZXJfU29ydFw+</last-pattern>
       <last-replace>T</last-replace>
       <last-substitute>Object</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx0ZW1wbGF0ZUZvbGRlclJvd01hcHBlclw+</entry>
         <entry encoding="base64">XDxnZXRUZW1wbGF0ZVw+</entry>
         <entry>addassignee</entry>
         <entry>add</entry>
@@ -1451,6 +1452,7 @@
         <entry encoding="base64">XDxTdGF0dXNcPg==</entry>
         <entry>Object</entry>
         <entry encoding="base64">XDxjcmVhdGVGb2xkZXJcPg==</entry>
+        <entry encoding="base64">XDxGb2xkZXJfU29ydFw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1xDVGVtcGxhdGUvLw==</entry>

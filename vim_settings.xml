@@ -324,11 +324,11 @@
         <mark key="^" line="0" column="55" />
         <mark key="." line="0" column="55" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/src/test/python/conftest.py" timestamp="1482399361959">
-        <mark key="[" line="106" column="34" />
-        <mark key="]" line="54" column="0" />
-        <mark key="." line="54" column="0" />
-        <mark key="^" line="60" column="8" />
+      <file name="$USER_HOME$/repos/webformdefinitions/src/test/python/conftest.py" timestamp="1486057520268">
+        <mark key="'" line="56" column="28" />
+        <mark key="]" line="26" column="16" />
+        <mark key="." line="26" column="16" />
+        <mark key="^" line="26" column="16" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/MetaClaimsTemplate.java" timestamp="1485551104932">
         <mark key="[" line="9" column="62" />
@@ -946,10 +946,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="172" column="23" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
-      <jump line="202" column="30" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
-      <jump line="216" column="30" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
-      <jump line="309" column="31" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="123" column="26" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="321" column="37" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="166" column="82" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
@@ -1046,6 +1042,10 @@
       <jump line="23" column="74" filename="$USER_HOME$/repos/claims/frontend/components/header/todays-transactions.html" />
       <jump line="25" column="94" filename="$USER_HOME$/repos/claims/frontend/components/header/todays-transactions.html" />
       <jump line="121" column="20" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin.html" />
+      <jump line="27" column="11" filename="$USER_HOME$/repos/webformdefinitions/src/test/python/conftest.py" />
+      <jump line="28" column="11" filename="$USER_HOME$/repos/webformdefinitions/src/test/python/conftest.py" />
+      <jump line="29" column="79" filename="$USER_HOME$/repos/webformdefinitions/src/test/python/conftest.py" />
+      <jump line="58" column="28" filename="$USER_HOME$/repos/webformdefinitions/src/test/python/conftest.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -1102,7 +1102,7 @@
         <text encoding="base64">JGh0dHAsIA==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxpc0NvbGxhcHNlZFw+</text>
+        <text encoding="base64">XDx4bWxmaWxlc1w+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRkPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iIiBjbGFzcz0iZ2x5cGhpY29uIGdseXBoaWNvbi10cmFzaCIgbmctY2xpY2s9InZtLmRlbGV0ZVRlbXBsYXRlKHRtcGwpIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWRpdC10cmFuc2xhdGlvbi1pbmxpbmU9InBvcG92ZXIgRGVsZXRlIHRlbXBsYXRlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9wb3Zlci1wbGFjZW1lbnQ9ImxlZnQiIHBvcG92ZXItdHJpZ2dlcj0ibW91c2VlbnRlciI+PC9hPgogICAgICAgICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICAgICAgICA8dGQ+PGEgaHJlZj0iIiBjbGFzcz0iZ2x5cGhpY29uIGdseXBoaWNvbi1wZW5jaWwiIG5nLWNsaWNrPSJ2bS5lZGl0RXhpc3RpbmcodG1wbCkiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlZGl0LXRyYW5zbGF0aW9uLWlubGluZT0icG9wb3ZlciBFZGl0IHRlbXBsYXRlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9wb3Zlci1wbGFjZW1lbnQ9ImxlZnQiIHBvcG92ZXItdHJpZ2dlcj0ibW91c2VlbnRlciI+PC9hPjwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgIDx0ZD48YSBocmVmPSIiIGNsYXNzPSJnbHlwaGljb24gZ2x5cGhpY29uLWR1cGxpY2F0ZSIgbmctY2xpY2s9InZtLmR1cGxpY2F0ZVRlbXBsYXRlKHRtcGwpIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWRpdC10cmFuc2xhdGlvbi1pbmxpbmU9InBvcG92ZXIgQ3JlYXRlIG1hdGNoaW5nIG1haWwvbGV0dGVyIHRlbXBsYXRlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9wb3Zlci1wbGFjZW1lbnQ9ImxlZnQiIHBvcG92ZXItdHJpZ2dlcj0ibW91c2VlbnRlciI+PC9hPjwvdGQ+Cg==</text>
@@ -1528,9 +1528,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxpc0NvbGxhcHNlZFw+</last-search>
+      <last-search encoding="base64">XDx4bWxmaWxlc1w+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxpc0NvbGxhcHNlZFw+</last-pattern>
+      <last-pattern encoding="base64">XDx4bWxmaWxlc1w+</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1538,8 +1538,6 @@
     </search>
     <history>
       <history-search>
-        <entry>unwrap</entry>
-        <entry encoding="base64">XDxGb2xkZXJfU29ydFw+</entry>
         <entry>content</entry>
         <entry encoding="base64">XDxjbGFpbXNNYWlsVGVtcGxhdGVBZG1pbk1vZHVsZVw+</entry>
         <entry encoding="base64">XDxpbnB1dFRlbXBsYXRlXD4=</entry>
@@ -1558,6 +1556,8 @@
         <entry encoding="base64">XDxUZW1wbGF0ZUNvbnRleHRTZXJ2aWNlXD4=</entry>
         <entry encoding="base64">XDxfVGVtcGxhdGVDb250ZXh0U2VydmljZVw+</entry>
         <entry encoding="base64">XDxpc0NvbGxhcHNlZFw+</entry>
+        <entry encoding="base64">XDx4bWx0cmVlc1w+</entry>
+        <entry encoding="base64">XDx4bWxmaWxlc1w+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3RlbXBsYXRlclxjL3Iv</entry>

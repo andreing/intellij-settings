@@ -29,7 +29,7 @@
         <mark key="^" line="30" column="13" />
         <mark key="." line="30" column="13" />
       </file>
-      <file name="/a.dummy" timestamp="1486048285659">
+      <file name="/a.dummy" timestamp="1486110661830">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -277,6 +277,9 @@
         <mark key="." line="5" column="49" />
         <mark key="^" line="5" column="49" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/config/ClaimsRunConfig.js" timestamp="1486111397088">
+        <mark key="'" line="38" column="24" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/TRoot.java" timestamp="1484576890220">
         <mark key="[" line="4" column="18" />
         <mark key="]" line="8" column="0" />
@@ -303,7 +306,6 @@
         <mark key="." line="86" column="13" />
         <mark key="^" line="86" column="13" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/shared/util.js" timestamp="1486047107924" />
       <file name="$USER_HOME$/repos/claims/frontend/components/config/ClaimsHttpConfig.js" timestamp="1484830145105">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="32" column="17" />
@@ -891,7 +893,6 @@
         <mark key="." line="54" column="0" />
         <mark key="^" line="56" column="19" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/nobina/router.js" timestamp="1486047068128" />
       <file name="$USER_HOME$/repos/webclaims/apps/claims/header/header.js" timestamp="1477054989589">
         <mark key="[" line="5" column="83" />
         <mark key="]" line="2" column="0" />
@@ -928,7 +929,6 @@
         <mark key="^" line="86" column="41" />
         <mark key="." line="87" column="5" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-admin.html" timestamp="1486041157550" />
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/LetterTemplate.java" timestamp="1484580520723">
         <mark key="[" line="2" column="58" />
         <mark key="]" line="2" column="49" />
@@ -971,8 +971,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="166" column="82" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
-      <jump line="7" column="31" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="111" column="38" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="143" column="71" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
       <jump line="328" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" />
@@ -1071,6 +1069,8 @@
       <jump line="58" column="28" filename="$USER_HOME$/repos/webformdefinitions/src/test/python/conftest.py" />
       <jump line="104" column="0" filename="$USER_HOME$/repos/webformdefinitions/src/test/python/conftest.py" />
       <jump line="123" column="0" filename="$USER_HOME$/repos/webformdefinitions/src/test/python/conftest.py" />
+      <jump line="1" column="62" filename="$USER_HOME$/repos/claims/frontend/components/config/ClaimsRunConfig.js" />
+      <jump line="38" column="24" filename="$USER_HOME$/repos/claims/frontend/components/config/ClaimsRunConfig.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -1127,7 +1127,7 @@
         <text encoding="base64">JGh0dHAsIA==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx4bWxmaWxlc1w+</text>
+        <text encoding="base64">XDxkb2N1bWVudFw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPHRkPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iIiBjbGFzcz0iZ2x5cGhpY29uIGdseXBoaWNvbi10cmFzaCIgbmctY2xpY2s9InZtLmRlbGV0ZVRlbXBsYXRlKHRtcGwpIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWRpdC10cmFuc2xhdGlvbi1pbmxpbmU9InBvcG92ZXIgRGVsZXRlIHRlbXBsYXRlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9wb3Zlci1wbGFjZW1lbnQ9ImxlZnQiIHBvcG92ZXItdHJpZ2dlcj0ibW91c2VlbnRlciI+PC9hPgogICAgICAgICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICAgICAgICA8dGQ+PGEgaHJlZj0iIiBjbGFzcz0iZ2x5cGhpY29uIGdseXBoaWNvbi1wZW5jaWwiIG5nLWNsaWNrPSJ2bS5lZGl0RXhpc3RpbmcodG1wbCkiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlZGl0LXRyYW5zbGF0aW9uLWlubGluZT0icG9wb3ZlciBFZGl0IHRlbXBsYXRlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9wb3Zlci1wbGFjZW1lbnQ9ImxlZnQiIHBvcG92ZXItdHJpZ2dlcj0ibW91c2VlbnRlciI+PC9hPjwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgIDx0ZD48YSBocmVmPSIiIGNsYXNzPSJnbHlwaGljb24gZ2x5cGhpY29uLWR1cGxpY2F0ZSIgbmctY2xpY2s9InZtLmR1cGxpY2F0ZVRlbXBsYXRlKHRtcGwpIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWRpdC10cmFuc2xhdGlvbi1pbmxpbmU9InBvcG92ZXIgQ3JlYXRlIG1hdGNoaW5nIG1haWwvbGV0dGVyIHRlbXBsYXRlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9wb3Zlci1wbGFjZW1lbnQ9ImxlZnQiIHBvcG92ZXItdHJpZ2dlcj0ibW91c2VlbnRlciI+PC9hPjwvdGQ+Cg==</text>
@@ -1553,9 +1553,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx4bWxmaWxlc1w+</last-search>
+      <last-search encoding="base64">XDxkb2N1bWVudFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx4bWxmaWxlc1w+</last-pattern>
+      <last-pattern encoding="base64">XDxkb2N1bWVudFw+</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1563,7 +1563,6 @@
     </search>
     <history>
       <history-search>
-        <entry>content</entry>
         <entry encoding="base64">XDxjbGFpbXNNYWlsVGVtcGxhdGVBZG1pbk1vZHVsZVw+</entry>
         <entry encoding="base64">XDxpbnB1dFRlbXBsYXRlXD4=</entry>
         <entry>/\(inputTemplate\)/vm\.\1/g</entry>
@@ -1583,6 +1582,7 @@
         <entry encoding="base64">XDxpc0NvbGxhcHNlZFw+</entry>
         <entry encoding="base64">XDx4bWx0cmVlc1w+</entry>
         <entry encoding="base64">XDx4bWxmaWxlc1w+</entry>
+        <entry encoding="base64">XDxkb2N1bWVudFw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3RlbXBsYXRlclxjL3Iv</entry>

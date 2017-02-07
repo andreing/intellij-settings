@@ -511,11 +511,11 @@
         <mark key="." line="14" column="0" />
         <mark key="^" line="29" column="62" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/logger.js" timestamp="1486502179572">
-        <mark key="[" line="48" column="36" />
-        <mark key="]" line="54" column="0" />
-        <mark key="^" line="54" column="53" />
-        <mark key="." line="54" column="0" />
+      <file name="$USER_HOME$/repos/webclaims/logger.js" timestamp="1486503975886">
+        <mark key="[" line="26" column="50" />
+        <mark key="]" line="4" column="13" />
+        <mark key="^" line="4" column="13" />
+        <mark key="." line="4" column="13" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/WRRStateDao.java" timestamp="1479204112799">
         <mark key="[" line="8" column="33" />
@@ -1018,7 +1018,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="123" column="0" filename="$USER_HOME$/repos/webformdefinitions/src/test/python/conftest.py" />
       <jump line="1" column="62" filename="$USER_HOME$/repos/claims/frontend/components/config/ClaimsRunConfig.js" />
       <jump line="38" column="24" filename="$USER_HOME$/repos/claims/frontend/components/config/ClaimsRunConfig.js" />
       <jump line="103" column="28" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin.html" />
@@ -1118,10 +1117,11 @@
       <jump line="7" column="19" filename="$USER_HOME$/repos/webclaims/apps/claims/header/header.js" />
       <jump line="3" column="22" filename="$USER_HOME$/repos/webclaims/apps/claims/header/header.js" />
       <jump line="7" column="0" filename="$USER_HOME$/repos/webclaims/apps/submission2pdf/router.js" />
+      <jump line="40" column="35" filename="$USER_HOME$/repos/webclaims/logger.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxldCBjb25maWcgPSBiYXNlQ29uZmlnOwogICAgaWYgKHByb2ZpbGUgPT09ICdkZXZlbG9wbWVudCcpIHsKICAgICAgICBPYmplY3QuYXNzaWduKGNvbmZpZywgZGV2Q29uZmlnKTsKICAgIH0KICAgIGVsc2UgaWYgKHByb2ZpbGUgPT09ICd0ZXN0JykgewogICAgICAgIE9iamVjdC5hc3NpZ24oY29uZmlnLCBwcm9kQ29uZmlnKTsKICAgIH0KICAgIGVsc2UgaWYgKHByb2ZpbGUgPT09ICdwcm9kdWN0aW9uJykgewogICAgICAgIE9iamVjdC5hc3NpZ24oY29uZmlnLCBwcm9kQ29uZmlnKTsKICAgIH0KCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1174,13 +1174,13 @@
         <text>const logger = bunyan.createLogger(</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx1dGlsXD4=</text>
+        <text>baseC</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">Y29uc3QgbG9nID0gcmVxdWlyZSgnLi4vLi4vbG9nZ2VyJykubG9nOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxldCBjb25maWcgPSBiYXNlQ29uZmlnOwogICAgaWYgKHByb2ZpbGUgPT09ICdkZXZlbG9wbWVudCcpIHsKICAgICAgICBPYmplY3QuYXNzaWduKGNvbmZpZywgZGV2Q29uZmlnKTsKICAgIH0KICAgIGVsc2UgaWYgKHByb2ZpbGUgPT09ICd0ZXN0JykgewogICAgICAgIE9iamVjdC5hc3NpZ24oY29uZmlnLCBwcm9kQ29uZmlnKTsKICAgIH0KICAgIGVsc2UgaWYgKHByb2ZpbGUgPT09ICdwcm9kdWN0aW9uJykgewogICAgICAgIE9iamVjdC5hc3NpZ24oY29uZmlnLCBwcm9kQ29uZmlnKTsKICAgIH0KCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1240,19 +1240,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVxLmxvZy5pbmZvKHtyZXF9KTsK</text>
+        <text encoding="base64">CmNvbnN0IGRldkNvbmZpZyA9IHsKICAgIGxldmVsOiBidW55YW4uREVCVUcsCiAgICBzdHJlYW06IHByb2Nlc3Muc3Rkb3V0LAogICAgc3JjOiB0cnVlIC8vc3dpdGNoIHRoaXMgb2ZmIGlmIHBlcmZvcm1hbmNlIGlzIGNyYXAKfTsKCmNvbnN0IHByb2RDb25maWcgPSB7CiAgICBzdHJlYW1zOiBbCiAgICAgICAgewogICAgICAgICAgICBsZXZlbDogYnVueWFuLklORk8sCiAgICAgICAgICAgIHN0cmVhbTogcHJvY2Vzcy5zdGRvdXQKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICAgbGV2ZWw6IGJ1bnlhbi5JTkZPLAogICAgICAgICAgICB0eXBlOiAncm90YXRpbmctZmlsZScsCiAgICAgICAgICAgIHBhdGg6ICcvdmFyL2xvZy9jbGFpbXNnYXRld2F5LmxvZycsCiAgICAgICAgICAgIHBlcmlvZDogJzF3JywKICAgICAgICAgICAgY291bnQ6IDUKICAgICAgICB9CiAgICBdCn07Cg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKHByb2Nlc3MuZW52Lk5PREVfRU5WKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVxLmxvZy5pbmZvKHtyZXF9KTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Y29uc3QgbG9nID0gcmVxdWlyZSgnLi4vLi4vbG9nZ2VyJykubG9nOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Y29uc3QgdXRpbCA9IHJlcXVpcmUoJ3V0aWwnKTsK</text>
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKHByb2Nlc3MuZW52Lk5PREVfRU5WKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1587,30 +1587,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy9jb25zb2xlLmxvZygoZWxlbS5uYW1lIHx8wqBlbGVtLmtleSkgKyAnIGhhcyBpdGVtcycpCg==</text>
+        <text encoding="base64">Y29uc3QgbG9nID0gcmVxdWlyZSgnLi4vLi4vbG9nZ2VyJykubG9nOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBjb25zb2xlLmxvZyhlbGVtKTsK</text>
+        <text encoding="base64">Y29uc3QgdXRpbCA9IHJlcXVpcmUoJ3V0aWwnKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBjb25zb2xlLmxvZygna2V5ICcgKyBrZXkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy9jb25zb2xlLmxvZygoZWxlbS5uYW1lIHx8wqBlbGVtLmtleSkgKyAnIGhhcyBpdGVtcycpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text encoding="base64">JzwsJz5zL2Jhc2VDL2MvZw==</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx1dGlsXD4=</last-search>
+      <last-search>baseC</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx1dGlsXD4=</last-pattern>
-      <last-replace>node</last-replace>
-      <last-substitute>template</last-substitute>
+      <last-pattern>baseC</last-pattern>
+      <last-replace>c</last-replace>
+      <last-substitute>baseC</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx4bWxmaWxlc1w+</entry>
         <entry encoding="base64">XDxkb2N1bWVudFw+</entry>
         <entry encoding="base64">XDx0eXBlXD4=</entry>
         <entry>sortabøe</entry>
@@ -1630,9 +1629,9 @@
         <entry encoding="base64">XDxjb25maWdcPg==</entry>
         <entry encoding="base64">XDxjb25zb2xlXD4=</entry>
         <entry encoding="base64">XDx1dGlsXD4=</entry>
+        <entry>baseC</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zL15cKC4qXCksPyQvcGFyYW1zXC5wdXQoIlwxIiwgKTsv</entry>
         <entry encoding="base64">JzwsJz5zL15cKC4qXCksXD8vcGFyYW1zXC5wdXQoIlwxIiwgKTsv</entry>
         <entry>x</entry>
         <entry encoding="base64">JzwsJz5zL1xcbi8v</entry>
@@ -1652,6 +1651,7 @@
         <entry encoding="base64">JzwsJz5zL3RlbXBsYXRlL25vZGUvZw==</entry>
         <entry>reg</entry>
         <entry>q</entry>
+        <entry encoding="base64">JzwsJz5zL2Jhc2VDL2MvZw==</entry>
       </history-cmd>
       <history-expr />
       <history-input />

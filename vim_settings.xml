@@ -502,12 +502,12 @@
         <mark key="." line="14" column="0" />
         <mark key="^" line="29" column="62" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/logger.js" timestamp="1486475635652">
-        <mark key="'" line="24" column="0" />
-        <mark key="[" line="25" column="1" />
-        <mark key="]" line="21" column="29" />
-        <mark key="^" line="21" column="29" />
-        <mark key="." line="21" column="30" />
+      <file name="$USER_HOME$/repos/webclaims/logger.js" timestamp="1486476956629">
+        <mark key="'" line="27" column="0" />
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="18" />
+        <mark key="^" line="3" column="18" />
+        <mark key="." line="3" column="18" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/WRRStateDao.java" timestamp="1479204112799">
         <mark key="[" line="8" column="33" />
@@ -568,7 +568,8 @@
         <mark key="^" line="45" column="21" />
         <mark key="." line="45" column="21" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/server.js" timestamp="1486475516232">
+      <file name="$USER_HOME$/repos/webclaims/server.js" timestamp="1486476814956">
+        <mark key="'" line="1" column="24" />
         <mark key="[" line="25" column="8" />
         <mark key="]" line="25" column="8" />
         <mark key="." line="25" column="8" />
@@ -987,7 +988,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="60" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin.html" />
       <jump line="93" column="28" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin.html" />
       <jump line="41" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin.html" />
       <jump line="91" column="28" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin.html" />
@@ -1087,10 +1087,11 @@
       <jump line="69" column="4" filename="$USER_HOME$/repos/webclaims/server.js" />
       <jump line="3" column="0" filename="$USER_HOME$/repos/webclaims/apps/shared/logger.js" />
       <jump line="21" column="0" filename="$USER_HOME$/repos/webclaims/logger.js" />
+      <jump line="1" column="24" filename="$USER_HOME$/repos/webclaims/server.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">KHJlcSwgcmVzLCBuZXh0KSA9PiB7CiAgICBsb2dnZXIuaW5mbyh7cmVxLCByZXN9KTsKICAgIG5leHQoKTsKfQ==</text>
+        <text>const logger = bunyan.createLogger(</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1140,10 +1141,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>morga</text>
+        <text>const logger = bunyan.createLogger(</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxkZWJ1Z1w+</text>
+        <text encoding="base64">XDxjb25maWdcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">c3ByaW5nLmh0dHAubXVsdGlwYXJ0LmxvY2F0aW9uPS90bXAK</text>
@@ -1569,9 +1570,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxkZWJ1Z1w+</last-search>
+      <last-search encoding="base64">XDxjb25maWdcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxkZWJ1Z1w+</last-pattern>
+      <last-pattern encoding="base64">XDxjb25maWdcPg==</last-pattern>
       <last-replace>node</last-replace>
       <last-substitute>template</last-substitute>
       <last-dir>1</last-dir>
@@ -1579,7 +1580,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxfVGVtcGxhdGVDb250ZXh0U2VydmljZVw+</entry>
         <entry encoding="base64">XDxpc0NvbGxhcHNlZFw+</entry>
         <entry encoding="base64">XDx4bWx0cmVlc1w+</entry>
         <entry encoding="base64">XDx4bWxmaWxlc1w+</entry>
@@ -1599,6 +1599,7 @@
         <entry encoding="base64">XDxtb3JnYW5cPg==</entry>
         <entry encoding="base64">XDxsb2dnZXJcPg==</entry>
         <entry encoding="base64">XDxkZWJ1Z1w+</entry>
+        <entry encoding="base64">XDxjb25maWdcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL15cKC4qXCksPy9wYXJhbXNcLnB1dCgiXDEiLCApOy8=</entry>

@@ -989,12 +989,12 @@
         <mark key="^" line="3" column="28" />
         <mark key="." line="3" column="28" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" timestamp="1486730724128">
-        <mark key="'" line="238" column="8" />
-        <mark key="[" line="236" column="20" />
-        <mark key="]" line="236" column="20" />
-        <mark key="." line="236" column="20" />
-        <mark key="^" line="242" column="8" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" timestamp="1486731732789">
+        <mark key="'" line="197" column="16" />
+        <mark key="[" line="78" column="9" />
+        <mark key="]" line="184" column="0" />
+        <mark key="." line="184" column="0" />
+        <mark key="^" line="182" column="22" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/config/production.yaml" timestamp="1486480236280">
         <mark key="[" line="18" column="0" />
@@ -1078,7 +1078,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="36" column="5" filename="$USER_HOME$/repos/webclaims/package.json" />
       <jump line="3" column="6" filename="$USER_HOME$/repos/webclaims/server.js" />
       <jump line="35" column="27" filename="$USER_HOME$/repos/webclaims/server.js" />
       <jump line="7" column="23" filename="$USER_HOME$/repos/webclaims/server.js" />
@@ -1178,10 +1177,11 @@
       <jump line="247" column="16" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
       <jump line="245" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
       <jump line="238" column="8" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
+      <jump line="198" column="16" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>folderNode</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQgcm9vdCA9IHRyZWU7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1239,8 +1239,8 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaXMuYWRkaW5nRm9sZGVyID0gZmFsc2U7CiAgICAgICAgICAgICAgICB0aGlzLm5ld0ZvbGRlciA9IHt9OwogICAgICAgICAgICAgICAgZm9sZGVyTm9kZS5yb290ID0gZmFsc2U7CiAgICAgICAgICAgICAgICB0aGlzLnRlbXBsYXRlVHJlZS5jaGlsZHJlbi5zcGxpY2UoLTEsIDAsIGZvbGRlck5vZGUpOwo=</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">Zm9sZGVyTm9kZSA9PiB7CiAgICAgICAgICAgICAgICB0aGlzLmFkZGluZ0ZvbGRlciA9IGZhbHNlOwogICAgICAgICAgICAgICAgdGhpcy5uZXdGb2xkZXIgPSB7fTsKICAgICAgICAgICAgICAgIGZvbGRlck5vZGUucm9vdCA9IGZhbHNlOwogICAgICAgICAgICAgICAgdGhpcy50ZW1wbGF0ZVRyZWUuY2hpbGRyZW4uc3BsaWNlKC0xLCAwLCBmb2xkZXJOb2RlKTsKICAgICAgICAgICAgfQ==</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQgcm9vdCA9IHRyZWU7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1300,19 +1300,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnNvcnROdWxsRm9sZGVyKHRyZWUpOwo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJmb2xkZXIgY3JlYXRlZCAlTyIsIGZvbGRlck5vZGUpOwo=</text>
+      <register name="3" type="4">
+        <text encoding="base64">Zm9sZGVyTm9kZSA9PiB7CiAgICAgICAgICAgICAgICB0aGlzLmFkZGluZ0ZvbGRlciA9IGZhbHNlOwogICAgICAgICAgICAgICAgdGhpcy5uZXdGb2xkZXIgPSB7fTsKICAgICAgICAgICAgICAgIGZvbGRlck5vZGUucm9vdCA9IGZhbHNlOwogICAgICAgICAgICAgICAgdGhpcy50ZW1wbGF0ZVRyZWUuY2hpbGRyZW4uc3BsaWNlKC0xLCAwLCBmb2xkZXJOb2RlKTsKICAgICAgICAgICAgfQ==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIF9hZGRGb2xkZXJUb1ZpZXcoZm9sZGVyTm9kZSkgewogICAgICAgIHRoaXMudGVtcGxhdGVUcmVlLmNoaWxkcmVuLnNwbGljZSgtMiwgMCwgZm9sZGVyTm9kZSk7CiAgICAgICAgdGhpcy5zb3J0TnVsbEZvbGRlcih0aGlzLnJvb3QpOwogICAgfQoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaXMudGVtcGxhdGVUcmVlLmNoaWxkcmVuLnB1c2goZm9sZGVyTm9kZSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJmb2xkZXIgY3JlYXRlZCAlTyIsIGZvbGRlck5vZGUpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygicG9zdGluZyAlTyIsIGZvbGRlcik7Cg==</text>
+        <text encoding="base64">ICAgIF9hZGRGb2xkZXJUb1ZpZXcoZm9sZGVyTm9kZSkgewogICAgICAgIHRoaXMudGVtcGxhdGVUcmVlLmNoaWxkcmVuLnNwbGljZSgtMiwgMCwgZm9sZGVyTm9kZSk7CiAgICAgICAgdGhpcy5zb3J0TnVsbEZvbGRlcih0aGlzLnJvb3QpOwogICAgfQoK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1647,13 +1647,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJmb2xkZXIgY3JlYXRlZCIpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaXMudGVtcGxhdGVUcmVlLmNoaWxkcmVuLnB1c2goZm9sZGVyTm9kZSk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICAgICAgVHJlZU5vZGU8VGVtcGxhdGVGb2xkZXI+IGZvbGRlclRyZWVOb2RlID0gbmV3IFRyZWVOb2RlPD4oZm9sZGVyKTsKICAgICAgICBuZXcgVHJlZU5vZGU8Pihyb290KS5hZGRDaGlsZChmb2xkZXJUcmVlTm9kZSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygicG9zdGluZyAlTyIsIGZvbGRlcik7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJmb2xkZXIgY3JlYXRlZCIpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

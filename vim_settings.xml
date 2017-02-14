@@ -327,6 +327,12 @@
         <mark key="^" line="10" column="10" />
         <mark key="." line="10" column="10" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/config/ClaimsRouteBootstrapper.js" timestamp="1487071914791">
+        <mark key="[" line="21" column="9" />
+        <mark key="]" line="21" column="9" />
+        <mark key="^" line="21" column="9" />
+        <mark key="." line="21" column="9" />
+      </file>
       <file name="$USER_HOME$/repos/webclaims/apps/nobina/transform.spec.js" timestamp="1477046899698">
         <mark key="[" line="5" column="50" />
         <mark key="]" line="5" column="49" />
@@ -810,11 +816,10 @@
         <mark key="^" line="2" column="25" />
         <mark key="." line="2" column="25" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-admin-ctrl.js" timestamp="1487071244091">
-        <mark key="[" line="35" column="56" />
-        <mark key="]" line="35" column="53" />
-        <mark key="^" line="35" column="53" />
-        <mark key="." line="35" column="53" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-admin-ctrl.js" timestamp="1487072136684">
+        <mark key="[" line="35" column="0" />
+        <mark key="]" line="35" column="0" />
+        <mark key="." line="35" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/.gitignore" timestamp="1486641661367">
         <mark key="[" line="10" column="0" />
@@ -885,7 +890,12 @@
         <mark key="." line="5" column="116" />
         <mark key="^" line="5" column="116" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/admin/admin-module.js" timestamp="1487070632426" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/admin/admin-module.js" timestamp="1487072003812">
+        <mark key="[" line="45" column="181" />
+        <mark key="]" line="45" column="204" />
+        <mark key="^" line="45" column="204" />
+        <mark key="." line="45" column="204" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/admin/assignment/assignee-pool-ctrl.js" timestamp="1481618786726">
         <mark key="[" line="0" column="33" />
         <mark key="]" line="76" column="69" />
@@ -1004,12 +1014,12 @@
         <mark key="^" line="3" column="28" />
         <mark key="." line="3" column="28" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" timestamp="1487071266796">
-        <mark key="'" line="173" column="40" />
-        <mark key="[" line="80" column="32" />
-        <mark key="]" line="80" column="40" />
-        <mark key="." line="80" column="40" />
-        <mark key="^" line="80" column="40" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" timestamp="1487072725520">
+        <mark key="'" line="98" column="16" />
+        <mark key="[" line="100" column="15" />
+        <mark key="]" line="100" column="13" />
+        <mark key="^" line="100" column="13" />
+        <mark key="." line="100" column="13" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/config/production.yaml" timestamp="1486480236280">
         <mark key="[" line="18" column="0" />
@@ -1093,8 +1103,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2336" column="12" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
-      <jump line="146" column="13" filename="$USER_HOME$/repos/claims/frontend/components/admin/mail-template-admin.js" />
       <jump line="128" column="13" filename="$USER_HOME$/repos/claims/frontend/components/admin/mail-template-admin.js" />
       <jump line="134" column="13" filename="$USER_HOME$/repos/claims/frontend/components/admin/mail-template-admin.js" />
       <jump line="79" column="8" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/edit-template-ctrl.js" />
@@ -1193,10 +1201,12 @@
       <jump line="116" column="29" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
       <jump line="109" column="75" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
       <jump line="156" column="40" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
+      <jump line="97" column="16" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
+      <jump line="98" column="16" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IGRvbWFpbiA9IHt0eXBlLGNvdW50cnksbG9ifTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLnRoZW4oZG9tYWluID0+IHRoaXMuX3NldFJvdXRlUGFyYW1zKGRvbWFpbikpCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1255,7 +1265,7 @@
         <text encoding="base64">dGhpcy5maWx0ZXIubG9iID0gcmVzLmZpbmQobCA9PiBsLmRlc2NyaXB0aW9uLnRvTG93ZXJDYXNlKCkgPT09IGxvYik=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IGRvbWFpbiA9IHt0eXBlLGNvdW50cnksbG9ifTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLnRoZW4oZG9tYWluID0+IHRoaXMuX3NldFJvdXRlUGFyYW1zKGRvbWFpbikpCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1315,19 +1325,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaXMuY291bnRyaWVzID0gY291bnRyaWVzOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKHR5cGUgJiYgY291bnRyeSAmJiBsb2IpIHsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaXMuY291bnRyaWVzID0gY291bnRyaWVzOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IHt0eXBlLCBjb3VudHJ5LCBsb2J9ID0gdGhpcy5maWx0ZXI7Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygiYXNzaWduZWUtcG9vbC1hZG1pbi1jdHJsIGFjdGl2YXRlIik7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coIm9uRmlsdGVyQ2hhbmdlZCBBQk9SVCAyIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IGRvbWFpbiA9IHt0eXBlLGNvdW50cnksbG9ifTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoY291bnRyeSAmJiBjb3VudHJ5ICE9PSAnJykgewogICAgICAgICAgICBjb3VudHJpZXMKICAgICAgICAgICAgICAgIC50aGVuKHJlcyA9PiB0aGlzLmZpbHRlci5jb3VudHJ5ID0gcmVzLmZpbmQoYyA9PiBjLmNvdW50cnlDb2RlLnRvTG93ZXJDYXNlKCkgPT09IGNvdW50cnkpKTsKICAgICAgICB9CiAgICAgICAgaWYgKGxvYiAmJiBsb2IgIT09ICcnKSB7CiAgICAgICAgICAgIGxvYnMKICAgICAgICAgICAgICAgIC50aGVuKHJlcyA9PiB0aGlzLmZpbHRlci5sb2IgPSByZXMuZmluZChsID0+IGwuZGVzY3JpcHRpb24udG9Mb3dlckNhc2UoKSA9PT0gbG9iKSk7CiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1662,13 +1672,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKHR5cGUgJiYgY291bnRyeSAmJiBsb2IpIHsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAodHlwZSAmJiB0eXBlICE9PSAnJykgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IHt0eXBlLCBjb3VudHJ5LCBsb2J9ID0gdGhpcy5maWx0ZXI7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIHRoaXMuZmlsdGVyLmNvdW50cnkgPSB0aGlzLmNvdW50cmllc1swXTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coIm9uRmlsdGVyQ2hhbmdlZCBBQk9SVCAyIik7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

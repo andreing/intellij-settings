@@ -266,11 +266,11 @@
         <mark key="^" line="21" column="3" />
         <mark key="." line="21" column="3" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/electronic_claims/router.js" timestamp="1487943283022">
-        <mark key="[" line="9" column="10" />
-        <mark key="]" line="9" column="9" />
-        <mark key="^" line="9" column="9" />
-        <mark key="." line="9" column="9" />
+      <file name="$USER_HOME$/repos/webclaims/apps/electronic_claims/router.js" timestamp="1487952034036">
+        <mark key="[" line="2" column="35" />
+        <mark key="]" line="2" column="2" />
+        <mark key="^" line="2" column="2" />
+        <mark key="." line="2" column="2" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/dashboard/transactions/transaction-disapprovals.html" timestamp="1484819033436">
         <mark key="[" line="52" column="30" />
@@ -482,11 +482,11 @@
         <mark key="." line="4" column="0" />
         <mark key="^" line="14" column="43" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" timestamp="1487946967516">
-        <mark key="[" line="27" column="25" />
-        <mark key="]" line="27" column="13" />
-        <mark key="." line="27" column="13" />
-        <mark key="^" line="27" column="13" />
+      <file name="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" timestamp="1487952416276">
+        <mark key="[" line="35" column="75" />
+        <mark key="]" line="35" column="84" />
+        <mark key="." line="35" column="84" />
+        <mark key="^" line="35" column="84" />
       </file>
       <file name="$USER_HOME$/repos/protector-commons/settings.xml" timestamp="1483968185242">
         <mark key="[" line="1" column="10" />
@@ -558,6 +558,9 @@
         <mark key="]" line="52" column="41" />
         <mark key="^" line="57" column="42" />
         <mark key="." line="57" column="42" />
+      </file>
+      <file name="/fragment.js" timestamp="1487948389106">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/WRRSelector.java" timestamp="1479290994463">
         <mark key="[" line="65" column="39" />
@@ -1150,7 +1153,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="69" column="12" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/TemplateService.java" />
       <jump line="20" column="32" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/MailTemplateService_Old.java" />
       <jump line="49" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/MailTemplateService_Old.java" />
       <jump line="134" column="0" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TemplateController.java" />
@@ -1250,10 +1252,11 @@
       <jump line="91" column="9" filename="$USER_HOME$/repos/webclaims/bin/www" />
       <jump line="93" column="20" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/MDCFilter.java" />
       <jump line="24" column="31" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/MDCFilter.java" />
+      <jump line="38" column="8" filename="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHJlcS5waXBlKHRhcmdldFJlcXVlc3QnJyk7CiAgICB0YXJnZXRSZXF1ZXN0LnBpcGUocmVzKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1309,10 +1312,10 @@
         <text encoding="base64">XDxSRVFVRVNUX1JFUVVFU1RfSURcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">InVzZSBzdHJpY3QiOwpjb25zdCBleHByZXNzID0gcmVxdWlyZSgnZXhwcmVzcycpOwpjb25zdCByb3V0ZXIgPSBleHByZXNzLlJvdXRlcigpOwpjb25zdCBib2R5UGFyc2VyID0gcmVxdWlyZSgnYm9keS1wYXJzZXInKTsK</text>
+        <text encoding="base64">ICAgICAgICByZXEubG9nLmluZm8oYFJlY2VpdmVkICR7Y2h1bmsubGVuZ3RofSBieXRlcyBvZiBkYXRhLmApOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHJlcS5waXBlKHRhcmdldFJlcXVlc3QnJyk7CiAgICB0YXJnZXRSZXF1ZXN0LnBpcGUocmVzKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1372,19 +1375,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHJlcS5waXBlKHRhcmdldFJlcXVlc3QnJyk7CiAgICB0YXJnZXRSZXF1ZXN0LnBpcGUocmVzKTsKfQoKZXhwb3J0cy5yZXF1ZXN0Qm9keUxvZ2dlciA9IHJlcXVlc3RCb2R5TG9nZ2VyOwpleHBvcnRzLnRhcmdldFVyaUV4dHJhY3RvciA9IHRhcmdldFVyaUV4dHJhY3RvcjsKZXhwb3J0cy5lQ2xhaW1zUHJveHkgPSBlQ2xhaW1zUHJveHk7Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Y29uc3QgZGVidWcgPSByZXF1aXJlKCdkZWJ1ZycpKCd3ZWJjbGFpbXM6c2VydmVyJyk7Cg==</text>
+        <text encoding="base64">ICAgIFN0cmVhbS5SZWFkYWJsZSgpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnVuY3Rpb24gb25Db25uZWN0KHJlcSwgY2x0U29ja2V0LCBoZWFkKSB7CiAgZGVidWcocmVxKTsKICAKfQoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICBkZWJ1ZygnTGlzdGVuaW5nIG9uICcgKyBiaW5kKTsK</text>
+        <text encoding="base64">ICAgIC8vIGxldCByZXFTdHJlYW0gPSBuZXcgU3RyZWFtLlBhc3NUaHJvdWdoKCk7CiAgICBsZXQganNvblN0cmVhbSA9IEpTT05TdHJlYW0ucGFyc2UoJ2xvYicpOwoKICAgIHJlcS5waXBlKGpzb25TdHJlYW0pOwogICAgLy8gcmVxLnBpcGUocmVxU3RyZWFtKTsKCiAgICBqc29uU3RyZWFtLm9uKCdkYXRhJywgY2h1bmsgPT4gewogICAgICAgIHJlcS5sb2cuaW5mbyhgUGFyc2VyIHJlY2VpdmVkICR7Y2h1bmsubGVuZ3RofSBieXRlcyBvZiBkYXRhLmApOwogICAgICAgIH0KICAgICk7CgogICAgcmVxLm9uKCdkYXRhJywgY2h1bmsgPT4gewogICAgICAgIHJlcS5sb2cuaW5mbyhgUmVxdWVzdCByZWNlaXZlZCAke2NodW5rLmxlbmd0aH0gYnl0ZXMgb2YgZGF0YS5gKTsKICAgIH0pOwoKICAgIHJlcy5vbignZW5kJywgKCkgPT4gewogICAgICAgIHJlcS5sb2cuaW5mbygnUkVTUE9OU0UgRU5ERUQuIEdPT0RCWUUhJyk7CiAgICB9KTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Y29uc3QgZGVidWcgPSByZXF1aXJlKCdkZWJ1ZycpKCd3ZWJjbGFpbXM6c2VydmVyJyk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVxLmxvZy5pbmZvKCdwYXJzZXIgZ290OiAlcycsIGRhdGEpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1719,13 +1722,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHJlcy5lbmQoKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">YXBwLnVzZSgnL2FwaS9lY2xhaW1zJywgZWNsYWltcy5yb3V0ZXIpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZnVuY3Rpb24gZUNsYWltc1Byb3h5KHJlcSwgcmVzLCBuZXh0KSB7CiAgICByZXEucGlwZShyZXF1ZXN0KHJlcS5lY2xhaW1fdGFyZ2V0KSkucGlwZShyZXMpOwp9Cgo=</text>
+        <text encoding="base64">ICAgIHJlcS5vbignZW5kJywgKQo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

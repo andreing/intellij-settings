@@ -233,6 +233,9 @@
         <mark key="'" line="352" column="40" />
         <mark key="[" line="352" column="59" />
       </file>
+      <file name="$USER_HOME$/repos/webclaims/apps/shared/http-codes.js" timestamp="1488459113762">
+        <mark key="[" line="3" column="27" />
+      </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" timestamp="1486376429401">
         <mark key="'" line="70" column="149" />
         <mark key="[" line="70" column="15" />
@@ -253,10 +256,10 @@
         <mark key="^" line="14" column="24" />
         <mark key="." line="14" column="24" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/submission2pdf/router.js" timestamp="1488447982545">
+      <file name="$USER_HOME$/repos/webclaims/apps/submission2pdf/router.js" timestamp="1488458913235">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="67" column="0" />
-        <mark key="]" line="4" column="0" />
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="49" />
         <mark key="^" line="12" column="7" />
         <mark key="." line="4" column="0" />
       </file>
@@ -507,11 +510,12 @@
         <mark key="." line="4" column="0" />
         <mark key="^" line="14" column="43" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" timestamp="1488451210467">
-        <mark key="'" line="33" column="4" />
-        <mark key="[" line="34" column="1" />
-        <mark key="]" line="33" column="0" />
-        <mark key="." line="33" column="0" />
+      <file name="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" timestamp="1488459065213">
+        <mark key="'" line="3" column="0" />
+        <mark key="[" line="42" column="20" />
+        <mark key="]" line="42" column="19" />
+        <mark key="." line="42" column="19" />
+        <mark key="^" line="42" column="19" />
       </file>
       <file name="$USER_HOME$/repos/protector-commons/settings.xml" timestamp="1483968185242">
         <mark key="[" line="1" column="10" />
@@ -1036,6 +1040,11 @@
         <mark key="." line="1029" column="68" />
         <mark key="^" line="1029" column="68" />
       </file>
+      <file name="$USER_HOME$/repos/webclaims/apps/submission2pdf/submission2pdf.js" timestamp="1488457127177">
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="5" column="0" />
+        <mark key="." line="5" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/search/freetext/freetextCtrl.js" timestamp="1484821178028">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="98" column="20" />
@@ -1166,8 +1175,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="68" column="24" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
-      <jump line="74" column="24" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
       <jump line="78" column="24" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
       <jump line="92" column="24" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
       <jump line="2241" column="23" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
@@ -1266,26 +1273,12 @@
       <jump line="35" column="8" filename="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" />
       <jump line="33" column="8" filename="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" />
       <jump line="39" column="4" filename="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" />
+      <jump line="34" column="4" filename="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" />
+      <jump line="3" column="0" filename="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>SELECT id
-FROM
-  Claim_Event
-WHERE Status_Id = 0 AND Claim_Event_Type_Id = 294 AND Claim_Header_Id = 306974 AND id NOT IN (
-  SELECT Parent_Event_Id
-  FROM Claim_Event
-  WHERE (Claim_Event_Type_Id = 297 OR Claim_Event_Type_Id = 1074) AND Claim_Header_Id = 306974 AND Status_Id = 0
-)
-
-select e1.id from Claim_Event e1
-  join Claim_Event e2 on e1.Id = e2.Parent_Event_Id
-WHERE e1.Status_Id = 0 AND e1.Claim_Event_Type_Id = 294 AND e1.Claim_Header_Id = 306974
-      AND NOT(e2.Claim_Event_Type_Id = 297 OR e2.Claim_Event_Type_Id = 1074)
-
-SELECT Parent_Event_Id
-FROM Claim_Event
-WHERE (Claim_Event_Type_Id = 297 OR Claim_Event_Type_Id = 1074) AND Claim_Header_Id = 306974 AND Status_Id = 0</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">d2lkdGg6IGludHJpbnNpYzsgLyogU2FmYXJpL1dlYktpdCB1c2VzIGEgbm9uLXN0YW5kYXJkIG5hbWUgKi8Kd2lkdGg6IC1tb3otbWF4LWNvbnRlbnQ7IC8qIEZpcmVmb3gvR2Vja28gKi8Kd2lkdGg6IC13ZWJraXQtbWF4LWNvbnRlbnQ7IC8qIENocm9tZSAqLwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1341,26 +1334,10 @@ WHERE (Claim_Event_Type_Id = 297 OR Claim_Event_Type_Id = 1074) AND Claim_Header
         <text encoding="base64">XDxjb25maXJtTW9kYWxcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHdpZHRoOiBpbnRyaW5zaWM7IC8qIFNhZmFyaS9XZWJLaXQgdXNlcyBhIG5vbi1zdGFuZGFyZCBuYW1lICovCiAgICB3aWR0aDogLW1vei1tYXgtY29udGVudDsgLyogRmlyZWZveC9HZWNrbyAqLwogICAgd2lkdGg6IC13ZWJraXQtbWF4LWNvbnRlbnQ7IC8qIENocm9tZSAqLwo=</text>
+        <text encoding="base64">Y29uc3QgaHR0cENvZGUgPSByZXF1aXJlKCcuLi9zaGFyZWQvaHR0cC1jb2RlcycpOwo=</text>
       </register>
-      <register name="1" type="4">
-        <text>SELECT id
-FROM
-  Claim_Event
-WHERE Status_Id = 0 AND Claim_Event_Type_Id = 294 AND Claim_Header_Id = 306974 AND id NOT IN (
-  SELECT Parent_Event_Id
-  FROM Claim_Event
-  WHERE (Claim_Event_Type_Id = 297 OR Claim_Event_Type_Id = 1074) AND Claim_Header_Id = 306974 AND Status_Id = 0
-)
-
-select e1.id from Claim_Event e1
-  join Claim_Event e2 on e1.Id = e2.Parent_Event_Id
-WHERE e1.Status_Id = 0 AND e1.Claim_Event_Type_Id = 294 AND e1.Claim_Header_Id = 306974
-      AND NOT(e2.Claim_Event_Type_Id = 297 OR e2.Claim_Event_Type_Id = 1074)
-
-SELECT Parent_Event_Id
-FROM Claim_Event
-WHERE (Claim_Event_Type_Id = 297 OR Claim_Event_Type_Id = 1074) AND Claim_Header_Id = 306974 AND Status_Id = 0</text>
+      <register name="1" type="2">
+        <text encoding="base64">d2lkdGg6IGludHJpbnNpYzsgLyogU2FmYXJpL1dlYktpdCB1c2VzIGEgbm9uLXN0YW5kYXJkIG5hbWUgKi8Kd2lkdGg6IC1tb3otbWF4LWNvbnRlbnQ7IC8qIEZpcmVmb3gvR2Vja28gKi8Kd2lkdGg6IC13ZWJraXQtbWF4LWNvbnRlbnQ7IC8qIENocm9tZSAqLwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1420,19 +1397,19 @@ WHERE (Claim_Event_Type_Id = 297 OR Claim_Event_Type_Id = 1074) AND Claim_Header
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIH0pOwo=</text>
+        <text encoding="base64">Y29uc3QgdXJsID0gcmVxdWlyZSgndXJsJyk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICByZXEubG9nLmluZm8oJ2VuZCBldmVudCByZWNlaXZlZCcpOwo=</text>
+        <text encoding="base64">VnJlcy5zdGF0dXMoaHR0cENvZGUuSU5UX1NFUlZfRVJSKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHJlcS5vbignZGF0YScsIGNodW5rID0+IHsKICAgICAgICByZXMud3JpdGUoY2h1bmspOwogICAgfSk7CiAgICByZXEub24oJ2VuZCcsICgpID0+IHsK</text>
+        <text encoding="base64">Y29uc3QgdXJsID0gcmVxdWlyZSgndXJsJyk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICByZXEucGlwZShyZXF1ZXN0KHJlcS5lY2xhaW1zX3RhcmdldCkpLnBpcGUocmVzKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIHJlcy5zdGF0dXMoaHR0cENvZGUuSU5UX1NFUlZfRVJSKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIG5leHQoKTsK</text>
+        <text encoding="base64">ZnVuY3Rpb24gZUNsYWltc1Byb3h5MihyZXEsIHJlcywgbmV4dCkgewoKICAgIHJlcS5vbignZGF0YScsIGNodW5rID0+IHsKCiAgICB9KTsKfQoK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1767,13 +1744,13 @@ WHERE (Claim_Event_Type_Id = 297 OR Claim_Event_Type_Id = 1074) AND Claim_Header
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHJlcS5sb2cuaW5mbyhgcHJveHlpbmcgcmVxdWVzdCB0byAke3JlcS5lY2xhaW1zX3RhcmdldH1gKTsK</text>
+        <text encoding="base64">ICAgIHJlcS5sb2cuaW5mbyh7cmVxX2hlYWRlcnM6IHJlcS5oZWFkZXJzfSk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHJlcS5waXBlKHJlcXVlc3QocmVxLmVjbGFpbXNfdGFyZ2V0KSkucGlwZShyZXMpOwo=</text>
+        <text encoding="base64">ICAgIH0pOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHJlcS5vbignZW5kJywgKCkgPT4gewo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

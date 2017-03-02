@@ -400,12 +400,11 @@
         <mark key="." line="95" column="8" />
         <mark key="^" line="96" column="13" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1487843403861">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1488456446681">
         <mark key="'" line="517" column="4" />
-        <mark key="[" line="517" column="19" />
-        <mark key="]" line="517" column="18" />
-        <mark key="." line="517" column="18" />
-        <mark key="^" line="517" column="18" />
+        <mark key="[" line="529" column="0" />
+        <mark key="]" line="529" column="0" />
+        <mark key="." line="529" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssingment.java" timestamp="1479213358551">
         <mark key="[" line="11" column="4" />
@@ -1269,8 +1268,24 @@
       <jump line="39" column="4" filename="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIH0pOwo=</text>
+      <register name="&quot;" type="4">
+        <text>SELECT id
+FROM
+  Claim_Event
+WHERE Status_Id = 0 AND Claim_Event_Type_Id = 294 AND Claim_Header_Id = 306974 AND id NOT IN (
+  SELECT Parent_Event_Id
+  FROM Claim_Event
+  WHERE (Claim_Event_Type_Id = 297 OR Claim_Event_Type_Id = 1074) AND Claim_Header_Id = 306974 AND Status_Id = 0
+)
+
+select e1.id from Claim_Event e1
+  join Claim_Event e2 on e1.Id = e2.Parent_Event_Id
+WHERE e1.Status_Id = 0 AND e1.Claim_Event_Type_Id = 294 AND e1.Claim_Header_Id = 306974
+      AND NOT(e2.Claim_Event_Type_Id = 297 OR e2.Claim_Event_Type_Id = 1074)
+
+SELECT Parent_Event_Id
+FROM Claim_Event
+WHERE (Claim_Event_Type_Id = 297 OR Claim_Event_Type_Id = 1074) AND Claim_Header_Id = 306974 AND Status_Id = 0</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1328,8 +1343,24 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgIHdpZHRoOiBpbnRyaW5zaWM7IC8qIFNhZmFyaS9XZWJLaXQgdXNlcyBhIG5vbi1zdGFuZGFyZCBuYW1lICovCiAgICB3aWR0aDogLW1vei1tYXgtY29udGVudDsgLyogRmlyZWZveC9HZWNrbyAqLwogICAgd2lkdGg6IC13ZWJraXQtbWF4LWNvbnRlbnQ7IC8qIENocm9tZSAqLwo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIH0pOwo=</text>
+      <register name="1" type="4">
+        <text>SELECT id
+FROM
+  Claim_Event
+WHERE Status_Id = 0 AND Claim_Event_Type_Id = 294 AND Claim_Header_Id = 306974 AND id NOT IN (
+  SELECT Parent_Event_Id
+  FROM Claim_Event
+  WHERE (Claim_Event_Type_Id = 297 OR Claim_Event_Type_Id = 1074) AND Claim_Header_Id = 306974 AND Status_Id = 0
+)
+
+select e1.id from Claim_Event e1
+  join Claim_Event e2 on e1.Id = e2.Parent_Event_Id
+WHERE e1.Status_Id = 0 AND e1.Claim_Event_Type_Id = 294 AND e1.Claim_Header_Id = 306974
+      AND NOT(e2.Claim_Event_Type_Id = 297 OR e2.Claim_Event_Type_Id = 1074)
+
+SELECT Parent_Event_Id
+FROM Claim_Event
+WHERE (Claim_Event_Type_Id = 297 OR Claim_Event_Type_Id = 1074) AND Claim_Header_Id = 306974 AND Status_Id = 0</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1389,19 +1420,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXEubG9nLmluZm8oJ2VuZCBldmVudCByZWNlaXZlZCcpOwo=</text>
+        <text encoding="base64">ICAgIH0pOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHJlcS5vbignZGF0YScsIGNodW5rID0+IHsKICAgICAgICByZXMud3JpdGUoY2h1bmspOwogICAgfSk7CiAgICByZXEub24oJ2VuZCcsICgpID0+IHsK</text>
+        <text encoding="base64">ICAgICAgICByZXEubG9nLmluZm8oJ2VuZCBldmVudCByZWNlaXZlZCcpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICByZXEucGlwZShyZXF1ZXN0KHJlcS5lY2xhaW1zX3RhcmdldCkpLnBpcGUocmVzKTsK</text>
+        <text encoding="base64">ICAgIHJlcS5vbignZGF0YScsIGNodW5rID0+IHsKICAgICAgICByZXMud3JpdGUoY2h1bmspOwogICAgfSk7CiAgICByZXEub24oJ2VuZCcsICgpID0+IHsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIG5leHQoKTsK</text>
+        <text encoding="base64">ICAgICAgICByZXEucGlwZShyZXF1ZXN0KHJlcS5lY2xhaW1zX3RhcmdldCkpLnBpcGUocmVzKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHJlcS5sb2cuaW5mbyhgcHJveHlpbmcgcmVxdWVzdCB0byAke3JlcS5lY2xhaW1zX3RhcmdldH1gKTsK</text>
+        <text encoding="base64">ICAgIG5leHQoKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1736,13 +1767,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHJlcS5waXBlKHJlcXVlc3QocmVxLmVjbGFpbXNfdGFyZ2V0KSkucGlwZShyZXMpOwo=</text>
+        <text encoding="base64">ICAgIHJlcS5sb2cuaW5mbyhgcHJveHlpbmcgcmVxdWVzdCB0byAke3JlcS5lY2xhaW1zX3RhcmdldH1gKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHJlcS5waXBlKHJlcXVlc3QocmVxLmVjbGFpbXNfdGFyZ2V0KSkucGlwZShyZXMpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGlmICghZm9ybSkgewogICAgICAgIG5leHQobmV3IEVycm9yKCdDb3VsZCBub3QgcGFyc2UgcmVxdWVzdCBib2R5JykpCiAgICB9CiAgICByZXEuZWNsYWltc190YXJnZXQgPSBnZXRUYXJnZXRVcmkoZm9ybSwgcmVxKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

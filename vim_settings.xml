@@ -58,11 +58,7 @@
         <mark key="^" line="63" column="3" />
         <mark key="." line="62" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-directive.js" timestamp="1489404564878">
-        <mark key="]" line="16" column="1" />
-        <mark key="^" line="16" column="1" />
-        <mark key="." line="16" column="1" />
-      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-directive.js" timestamp="1489408856756" />
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/ThreadLocalOnlineRequest.java" timestamp="1483700012771">
         <mark key="[" line="9" column="25" />
         <mark key="]" line="9" column="25" />
@@ -473,6 +469,12 @@
         <mark key="]" line="76" column="69" />
         <mark key="." line="76" column="69" />
         <mark key="^" line="76" column="69" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-resource.js" timestamp="1489409708040">
+        <mark key="[" line="28" column="26" />
+        <mark key="]" line="29" column="24" />
+        <mark key="^" line="29" column="24" />
+        <mark key="." line="29" column="24" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/MailTemplate.java" timestamp="1484943357757">
         <mark key="[" line="4" column="0" />
@@ -1006,6 +1008,11 @@
         <mark key="^" line="13" column="4" />
         <mark key="." line="13" column="4" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-directive.html" timestamp="1489408903365">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/WRRAssigneePoolJdbcDao.java" timestamp="1479204293587">
         <mark key="[" line="14" column="26" />
         <mark key="]" line="14" column="29" />
@@ -1256,7 +1263,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsubmission/router.js" />
       <jump line="1" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsubmission/proxy.js" />
       <jump line="2" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsubmission/proxy.js" />
       <jump line="1" column="24" filename="$USER_HOME$/repos/webclaims/server.js" />
@@ -1356,10 +1362,11 @@
       <jump line="259" column="31" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/claim-header-damage-info-life-ctrl.js" />
       <jump line="260" column="51" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/claim-header-damage-info-life-ctrl.js" />
       <jump line="310" column="25" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/claim-header-damage-info-life-ctrl.js" />
+      <jump line="4" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-directive.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">PHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVkaXQtdHJhbnNsYXRpb249ImNsYWltSGVhZGVyRGFtYWdlSW5mb0xpZmUuaWNkIj4=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1417,8 +1424,8 @@
       <register name="0" type="4">
         <text encoding="base64">IHVzZXJTZXJ2aWNlLmdldEN1cnJlbnRVc2VyKCkub3JFbHNlVGhyb3coKCkgLT4gbmV3IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbihVc2VyU2VydmljZS5OT19DVVJSRU5UX1VTRVIpKS5nZXRJZCgp</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">PHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVkaXQtdHJhbnNsYXRpb249ImNsYWltSGVhZGVyRGFtYWdlSW5mb0xpZmUuaWNkIj4=</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1478,16 +1485,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8dGl0bGU+VGl0bGU8L3RpdGxlPgo8L2hlYWQ+Cjxib2R5PgoKPC9ib2R5Pgo8L2h0bWw+Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoY3JlYXRlTW9kZSkgewogICAgICAgICAgICBjcmVhdGVJY2RDb2Rlc0ZvckNsYWltKGNsYWltSWQsIGljZENvZGVJZHMsIHVzZXJJZCk7CiAgICAgICAgfSBlbHNlIHsK</text>
+      <register name="3" type="4">
+        <text encoding="base64">PHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVkaXQtdHJhbnNsYXRpb249ImNsYWltSGVhZGVyRGFtYWdlSW5mb0xpZmUuaWNkIj4=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWNkQ29kZUlkcy5yZW1vdmVBbGwoZXhpc3RpbmdJY2RDb2Rlcyk7Cgo=</text>
+        <text encoding="base64">ICAgICAgICBpZiAoY3JlYXRlTW9kZSkgewogICAgICAgICAgICBjcmVhdGVJY2RDb2Rlc0ZvckNsYWltKGNsYWltSWQsIGljZENvZGVJZHMsIHVzZXJJZCk7CiAgICAgICAgfSBlbHNlIHsK</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
@@ -1825,13 +1832,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWNkQ29kZUlkcy5yZXRhaW5BbGwoZSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWNkQ29kZUlkcy5yZW1vdmVBbGwoZXhpc3RpbmdJY2RDb2Rlcyk7Cgo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhpc3RpbmdJY2RDb2Rlcy5zdHJlYW0oKQogICAgICAgICAgICAgICAgICAgICAgLmNvbGxlY3QoQ29sbGVjdG9ycy5ncm91cGluZ0J5KGV4aXN0aW5nSWNkQ29kZXMgLT4gKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWNkQ29kZUlkcy5yZXRhaW5BbGwoZSkK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

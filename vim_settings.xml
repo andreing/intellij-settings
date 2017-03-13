@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/a.dummy" timestamp="1489410666533">
+      <file name="/a.dummy" timestamp="1489412212373">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="m" line="0" column="13" />
@@ -58,7 +58,13 @@
         <mark key="^" line="63" column="3" />
         <mark key="." line="62" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-directive.js" timestamp="1489408856756" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-directive.js" timestamp="1489411606640">
+        <mark key="'" line="27" column="8" />
+        <mark key="[" line="41" column="7" />
+        <mark key="]" line="48" column="51" />
+        <mark key="^" line="48" column="51" />
+        <mark key="." line="48" column="51" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/ThreadLocalOnlineRequest.java" timestamp="1483700012771">
         <mark key="[" line="9" column="25" />
         <mark key="]" line="9" column="25" />
@@ -208,7 +214,7 @@
         <mark key="^" line="0" column="55" />
         <mark key="." line="0" column="55" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" timestamp="1484820476355">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" timestamp="1489412211455">
         <mark key="[" line="167" column="15" />
         <mark key="]" line="167" column="13" />
         <mark key="^" line="167" column="13" />
@@ -238,6 +244,7 @@
         <mark key="." line="18" column="0" />
         <mark key="^" line="18" column="3" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/damage-info-sub-claim-ctrl.js" timestamp="1489412096680" />
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/InfoController.java" timestamp="1488804308337">
         <mark key="[" line="175" column="113" />
         <mark key="]" line="175" column="113" />
@@ -465,11 +472,11 @@
         <mark key="." line="76" column="69" />
         <mark key="^" line="76" column="69" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-resource.js" timestamp="1489409708040">
-        <mark key="[" line="28" column="26" />
-        <mark key="]" line="29" column="24" />
-        <mark key="^" line="29" column="24" />
-        <mark key="." line="29" column="24" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-resource.js" timestamp="1489411869924">
+        <mark key="[" line="37" column="36" />
+        <mark key="]" line="19" column="39" />
+        <mark key="^" line="19" column="39" />
+        <mark key="." line="19" column="39" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/MailTemplate.java" timestamp="1484943357757">
         <mark key="[" line="4" column="0" />
@@ -1003,7 +1010,7 @@
         <mark key="^" line="13" column="4" />
         <mark key="." line="13" column="4" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-directive.html" timestamp="1489408903365">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-directive.html" timestamp="1489411620964">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -1264,7 +1271,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsubmission/proxy.js" />
       <jump line="2" column="0" filename="$USER_HOME$/repos/webclaims/apps/claimsubmission/proxy.js" />
       <jump line="1" column="24" filename="$USER_HOME$/repos/webclaims/server.js" />
       <jump line="5" column="20" filename="$USER_HOME$/repos/webclaims/apps/claims/claims-api.js" />
@@ -1364,10 +1370,11 @@
       <jump line="260" column="51" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/claim-header-damage-info-life-ctrl.js" />
       <jump line="310" column="25" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/claim-header-damage-info-life-ctrl.js" />
       <jump line="4" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-directive.html" />
+      <jump line="29" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-directive.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Y2xhaW1zLmRhbWFnZWluZm8uc3ViQ2xhaW0K</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1417,16 +1424,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHVzZXJTZXJ2aWNlLmc=</text>
+        <text>e</text>
       </register>
       <register name="/" type="4">
         <text>bodypart</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">IHVzZXJTZXJ2aWNlLmdldEN1cnJlbnRVc2VyKCkub3JFbHNlVGhyb3coKCkgLT4gbmV3IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbihVc2VyU2VydmljZS5OT19DVVJSRU5UX1VTRVIpKS5nZXRJZCgp</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICB0aGlzLkljZENvZGVSZXNvdXJjZSA9IEljZENvZGVSZXNvdXJjZTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Y2xhaW1zLmRhbWFnZWluZm8uc3ViQ2xhaW0K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1485,20 +1492,20 @@
           <key char="48" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8dGl0bGU+VGl0bGU8L3RpdGxlPgo8L2hlYWQ+Cjxib2R5PgoKPC9ib2R5Pgo8L2h0bWw+Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICAgICByZXR1cm4gdGhpcy5fJGh0dHAoewogICAgICAgICAgICB1cmw6YCR7dGhpcy5hcGl9YmxhL2JsYWJsYS9ib2JjYXRgLAogICAgICAgICAgICBtZXRob2Q6ICdHRVQnCiAgICAgICAgfSkudGhlbihyZXMgPT4gcmVzLmRhdGEpOw==</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">PHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVkaXQtdHJhbnNsYXRpb249ImNsYWltSGVhZGVyRGFtYWdlSW5mb0xpZmUuaWNkIj4=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gdGhpcy5fJGh0dHAoewogICAgICAgICAgICB1cmw6YCR7dGhpcy5hcGl9YmxhL2JsYWJsYS9ib2JjYXRgLAogICAgICAgICAgICBtZXRob2Q6ICdHRVQnCiAgICAgICAgfSkudGhlbihyZXMgPT4gcmVzLmRhdGEpOw==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoY3JlYXRlTW9kZSkgewogICAgICAgICAgICBjcmVhdGVJY2RDb2Rlc0ZvckNsYWltKGNsYWltSWQsIGljZENvZGVJZHMsIHVzZXJJZCk7CiAgICAgICAgfSBlbHNlIHsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1833,13 +1840,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWNkQ29kZUlkcy5yZW1vdmVBbGwoZXhpc3RpbmdJY2RDb2Rlcyk7Cgo=</text>
+        <text encoding="base64">PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8dGl0bGU+VGl0bGU8L3RpdGxlPgo8L2hlYWQ+Cjxib2R5PgoKPC9ib2R5Pgo8L2h0bWw+Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text encoding="base64">PHNwYW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVkaXQtdHJhbnNsYXRpb249ImNsYWltSGVhZGVyRGFtYWdlSW5mb0xpZmUuaWNkIj4=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWNkQ29kZUlkcy5yZXRhaW5BbGwoZSkK</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

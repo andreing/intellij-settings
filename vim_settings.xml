@@ -302,10 +302,10 @@
         <mark key="^" line="5" column="3" />
         <mark key="." line="5" column="3" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1489495898986">
-        <mark key="[" line="240" column="64" />
-        <mark key="]" line="240" column="58" />
-        <mark key="." line="240" column="58" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1489497231217">
+        <mark key="[" line="1029" column="82" />
+        <mark key="]" line="1105" column="0" />
+        <mark key="." line="1105" column="0" />
         <mark key="^" line="240" column="58" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/config/ClaimsTranslateConfig.js" timestamp="1487692150124">
@@ -1254,8 +1254,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="246" column="16" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
-      <jump line="243" column="8" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
       <jump line="248" column="12" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
       <jump line="247" column="13" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
       <jump line="10" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/confirm-delete-template.html" />
@@ -1354,6 +1352,8 @@
       <jump line="71" column="25" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimFormsController.java" />
       <jump line="79" column="22" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimFormsController.java" />
       <jump line="194" column="36" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimFormsController.java" />
+      <jump line="1029" column="78" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
+      <jump line="1101" column="12" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -1410,7 +1410,7 @@
         <text>v.replaceAll(&quot;[^\\s-]&quot;, &quot;x&quot;)</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxtYXBwZXJcPg==</text>
+        <text encoding="base64">XDxwZGZcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIDx1bD4KICAgICAgICA8bGkgbmctcmVwZWF0PSJpY2QgaW4gdm0uaWNkcyB0cmFjayBieSBpY2QuaWQiPmljZDoge3tpY2R9fTwvbGk+CiAgICA8L3VsPgo=</text>
@@ -1476,19 +1476,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAocGRmICE9IG51bGwpIHsKICAgICAgICAgICAgc3VibWl0dGVyRW1haWxEYXRhID0gYWRkQXR0YWNobWVudChzdWJtaXR0ZXJFbWFpbERhdGEsIHBkZi5nZXRJZCgpKTsKICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIChwZGYgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIGNvbnRhY3RFbWFpbERhdGEgPSBhZGRBdHRhY2htZW50KGNvbnRhY3RFbWFpbERhdGEsIHBkZi5nZXRJZCgpKTsKICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAocGRmICE9IG51bGwpIHsKICAgICAgICAgICAgc3VibWl0dGVyRW1haWxEYXRhID0gYWRkQXR0YWNobWVudChzdWJtaXR0ZXJFbWFpbERhdGEsIHBkZi5nZXRJZCgpKTsKICAgICAgICB9Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBTdWJtaXNzaW9uIHJlbW92ZVNlbnNpdGl2ZUZpZWxkcyhTdWJtaXNzaW9uKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBpZiAocGRmICE9IG51bGwpIHsKICAgICAgICAgICAgc3VibWl0dGVyRW1haWxEYXRhID0gYWRkQXR0YWNobWVudChzdWJtaXR0ZXJFbWFpbERhdGEsIHBkZi5nZXRJZCgpKTsKICAgICAgICB9Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgPFQ+IHNldFZhbHVlSGVscGVyKFQgdmFsdWUpIHsKICAgICAgICAKICAgIH0KCiAgICB2b2lkIGZvbyhNYXA8U3RyaW5nLCA/PiBtYXApIHsKICAgICAgICBmb28yKG1hcCk7CiAgICB9CgogICAgPFQgZXh0ZW5kcyBTdHJpbmc+IHZvaWQgZm9vMihNYXA8U3RyaW5nLCBUPiBtYXApIHsKCiAgICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1823,22 +1823,22 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Ly8gICAgICAgIHYucmVwbGFjZUFsbCgiW15cXHMtXSIsICJ4IikK</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBTdWJtaXNzaW9uIHJlbW92ZVNlbnNpdGl2ZUZpZWxkcyhTdWJtaXNzaW9uKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoZW50cnkgLT4gZW50cnkuZW50cnkuZ2V0VmFsdWUoKSkpCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLmZvckVhY2goZW50cnkgLT4gZGF0YS5jb21wdXRlKGVudHJ5LmdldEtleSgpLCAoaywgdikgLT4gdENsYXNzLmNhc3QoKSkpOwo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgPFQ+IHNldFZhbHVlSGVscGVyKFQgdmFsdWUpIHsKICAgICAgICAKICAgIH0KCiAgICB2b2lkIGZvbyhNYXA8U3RyaW5nLCA/PiBtYXApIHsKICAgICAgICBmb28yKG1hcCk7CiAgICB9CgogICAgPFQgZXh0ZW5kcyBTdHJpbmc+IHZvaWQgZm9vMihNYXA8U3RyaW5nLCBUPiBtYXApIHsKCiAgICB9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxtYXBwZXJcPg==</last-search>
+      <last-search encoding="base64">XDxwZGZcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxtYXBwZXJcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxwZGZcPg==</last-pattern>
       <last-replace>h</last-replace>
       <last-substitute>autoH</last-substitute>
       <last-dir>1</last-dir>
@@ -1864,8 +1864,8 @@
         <entry encoding="base64">XDxjdXJyZW50VXNlclw+</entry>
         <entry encoding="base64">XDxzZWxlY3RlZFR5cGVcPg==</entry>
         <entry>bodypart</entry>
-        <entry encoding="base64">XDxwZGZcPg==</entry>
         <entry encoding="base64">XDxtYXBwZXJcPg==</entry>
+        <entry encoding="base64">XDxwZGZcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>%s/\(filter\.\)/vm\.\1/g</entry>

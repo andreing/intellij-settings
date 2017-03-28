@@ -15,8 +15,8 @@
     <variable name="className" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="GROOVY_DECLARATION" value="true" />
-      <option name="SPOCK_SPECIFICATION" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
+      <option name="SPOCK_SPECIFICATION" value="true" />
     </context>
   </template>
   <template name="jstd" value="describe('$testName$', function() {&#10;    $END$&#10;});&#10;" description="js test describe block" toReformat="true" toShortenFQNames="true">
@@ -68,9 +68,9 @@
     <variable name="name" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="value" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML_TEXT" value="false" />
       <option name="XML" value="true" />
+      <option name="XML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
     </context>
   </template>
 </templateSet>

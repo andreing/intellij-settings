@@ -1,6 +1,7 @@
 <templateSet group="user">
-  <template name="cu" value="select * from Users u join Claim_User cu on u.Id = cu.User_Id&#10;where u.User_Name = '$user_name$'" description="Select claim user" toReformat="true" toShortenFQNames="true">
-    <variable name="user_name" expression="complete()" defaultValue="''" alwaysStopAt="true" />
+  <template name="cu" value="select * from Users u join Claim_User cu on u.Id = cu.User_Id&#10;where u.$field_name$ = $field_value$" description="Select claim user" toReformat="true" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field_value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SQL" value="true" />
     </context>

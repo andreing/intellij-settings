@@ -797,8 +797,12 @@
         <mark key="." line="5" column="77" />
         <mark key="^" line="5" column="77" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-directive.js" timestamp="1490776991259">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-directive.js" timestamp="1490787770196">
         <mark key="'" line="40" column="77" />
+        <mark key="[" line="40" column="82" />
+        <mark key="]" line="41" column="11" />
+        <mark key="^" line="41" column="11" />
+        <mark key="." line="41" column="11" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/resources/logback-test.xml" timestamp="1488199244421">
         <mark key="[" line="13" column="22" />
@@ -1412,10 +1416,8 @@
       <jump line="797" column="35" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/claim-header-damage-info-life-ctrl.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>(SELECT id
-     FROM Claim_Type
-     WHERE Description = 'Sjukvård')</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLnRoZW4oKCkgPT4gdGhpcy5nZXRTdG9yZWRJY2RDb2RlcygpKQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1476,7 +1478,7 @@
      WHERE Description = 'Sjukvård')</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICBDcmVhdGVkIERBVEVUSU1FMiBOT1QgTlVMTCwKICBDcmVhdGVkX0J5IElOVCAKICAtLSBjcmVhdGVkIGxhc3R1cGRhdGVkIGFuZCBhbGwgdGhhdCBzaGl0dHkgc3R1ZmYK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLnRoZW4oKCkgPT4gdGhpcy5nZXRTdG9yZWRJY2RDb2RlcygpKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1535,20 +1537,20 @@
           <key char="48" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ICBJZCAgICAgICAgICBJTlQgICAgICAgICAgTk9UIE5VTEwgSURFTlRJVFkgKDEsIDEpIFBSSU1BUlkgS0VZLAogIENvZGUgICAgICAgIFZBUkNIQVIoMjApICBOT1QgTlVMTCwKICBEZXNjcmlwdGlvbiBWQVJDSEFSKDI0MCkgTk9UIE5VTEwsCiAgVmFsaWRfRnJvbSAgREFURSAgICAgICAgICAgICAgICAgIERFRkFVTFQgZ2V0ZGF0ZSgpLAogIFZhbGlkX1RvICAgIERBVEU=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLnRoZW4oKCkgPT4gdGhpcy5nZXRTdG9yZWRJY2RDb2RlcygpKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Q1JFQVRFIFRBQkxFIENsYWltX0ljZF9Db2RlIHsKICAKICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLnRoZW4oKCkgPT4gdGhpcy5nZXRTdG9yZWRJY2RDb2RlcygpKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">c2VsZWN0ICogZnJvbSBDbGFpbV9Gb3JtX0Fzc2lnbmVkX1VzZXIgd2hlcmUgTG9iID0gNCBhbmQgQ291bnRyeSA9IDMKU0VMRUNUICoKRlJPTSBVc2VycyB1CiAgSk9JTiBDbGFpbV9Vc2VyIGN1IE9OIHUuSWQgPSBjdS5Vc2VyX0lkCldIRVJFIHUuSWQgPSAxMTI1ClNFTEVDVCAqIGZyb20gQ2xhaW1fVHlwZSB3aGVyZSBEZXNjcmlwdGlvbiA9ICdTanVrdsOlcmQnCgpzZWxlY3QgKiBmcm9tIENsYWltX0Zvcm1fRGVmaW5pdGlvbgoKREVMRVRFIGZyb20gQ2xhaW1fRm9ybV9EZWZpbml0aW9uCgpzZWxlY3QgbmFtZSwgbWF4KHZlcnNpb24pIGZyb20gQ2xhaW1fRm9ybV9EZWZpbml0aW9uIHdoZXJlIG5hbWUgbGlrZSAnc2VfbGlmZV8lJyBncm91cCBieSBuYW1lCgpzZWxlY3QgKiBmcm9tIENsYWltX0V2ZW50IHdoZXJlIGlkID0gNDI2MTg3NQo=</text>
+        <text encoding="base64">ICBDcmVhdGVkIERBVEVUSU1FMiBOT1QgTlVMTCwKICBDcmVhdGVkX0J5IElOVCAKICAtLSBjcmVhdGVkIGxhc3R1cGRhdGVkIGFuZCBhbGwgdGhhdCBzaGl0dHkgc3R1ZmYK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIC8vTk9URSBkdXBsaWNhdGUKICAgIHByaXZhdGUgTGlzdDxMb25nPiBmaW5kSWNkQ29kZXNGb3JDbGFpbShsb25nIGNsYWltSWQpIHsKICAgICAgICBTdHJpbmcgc3FsID0gIlNFTEVDVCBJY2RfQ29kZV9JZCAiICsKICAgICAgICAgICAgICAgICJGUk9NIENsYWltX0lDRF9Db2RlICIgKwogICAgICAgICAgICAgICAgIldIRVJFIENsYWltX0lkID0gPyBBTkQgU3RhdHVzX0lkICE9ID8iOwoKICAgICAgICBpbnQgZGVsZXRlZFN0YXR1c0lkID0gU3RhdHVzLk9CSkVDVF9ERUxFVEVELmdldElkKCk7CgogICAgICAgIHJldHVybiB0ZW1wbGF0ZS5xdWVyeShzcWwsIChycywgcm93TnVtKSAtPiBycy5nZXRMb25nKCJJY2RfQ29kZV9JZCIpLCBjbGFpbUlkLCBkZWxldGVkU3RhdHVzSWQpOwogICAgfQo=</text>
+      <register name="5" type="4">
+        <text encoding="base64">ICBJZCAgICAgICAgICBJTlQgICAgICAgICAgTk9UIE5VTEwgSURFTlRJVFkgKDEsIDEpIFBSSU1BUlkgS0VZLAogIENvZGUgICAgICAgIFZBUkNIQVIoMjApICBOT1QgTlVMTCwKICBEZXNjcmlwdGlvbiBWQVJDSEFSKDI0MCkgTk9UIE5VTEwsCiAgVmFsaWRfRnJvbSAgREFURSAgICAgICAgICAgICAgICAgIERFRkFVTFQgZ2V0ZGF0ZSgpLAogIFZhbGlkX1RvICAgIERBVEU=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgc3FsID0gIlNFTEVDVCAiICsKICAgICAgICAgICAgICAgICJpY2QuSWQiICsKICAgICAgICAgICAgICAgICJpY2QuQ29kZSwiICsKICAgICAgICAgICAgICAgICJpY2QuRGVzY3JpcHRpb24gIiArCiAgICAgICAgICAgICAgICAiZnJvbSBJQ0RfMTBfU0UgaWNkIGpvaW4gQ2xhaW1fSUNEX0NvZGUgY2kgb24gY2kuSWNkX0lkID0gaWNkLklkICIgKwogICAgICAgICAgICAgICAgIndoZXJlIGNpLkNsYWltX0lkID0gPyBhbmQgY2kuU3RhdHVzX0lkICE9ID8iOwoKICAgICAgICB0ZW1wbGF0ZS5xdWVyeShzcWwsIG0pOwo=</text>
+        <text encoding="base64">Q1JFQVRFIFRBQkxFIENsYWltX0ljZF9Db2RlIHsKICAKICB9Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1883,16 +1885,16 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgSUNEVHlwZSBtYXBJY2RUeXBlKFJlc3VsdFNldCBycywgaW50IHJvd051bSkgdGhyb3dzIFNRTEV4Y2VwdGlvbiB7CiAgICAgICAgSUNEVHlwZSBpY2QgPSBuZXcgSUNEVHlwZSgpOwogICAgICAgIGljZC5zZXRJZChycy5nZXRMb25nKCJJZCIpKTsKICAgICAgICBpY2Quc2V0Q29kZShycy5nZXRTdHJpbmcoIkNvZGUiKSk7CiAgICAgICAgaWNkLnNldERlc2NyaXB0aW9uKHJzLmdldFN0cmluZygiRGVzY3JpcHRpb24iKSk7CiAgICAgICAgcmV0dXJuIGljZDsKICAgIH0KCg==</text>
+        <text encoding="base64">c2VsZWN0ICogZnJvbSBDbGFpbV9Gb3JtX0Fzc2lnbmVkX1VzZXIgd2hlcmUgTG9iID0gNCBhbmQgQ291bnRyeSA9IDMKU0VMRUNUICoKRlJPTSBVc2VycyB1CiAgSk9JTiBDbGFpbV9Vc2VyIGN1IE9OIHUuSWQgPSBjdS5Vc2VyX0lkCldIRVJFIHUuSWQgPSAxMTI1ClNFTEVDVCAqIGZyb20gQ2xhaW1fVHlwZSB3aGVyZSBEZXNjcmlwdGlvbiA9ICdTanVrdsOlcmQnCgpzZWxlY3QgKiBmcm9tIENsYWltX0Zvcm1fRGVmaW5pdGlvbgoKREVMRVRFIGZyb20gQ2xhaW1fRm9ybV9EZWZpbml0aW9uCgpzZWxlY3QgbmFtZSwgbWF4KHZlcnNpb24pIGZyb20gQ2xhaW1fRm9ybV9EZWZpbml0aW9uIHdoZXJlIG5hbWUgbGlrZSAnc2VfbGlmZV8lJyBncm91cCBieSBuYW1lCgpzZWxlY3QgKiBmcm9tIENsYWltX0V2ZW50IHdoZXJlIGlkID0gNDI2MTg3NQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsgLy9yZXR1cm4gbWFwcGVkCg==</text>
+        <text encoding="base64">ICAgIC8vTk9URSBkdXBsaWNhdGUKICAgIHByaXZhdGUgTGlzdDxMb25nPiBmaW5kSWNkQ29kZXNGb3JDbGFpbShsb25nIGNsYWltSWQpIHsKICAgICAgICBTdHJpbmcgc3FsID0gIlNFTEVDVCBJY2RfQ29kZV9JZCAiICsKICAgICAgICAgICAgICAgICJGUk9NIENsYWltX0lDRF9Db2RlICIgKwogICAgICAgICAgICAgICAgIldIRVJFIENsYWltX0lkID0gPyBBTkQgU3RhdHVzX0lkICE9ID8iOwoKICAgICAgICBpbnQgZGVsZXRlZFN0YXR1c0lkID0gU3RhdHVzLk9CSkVDVF9ERUxFVEVELmdldElkKCk7CgogICAgICAgIHJldHVybiB0ZW1wbGF0ZS5xdWVyeShzcWwsIChycywgcm93TnVtKSAtPiBycy5nZXRMb25nKCJJY2RfQ29kZV9JZCIpLCBjbGFpbUlkLCBkZWxldGVkU3RhdHVzSWQpOwogICAgfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgc3FsID0gIlNFTEVDVCAiICsKICAgICAgICAgICAgICAgICJpY2QuSWQiICsKICAgICAgICAgICAgICAgICJpY2QuQ29kZSwiICsKICAgICAgICAgICAgICAgICJpY2QuRGVzY3JpcHRpb24gIiArCiAgICAgICAgICAgICAgICAiZnJvbSBJQ0RfMTBfU0UgaWNkIGpvaW4gQ2xhaW1fSUNEX0NvZGUgY2kgb24gY2kuSWNkX0lkID0gaWNkLklkICIgKwogICAgICAgICAgICAgICAgIndoZXJlIGNpLkNsYWltX0lkID0gPyBhbmQgY2kuU3RhdHVzX0lkICE9ID8iOwoKICAgICAgICB0ZW1wbGF0ZS5xdWVyeShzcWwsIG0pOwo=</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>let mapleader=&quot;,&quot;</text>
       </register>
     </registers>
     <search>
@@ -1928,12 +1930,6 @@
         <entry encoding="base64">XDxtb2RlbFw+</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zLywvLFxyL2c=</entry>
-        <entry encoding="base64">JzwsJz5zL3RtcGwvXCZOb2RlL2c=</entry>
-        <entry encoding="base64">JzwsJz5zL3RtcGwvJk5vZGUvZw==</entry>
-        <entry encoding="base64">JzwsJz5zL3RlbXBsYXRlL25vZGUvZw==</entry>
-        <entry>reg</entry>
-        <entry encoding="base64">JzwsJz5zL2Jhc2VDL2MvZw==</entry>
         <entry encoding="base64">JzwsJz5zL14vIi8=</entry>
         <entry encoding="base64">JzwsJz5zL15bXiBdKy8mIi8=</entry>
         <entry encoding="base64">JzwsJz5zL15bXlwgXSsvJiIv</entry>
@@ -1948,6 +1944,12 @@
         <entry>w</entry>
         <entry>:q</entry>
         <entry>q</entry>
+        <entry>set mapleader?</entry>
+        <entry>set mapleader ?</entry>
+        <entry>set mapleader</entry>
+        <entry>let mapleader?</entry>
+        <entry>let mapleader=,</entry>
+        <entry>let mapleader=&quot;,&quot;</entry>
       </history-cmd>
       <history-expr />
       <history-input />

@@ -1,4 +1,10 @@
 <keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="b" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="c" />
+  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="ctrl meta k" />
   </action>

@@ -823,12 +823,12 @@
         <mark key="." line="5" column="77" />
         <mark key="^" line="5" column="77" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-directive.js" timestamp="1490873702589">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-directive.js" timestamp="1490878676793">
         <mark key="'" line="70" column="8" />
-        <mark key="[" line="77" column="0" />
-        <mark key="]" line="77" column="0" />
-        <mark key="^" line="72" column="13" />
-        <mark key="." line="77" column="0" />
+        <mark key="[" line="121" column="41" />
+        <mark key="]" line="121" column="50" />
+        <mark key="^" line="121" column="50" />
+        <mark key="." line="121" column="50" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/resources/logback-test.xml" timestamp="1488199244421">
         <mark key="[" line="13" column="22" />
@@ -1080,8 +1080,8 @@
         <mark key="^" line="13" column="4" />
         <mark key="." line="13" column="4" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-directive.html" timestamp="1490873450439">
-        <mark key="[" line="10" column="68" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-directive.html" timestamp="1490878142809">
+        <mark key="[" line="9" column="103" />
         <mark key="]" line="10" column="48" />
         <mark key="." line="10" column="48" />
         <mark key="^" line="10" column="48" />
@@ -1283,11 +1283,12 @@
         <mark key="^" line="44" column="17" />
         <mark key="." line="44" column="17" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimJdbcDao.java" timestamp="1490875305248">
-        <mark key="'" line="663" column="8" />
-        <mark key="[" line="662" column="10" />
-        <mark key="]" line="662" column="0" />
-        <mark key="." line="662" column="0" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimJdbcDao.java" timestamp="1490877532456">
+        <mark key="'" line="665" column="8" />
+        <mark key="[" line="624" column="91" />
+        <mark key="]" line="624" column="49" />
+        <mark key="." line="624" column="49" />
+        <mark key="^" line="624" column="49" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-module.js" timestamp="1490870706044">
         <mark key="[" line="1" column="52" />
@@ -1448,7 +1449,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIEBPdmVycmlkZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJwcmVzdW1hYmx5IHNvcnRlZCBsaXN0ICVPIiwgdG8pOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1507,7 +1508,7 @@
         <text encoding="base64">ICAgICAgICB9KTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEBPdmVycmlkZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJwcmVzdW1hYmx5IHNvcnRlZCBsaXN0ICVPIiwgdG8pOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1567,19 +1568,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIExpc3Q8TG9uZz4gZmluZEljZENvZGVzQnlDbGFpbUlkKExvbmcgaWQpOwo=</text>
+        <text encoding="base64">ICAgICAgICBMaXN0PExvbmc+IHJldml2ZUlkcyA9IG5ld0ljZElkcy5zdHJlYW0oKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZpbHRlcihmdWxsSWNkSGlzdG9yeTo6Y29udGFpbnMpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuY29sbGVjdChDb2xsZWN0b3JzLnRvTGlzdCgpKTsKCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGdldFNlbGVjdGVkSWNkcyhjbGFpbUlkKSB7CiAgICAgICAgcmV0dXJuIHRoaXMuXyRodHRwKHsKICAgICAgICAgICAgdXJsOmAke3RoaXMuYXBpfXlvL3lwLz8/Pz8/YCwKICAgICAgICAgICAgbWV0aG9kOiAnR0VUJwogICAgICAgIH0pLnRoZW4ocmVzID0+IHJlcy5kYXRhKTsKICAgICAgICAvLyByZXR1cm4gUHJvbWlzZS5yZXNvbHZlKFsyLDNdKTsKICAgIH0KCiAgICBwdXRTZWxlY3RlZEljZHMoY2xhaW1JZCwgaWNkSWRzKSB7CiAgICAgICAgcmV0dXJuIHRoaXMuXyRodHRwKHsKICAgICAgICAgICAgdXJsOmAke3RoaXMuYXBpfXd3dy9ub3J0b24vYW50aXZpcnVzYCwKICAgICAgICAgICAgbWV0aG9kOiAnUE9TVCcsCiAgICAgICAgICAgIGRhdGE6IGljZElkcwogICAgICAgIH0pLnRoZW4ocmVzID0+IHJlcy5kYXRhKTsKICAgICAgICAvLyByZXR1cm4gUHJvbWlzZS5yZXNvbHZlKHt9KTsKICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAvLyByZXR1cm4gUHJvbWlzZS5yZXNvbHZlKFsKICAgICAgICAvLyAgICAge2lkOjEsIGNvZGU6J25nYXMnLCBkZXNjcmlwdGlvbjonYWFhYSBhYWFhYSBhYWFhYWEgYWEgYSAgYSd9LAogICAgICAgIC8vICAgICB7aWQ6MiwgY29kZTonRjA5MW4nLCBkZXNjcmlwdGlvbjogJ2JiYmIgYmJiYmJiYid9LAogICAgICAgIC8vICAgICB7aWQ6MywgY29kZTonUMOlQVPDhS0xMScsIGRlc2NyaXB0aW9uOiAnY2NjY2NjYyBjY2NjIGMgYyBjY2NjY2MgY2NjICd9LAogICAgICAgIC8vICAgICB7aWQ6NCwgY29kZTonLGFpMTAwLUhOTkdIJywgZGVzY3JpcHRpb246ICdkZGRkIGRkIGQgZCBkIGRkZGRkZCBkIGQnfQogICAgICAgIC8vIF0pOwo=</text>
+        <text encoding="base64">ICAgICAgICBpbnQgZGVsZXRlZFN0YXR1c0lkID0gU3RhdHVzLk9CSkVDVF9ERUxFVEVELmdldElkKCk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGdldFN0b3JlZEljZENvZGVzKCkgewogICAgICAgIHJldHVybiB0aGlzLkljZENvZGVSZXNvdXJjZS5nZXRTZWxlY3RlZEljZHModGhpcy5jbGFpbUlkKTsKICAgIH0KCg==</text>
+        <text encoding="base64">ICAgIEBPdmVycmlkZQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1914,13 +1915,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHB1dEljZENvZGVzKHNlbGVjdGVkSWNkcykgewogICAgICAgIHJldHVybiB0aGlzLkljZENvZGVSZXNvdXJjZS5wdXRTZWxlY3RlZEljZHModGhpcy5jbGFpbUlkLCBzZWxlY3RlZEljZHMpOwogICAgfQoK</text>
+        <text encoding="base64">ICAgIExpc3Q8TG9uZz4gZmluZEljZENvZGVzQnlDbGFpbUlkKExvbmcgaWQpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygiZm9ybSBpbnNpZGUgJU8iLCB0aGlzLmZvcm0pOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB9KTsK</text>
+        <text encoding="base64">ICAgIGdldFNlbGVjdGVkSWNkcyhjbGFpbUlkKSB7CiAgICAgICAgcmV0dXJuIHRoaXMuXyRodHRwKHsKICAgICAgICAgICAgdXJsOmAke3RoaXMuYXBpfXlvL3lwLz8/Pz8/YCwKICAgICAgICAgICAgbWV0aG9kOiAnR0VUJwogICAgICAgIH0pLnRoZW4ocmVzID0+IHJlcy5kYXRhKTsKICAgICAgICAvLyByZXR1cm4gUHJvbWlzZS5yZXNvbHZlKFsyLDNdKTsKICAgIH0KCiAgICBwdXRTZWxlY3RlZEljZHMoY2xhaW1JZCwgaWNkSWRzKSB7CiAgICAgICAgcmV0dXJuIHRoaXMuXyRodHRwKHsKICAgICAgICAgICAgdXJsOmAke3RoaXMuYXBpfXd3dy9ub3J0b24vYW50aXZpcnVzYCwKICAgICAgICAgICAgbWV0aG9kOiAnUE9TVCcsCiAgICAgICAgICAgIGRhdGE6IGljZElkcwogICAgICAgIH0pLnRoZW4ocmVzID0+IHJlcy5kYXRhKTsKICAgICAgICAvLyByZXR1cm4gUHJvbWlzZS5yZXNvbHZlKHt9KTsKICAgIH0K</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

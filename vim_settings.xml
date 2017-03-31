@@ -692,12 +692,12 @@
         <mark key="." line="71" column="51" />
         <mark key="^" line="71" column="51" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1490963914345">
-        <mark key="'" line="1579" column="79" />
-        <mark key="[" line="562" column="6" />
-        <mark key="]" line="562" column="6" />
-        <mark key="." line="562" column="6" />
-        <mark key="^" line="1086" column="29" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1490964626241">
+        <mark key="'" line="1599" column="79" />
+        <mark key="[" line="567" column="70" />
+        <mark key="]" line="572" column="7" />
+        <mark key="." line="572" column="7" />
+        <mark key="^" line="572" column="7" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/property/uk_property_schema.xml" timestamp="1486981273012">
         <mark key="'" line="4" column="8" />
@@ -1444,10 +1444,8 @@
       <jump line="486" column="0" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimJdbcDao.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>Claim_Type_Id IN (SELECT id
-                        FROM Claim_Type
-                        WHERE Description = 'Sjukvård')</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICBGUk9NIENsYWltX0NhdXNlIGMKICAgIFdIRVJFIHQuRGVzY3JpcHRpb24gPSAnT2x5Y2tzZmFsbCcK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1505,10 +1503,8 @@
       <register name="0" type="4">
         <text>, getdate(), 0, getdate(), 0, 5000, 3, -1, 5, 0, 0, 2, null, 21, 1)</text>
       </register>
-      <register name="1" type="4">
-        <text>Claim_Type_Id IN (SELECT id
-                        FROM Claim_Type
-                        WHERE Description = 'Sjukvård')</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICBGUk9NIENsYWltX0NhdXNlIGMKICAgIFdIRVJFIHQuRGVzY3JpcHRpb24gPSAnT2x5Y2tzZmFsbCcK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1568,19 +1564,21 @@
         </keys>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgIEpPSU4gQ2xhaW1fVHlwZV9DYXVzZSB0YyBPTiB0LklkID0gdGMuQ2xhaW1fVHlwZV9JZAo=</text>
+      </register>
+      <register name="3" type="4">
+        <text>Claim_Type_Id IN (SELECT id
+                        FROM Claim_Type
+                        WHERE Description = 'Sjukvård')</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Ly8gICAgICAgIH0K</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ZGQvLyAgICAgICAgaWYoaWNkQ29kZUlkcyAhPSBudWxsKSB7Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text encoding="base64">Ly8gICAgICAgIGlmKGljZENvZGVJZHMgIT0gbnVsbCl7Ci8vICAgICAgICAgICAgbmV3SWNkSWRzLmFkZEFsbChpY2RDb2RlSWRzKTsKLy8gICAgICAgIH1lbHNlewovLyAgICAgICAgICAgIG5ld0ljZElkcy5hZGRBbGwobmV3IEFycmF5TGlzdDw+KCkpOwovLyAgICAgICAgfQ==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB9ZWxzZXsK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpZihpY2RDb2RlSWRzICE9IG51bGwpIHsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1915,13 +1913,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAtLSBjcmVhdGVkIGxhc3R1cGRhdGVkIGFuZCBhbGwgdGhhdCBzaGl0dHkgc3R1ZmYK</text>
+        <text encoding="base64">ICAgICAgICB9ZWxzZXsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
+        <text encoding="base64">ICAgICAgICBpZihpY2RDb2RlSWRzICE9IG51bGwpIHsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHNlbGVjdEFzc2lnbmVlRm9yTmV3SGVhZGVyQ29udHJvbGxlci5uYW1lCj09PT09PT0K</text>
+        <text encoding="base64">ICAtLSBjcmVhdGVkIGxhc3R1cGRhdGVkIGFuZCBhbGwgdGhhdCBzaGl0dHkgc3R1ZmYK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

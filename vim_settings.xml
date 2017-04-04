@@ -208,6 +208,11 @@
         <mark key="^" line="167" column="13" />
         <mark key="." line="167" column="13" />
       </file>
+      <file name="$USER_HOME$/dev/robotprocessing/m7/src/main/main.iml" timestamp="1491306142997">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="0" />
+        <mark key="." line="9" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-routes.js" timestamp="1490885095108">
         <mark key="[" line="79" column="0" />
         <mark key="]" line="79" column="0" />
@@ -1100,6 +1105,9 @@
         <mark key="^" line="59" column="14" />
         <mark key="." line="59" column="14" />
       </file>
+      <file name="$USER_HOME$/dev/robotprocessing/m7/build.gradle" timestamp="1491306112600">
+        <mark key="[" line="24" column="14" />
+      </file>
       <file name="$USER_HOME$/repos/webclaims/config/development.yaml" timestamp="1489671882075">
         <mark key="'" line="10" column="0" />
         <mark key="[" line="12" column="0" />
@@ -1450,7 +1458,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">c2VsZWN0ICogZnJvbSBDbGFpbV9DYXVzZV9GaWx0ZXIgY2NmIGpvaW4gYwo=</text>
+        <text encoding="base64">ICAgIDxvcmRlckVudHJ5IHR5cGU9ImxpYnJhcnkiIG5hbWU9IkdyYWRsZTogb3JnLnNwcmluZ2ZyYW1ld29yay5ib290OnNwcmluZy1ib290OjEuNS4yLlJFTEVBU0UiIGxldmVsPSJwcm9qZWN0IiAvPgo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1509,7 +1517,7 @@
         <text>, getdate(), 0, getdate(), 0, 5000, 3, -1, 5, 0, 0, 2, null, 21, 1)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">c2VsZWN0ICogZnJvbSBDbGFpbV9DYXVzZV9GaWx0ZXIgY2NmIGpvaW4gYwo=</text>
+        <text encoding="base64">ICAgIDxvcmRlckVudHJ5IHR5cGU9ImxpYnJhcnkiIG5hbWU9IkdyYWRsZTogb3JnLnNwcmluZ2ZyYW1ld29yay5ib290OnNwcmluZy1ib290OjEuNS4yLlJFTEVBU0UiIGxldmVsPSJwcm9qZWN0IiAvPgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1569,21 +1577,21 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">U0VMRUNUICoKRlJPTSBDbGFpbV9UeXBlX0NhdXNlCldIRVJFIENsYWltX1R5cGVfSWQgSU4gKFNFTEVDVCBpZAogICAgICAgICAgICAgICAgICAgICAgICBGUk9NIENsYWltX1R5cGUKICAgICAgICAgICAgICAgICAgICAgICAgV0hFUkUgRGVzY3JpcHRpb24gPSAnU2p1a3bDpXJkJykK</text>
+        <text encoding="base64">c2VsZWN0ICogZnJvbSBDbGFpbV9DYXVzZV9GaWx0ZXIgY2NmIGpvaW4gYwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICBGUk9NIENsYWltX0NhdXNlIGMKICAgIFdIRVJFIHQuRGVzY3JpcHRpb24gPSAnT2x5Y2tzZmFsbCcK</text>
+        <text encoding="base64">U0VMRUNUICoKRlJPTSBDbGFpbV9UeXBlX0NhdXNlCldIRVJFIENsYWltX1R5cGVfSWQgSU4gKFNFTEVDVCBpZAogICAgICAgICAgICAgICAgICAgICAgICBGUk9NIENsYWltX1R5cGUKICAgICAgICAgICAgICAgICAgICAgICAgV0hFUkUgRGVzY3JpcHRpb24gPSAnU2p1a3bDpXJkJykK</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICBGUk9NIENsYWltX0NhdXNlIGMKICAgIFdIRVJFIHQuRGVzY3JpcHRpb24gPSAnT2x5Y2tzZmFsbCcK</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgIEpPSU4gQ2xhaW1fVHlwZV9DYXVzZSB0YyBPTiB0LklkID0gdGMuQ2xhaW1fVHlwZV9JZAo=</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>Claim_Type_Id IN (SELECT id
                         FROM Claim_Type
                         WHERE Description = 'Sjukvård')</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Ly8gICAgICAgIH0K</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1918,13 +1926,13 @@
         </keys>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">Ly8gICAgICAgIH0K</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ZGQvLyAgICAgICAgaWYoaWNkQ29kZUlkcyAhPSBudWxsKSB7Cg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text encoding="base64">Ly8gICAgICAgIGlmKGljZENvZGVJZHMgIT0gbnVsbCl7Ci8vICAgICAgICAgICAgbmV3SWNkSWRzLmFkZEFsbChpY2RDb2RlSWRzKTsKLy8gICAgICAgIH1lbHNlewovLyAgICAgICAgICAgIG5ld0ljZElkcy5hZGRBbGwobmV3IEFycmF5TGlzdDw+KCkpOwovLyAgICAgICAgfQ==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB9ZWxzZXsK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
@@ -1937,7 +1945,7 @@
       <last-replace>h</last-replace>
       <last-substitute encoding="base64">XDxwZGZcPg==</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>

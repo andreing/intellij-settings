@@ -336,6 +336,11 @@
         <mark key="." line="7" column="41" />
         <mark key="^" line="7" column="41" />
       </file>
+      <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_occupational_confirmation.xml" timestamp="1491378230240">
+        <mark key="[" line="1" column="164" />
+        <mark key="]" line="1" column="165" />
+        <mark key="." line="1" column="165" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/WRRAssignee.java" timestamp="1481716842320">
         <mark key="[" line="9" column="23" />
         <mark key="]" line="9" column="10" />
@@ -437,6 +442,13 @@
         <mark key="^" line="4" column="72" />
         <mark key="." line="4" column="72" />
       </file>
+      <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours_confirmation.xml" timestamp="1491378238281">
+        <mark key="'" line="14" column="0" />
+        <mark key="[" line="1" column="163" />
+        <mark key="]" line="1" column="160" />
+        <mark key="." line="1" column="160" />
+        <mark key="^" line="1" column="160" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/rr-admin-ctrl.js" timestamp="1487697541540">
         <mark key="'" line="372" column="20" />
         <mark key="[" line="372" column="0" />
@@ -451,12 +463,12 @@
         <mark key="^" line="153" column="108" />
         <mark key="." line="101" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/finland/life/fi_life_workerscomp_confirmation.xml" timestamp="1490113608883">
-        <mark key="'" line="16" column="186" />
-        <mark key="[" line="1" column="145" />
-        <mark key="]" line="1" column="145" />
-        <mark key="." line="1" column="145" />
-        <mark key="^" line="1" column="145" />
+      <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/finland/life/fi_life_workerscomp_confirmation.xml" timestamp="1491378172257">
+        <mark key="'" line="55" column="0" />
+        <mark key="[" line="1" column="150" />
+        <mark key="]" line="1" column="147" />
+        <mark key="." line="1" column="147" />
+        <mark key="^" line="1" column="147" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/ClaimAssignmentException.java" timestamp="1479842380587">
         <mark key="[" line="2" column="46" />
@@ -1355,8 +1367,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="64" column="8" filename="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" />
-      <jump line="78" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-directive.js" />
       <jump line="84" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-directive.js" />
       <jump line="66" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-directive.js" />
       <jump line="54" column="215" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_child.xml" />
@@ -1455,10 +1465,12 @@
       <jump line="347" column="71" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/damage-info-sub-claim.html" />
       <jump line="17" column="143" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/damage-info-sub-claim.html" />
       <jump line="0" column="26" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/damage-info-sub-claim-ctrl.js" />
+      <jump line="55" column="0" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/finland/life/fi_life_workerscomp_confirmation.xml" />
+      <jump line="14" column="0" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours_confirmation.xml" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuaW50ZWdyYXRpb24uZHNsLmthZmthLkthZmthUHJvZHVjZXJNZXNzYWdlSGFuZGxlclNwZWM7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxmaWVsZCByZWFkb25seT0idHJ1ZSIgY29weT0iZmllbGQoJ2RhbWFnZV9kZXNjcmlwdGlvbicpIiBuYW1lPSJkYW1hZ2VfZGVzY3JpcHRpb24iIHRpdGxlPSJCZXNrcml2ZWxzZSBhdiB1bHlra2VzaGVuZGVsc2VuL3N5a2RvbW1lbiIgdHlwZT0idGV4dGFyZWEiIHNlbnNpdGl2ZT0idHJ1ZSIvPgo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1517,7 +1529,7 @@
         <text>, getdate(), 0, getdate(), 0, 5000, 3, -1, 5, 0, 0, 2, null, 21, 1)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuaW50ZWdyYXRpb24uZHNsLmthZmthLkthZmthUHJvZHVjZXJNZXNzYWdlSGFuZGxlclNwZWM7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxmaWVsZCByZWFkb25seT0idHJ1ZSIgY29weT0iZmllbGQoJ2RhbWFnZV9kZXNjcmlwdGlvbicpIiBuYW1lPSJkYW1hZ2VfZGVzY3JpcHRpb24iIHRpdGxlPSJCZXNrcml2ZWxzZSBhdiB1bHlra2VzaGVuZGVsc2VuL3N5a2RvbW1lbiIgdHlwZT0idGV4dGFyZWEiIHNlbnNpdGl2ZT0idHJ1ZSIvPgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1576,7 +1588,16 @@
           <key char="48" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxmaWVsZCByZWFkb25seT0idHJ1ZSIgY29weT0iZmllbGQoJ2RhbWFnZV9kZXNjcmlwdGlvbicpIiB0aXRsZT0iQmVza3JpdiB1bHlra2VzaGVuZGVsc2VuL3N5a2RvbW1lbiwgc2FtdCBvcHBnaSBza2FkZXQga3JvcHBzZGVsIiBuYW1lPSJkYW1hZ2VfZGVzY3JpcHRpb24iIHR5cGU9InRleHRhcmVhIiBzZW5zaXRpdmU9InRydWUiLz4K</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxmaWVsZCByZWFkb25seT0idHJ1ZSIgY29weT0iZmllbGQoJ2luanVyZWRfcGVyc29uLnBlcnNvbmFsX2lkZW50aWZpZXInKSIgdGl0bGU9IkhlbmtpbMO2dHVubnVzIiBuYW1lPSJwZXJzb25hbF9pZCIgcmVxdWlyZWQ9InRydWUiIHBhdHRlcm49Il4oWzAtOV17Nn1bLWF8QV1bMC05XXszfVthLXlBLVkwLTldezF9KSIgdHlwZT0idGV4dCIgc2Vuc2l0aXZlPSJ0cnVlIi8+Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuaW50ZWdyYXRpb24uZHNsLmthZmthLkthZmthUHJvZHVjZXJNZXNzYWdlSGFuZGxlclNwZWM7Cg==</text>
+      </register>
+      <register name="5" type="4">
         <text>sourceSets {
 	main {
 		resources {
@@ -1585,19 +1606,10 @@
 	}
 }</text>
       </register>
-      <register name="3" type="4">
+      <register name="6" type="4">
         <text>resour {
 	directory 'src/main/resources/processes'
 }</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBQcm9jZXNzRW5naW5lcy5ISAo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Ly8JY29tcGlsZSgnb3JnLnNwcmluZ2ZyYW1ld29yay5pbnRlZ3JhdGlvbjpzcHJpbmctaW50ZWdyYXRpb24ta2Fma2EnKQo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIDxvcmRlckVudHJ5IHR5cGU9ImxpYnJhcnkiIG5hbWU9IkdyYWRsZTogb3JnLnNwcmluZ2ZyYW1ld29yay5ib290OnNwcmluZy1ib290OjEuNS4yLlJFTEVBU0UiIGxldmVsPSJwcm9qZWN0IiAvPgo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1932,13 +1944,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">c2VsZWN0ICogZnJvbSBDbGFpbV9DYXVzZV9GaWx0ZXIgY2NmIGpvaW4gYwo=</text>
+        <text encoding="base64">ICAgICAgICBQcm9jZXNzRW5naW5lcy5ISAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">U0VMRUNUICoKRlJPTSBDbGFpbV9UeXBlX0NhdXNlCldIRVJFIENsYWltX1R5cGVfSWQgSU4gKFNFTEVDVCBpZAogICAgICAgICAgICAgICAgICAgICAgICBGUk9NIENsYWltX1R5cGUKICAgICAgICAgICAgICAgICAgICAgICAgV0hFUkUgRGVzY3JpcHRpb24gPSAnU2p1a3bDpXJkJykK</text>
+        <text encoding="base64">Ly8JY29tcGlsZSgnb3JnLnNwcmluZ2ZyYW1ld29yay5pbnRlZ3JhdGlvbjpzcHJpbmctaW50ZWdyYXRpb24ta2Fma2EnKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICBGUk9NIENsYWltX0NhdXNlIGMKICAgIFdIRVJFIHQuRGVzY3JpcHRpb24gPSAnT2x5Y2tzZmFsbCcK</text>
+        <text encoding="base64">ICAgIDxvcmRlckVudHJ5IHR5cGU9ImxpYnJhcnkiIG5hbWU9IkdyYWRsZTogb3JnLnNwcmluZ2ZyYW1ld29yay5ib290OnNwcmluZy1ib290OjEuNS4yLlJFTEVBU0UiIGxldmVsPSJwcm9qZWN0IiAvPgo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

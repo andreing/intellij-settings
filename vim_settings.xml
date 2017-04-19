@@ -772,6 +772,9 @@
         <mark key="^" line="1" column="104" />
         <mark key="." line="1" column="17" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/integrationAX/Account.java" timestamp="1492593913450">
+        <mark key="'" line="5" column="19" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/claim-header.html" timestamp="1481883927594">
         <mark key="[" line="331" column="103" />
         <mark key="]" line="329" column="79" />
@@ -1396,7 +1399,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="119" column="203" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_occupational.xml" />
       <jump line="79" column="214" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_child_municipal.xml" />
       <jump line="91" column="231" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_ngtf.xml" />
       <jump line="24" column="290" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/finland/auto/fi_auto_collision.xml" />
@@ -1496,6 +1498,7 @@
       <jump line="40" column="12" filename="$USER_HOME$/dev/robotprocessing/m7/src/main/java/no/protector/m7/M7Application.java" />
       <jump line="61" column="4" filename="$USER_HOME$/dev/robotprocessing/m7/src/main/java/no/protector/m7/kafka/consumer/KafkaConsumerConfig.java" />
       <jump line="62" column="0" filename="$USER_HOME$/dev/robotprocessing/m7/src/main/java/no/protector/m7/M7Application.java" />
+      <jump line="5" column="19" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/integrationAX/Account.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -1552,7 +1555,7 @@
         <text />
       </register>
       <register name="/" type="4">
-        <text>message</text>
+        <text encoding="base64">XDxiYW5rQWNjb3VudE51bWJlclw+</text>
       </register>
       <register name="0" type="4">
         <text>, getdate(), 0, getdate(), 0, 5000, 3, -1, 5, 0, 0, 2, null, 21, 1)</text>
@@ -1978,9 +1981,9 @@
       </register>
     </registers>
     <search>
-      <last-search>message</last-search>
+      <last-search encoding="base64">XDxiYW5rQWNjb3VudE51bWJlclw+</last-search>
       <last-offset />
-      <last-pattern>message</last-pattern>
+      <last-pattern encoding="base64">XDxiYW5rQWNjb3VudE51bWJlclw+</last-pattern>
       <last-replace encoding="base64">JjI=</last-replace>
       <last-substitute>message</last-substitute>
       <last-dir>1</last-dir>
@@ -1988,7 +1991,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxQcm9wZXJ0eVV0aWxzXD4=</entry>
         <entry encoding="base64">XDxjdXJyZW50VXNlclw+</entry>
         <entry encoding="base64">XDxzZWxlY3RlZFR5cGVcPg==</entry>
         <entry>bodypart</entry>
@@ -2008,6 +2010,7 @@
         <entry encoding="base64">XDxzZWxlY3RlZENhdXNlXD4=</entry>
         <entry>claim</entry>
         <entry>message</entry>
+        <entry encoding="base64">XDxiYW5rQWNjb3VudE51bWJlclw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL15bXlwgXSsvJiIv</entry>

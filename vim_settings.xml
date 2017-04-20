@@ -294,12 +294,11 @@
         <mark key="^" line="5" column="3" />
         <mark key="." line="5" column="3" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1492674840105">
-        <mark key="'" line="1246" column="4" />
-        <mark key="[" line="1246" column="103" />
-        <mark key="]" line="1246" column="103" />
-        <mark key="." line="1246" column="0" />
-        <mark key="^" line="1094" column="62" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1492676855273">
+        <mark key="'" line="1232" column="4" />
+        <mark key="[" line="1232" column="0" />
+        <mark key="]" line="1232" column="0" />
+        <mark key="." line="1232" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/config/ClaimsTranslateConfig.js" timestamp="1487692150124">
         <mark key="'" line="26" column="52" />
@@ -1502,7 +1501,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgYm9vbGVhbiByZXF1aXJlc1NwZWNpYWxDb25maXJtYXRpb25UZW1wbGF0ZShDb3VudHJ5RW51bSBjb3VudHJ5LCBNYXA8U3RyaW5nLCA/PiBmb3JtRGF0YSkgewo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgYm9vbGVhbiByZXF1aXJlc1NwZWNpYWxDb25maXJtYXRpb25UZW1wbGF0ZURFTEVURShDb3VudHJ5RW51bSBjb3VudHJ5LCBNYXA8U3RyaW5nLCA/PiBmb3JtRGF0YSkgewogICAgICAgaWYgKGNvdW50cnkuZXF1YWxzKENvdW50cnlFbnVtLkRFTk1BUkspKSB7CiAgICAgICAgICAgaWYgKCIxIi5lcXVhbHMoZm9ybURhdGEuZ2V0KEZvcm1GaWVsZHMuSVNfVkVISUNMRV9TVE9MRU4uZ2V0S2V5KCkpKSl7CiAgICAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgICAgIH0KICAgICAgICAgICBMaXN0PFN0cmluZz4gZGFtYWdlUG9zaXRpb25zID0gKExpc3Q8U3RyaW5nPikgZm9ybURhdGEuZ2V0KEZvcm1GaWVsZHMuQ0FSX0RBTUFHRS5nZXRLZXkoKSk7CiAgICAgICAgICAgZm9yIChTdHJpbmcgZGFtYWdlUG9zaXRpb24gOiBkYW1hZ2VQb3NpdGlvbnMpIHsKICAgICAgICAgICAgICAgaWYgKCJwYXJ0X3RvdGFsIi5lcXVhbHMoZGFtYWdlUG9zaXRpb24pKSB7CiAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICAgICAgICAgfQogICAgICAgICAgIH0KICAgICAgIH0KICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1552,7 +1551,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>}</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxiYW5rQWNjb3VudE51bWJlclw+</text>
@@ -1560,13 +1559,8 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgIHByaXZhdGUgYm9vbGVhbiByZXF1aXJlc1NwZWNpYWxDb25maXJtYXRpb25UZW1wbGF0ZShDb3VudHJ5RW51bSBjb3VudHJ5LCBNYXA8U3RyaW5nLCA/PiBmb3JtRGF0YSkgewo=</text>
       </register>
-      <register name="1" type="4">
-        <text>SELECT
-  cr1.id AS old_id,
-  cr2.id AS new_id
-FROM Claim_Role cr1
-  JOIN Claim_Role cr2 ON cr1.Claim_Role_Type_Id = cr2.Claim_Role_Type_Id
-WHERE cr1.Claim_Header_Id = 281914 AND cr2.Claim_Header_Id = 327364</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIHByaXZhdGUgYm9vbGVhbiByZXF1aXJlc1NwZWNpYWxDb25maXJtYXRpb25UZW1wbGF0ZURFTEVURShDb3VudHJ5RW51bSBjb3VudHJ5LCBNYXA8U3RyaW5nLCA/PiBmb3JtRGF0YSkgewogICAgICAgaWYgKGNvdW50cnkuZXF1YWxzKENvdW50cnlFbnVtLkRFTk1BUkspKSB7CiAgICAgICAgICAgaWYgKCIxIi5lcXVhbHMoZm9ybURhdGEuZ2V0KEZvcm1GaWVsZHMuSVNfVkVISUNMRV9TVE9MRU4uZ2V0S2V5KCkpKSl7CiAgICAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgICAgIH0KICAgICAgICAgICBMaXN0PFN0cmluZz4gZGFtYWdlUG9zaXRpb25zID0gKExpc3Q8U3RyaW5nPikgZm9ybURhdGEuZ2V0KEZvcm1GaWVsZHMuQ0FSX0RBTUFHRS5nZXRLZXkoKSk7CiAgICAgICAgICAgZm9yIChTdHJpbmcgZGFtYWdlUG9zaXRpb24gOiBkYW1hZ2VQb3NpdGlvbnMpIHsKICAgICAgICAgICAgICAgaWYgKCJwYXJ0X3RvdGFsIi5lcXVhbHMoZGFtYWdlUG9zaXRpb24pKSB7CiAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICAgICAgICAgfQogICAgICAgICAgIH0KICAgICAgIH0KICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1625,21 +1619,26 @@ WHERE cr1.Claim_Header_Id = 281914 AND cr2.Claim_Header_Id = 327364</text>
           <key char="48" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text>SELECT
+  cr1.id AS old_id,
+  cr2.id AS new_id
+FROM Claim_Role cr1
+  JOIN Claim_Role cr2 ON cr1.Claim_Role_Type_Id = cr2.Claim_Role_Type_Id
+WHERE cr1.Claim_Header_Id = 281914 AND cr2.Claim_Header_Id = 327364</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">d2hlcmUgY2UuQ2xhaW1fUm9sZV9JZAo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">ICBjcjEuaWQgQVMgb2xkX2lkLAogIGNyMi5pZCBBUyBuZXdfaWQKRlJPTSBDbGFpbV9Sb2xlIGNyMQogIEpPSU4gQ2xhaW1fUm9sZSBjcjIgT04gY3IxLkNsYWltX1JvbGVfVHlwZV9JZCA9IGNyMi5DbGFpbV9Sb2xlX1R5cGVfSWQKV0hFUkUgY3IxLkNsYWltX0hlYWRlcl9JZCA9IDI4MTkxNCBBTkQgY3IyLkNsYWltX0hlYWRlcl9JZCA9IDMyNzM2NA==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>q1.new_id where
   Claim_Role_Id = q1.old_id</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">dW5pb24gYWxsCnNlbGVjdCBpZCBmcm9tIENsYWltX1JvbGUgY3IyIHdoZXJlIENsYWltX0hlYWRlcl9JZCA9IDMyNzM2NAo=</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIEBCZWFuCg==</text>
+        <text encoding="base64">dW5pb24gYWxsCnNlbGVjdCBpZCBmcm9tIENsYWltX1JvbGUgY3IyIHdoZXJlIENsYWltX0hlYWRlcl9JZCA9IDMyNzM2NAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1974,10 +1973,10 @@ WHERE cr1.Claim_Header_Id = 281914 AND cr2.Claim_Header_Id = 327364</text>
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEBCZWFkbgo=</text>
+        <text encoding="base64">ICAgIEBCZWFuCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEBCZWFkbgo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>

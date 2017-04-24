@@ -33,6 +33,7 @@
         <mark key="^" line="138" column="13" />
         <mark key="." line="138" column="13" />
       </file>
+      <file name="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/src.zip!/javax/xml/ws/Service.java" timestamp="1493039085934" />
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/MetaTemplateFolder.java" timestamp="1485550896220">
         <mark key="[" line="9" column="62" />
         <mark key="]" line="9" column="29" />
@@ -905,8 +906,11 @@
         <mark key="^" line="9" column="58" />
         <mark key="." line="9" column="58" />
       </file>
-      <file name="$USER_HOME$/dev/dbs/src/main/java/protector/dbs/ws/SpringWsConfig.java" timestamp="1493037973561">
-        <mark key="[" line="1" column="0" />
+      <file name="$USER_HOME$/dev/dbs/src/main/java/protector/dbs/ws/SpringWsConfig.java" timestamp="1493039181210">
+        <mark key="[" line="12" column="22" />
+        <mark key="]" line="12" column="21" />
+        <mark key="^" line="12" column="21" />
+        <mark key="." line="12" column="21" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/mail-template-admin.orig.js" timestamp="1486030491650">
         <mark key="'" line="85" column="0" />
@@ -1233,6 +1237,9 @@
         <mark key="." line="129" column="66" />
         <mark key="^" line="129" column="66" />
       </file>
+      <file name="$USER_HOME$/dev/dbs/src/main/resources/application.properties" timestamp="1493038806659">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/ClaimsLetterTemplate.java" timestamp="1484230241819">
         <mark key="[" line="2" column="34" />
         <mark key="]" line="5" column="39" />
@@ -1476,7 +1483,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHRlc3RDb21waWxlIGdyb3VwOiAnanVuaXQnLCBuYW1lOiAnanVuaXQnLCB2ZXJzaW9uOiAnNC4xMicK</text>
+        <text encoding="base64">aW1wb3J0IGphdmF4LnhtbC53cy5TZXJ2aWNlOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1535,7 +1542,7 @@
         <text encoding="base64">ICAgIHByaXZhdGUgYm9vbGVhbiByZXF1aXJlc1NwZWNpYWxDb25maXJtYXRpb25UZW1wbGF0ZShDb3VudHJ5RW51bSBjb3VudHJ5LCBNYXA8U3RyaW5nLCA/PiBmb3JtRGF0YSkgewo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHRlc3RDb21waWxlIGdyb3VwOiAnanVuaXQnLCBuYW1lOiAnanVuaXQnLCB2ZXJzaW9uOiAnNC4xMicK</text>
+        <text encoding="base64">aW1wb3J0IGphdmF4LnhtbC53cy5TZXJ2aWNlOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1594,25 +1601,25 @@
           <key char="48" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIHRlc3RDb21waWxlIGdyb3VwOiAnanVuaXQnLCBuYW1lOiAnanVuaXQnLCB2ZXJzaW9uOiAnNC4xMicK</text>
+      </register>
+      <register name="3" type="4">
         <text encoding="base64">CmJ1aWxkc2NyaXB0IHsKICAgIHJlcG9zaXRvcmllcyB7CiAgICAgICAgbWF2ZW5DZW50cmFsKCkKICAgIH0KICAgIGRlcGVuZGVuY2llcyB7CiAgICAgICAgY2xhc3NwYXRoKCJvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3Q6c3ByaW5nLWJvb3QtZ3JhZGxlLXBsdWdpbjoxLjUuMS5SRUxFQVNFIikKICAgIH0KfQ==</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">LS0tICMgcm9vdCBjb25maWd1cmF0aW9uCmxvZ2dlcjoKICBtb3JnYW46CiAgICBmb3JtYXQ6ICdkZXYnCg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgIHByaXZhdGUgYm9vbGVhbiByZXF1aXJlc1NwZWNpYWxDb25maXJtYXRpb25UZW1wbGF0ZURFTEVURShDb3VudHJ5RW51bSBjb3VudHJ5LCBNYXA8U3RyaW5nLCA/PiBmb3JtRGF0YSkgewogICAgICAgaWYgKGNvdW50cnkuZXF1YWxzKENvdW50cnlFbnVtLkRFTk1BUkspKSB7CiAgICAgICAgICAgaWYgKCIxIi5lcXVhbHMoZm9ybURhdGEuZ2V0KEZvcm1GaWVsZHMuSVNfVkVISUNMRV9TVE9MRU4uZ2V0S2V5KCkpKSl7CiAgICAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgICAgIH0KICAgICAgICAgICBMaXN0PFN0cmluZz4gZGFtYWdlUG9zaXRpb25zID0gKExpc3Q8U3RyaW5nPikgZm9ybURhdGEuZ2V0KEZvcm1GaWVsZHMuQ0FSX0RBTUFHRS5nZXRLZXkoKSk7CiAgICAgICAgICAgZm9yIChTdHJpbmcgZGFtYWdlUG9zaXRpb24gOiBkYW1hZ2VQb3NpdGlvbnMpIHsKICAgICAgICAgICAgICAgaWYgKCJwYXJ0X3RvdGFsIi5lcXVhbHMoZGFtYWdlUG9zaXRpb24pKSB7CiAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICAgICAgICAgfQogICAgICAgICAgIH0KICAgICAgIH0KICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>SELECT
   cr1.id AS old_id,
   cr2.id AS new_id
 FROM Claim_Role cr1
   JOIN Claim_Role cr2 ON cr1.Claim_Role_Type_Id = cr2.Claim_Role_Type_Id
 WHERE cr1.Claim_Header_Id = 281914 AND cr2.Claim_Header_Id = 327364</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">d2hlcmUgY2UuQ2xhaW1fUm9sZV9JZAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1946,15 +1953,15 @@ WHERE cr1.Claim_Header_Id = 281914 AND cr2.Claim_Header_Id = 327364</text>
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">ICBjcjEuaWQgQVMgb2xkX2lkLAogIGNyMi5pZCBBUyBuZXdfaWQKRlJPTSBDbGFpbV9Sb2xlIGNyMQogIEpPSU4gQ2xhaW1fUm9sZSBjcjIgT04gY3IxLkNsYWltX1JvbGVfVHlwZV9JZCA9IGNyMi5DbGFpbV9Sb2xlX1R5cGVfSWQKV0hFUkUgY3IxLkNsYWltX0hlYWRlcl9JZCA9IDI4MTkxNCBBTkQgY3IyLkNsYWltX0hlYWRlcl9JZCA9IDMyNzM2NA==</text>
+      <register name="7" type="2">
+        <text encoding="base64">d2hlcmUgY2UuQ2xhaW1fUm9sZV9JZAo=</text>
       </register>
       <register name="8" type="4">
+        <text encoding="base64">ICBjcjEuaWQgQVMgb2xkX2lkLAogIGNyMi5pZCBBUyBuZXdfaWQKRlJPTSBDbGFpbV9Sb2xlIGNyMQogIEpPSU4gQ2xhaW1fUm9sZSBjcjIgT04gY3IxLkNsYWltX1JvbGVfVHlwZV9JZCA9IGNyMi5DbGFpbV9Sb2xlX1R5cGVfSWQKV0hFUkUgY3IxLkNsYWltX0hlYWRlcl9JZCA9IDI4MTkxNCBBTkQgY3IyLkNsYWltX0hlYWRlcl9JZCA9IDMyNzM2NA==</text>
+      </register>
+      <register name="9" type="4">
         <text>q1.new_id where
   Claim_Role_Id = q1.old_id</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">dW5pb24gYWxsCnNlbGVjdCBpZCBmcm9tIENsYWltX1JvbGUgY3IyIHdoZXJlIENsYWltX0hlYWRlcl9JZCA9IDMyNzM2NAo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL21lc3NhZ2UvJjIvZw==</text>

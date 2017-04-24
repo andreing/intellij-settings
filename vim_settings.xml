@@ -33,7 +33,7 @@
         <mark key="^" line="138" column="13" />
         <mark key="." line="138" column="13" />
       </file>
-      <file name="$USER_HOME$/dev/dbs/settings.gradle" timestamp="1493045475714">
+      <file name="$USER_HOME$/dev/dbs/settings.gradle" timestamp="1493050442017">
         <mark key="[" line="1" column="8" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/MetaTemplateFolder.java" timestamp="1485550896220">
@@ -71,6 +71,11 @@
         <mark key="]" line="26" column="24" />
         <mark key="^" line="26" column="24" />
         <mark key="." line="26" column="24" />
+      </file>
+      <file name="$USER_HOME$/dev/dbs/ws/faktura-ws/build.gradle" timestamp="1493050420017">
+        <mark key="[" line="28" column="31" />
+        <mark key="]" line="31" column="0" />
+        <mark key="." line="31" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/app.js" timestamp="1486719750276">
         <mark key="[" line="35" column="73" />
@@ -768,6 +773,11 @@
         <mark key="^" line="166" column="20" />
         <mark key="." line="174" column="0" />
       </file>
+      <file name="$USER_HOME$/dev/dbs/build.gradle" timestamp="1493049499313">
+        <mark key="[" line="5" column="33" />
+        <mark key="]" line="5" column="34" />
+        <mark key="." line="5" column="34" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-directive.js" timestamp="1486727357602">
         <mark key="[" line="48" column="58" />
         <mark key="]" line="48" column="45" />
@@ -1135,6 +1145,11 @@
         <mark key="]" line="5" column="29" />
         <mark key="." line="5" column="29" />
         <mark key="^" line="5" column="29" />
+      </file>
+      <file name="$USER_HOME$/dev/dbs/dbsclient/build.gradle" timestamp="1493049427597">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="0" />
+        <mark key="." line="12" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/ClaimTypeDescription.java" timestamp="1483435296493">
         <mark key="[" line="17" column="52" />
@@ -1529,7 +1544,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIEBCZWFuCiAgICBwdWJsaWMgcHJvdGVjdG9yLmRicy53cy5mYWt0dXJhLkRic1BvcnRUeXBlCg==</text>
+        <text encoding="base64">ICAgICAgICB0YXNrQ2xhc3NuYW1lID0gIiIK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1588,7 +1603,7 @@
         <text>SendOpprettOppdrag payload</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEBCZWFuCiAgICBwdWJsaWMgcHJvdGVjdG9yLmRicy53cy5mYWt0dXJhLkRic1BvcnRUeXBlCg==</text>
+        <text encoding="base64">ICAgICAgICB0YXNrQ2xhc3NuYW1lID0gIiIK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1648,19 +1663,29 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHRlc3RDb21waWxlKCdvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3Q6c3ByaW5nLWJvb3Qtc3RhcnRlci10ZXN0JykK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBEQlNTZXJ2aWNlIGRic1NlcnZpY2UgPSBuZXcgREJTU2VydmljZSgpOwo=</text>
+      <register name="3" type="4">
+        <text>buildscript {
+    ext {
+        springBootVersion = '1.5.3.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath(&quot;org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}&quot;)
+    }
+}</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmF4LnhtbC53cy5TZXJ2aWNlOwo=</text>
+        <text encoding="base64">dmVyc2lvbiA9ICcwLjAuMS1TTkFQU0hPVCcK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHRlc3RDb21waWxlIGdyb3VwOiAnanVuaXQnLCBuYW1lOiAnanVuaXQnLCB2ZXJzaW9uOiAnNC4xMicK</text>
+        <text encoding="base64">ICAgIGNvbXBpbGUoJ29yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdDpzcHJpbmctYm9vdC1zdGFydGVyLXdlYicpCg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">CmJ1aWxkc2NyaXB0IHsKICAgIHJlcG9zaXRvcmllcyB7CiAgICAgICAgbWF2ZW5DZW50cmFsKCkKICAgIH0KICAgIGRlcGVuZGVuY2llcyB7CiAgICAgICAgY2xhc3NwYXRoKCJvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3Q6c3ByaW5nLWJvb3QtZ3JhZGxlLXBsdWdpbjoxLjUuMS5SRUxFQVNFIikKICAgIH0KfQ==</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGNvbXBpbGUoJ29yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdDpzcHJpbmctYm9vdC1zdGFydGVyLWFjdHVhdG9yJykK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1995,18 +2020,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">LS0tICMgcm9vdCBjb25maWd1cmF0aW9uCmxvZ2dlcjoKICBtb3JnYW46CiAgICBmb3JtYXQ6ICdkZXYnCg==</text>
+        <text encoding="base64">YXBwbHkgcGx1Z2luOiAnamF2YScK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgYm9vbGVhbiByZXF1aXJlc1NwZWNpYWxDb25maXJtYXRpb25UZW1wbGF0ZURFTEVURShDb3VudHJ5RW51bSBjb3VudHJ5LCBNYXA8U3RyaW5nLCA/PiBmb3JtRGF0YSkgewogICAgICAgaWYgKGNvdW50cnkuZXF1YWxzKENvdW50cnlFbnVtLkRFTk1BUkspKSB7CiAgICAgICAgICAgaWYgKCIxIi5lcXVhbHMoZm9ybURhdGEuZ2V0KEZvcm1GaWVsZHMuSVNfVkVISUNMRV9TVE9MRU4uZ2V0S2V5KCkpKSl7CiAgICAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgICAgIH0KICAgICAgICAgICBMaXN0PFN0cmluZz4gZGFtYWdlUG9zaXRpb25zID0gKExpc3Q8U3RyaW5nPikgZm9ybURhdGEuZ2V0KEZvcm1GaWVsZHMuQ0FSX0RBTUFHRS5nZXRLZXkoKSk7CiAgICAgICAgICAgZm9yIChTdHJpbmcgZGFtYWdlUG9zaXRpb24gOiBkYW1hZ2VQb3NpdGlvbnMpIHsKICAgICAgICAgICAgICAgaWYgKCJwYXJ0X3RvdGFsIi5lcXVhbHMoZGFtYWdlUG9zaXRpb24pKSB7CiAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICAgICAgICAgfQogICAgICAgICAgIH0KICAgICAgIH0KICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cg==</text>
+        <text encoding="base64">YXBwbHkgcGx1Z2luOiAnZWNsaXBzZScK</text>
       </register>
-      <register name="9" type="4">
-        <text>SELECT
-  cr1.id AS old_id,
-  cr2.id AS new_id
-FROM Claim_Role cr1
-  JOIN Claim_Role cr2 ON cr1.Claim_Role_Type_Id = cr2.Claim_Role_Type_Id
-WHERE cr1.Claim_Header_Id = 281914 AND cr2.Claim_Header_Id = 327364</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL21lc3NhZ2UvJjIvZw==</text>

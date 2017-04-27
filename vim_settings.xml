@@ -1016,13 +1016,13 @@
         <mark key="." line="2" column="28" />
         <mark key="^" line="2" column="28" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" timestamp="1489757474792">
-        <mark key="[" line="48" column="24" />
-        <mark key="]" line="48" column="23" />
+      <file name="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" timestamp="1493295278942">
+        <mark key="[" line="56" column="0" />
+        <mark key="]" line="56" column="0" />
         <mark key="^" line="48" column="23" />
-        <mark key="." line="48" column="23" />
+        <mark key="." line="56" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/config/test.yaml" timestamp="1492687796474">
+      <file name="$USER_HOME$/repos/webclaims/config/test.yaml" timestamp="1493294872570">
         <mark key="'" line="10" column="0" />
         <mark key="[" line="8" column="0" />
         <mark key="]" line="8" column="63" />
@@ -1181,9 +1181,9 @@
         <mark key="^" line="59" column="14" />
         <mark key="." line="59" column="14" />
       </file>
-      <file name="$USER_HOME$/repos/webclaims/config/development.yaml" timestamp="1492687772469">
+      <file name="$USER_HOME$/repos/webclaims/config/development.yaml" timestamp="1493295094526">
         <mark key="'" line="10" column="0" />
-        <mark key="[" line="15" column="24" />
+        <mark key="[" line="12" column="63" />
         <mark key="]" line="4" column="18" />
         <mark key="^" line="4" column="18" />
         <mark key="." line="4" column="18" />
@@ -1543,7 +1543,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBhcmdzID0gWyItWGFubm90YXRlIl0K</text>
+        <text encoding="base64">ICAgICAgICAvLyBwcm94eVJlcS5zZXRIZWFkZXIoJ0NvbnRlbnQtTGVuZ3RoJywgQnVmZmVyLmJ5dGVMZW5ndGgoYm9keURhdGEpKTsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1602,7 +1602,7 @@
         <text>SendOpprettOppdrag payload</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBhcmdzID0gWyItWGFubm90YXRlIl0K</text>
+        <text encoding="base64">ICAgICAgICAvLyBwcm94eVJlcS5zZXRIZWFkZXIoJ0NvbnRlbnQtTGVuZ3RoJywgQnVmZmVyLmJ5dGVMZW5ndGgoYm9keURhdGEpKTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1662,29 +1662,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBkZXN0aW5hdGlvbkRpciA9ICIke2ZpbmRQcm9qZWN0KCc6ZGJzY2xpZW50Jyk/LnByb2plY3REaXJ9L3NyYy9tYWluL2phdmEiCg==</text>
+        <text encoding="base64">ICAgICAgICBhcmdzID0gWyItWGFubm90YXRlIl0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHhqYyAnY29tLmV4YW1wbGU6eGpjLXBsdWdpbjowLjAuMCcK</text>
+        <text encoding="base64">ICAgICAgICBkZXN0aW5hdGlvbkRpciA9ICIke2ZpbmRQcm9qZWN0KCc6ZGJzY2xpZW50Jyk/LnByb2plY3REaXJ9L3NyYy9tYWluL2phdmEiCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB0YXNrQ2xhc3NuYW1lID0gIiIK</text>
+        <text encoding="base64">ICAgIHhqYyAnY29tLmV4YW1wbGU6eGpjLXBsdWdpbjowLjAuMCcK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHRlc3RDb21waWxlKCdvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3Q6c3ByaW5nLWJvb3Qtc3RhcnRlci10ZXN0JykK</text>
+        <text encoding="base64">ICAgICAgICB0YXNrQ2xhc3NuYW1lID0gIiIK</text>
       </register>
-      <register name="6" type="4">
-        <text>buildscript {
-    ext {
-        springBootVersion = '1.5.3.RELEASE'
-    }
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath(&quot;org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}&quot;)
-    }
-}</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIHRlc3RDb21waWxlKCdvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3Q6c3ByaW5nLWJvb3Qtc3RhcnRlci10ZXN0JykK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2018,14 +2008,24 @@
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">dmVyc2lvbiA9ICcwLjAuMS1TTkFQU0hPVCcK</text>
+      <register name="7" type="4">
+        <text>buildscript {
+    ext {
+        springBootVersion = '1.5.3.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath(&quot;org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}&quot;)
+    }
+}</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGNvbXBpbGUoJ29yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdDpzcHJpbmctYm9vdC1zdGFydGVyLXdlYicpCg==</text>
+        <text encoding="base64">dmVyc2lvbiA9ICcwLjAuMS1TTkFQU0hPVCcK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGNvbXBpbGUoJ29yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdDpzcHJpbmctYm9vdC1zdGFydGVyLWFjdHVhdG9yJykK</text>
+        <text encoding="base64">ICAgIGNvbXBpbGUoJ29yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdDpzcHJpbmctYm9vdC1zdGFydGVyLXdlYicpCg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL21lc3NhZ2UvJjIvZw==</text>

@@ -75,10 +75,10 @@
         <mark key="^" line="26" column="24" />
         <mark key="." line="26" column="24" />
       </file>
-      <file name="$USER_HOME$/dev/dbs/ws/faktura-ws/build.gradle" timestamp="1493301745817">
-        <mark key="[" line="28" column="53" />
-        <mark key="]" line="30" column="0" />
-        <mark key="." line="30" column="0" />
+      <file name="$USER_HOME$/dev/dbs/ws/faktura-ws/build.gradle" timestamp="1493305390075">
+        <mark key="[" line="38" column="35" />
+        <mark key="]" line="77" column="0" />
+        <mark key="." line="77" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/app.js" timestamp="1486719750276">
         <mark key="[" line="35" column="73" />
@@ -560,11 +560,11 @@
         <mark key="." line="1029" column="68" />
         <mark key="^" line="1029" column="68" />
       </file>
-      <file name="/Dummy.txt" timestamp="1493301930791">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
+      <file name="/Dummy.txt" timestamp="1493304465860">
+        <mark key="[" line="0" column="3" />
+        <mark key="]" line="0" column="3" />
         <mark key="^" line="0" column="2" />
-        <mark key="." line="0" column="0" />
+        <mark key="." line="0" column="3" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimHeaderCreatorJdbcDao.java" timestamp="1480000874576">
         <mark key="[" line="54" column="0" />
@@ -718,10 +718,10 @@
         <mark key="^" line="14" column="32" />
         <mark key="." line="14" column="21" />
       </file>
-      <file name="$USER_HOME$/dev/dbs/ws/opprett-oppdrag-ws/build.gradle" timestamp="1493302016411">
-        <mark key="[" line="16" column="18" />
-        <mark key="]" line="24" column="0" />
-        <mark key="." line="24" column="0" />
+      <file name="$USER_HOME$/dev/dbs/ws/opprett-oppdrag-ws/build.gradle" timestamp="1493304112541">
+        <mark key="]" line="30" column="39" />
+        <mark key="^" line="30" column="39" />
+        <mark key="." line="30" column="39" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/TemplateTreeMeta.java" timestamp="1485549613560">
         <mark key="[" line="2" column="31" />
@@ -1550,8 +1550,8 @@
       <jump line="15" column="50" filename="$USER_HOME$/dev/dbs/src/main/java/protector/dbs/integration/DBSClient.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>$USER_HOME$/dev/dbs/ws/opprett-oppdrag-ws</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1601,7 +1601,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>$USER_HOME$/dev/dbs/ws/opprett-oppdrag-ws</text>
+        <text>:opprett-oppdrag-ws:wsimport</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxiYW5rQWNjb3VudE51bWJlclw+</text>
@@ -1610,7 +1610,7 @@
         <text>SendOpprettOppdrag payload</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB4YWRkaXRpb25hbEhlYWRlcnMgPSBmYWxzZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1670,19 +1670,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB3c2RsTG9jYXRpb24gPSAiRklMTF9JTl9CWV9TRVJWRVIiCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIG5hbWVSdWxlcyA9IFs6XQo=</text>
+        <text encoding="base64">dGFzayBhZnRlckVjbGlwc2VJbXBvcnQgewogICAgZGVwZW5kc09uIGdlbkpheGIKfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGVwaXNvZGVzID0gW10K</text>
+        <text encoding="base64">YXBwbHkgcGx1Z2luOiAnZWNsaXBzZScK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGVwaXNvZGVGb2xkZXIgPSAic2NoZW1hL2VwaXNvZGVzIgo=</text>
+        <text encoding="base64">ICAgIGNvbXBpbGUoIm9yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdDpzcHJpbmctYm9vdC1zdGFydGVyIikK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Z3JvdXAgJ3Byb3RlY3RvcicK</text>
+        <text encoding="base64">YXBwbHkgcGx1Z2luOiAnZWNsaXBzZScK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2016,14 +2016,57 @@
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Ly8gICAgYmluZGluZ3NEaXIgPSAiJHtwcm9qZWN0RGlyfS9zcmMvbWFpbi9yZXNvdXJjZXMvd2RzbCIK</text>
+      <register name="7" type="4">
+        <text>buildscript {
+    repositories {
+        maven {
+            url &quot;https://plugins.gradle.org/m2/&quot;
+        }
+    }
+    dependencies {
+        classpath &quot;gradle.plugin.org.openrepose:gradle-jaxb-plugin:2.2.3&quot;
+    }
+}
+
+apply plugin: &quot;org.openrepose.gradle.plugins.jaxb&quot;
+
+apply plugin: 'org.springframework.boot'
+
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-web-services')
+}
+
+jaxb {
+    xsdDir = &quot;${projectDir}/src/main/resources/wsdl&quot;
+    xsdIncludes = [&quot;DBSWSFakturagrunnlag.wsdl&quot;]
+    xjc {
+//        destinationDir = &quot;${findProject(':dbsclient')?.projectDir}/src/main/java&quot;
+        generatePackage = &quot;protector.dbs.ws.faktura&quot;
+        accessExternalSchema = 'file'
+        args = [&quot;-wsdl&quot;]
+    }
+}
+
+dependencies {
+    jaxb 'org.glassfish.jaxb:jaxb-core:2.2.11'
+    jaxb 'org.glassfish.jaxb:jaxb-xjc:2.2.11'
+    jaxb 'org.glassfish.jaxb:jaxb-runtime:2.2.11'
+    jaxb 'javax.xml.bind:jaxb-api:2.2.12'
+}</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBwcm94eVJlcS5zZXRIZWFkZXIoJ0NvbnRlbnQtTGVuZ3RoJywgQnVmZmVyLmJ5dGVMZW5ndGgoYm9keURhdGEpKTsK</text>
+      <register name="8" type="4">
+        <text encoding="base64">ZXJzaW9uICcxLjAtU05BUFNIT1QnCgpidWlsZHNjcmlwdCB7CiAgICByZXBvc2l0b3JpZXMgewogICAgICAgIG1hdmVuIHsKICAgICAgICAgICAgdXJsICJodHRwczovL3BsdWdpbnMuZ3JhZGxlLm9yZy9tMi8iCiAgICAgICAgfQogICAgfQogICAgZGVwZW5kZW5jaWVzIHsKICAgICAgICBjbGFzc3BhdGggImNvbS5naXRodWIuamFjb2Jvbm86Z3JhZGxlLXdzZGwtcGx1Z2luOjEuNy43IgogICAgfQp9CgphcHBseSBwbHVnaW46ICJjb20uZ2l0aHViLmphY29ib25vLndzZGwiCgp3c2RsIHsKICAgIHdzZGxGb2xkZXIgPSAiJHtwcm9qZWN0RGlyfS9zcmMvbWFpbi9yZXNvdXJjZXMvd3NkbCIKICAgIHNjaGVtYUZvbGRlciA9ICIke3Byb2plY3REaXJ9L3NyYy9tYWluL3Jlc291cmNlcy9zY2hlbWEiCiAgICB3c2ltcG9ydCB7CiAgICAgICAgc291cmNlRGVzdGluYXRpb25EaXJlY3RvcnkgPSAic3JjL21haW4vamF2YSIKICAgICAgICB2ZXJib3NlID0gdHJ1ZQogICAgICAgIGtlZXAgPSB0cnVlCiAgICAgICAgeG5vY29tcGlsZSA9IHRydWUKICAgICAgICBmb3JrID0gZmFsc2UKICAgICAgICB4ZGVidWcgPSBmYWxzZQogICAgICAgIHRhcmdldCA9ICIyLjIiCiAgICB9Cn0KCmRlcGVuZGVuY2llcyB7CiAgICBqYXh3cyAnY29tLnN1bi54bWwud3M6amF4d3MtdG9vbHM6Mi4yLjEwJwogICAgamF4d3MgJ2NvbS5zdW4ueG1sLndzOmpheHdzLXJ0OjIuMi4xMCcKfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBhcmdzID0gWyItWGFubm90YXRlIl0K</text>
+        <text encoding="base64">ICAgICAgICB4YWRkaXRpb25hbEhlYWRlcnMgPSBmYWxzZQo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL21lc3NhZ2UvJjIvZw==</text>

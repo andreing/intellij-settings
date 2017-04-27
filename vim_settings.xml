@@ -72,11 +72,10 @@
         <mark key="^" line="26" column="24" />
         <mark key="." line="26" column="24" />
       </file>
-      <file name="$USER_HOME$/dev/dbs/ws/faktura-ws/build.gradle" timestamp="1493284206554">
-        <mark key="[" line="31" column="27" />
-        <mark key="]" line="39" column="27" />
-        <mark key="." line="39" column="27" />
-        <mark key="^" line="39" column="27" />
+      <file name="$USER_HOME$/dev/dbs/ws/faktura-ws/build.gradle" timestamp="1493286965080">
+        <mark key="[" line="33" column="0" />
+        <mark key="]" line="33" column="0" />
+        <mark key="." line="33" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/app.js" timestamp="1486719750276">
         <mark key="[" line="35" column="73" />
@@ -558,7 +557,7 @@
         <mark key="." line="1029" column="68" />
         <mark key="^" line="1029" column="68" />
       </file>
-      <file name="/Dummy.txt" timestamp="1493046154293">
+      <file name="/Dummy.txt" timestamp="1493286930676">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="1" />
@@ -1544,7 +1543,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHhqYyAnY29tLmV4YW1wbGU6eGpjLXBsdWdpbjowLjAuMCcK</text>
+        <text encoding="base64">ICAgICAgICBhcmdzID0gWyItWGFubm90YXRlIl0K</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1603,7 +1602,7 @@
         <text>SendOpprettOppdrag payload</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHhqYyAnY29tLmV4YW1wbGU6eGpjLXBsdWdpbjowLjAuMCcK</text>
+        <text encoding="base64">ICAgICAgICBhcmdzID0gWyItWGFubm90YXRlIl0K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1663,12 +1662,18 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0YXNrQ2xhc3NuYW1lID0gIiIK</text>
+        <text encoding="base64">ICAgICAgICBkZXN0aW5hdGlvbkRpciA9ICIke2ZpbmRQcm9qZWN0KCc6ZGJzY2xpZW50Jyk/LnByb2plY3REaXJ9L3NyYy9tYWluL2phdmEiCg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgIHhqYyAnY29tLmV4YW1wbGU6eGpjLXBsdWdpbjowLjAuMCcK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICB0YXNrQ2xhc3NuYW1lID0gIiIK</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgIHRlc3RDb21waWxlKCdvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3Q6c3ByaW5nLWJvb3Qtc3RhcnRlci10ZXN0JykK</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text>buildscript {
     ext {
         springBootVersion = '1.5.3.RELEASE'
@@ -1680,12 +1685,6 @@
         classpath(&quot;org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}&quot;)
     }
 }</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">dmVyc2lvbiA9ICcwLjAuMS1TTkFQU0hPVCcK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIGNvbXBpbGUoJ29yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdDpzcHJpbmctYm9vdC1zdGFydGVyLXdlYicpCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2020,13 +2019,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGNvbXBpbGUoJ29yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdDpzcHJpbmctYm9vdC1zdGFydGVyLWFjdHVhdG9yJykK</text>
+        <text encoding="base64">dmVyc2lvbiA9ICcwLjAuMS1TTkFQU0hPVCcK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">YXBwbHkgcGx1Z2luOiAnamF2YScK</text>
+        <text encoding="base64">ICAgIGNvbXBpbGUoJ29yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdDpzcHJpbmctYm9vdC1zdGFydGVyLXdlYicpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">YXBwbHkgcGx1Z2luOiAnZWNsaXBzZScK</text>
+        <text encoding="base64">ICAgIGNvbXBpbGUoJ29yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdDpzcHJpbmctYm9vdC1zdGFydGVyLWFjdHVhdG9yJykK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL21lc3NhZ2UvJjIvZw==</text>

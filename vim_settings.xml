@@ -574,7 +574,7 @@
         <mark key="." line="1029" column="68" />
         <mark key="^" line="1029" column="68" />
       </file>
-      <file name="/Dummy.txt" timestamp="1493804786001">
+      <file name="/Dummy.txt" timestamp="1493812832207">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="2" />
         <mark key="^" line="0" column="2" />
@@ -1161,12 +1161,12 @@
         <mark key="." line="16" column="55" />
         <mark key="^" line="16" column="55" />
       </file>
-      <file name="$USER_HOME$/dev/dbs/ws/build.gradle" timestamp="1493811467216">
-        <mark key="'" line="82" column="4" />
-        <mark key="[" line="40" column="22" />
-        <mark key="]" line="36" column="19" />
-        <mark key="." line="36" column="19" />
-        <mark key="^" line="36" column="19" />
+      <file name="$USER_HOME$/dev/dbs/ws/build.gradle" timestamp="1493813313425">
+        <mark key="'" line="43" column="12" />
+        <mark key="[" line="39" column="16" />
+        <mark key="]" line="40" column="0" />
+        <mark key="^" line="43" column="11" />
+        <mark key="." line="40" column="0" />
       </file>
       <file name="$USER_HOME$/repos/protector-commons/setting.xml" timestamp="1483967951014">
         <mark key="[" line="5" column="22" />
@@ -1475,9 +1475,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="82" column="71" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/denmark/auto/dk_auto_collision.xml" />
-      <jump line="40" column="309" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/finland/auto/fi_auto_collision.xml" />
-      <jump line="16" column="186" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/finland/life/fi_life_workerscomp_confirmation.xml" />
       <jump line="88" column="27" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/protector.fileservice/client/0.1.1/f6e6b7588a828b4604f8206ae0192072ffb8c819/client-0.1.1-sources.jar!/protector/fileservice/client/rest/FileServiceRestClient.groovy" />
       <jump line="94" column="27" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/protector.fileservice/client/0.1.1/f6e6b7588a828b4604f8206ae0192072ffb8c819/client-0.1.1-sources.jar!/protector/fileservice/client/rest/FileServiceRestClient.groovy" />
       <jump line="119" column="31" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/protector.fileservice/client/0.1.1/f6e6b7588a828b4604f8206ae0192072ffb8c819/client-0.1.1-sources.jar!/protector/fileservice/client/rest/FileServiceRestClient.groovy" />
@@ -1562,7 +1559,6 @@
       <jump line="1" column="4" filename="$USER_HOME$/dev/dbs/ws/opprett-oppdrag-ws/build.gradle" />
       <jump line="20" column="4" filename="$USER_HOME$/dev/dbs/ws/opprett-oppdrag-ws/build.gradle" />
       <jump line="23" column="4" filename="$USER_HOME$/dev/dbs/ws/opprett-oppdrag-ws/build.gradle" />
-      <jump line="49" column="0" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
       <jump line="2" column="0" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
       <jump line="67" column="0" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
       <jump line="0" column="0" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
@@ -1575,10 +1571,14 @@
       <jump line="15" column="12" filename="$USER_HOME$/dev/dbs/build.gradle" />
       <jump line="47" column="28" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
       <jump line="77" column="4" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
+      <jump line="49" column="4" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
+      <jump line="16" column="0" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
+      <jump line="50" column="8" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
+      <jump line="43" column="12" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHdzaW1wb3J0LmRlcGVuZHNPbiBsb2FkV3NkbAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1628,7 +1628,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>g&quot;,</text>
+        <text>oadWsdl {</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxiYW5rQWNjb3VudE51bWJlclw+</text>
@@ -1637,7 +1637,7 @@
         <text encoding="base64">ICAgIGV4dC53c2RsRGlyID0gIiRwcm9qZWN0RGlyL3NyYy9tYWluL3Jlc291cmNlcyIK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHdzaW1wb3J0LmRlcGVuZHNPbiBsb2FkV3NkbAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1697,32 +1697,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIC8vdGFzayBsb2FkV3NkbCh0eXBlOiBDb3B5KSB7Ci8vICAgIGZyb20od3NkbFJvb3QpIHsKLy8gICAgICAgIGluY2x1ZGUgIiR3c2RsRmlsZW5hbWUiCi8vICAgICAgICBpbmNsdWRlICIkeHNkRmlsZW5hbWUiCi8vICAgIH0KLy8gICAgaW50byAiJHdzZGxEaXIiCi8vICAgIGVhY2hGaWxlIHsKLy8gICAgICAgIGlmIChpdC5yZWxhdGl2ZVBhdGguZ2V0RmlsZShkZXN0aW5hdGlvbkRpcikuZXhpc3RzKCkpIHsKLy8gICAgICAgICAgICBpdC5leGNsdWRlKCkKLy8gICAgICAgIH0KLy8gICAgfQovLwovL30KLy93c2ltcG9ydC5kZXBlbmRzT24gbG9hZFdzZGwK</text>
+        <text encoding="base64">ICAgICAgICBkb0ZpcnN0IHsKICAgICAgICB9Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>//task loadWsdl(type: Copy) {
-//    from(wsdlRoot) {
-//        include &quot;$wsdlFilename&quot;
-//        include &quot;$xsdFilename&quot;
-//    }
-//    into &quot;$wsdlDir&quot;
-//    eachFile {
-//        if (it.relativePath.getFile(destinationDir).exists()) {
-//            it.exclude()
-//        }
-//    }
-//
-//}
-//wsimport.dependsOn loadWsdl</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbG9jYWxXc2RsRGlyLm1rZGlycygpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5kYnMud3Mub3BwcmV0dG9wcGRyYWcuKjsK</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ZXh0LnNlcnZpY2VQYWNrYWdlID0gIiIK</text>
+      <register name="6" type="4">
+        <text encoding="base64">CiAgICBsb2FkV3NkbCB7CiAgICAgICAgcHJpbnRsbiAiY29weSB0YXNrIGlucHV0cyIKICAgICAgICBpdC5pbnB1dHMuZmlsZXMuZWFjaCB7IGZpbGUgLT4KICAgICAgICAgICAgcHJpbnRsbiAiJHtmaWxlLm5hbWV9IgogICAgICAgIH0KICAgICAgICBwcmludGxuICJjb3B5IHRhc2sgb3V0cHV0cyAke2l0Lm91dHB1dHN9IgogICAgfQ==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2057,10 +2044,10 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzZXJ2aWNlUGFja2FnZSA9IG51bGwK</text>
+        <text encoding="base64">ICAgICAgICBwcmludGxuICJjb3B5IHRhc2sgaW5wdXRzICR7aXQuaW5wdXRzLmZpbGVzfSIK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIE9wcHJldHRPcHBkcmFnIHNlbmRPcHByZXR0T3BwZHJhZyhTZW5kT3BwcmV0dE9wcGRyYWcgc2VuZE9wcHJldHRPcHBkcmFnKSB7CiAgICAgICAgcmV0dXJuIG5ldyBEQlNTZXJ2aWNlKCkuZ2V0RGJzUG9ydCgpLnNlbmRPcHByZXR0T3BwZHJhZ0ZyYUZhZyhzZW5kT3BwcmV0dE9wcGRyYWcpOwogICAgfQoK</text>
+        <text encoding="base64">ICAgIGxvYWRXc2RsIHsKICAgICAgICBvdXRwdXRzLnVwVG9EYXRlV2hlbiB7IGZhbHNlIH0gIC8vIGFsd2F5cyBjb3B5IHdzZGwgZmlsZXMKICAgIH0K</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>

@@ -251,6 +251,12 @@
         <mark key="." line="19" column="0" />
         <mark key="^" line="10" column="4" />
       </file>
+      <file name="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/user/settlementcompany/ClaimSettlementCompanyMapper.java" timestamp="1493983809760">
+        <mark key="[" line="11" column="46" />
+        <mark key="]" line="11" column="19" />
+        <mark key="^" line="11" column="19" />
+        <mark key="." line="11" column="19" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-routes.js" timestamp="1490885095108">
         <mark key="[" line="79" column="0" />
         <mark key="]" line="79" column="0" />
@@ -981,7 +987,7 @@
         <mark key="[" line="8" column="21" />
       </file>
       <file name="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/user/settlementcompany/AbstractSettlementCompany.java" timestamp="1493977572753">
-        <mark key="[" line="35" column="5" />
+        <mark key="[" line="39" column="5" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/auto/no_auto_fire.xml" timestamp="1490111805497">
         <mark key="[" line="1" column="75" />
@@ -1336,8 +1342,8 @@
         <mark key="^" line="2" column="25" />
         <mark key="." line="2" column="25" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/util/TreeNode.java" timestamp="1486383193929">
-        <mark key="'" line="42" column="4" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/util/TreeNode.java" timestamp="1493982748659">
+        <mark key="'" line="11" column="21" />
         <mark key="[" line="82" column="45" />
         <mark key="]" line="82" column="44" />
         <mark key="." line="82" column="44" />
@@ -1372,8 +1378,11 @@
       <file name="$USER_HOME$/dev/dbs/src/main/resources/application.properties" timestamp="1493038806659">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/user/settlementcompany/ClaimSettlementCompany.java" timestamp="1493976356206">
+      <file name="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/user/settlementcompany/ClaimSettlementCompany.java" timestamp="1493983038132">
         <mark key="[" line="24" column="39" />
+        <mark key="]" line="10" column="4" />
+        <mark key="^" line="10" column="4" />
+        <mark key="." line="10" column="4" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/ClaimsLetterTemplate.java" timestamp="1484230241819">
         <mark key="[" line="2" column="34" />
@@ -1521,7 +1530,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="663" column="0" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimJdbcDao.java" />
       <jump line="676" column="0" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimJdbcDao.java" />
       <jump line="665" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimJdbcDao.java" />
       <jump line="556" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
@@ -1621,6 +1629,7 @@
       <jump line="34" column="30" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
       <jump line="62" column="50" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
       <jump line="575" column="7" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
+      <jump line="11" column="21" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/util/TreeNode.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -1677,7 +1686,7 @@
         <text>lo</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxqYXh3c1w+</text>
+        <text encoding="base64">XDxDaGlsZE5vZGVcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGV4dC53c2RsRGlyID0gIiRwcm9qZWN0RGlyL3NyYy9tYWluL3Jlc291cmNlcyIK</text>
@@ -2103,17 +2112,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxqYXh3c1w+</last-search>
+      <last-search encoding="base64">XDxDaGlsZE5vZGVcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxqYXh3c1w+</last-pattern>
+      <last-pattern encoding="base64">XDxDaGlsZE5vZGVcPg==</last-pattern>
       <last-replace encoding="base64">JjI=</last-replace>
       <last-substitute>message</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxzZWxlY3RlZFR5cGVcPg==</entry>
         <entry>bodypart</entry>
         <entry encoding="base64">XDxtYXBwZXJcPg==</entry>
         <entry encoding="base64">XDxwZGZcPg==</entry>
@@ -2133,6 +2141,7 @@
         <entry>message</entry>
         <entry encoding="base64">XDxiYW5rQWNjb3VudE51bWJlclw+</entry>
         <entry encoding="base64">XDxqYXh3c1w+</entry>
+        <entry encoding="base64">XDxDaGlsZE5vZGVcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL15bXlwgXSsvJiIv</entry>

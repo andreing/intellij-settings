@@ -1420,11 +1420,12 @@
       <file name="$USER_HOME$/dev/dbs/src/main/resources/application.properties" timestamp="1493038806659">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/user/settlementcompany/ClaimSettlementCompany.java" timestamp="1493983038132">
-        <mark key="[" line="24" column="39" />
-        <mark key="]" line="10" column="4" />
-        <mark key="^" line="10" column="4" />
-        <mark key="." line="10" column="4" />
+      <file name="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/user/settlementcompany/ClaimSettlementCompany.java" timestamp="1494401027714">
+        <mark key="'" line="19" column="4" />
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="48" />
+        <mark key="^" line="25" column="38" />
+        <mark key="." line="19" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/ClaimsLetterTemplate.java" timestamp="1484230241819">
         <mark key="[" line="2" column="34" />
@@ -1578,7 +1579,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="27" column="19" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-directive.html" />
       <jump line="180" column="69" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
       <jump line="34" column="13" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
       <jump line="244" column="13" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
@@ -1678,10 +1678,11 @@
       <jump line="16" column="27" filename="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" />
       <jump line="43" column="11" filename="$USER_HOME$/repos/webclaims/apps/electronic_claims/proxy.js" />
       <jump line="5" column="8" filename="$USER_HOME$/repos/webclaims/healtcheck.js" />
+      <jump line="19" column="4" filename="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/user/settlementcompany/ClaimSettlementCompany.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>j</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIExvbmcgRkFMQ0tfSEVBTFRIQ0FSRV9TRV9QQVJUWV9JRCA9IDcwMzU2OUw7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1740,7 +1741,7 @@
         <text encoding="base64">IyAgYmFzZVVyaTogaHR0cHM6Ly9jbGFpbXN0ZXN0LnByb3RlY3RvcmZvcnNpa3Jpbmcubm8vY2xhaW1zL2FwaQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIExvbmcgRkFMQ0tfSEVBTFRIQ0FSRV9TRV9QQVJUWV9JRCA9IDcwMzU2OUw7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1800,19 +1801,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGlmIChPYmplY3QuaGFzT3duUHJvcGVydHkoJ3JlYWR5U3RhdGUnKSkgewogICAgICAgIHN0YXR1cyA9IChjb25uZWN0aW9uLnJlYWR5U3RhdGUgPT09IDEpOwogICAgfSBlbHNlIHsKICAgICAgICBjb25uZWN0aW9uLmNvbGxlY3Rpb24oJ3N5c3RlbS5qcycpCiAgICAgICAgICAgIC5maW5kT25lKHt9LCAoZXJyb3IpID0+IHsKICAgICAgICAgICAgICAgIHN0YXR1cyA9ICFlcnJvcjsKICAgICAgICAgICAgfSkKICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBmb3J3YXJkOiByZXEudGFyZ2V0LAo=</text>
+        <text encoding="base64">ICAgIGlmIChPYmplY3QuaGFzT3duUHJvcGVydHkoJ3JlYWR5U3RhdGUnKSkgewogICAgICAgIHN0YXR1cyA9IChjb25uZWN0aW9uLnJlYWR5U3RhdGUgPT09IDEpOwogICAgfSBlbHNlIHsKICAgICAgICBjb25uZWN0aW9uLmNvbGxlY3Rpb24oJ3N5c3RlbS5qcycpCiAgICAgICAgICAgIC5maW5kT25lKHt9LCAoZXJyb3IpID0+IHsKICAgICAgICAgICAgICAgIHN0YXR1cyA9ICFlcnJvcjsKICAgICAgICAgICAgfSkKICAgIH0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBwcm94eVJlcS5zZXRIZWFkZXIoJ0NvbnRlbnQtTGVuZ3RoJywgYm9keURhdGEubGVuZ3RoKTsK</text>
+        <text encoding="base64">ICAgICAgICAvLyBmb3J3YXJkOiByZXEudGFyZ2V0LAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICByZXEubG9nLmluZm8oJ0V4cGxpY2l0bHkgc2V0dGluZyBjb250ZW50IGxlbmd0aCB0byAnICsgYm9keURhdGEubGVuZ3RoKTsK</text>
+        <text encoding="base64">ICAgICAgICBwcm94eVJlcS5zZXRIZWFkZXIoJ0NvbnRlbnQtTGVuZ3RoJywgYm9keURhdGEubGVuZ3RoKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgd3NkbDogIiRyZW1vdGVXcyIK</text>
+        <text encoding="base64">ICAgICAgICByZXEubG9nLmluZm8oJ0V4cGxpY2l0bHkgc2V0dGluZyBjb250ZW50IGxlbmd0aCB0byAnICsgYm9keURhdGEubGVuZ3RoKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2147,13 +2148,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Ly8gICAgICAgIGNvbXBpbGUgJ29yZy5zcHJpbmdmcmFtZXdvcmsud3M6c3ByaW5nLXdzLWNvcmU6Mi40LjAuUkVMRUFTRScK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgd3NkbDogIiRyZW1vdGVXcyIK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Ly8gICAgICAgIGNvbXBpbGUgIm9yZy5hcGFjaGUuY3hmOmN4Zi1ydC1mcm9udGVuZC1qYXh3czokYXBhY2hlQ2Z4VmVyc2lvbiIKLy8gICAgICAgIGNvbXBpbGUgIm9yZy5hcGFjaGUuY3hmOmN4Zi1ydC10cmFuc3BvcnRzLWh0dHA6JGFwYWNoZUNmeFZlcnNpb24iCg==</text>
+        <text encoding="base64">Ly8gICAgICAgIGNvbXBpbGUgJ29yZy5zcHJpbmdmcmFtZXdvcmsud3M6c3ByaW5nLXdzLWNvcmU6Mi40LjAuUkVMRUFTRScK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Ly8gICAgICAgIGNvbXBpbGUgIm9yZy5hcGFjaGUuY3hmOmN4Zi1ydC1mcm9udGVuZC1qYXh3czokYXBhY2hlQ2Z4VmVyc2lvbiIKLy8gICAgICAgIGNvbXBpbGUgIm9yZy5hcGFjaGUuY3hmOmN4Zi1ydC10cmFuc3BvcnRzLWh0dHA6JGFwYWNoZUNmeFZlcnNpb24iCg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
@@ -2166,7 +2167,7 @@
       <last-replace encoding="base64">JjI=</last-replace>
       <last-substitute>message</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>

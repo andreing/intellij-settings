@@ -1050,6 +1050,7 @@
         <mark key="^" line="9" column="58" />
         <mark key="." line="9" column="58" />
       </file>
+      <file name="$USER_HOME$/repos/webformdefinitions/src/main/python/validateforms.py" timestamp="1495461054397" />
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/mail-template-admin.orig.js" timestamp="1486030491650">
         <mark key="'" line="85" column="0" />
         <mark key="[" line="89" column="66" />
@@ -1157,12 +1158,12 @@
         <mark key="^" line="42" column="59" />
         <mark key="." line="42" column="59" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" timestamp="1495459845380">
-        <mark key="'" line="90" column="12" />
-        <mark key="[" line="102" column="45" />
-        <mark key="]" line="102" column="44" />
-        <mark key="." line="102" column="44" />
-        <mark key="^" line="102" column="44" />
+      <file name="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" timestamp="1495461887922">
+        <mark key="'" line="82" column="92" />
+        <mark key="[" line="79" column="0" />
+        <mark key="]" line="82" column="140" />
+        <mark key="." line="82" column="140" />
+        <mark key="^" line="82" column="140" />
       </file>
       <file name="$USER_HOME$/repos/claimsgateway/apps/servicecenter/router_internal.js" timestamp="1495451527847">
         <mark key="[" line="12" column="31" />
@@ -1582,9 +1583,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="111" column="4" filename="$USER_HOME$/repos/file-service/src/main/java/protector/fileservice/document/FileOperationsService.java" />
-      <jump line="116" column="8" filename="$USER_HOME$/repos/file-service/src/main/java/protector/fileservice/document/FileOperationsService.java" />
-      <jump line="119" column="16" filename="$USER_HOME$/repos/file-service/src/main/java/protector/fileservice/document/FileOperationsService.java" />
       <jump line="132" column="25" filename="$USER_HOME$/repos/file-service/src/main/java/protector/fileservice/document/FileOperationsService.java" />
       <jump line="56" column="90" filename="$USER_HOME$/repos/file-service/src/main/java/protector/fileservice/document/FileOperationsService.java" />
       <jump line="105" column="25" filename="$USER_HOME$/repos/file-service/src/main/java/protector/fileservice/document/FileOperationsService.java" />
@@ -1682,10 +1680,13 @@
       <jump line="2" column="0" filename="$USER_HOME$/repos/claimsgateway/apps/shared/http-codes.js" />
       <jump line="90" column="12" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
       <jump line="33" column="0" filename="$USER_HOME$/repos/file-service/client/src/main/groovy/protector/fileservice/client/domain/FileServiceException.java" />
+      <jump line="81" column="82" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
+      <jump line="80" column="73" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
+      <jump line="82" column="92" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IGdyb292eS5qc29uLkpzb25CdWlsZGVyCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzY3JpcHRPYmplY3QuY29sb3JSZWQoImVycm9yczogJHtlcnJvcnMuc2l6ZSgpfSIpICsgJywgJyArIHNjcmlwdE9iamVjdC5jb2xvckdybigic3VjY2Vzc2VzOiAke3N1Y2Nlc3Nlcy5zaXplKCl9IikK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1741,10 +1742,10 @@
         <text>asdasdasd</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">YyA9PiByZXMuYWRkTGlua1RvKGMpLndpdGhSZWwoYyk=</text>
+        <text>scriptObject.colorGrn(&quot;successes: ${successes.size()}&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGdyb292eS5qc29uLkpzb25CdWlsZGVyCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzY3JpcHRPYmplY3QuY29sb3JSZWQoImVycm9yczogJHtlcnJvcnMuc2l6ZSgpfSIpICsgJywgJyArIHNjcmlwdE9iamVjdC5jb2xvckdybigic3VjY2Vzc2VzOiAke3N1Y2Nlc3Nlcy5zaXplKCl9IikK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1804,19 +1805,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgc3RyID0gbmV3IEpzb25CdWlsZGVyKGVycm9yKS50b1N0cmluZygpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbmV3IEpzb25CdWlsZGVyKCkudG9TdHJpbmcoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnRsbiAnZGVjb2RlZCBlcnJvciBtZXNzYWdlJwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcmN0IHBhcnNlZCAhPSBudWxsCg==</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICBwcmludGxuICdmYWlsZWQgdG8gZGVjb2RlIGVycm9yIG1lc3NhZ2U6ICcgKyBlCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IGdyb292eS5qc29uLkpzb25CdWlsZGVyCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IGdyb292eS5qc29uLkpzb25CdWlsZGVyOwo=</text>
+        <text encoding="base64">ICAgICAgICBkZWYgc3RyID0gbmV3IEpzb25CdWlsZGVyKGVycm9yKS50b1N0cmluZygpCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2151,10 +2152,10 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBuZXcgSnNvbkJ1aWxkZXIoKTsK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbmV3IEpzb25CdWlsZGVyKCkudG9TdHJpbmcoKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnRsbiBlcnJvcgo=</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcmN0IHBhcnNlZCAhPSBudWxsCg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -2168,7 +2169,7 @@
       <last-offset />
       <last-pattern>asdasdasd</last-pattern>
       <last-replace encoding="base64">XFwiJlxcIg==</last-replace>
-      <last-substitute>\w\+</last-substitute>
+      <last-substitute>asdasdasd</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>

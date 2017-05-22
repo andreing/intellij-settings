@@ -165,12 +165,11 @@
         <mark key="^" line="10" column="41" />
         <mark key="." line="10" column="41" />
       </file>
-      <file name="$USER_HOME$/repos/claimsgateway/apps/electronic_claims/router.js" timestamp="1495444613378">
+      <file name="$USER_HOME$/repos/claimsgateway/apps/electronic_claims/router.js" timestamp="1495446648418">
         <mark key="'" line="23" column="0" />
-        <mark key="[" line="20" column="29" />
-        <mark key="]" line="20" column="8" />
-        <mark key="." line="20" column="8" />
-        <mark key="^" line="20" column="8" />
+        <mark key="[" line="51" column="50" />
+        <mark key="]" line="27" column="0" />
+        <mark key="." line="27" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/apps/nobina/transform.spec.js" timestamp="1477046899698">
         <mark key="[" line="5" column="50" />
@@ -602,7 +601,7 @@
         <mark key="." line="1029" column="68" />
         <mark key="^" line="1029" column="68" />
       </file>
-      <file name="/Dummy.txt" timestamp="1495439103663">
+      <file name="/Dummy.txt" timestamp="1495446874368">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="2" />
@@ -755,6 +754,13 @@
         <mark key="]" line="5" column="9" />
         <mark key="^" line="5" column="9" />
         <mark key="." line="5" column="9" />
+      </file>
+      <file name="$USER_HOME$/repos/claimsgateway/apps/shared/http-codes.js" timestamp="1495445677466">
+        <mark key="'" line="2" column="0" />
+        <mark key="[" line="2" column="26" />
+        <mark key="]" line="2" column="16" />
+        <mark key="." line="2" column="16" />
+        <mark key="^" line="2" column="16" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/claim/create/assign-user.html" timestamp="1479997477167">
         <mark key="[" line="9" column="120" />
@@ -989,12 +995,12 @@
         <mark key="^" line="40" column="38" />
         <mark key="." line="19" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claimsgateway/apps/fileservice/fileservice-client.js" timestamp="1495184834210">
+      <file name="$USER_HOME$/repos/claimsgateway/apps/fileservice/fileservice-client.js" timestamp="1495446557718">
         <mark key="'" line="44" column="4" />
-        <mark key="[" line="46" column="31" />
-        <mark key="]" line="47" column="7" />
-        <mark key="." line="47" column="7" />
+        <mark key="[" line="13" column="31" />
+        <mark key="]" line="50" column="0" />
         <mark key="^" line="47" column="7" />
+        <mark key="." line="50" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claimsgateway/apps/submission2pdf/router.js" timestamp="1495185378618">
         <mark key="'" line="23" column="0" />
@@ -1242,12 +1248,12 @@
         <mark key="^" line="59" column="14" />
         <mark key="." line="59" column="14" />
       </file>
-      <file name="$USER_HOME$/repos/claimsgateway/apps/electronic_claims/formdefinitions.js" timestamp="1495444605502">
-        <mark key="'" line="18" column="48" />
-        <mark key="[" line="12" column="8" />
-        <mark key="]" line="6" column="0" />
-        <mark key="^" line="15" column="3" />
-        <mark key="." line="6" column="0" />
+      <file name="$USER_HOME$/repos/claimsgateway/apps/electronic_claims/formdefinitions.js" timestamp="1495446454661">
+        <mark key="'" line="17" column="48" />
+        <mark key="[" line="26" column="0" />
+        <mark key="]" line="26" column="0" />
+        <mark key="." line="26" column="0" />
+        <mark key="^" line="36" column="15" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/config/development.yaml" timestamp="1494591890355">
         <mark key="'" line="9" column="0" />
@@ -1538,7 +1544,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="26" filename="$USER_HOME$/repos/claims/web-online/src/main/java/protector/claims/onlineapi/controllers/OnlineEventController.java" />
       <jump line="14" column="26" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/EventLinkService.java" />
       <jump line="101" column="0" filename="$USER_HOME$/repos/file-service/src/main/java/protector/fileservice/document/FileOperationsService.java" />
       <jump line="111" column="4" filename="$USER_HOME$/repos/file-service/src/main/java/protector/fileservice/document/FileOperationsService.java" />
@@ -1638,6 +1643,7 @@
       <jump line="23" column="0" filename="$USER_HOME$/repos/claimsgateway/apps/electronic_claims/router.js" />
       <jump line="15" column="22" filename="$USER_HOME$/repos/claimsgateway/apps/electronic_claims/formdefinitions.js" />
       <jump line="22" column="48" filename="$USER_HOME$/repos/claimsgateway/apps/electronic_claims/formdefinitions.js" />
+      <jump line="2" column="0" filename="$USER_HOME$/repos/claimsgateway/apps/shared/http-codes.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -1760,19 +1766,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Y29uc3QgQ09VTlRSSUVTID0gWydub3J3YXknLCAnc3dlZGVuJywgJ2Rlbm1hcmsnLCAnZmlubGFuZCcsICd1ayddOwo=</text>
+        <text encoding="base64">LyoqCiAqIEdldCBmaWxlIG1ldGFkYXRhCiAqLwpmdW5jdGlvbiBmaW5kKG9pZCkgewogICAgLy9UT0RPCn0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIENPVU5UUklFUy5mb3JFYWNoKGMgPT4gcmVzLmFkZExpbmtUbyhjKS53aXRoUmVsKGMpKTsKICAgIAo=</text>
+        <text encoding="base64">ICAgIHJlcS5sb2cuaW5mbyh7bW9uZ29fcmVzOiByZXN1bHR9KTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">cm91dGVyLmdldCgnL2Zvcm0tZGVmaW5pdGlvbi86b2JqZWN0SWQnLAogICAgZm9ybWRlZmluaXRpb25zLmZvcm1kZWZpbml0aW9uRGF0YQopOwoK</text>
+        <text encoding="base64">Y29uc3QgbG9nID0gcmVxdWlyZSgnLi4vLi4vbG9nZ2VyJykubG9nOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZXhwb3J0cy5pcm91dGVyID0gcm91dGVyLmlyb3V0ZXI7Cg==</text>
+        <text encoding="base64">cm91dGVyLmdldCgnL3Rlc3QnLCAvL1RPRE8gcmVtb3ZlCiAgICAvLyBoYXRlb2FzTGlua2VyLAogICAgLy8gbGlua0FkZGVyKCksCiAgICB3cmFwKGZvcm1kZWZpbml0aW9ucy50ZXN0KQopOwoK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">YXBwLnVzZSgnL2VsZWN0cm9uaWMtY2xhaW1zJywgZWNsYWltcy5pcm91dGVyKTsK</text>
+        <text encoding="base64">ICAgIHJlcS5sb2cuaW5mbyh7b3VybDogcmVxLm9yaWdpbmFsVXJsLCBiYXNlOiByZXEuYmFzZVVybCwgcGF0aDogcmVxLnBhdGh9KTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2107,13 +2113,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ZXhwb3J0cy5pcm91dGVyID0gaXJvdXRlcjsK</text>
+        <text encoding="base64">ZXhwb3J0cy5CQURfUkVRVUVTVCA9IDQwMDsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aXJvdXRlci5wb3N0KCcvdXBsb2FkJywKICAgIGZvcm1kZWZpbml0aW9ucy51cGxvYWQKKTsKCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZXhwb3J0cy51cGxvYWQgPSB1cGxvYWQ7Cg==</text>
+        <text encoding="base64">ZXhwb3J0cy50ZXN0ID0gdGVzdDsK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

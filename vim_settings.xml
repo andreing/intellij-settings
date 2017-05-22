@@ -209,12 +209,6 @@
         <mark key="." line="10" column="0" />
         <mark key="^" line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claimsgateway/apps/shared/util.js" timestamp="1495112371463">
-        <mark key="[" line="92" column="0" />
-        <mark key="]" line="92" column="0" />
-        <mark key="^" line="92" column="21" />
-        <mark key="." line="92" column="0" />
-      </file>
       <file name="$USER_HOME$/repos/claimsgateway/test/object.test.js" timestamp="1495180010591">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="1" column="7" />
@@ -442,6 +436,12 @@
         <mark key="]" line="19" column="57" />
         <mark key="." line="19" column="57" />
         <mark key="^" line="19" column="57" />
+      </file>
+      <file name="$USER_HOME$/repos/claimsgateway/apps/servicecenter/servicecenter.js" timestamp="1495451319681">
+        <mark key="[" line="84" column="11" />
+        <mark key="]" line="84" column="15" />
+        <mark key="^" line="84" column="15" />
+        <mark key="." line="84" column="15" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/common/common-module.js" timestamp="1486720212159">
         <mark key="[" line="1" column="0" />
@@ -898,11 +898,11 @@
         <mark key="." line="6" column="0" />
         <mark key="^" line="6" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claimsgateway/apps/servicecenter/views/layout.hbs" timestamp="1495450235440">
-        <mark key="[" line="12" column="58" />
-        <mark key="]" line="12" column="17" />
+      <file name="$USER_HOME$/repos/claimsgateway/apps/servicecenter/views/layout.hbs" timestamp="1495451463720">
+        <mark key="[" line="26" column="0" />
+        <mark key="]" line="26" column="0" />
         <mark key="^" line="12" column="17" />
-        <mark key="." line="12" column="17" />
+        <mark key="." line="26" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/claim-header-damage-info-life-ctrl.js" timestamp="1490966352071">
         <mark key="'" line="716" column="0" />
@@ -1010,11 +1010,6 @@
         <mark key="]" line="50" column="0" />
         <mark key="^" line="47" column="7" />
         <mark key="." line="50" column="0" />
-      </file>
-      <file name="$USER_HOME$/repos/claimsgateway/apps/submission2pdf/router.js" timestamp="1495185378618">
-        <mark key="'" line="23" column="0" />
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="27" column="26" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/notes/claimNotes.js" timestamp="1484821161781">
         <mark key="'" line="0" column="0" />
@@ -1148,6 +1143,9 @@
         <mark key="[" line="97" column="0" />
         <mark key="]" line="97" column="0" />
         <mark key="." line="97" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/claimsgateway/apps/servicecenter/router_internal.js" timestamp="1495451527847">
+        <mark key="[" line="12" column="31" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/uk/liability/uk_liability_injury_employer.xml" timestamp="1486981278787">
         <mark key="'" line="4" column="8" />
@@ -1656,7 +1654,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgPCEtLTxmb3JtIGNsYXNzPSJuYXZiYXItZm9ybSBuYXZiYXItbGVmdCIgcm9sZT0ic2VhcmNoIj4tLT4KICAgICAgICAgICAgICAgIDwhLS08ZGl2IGNsYXNzPSJmb3JtLWdyb3VwIj4tLT4KICAgICAgICAgICAgICAgICAgICA8IS0tPGlucHV0IHR5cGU9InRleHQiIGNsYXNzPSJmb3JtLWNvbnRyb2wiIHBsYWNlaG9sZGVyPSJWZXJrc3RlZC4uLiI+LS0+CiAgICAgICAgICAgICAgICA8IS0tPC9kaXY+LS0+CiAgICAgICAgICAgICAgICA8IS0tPGJ1dHRvbiB0eXBlPSJzdWJtaXQiIGNsYXNzPSJidG4gYnRuLWRlZmF1bHQiPlPDuGs8L2J1dHRvbj4tLT4KICAgICAgICAgICAgPCEtLTwvZm9ybT4tLT4K</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1715,7 +1713,7 @@
         <text encoding="base64">YyA9PiByZXMuYWRkTGlua1RvKGMpLndpdGhSZWwoYyk=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgPCEtLTxmb3JtIGNsYXNzPSJuYXZiYXItZm9ybSBuYXZiYXItbGVmdCIgcm9sZT0ic2VhcmNoIj4tLT4KICAgICAgICAgICAgICAgIDwhLS08ZGl2IGNsYXNzPSJmb3JtLWdyb3VwIj4tLT4KICAgICAgICAgICAgICAgICAgICA8IS0tPGlucHV0IHR5cGU9InRleHQiIGNsYXNzPSJmb3JtLWNvbnRyb2wiIHBsYWNlaG9sZGVyPSJWZXJrc3RlZC4uLiI+LS0+CiAgICAgICAgICAgICAgICA8IS0tPC9kaXY+LS0+CiAgICAgICAgICAgICAgICA8IS0tPGJ1dHRvbiB0eXBlPSJzdWJtaXQiIGNsYXNzPSJidG4gYnRuLWRlZmF1bHQiPlPDuGs8L2J1dHRvbj4tLT4KICAgICAgICAgICAgPCEtLTwvZm9ybT4tLT4K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1775,19 +1773,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">LyoqCiAqIEdldCBmaWxlIG1ldGFkYXRhCiAqLwpmdW5jdGlvbiBmaW5kKG9pZCkgewogICAgLy9UT0RPCn0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHJlcS5sb2cuaW5mbyh7bW9uZ29fcmVzOiByZXN1bHR9KTsK</text>
+        <text encoding="base64">LyoqCiAqIEdldCBmaWxlIG1ldGFkYXRhCiAqLwpmdW5jdGlvbiBmaW5kKG9pZCkgewogICAgLy9UT0RPCn0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Y29uc3QgbG9nID0gcmVxdWlyZSgnLi4vLi4vbG9nZ2VyJykubG9nOwo=</text>
+        <text encoding="base64">ICAgIHJlcS5sb2cuaW5mbyh7bW9uZ29fcmVzOiByZXN1bHR9KTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">cm91dGVyLmdldCgnL3Rlc3QnLCAvL1RPRE8gcmVtb3ZlCiAgICAvLyBoYXRlb2FzTGlua2VyLAogICAgLy8gbGlua0FkZGVyKCksCiAgICB3cmFwKGZvcm1kZWZpbml0aW9ucy50ZXN0KQopOwoK</text>
+        <text encoding="base64">Y29uc3QgbG9nID0gcmVxdWlyZSgnLi4vLi4vbG9nZ2VyJykubG9nOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHJlcS5sb2cuaW5mbyh7b3VybDogcmVxLm9yaWdpbmFsVXJsLCBiYXNlOiByZXEuYmFzZVVybCwgcGF0aDogcmVxLnBhdGh9KTsK</text>
+        <text encoding="base64">cm91dGVyLmdldCgnL3Rlc3QnLCAvL1RPRE8gcmVtb3ZlCiAgICAvLyBoYXRlb2FzTGlua2VyLAogICAgLy8gbGlua0FkZGVyKCksCiAgICB3cmFwKGZvcm1kZWZpbml0aW9ucy50ZXN0KQopOwoK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2122,13 +2120,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ZXhwb3J0cy5CQURfUkVRVUVTVCA9IDQwMDsK</text>
+        <text encoding="base64">ICAgIHJlcS5sb2cuaW5mbyh7b3VybDogcmVxLm9yaWdpbmFsVXJsLCBiYXNlOiByZXEuYmFzZVVybCwgcGF0aDogcmVxLnBhdGh9KTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZXhwb3J0cy5CQURfUkVRVUVTVCA9IDQwMDsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZXhwb3J0cy50ZXN0ID0gdGVzdDsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

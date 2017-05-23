@@ -53,12 +53,11 @@
         <mark key="^" line="11" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/basicAuth.js" timestamp="1495545723785">
-        <mark key="'" line="23" column="8" />
-        <mark key="[" line="8" column="48" />
-        <mark key="]" line="8" column="33" />
-        <mark key="." line="8" column="33" />
-        <mark key="^" line="8" column="33" />
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/basicAuth.js" timestamp="1495548575691">
+        <mark key="'" line="28" column="8" />
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="." line="6" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/apps/nobina/api.js" timestamp="1494574134043">
         <mark key="'" line="14" column="22" />
@@ -210,10 +209,6 @@
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
         <mark key="^" line="96" column="13" />
-      </file>
-      <file name="$USER_HOME$/repos/dmzproxy/config/default.js" timestamp="1495537224000">
-        <mark key="'" line="8" column="20" />
-        <mark key="[" line="8" column="29" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssingment.java" timestamp="1479213358551">
         <mark key="[" line="11" column="4" />
@@ -620,8 +615,12 @@
       <file name="$USER_HOME$/repos/claimsgateway/config/development.yaml" timestamp="1495536878627">
         <mark key="[" line="31" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/validateToken.js" timestamp="1495546364500">
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/validateToken.js" timestamp="1495548030190">
+        <mark key="'" line="18" column="6" />
         <mark key="[" line="1" column="37" />
+        <mark key="]" line="22" column="8" />
+        <mark key="^" line="22" column="8" />
+        <mark key="." line="22" column="8" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/common/ProtectorCommons.js" timestamp="1478865619534">
         <mark key="[" line="1036" column="12" />
@@ -1214,6 +1213,11 @@
         <mark key="^" line="31" column="32" />
         <mark key="." line="31" column="32" />
       </file>
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/validateRequest.js" timestamp="1495548728183">
+        <mark key="[" line="9" column="12" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/templates/ClaimsTemplateType.java" timestamp="1484228713437">
         <mark key="[" line="9" column="26" />
         <mark key="]" line="9" column="26" />
@@ -1605,10 +1609,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="136" column="20" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssignmentService.java" />
-      <jump line="137" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssignmentService.java" />
-      <jump line="135" column="20" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssignmentService.java" />
-      <jump line="128" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssignmentService.java" />
       <jump line="31" column="4" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssignmentService.java" />
       <jump line="41" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssignmentService.java" />
       <jump line="138" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssignmentService.java" />
@@ -1705,10 +1705,14 @@
       <jump line="28" column="4" filename="$USER_HOME$/repos/dmzproxy/middleware/basicAuth.js" />
       <jump line="17" column="4" filename="$USER_HOME$/repos/dmzproxy/middleware/basicAuth.js" />
       <jump line="23" column="8" filename="$USER_HOME$/repos/dmzproxy/middleware/basicAuth.js" />
+      <jump line="22" column="8" filename="$USER_HOME$/repos/dmzproxy/middleware/validateToken.js" />
+      <jump line="43" column="12" filename="$USER_HOME$/repos/dmzproxy/middleware/validateToken.js" />
+      <jump line="23" column="11" filename="$USER_HOME$/repos/dmzproxy/middleware/validateToken.js" />
+      <jump line="18" column="6" filename="$USER_HOME$/repos/dmzproxy/middleware/validateToken.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgdXNlclByaW5jaXBhbE5hbWUgPSB1c2VyLm5hbWUgKyAnQHByb3RlY3Rvci5sb2NhbCc7Cg==</text>
+        <text encoding="base64">ZXhwb3JWCgpmdW5jdGkKICAgIHJldHVybiBiYXNpY0F1dGgocmVxKTsKfQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1758,16 +1762,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICwgIkVycm9yIHdoZW4gYXV0aGVudGljYXRpbmcgd2l0aCBBRCIpOw==</text>
+        <text>ts.auth = auth;</text>
       </register>
       <register name="/" type="4">
-        <text>^\([^:]*: \)\(.*\)$</text>
+        <text encoding="base64">XDx2ZXJpZnlVcmxcPg==</text>
       </register>
       <register name="0" type="4">
         <text>scriptObject.colorGrn(&quot;successes: ${successes.size()}&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgdXNlclByaW5jaXBhbE5hbWUgPSB1c2VyLm5hbWUgKyAnQHByb3RlY3Rvci5sb2NhbCc7Cg==</text>
+        <text encoding="base64">ZXhwb3JWCgpmdW5jdGkKICAgIHJldHVybiBiYXNpY0F1dGgocmVxKTsKfQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1827,19 +1831,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgYXV0aENhbGxiYWNrID0gKGVyciwgYXV0aCkgPT4gewogICAgICAgICAgICBpZiAoZXJyKSB7CiAgICAgICAgICAgICAgICBjb25zb2xlLmVycm9yKGVycik7CiAgICAgICAgICAgICAgICByZXR1cm4gdW5hdXRob3JpemVkKHJlcyk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHJldHVybiBhdXRoID8gbmV4dCgpIDogdW5hdXRob3JpemVkKHJlcyk7CgogICAgICAgIH07CiAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIHJldHVybiBjcmVkcwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBhZC5hdXRoZW50aWNhdGUodXNlclByaW5jaXBhbE5hbWUsIHVzZXIucGFzcywgY2FsbGJhY2spOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBmdW5jdGlvbiB1bmF1dGhvcml6ZWQocmVzKSB7CiAgICAgICAgICAgIHJlcy5zZXQoJ1dXVy1BdXRoZW50aWNhdGUnLCAnQmFzaWMgcmVhbG09QXV0aG9yaXphdGlvbiBSZXF1aXJlZCcpOwogICAgICAgICAgICByZXR1cm4gcmVzLnNlbmRTdGF0dXMoNDAxKTsKICAgICAgICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAocHJvY2Vzcy5lbnYuTk9ERV9FTlYgIT09ICdwcm9kdWN0aW9uJykgewogICAgICAgICAgICAvLyBEbyBub3QgcmVxdWlyZSBhdXRoZW50aWNhdGlvbiBpbiBkZXZlbG9wbWVudAogICAgICAgICAgICByZXR1cm4gbmV4dCgpOwogICAgICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGxvZy5pbmZvKCdBY3RpdmVEaXJlY3Rvcnkgc3RhcnRlZCcpOwo=</text>
+        <text encoding="base64">ZXhwb3J0cy5hdXRoID0gYmFzaWM7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2174,31 +2178,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Y29uc3QgbG9nID0gcmVxdWlyZSgnLi9sb2dnZXInKS5sb2c7Cg==</text>
+        <text encoding="base64">Y29uc3QgYWQgPSByZXF1aXJlKCcuLi9hY3RpdmVkaXJlY3RvcnknKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzY3JpcHRPYmplY3QuY29sb3JSZWQoImVycm9yczogJHtlcnJvcnMuc2l6ZSgpfSIpICsgJywgJyArIHNjcmlwdE9iamVjdC5jb2xvckdybigic3VjY2Vzc2VzOiAke3N1Y2Nlc3Nlcy5zaXplKCl9IikK</text>
+        <text encoding="base64">ICAgICAgICBsZXQgdXNlclByaW5jaXBhbE5hbWUgPSB1c2VyLm5hbWUgKyAnQHByb3RlY3Rvci5sb2NhbCc7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBsZXQgYXV0aENhbGxiYWNrID0gKGVyciwgYXV0aCkgPT4gewogICAgICAgICAgICBpZiAoZXJyKSB7CiAgICAgICAgICAgICAgICBjb25zb2xlLmVycm9yKGVycik7CiAgICAgICAgICAgICAgICByZXR1cm4gdW5hdXRob3JpemVkKHJlcyk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHJldHVybiBhdXRoID8gbmV4dCgpIDogdW5hdXRob3JpemVkKHJlcyk7CgogICAgICAgIH07CiAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL15cKFteOl0qOiBcKVwoLipcKSQvXDEnXDInLC8=</text>
       </register>
     </registers>
     <search>
-      <last-search>^\([^:]*: \)\(.*\)$</last-search>
+      <last-search encoding="base64">XDx2ZXJpZnlVcmxcPg==</last-search>
       <last-offset />
-      <last-pattern>^\([^:]*: \)\(.*\)$</last-pattern>
+      <last-pattern encoding="base64">XDx2ZXJpZnlVcmxcPg==</last-pattern>
       <last-replace>\1'\2',</last-replace>
       <last-substitute>^\([^:]*: \)\(.*\)$</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxwb29sXD4=</entry>
-        <entry encoding="base64">XDxCaUZ1bmN0aW9uXD4=</entry>
         <entry encoding="base64">XDxkb21haW5Ub0dyaWRGc1w+</entry>
         <entry>fs\.</entry>
         <entry encoding="base64">XDxoYXNBcHByb3ZlcnNcPg==</entry>
@@ -2217,6 +2219,8 @@
         <entry>asdasdasd</entry>
         <entry>^\([^:]* \)\(.*\)$</entry>
         <entry>^\([^:]*: \)\(.*\)$</entry>
+        <entry encoding="base64">XDxvcHRpb25zXD4=</entry>
+        <entry encoding="base64">XDx2ZXJpZnlVcmxcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>

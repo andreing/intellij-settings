@@ -3,6 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/repos/claimsgateway/auth.js" timestamp="1495539035564" />
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_group_fatality.xml" timestamp="1490105766736">
         <mark key="'" line="1" column="187" />
         <mark key="[" line="1" column="15" />
@@ -52,8 +53,12 @@
         <mark key="^" line="11" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/basicAuth.js" timestamp="1495534516468">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/basicAuth.js" timestamp="1495539479883">
+        <mark key="'" line="22" column="8" />
+        <mark key="[" line="22" column="63" />
+        <mark key="]" line="11" column="7" />
+        <mark key="." line="11" column="7" />
+        <mark key="^" line="11" column="7" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/apps/nobina/api.js" timestamp="1494574134043">
         <mark key="'" line="14" column="22" />
@@ -321,6 +326,9 @@
         <mark key="]" line="10" column="7" />
         <mark key="^" line="10" column="7" />
         <mark key="." line="10" column="7" />
+      </file>
+      <file name="$USER_HOME$/repos/dmzproxy/activedirectory/index.js" timestamp="1495538958831">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/apps/fileservice/fileservice-client.js" timestamp="1494595005914">
         <mark key="'" line="74" column="0" />
@@ -836,7 +844,6 @@
         <mark key="^" line="166" column="20" />
         <mark key="." line="174" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claimsgateway/serverAD.js" timestamp="1495536783280" />
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-directive.js" timestamp="1486727357602">
         <mark key="[" line="48" column="58" />
         <mark key="]" line="48" column="45" />
@@ -985,12 +992,12 @@
         <mark key="." line="20" column="47" />
         <mark key="^" line="25" column="53" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/02385e45-7817-4344-8aca-b3a8940a4f60/console.sql" timestamp="1495202497363">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/02385e45-7817-4344-8aca-b3a8940a4f60/console.sql" timestamp="1495539960550">
         <mark key="'" line="599" column="0" />
-        <mark key="[" line="761" column="37" />
-        <mark key="]" line="749" column="56" />
-        <mark key="^" line="749" column="56" />
-        <mark key="." line="749" column="56" />
+        <mark key="[" line="770" column="20" />
+        <mark key="]" line="771" column="7" />
+        <mark key="^" line="771" column="7" />
+        <mark key="." line="771" column="7" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_disability.xml" timestamp="1490105733767">
         <mark key="[" line="1" column="15" />
@@ -1594,9 +1601,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="56" column="90" filename="$USER_HOME$/repos/file-service/src/main/java/protector/fileservice/document/FileOperationsService.java" />
-      <jump line="105" column="25" filename="$USER_HOME$/repos/file-service/src/main/java/protector/fileservice/document/FileOperationsService.java" />
-      <jump line="140" column="41" filename="$USER_HOME$/repos/file-service/src/main/java/protector/fileservice/document/FileOperationsService.java" />
       <jump line="136" column="20" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssignmentService.java" />
       <jump line="137" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssignmentService.java" />
       <jump line="135" column="20" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssignmentService.java" />
@@ -1694,10 +1698,13 @@
       <jump line="80" column="73" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
       <jump line="82" column="92" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
       <jump line="9" column="20" filename="$USER_HOME$/repos/dmzproxy/config/default.js" />
+      <jump line="28" column="4" filename="$USER_HOME$/repos/dmzproxy/middleware/basicAuth.js" />
+      <jump line="17" column="4" filename="$USER_HOME$/repos/dmzproxy/middleware/basicAuth.js" />
+      <jump line="23" column="8" filename="$USER_HOME$/repos/dmzproxy/middleware/basicAuth.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGxvZy5pbmZvKCdBY3RpdmVEaXJlY3Rvcnkgc3RhcnRlZCcpOwo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgdXNlclByaW5jaXBhbE5hbWUgPSB1c2VyLm5hbWUgKyAnQHByb3RlY3Rvci5sb2NhbCc7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1747,7 +1754,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>&quot;</text>
+        <text encoding="base64">ICwgIkVycm9yIHdoZW4gYXV0aGVudGljYXRpbmcgd2l0aCBBRCIpOw==</text>
       </register>
       <register name="/" type="4">
         <text>^\([^:]*: \)\(.*\)$</text>
@@ -1756,7 +1763,7 @@
         <text>scriptObject.colorGrn(&quot;successes: ${successes.size()}&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGxvZy5pbmZvKCdBY3RpdmVEaXJlY3Rvcnkgc3RhcnRlZCcpOwo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgdXNlclByaW5jaXBhbE5hbWUgPSB1c2VyLm5hbWUgKyAnQHByb3RlY3Rvci5sb2NhbCc7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1816,19 +1823,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Y29uc3QgbG9nID0gcmVxdWlyZSgnLi9sb2dnZXInKS5sb2c7Cg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQgYXV0aENhbGxiYWNrID0gKGVyciwgYXV0aCkgPT4gewogICAgICAgICAgICBpZiAoZXJyKSB7CiAgICAgICAgICAgICAgICBjb25zb2xlLmVycm9yKGVycik7CiAgICAgICAgICAgICAgICByZXR1cm4gdW5hdXRob3JpemVkKHJlcyk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHJldHVybiBhdXRoID8gbmV4dCgpIDogdW5hdXRob3JpemVkKHJlcyk7CgogICAgICAgIH07CiAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzY3JpcHRPYmplY3QuY29sb3JSZWQoImVycm9yczogJHtlcnJvcnMuc2l6ZSgpfSIpICsgJywgJyArIHNjcmlwdE9iamVjdC5jb2xvckdybigic3VjY2Vzc2VzOiAke3N1Y2Nlc3Nlcy5zaXplKCl9IikK</text>
+        <text encoding="base64">ICAgICAgICBhZC5hdXRoZW50aWNhdGUodXNlclByaW5jaXBhbE5hbWUsIHVzZXIucGFzcywgY2FsbGJhY2spOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBmdW5jdGlvbiB1bmF1dGhvcml6ZWQocmVzKSB7CiAgICAgICAgICAgIHJlcy5zZXQoJ1dXVy1BdXRoZW50aWNhdGUnLCAnQmFzaWMgcmVhbG09QXV0aG9yaXphdGlvbiBSZXF1aXJlZCcpOwogICAgICAgICAgICByZXR1cm4gcmVzLnNlbmRTdGF0dXMoNDAxKTsKICAgICAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnRsbiAnZGVjb2RlZCBlcnJvciBtZXNzYWdlJwo=</text>
+        <text encoding="base64">ICAgICAgICBpZiAocHJvY2Vzcy5lbnYuTk9ERV9FTlYgIT09ICdwcm9kdWN0aW9uJykgewogICAgICAgICAgICAvLyBEbyBub3QgcmVxdWlyZSBhdXRoZW50aWNhdGlvbiBpbiBkZXZlbG9wbWVudAogICAgICAgICAgICByZXR1cm4gbmV4dCgpOwogICAgICAgIH0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICBwcmludGxuICdmYWlsZWQgdG8gZGVjb2RlIGVycm9yIG1lc3NhZ2U6ICcgKyBlCg==</text>
+        <text encoding="base64">ICAgIGxvZy5pbmZvKCdBY3RpdmVEaXJlY3Rvcnkgc3RhcnRlZCcpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2163,13 +2170,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IGdyb292eS5qc29uLkpzb25CdWlsZGVyCg==</text>
+        <text encoding="base64">Y29uc3QgbG9nID0gcmVxdWlyZSgnLi9sb2dnZXInKS5sb2c7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgc3RyID0gbmV3IEpzb25CdWlsZGVyKGVycm9yKS50b1N0cmluZygpCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzY3JpcHRPYmplY3QuY29sb3JSZWQoImVycm9yczogJHtlcnJvcnMuc2l6ZSgpfSIpICsgJywgJyArIHNjcmlwdE9iamVjdC5jb2xvckdybigic3VjY2Vzc2VzOiAke3N1Y2Nlc3Nlcy5zaXplKCl9IikK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbmV3IEpzb25CdWlsZGVyKCkudG9TdHJpbmcoKTsK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL15cKFteOl0qOiBcKVwoLipcKSQvXDEnXDInLC8=</text>
@@ -2182,7 +2189,7 @@
       <last-replace>\1'\2',</last-replace>
       <last-substitute>^\([^:]*: \)\(.*\)$</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>

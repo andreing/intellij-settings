@@ -301,11 +301,12 @@
         <mark key="." line="0" column="0" />
         <mark key="^" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-request.js" timestamp="1495799790638">
-        <mark key="'" line="8" column="8" />
-        <mark key="[" line="37" column="0" />
-        <mark key="]" line="37" column="0" />
-        <mark key="." line="37" column="0" />
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-request.js" timestamp="1495801027486">
+        <mark key="'" line="33" column="8" />
+        <mark key="[" line="33" column="59" />
+        <mark key="]" line="33" column="66" />
+        <mark key="." line="33" column="0" />
+        <mark key="^" line="32" column="43" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/ClaimsTemplateFactory.java" timestamp="1485265272921">
         <mark key="[" line="18" column="0" />
@@ -509,7 +510,7 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="1" column="31" />
       </file>
-      <file name="$USER_HOME$/repos/claimsgateway/apps/nobina/api.spec.js" timestamp="1495799873724">
+      <file name="$USER_HOME$/repos/claimsgateway/apps/nobina/api.spec.js" timestamp="1495800214567">
         <mark key="'" line="2" column="6" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/dtd/claims_web_form_definition.dtd" timestamp="1489759735831">
@@ -1303,11 +1304,9 @@
         <mark key="." line="10" column="48" />
         <mark key="^" line="10" column="48" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" timestamp="1495798386184">
-        <mark key="'" line="100" column="16" />
-        <mark key="[" line="103" column="11" />
-        <mark key="]" line="103" column="0" />
-        <mark key="." line="103" column="0" />
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" timestamp="1495800663180">
+        <mark key="'" line="97" column="16" />
+        <mark key="[" line="124" column="61" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/WRRAssigneePoolJdbcDao.java" timestamp="1479204293587">
         <mark key="[" line="14" column="26" />
@@ -1642,9 +1641,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="28" column="4" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
-      <jump line="101" column="8" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
-      <jump line="99" column="8" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
       <jump line="188" column="0" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
       <jump line="104" column="16" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
       <jump line="139" column="0" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
@@ -1742,10 +1738,13 @@
       <jump line="9" column="8" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-basic.js" />
       <jump line="3" column="9" filename="$USER_HOME$/repos/claimsgateway/apps/nobina/api.spec.js" />
       <jump line="2" column="6" filename="$USER_HOME$/repos/claimsgateway/apps/nobina/api.spec.js" />
+      <jump line="72" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
+      <jump line="97" column="16" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
+      <jump line="33" column="8" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zdCBib3VuZEZucyA9IGF1dGhGbnMubWFwKGF1dGhGbiA9PiAoKSA9PiBhdXRoRm4ocmVxKSk7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1795,16 +1794,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>(done)</text>
+        <text>302</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxjaGFpQXNQcm9taXNlZFw+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG5leHQuc2hvdWxkLmhhdmUucHJvcGVydHkoJ2NhbGxDb3VudCcsIDApOwo=</text>
+        <text encoding="base64">ICAgICAgICBjb25zdCBib3VuZEZucyA9IGF1dGhGbnMubWFwKGF1dGhGbiA9PiAoKSA9PiBhdXRoRm4ocmVxKSk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICgoKSA9PiBmbihbXSkocmVxLCByZXMsIG5leHQpKSgpOwogICAgICAgICAgICAgICAgcmVzLnN0YXR1c0NvZGUuc2hvdWxkLmVxdWFsKDQwMSk7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1864,19 +1863,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gYXV0aEZucy5zb21lKGF1dGhGbiA9PiBhdXRoRm4ocmVxKSkgPyBuZXh0KCkgOiByZWplY3RVbmF1dGhvcml6ZWQocmVzKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZXMuX2lzRW5kQ2FsbGVkKCkuc2hvdWxkLmJlLnRydWU7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcm9taXNlLnRoZW4ocmVzdWx0ID0+IGZ1bmMoKS50aGVuKEFycmF5LnByb3RvdHlwZS5jb25jYXQuYmluZChyZXN1bHQpKSksCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgICAgICBbXS5mb3JFYWNoKGF1dGhGbiA9PiB7CiAgICAgICAgICAgIGF1dGhGbgogICAgICAgICAgICAgICAgLnRoZW4oaXNBdXRoID0+KQogICAgICAgIH0pOw==</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoaXNCYXNpY0F1dGhSZXEpIHsKICAgICAgICAgICAgLy9kbyBiYXNpYyBhdXRoCiAgICAgICAgfQoKICAgICAgICBpZiAoaXNUb2tlblJlcXVlc3QpIHsKCiAgICAgICAgfQoKICAgICAgICBQcm9taXNlLnJlc29sdmUoW10pCiAgICAgICAgICAgIC50aGVuKGFsbCA9PiB7CgogICAgICAgICAgICB9KQoK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gYXV0aEZucy5zb21lKGF1dGhGbiA9PiBhdXRoRm4ocmVxKSkgPyBuZXh0KCkgOiByZWplY3RVbmF1dGhvcml6ZWQocmVzKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcm9taXNlLnRoZW4ocmVzdWx0ID0+IGZ1bmMoKS50aGVuKEFycmF5LnByb3RvdHlwZS5jb25jYXQuYmluZChyZXN1bHQpKSksCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2210,14 +2209,14 @@
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHJldHVybiB2YWxpZGF0ZUNyZWRzKGNyZWRzKTsK</text>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgICAgICBbXS5mb3JFYWNoKGF1dGhGbiA9PiB7CiAgICAgICAgICAgIGF1dGhGbgogICAgICAgICAgICAgICAgLnRoZW4oaXNBdXRoID0+KQogICAgICAgIH0pOw==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaXQoJycsIGZ1bmN0aW9uIChkb25lKSB7CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgfSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAoaXNCYXNpY0F1dGhSZXEpIHsKICAgICAgICAgICAgLy9kbyBiYXNpYyBhdXRoCiAgICAgICAgfQoKICAgICAgICBpZiAoaXNUb2tlblJlcXVlc3QpIHsKCiAgICAgICAgfQoKICAgICAgICBQcm9taXNlLnJlc29sdmUoW10pCiAgICAgICAgICAgIC50aGVuKGFsbCA9PiB7CgogICAgICAgICAgICB9KQoK</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgIFZpZiAoY3JlZHMpIHsKICAgICAgICByZXR1cm4gdmFsaTsKICAgIH0KCiAgICByZXR1cm4gdmFsOw==</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

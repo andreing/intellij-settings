@@ -629,7 +629,7 @@
       <file name="$USER_HOME$/repos/claimsgateway/config/development.yaml" timestamp="1495536878627">
         <mark key="[" line="31" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/validateToken.js" timestamp="1496049520380">
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/validateToken.js" timestamp="1496053665166">
         <mark key="'" line="32" column="127" />
         <mark key="[" line="8" column="55" />
         <mark key="]" line="0" column="8" />
@@ -677,11 +677,11 @@
         <mark key="." line="28" column="0" />
         <mark key="^" line="24" column="65" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-token.js" timestamp="1496049777935">
-        <mark key="[" line="36" column="1" />
-        <mark key="]" line="31" column="3" />
-        <mark key="." line="31" column="3" />
-        <mark key="^" line="31" column="3" />
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-token.js" timestamp="1496054443874">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="50" />
+        <mark key="." line="0" column="0" />
+        <mark key="^" line="0" column="36" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" timestamp="1489346703030">
         <mark key="'" line="90" column="0" />
@@ -1461,12 +1461,12 @@
         <mark key="^" line="3" column="21" />
         <mark key="." line="3" column="21" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" timestamp="1496050019860">
-        <mark key="'" line="22" column="18" />
-        <mark key="[" line="27" column="28" />
-        <mark key="]" line="27" column="10" />
-        <mark key="." line="27" column="10" />
-        <mark key="^" line="27" column="10" />
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" timestamp="1496054971748">
+        <mark key="'" line="7" column="0" />
+        <mark key="[" line="40" column="62" />
+        <mark key="]" line="40" column="15" />
+        <mark key="." line="40" column="15" />
+        <mark key="^" line="40" column="15" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/claim-header-damage-info-life.html" timestamp="1490872109533">
         <mark key="'" line="955" column="93" />
@@ -1501,12 +1501,11 @@
         <mark key="^" line="5" column="39" />
         <mark key="." line="5" column="39" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-basic.js" timestamp="1496047964602">
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-basic.js" timestamp="1496052891652">
         <mark key="'" line="13" column="97" />
-        <mark key="[" line="12" column="100" />
-        <mark key="]" line="12" column="60" />
-        <mark key="." line="12" column="60" />
-        <mark key="^" line="12" column="60" />
+        <mark key="[" line="14" column="28" />
+        <mark key="]" line="15" column="0" />
+        <mark key="." line="15" column="0" />
       </file>
       <file name="$USER_HOME$/repos/file-service/src/main/resources/application-test.properties" timestamp="1486459489229">
         <mark key="'" line="5" column="119" />
@@ -1661,9 +1660,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="154" column="16" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
-      <jump line="156" column="8" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
-      <jump line="14" column="30" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
       <jump line="62" column="8" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
       <jump line="136" column="12" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
       <jump line="55" column="0" filename="$USER_HOME$/repos/claimsgateway/apps/electronic_claims/formdefinitions.js" />
@@ -1761,10 +1757,13 @@
       <jump line="20" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-basic.spec.js" />
       <jump line="20" column="4" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" />
       <jump line="22" column="18" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" />
+      <jump line="40" column="21" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.js" />
+      <jump line="30" column="65" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.js" />
+      <jump line="7" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGpzdGkK</text>
+        <text encoding="base64">Y29uc3QgbG9naW5TZXJ2ZXIgPSByZXF1aXJlKCdjb25maWcnKS5sb2dpblNlcnZlcjsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1814,16 +1813,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgICAgICA=</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>Basic</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGl0KCdzaG91bGQgYmUgYSBmdW5jdGlvbiBvZiBsZW5ndGggMScsIGZ1bmN0aW9uICgpIHsKICAgICAgICB2YWxpZGF0ZUJhc2ljLnNob3VsZC5iZS5hLkZ1bmN0aW9uOwogICAgICAgIHZhbGlkYXRlQmFzaWMuc2hvdWxkLmhhdmUubGVuZ3RoT2YoMSk7CiAgICB9KTsK</text>
+        <text encoding="base64">Y29uc3QgbG9naW5TZXJ2ZXIgPSByZXF1aXJlKCdjb25maWcnKS5sb2dpblNlcnZlcjsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGpzdGkK</text>
+        <text encoding="base64">Y29uc3QgY29uZmlnID0gcmVxdWlyZSgnY29uZmlnJyk7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1883,19 +1882,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGxldCBwcmVkaWNhdGVzID0gW2lzQXV0aEhlYWRlciwgaXNRdWVyeSwgaXNDb29raWVdOwo=</text>
+        <text encoding="base64">ICAgICAgICBkZXNjcmliZSgndG9rZW4gJywgZnVuY3Rpb24gKCkgewogICAgICAgICAgICAKICAgICAgICB9KTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGAke2xvZ2luU2VydmVyfS9hcGkvdXNlcnMvdmFsaWRhdGUvdXNlcmluZm9gCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlamVjdChuZXcgRXJyb3IoYCR7bG9naW5TZXJ2ZXJ9P2Vycm9yPVByb3RlY3RvciUyMHVzZXIlMjBjYW4lMjBvbmx5JTIwYmUlMjB1c2VkJTIwZnJvbSUyMGludGVybmFsJTIwbmV0d29yayZjYWxsYmFjaz0ke2dldEZ1bGxVcmwocmVxKX1gKSkgOgo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Y29uc3QgdmVyaWZ5VXJsID0gCg==</text>
+        <text encoding="base64">ICAgIHJldHVybiBQcm9taXNlLnJlc29sdmUocmVzLnVzZXJlcikKICAgICAgICAudGhlbih1c2VyID0+IHVzZXIgPyApCiAgICAmJiByZXMudXNlci5wYXJ0eUlkID09PSAzNDMgPwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8gcmV0dXJuIHByb21pc2UuY2F0Y2goKCkgPT4gUHJvbWlzZS5yZXNvbHZlKHNjb3BlLmlzRG9uZSgpKSkuc2hvdWxkLmV2ZW50dWFsbHkuYmUudHJ1ZTsK</text>
+        <text encoding="base64">ICAgICAgICAudGhlbihyZXMgPT4gcmVzLmJvZHkpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2230,10 +2229,10 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5jYXRjaCgoKSA9PiBjb25zb2xlLmxvZygnQkFBQUFBQUFBQUFBQUFBUicpKQo=</text>
+        <text encoding="base64">ICAgICAgICAvLyAuY2F0Y2gocmVhc29uID0+IFByb21pc2UucmVqZWN0KHJlYXNvbikpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHBww6Vyc2NvcGUuaXNEb25lKCkuc2hvdWxkLmJlLnRydWU7Cg==</text>
+        <text encoding="base64">ICAgICAgICAuY2F0Y2goKHJlYXNvbikgPT4gUHJvbWlzZSkK</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>

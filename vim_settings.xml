@@ -677,12 +677,12 @@
         <mark key="." line="28" column="0" />
         <mark key="^" line="24" column="65" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-token.js" timestamp="1496134240349">
-        <mark key="'" line="52" column="12" />
-        <mark key="[" line="48" column="34" />
-        <mark key="]" line="35" column="26" />
-        <mark key="." line="35" column="26" />
-        <mark key="^" line="35" column="26" />
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-token.js" timestamp="1496137050146">
+        <mark key="'" line="51" column="12" />
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="." line="3" column="0" />
+        <mark key="^" line="47" column="36" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/templates/ClaimsTemplateJdbcDao.java" timestamp="1489346703030">
         <mark key="'" line="90" column="0" />
@@ -1462,12 +1462,12 @@
         <mark key="^" line="3" column="21" />
         <mark key="." line="3" column="21" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" timestamp="1496135022007">
-        <mark key="'" line="82" column="12" />
-        <mark key="[" line="82" column="0" />
-        <mark key="]" line="82" column="66" />
-        <mark key="." line="82" column="0" />
-        <mark key="^" line="49" column="19" />
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" timestamp="1496137043376">
+        <mark key="'" line="63" column="12" />
+        <mark key="[" line="64" column="11" />
+        <mark key="]" line="64" column="0" />
+        <mark key="." line="64" column="0" />
+        <mark key="^" line="36" column="31" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/claim-header-damage-info-life.html" timestamp="1490872109533">
         <mark key="'" line="955" column="93" />
@@ -1661,11 +1661,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="90" column="12" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
-      <jump line="33" column="0" filename="$USER_HOME$/repos/file-service/client/src/main/groovy/protector/fileservice/client/domain/FileServiceException.java" />
-      <jump line="81" column="82" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
-      <jump line="80" column="73" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
-      <jump line="82" column="92" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
       <jump line="9" column="20" filename="$USER_HOME$/repos/dmzproxy/config/default.js" />
       <jump line="28" column="4" filename="$USER_HOME$/repos/dmzproxy/middleware/basicAuth.js" />
       <jump line="17" column="4" filename="$USER_HOME$/repos/dmzproxy/middleware/basicAuth.js" />
@@ -1761,10 +1756,15 @@
       <jump line="52" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" />
       <jump line="34" column="16" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" />
       <jump line="82" column="12" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" />
+      <jump line="54" column="12" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" />
+      <jump line="59" column="12" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" />
+      <jump line="145" column="16" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" />
+      <jump line="58" column="12" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" />
+      <jump line="63" column="12" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbW9ja1Jlc3BvbnNlID0ge3BhcnR5SWQ6IDEyMywgYW5kOiAnb3RoZXIgc3R1ZmYnfTsK</text>
+        <text encoding="base64">Y29uc3QgcmVxdWVzdExvZ2dlciA9IHJlcXVpcmUoJ3N1cGVyYWdlbnQtbG9nZ2VyJyk7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1817,13 +1817,13 @@
         <text />
       </register>
       <register name="/" type="4">
-        <text>Basic</text>
+        <text encoding="base64">XDxtb2NrUmVzcG9uc2VcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbW9ja1Jlc3BvbnNlID0ge3BhcnR5SWQ6IDEyMywgYW5kOiAnb3RoZXIgc3R1ZmYnfTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHByb21pc2Uuc2hvdWxkLmJlLnJlamVjdGVkV2l0aChFcnJvciwgL2RvZXMgbm90IGNvbnRhaW4gdG9rZW4vKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBoZWFkZXJzOiB7J0F1dGhvcml6YXRpb24nOiBgQmVhcmVyICR7bW9ja1Rva2VufWB9LAo=</text>
+        <text encoding="base64">Y29uc3QgcmVxdWVzdExvZ2dlciA9IHJlcXVpcmUoJ3N1cGVyYWdlbnQtbG9nZ2VyJyk7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1883,19 +1883,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGFmdGVyKGZ1bmN0aW9uKCkgewogICAgICAgIHJlcSA9IHVuZGVmaW5lZDsKICAgIH0pOwoK</text>
+        <text encoding="base64">ICAgICAgICAudXNlKHJlcXVlc3RMb2dnZXIpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKHJlcSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxldCByZXN1bHQgPSB1cmwucGFyc2UobG9naW5TZXJ2ZXIpOwogICAgcmVzdWx0LnJlc29sdmUoJy9hcGkvdXNlcnMvdmFsaWRhdGUvdXNlcmluZm8nKTsKICAgIHJlc3VsdC5zZWFyY2ggPSBgdG9rZW49JHt0b2tlbn1gOwogICAgcmV0dXJuIHVybC5mb3JtYXQocmVzdWx0KTsK</text>
+        <text encoding="base64">ICAgICAgICBpdCgncmVzb2x2ZXMgZXJyb3Igd2l0aCByZWRpcmVjdCcsIGZ1bmN0aW9uIChkb25lKSB7CiAgICAgICAgICAgIAogICAgICAgIH0pOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG5vY2suY2xlYW5BbGwoKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYWZ0ZXIoZnVuY3Rpb24oKSB7CiAgICAgICAgICAgICAgICBub2NrLmNsZWFuQWxsKCk7CiAgICAgICAgICAgIH0pOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG5vY2suY2xlYW5BbGwoKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2230,30 +2230,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG5vY2suY2xlYW5BbGwoKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coZXJyKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG5vY2suY2xlYW5BbGwoKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIFByb21pc2UucmVqZWN0KGAke2xvZ2luU2VydmVyfT9jYWxsYmFjaz0ke2dldEZ1bGxVcmwocmVxKX1gKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IG1vY2tSZXNwb25zZSA9IHtwYXJ0eUlkOiAxMjMsIGFuZDogJ290aGVyIHN0dWZmJ307Cg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL0Jhc2ljL1Rva2VuLw==</text>
       </register>
     </registers>
     <search>
-      <last-search>Basic</last-search>
+      <last-search encoding="base64">XDxtb2NrUmVzcG9uc2VcPg==</last-search>
       <last-offset />
-      <last-pattern>Basic</last-pattern>
+      <last-pattern encoding="base64">XDxtb2NrUmVzcG9uc2VcPg==</last-pattern>
       <last-replace>Token</last-replace>
       <last-substitute>Basic</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxmaWxlbmFtZVw+</entry>
         <entry encoding="base64">XDxleGlzdHNcPg==</entry>
         <entry encoding="base64">XDxGSUxFU1w+</entry>
         <entry encoding="base64">XDxmaWxlc1w+</entry>
@@ -2273,6 +2272,7 @@
         <entry encoding="base64">XDxFcnJvclw+</entry>
         <entry encoding="base64">XDxnZXRGdWxsVXJsXD4=</entry>
         <entry>Basic</entry>
+        <entry encoding="base64">XDxtb2NrUmVzcG9uc2VcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>:q</entry>

@@ -218,6 +218,11 @@
         <mark key="^" line="11" column="26" />
         <mark key="." line="11" column="26" />
       </file>
+      <file name="$USER_HOME$/repos/dmzproxy/auth/auth-token.spec.js" timestamp="1496233460407">
+        <mark key="[" line="58" column="0" />
+        <mark key="]" line="58" column="0" />
+        <mark key="." line="58" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/webclaims/apps/claimsubmission/router.js" timestamp="1487941765395">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="9" column="34" />
@@ -948,6 +953,9 @@
         <mark key="^" line="6" column="19" />
         <mark key="." line="6" column="19" />
       </file>
+      <file name="$USER_HOME$/repos/dmzproxy/auth/auth-basic.spec.js" timestamp="1496233296783">
+        <mark key="[" line="31" column="24" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/AutoService.java" timestamp="1488829907447">
         <mark key="[" line="85" column="4" />
         <mark key="]" line="85" column="8" />
@@ -1068,8 +1076,8 @@
         <mark key="^" line="1" column="14" />
         <mark key="." line="1" column="14" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/auth/auth-basic.js" timestamp="1496221577420">
-        <mark key="[" line="17" column="0" />
+      <file name="$USER_HOME$/repos/dmzproxy/auth/auth-basic.js" timestamp="1496233424632">
+        <mark key="[" line="3" column="40" />
         <mark key="]" line="17" column="0" />
         <mark key="." line="17" column="0" />
       </file>
@@ -1826,7 +1834,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXJyLnJlZGlyZWN0VG8gPSBlcnIucmVkaXJlY3RUbyB8fCBgJHtsb2dpblNlcnZlcn0/Y2FsbGJhY2s9JHtnZXRDYWxsYmFja1VybChyZXEpfWA7Cg==</text>
+        <text encoding="base64">ICAgICAgICBpdCgnZXJyb3Igc2hvdWxkIGNvbnRhaW4gcmVkaXJlY3QgdXJsJywgZnVuY3Rpb24gKCkgewogICAgICAgICAgICByZXR1cm4gcHJvbWlzZS5zaG91bGQucmVqZWN0ZWRXaXRoKEVycm9yKQogICAgICAgICAgICAgICAgLnRoZW4oZXJyID0+IGVycikuc2hvdWxkLmV2ZW50dWFsbHkKICAgICAgICAgICAgICAgIC5oYXZlLnByb3BlcnR5KCdyZWRpcmVjdFRvJykKICAgICAgICAgICAgICAgIC50aGF0Lm1hdGNoKC9eLitcP2NhbGxiYWNrPWh0dHBzOlwvXC90ZXN0aG9zdFwvY2FtZVwvZnJvbVwvaGVyZS8pOwogICAgICAgIH0pOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1885,7 +1893,7 @@
         <text encoding="base64">ICAgIHByb3h5TWFwLnNldCgnY2xhaW1zZ2F0ZXdheXRlc3QucHJvdGVjdG9yZm9yc2lrcmluZy5ubycsICdodHRwczovL2NsYWltc3dhdGV3YXl0ZXN0LnByb3RlY3RvcmZvcnNpa3Jpbmcubm8nKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXJyLnJlZGlyZWN0VG8gPSBlcnIucmVkaXJlY3RUbyB8fCBgJHtsb2dpblNlcnZlcn0/Y2FsbGJhY2s9JHtnZXRDYWxsYmFja1VybChyZXEpfWA7Cg==</text>
+        <text encoding="base64">ICAgICAgICBpdCgnZXJyb3Igc2hvdWxkIGNvbnRhaW4gcmVkaXJlY3QgdXJsJywgZnVuY3Rpb24gKCkgewogICAgICAgICAgICByZXR1cm4gcHJvbWlzZS5zaG91bGQucmVqZWN0ZWRXaXRoKEVycm9yKQogICAgICAgICAgICAgICAgLnRoZW4oZXJyID0+IGVycikuc2hvdWxkLmV2ZW50dWFsbHkKICAgICAgICAgICAgICAgIC5oYXZlLnByb3BlcnR5KCdyZWRpcmVjdFRvJykKICAgICAgICAgICAgICAgIC50aGF0Lm1hdGNoKC9eLitcP2NhbGxiYWNrPWh0dHBzOlwvXC90ZXN0aG9zdFwvY2FtZVwvZnJvbVwvaGVyZS8pOwogICAgICAgIH0pOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1945,19 +1953,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy9KdXN0IGluIGNhc2UK</text>
+        <text encoding="base64">ICAgICAgICBpdCgnZXJyb3Igc2hvdWxkIGNvbnRhaW4gcmVkaXJlY3QgdXJsJywgZnVuY3Rpb24gKCkgewogICAgICAgICAgICByZXR1cm4gcHJvbWlzZS5zaG91bGQucmVqZWN0ZWRXaXRoKEVycm9yKQogICAgICAgICAgICAgICAgLnRoZW4oZXJyID0+IGVycikuc2hvdWxkLmV2ZW50dWFsbHkKICAgICAgICAgICAgICAgIC5oYXZlLnByb3BlcnR5KCdyZWRpcmVjdFRvJykKICAgICAgICAgICAgICAgIC50aGF0Lm1hdGNoKC9eLitcP2NhbGxiYWNrPWh0dHBzOlwvXC90ZXN0aG9zdFwvY2FtZVwvZnJvbVwvaGVyZS8pOwogICAgICAgIH0pOwo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgZXJyLnJlZGlyZWN0VG8gPSBlcnIucmVkaXJlY3RUbyB8fCBgJHtsb2dpblNlcnZlcn0/Y2FsbGJhY2s9JHtnZXRDYWxsYmFja1VybChyZXEpfWA7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Y29uc3QgYXBwID0gcmVxdWlyZSgnLi4vaW5kZXgnKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy9KdXN0IGluIGNhc2UK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Y29uc3Qgbm9jayA9IHJlcXVpcmUoJ25vY2snKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXJyLnJlZGlyZWN0VG8gPSBlcnIucmVkaXJlY3RUbyB8fCBgJHtsb2dpblNlcnZlcn0/Y2FsbGJhY2s9JHtnZXRDYWxsYmFja1VybChyZXEpfWA7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGRlc2NyaWJlKCdhdXRob3JpemVkIHJlcXVlc3RzJywgZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCdhY2NlcHRzIGJhc2ljIGF1dGgnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIAogICAgICAgIH0pOwoKICAgICAgICBpdCgnYWNjZXB0cyB2YWxpZCB0b2tlbicsIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgCiAgICAgICAgfSk7CgogICAgfSk7Cgo=</text>
+        <text encoding="base64">Y29uc3QgYXBwID0gcmVxdWlyZSgnLi4vaW5kZXgnKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2292,10 +2300,10 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5zZXQoKQo=</text>
+        <text encoding="base64">Y29uc3Qgbm9jayA9IHJlcXVpcmUoJ25vY2snKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5zZXQoKQo=</text>
+        <text encoding="base64">ICAgIGRlc2NyaWJlKCdhdXRob3JpemVkIHJlcXVlc3RzJywgZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCdhY2NlcHRzIGJhc2ljIGF1dGgnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIAogICAgICAgIH0pOwoKICAgICAgICBpdCgnYWNjZXB0cyB2YWxpZCB0b2tlbicsIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgCiAgICAgICAgfSk7CgogICAgfSk7Cgo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIC5zZXQoKQo=</text>

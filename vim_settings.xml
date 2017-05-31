@@ -1115,12 +1115,10 @@
         <mark key="^" line="9" column="58" />
         <mark key="." line="9" column="58" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" timestamp="1496237922480">
-        <mark key="'" line="142" column="0" />
-        <mark key="[" line="98" column="44" />
-        <mark key="]" line="98" column="54" />
-        <mark key="." line="98" column="54" />
-        <mark key="^" line="98" column="54" />
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" timestamp="1496238985443">
+        <mark key="[" line="158" column="0" />
+        <mark key="]" line="158" column="0" />
+        <mark key="." line="158" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/mail-template-admin.orig.js" timestamp="1486030491650">
         <mark key="'" line="85" column="0" />
@@ -1653,11 +1651,11 @@
         <mark key="^" line="7" column="70" />
         <mark key="." line="7" column="70" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.js" timestamp="1496238331954">
-        <mark key="[" line="20" column="22" />
-        <mark key="]" line="48" column="22" />
-        <mark key="." line="48" column="22" />
-        <mark key="^" line="48" column="22" />
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.js" timestamp="1496238449590">
+        <mark key="[" line="15" column="5" />
+        <mark key="]" line="51" column="22" />
+        <mark key="." line="51" column="22" />
+        <mark key="^" line="51" column="22" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/templates/edit-template.html" timestamp="1488288666654">
         <mark key="'" line="2" column="4" />
@@ -1725,12 +1723,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="59" column="16" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
-      <jump line="34" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
-      <jump line="56" column="12" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
-      <jump line="66" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
-      <jump line="85" column="12" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
-      <jump line="90" column="24" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
       <jump line="101" column="16" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
       <jump line="9" column="8" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-basic.js" />
       <jump line="3" column="9" filename="$USER_HOME$/repos/claimsgateway/apps/nobina/api.spec.js" />
@@ -1825,10 +1817,16 @@
       <jump line="135" column="28" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" />
       <jump line="133" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" />
       <jump line="142" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" />
+      <jump line="23" column="4" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" />
+      <jump line="24" column="8" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" />
+      <jump line="19" column="4" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" />
+      <jump line="154" column="28" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" />
+      <jump line="149" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" />
+      <jump line="159" column="16" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgICAgICBpdCgnb24gZmlyc3QgcmVqZWN0ZWQgcHJvbWlzZSwgbmV4dCBpcyBub3QgY2FsbGVkJywgZnVuY3Rpb24gKGRvbmUpIHsKICAgICAgICAgICAgICAgICAgICB2YWxpZGF0ZShbc3VjY2Vzc0ZuLCBmYWlsZWRGbiwgZmFpbGVkRm5dKShyZXEsIHJlcywgbmV4dCkKICAgICAgICAgICAgICAgICAgICAgICAgLnRoZW4oKCkgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgbmV4dC5zaG91bGQuaGF2ZS5wcm9wZXJ0eSgnY2FsbENvdW50JywgMSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmYWlsZWRGbi5zaG91bGQuaGF2ZS5wcm9wZXJ0eSgnY2FsbENvdW50JywgMSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkb25lKCk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0pLmNhdGNoKGRvbmUpOwogICAgICAgICAgICAgICAgfSk7Cgo=</text>
+        <text encoding="base64">CiAgICAgICAgICAgICAgICBpdCgnaWYgZmlyc3QgcHJvbWlzZSByZWplY3RzLCBuZXh0IGlzIG5vdCBjYWxsZWQnLCBmdW5jdGlvbiAoZG9uZSkgewogICAgICAgICAgICAgICAgICAgIHZhbGlkYXRlKFtmYWlsZWRGbiwgc3VjY2Vzc0ZuLCBmYWlsZWRGbl0pKHJlcSwgcmVzLCBuZXh0KQogICAgICAgICAgICAgICAgICAgICAgICAudGhlbigoKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmYWlsZWRGbi5zaG91bGQuaGF2ZS5wcm9wZXJ0eSgnY2FsbENvdW50JywgMSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdWNjZXNzRm4uc2hvdWxkLmhhdmUucHJvcGVydHkoJ2NhbGxDb3VudCcsIDEpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgZG9uZSgpOwogICAgICAgICAgICAgICAgICAgICAgICB9KS5jYXRjaChkb25lKTsKICAgICAgICAgICAgICAgIH0pOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1884,10 +1882,10 @@
         <text encoding="base64">XDxzaW1wbGVcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIChpc1Byb3RlY3RvclVzZXIocmVxLnVzZXIpICYmICFpc1doaXRlbGlzdGVkKHJlcS51c2VyKSkgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGl0KCdpZiBmaXJzdCBwcm9taXNlIHJlamVjdHMsIG5leHQgaXMgbm90IGNhbGxlZCcsIGZ1bmN0aW9uIChkb25lKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsaWRhdGUoW2ZhaWxlZEZuLCBzdWNjZXNzRm4sIGZhaWxlZEZuXSkocmVxLCByZXMsIG5leHQpCiAgICAgICAgICAgICAgICAgICAgICAgIC50aGVuKCgpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5leHQuc2hvdWxkLmhhdmUucHJvcGVydHkoJ2NhbGxDb3VudCcsIDApOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgZmFpbGVkRm4uc2hvdWxkLmhhdmUucHJvcGVydHkoJ2NhbGxDb3VudCcsIDEpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3VjY2Vzc0ZuLnNob3VsZC5oYXZlLnByb3BlcnR5KCdjYWxsQ291bnQnLCAxKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRvbmUoKTsKICAgICAgICAgICAgICAgICAgICAgICAgfSkuY2F0Y2goZG9uZSk7CiAgICAgICAgICAgICAgICB9KTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgICAgICBpdCgnb24gZmlyc3QgcmVqZWN0ZWQgcHJvbWlzZSwgbmV4dCBpcyBub3QgY2FsbGVkJywgZnVuY3Rpb24gKGRvbmUpIHsKICAgICAgICAgICAgICAgICAgICB2YWxpZGF0ZShbc3VjY2Vzc0ZuLCBmYWlsZWRGbiwgZmFpbGVkRm5dKShyZXEsIHJlcywgbmV4dCkKICAgICAgICAgICAgICAgICAgICAgICAgLnRoZW4oKCkgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgbmV4dC5zaG91bGQuaGF2ZS5wcm9wZXJ0eSgnY2FsbENvdW50JywgMSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmYWlsZWRGbi5zaG91bGQuaGF2ZS5wcm9wZXJ0eSgnY2FsbENvdW50JywgMSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkb25lKCk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0pLmNhdGNoKGRvbmUpOwogICAgICAgICAgICAgICAgfSk7Cgo=</text>
+        <text encoding="base64">CiAgICAgICAgICAgICAgICBpdCgnaWYgZmlyc3QgcHJvbWlzZSByZWplY3RzLCBuZXh0IGlzIG5vdCBjYWxsZWQnLCBmdW5jdGlvbiAoZG9uZSkgewogICAgICAgICAgICAgICAgICAgIHZhbGlkYXRlKFtmYWlsZWRGbiwgc3VjY2Vzc0ZuLCBmYWlsZWRGbl0pKHJlcSwgcmVzLCBuZXh0KQogICAgICAgICAgICAgICAgICAgICAgICAudGhlbigoKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmYWlsZWRGbi5zaG91bGQuaGF2ZS5wcm9wZXJ0eSgnY2FsbENvdW50JywgMSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdWNjZXNzRm4uc2hvdWxkLmhhdmUucHJvcGVydHkoJ2NhbGxDb3VudCcsIDEpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgZG9uZSgpOwogICAgICAgICAgICAgICAgICAgICAgICB9KS5jYXRjaChkb25lKTsKICAgICAgICAgICAgICAgIH0pOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1947,19 +1945,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZhaWxlZEZuLnNob3VsZC5oYXZlLnByb3BlcnR5KCdjYWxsQ291bnQnLCAyKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5leHQuc2hvdWxkLmhhdmUucHJvcGVydHkoJ2NhbGxDb3VudCcsIDApOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Y29uc3QgUFJPVEVDVE9SX1BBUlRZX0lEID0gMzQzOwoK</text>
+        <text encoding="base64">ICAgIGl0KCd0aHJvd3MgaWYgYXJnIGFycmF5IGlzIGVtcHR5JywgZnVuY3Rpb24gKCkgewogICAgICAgICgoKSA9PiB2YWxpZGF0ZShbXSkpLnNob3VsZC50aHJvdyhUeXBlRXJyb3IpOwogICAgfSk7Cgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CmZ1bmN0aW9uIGZpbHRlclVzZXJzKCkgewogICAgcmV0dXJuIChyZXEsIHJlcywgbmV4dCkgPT4gewogICAgICAgIHJldHVybiBmaWx0ZXJJbnRlcm5hbFVzZXJzKHJlcSkKICAgICAgICAgICAgLnRoZW4oKCkgPT4gbmV4dCgpKTsKICAgIH07Cn0K</text>
+        <text encoding="base64">ICAgICAgICB2YWxpZGF0ZShbXSkocmVxLCByZXMsIG5leHQpLmNhdGNoKGRvbmUpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKHJlcS51c2VyKSB7CiAgICAgICAgICAgICAgICBpZiAoaXNQcm90ZWN0b3JVc2VyKHJlcS51c2VyKSAmJiAhaXNXaGl0ZWxpc3RlZChyZXEudXNlcikpIHsKICAgICAgICAgICAgICAgICAgICByZWplY3QoZXJyKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJlc29sdmUocmVxLnVzZXIpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIAoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaXQoJ2VuZHMgcmVxdWVzdCBvbiBlbXB0eSBmdW5jdGlvbiBhcnJheScsIGZ1bmN0aW9uIChkb25lKSB7CiAgICAgICAgICAgICAgICB2YWxpZGF0ZShbXSkocmVxLCByZXMsIG5leHQpLmNhdGNoKGRvbmUpOwogICAgICAgICAgICB9KTsKCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIChyZXEudXNlci5wYXJ0eUlkID09PSAzNDMpIHsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlcy5vbignZW5kJywgKCkgPT4gewogICAgICAgICAgICAgICAgICAgIG5leHQuc2hvdWxkLmhhdmUucHJvcGVydHkoJ2NhbGxDb3VudCcsIDApOwogICAgICAgICAgICAgICAgICAgIGRvbmUoKTsKICAgICAgICAgICAgICAgIH0pOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2294,13 +2292,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">CiAgICAgICAgICAgICAgICBpdCgnb24gZmlyc3QgcmVqZWN0ZWQgcHJvbWlzZSwgbmV4dCBpcyBub3QgY2FsbGVkJywgZnVuY3Rpb24gKGRvbmUpIHsKICAgICAgICAgICAgICAgICAgICB2YWxpZGF0ZShbc3VjY2Vzc0ZuLCBmYWlsZWRGbiwgZmFpbGVkRm5dKShyZXEsIHJlcywgbmV4dCkKICAgICAgICAgICAgICAgICAgICAgICAgLnRoZW4oKCkgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgbmV4dC5zaG91bGQuaGF2ZS5wcm9wZXJ0eSgnY2FsbENvdW50JywgMSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmYWlsZWRGbi5zaG91bGQuaGF2ZS5wcm9wZXJ0eSgnY2FsbENvdW50JywgMSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkb25lKCk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0pLmNhdGNoKGRvbmUpOwogICAgICAgICAgICAgICAgfSk7Cgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgICAgIHJlcS51c2VyICYmIAogICAgICAgICAgICAoaXNQcm90ZWN0b3JVc2VyKHJlcS51c2VyKSAmJiAhaXNXaGl0ZWxpc3RlZChyZXEudXNlcikgPyByZWplY3RXaXRoRXJyb3IocmVxKSA6IHJlc29sdmUocmVxLnVzZXIpKQogICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZhaWxlZEZuLnNob3VsZC5oYXZlLnByb3BlcnR5KCdjYWxsQ291bnQnLCAyKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIChpc1doaXRlbGlzdGVkKHJlcS51c2VyKSkgewogICAgICAgICAgICAgICAgICAgIHJlc29sdmUocmVxLnVzZXIpOwogICAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">Y29uc3QgUFJPVEVDVE9SX1BBUlRZX0lEID0gMzQzOwoK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL0Jhc2ljL1Rva2VuLw==</text>

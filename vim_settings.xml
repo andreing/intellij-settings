@@ -36,6 +36,9 @@
       <file name="$USER_HOME$/repos/claimsgateway/apps/claims/role/claim-roles.spec.js" timestamp="1495808773482">
         <mark key="'" line="84" column="52" />
       </file>
+      <file name="$USER_HOME$/repos/dmzproxy/auth/whitelist.js" timestamp="1496237352438">
+        <mark key="[" line="8" column="9" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/MetaTemplateFolder.java" timestamp="1485550896220">
         <mark key="[" line="9" column="62" />
         <mark key="]" line="9" column="29" />
@@ -54,12 +57,6 @@
         <mark key="]" line="2" column="62" />
         <mark key="^" line="11" column="0" />
         <mark key="." line="2" column="0" />
-      </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/basicAuth.js" timestamp="1495548575691">
-        <mark key="'" line="28" column="8" />
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/apps/nobina/api.js" timestamp="1494574134043">
         <mark key="'" line="14" column="22" />
@@ -408,11 +405,12 @@
         <mark key="^" line="45" column="21" />
         <mark key="." line="45" column="21" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/whitelist.js" timestamp="1496236372930">
-        <mark key="[" line="10" column="14" />
-        <mark key="]" line="10" column="24" />
-        <mark key="^" line="10" column="24" />
-        <mark key="." line="10" column="24" />
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/whitelist.js" timestamp="1496237214254">
+        <mark key="'" line="5" column="0" />
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="." line="5" column="0" />
+        <mark key="^" line="13" column="8" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/server.js" timestamp="1489672586604">
         <mark key="[" line="25" column="27" />
@@ -1227,8 +1225,8 @@
         <mark key="^" line="11" column="3" />
         <mark key="." line="11" column="3" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/auth/index.js" timestamp="1496144299823">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/repos/dmzproxy/auth/index.js" timestamp="1496237293786">
+        <mark key="[" line="1" column="40" />
       </file>
       <file name="$USER_HOME$/repos/claims/build.gradle" timestamp="1495187165939">
         <mark key="[" line="5" column="0" />
@@ -1366,12 +1364,6 @@
         <mark key="]" line="10" column="48" />
         <mark key="." line="10" column="48" />
         <mark key="^" line="10" column="48" />
-      </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" timestamp="1496143790452">
-        <mark key="'" line="9" column="4" />
-        <mark key="[" line="7" column="26" />
-        <mark key="]" line="159" column="0" />
-        <mark key="." line="159" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/WRRAssigneePoolJdbcDao.java" timestamp="1479204293587">
         <mark key="[" line="14" column="26" />
@@ -1738,8 +1730,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="58" column="12" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
-      <jump line="29" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
       <jump line="28" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
       <jump line="49" column="12" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
       <jump line="41" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
@@ -1838,10 +1828,12 @@
       <jump line="3" column="6" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" />
       <jump line="13" column="4" filename="$USER_HOME$/repos/dmzproxy/proxy_map.js" />
       <jump line="8" column="0" filename="$USER_HOME$/repos/dmzproxy/auth/auth-basic.js" />
+      <jump line="25" column="16" filename="$USER_HOME$/repos/dmzproxy/middleware/whitelist.js" />
+      <jump line="5" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/whitelist.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Y29uc3QgZ2V0Q2FsbGJhY2tVcmwgPSByZXF1aXJlKCcuLi91dGlsL2dldC1jYWxsYmFjay11cmwnKTsK</text>
+        <text encoding="base64">Y29uc3QgUFJPVEVDVE9SX1BBUlRZX0lEID0gMzQzOwoK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1891,16 +1883,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>t('</text>
+        <text encoding="base64">Y29uc3Qg</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxzaW1wbGVcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">Y29uc3QgbG9naW5TZXJ2ZXIgPSByZXF1aXJlKCdjb25maWcnKS5sb2dpblNlcnZlcjsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIChpc1Byb3RlY3RvclVzZXIocmVxLnVzZXIpICYmICFpc1doaXRlbGlzdGVkKHJlcS51c2VyKSkgewo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Y29uc3QgZ2V0Q2FsbGJhY2tVcmwgPSByZXF1aXJlKCcuLi91dGlsL2dldC1jYWxsYmFjay11cmwnKTsK</text>
+        <text encoding="base64">Y29uc3QgUFJPVEVDVE9SX1BBUlRZX0lEID0gMzQzOwoK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1960,19 +1952,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICA7Cg==</text>
+        <text encoding="base64">CmZ1bmN0aW9uIGZpbHRlclVzZXJzKCkgewogICAgcmV0dXJuIChyZXEsIHJlcywgbmV4dCkgPT4gewogICAgICAgIHJldHVybiBmaWx0ZXJJbnRlcm5hbFVzZXJzKHJlcSkKICAgICAgICAgICAgLnRoZW4oKCkgPT4gbmV4dCgpKTsKICAgIH07Cn0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZnVuY3Rpb24gdmFsaWRhdGVDcmVkcyhjcmVkcykgewogICAgcmV0dXJuIHJlcXVlc3QKICAgICAgICAucG9zdChsb2dpblNlcnZlciArIGxvZ2luUGF0aCkKICAgICAgICAudXNlKHJlcXVlc3RMb2dnZXIpCiAgICAgICAgLmFjY2VwdCgndGV4dCcpCiAgICAgICAgLnNlbmQoe3VzZXJuYW1lOiBjcmVkcy5uYW1lLCBwYXNzd29yZDogY3JlZHMucGFzc30pCiAgICAgICAgLnRoZW4ocmVzID0+IHJlcy50ZXh0KQogICAgICAgIC5jYXRjaChlcnIgPT4gewogICAgICAgICAgICBjb25zb2xlLmxvZyhlcnIpOwogICAgICAgICAgICByZXR1cm4gUHJvbWlzZS5yZWplY3QobmV3IEVycm9yKCdVbmF1dGhvcml6ZWQnKSk7CiAgICAgICAgfSkKICAgICAgICA7Cn0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKHJlcS51c2VyKSB7CiAgICAgICAgICAgICAgICBpZiAoaXNQcm90ZWN0b3JVc2VyKHJlcS51c2VyKSAmJiAhaXNXaGl0ZWxpc3RlZChyZXEudXNlcikpIHsKICAgICAgICAgICAgICAgICAgICByZWplY3QoZXJyKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJlc29sdmUocmVxLnVzZXIpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIAoK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLnRoZW4odG9rZW4gPT4gcmVxLnRva2VuID0gdG9rZW4pCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIChyZXEudXNlci5wYXJ0eUlkID09PSAzNDMpIHsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">LyoqCiAqIFNlcmlhbGl6ZSBwcm9taXNlcyB3aXRoIHRoZXNlIHJ1bGVzOgogKiBpZiBhIHByb21pc2UgcmVzb2x2ZXMsIHdlIGFyZSBkb25lCiAqIGlmIGEgcHJvbWlzZSByZWplY3RzLCBjYWxsIG5leHQgc3VwcGxpZXIKICogaWYgYWxsIHJlamVjdHMsIHdlIHJlamVjdAogKiBpZiBvbmUgcmVzb2x2ZXMsIHdlIHJlc29sdmUgKE9SLWxpa2UgbG9naWMpCiAqIEBwYXJhbSBmdW5jcyBwcm9taXNlIHN1cHBsaWVyIGZ1bmN0aW9ucwogKi8KCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpdCgnZXJyb3Igc2hvdWxkIGNvbnRhaW4gcmVkaXJlY3QgdXJsJywgZnVuY3Rpb24gKCkgewogICAgICAgICAgICByZXR1cm4gcHJvbWlzZS5zaG91bGQucmVqZWN0ZWRXaXRoKEVycm9yKQogICAgICAgICAgICAgICAgLnRoZW4oZXJyID0+IGVycikuc2hvdWxkLmV2ZW50dWFsbHkKICAgICAgICAgICAgICAgIC5oYXZlLnByb3BlcnR5KCdyZWRpcmVjdFRvJykKICAgICAgICAgICAgICAgIC50aGF0Lm1hdGNoKC9eLitcP2NhbGxiYWNrPWh0dHBzOlwvXC90ZXN0aG9zdFwvY2FtZVwvZnJvbVwvaGVyZS8pOwogICAgICAgIH0pOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgICAgIHJlcS51c2VyICYmIAogICAgICAgICAgICAoaXNQcm90ZWN0b3JVc2VyKHJlcS51c2VyKSAmJiAhaXNXaGl0ZWxpc3RlZChyZXEudXNlcikgPyByZWplY3RXaXRoRXJyb3IocmVxKSA6IHJlc29sdmUocmVxLnVzZXIpKQogICAgICAgICAgICAK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2307,13 +2299,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpdCgnZXJyb3Igc2hvdWxkIGNvbnRhaW4gcmVkaXJlY3QgdXJsJywgZnVuY3Rpb24gKCkgewogICAgICAgICAgICByZXR1cm4gcHJvbWlzZS5zaG91bGQucmVqZWN0ZWRXaXRoKEVycm9yKQogICAgICAgICAgICAgICAgLnRoZW4oZXJyID0+IGVycikuc2hvdWxkLmV2ZW50dWFsbHkKICAgICAgICAgICAgICAgIC5oYXZlLnByb3BlcnR5KCdyZWRpcmVjdFRvJykKICAgICAgICAgICAgICAgIC50aGF0Lm1hdGNoKC9eLitcP2NhbGxiYWNrPWh0dHBzOlwvXC90ZXN0aG9zdFwvY2FtZVwvZnJvbVwvaGVyZS8pOwogICAgICAgIH0pOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIChpc1doaXRlbGlzdGVkKHJlcS51c2VyKSkgewogICAgICAgICAgICAgICAgICAgIHJlc29sdmUocmVxLnVzZXIpOwogICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXJyLnJlZGlyZWN0VG8gPSBlcnIucmVkaXJlY3RUbyB8fCBgJHtsb2dpblNlcnZlcn0/Y2FsbGJhY2s9JHtnZXRDYWxsYmFja1VybChyZXEpfWA7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVxLnVzZXIgJiYgKCh1c2VyKSA9PiBpc1doaXRlbGlzdGVkKHVzZXIpIHx8ICFpc1Byb3RlY3RvclVzZXIodXNlcikpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy9KdXN0IGluIGNhc2UK</text>
+        <text encoding="base64">Y29uc3QgZ2V0Q2FsbGJhY2tVcmwgPSByZXF1aXJlKCcuLi91dGlsL2dldC1jYWxsYmFjay11cmwnKTsK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL0Jhc2ljL1Rva2VuLw==</text>

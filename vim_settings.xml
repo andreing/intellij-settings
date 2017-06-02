@@ -236,12 +236,12 @@
         <mark key="^" line="1" column="7" />
         <mark key="." line="1" column="7" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/index.js" timestamp="1496393278509">
+      <file name="$USER_HOME$/repos/dmzproxy/index.js" timestamp="1496397569551">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="15" column="74" />
-        <mark key="]" line="15" column="24" />
-        <mark key="." line="15" column="24" />
-        <mark key="^" line="15" column="24" />
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="18" column="0" />
+        <mark key="." line="18" column="0" />
+        <mark key="^" line="17" column="41" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/js/controllers/ClaimFormCtrl.js" timestamp="1484818534926">
         <mark key="[" line="74" column="0" />
@@ -497,11 +497,11 @@
         <mark key="^" line="1" column="19" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/util/auth-wrapper.js" timestamp="1496396789774">
-        <mark key="[" line="12" column="1" />
-        <mark key="]" line="12" column="0" />
-        <mark key="^" line="12" column="0" />
-        <mark key="." line="12" column="0" />
+      <file name="$USER_HOME$/repos/dmzproxy/util/auth-wrapper.js" timestamp="1496397248157">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="12" column="5" />
+        <mark key="^" line="12" column="5" />
+        <mark key="." line="12" column="5" />
       </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/src/main/resources/application-dev.properties" timestamp="1483441016411">
         <mark key="[" line="33" column="34" />
@@ -1858,7 +1858,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Y29uc3QgY28gPSByZXF1aXJlKCdjbycpOwo=</text>
+        <text encoding="base64">YXBwLnVzZSh2YWxpZGF0ZUNoYWluKFthdXRoRm5zLmJhc2ljLCBhdXRoRm5zLnRva2VuLCBhdXRoRm5zLndoaXRlbGlzdF0pKTsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1917,7 +1917,7 @@
         <text encoding="base64">Y29uc3QgY28gPSByZXF1aXJlKCdjbycpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBuZXcgUHJvbWlzZSgKICAgICAgICAocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICAgICAgICAgIGxldCBjcmVkcyA9IGJhc2ljQXV0aChyZXEpOwogICAgICAgICAgICByZXR1cm4gY3JlZHMgPyByZXNvbHZlKGNyZWRzKSA6IHJlamVjdChuZXcgRXJyb3IoJ1JlcXVlc3QgZG9lcyBub3QgY29udGFpbiBiYXNpYyBhdXRoJykpOwogICAgICAgIH0pCiAgICAgICAgLnRoZW4odmFsaWRhdGVDcmVkcykK</text>
+        <text encoding="base64">YXBwLnVzZSh2YWxpZGF0ZUNoYWluKFthdXRoRm5zLmJhc2ljLCBhdXRoRm5zLnRva2VuLCBhdXRoRm5zLndoaXRlbGlzdF0pKTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1977,25 +1977,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGNvbnN0IHByb3h5VG9Eb21haW4gPSBwcm94eU1hcC5yZXNvbHZlKHJlcS5ob3N0bmFtZSk7Cg==</text>
+        <text encoding="base64">Y29uc3QgcHJveHlNYXAgPSByZXF1aXJlKCcuL3Byb3h5X21hcCcpOwo=</text>
       </register>
-      <register name="3" type="4">
-        <text>function(req,res,next){
-    if(!proxyMap.resolve(req.hostname)){
-        res.status(404).send({error:'Not Found'});
-    }else{
-        next();
-    }
-}</text>
+      <register name="3" type="2">
+        <text encoding="base64">YXBwLnVzZSgpCg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">YXBwLnVzZSgpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHJldHVybiBuZXcgUHJvbWlzZSgKICAgICAgICAocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICAgICAgICAgIGxldCBjcmVkcyA9IGJhc2ljQXV0aChyZXEpOwogICAgICAgICAgICByZXR1cm4gY3JlZHMgPyByZXNvbHZlKGNyZWRzKSA6IHJlamVjdChuZXcgRXJyb3IoJ1JlcXVlc3QgZG9lcyBub3QgY29udGFpbiBiYXNpYyBhdXRoJykpOwogICAgICAgIH0pCiAgICAgICAgLnRoZW4odmFsaWRhdGVDcmVkcykK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2330,10 +2324,16 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpdCgnZXJyb3Igc2hvdWxkIGNvbnRhaW4gcmVkaXJlY3QgdXJsJywgZnVuY3Rpb24gKCkgewogICAgICAgICAgICByZXR1cm4gcHJvbWlzZS5zaG91bGQucmVqZWN0ZWRXaXRoKEVycm9yKQogICAgICAgICAgICAgICAgLnRoZW4oZXJyID0+IGVycikuc2hvdWxkLmV2ZW50dWFsbHkKICAgICAgICAgICAgICAgIC5oYXZlLnByb3BlcnR5KCdyZWRpcmVjdFRvJykKICAgICAgICAgICAgICAgIC50aGF0Lm1hdGNoKC9eLitcP2Vycm9yPS4qJmNhbGxiYWNrPWh0dHBzOlwvXC90ZXN0aG9zdFwvY2FtZVwvZnJvbVwvaGVyZS8pOwogICAgICAgIH0pOwo=</text>
+        <text encoding="base64">ICAgIGNvbnN0IHByb3h5VG9Eb21haW4gPSBwcm94eU1hcC5yZXNvbHZlKHJlcS5ob3N0bmFtZSk7Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>function(req,res,next){
+    if(!proxyMap.resolve(req.hostname)){
+        res.status(404).send({error:'Not Found'});
+    }else{
+        next();
+    }
+}</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>

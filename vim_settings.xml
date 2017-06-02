@@ -1604,12 +1604,11 @@
         <mark key="^" line="40" column="72" />
         <mark key="." line="40" column="72" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/test/proxy.test.js" timestamp="1496153848112">
-        <mark key="'" line="53" column="16" />
-        <mark key="[" line="5" column="20" />
-        <mark key="]" line="5" column="19" />
-        <mark key="." line="5" column="19" />
-        <mark key="^" line="5" column="19" />
+      <file name="$USER_HOME$/repos/dmzproxy/test/proxy.test.js" timestamp="1496404561608">
+        <mark key="'" line="7" column="0" />
+        <mark key="[" line="86" column="15" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/WRRClaimAssignmentState.java" timestamp="1478876259981">
         <mark key="[" line="25" column="5" />
@@ -1771,7 +1770,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="121" column="16" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
       <jump line="120" column="16" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
       <jump line="108" column="12" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
       <jump line="122" column="16" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-request.spec.js" />
@@ -1871,10 +1869,11 @@
       <jump line="36" column="0" filename="$USER_HOME$/repos/dmzproxy/auth/whitelist.spec.js" />
       <jump line="1" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/unauth-error-handler.js" />
       <jump line="3" column="17" filename="$USER_HOME$/repos/dmzproxy/middleware/basic2token.js" />
+      <jump line="8" column="0" filename="$USER_HOME$/repos/dmzproxy/test/proxy.test.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>authFnWrapper(authFns.whitelist)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1933,7 +1932,7 @@
         <text encoding="base64">Y29uc3QgY28gPSByZXF1aXJlKCdjbycpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Y29uc3QgYXV0aEZuV3JhcHBlciA9IHJlcXVpcmUoJy4vdXRpbC9hdXRoLXdyYXBwZXInKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1993,19 +1992,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Y29uc3QgYXV0aEZucyA9IHJlcXVpcmUoJy4vYXV0aCcpOwo=</text>
+        <text encoding="base64">ICAgIGNvbnN0IG1vY2tTZXJ2ZXJQb3J0ID0gOTgwODsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Y29uc3QgbG9va3VwSG9zdCA9IHJlcXVpcmUoJy4vbWlkZGxld2FyZScpLmxvb2t1cEhvc3Q7Cg==</text>
+        <text encoding="base64">Y29uc3QgYXV0aEZuV3JhcHBlciA9IHJlcXVpcmUoJy4vdXRpbC9hdXRoLXdyYXBwZXInKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZXhwb3J0cy52YWxpZGF0ZUNoYWluID0gcmVxdWlyZSgnLi92YWxpZGF0ZS1jaGFpbicpOwo=</text>
+        <text encoding="base64">Y29uc3QgYXV0aEZucyA9IHJlcXVpcmUoJy4vYXV0aCcpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Y29uc3Qgd2hpdGVsaXN0ID0gcmVxdWlyZSgnJykK</text>
+        <text encoding="base64">Y29uc3QgbG9va3VwSG9zdCA9IHJlcXVpcmUoJy4vbWlkZGxld2FyZScpLmxvb2t1cEhvc3Q7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CmZ1bmN0aW9uKiBiYXNpYzJ0b2tlbigpIHsKICAgIHJldHVybiAocmVxLCByZXMsIG5leHQpID0+IHsKICAgICAgICB0cnkgewogICAgICAgICAgICB5aWVsZCBhdXRoQmFzaWMocmVxKTsKICAgICAgICAgICAgbmV4dCgpOwogICAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICAgICAgbmV4dChlKTsKICAgICAgICB9CiAgICB9Owp9CgpmdW5jdGlvbiBhdXRoV3JhcHBlcihhdXRoRm4pIHsKICAgIHJldHVybiBmdW5jdGlvbiogKHJlcSwgcmVzLCBuZXh0KSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgeWllbGQgYXV0aEZuKHJlcSk7CiAgICAgICAgICAgIG5leHQoKTsKICAgICAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgICAgIG5leHQoZSk7CiAgICAgICAgfQogICAgfTsKfQo=</text>
+        <text encoding="base64">ZXhwb3J0cy52YWxpZGF0ZUNoYWluID0gcmVxdWlyZSgnLi92YWxpZGF0ZS1jaGFpbicpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2340,13 +2339,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">YXBwLnVzZSh2YWxpZGF0ZUNoYWluKFthdXRoRm5zLmJhc2ljLCBhdXRoRm5zLnRva2VuLCBhdXRoRm5zLndoaXRlbGlzdF0pKTsK</text>
+        <text encoding="base64">Y29uc3Qgd2hpdGVsaXN0ID0gcmVxdWlyZSgnJykK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Y29uc3QgcHJveHlNYXAgPSByZXF1aXJlKCcuL3Byb3h5X21hcCcpOwo=</text>
+        <text encoding="base64">CmZ1bmN0aW9uKiBiYXNpYzJ0b2tlbigpIHsKICAgIHJldHVybiAocmVxLCByZXMsIG5leHQpID0+IHsKICAgICAgICB0cnkgewogICAgICAgICAgICB5aWVsZCBhdXRoQmFzaWMocmVxKTsKICAgICAgICAgICAgbmV4dCgpOwogICAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICAgICAgbmV4dChlKTsKICAgICAgICB9CiAgICB9Owp9CgpmdW5jdGlvbiBhdXRoV3JhcHBlcihhdXRoRm4pIHsKICAgIHJldHVybiBmdW5jdGlvbiogKHJlcSwgcmVzLCBuZXh0KSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgeWllbGQgYXV0aEZuKHJlcSk7CiAgICAgICAgICAgIG5leHQoKTsKICAgICAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgICAgIG5leHQoZSk7CiAgICAgICAgfQogICAgfTsKfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">YXBwLnVzZSgpCg==</text>
+        <text encoding="base64">YXBwLnVzZSh2YWxpZGF0ZUNoYWluKFthdXRoRm5zLmJhc2ljLCBhdXRoRm5zLnRva2VuLCBhdXRoRm5zLndoaXRlbGlzdF0pKTsK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL0Jhc2ljL1Rva2VuLw==</text>

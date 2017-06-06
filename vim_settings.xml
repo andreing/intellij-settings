@@ -115,12 +115,11 @@
         <mark key="^" line="14" column="24" />
         <mark key="." line="14" column="24" />
       </file>
-      <file name="$USER_HOME$/repos/claimsgateway/apps/electronic_claims/proxy.js" timestamp="1496752129553">
-        <mark key="'" line="54" column="9" />
-        <mark key="[" line="9" column="85" />
-        <mark key="]" line="12" column="50" />
-        <mark key="." line="12" column="50" />
-        <mark key="^" line="12" column="50" />
+      <file name="$USER_HOME$/repos/claimsgateway/apps/electronic_claims/proxy.js" timestamp="1496756001744">
+        <mark key="'" line="52" column="9" />
+        <mark key="[" line="44" column="0" />
+        <mark key="]" line="44" column="0" />
+        <mark key="." line="44" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/apps/submission2pdf/router.js" timestamp="1492687182971">
         <mark key="'" line="0" column="0" />
@@ -194,9 +193,12 @@
         <mark key="^" line="10" column="41" />
         <mark key="." line="10" column="41" />
       </file>
-      <file name="$USER_HOME$/repos/claimsgateway/apps/electronic_claims/router.js" timestamp="1496752491312">
+      <file name="$USER_HOME$/repos/claimsgateway/apps/electronic_claims/router.js" timestamp="1496754483032">
         <mark key="'" line="13" column="37" />
         <mark key="[" line="51" column="14" />
+        <mark key="]" line="52" column="10" />
+        <mark key="^" line="52" column="10" />
+        <mark key="." line="52" column="10" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/apps/nobina/transform.spec.js" timestamp="1477046899698">
         <mark key="[" line="5" column="50" />
@@ -255,7 +257,7 @@
         <mark key="^" line="1" column="7" />
         <mark key="." line="1" column="7" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/index.js" timestamp="1496401928485">
+      <file name="$USER_HOME$/repos/dmzproxy/index.js" timestamp="1496754422510">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="4" column="11" />
         <mark key="]" line="4" column="30" />
@@ -585,8 +587,8 @@
         <mark key="^" line="4" column="3" />
         <mark key="." line="4" column="3" />
       </file>
-      <file name="$USER_HOME$/repos/claimsgateway/config/production.yaml" timestamp="1496738529406">
-        <mark key="[" line="27" column="0" />
+      <file name="$USER_HOME$/repos/claimsgateway/config/production.yaml" timestamp="1496756166944">
+        <mark key="[" line="8" column="59" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours_confirmation.xml" timestamp="1491378238281">
         <mark key="'" line="14" column="0" />
@@ -677,8 +679,11 @@
         <mark key="^" line="16" column="22" />
         <mark key="." line="16" column="22" />
       </file>
-      <file name="$USER_HOME$/repos/claimsgateway/config/development.yaml" timestamp="1496738490120">
-        <mark key="[" line="32" column="0" />
+      <file name="$USER_HOME$/repos/claimsgateway/config/development.yaml" timestamp="1496756125146">
+        <mark key="[" line="29" column="4" />
+        <mark key="]" line="12" column="4" />
+        <mark key="^" line="12" column="4" />
+        <mark key="." line="12" column="4" />
       </file>
       <file name="$USER_HOME$/repos/dmzproxy/middleware/validateToken.js" timestamp="1496053665166">
         <mark key="'" line="32" column="127" />
@@ -1212,11 +1217,10 @@
         <mark key="^" line="24" column="33" />
         <mark key="." line="24" column="33" />
       </file>
-      <file name="$USER_HOME$/repos/claimsgateway/config/test.yaml" timestamp="1496738538437">
-        <mark key="[" line="27" column="0" />
-        <mark key="]" line="29" column="35" />
-        <mark key="^" line="29" column="35" />
-        <mark key="." line="29" column="35" />
+      <file name="$USER_HOME$/repos/claimsgateway/config/test.yaml" timestamp="1496756133610">
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="." line="8" column="0" />
       </file>
       <file name="$USER_HOME$/dev/robotprocessing/m7/src/main/resources/application.properties" timestamp="1492685854565">
         <mark key="'" line="11" column="0" />
@@ -1779,8 +1783,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="20" column="46" filename="$USER_HOME$/repos/dmzproxy/middleware/validateToken.js" />
-      <jump line="32" column="127" filename="$USER_HOME$/repos/dmzproxy/middleware/validateToken.js" />
       <jump line="20" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-basic.spec.js" />
       <jump line="20" column="4" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" />
       <jump line="22" column="18" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" />
@@ -1879,10 +1881,12 @@
       <jump line="38" column="26" filename="$USER_HOME$/repos/claimsgateway/apps/electronic_claims/formdefinitions.js" />
       <jump line="41" column="4" filename="$USER_HOME$/repos/claimsgateway/apps/electronic_claims/formdefinitions.js" />
       <jump line="49" column="9" filename="$USER_HOME$/repos/claimsgateway/apps/electronic_claims/proxy.js" />
+      <jump line="9" column="2" filename="$USER_HOME$/repos/claimsgateway/config/test.yaml" />
+      <jump line="8" column="4" filename="$USER_HOME$/repos/claimsgateway/config/test.yaml" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHJlcS5sb2cuaW5mbyh7cXVlcnlfcDogcHJveHlSZXF9KTsK</text>
+        <text encoding="base64">IyAgYmFzZVVyaTogaHR0cHM6Ly9jbGFpbXN0ZXN0LnByb3RlY3RvcmZvcnNpa3Jpbmcubm8vY2xhaW1zL2FwaQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1938,10 +1942,10 @@
         <text encoding="base64">XDxvblByb3h5UmVxXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGxldCBsYiA9IHJlcy5fbGlua2J1aWxkZXIubGlua1RvKGAke3JlcS5wYXJhbXMuY291bnRyeX0vYCk7Cg==</text>
+        <text encoding="base64">ICBiYXNlVXJpOiBodHRwOi8vY2xhaW1zLXNlcnZlcjo5NTI4Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHJlcS5sb2cuaW5mbyh7cXVlcnlfcDogcHJveHlSZXF9KTsK</text>
+        <text encoding="base64">IyAgYmFzZVVyaTogaHR0cHM6Ly9jbGFpbXN0ZXN0LnByb3RlY3RvcmZvcnNpa3Jpbmcubm8vY2xhaW1zL2FwaQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2001,19 +2005,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBwcmVwZW5kUGF0aDogZmFsc2UsCg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBwcmVwZW5kUGF0aDogdHJ1ZSwK</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">ICAgIGlmIChyZXEuYm9keSkgewogICAgICAgIGxldCBib2R5RGF0YSA9IEpTT04uc3RyaW5naWZ5KHJlcS5ib2R5KTsKICAgICAgICAvLyBzdHJlYW0gdGhlIGNvbnRlbnQKICAgICAgICBwcm94eVJlcS53cml0ZShib2R5RGF0YSk7CiAgICB9</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAvLyB0b1Byb3h5OiB0cnVlLAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGJvZHlwYXJzZXIuanNvbigpLAogICAgZWNsYWltc1Byb3h5LnJlcXVlc3RCb2R5TG9nZ2VyLAo=</text>
+        <text encoding="base64">ICBiYXNlVXJpOiBodHRwOi8vY2xhaW1zLXNlcnZlcjo5NTI4Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZXhwb3J0cy5yZXF1ZXN0Qm9keUxvZ2dlciA9IHJlcXVlc3RCb2R5TG9nZ2VyOwo=</text>
+        <text encoding="base64">IyAgYmFzZVVyaTogaHR0cHM6Ly9jbGFpbXN0ZXN0LnByb3RlY3RvcmZvcnNpa3Jpbmcubm8vY2xhaW1zL2FwaQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CmZ1bmN0aW9uIHJlcXVlc3RCb2R5TG9nZ2VyKHJlcSwgcmVzLCBuZXh0KSB7CiAgICByZXEubG9nLmluZm8oe2FjdGlvbjogJ2VjbGFpbXNwcm94eScsIGVjbGFpbXNfcmVxX2JvZHk6IHJlcS5ib2R5fSwgJ2VjbGFpbSBzdWJtaXNzaW9uIHJlcXVlc3QgYm9keScpOwogICAgbmV4dCgpOwp9Cg==</text>
+        <text encoding="base64">Y29uc3QgcmVxdWVzdCA9IHJlcXVpcmUoJ3N1cGVyYWdlbnQnKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2347,14 +2351,16 @@
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIGxzLmFkZChsYi5saW5rVG8oJy8nKS53aXRoU2VsZlJlbCgpKTsK</text>
+      <register name="7" type="8">
+        <text>ms
+se</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIGxldCBsYiA9IHJlcy5fbGlua2J1aWxkZXIubGlua1RvKCkK</text>
+      <register name="8" type="8">
+        <text>s:
+eUri: https://claimstest.protec</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Y29uc3QgYmFzZVBhdGggPSAnaHR0cDovL2xvY2FsaG9zdDo1MDAwJzsK</text>
+        <text encoding="base64">ICAgIGNvbnN0IHVybCA9IHJlcS5yZXNvbHZlZF9ob3N0bmFtZSArIHJlcS5vcmlnaW5hbFVybDsK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL0Jhc2ljL1Rva2VuLw==</text>

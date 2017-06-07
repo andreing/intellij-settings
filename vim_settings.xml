@@ -1668,6 +1668,13 @@
         <mark key="^" line="173" column="7" />
         <mark key="." line="173" column="7" />
       </file>
+      <file name="$USER_HOME$/repos/claimsgateway/apps/submission2pdf/transform.js" timestamp="1496833150212">
+        <mark key="'" line="157" column="4" />
+        <mark key="[" line="189" column="12" />
+        <mark key="]" line="192" column="7" />
+        <mark key="." line="192" column="7" />
+        <mark key="^" line="192" column="7" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/ClaimsTemplateType.java" timestamp="1485265318606">
         <mark key="[" line="9" column="0" />
         <mark key="]" line="9" column="0" />
@@ -1801,7 +1808,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="54" column="34" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.js" />
       <jump line="52" column="75" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.js" />
       <jump line="41" column="53" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" />
       <jump line="37" column="121" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-token.spec.js" />
@@ -1901,10 +1907,11 @@
       <jump line="73" column="12" filename="$USER_HOME$/repos/dmzproxy/test/proxy.test.js" />
       <jump line="153" column="12" filename="$USER_HOME$/repos/dmzproxy/test/proxy.test.js" />
       <jump line="16" column="19" filename="$USER_HOME$/repos/dmzproxy/test/proxy.test.js" />
+      <jump line="158" column="4" filename="$USER_HOME$/repos/claimsgateway/apps/submission2pdf/transform.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgewogICAgICAgICAgICAgICAgbGV2ZWw6IGJ1bnlhbi5ERUJVRywKICAgICAgICAgICAgICAgIHR5cGU6ICdyb3RhdGluZy1maWxlJywKICAgICAgICAgICAgICAgIHBhdGg6IExPR19GSUxFLAogICAgICAgICAgICAgICAgcGVyaW9kOiAnMWQnLAogICAgICAgICAgICAgICAgY291bnQ6IDUKICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICBjb3VudHJ5ID0gc3VibS5jb3VudHJ5Owo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1963,7 +1970,7 @@
         <text encoding="base64">ICAgICAgICAgICAgbW9ja0ludGVybmFsVXNlciA9IHtwYXJ0eUlkOiAzNDMsIGZpcnN0TmFtZTogJ0dhbmRhbGYnfTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgewogICAgICAgICAgICAgICAgbGV2ZWw6IGJ1bnlhbi5ERUJVRywKICAgICAgICAgICAgICAgIHR5cGU6ICdyb3RhdGluZy1maWxlJywKICAgICAgICAgICAgICAgIHBhdGg6IExPR19GSUxFLAogICAgICAgICAgICAgICAgcGVyaW9kOiAnMWQnLAogICAgICAgICAgICAgICAgY291bnQ6IDUKICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICBjb3VudHJ5ID0gc3VibS5jb3VudHJ5Owo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2023,19 +2030,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgewogICAgICAgICAgICAgICAgbGV2ZWw6IGJ1bnlhbi5JTkZPLAogICAgICAgICAgICAgICAgdHlwZTogJ3JvdGF0aW5nLWZpbGUnLAogICAgICAgICAgICAgICAgcGF0aDogTE9HX0ZJTEUsCiAgICAgICAgICAgICAgICBwZXJpb2Q6ICcxZCcsCiAgICAgICAgICAgICAgICBjb3VudDogNQogICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgIGlmKHR5cGUgPT09IHN1Ym1pc3Npb25UeXBlcy5TTil7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIH0gZWxzZSBpZiAodHlwZSA9PT0gc3VibWlzc2lvblR5cGVzLk5PQklOQVNFIHx8IHR5cGUgPT09IHN1Ym1pc3Npb25UeXBlcy5OT0JJTkFOTyB8fCB0eXBlID09PSBzdWJtaXNzaW9uVHlwZXMuTk9CSU5BREspewogICAgICAgIGxldCBqc29uRGF0YSA9IHN1Ym07CiAgICAgICAgY291bnRyeSA9IHR5cGUuY291bnRyeTsKICAgICAgICByZXN1bHQudGl0bGUgPSBnZXRJbnRlZ3JhdGlvblN1Ym1pc3Npb25UaXRsZShjb3VudHJ5LGpzb25EYXRhKTsKICAgICAgICByZXN1bHRbJ2ZpZWxkc2V0cyddID0gcG9wdWxhdGVGcm9tSnNvbihudWxsLGpzb25EYXRhKTsKICAgIH0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Y29uc3QgTE9HX0ZJTEUgPSAnL3Zhci9sb2cvY2xhaW1zZ2F0ZXdheS5sb2cnOwo=</text>
+        <text encoding="base64">ICAgIGNvdW50cnkgPSB0eXBlLmNvdW50cnk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBkZXNjcmliZSgncHJveHkudGVzdCcsIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgCiAgICAgICAgfSk7Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGlmICh0eXBlID09PSBzdWJtaXNzaW9uVHlwZXMuU04pIHsKICAgICAgICBsZXQgZGF0YSA9IHVuZmxhdHRlbk9iamVjdHMoc3VibS5kYXRhKTsKICAgICAgICBjb3VudHJ5ID0gc3VibS5jb3VudHJ5OwogICAgICAgIGxldCBzY2hlbWEgPSBzdWJtLnNjaGVtYTsKICAgICAgICBsZXQgZm9ybSA9IHN1Ym0uZm9ybTsKICAgICAgICBsZXQgbWVyZ2VkID0gbWVyZ2Uoc2NoZW1hLCBkYXRhKTsKICAgICAgICByZXN1bHRbJ2ZpZWxkc2V0cyddID0gcG9wdWxhdGUoZm9ybSwgbWVyZ2VkKTsKICAgIH0gZWxzZSBpZiAodHlwZSA9PT0gc3VibWlzc2lvblR5cGVzLk5PQklOQVNFIHx8IHR5cGUgPT09IHN1Ym1pc3Npb25UeXBlcy5OT0JJTkFOTyB8fCB0eXBlID09PSBzdWJtaXNzaW9uVHlwZXMuTk9CSU5BREspIHsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2370,10 +2377,10 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgewogICAgICAgICAgICAgICAgbGV2ZWw6IGJ1bnlhbi5ERUJVRywKICAgICAgICAgICAgICAgIHR5cGU6ICdyb3RhdGluZy1maWxlJywKICAgICAgICAgICAgICAgIHBhdGg6IExPR19GSUxFLAogICAgICAgICAgICAgICAgcGVyaW9kOiAnMWQnLAogICAgICAgICAgICAgICAgY291bnQ6IDUKICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBkZXNjcmliZSgnaW50ZXJuYWwgdXNlcicsIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgCiAgICAgICAgfSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgewogICAgICAgICAgICAgICAgbGV2ZWw6IGJ1bnlhbi5JTkZPLAogICAgICAgICAgICAgICAgdHlwZTogJ3JvdGF0aW5nLWZpbGUnLAogICAgICAgICAgICAgICAgcGF0aDogTE9HX0ZJTEUsCiAgICAgICAgICAgICAgICBwZXJpb2Q6ICcxZCcsCiAgICAgICAgICAgICAgICBjb3VudDogNQogICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>

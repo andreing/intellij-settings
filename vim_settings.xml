@@ -148,11 +148,12 @@
         <mark key="^" line="3" column="22" />
         <mark key="." line="3" column="22" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/middleware/unauth-error-handler.js" timestamp="1496401667886">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="1" column="49" />
-        <mark key="^" line="1" column="49" />
-        <mark key="." line="1" column="49" />
+      <file name="$USER_HOME$/repos/dmzproxy/middleware/unauth-error-handler.js" timestamp="1496925256364">
+        <mark key="'" line="2" column="0" />
+        <mark key="[" line="7" column="4" />
+        <mark key="]" line="2" column="63" />
+        <mark key="^" line="7" column="3" />
+        <mark key="." line="2" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/dashboard/transactions/transaction-disapprovals.html" timestamp="1484819033436">
         <mark key="[" line="52" column="30" />
@@ -262,12 +263,12 @@
         <mark key="^" line="1" column="7" />
         <mark key="." line="1" column="7" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/index.js" timestamp="1496923097341">
+      <file name="$USER_HOME$/repos/dmzproxy/index.js" timestamp="1496925249324">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="4" column="35" />
-        <mark key="]" line="26" column="11" />
-        <mark key="^" line="26" column="11" />
-        <mark key="." line="26" column="11" />
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="63" />
+        <mark key="^" line="6" column="18" />
+        <mark key="." line="6" column="18" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/js/controllers/ClaimFormCtrl.js" timestamp="1484818534926">
         <mark key="[" line="74" column="0" />
@@ -1138,12 +1139,12 @@
         <mark key="^" line="1" column="14" />
         <mark key="." line="1" column="14" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/auth/auth-basic.js" timestamp="1496923279122">
-        <mark key="'" line="8" column="0" />
-        <mark key="[" line="24" column="20" />
-        <mark key="]" line="24" column="19" />
-        <mark key="." line="24" column="19" />
-        <mark key="^" line="24" column="19" />
+      <file name="$USER_HOME$/repos/dmzproxy/auth/auth-basic.js" timestamp="1496925787697">
+        <mark key="'" line="5" column="0" />
+        <mark key="[" line="25" column="19" />
+        <mark key="]" line="25" column="22" />
+        <mark key="." line="25" column="62" />
+        <mark key="^" line="25" column="22" />
       </file>
       <file name="$USER_HOME$/repos/webclaims/test/integration/route-servicecenters.test.js" timestamp="1494577205019">
         <mark key="[" line="19" column="0" />
@@ -1836,8 +1837,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="5" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/whitelist.js" />
-      <jump line="135" column="28" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" />
       <jump line="133" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" />
       <jump line="23" column="4" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" />
       <jump line="24" column="8" filename="$USER_HOME$/repos/dmzproxy/middleware/validate-chain.spec.js" />
@@ -1936,10 +1935,12 @@
       <jump line="2" column="0" filename="$USER_HOME$/repos/claims/frontend/js/controllers/ClaimFormDataCtrl.js" />
       <jump line="140" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/online-summary/claim-form-data.ctrl.js" />
       <jump line="252" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/online-summary/claim-form-data.ctrl.js" />
+      <jump line="2" column="0" filename="$USER_HOME$/repos/dmzproxy/middleware/unauth-error-handler.js" />
+      <jump line="5" column="0" filename="$USER_HOME$/repos/dmzproxy/auth/auth-basic.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAudXNlKHJlcXVlc3RMb2dnZXIpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3RhdHNkQ2xpZW50LmluY3JlbWVudCgnJykK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1995,10 +1996,10 @@
         <text encoding="base64">XDxhZnRlcm1hdGhTdWJtaXNzaW9uXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLyoganNoaW50IGlnbm9yZTplbmQgKi8K</text>
+        <text encoding="base64">Y29uc3Qgc3RhdHNkQ2xpZW50ID0gcmVxdWlyZSgnLi9tZXRyaWNzL3N0YXRzZC1jbGllbnQnKS5jbGllbnQ7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAudXNlKHJlcXVlc3RMb2dnZXIpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3RhdHNkQ2xpZW50LmluY3JlbWVudCgnJykK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2058,19 +2059,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Y29uc3QgcmVxdWVzdExvZ2dlciA9IHJlcXVpcmUoJ3N1cGVyYWdlbnQtbG9nZ2VyJyk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAudXNlKHJlcXVlc3RMb2dnZXIpCg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Y29uc3QgcmVxdWVzdExvZ2dlciA9IHJlcXVpcmUoJ3N1cGVyYWdlbnQtbG9nZ2VyJyk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAudXNlKHJlcXVlc3RMb2dnZXIpCg==</text>
+        <text encoding="base64">Y29uc3QgcmVxdWVzdExvZ2dlciA9IHJlcXVpcmUoJ3N1cGVyYWdlbnQtbG9nZ2VyJyk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uc3QgaHJzdGFydCA9IHByb2Nlc3MuaHJ0aW1lKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAudXNlKHJlcXVlc3RMb2dnZXIpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVzLm9uKCdmaW5pc2gnLCAoKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBocmVuZCA9IHByb2Nlc3MuaHJ0aW1lKGhyc3RhcnQpOwogICAgICAgICAgICAgICAgY29uc3QgbGF0ZW5jeSA9IGhyZW5kWzBdICsgKGhyZW5kWzFdIC8gMWUrOSk7CiAgICAgICAgICAgICAgICByZXR1cm4gcmVxLmxvZy5pbmZvKHtyZXEsIHJlcywgbGF0ZW5jeTogYCR7bGF0ZW5jeX1zYH0pOwogICAgICAgICAgICB9KTsKCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uc3QgaHJzdGFydCA9IHByb2Nlc3MuaHJ0aW1lKCk7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2405,13 +2406,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGxldCBjb3VudHJ5ID0gc3VibS5jb3VudHJ5Owo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVzLm9uKCdmaW5pc2gnLCAoKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBocmVuZCA9IHByb2Nlc3MuaHJ0aW1lKGhyc3RhcnQpOwogICAgICAgICAgICAgICAgY29uc3QgbGF0ZW5jeSA9IGhyZW5kWzBdICsgKGhyZW5kWzFdIC8gMWUrOSk7CiAgICAgICAgICAgICAgICByZXR1cm4gcmVxLmxvZy5pbmZvKHtyZXEsIHJlcywgbGF0ZW5jeTogYCR7bGF0ZW5jeX1zYH0pOwogICAgICAgICAgICB9KTsKCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxldCBjb3VudHJ5ID0gc3VibS5jb3VudHJ5Owo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgZ2V0Rm9ybVN1Ym1pc3Npb246IGdldEZvcm1TdWJtaXNzaW9uLAogICAgICAgICAgICBnZXRBZnRlcm1hdGhTdWJtaXNzaW9uOiBnZXRBZnRlcm1hdGhTdWJtaXNzaW9uLAogICAgICAgICAgICBoYXNBZnRlcm1hdGhQcm9taXNlOiBoYXNBZnRlcm1hdGhTdWJtaXNzaW9uCiAgICAgICAgfTsKCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL3RoaXMvaXRlbQ==</text>

@@ -65,12 +65,12 @@
         <mark key="^" line="23" column="66" />
         <mark key="." line="23" column="66" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentJdbcDao.java" timestamp="1498490210948">
-        <mark key="'" line="95" column="8" />
-        <mark key="[" line="95" column="70" />
-        <mark key="]" line="95" column="70" />
-        <mark key="." line="95" column="0" />
-        <mark key="^" line="105" column="42" />
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentJdbcDao.java" timestamp="1498490460029">
+        <mark key="'" line="124" column="8" />
+        <mark key="[" line="135" column="37" />
+        <mark key="]" line="148" column="7" />
+        <mark key="." line="148" column="7" />
+        <mark key="^" line="148" column="7" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/resources/templates/email/claimforms/property_uk.tmpl" timestamp="1479200244786">
         <mark key="[" line="94" column="88" />
@@ -529,7 +529,6 @@
         <mark key="]" line="274" column="0" />
         <mark key="." line="274" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ClaimToBeAdjusted.java" timestamp="1498477113301" />
       <file name="$USER_HOME$/repos/claims/frontend-online/components/claim/claims/ClaimFormDataCtrl.js" timestamp="1496839766005">
         <mark key="[" line="153" column="192" />
         <mark key="]" line="1" column="32" />
@@ -1114,7 +1113,6 @@
         <mark key="." line="129" column="66" />
         <mark key="^" line="129" column="66" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-header-contract.html" timestamp="1498483337956" />
       <file name="$USER_HOME$/repos/claims/reserve/src/test/groovy/protector/claims/automaticReserveAdjustment/ClaimCostServiceSpec.groovy" timestamp="1498412859773">
         <mark key="[" line="48" column="0" />
         <mark key="]" line="48" column="0" />
@@ -1248,9 +1246,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="40" column="4" filename="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/test/groovy/protector/dbs/ws/hentfagdata/contoller/HentFagdataControllerSpec.groovy" />
-      <jump line="51" column="8" filename="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/test/groovy/protector/dbs/ws/hentfagdata/contoller/HentFagdataControllerSpec.groovy" />
-      <jump line="12" column="8" filename="$USER_HOME$/repos/claims/reserve/src/test/groovy/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCalculatorSpec.groovy" />
       <jump line="18" column="8" filename="$USER_HOME$/repos/claims/reserve/src/test/groovy/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCalculatorSpec.groovy" />
       <jump line="23" column="8" filename="$USER_HOME$/repos/claims/reserve/src/test/groovy/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCalculatorSpec.groovy" />
       <jump line="93" column="0" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentJdbcDao.java" />
@@ -1348,6 +1343,9 @@
       <jump line="528" column="2" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
       <jump line="116" column="29" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentJdbcDao.java" />
       <jump line="95" column="8" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentJdbcDao.java" />
+      <jump line="145" column="46" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentJdbcDao.java" />
+      <jump line="146" column="8" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentJdbcDao.java" />
+      <jump line="124" column="8" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentJdbcDao.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -1410,7 +1408,7 @@
         <text encoding="base64">ICAgICAgICBMb2NhbERhdGUgdG9kYXlNaW51c0ZpdmVZZWFycyA9IExvY2FsRGF0ZS5ub3coKS5taW51c1llYXJzKDUpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">U0VMRUNUIERJU1RJTkNUCiAgTE9CX0FjY291bnRpbmdfQ29kZSwKICBDb3VudHJ5X0lkCkZST00gQ2xhaW1zX1Jlc2VydmVfQWRqdXN0bWVudF9DbGFzc2lmaWVyCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1435,19 +1433,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">U0VMRUNUIERJU1RJTkNUCiAgTE9CX0FjY291bnRpbmdfQ29kZSwKICBDb3VudHJ5X0lkCkZST00gQ2xhaW1zX1Jlc2VydmVfQWRqdXN0bWVudF9DbGFzc2lmaWVyCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICBjcmFyLmlkICAgICAgICBBUyByZXNlcnZlX2FkanVzdG1lbnRfcnVsZV9pZCwKICBjcmF2LmlkICAgICAgICBBUyByZXNlcnZlX2FkanVzdG1lbnRfdmFsdWVfaWQsCiAgY3Jhdi5BZGp1c3RlZF9TdGFuZGFyZF9SZXNlcnZlLAo=</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICBKT0lOIENsYWltc19SZXNlcnZlX0FkanVzdG1lbnRfVmFsdWVzIGNyYXYgT04gbGJjLkxPQl9BY2NvdW50aW5nX0NvZGUgPSBjcmF2LkxPQl9BY2NvdW50aW5nX0NvZGUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQU5EIGNoLmNvdW50cnlfaWQgPSBjcmF2LkNvdW50cnlfSWQK</text>
+        <text encoding="base64">ICBjcmFyLmlkICAgICAgICBBUyByZXNlcnZlX2FkanVzdG1lbnRfcnVsZV9pZCwKICBjcmF2LmlkICAgICAgICBBUyByZXNlcnZlX2FkanVzdG1lbnRfdmFsdWVfaWQsCiAgY3Jhdi5BZGp1c3RlZF9TdGFuZGFyZF9SZXNlcnZlLAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">T04gbGJjLkxPQl9BY2NvdW50aW5nX0NvZGUgPSBjcmFyLkxPQl9BY2NvdW50aW5nX0NvZGUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBBTkQgKGNyYXIuY2xhaW1fdHlwZV9pZCBJUyBOVUxMIE9SIGNyYXIuY2xhaW1fdHlwZV9pZCA9IGN0LmlkKSBBTkQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaC5jb3VudHJ5X2lkID0gY3Jhci5Db3VudHJ5X0lkCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQU5EICgoY3Jhci5DbGFpbV9PcGVuID0gMSBBTkQgY2guY29tcGxldGVkX2RhdGUgSVMgTlVMTCkgT1IKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIChjcmFyLkNsYWltX09wZW4gPSAwIEFORCBjaC5jb21wbGV0ZWRfZGF0ZSBJUyBOT1QgTlVMTCkpCg==</text>
+        <text encoding="base64">ICBKT0lOIENsYWltc19SZXNlcnZlX0FkanVzdG1lbnRfVmFsdWVzIGNyYXYgT04gbGJjLkxPQl9BY2NvdW50aW5nX0NvZGUgPSBjcmF2LkxPQl9BY2NvdW50aW5nX0NvZGUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQU5EIGNoLmNvdW50cnlfaWQgPSBjcmF2LkNvdW50cnlfSWQK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAtLSAgICAgICBhbmQgbGJjLkxPQl9BY2NvdW50aW5nX0NvZGUgaW4gKHNlbGVjdCBkaXN0aW5jdCBMT0JfQWNjb3VudGluZ19Db2RlIGZyb20gQ2xhaW1zX1Jlc2VydmVfQWRqdXN0bWVudF9DbGFzc2lmaWVyKQo=</text>
+        <text encoding="base64">T04gbGJjLkxPQl9BY2NvdW50aW5nX0NvZGUgPSBjcmFyLkxPQl9BY2NvdW50aW5nX0NvZGUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBBTkQgKGNyYXIuY2xhaW1fdHlwZV9pZCBJUyBOVUxMIE9SIGNyYXIuY2xhaW1fdHlwZV9pZCA9IGN0LmlkKSBBTkQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaC5jb3VudHJ5X2lkID0gY3Jhci5Db3VudHJ5X0lkCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQU5EICgoY3Jhci5DbGFpbV9PcGVuID0gMSBBTkQgY2guY29tcGxldGVkX2RhdGUgSVMgTlVMTCkgT1IKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIChjcmFyLkNsYWltX09wZW4gPSAwIEFORCBjaC5jb21wbGV0ZWRfZGF0ZSBJUyBOT1QgTlVMTCkpCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1782,10 +1780,10 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">LS0gICAgICAgYW5kIGxiYy5MT0JfQWNjb3VudGluZ19Db2RlIGluIChzZWxlY3QgZGlzdGluY3QgTE9CX0FjY291bnRpbmdfQ29kZSBmcm9tIENsYWltc19SZXNlcnZlX0FkanVzdG1lbnRfQ2xhc3NpZmllcikK</text>
+        <text encoding="base64">ICAtLSAgICAgICBhbmQgbGJjLkxPQl9BY2NvdW50aW5nX0NvZGUgaW4gKHNlbGVjdCBkaXN0aW5jdCBMT0JfQWNjb3VudGluZ19Db2RlIGZyb20gQ2xhaW1zX1Jlc2VydmVfQWRqdXN0bWVudF9DbGFzc2lmaWVyKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAqCg==</text>
+        <text encoding="base64">LS0gICAgICAgYW5kIGxiYy5MT0JfQWNjb3VudGluZ19Db2RlIGluIChzZWxlY3QgZGlzdGluY3QgTE9CX0FjY291bnRpbmdfQ29kZSBmcm9tIENsYWltc19SZXNlcnZlX0FkanVzdG1lbnRfQ2xhc3NpZmllcikK</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">ICAqCg==</text>

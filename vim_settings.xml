@@ -65,9 +65,9 @@
         <mark key="^" line="23" column="66" />
         <mark key="." line="23" column="66" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentJdbcDao.java" timestamp="1498139278477">
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentJdbcDao.java" timestamp="1498474730505">
         <mark key="'" line="93" column="0" />
-        <mark key="[" line="89" column="143" />
+        <mark key="[" line="34" column="17" />
         <mark key="]" line="91" column="109" />
         <mark key="." line="91" column="109" />
         <mark key="^" line="91" column="109" />
@@ -520,13 +520,14 @@
         <mark key="^" line="12" column="26" />
         <mark key="." line="12" column="26" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" timestamp="1498469059830">
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" timestamp="1498474847936">
         <mark key="'" line="225" column="16" />
-        <mark key="[" line="288" column="47" />
-        <mark key="]" line="76" column="59" />
-        <mark key="." line="76" column="59" />
-        <mark key="^" line="76" column="59" />
+        <mark key="[" line="275" column="25" />
+        <mark key="]" line="275" column="14" />
+        <mark key="." line="275" column="14" />
+        <mark key="^" line="275" column="14" />
       </file>
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ClaimToBeAdjusted.java" timestamp="1498477113301" />
       <file name="$USER_HOME$/repos/claims/frontend-online/components/claim/claims/ClaimFormDataCtrl.js" timestamp="1496839766005">
         <mark key="[" line="153" column="192" />
         <mark key="]" line="1" column="32" />
@@ -590,11 +591,12 @@
         <mark key="." line="71" column="51" />
         <mark key="^" line="71" column="51" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1498470604414">
-        <mark key="[" line="321" column="11" />
-        <mark key="]" line="321" column="9" />
-        <mark key="." line="321" column="9" />
-        <mark key="^" line="321" column="9" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1498476724987">
+        <mark key="'" line="223" column="0" />
+        <mark key="[" line="370" column="135" />
+        <mark key="]" line="372" column="0" />
+        <mark key="^" line="372" column="0" />
+        <mark key="." line="372" column="0" />
       </file>
       <file name="$USER_HOME$/dev/robotprocessing/m7/src/main/java/no/protector/m7/kafka/MessageChannels.java" timestamp="1491482735940">
         <mark key="[" line="13" column="34" />
@@ -1242,8 +1244,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="8" column="4" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
-      <jump line="32" column="8" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
       <jump line="10" column="4" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
       <jump line="4" column="0" filename="$USER_HOME$/dev/dbs/dbsclient/build.gradle" />
       <jump line="10" column="4" filename="$USER_HOME$/dev/dbs/build.gradle" />
@@ -1342,10 +1342,12 @@
       <jump line="353" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
       <jump line="370" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
       <jump line="343" column="9" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
+      <jump line="367" column="45" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
+      <jump line="223" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgIC0tICAgY3Jhdi4qLAogICAgICAgLS0gICBjcmFyLioK</text>
+        <text encoding="base64">ClNFTEVDVCAqCkZST00gVXNlcnMgdQogIEpPSU4gQ2xhaW1fVXNlciBjdSBPTiB1LklkID0gY3UuVXNlcl9JZApXSEVSRSB1LlVzZXJfTmFtZSA9ICdhbmluOTknCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1404,7 +1406,7 @@
         <text encoding="base64">am9pbiAoc2VsZWN0IGRpc3RpbmN0IExPQl9BY2NvdW50aW5nX0NvZGUsIEJyYW5jaF9Db2RlIGZyb20gTG9iX0JyYW5jaF9Db2RlcykgbGJjIG9uIGxiYy5MT0JfQWNjb3VudGluZ19Db2RlID0gY3Jhci5MT0JfQWNjb3VudGluZ19Db2RlCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgIC0tICAgY3Jhdi4qLAogICAgICAgLS0gICBjcmFyLioK</text>
+        <text encoding="base64">ClNFTEVDVCAqCkZST00gVXNlcnMgdQogIEpPSU4gQ2xhaW1fVXNlciBjdSBPTiB1LklkID0gY3UuVXNlcl9JZApXSEVSRSB1LlVzZXJfTmFtZSA9ICdhbmluOTknCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1464,19 +1466,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">V0hFUkUgczEuQ29tcGxldGVkX0RhdGUgSVMgTk9UIE5VTEwK</text>
+        <text encoding="base64">d2hlcmUgQ291bnRyeV9JZCA9IDEgT1JERVIgQlkgIEJyYW5jaF9Db2RlIGFzYwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">U0VMRUNUCiAgczEuY2xhaW1faGVhZGVyX2lkLAogIENvbXBsZXRlZF9EYXRlLAogIApGUk9NICgK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgam9pbiAoc2VsZWN0IGRpc3RpbmN0IExPQl9BY2NvdW50aW5nX0NvZGUsIEJyYW5jaF9Db2RlIGZyb20gTG9iX0JyYW5jaF9Db2RlcykgbGJjIG9uIGxiYy5MT0JfQWNjb3VudGluZ19Db2RlID0gY3Jhci5MT0JfQWNjb3VudGluZ19Db2RlCg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">c2VsZWN0CiAgY291bnQoKikKRlJPTSBDbGFpbV9oZWFkZXIgY2gKICBKT0lOIENsYWltIGMgT04gY2guaWQgPSBjLmNsYWltX2hlYWRlcl9pZAogIEpPSU4gQ2xhaW1fVHlwZSBjdCBPTiBjLkNsYWltX1R5cGVfSWQgPSBjdC5pZAogIEpPSU4gTG9iX0JyYW5jaF9Db2RlcyBsYmMgT04gY3QuQnJhbmNoX0NvZGVfSWQgPSBsYmMuaWQKICBKT0lOIENsYWltc19SZXNlcnZlX0FkanVzdG1lbnRfUnVsZXMgY3JhciBPTiBsYmMuTE9CX0FjY291bnRpbmdfQ29kZSA9IGNyYXIuTE9CX0FjY291bnRpbmdfQ29kZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFORCAoY3Jhci5jbGFpbV90eXBlX2lkIElTIE5VTEwgT1IgY3Jhci5jbGFpbV90eXBlX2lkID0gY3QuaWQpIEFORAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNoLmNvdW50cnlfaWQgPSBjcmFyLkNvdW50cnlfSWQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBBTkQgKChjcmFyLkNsYWltX09wZW4gPSAxIEFORCBjaC5jb21wbGV0ZWRfZGF0ZSBJUyBOVUxMKSBPUgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKGNyYXIuQ2xhaW1fT3BlbiA9IDAgQU5EIGNoLmNvbXBsZXRlZF9kYXRlIElTIE5PVCBOVUxMKSkKV0hFUkUgY2guU3RhdHVzX0lkICE9IDEKICAgICAgQU5EIGNoLkRhbWFnZV9EYXRlID49ICcyMDEyLTA2LTE5JwogICAgICBBTkQgY2guRGFtYWdlX0RhdGUgPD0gJzIwMTctMDYtMTknCiAgICAgIGFuZCBjaC5Db21wbGV0ZWRfRGF0ZSBpcyBub3QgbnVsbA==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">d2hlcmUKICAK</text>
+        <text encoding="base64">ICAgICAgICAgYy5pZCBhcyBjbGFpbV9pZCwK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZnJvbSBMb2JfQnJhbmNoX0NvZGVzIGxiYwogIEpPSU4gQ2xhaW1zX1Jlc2VydmVfQWRqdXN0bWVudF9SdWxlcyBjcmFyIE9OIGxiYy5MT0JfQWNjb3VudGluZ19Db2RlID0gY3Jhci5MT0JfQWNjb3VudGluZ19Db2RlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQU5EIChjcmFyLmNsYWltX3R5cGVfaWQgSVMgTlVMTCBPUiBjcmFyLmNsYWltX3R5cGVfaWQgPSBjdC5pZCkgQU5ECiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2guY291bnRyeV9pZCA9IGNyYXIuQ291bnRyeV9JZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFORCAoKGNyYXIuQ2xhaW1fT3BlbiA9IDEgQU5EIGNoLmNvbXBsZXRlZF9kYXRlIElTIE5VTEwpIE9SCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAoY3Jhci5DbGFpbV9PcGVuID0gMCBBTkQgY2guY29tcGxldGVkX2RhdGUgSVMgTk9UIE5VTEwpKQo=</text>
+        <text encoding="base64">ICAgICAgIC0tICAgY3Jhdi4qLAogICAgICAgLS0gICBjcmFyLioK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1811,13 +1813,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICBqb2luIENsYWltc19SZXNlcnZlX0FkanVzdG1lbnRfUnVsZXMgY3JhciBvbiBsYmMuTE9CX0FjY291bnRpbmdfQ29kZSA9IGNyYXIK</text>
+        <text encoding="base64">V0hFUkUgczEuQ29tcGxldGVkX0RhdGUgSVMgTk9UIE5VTEwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">U0VMRUNUCiAgczEuY2xhaW1faGVhZGVyX2lkLAogIENvbXBsZXRlZF9EYXRlLAogIApGUk9NICgK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">c2VsZWN0ICogZnJvbSBDbGFpbV9IZWFkZXIgd2hlcmUgaWQgPSAzMzQzODQKCg==</text>
+        <text encoding="base64">ICAgICAgICAgam9pbiAoc2VsZWN0IGRpc3RpbmN0IExPQl9BY2NvdW50aW5nX0NvZGUsIEJyYW5jaF9Db2RlIGZyb20gTG9iX0JyYW5jaF9Db2RlcykgbGJjIG9uIGxiYy5MT0JfQWNjb3VudGluZ19Db2RlID0gY3Jhci5MT0JfQWNjb3VudGluZ19Db2RlCg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1woY2xhaW1QYWlkQW1vdW50TGVxOiBcKTAvXDFudWxsLw==</text>

@@ -591,12 +591,12 @@
         <mark key="." line="71" column="51" />
         <mark key="^" line="71" column="51" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1498479799313">
-        <mark key="'" line="223" column="0" />
-        <mark key="[" line="398" column="42" />
-        <mark key="]" line="394" column="0" />
-        <mark key="." line="394" column="0" />
-        <mark key="^" line="394" column="0" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1498481254236">
+        <mark key="'" line="403" column="28" />
+        <mark key="[" line="397" column="77" />
+        <mark key="]" line="397" column="0" />
+        <mark key="^" line="397" column="0" />
+        <mark key="." line="397" column="0" />
       </file>
       <file name="$USER_HOME$/dev/robotprocessing/m7/src/main/java/no/protector/m7/kafka/MessageChannels.java" timestamp="1491482735940">
         <mark key="[" line="13" column="34" />
@@ -1244,9 +1244,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="10" column="4" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
-      <jump line="4" column="0" filename="$USER_HOME$/dev/dbs/dbsclient/build.gradle" />
-      <jump line="10" column="4" filename="$USER_HOME$/dev/dbs/build.gradle" />
       <jump line="76" column="30" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
       <jump line="75" column="70" filename="$USER_HOME$/dev/dbs/ws/build.gradle" />
       <jump line="11" column="165" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/sweden/auto/se_auto_collision.xml" />
@@ -1344,11 +1341,13 @@
       <jump line="343" column="9" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
       <jump line="367" column="45" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
       <jump line="223" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
+      <jump line="382" column="2" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
+      <jump line="426" column="27" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
+      <jump line="402" column="28" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>SELECT *,
-FROM Claims_Reserve_Adjustment_Rules</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIE9SIChDbGFpbV9UeXBlX0lkX0luY2x1ZGUgSVMgTlVMTCBBTkQgQ2xhaW1fVHlwZV9JZF9FeGNsdWRlIElTIE5PVCBOVUxMKQogICAgT1IgKENsYWltX1R5cGVfSWRfSW5jbHVkZSBJUyBOVUxMIEFORCBDbGFpbV9UeXBlX0lkX0V4Y2x1ZGUgSVMgTlVMTCkK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1401,14 +1400,13 @@ FROM Claims_Reserve_Adjustment_Rules</text>
         <text>claimCostPredicate</text>
       </register>
       <register name="/" type="4">
-        <text>\(claimPaidAmountLeq: \)0</text>
+        <text>)</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">am9pbiAoc2VsZWN0IGRpc3RpbmN0IExPQl9BY2NvdW50aW5nX0NvZGUsIEJyYW5jaF9Db2RlIGZyb20gTG9iX0JyYW5jaF9Db2RlcykgbGJjIG9uIGxiYy5MT0JfQWNjb3VudGluZ19Db2RlID0gY3Jhci5MT0JfQWNjb3VudGluZ19Db2RlCg==</text>
+        <text encoding="base64">ICBBZGp1c3RlZF9TdGFuZGFyZF9SZXNlcnZlICAgICAgREVDSU1BTCgxOCkgTk9UIE5VTEwsCiAgUmFuZG9taXplZF9QZXJjZW50YWdlX0RlY3JlYXNlIElOVCAgICAgICAgIE5PVCBOVUxMLAogIFJhbmRvbWl6ZWRfUGVyY2VudGFnZV9JbmNyZWFzZSBJTlQgICAgICAgICBOT1QgTlVMTCwK</text>
       </register>
-      <register name="1" type="4">
-        <text>SELECT *,
-FROM Claims_Reserve_Adjustment_Rules</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIE9SIChDbGFpbV9UeXBlX0lkX0luY2x1ZGUgSVMgTlVMTCBBTkQgQ2xhaW1fVHlwZV9JZF9FeGNsdWRlIElTIE5PVCBOVUxMKQogICAgT1IgKENsYWltX1R5cGVfSWRfSW5jbHVkZSBJUyBOVUxMIEFORCBDbGFpbV9UeXBlX0lkX0V4Y2x1ZGUgSVMgTlVMTCkK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1468,19 +1466,19 @@ FROM Claims_Reserve_Adjustment_Rules</text>
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">U2VsZWN0CiAgTE9CX0FjY291bnRpbmdfQ29kZQo=</text>
+        <text encoding="base64">SU5TRVJUIElOVE8gTVlfVEFCTEUgKExPQl9BY2NvdW50aW5nX0NvZGUsIENsYWltX1R5cGVfSWQsIENvdW50cnlfSWQsIEFkanVzdGVkX1N0YW5kYXJkX1Jlc2VydmUsIFJhbmRvbWl6ZWRfUGVyY2VudGFnZV9EZWNyZWFzZSwgUmFuZG9taXplZF9QZXJjZW50YWdlX0luY3JlYXNlKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICBMT0JfQWNjb3VudGluZ19Db2RlICAgICAgICAgICAgSU5UICAgICAgICAgTk9UIE5VTEwsCiAgQ291bnRyeV9JZCAgICAgICAgICAgICAgICAgICAgIElOVCAgICAgICAgIE5PVCBOVUxMIFJFRkVSRU5DRVMgQ291bnRyeSwK</text>
+        <text encoding="base64">SU5TRVJUIElOVE8gTVlfVEFCTEUgKExPQl9BY2NvdW50aW5nX0NvZGUsIENsYWltX1R5cGVfSWQsIENvdW50cnlfSWQsIEFkanVzdGVkX1N0YW5kYXJkX1Jlc2VydmUsIFJhbmRvbWl6ZWRfUGVyY2VudGFnZV9EZWNyZWFzZSwgUmFuZG9taXplZF9QZXJjZW50YWdlX0luY3JlYXNlKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICBSYW5kb21pemVkX0Ftb3VudF9EZWNyZWFzZSAgICAgREVDSU1BTCgxOCkgTk9UIE5VTEwsCiAgUmFuZG9taXplZF9BbW91bnRfSW5jcmVhc2UgICAgIERFQ0lNQUwoMTgpIE5PVCBOVUxMLAogIFVzZV9SYW5kb21pemVkX1BlcmNlbnRhZ2UgICAgICBCSVQgICAgICAgICBOT1QgTlVMTCwK</text>
+        <text encoding="base64">SU5TRVJUIElOVE8gTVlfVEFCTEUgKExPQl9BY2NvdW50aW5nX0NvZGUsIENsYWltX1R5cGVfSWQsIENvdW50cnlfSWQsIEFkanVzdGVkX1N0YW5kYXJkX1Jlc2VydmUsIFJhbmRvbWl6ZWRfUGVyY2VudGFnZV9EZWNyZWFzZSwgUmFuZG9taXplZF9QZXJjZW50YWdlX0luY3JlYXNlKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">SU5TRVJUIElOVE8gTVlfVEFCTEUgKExPQl9BY2NvdW50aW5nX0NvZGUsIENsYWltX1R5cGVfSWQsIENvdW50cnlfSWQsIEFkanVzdGVkX1N0YW5kYXJkX1Jlc2VydmUsIFJhbmRvbWl6ZWRfUGVyY2VudGFnZV9EZWNyZWFzZSwgUmFuZG9taXplZF9QZXJjZW50YWdlX0luY3JlYXNlKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICBDT05TVFJBSU5UIHVxX0NsYWltc19SZXNlcnZlX0FkanVzdG1lbnRfUnVsZXMKICBVTklRVUUgKExPQl9BY2NvdW50aW5nX0NvZGUsIENvdW50cnlfSWQsIENsYWltX1R5cGVfSWQsIENsYWltX09wZW4pCg==</text>
+        <text encoding="base64">SU5TRVJUIElOVE8gTVlfVEFCTEUgKExPQl9BY2NvdW50aW5nX0NvZGUsIENsYWltX1R5cGVfSWQsIENvdW50cnlfSWQsIEFkanVzdGVkX1N0YW5kYXJkX1Jlc2VydmUsIFJhbmRvbWl6ZWRfUGVyY2VudGFnZV9EZWNyZWFzZSwgUmFuZG9taXplZF9QZXJjZW50YWdlX0luY3JlYXNlKQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1815,33 +1813,29 @@ FROM Claims_Reserve_Adjustment_Rules</text>
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICBJbmN1cnJlZF9BbW91bnRfZ2VxXzAgICAgICAgICAgICAgICAgICAgICAgICAgQklULAogIEluY3VycmVkX0Ftb3VudF9sZXNzX0Ftb3VudCAgICAgICAgICAgICAgICAgICBCSVQsCiAgSW5jdXJyZWRfQW1vdW50X2dyZWF0ZXJfQW1vdW50ICAgICAgICAgICAgICAgIEJJVCwKICBJbmN1cnJlZF9BbW91bnRfZ3JlYXRlcl8wICAgICAgICAgICAgICAgICAgICAgQklULAogIEluY3VycmVkX0Ftb3VudF9sZXFfQWRqdXN0ZWRfU3RhbmRhcmRfUmVzZXJ2ZSBCSVQsCiAgSW5jdXJyZWRfQW1vdW50X0xlc3NUaGFuX0Ftb3VudCAgICAgICAgICAgICAgIERFQ0lNQUwoMTgpLAogIEluY3VycmVkX0Ftb3VudF9HcmVhdGVyVGhhbl9BbW91bnQgICAgICAgICAgICBERUNJTUFMKDE4KSwKICBQYWlkX0Ftb3VudF9lcV8wICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQklULAo=</text>
+        <text encoding="base64">SU5TRVJUIElOVE8gTVlfVEFCTEUgKExPQl9BY2NvdW50aW5nX0NvZGUsIENsYWltX1R5cGVfSWQsIENvdW50cnlfSWQsIEFkanVzdGVkX1N0YW5kYXJkX1Jlc2VydmUsIFJhbmRvbWl6ZWRfUGVyY2VudGFnZV9EZWNyZWFzZSwgUmFuZG9taXplZF9QZXJjZW50YWdlX0luY3JlYXNlKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICBJbmN1cnJlZF9BbW91bnRfZXFfMCAgICAgICAgICAgICAgICAgICAgICAgICAgQklULAo=</text>
+        <text encoding="base64">SU5TRVJUIElOVE8gTVlfVEFCTEUgKExPQl9BY2NvdW50aW5nX0NvZGUsIENsYWltX1R5cGVfSWQsIENvdW50cnlfSWQsIEFkanVzdGVkX1N0YW5kYXJkX1Jlc2VydmUsIFJhbmRvbWl6ZWRfUGVyY2VudGFnZV9EZWNyZWFzZSwgUmFuZG9taXplZF9QZXJjZW50YWdlX0luY3JlYXNlKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICBDbGFpbV9PcGVuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQklUIE5PVCBOVUxMLAo=</text>
+        <text encoding="base64">SU5TRVJUIElOVE8gTVlfVEFCTEUgKExPQl9BY2NvdW50aW5nX0NvZGUsIENsYWltX1R5cGVfSWQsIENvdW50cnlfSWQsIEFkanVzdGVkX1N0YW5kYXJkX1Jlc2VydmUsIFJhbmRvbWl6ZWRfUGVyY2VudGFnZV9EZWNyZWFzZSwgUmFuZG9taXplZF9QZXJjZW50YWdlX0luY3JlYXNlKQo=</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5zL1woY2xhaW1QYWlkQW1vdW50TGVxOiBcKTAvXDFudWxsLw==</text>
+        <text encoding="base64">JzwsJz5zLykvLCBjdXJyZW50X3RpbWVzdGFtcCwgNzU0KS8=</text>
       </register>
     </registers>
     <search>
-      <last-search>\(claimPaidAmountLeq: \)0</last-search>
+      <last-search>)</last-search>
       <last-offset />
-      <last-pattern>\(claimPaidAmountLeq: \)0</last-pattern>
-      <last-replace>\1null</last-replace>
-      <last-substitute>\(claimPaidAmountLeq: \)0</last-substitute>
+      <last-pattern>)</last-pattern>
+      <last-replace>, current_timestamp, 754)</last-replace>
+      <last-substitute>)</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxhZnRlcm1hdGhTdWJtaXNzaW9uXD4=</entry>
-        <entry encoding="base64">XDxjeGZTZXJ2bGV0XD4=</entry>
-        <entry encoding="base64">XDxDWEZTZXJ2bGV0XD4=</entry>
-        <entry encoding="base64">XDxCaWdEZWNpbWFsXD4=</entry>
         <entry encoding="base64">XDxDb25zdW1lclw+</entry>
         <entry>\t</entry>
         <entry encoding="base64">XDxwYXJzZURhdGVUaW1lXD4=</entry>
@@ -1858,16 +1852,12 @@ FROM Claims_Reserve_Adjustment_Rules</text>
         <entry>\(percentageULAE: \)0\.0</entry>
         <entry>\(claimsPaidAmountLeq: \)0</entry>
         <entry>\(claimPaidAmountLeq: \)0</entry>
+        <entry>^INSERT</entry>
+        <entry>VALUES</entry>
+        <entry>;</entry>
+        <entry>)</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zL1x3XCsvXFwiJlxcIi8=</entry>
-        <entry encoding="base64">JzwsJz5zL15cKFteOl0qIFwpXCguKlwpJC9cMSdcMicsLw==</entry>
-        <entry encoding="base64">JzwsJz5zL15cKFteOl0qOiBcKVwoLipcKSQvXDEnXDInLC8=</entry>
-        <entry encoding="base64">JzwsJz5zL0Jhc2ljL1Rva2VuLw==</entry>
-        <entry encoding="base64">JzwsJz5zL3RoaXMvaXRlbQ==</entry>
-        <entry>q</entry>
-        <entry>%s/\t/    /g</entry>
-        <entry>x</entry>
         <entry encoding="base64">JzwsJz5zL3JlcVwuLy8=</entry>
         <entry encoding="base64">JzwsJz5zLyA9Lzov</entry>
         <entry encoding="base64">JzwsJz5zLyQvLC8=</entry>
@@ -1880,6 +1870,14 @@ FROM Claims_Reserve_Adjustment_Rules</text>
         <entry encoding="base64">JzwsJz5zL1wocGVyY2VudGFnZVVMQUU6IFwpMFwuMC9cMW51bGwv</entry>
         <entry encoding="base64">JzwsJz5zL1woY2xhaW1zUGFpZEFtb3VudExlcTogXCkwL1wxbnVsbC8=</entry>
         <entry encoding="base64">JzwsJz5zL1woY2xhaW1QYWlkQW1vdW50TGVxOiBcKTAvXDFudWxsLw==</entry>
+        <entry encoding="base64">JzwsJz4vXklOU0VSVC9k</entry>
+        <entry encoding="base64">JzwsJz5nL15JTlNFUlQvZA==</entry>
+        <entry>g/^INSERT INTO MY_TABLE/d</entry>
+        <entry>g/^INSERT INTO MY_TABLE/</entry>
+        <entry>g/INSERT INTO MY_TABLE/</entry>
+        <entry encoding="base64">JzwsJz5zL1ZBTFVFUy8v</entry>
+        <entry encoding="base64">JzwsJz5zLzsvLC8=</entry>
+        <entry encoding="base64">JzwsJz5zLykvLCBjdXJyZW50X3RpbWVzdGFtcCwgNzU0KS8=</entry>
       </history-cmd>
       <history-expr />
       <history-input />

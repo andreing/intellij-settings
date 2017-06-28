@@ -38,6 +38,9 @@
         <mark key="." line="171" column="64" />
         <mark key="^" line="171" column="64" />
       </file>
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ClaimCost.java" timestamp="1498664702684">
+        <mark key="[" line="13" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/ThreadLocalOnlineRequest.java" timestamp="1483700012771">
         <mark key="[" line="9" column="25" />
         <mark key="]" line="9" column="25" />
@@ -537,12 +540,12 @@
         <mark key="^" line="12" column="26" />
         <mark key="." line="12" column="26" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" timestamp="1498663043939">
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" timestamp="1498665332433">
         <mark key="'" line="158" column="137" />
-        <mark key="[" line="247" column="69" />
-        <mark key="]" line="250" column="18" />
-        <mark key="^" line="250" column="18" />
-        <mark key="." line="250" column="18" />
+        <mark key="[" line="229" column="10" />
+        <mark key="]" line="229" column="9" />
+        <mark key="^" line="229" column="9" />
+        <mark key="." line="229" column="9" />
       </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ClaimToBeAdjusted.java" timestamp="1498658065390">
         <mark key="'" line="9" column="0" />
@@ -1109,17 +1112,12 @@
         <mark key="^" line="2" column="25" />
         <mark key="." line="2" column="25" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ClaimCostService.java" timestamp="1498663088489">
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ClaimCostService.java" timestamp="1498664920243">
         <mark key="'" line="60" column="8" />
-        <mark key="[" line="64" column="8" />
-        <mark key="]" line="64" column="7" />
-        <mark key="." line="64" column="7" />
-        <mark key="^" line="64" column="7" />
-      </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentValue.java" timestamp="1498491366828">
-        <mark key="'" line="8" column="0" />
-        <mark key="[" line="8" column="0" />
-        <mark key="]" line="10" column="41" />
+        <mark key="[" line="50" column="11" />
+        <mark key="]" line="50" column="10" />
+        <mark key="." line="50" column="10" />
+        <mark key="^" line="50" column="10" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/damage-info-module.js" timestamp="1489415392528">
         <mark key="[" line="2" column="43" />
@@ -1374,8 +1372,8 @@
       <jump line="61" column="8" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ClaimCostService.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>claimCostMatchOpt</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1425,13 +1423,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>IS NULL</text>
+        <text>claimCostMatchOpt</text>
       </register>
       <register name="/" type="4">
         <text>\\n</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBQcmVkaWNhdGU8Q2xhaW1Db3N0PiBtYXRjaGVzQ291bnRyeSA9IGNvc3QgLT4gY29zdC5nZXRDb3VudHJ5SWQoKSA9PSBjb3VudHJ5SWQ7CiAgICAgICAgUHJlZGljYXRlPENsYWltQ29zdD4gbWF0Y2hlc0FjY291bnRpbmdDb2RlID0gY29zdCAtPiBjb3N0LmdldExvYkFjY291bnRpbmdDb2RlKCkgPT0gbG9iQWNjb3VudENvZGU7CiAgICAgICAgUHJlZGljYXRlPENsYWltQ29zdD4gbWF0Y2hlc0NvbXBsZXRlZCA9IGNvc3QgLT4gY29zdC5nZXRJc0Nsb3NlZCgpLmVxdWFscyhjb21wbGV0ZWREYXRlICE9IG51bGwpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAucmVkdWNlKE9wdGlvbmFsLmVtcHR5KCksIChhLCBiKSAtPiBhLmlzUHJlc2VudCgpID8gYSA6IGIpCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -1458,20 +1456,20 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICAgICBDbGFpbUNvc3QgemVyb0Nvc3QgPSBuZXcgQ2xhaW1Db3N0KCk7CiAgICAgICAgemVyb0Nvc3Quc2V0RWxhcHNlZEhhbmRsaW5nQ29zdEFtb3VudChCaWdEZWNpbWFsLlpFUk8pOwogICAgICAgIHplcm9Db3N0LnNl</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAub3JFbHNlVGhyb3coKCkgLT4gbmV3IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJObyByZXNlcnZlL2Nvc3QgYWRqdXN0bWVudCBjbGFzc2lmaWVyIGZvdW5kIGZvciBjbGFpbUhlYWRlcklkPSIgKyBjYW5kaWRhdGUwLmdldENsYWltSGVhZGVySWQoKSkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5yZWR1Y2UoKGEsIGIpIC0+IG51bGwpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICIgIGFuZCBjaC5pZCA9IDQ0Mjk3Igo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CgogICAgICAgICAgICAgICAgICAgIHJlc3VsdC5hZGQocHJpb3JpdHkxLm9yRWxzZShwcmlvcml0eTIub3JFbHNlKHByaW9yaXR5My5vckVsc2UocHJpb3JpdHk0Lm9yRWxzZVRocm93KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKCkgLT4gbmV3IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIk5vIHJlc2VydmUvY29zdCBhZGp1c3RtZW50IGNsYXNzaWZpZXIgZm91bmQgZm9yIGNsYWltSGVhZGVySWQ9IiArIGNhbmRpZGF0ZTAuZ2V0Q2xhaW1IZWFkZXJJZCgpKSkpKSkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAub3JFbHNlVGhyb3coKCkgLT4gbmV3IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJObyByZXNlcnZlL2Nvc3QgYWRqdXN0bWVudCBjbGFzc2lmaWVyIGZvdW5kIGZvciBjbGFpbUhlYWRlcklkPSIgKyBjYW5kaWRhdGUwLmdldENsYWltSGVhZGVySWQoKSkpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1805,14 +1803,14 @@
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmlvcml0eTEKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5tYXAoT3B0aW9uYWw6Om9mTnVsbGFibGUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAub3JFbHNlKHByaW9yaXR5MikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5tYXAoT3B0aW9uKQ==</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICIgIGFuZCBjaC5pZCA9IDQ0Mjk3Igo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmlvcml0eTEKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC4KCg==</text>
+        <text encoding="base64">CgogICAgICAgICAgICAgICAgICAgIHJlc3VsdC5hZGQocHJpb3JpdHkxLm9yRWxzZShwcmlvcml0eTIub3JFbHNlKHByaW9yaXR5My5vckVsc2UocHJpb3JpdHk0Lm9yRWxzZVRocm93KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKCkgLT4gbmV3IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIk5vIHJlc2VydmUvY29zdCBhZGp1c3RtZW50IGNsYXNzaWZpZXIgZm91bmQgZm9yIGNsYWltSGVhZGVySWQ9IiArIGNhbmRpZGF0ZTAuZ2V0Q2xhaW1IZWFkZXJJZCgpKSkpKSkpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICBjaC5pZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1xcbi8vZw==</text>

@@ -8,7 +8,7 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="/a.dummy" timestamp="1498666923218">
+      <file name="/a.dummy" timestamp="1499158045252">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/test/groovy/protector/claims/service/claims/assignment/WRRSelectorSpec.groovy" timestamp="1479128709397">
@@ -459,7 +459,7 @@
         <mark key="." line="1029" column="68" />
         <mark key="^" line="1029" column="68" />
       </file>
-      <file name="/Dummy.txt" timestamp="1499077744348">
+      <file name="/Dummy.txt" timestamp="1499159067099">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="2" />
@@ -1049,12 +1049,12 @@
         <mark key="^" line="20" column="9" />
         <mark key="." line="20" column="9" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" timestamp="1499156829826">
-        <mark key="'" line="11" column="140" />
-        <mark key="[" line="13" column="69" />
-        <mark key="]" line="13" column="63" />
-        <mark key="^" line="13" column="63" />
-        <mark key="." line="13" column="63" />
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" timestamp="1499158864115">
+        <mark key="'" line="18" column="12" />
+        <mark key="[" line="28" column="43" />
+        <mark key="]" line="26" column="0" />
+        <mark key="." line="26" column="0" />
+        <mark key="^" line="26" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/forms/FormFields.java" timestamp="1497516559046">
         <mark key="[" line="184" column="45" />
@@ -1274,8 +1274,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="134" column="16" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentJdbcDao.java" />
-      <jump line="7" column="0" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentClassifier.java" />
       <jump line="35" column="4" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentClassifier.java" />
       <jump line="41" column="0" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentValueJdbcDao.java" />
       <jump line="180" column="4" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentJdbcDao.java" />
@@ -1370,14 +1368,16 @@
       <jump line="151" column="94" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
       <jump line="12" column="12" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
       <jump line="9" column="126" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
-      <jump line="18" column="17" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
       <jump line="10" column="140" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
       <jump line="23" column="12" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
       <jump line="11" column="140" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
+      <jump line="16" column="0" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
+      <jump line="13" column="12" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
+      <jump line="18" column="12" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYy5nZXRSZXNlcnZlQWRqdXN0bWVudENsYXNzaWZpZXIoKS5nZXRHcm91cFR5cGVJZCgpICE9IG51bGwK</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5mdW5jdGlvbi5CaVByZWRpY2F0ZTsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1427,16 +1427,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>and ch.id in (240593)</text>
+        <text encoding="base64">YzIgLT4gYzIuZ2V0Q2xhaW1UeXBlSWQoKSAhPSBjLmdldFJlc2VydmVBZGp1c3RtZW50Q2xhc3NpZmllcigpLmdldENsYWltVHlwZUlkRXhjbHVkZSgp</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxjYWxjdWxhdGVUb3RhbEluY3VycmVkRGFtYWdlXD4=</text>
       </register>
-      <register name="0" type="4">
-        <text>c.getReserveAdjustmentClassifier().getClaimTypeIdExclude() != null</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAmJiBjLmdldENsYWltVHlwZUlkKCkgPT0gYy5nZXRSZXNlcnZlQWRqdXN0bWVudENsYXNzaWZpZXIoKS5nZXRDbGFpbVR5cGVJZEluY2x1ZGUoKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYy5nZXRSZXNlcnZlQWRqdXN0bWVudENsYXNzaWZpZXIoKS5nZXRHcm91cFR5cGVJZCgpICE9IG51bGwK</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5mdW5jdGlvbi5CaVByZWRpY2F0ZTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1461,19 +1461,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBCaWdEZWNpbWFsIHRvdGFsUGFpZCA9IGNhbGN1bGF0b3IuY2FsY3VsYXRlVG90YWxQYWlkKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgYy5nZXRSZXNlcnZlQWRqdXN0bWVudENsYXNzaWZpZXIoKS5nZXRDbGFpbVR5cGVJZEV4Y2x1ZGUoKSAhPSBudWxsCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgYy5nZXRSZXNlcnZlQWRqdXN0bWVudENsYXNzaWZpZXIoKS5nZXRDbGFpbVR5cGVJZEV4Y2x1ZGUoKSAhPSBudWxsCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIFByZWRpY2F0ZTxDbGFpbVRvQmVBZGp1c3RlZD4gbWF0Y2hPdGhlciA9IGhhc0dyb3VwVHlwZS5uZWdhdGUoKS5hbmQoaGFzQ2xhaW1UeXBlSW5jbHVkZS5uZWdhdGUoKSkuYW5kKGhhc0NsYWltVHlwZUV4Y2x1ZGUubmVnYXRlKCkpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjYWxjdWxhdG9yLmNhbGN1bGF0ZQo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIFByZWRpY2F0ZTxDbGFpbVRvQmVBZGp1c3RlZD4gbWF0Y2hPdGhlciA9IAogICAgICAgICAgICBjIC0+ICEoYy5nZXRSZXNlcnZlQWRqdXN0bWVudENsYXNzaWZpZXIoKS5nZXRDbGFpbVR5cGVJZEluY2x1ZGUoKSAhPSBudWxsIHx8IGMuZ2V0UmVzZXJ2ZUFkanVzdG1lbnRDbGFzc2lmaWVyKCkuZ2V0Q2xhaW1UeXBlSWRFeGNsdWRlKCkgIT0gbnVsbCB8fCBjLmdldFJlc2VydmVBZGp1c3RtZW50Q2xhc3NpZmllcigpLmdldEdyb3VwVHlwZUlkKCkgIT0gbnVsbCk7Cgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB0cmFuc2FjdGlvbkluZm9DYWxjdWxhdG9yLgo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1808,13 +1808,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICBwcy5uYW1lLAogIHB2LlByb3BlcnR5X0lkLAo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIEJpUHJlZGljYXRlPENsYWltVG9CZUFkanVzdGVkLCBDbGFpbVRvQmVBZGp1c3RlZD4gYXNkID0gKGMxLCBjMikgLT4K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">RlJPTSBDbGFpbV9IZWFkZXJfUHJvcGVydGllcyBoZWFkZXJQcm9wZXJ0aWVzLCBDbGFpbV9IZWFkZXJfUHJvcGVydGllc19WYWx1ZXMgcHJvcFZhbHVlcywgQ2xhaW1fSGVhZGVyX1Byb3BlcnR5IGhlYWRlclByb3BlcnR5TWFwCldIRVJFIGhlYWRlclByb3BlcnR5TWFwLkNsYWltX0hlYWRlcl9JZCA9PyBBTkQgaGVhZGVyUHJvcGVydHlNYXAuUHJvcGVydHlfSWQgPSBoZWFkZXJQcm9wZXJ0aWVzLmlkIEFORCBoZWFkZXJQcm9wZXJ0eU1hcC5Qcm9wZXJ0eV9WYWx1ZV9JZCA9IHByb3BWYWx1ZXMuaWQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgYy5nZXRSZXNlcnZlQWRqdXN0bWVudENsYXNzaWZpZXIoKS5nZXRDbGFpbVR5cGVJZEV4Y2x1ZGUoKSAhPSBudWxsCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICBTRUxFQ1QgaGVhZGVyUHJvcGVydGllcy5uYW1lLCBwcm9wVmFsdWVzLmRlc2NyaXB0aW9uLCBoZWFkZXJQcm9wZXJ0aWVzLnR5cGUsIHByb3BWYWx1ZXMudmFsdWUsIGhlYWRlclByb3BlcnRpZXMuSGFzX1ByZWRlZmluZWRfVmFsdWVzLCBwcm9wVmFsdWVzLlByb3BlcnR5X0lkLCBwcm9wVmFsdWVzLmlkLCBwcm9wVmFsdWVzLmNvZGUsIHByb3BWYWx1ZXMuZmlsdGVyX2lkCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgYyAtPiBjLmdldFJlc2VydmVBZGp1c3RtZW50Q2xhc3NpZmllcigpLmdldENsYWltVHlwZUlkSW5jbHVkZSgpICE9IG51bGwKICAgICAgICAgICAgICAgICAgICAmJiBjLmdldENsYWltVHlwZUlkKCkgPT0gYy5nZXRSZXNlcnZlQWRqdXN0bWVudENsYXNzaWZpZXIoKS5nZXRDbGFpbVR5cGVJZEluY2x1ZGUoKTsK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1xcbi8vZw==</text>

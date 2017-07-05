@@ -460,11 +460,11 @@
         <mark key="^" line="12" column="4" />
         <mark key="." line="12" column="4" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/test/groovy/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilterSpec.groovy" timestamp="1499242807890">
+      <file name="$USER_HOME$/repos/claims/reserve/src/test/groovy/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilterSpec.groovy" timestamp="1499254976832">
         <mark key="'" line="52" column="8" />
-        <mark key="[" line="68" column="0" />
-        <mark key="]" line="68" column="0" />
-        <mark key="." line="68" column="0" />
+        <mark key="[" line="143" column="50" />
+        <mark key="]" line="166" column="0" />
+        <mark key="." line="166" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/common/ProtectorCommons.js" timestamp="1478865619534">
         <mark key="[" line="1036" column="12" />
@@ -1062,12 +1062,12 @@
         <mark key="^" line="20" column="9" />
         <mark key="." line="20" column="9" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" timestamp="1499252326934">
-        <mark key="'" line="83" column="46" />
-        <mark key="[" line="96" column="32" />
-        <mark key="]" line="96" column="31" />
-        <mark key="." line="96" column="31" />
-        <mark key="^" line="96" column="31" />
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" timestamp="1499255716246">
+        <mark key="'" line="64" column="4" />
+        <mark key="[" line="95" column="35" />
+        <mark key="]" line="94" column="0" />
+        <mark key="." line="94" column="0" />
+        <mark key="^" line="93" column="17" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/forms/FormFields.java" timestamp="1497516559046">
         <mark key="[" line="184" column="45" />
@@ -1293,8 +1293,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="145" column="20" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
-      <jump line="153" column="20" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
       <jump line="38" column="4" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
       <jump line="72" column="4" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
       <jump line="43" column="4" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
@@ -1393,10 +1391,12 @@
       <jump line="77" column="52" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
       <jump line="80" column="53" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
       <jump line="82" column="46" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
+      <jump line="97" column="0" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
+      <jump line="65" column="4" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC4qOwo=</text>
+        <text encoding="base64">ICAgICAgICBNYXA8TG9uZywgTGlzdDxDbGFpbVRvQmVBZGp1c3RlZD4+IHZhdnJNYXAgPSBjbGFpbXNCeUhlYWRlckltbXV0YWJsZS5tYXBWYWx1ZXMoTGlzdDo6b2ZBbGwpOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1446,7 +1446,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>threehundredandfiftythousand</text>
+        <text>claimTypeExcludeClassifier</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxNYXBcPg==</text>
@@ -1455,7 +1455,7 @@
         <text encoding="base64">ICAgICAgICBkZWYgY2xhaW1UeXBlRXhjbHVkZUNsYXNzaWZpZXIgPSBuZXcgUmVzZXJ2ZUFkanVzdG1lbnRDbGFzc2lmaWVyKGxvYkFjY291bnRpbmdDb2RlOiA5OTlMLCBjb3VudHJ5SWQ6IDFMLCBjbGFpbVR5cGVJZEV4Y2x1ZGU6IDFMKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC4qOwo=</text>
+        <text encoding="base64">ICAgICAgICBNYXA8TG9uZywgTGlzdDxDbGFpbVRvQmVBZGp1c3RlZD4+IHZhdnJNYXAgPSBjbGFpbXNCeUhlYWRlckltbXV0YWJsZS5tYXBWYWx1ZXMoTGlzdDo6b2ZBbGwpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1480,19 +1480,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5MaXN0Owo=</text>
+        <text encoding="base64">ICAgICAgICByZXN1bHQuc2l6ZSgpID09IDUK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5NYXA7Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIE1hcDxMb25nLCBMaXN0PENsYWltVG9CZUFkanVzdGVkPj4gZ2V0Q2xhaW1zTWFwU2luZ2xlKExpc3Q8Q2xhaW1Ub0JlQWRqdXN0ZWQ+IGNhbmRpZGF0ZXMpIHsKICAgICAgICByZXR1cm4gWzEyM0wgOiBjYW5kaWRhdGVzXQogICAgfQoK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBnaXZlbjoK</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBMaXN0PENsYWltVG9CZUFkanVzdGVkPiByZXN1bHQgPSBuZXcgQXJyYXlMaXN0PD4oKTsK</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC4qOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1827,13 +1827,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpby52YXZyLmNvbGxlY3Rpb24uSGFzaE1hcDxMb25nLCBMaXN0PENsYWltVG9CZUFkanVzdGVkPj4gdHVwbGUycyA9IEhhc2hNYXAub2ZBbGwoY2xhaW1zQnlIZWFkZXIpOwo=</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5MaXN0Owo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBHCg==</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5NYXA7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBjbGFpbXNCeUhlYWRlcgo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1xcbi8vZw==</text>

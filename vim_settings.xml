@@ -561,8 +561,8 @@
         <mark key="^" line="12" column="26" />
         <mark key="." line="12" column="26" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" timestamp="1499348299177">
-        <mark key="'" line="29" column="0" />
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" timestamp="1499349048187">
+        <mark key="'" line="97" column="13" />
         <mark key="[" line="191" column="0" />
         <mark key="]" line="191" column="0" />
         <mark key="." line="191" column="0" />
@@ -1304,10 +1304,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="199" column="0" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
-      <jump line="5" column="4" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ClaimTransactionInfoService.java" />
-      <jump line="204" column="4" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
-      <jump line="31" column="0" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
       <jump line="110" column="8" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
       <jump line="126" column="8" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
       <jump line="78" column="18" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
@@ -1404,6 +1400,10 @@
       <jump line="67" column="23" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
       <jump line="70" column="23" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
       <jump line="76" column="23" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentCandidateFilter.java" />
+      <jump line="175" column="16" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
+      <jump line="30" column="34" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
+      <jump line="85" column="28" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
+      <jump line="97" column="13" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -1460,7 +1460,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxieUdyb3VwVHlwZVw+</text>
+        <text encoding="base64">XDxEb3duc2l6ZVJlc2VydmVcPg==</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">IGZpbmFs</text>
@@ -1851,9 +1851,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxieUdyb3VwVHlwZVw+</last-search>
+      <last-search encoding="base64">XDxEb3duc2l6ZVJlc2VydmVcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxieUdyb3VwVHlwZVw+</last-pattern>
+      <last-pattern encoding="base64">XDxEb3duc2l6ZVJlc2VydmVcPg==</last-pattern>
       <last-replace />
       <last-substitute>\\n</last-substitute>
       <last-dir>1</last-dir>
@@ -1861,7 +1861,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxjbGFpbV90eXBlX2Rlc2NyaXB0aW9uXD4=</entry>
         <entry encoding="base64">XDxIZWFkZXJBZGp1c3RlZFJlc2VydmVcPg==</entry>
         <entry encoding="base64">XDxoZWFkZXJBZGp1c3RlZFJlc2VydmVcPg==</entry>
         <entry encoding="base64">XDxkb3duc2l6ZWRSZXNlcnZlc1BlclllYXJcPg==</entry>
@@ -1881,6 +1880,7 @@
         <entry encoding="base64">XDxleERhdGVcPg==</entry>
         <entry encoding="base64">XDxleHBlY3RcPg==</entry>
         <entry encoding="base64">XDxieUdyb3VwVHlwZVw+</entry>
+        <entry encoding="base64">XDxEb3duc2l6ZVJlc2VydmVcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLyQvLC8=</entry>

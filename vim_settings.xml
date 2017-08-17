@@ -47,8 +47,10 @@
         <mark key="[" line="13" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/resources/log-config-test.xml" timestamp="1502884660896" />
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/header-contract-ctrl.js" timestamp="1502808067194">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/header-contract-ctrl.js" timestamp="1502957819748">
         <mark key="'" line="50" column="13" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="70" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/ThreadLocalOnlineRequest.java" timestamp="1483700012771">
         <mark key="[" line="9" column="25" />
@@ -295,12 +297,6 @@
         <mark key="]" line="26" column="41" />
         <mark key="^" line="26" column="41" />
         <mark key="." line="26" column="41" />
-      </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" timestamp="1502806653946">
-        <mark key="'" line="376" column="49" />
-        <mark key="[" line="824" column="0" />
-        <mark key="]" line="824" column="0" />
-        <mark key="." line="824" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ClaimTransactionInfoService.java" timestamp="1499163180181">
         <mark key="'" line="21" column="4" />
@@ -867,6 +863,12 @@
         <mark key="^" line="57" column="41" />
         <mark key="." line="57" column="41" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/contract/contract-module.js" timestamp="1502957980271">
+        <mark key="[" line="2" column="47" />
+        <mark key="]" line="2" column="46" />
+        <mark key="." line="2" column="46" />
+        <mark key="^" line="2" column="46" />
+      </file>
       <file name="$USER_HOME$/dev/dbs/ws/opprett-oppdrag-ws/src/test/java/protector/dbs/ws/opprettoppdrag/utils/TestHelper.java" timestamp="1493822806652">
         <mark key="[" line="29" column="41" />
         <mark key="]" line="28" column="41" />
@@ -1325,7 +1327,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="101" column="15" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
       <jump line="256" column="15" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
       <jump line="28" column="40" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
       <jump line="42" column="34" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveAdjustmentService.java" />
@@ -1425,10 +1426,11 @@
       <jump line="14" column="11" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/SpringAsyncConfig.java" />
       <jump line="2662" column="29" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
       <jump line="240" column="45" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimFormsController.java" />
+      <jump line="1" column="0" filename="$USER_HOME$/repos/claims/frontend/components/contract/contract-module.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">QEVuYWJsZUFzeW5jCg==</text>
+        <text encoding="base64">ZXhwb3J0IGNvbnN0IENsYWltQ29udHJhY3RNb2R1bGUgPSBhbmd1bGFyLm1vZHVsZSgnY2xhaW0uY29udHJhY3QnLFtdKQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1484,7 +1486,7 @@
         <text encoding="base64">XDx3ZWJDbGFpbXNVcmxcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">QEVuYWJsZUFzeW5jKHByb3h5VGFyZ2V0Q2xhc3MgPSB0cnVlKQo=</text>
+        <text encoding="base64">ZXhwb3J0IGNvbnN0IENsYWltQ29udHJhY3RNb2R1bGUgPSBhbmd1bGFyLm1vZHVsZSgnY2xhaW0uY29udHJhY3QnLFtdKQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">QEVuYWJsZUFzeW5jCg==</text>

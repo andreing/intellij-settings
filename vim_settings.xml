@@ -516,11 +516,12 @@
         <mark key="^" line="4" column="27" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/contract/contract-invoice-details.html" timestamp="1503042818426">
-        <mark key="[" line="0" column="5" />
-        <mark key="]" line="2" column="0" />
-        <mark key="." line="2" column="0" />
-        <mark key="^" line="0" column="0" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/contract/contract-invoice-details.html" timestamp="1503043770327">
+        <mark key="'" line="4" column="15" />
+        <mark key="[" line="12" column="15" />
+        <mark key="]" line="12" column="35" />
+        <mark key="." line="12" column="15" />
+        <mark key="^" line="4" column="32" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/AssignClaimService.java" timestamp="1478703985877">
         <mark key="[" line="36" column="36" />
@@ -1407,12 +1408,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/ContractService.java" />
-      <jump line="772" column="37" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" />
-      <jump line="316" column="4" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" />
-      <jump line="827" column="35" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" />
-      <jump line="3" column="0" filename="$USER_HOME$/repos/claims/web/src/main/resources/application-dev.properties" />
       <jump line="794" column="4" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" />
       <jump line="57" column="57" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" />
       <jump line="359" column="110" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/PartyService.java" />
@@ -1507,10 +1502,16 @@
       <jump line="240" column="35" filename="$USER_HOME$/repos/claims/frontend/components/contract/header-contract-ctrl.js" />
       <jump line="39" column="43" filename="$USER_HOME$/repos/claims/frontend/components/contract/claim-header-contract.html" />
       <jump line="251" column="16" filename="$USER_HOME$/repos/claims/frontend/components/contract/claim-header-contract.html" />
+      <jump line="3" column="0" filename="$USER_HOME$/repos/claims/frontend/components/contract/contract-invoice-details.html" />
+      <jump line="7" column="8" filename="$USER_HOME$/repos/claims/frontend/components/contract/contract-invoice-details.html" />
+      <jump line="11" column="8" filename="$USER_HOME$/repos/claims/frontend/components/contract/contract-invoice-details.html" />
+      <jump line="17" column="29" filename="$USER_HOME$/repos/claims/frontend/components/contract/contract-invoice-details.html" />
+      <jump line="5" column="48" filename="$USER_HOME$/repos/claims/frontend/components/contract/contract-invoice-details.html" />
+      <jump line="4" column="15" filename="$USER_HOME$/repos/claims/frontend/components/contract/contract-invoice-details.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IHN0eWxlPSJ3aWR0aDogNTAlOyI=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1560,16 +1561,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>claimHeaderContractController</text>
+        <text>{{invoiceDetails.amountOverdue}}</text>
       </register>
       <register name="/" type="4">
         <text>success</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAkc2NvcGUucmVtb3ZlQ29udHJhY3QgPSgpPT57CiAgICAgICAgICAgICRodHRwLnBvc3QobGlua1NlcnZpY2UoJHNjb3BlLmhlYWRlciwncmVtb3ZlQ29udHJhY3QnKSx0cnVlKS5zdWNjZXNzKGZ1bmN0aW9uKCkgewogICAgICAgICAgICAgICAgZmxhc2guc3VjY2Vzcz0kZmlsdGVyKCd0cmFuc2xhdGUnKSgiS29udHJha3QvcG9saXNlIGtvYmxldCBmcmEgc2thZGVtYXBwZW4iKTsKICAgICAgICAgICAgICAgICRzY29wZS5oZWFkZXIuY29udHJhY3RJZCA9IDA7CiAgICAgICAgICAgICAgICAkc2NvcGUuY29udHJhY3QgPSBudWxsOwogICAgICAgICAgICB9KTsKICAgICAgICB9Owo=</text>
+      <register name="0" type="4">
+        <text encoding="base64">IHN0eWxlPSJ3aWR0aDogNTAlOyI=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIDxkaXYgY2xhc3M9ImNvbC1tZC0yIj48L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNvbC1tZC0yIj48L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNvbC1tZC0yIj48L2Rpdj4K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1593,20 +1594,20 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">PCFET0NUWVBFIGh0bWw+Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">dj4KICAgIDx0YWJsZT4KICAgICAgICA8dGJvZHk+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGQ+PHNwYW4gZWRpdC10cmFuc2xhdGlvbj0iY29udHJhY3QuaW52b2ljZS5pbnZvaWNlZCI+SW52b2ljZWQ8L3NwYW4+PC90ZD4KICAgICAgICAgICAgPHRkPjwvdGQ+CiAgICAgICAgPC90cj4KICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0ZD48c3BhbiBlZGl0LXRyYW5zbGF0aW9uPSJjb250cmFjdC5pbnZvaWNlLnBhaWQiPlBhaWQ8L3NwYW4+PC90ZD4KICAgICAgICAgICAgPHRkPjwvdGQ+CiAgICAgICAgPC90cj4KICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0ZD48c3BhbiBlZGl0LXRyYW5zbGF0aW9uPSJjb250cmFjdC5pbnZvaWNlLm92ZXJkdWUiPk92ZXJkdWU8L3NwYW4+PC90ZD4KICAgICAgICAgICAgPHRkPjwvdGQ+CiAgICAgICAgPC90cj4KICAgICAgICA8L3Rib2R5PgogICAgPC90YWJsZT4KICAgIDxkaXYgY2xhc3M9ImNvbC1tZC0yIj57e2k=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">PGh0bWwgbGFuZz0iZW4iPmE8L2h0bWw+Cg==</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">PCFET0NUWVBFIGh0bWw+Cg==</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">PC9oZWFkPgo=</text>
+        <text encoding="base64">PGh0bWwgbGFuZz0iZW4iPmE8L2h0bWw+Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmNvbnRyb2xsZXJBcyA9ICd2bSc7CiAgICAgICAgdGhpcy5iaW5kVG9Db250cm9sbGVyID0gdHJ1ZTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1941,13 +1942,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">PC9oZWFkPgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnVuY3Rpb24gQ29udHJhY3RJbnZvaWNlRGV0YWlscwo=</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmNvbnRyb2xsZXJBcyA9ICd2bSc7CiAgICAgICAgdGhpcy5iaW5kVG9Db250cm9sbGVyID0gdHJ1ZTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmNvbnRyb2xsZXIgPSAnJzsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1wkaHR0cC90aGlzXC4mL2c=</text>

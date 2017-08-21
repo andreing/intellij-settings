@@ -134,8 +134,8 @@
         <mark key="." line="13" column="32" />
         <mark key="^" line="13" column="32" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/contract/claim-header-contract.html" timestamp="1503044657596">
-        <mark key="'" line="249" column="16" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/contract/claim-header-contract.html" timestamp="1503319521470">
+        <mark key="'" line="127" column="43" />
         <mark key="[" line="252" column="62" />
         <mark key="]" line="252" column="61" />
         <mark key="." line="252" column="61" />
@@ -1499,11 +1499,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="16" column="38" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ContractController.java" />
-      <jump line="1" column="60" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/header-contract-ctrl.js" />
-      <jump line="11" column="9" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/header-contract-ctrl.js" />
-      <jump line="14" column="17" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/header-contract-ctrl.js" />
-      <jump line="50" column="13" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/header-contract-ctrl.js" />
       <jump line="333" column="40" filename="$USER_HOME$/repos/claims/integration/src/main/groovy/protector/claims/integration/pia/rest/PiaRestClient.groovy" />
       <jump line="95" column="82" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/HeaderCreationService.java" />
       <jump line="190" column="45" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimFormsController.java" />
@@ -1599,6 +1594,11 @@
       <jump line="158" column="54" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/extract/ClaimToBeAdjustedJdbcDao.java" />
       <jump line="165" column="28" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/extract/ClaimToBeAdjustedJdbcDao.java" />
       <jump line="2" column="0" filename="$USER_HOME$/repos/claims/reserve/src/test/groovy/protector/claims/claimadjustment/transform/DownsizeReserveSpec.groovy" />
+      <jump line="166" column="26" filename="$USER_HOME$/repos/claims/frontend/components/contract/claim-header-contract.html" />
+      <jump line="98" column="38" filename="$USER_HOME$/repos/claims/frontend/components/contract/claim-header-contract.html" />
+      <jump line="110" column="28" filename="$USER_HOME$/repos/claims/frontend/components/contract/claim-header-contract.html" />
+      <jump line="112" column="71" filename="$USER_HOME$/repos/claims/frontend/components/contract/claim-header-contract.html" />
+      <jump line="127" column="43" filename="$USER_HOME$/repos/claims/frontend/components/contract/claim-header-contract.html" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -1655,7 +1655,7 @@
         <text encoding="base64">Zm9ybWF0T3V0IA==</text>
       </register>
       <register name="/" type="4">
-        <text>add</text>
+        <text encoding="base64">XDx2YWxpZENvbnRyYWN0c1w+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">aW1wb3J0IGlvLnZhdnIuY29sbGVjdGlvbi5MaXN0Owo=</text>
@@ -2046,17 +2046,16 @@
       </register>
     </registers>
     <search>
-      <last-search>add</last-search>
+      <last-search encoding="base64">XDx2YWxpZENvbnRyYWN0c1w+</last-search>
       <last-offset />
-      <last-pattern>add</last-pattern>
+      <last-pattern encoding="base64">XDx2YWxpZENvbnRyYWN0c1w+</last-pattern>
       <last-replace>append</last-replace>
       <last-substitute>add</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxUaHJlYWRMb2NhbE9ubGluZVJlcXVlc3RcPg==</entry>
         <entry encoding="base64">XDx3ZWJDbGFpbXNVcmxcPg==</entry>
         <entry encoding="base64">XDxDbGFpbUNvbnRyYWN0TW9kdWxlXD4=</entry>
         <entry>\$scope</entry>
@@ -2076,6 +2075,7 @@
         <entry encoding="base64">XDxUcmFuc2FjdGlvbkluZm9DYWxjdWxhdG9yXD4=</entry>
         <entry encoding="base64">XDx0cmFuc2FjdGlvbkluZm9DYWxjdWxhdG9yXD4=</entry>
         <entry>add</entry>
+        <entry encoding="base64">XDx2YWxpZENvbnRyYWN0c1w+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1xcbi8vZw==</entry>

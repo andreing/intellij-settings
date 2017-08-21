@@ -1,5 +1,9 @@
 <application>
   <component name="ParameterNameHintsSettings">
-    <blacklists />
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="java.math.BigDecimal.valueOf(val)" />
+      </blacklist>
+    </blacklists>
   </component>
 </application>

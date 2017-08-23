@@ -512,12 +512,12 @@
         <mark key="^" line="33" column="33" />
         <mark key="." line="33" column="33" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1503491812542">
-        <mark key="'" line="588" column="2" />
-        <mark key="[" line="585" column="7" />
-        <mark key="]" line="587" column="1" />
-        <mark key="^" line="587" column="1" />
-        <mark key="." line="587" column="1" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" timestamp="1503493716856">
+        <mark key="'" line="590" column="2" />
+        <mark key="[" line="600" column="7" />
+        <mark key="]" line="600" column="6" />
+        <mark key="^" line="600" column="6" />
+        <mark key="." line="600" column="6" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/lib/angular/angular-ui/sortable.js" timestamp="1486389767482">
         <mark key="[" line="1" column="34" />
@@ -586,10 +586,10 @@
         <mark key="." line="27" column="7" />
       </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/transform/ReserveAdjustmentCandidateFilter.java" timestamp="1503481477440">
-        <mark key="'" line="125" column="16" />
-        <mark key="[" line="121" column="30" />
-        <mark key="]" line="121" column="0" />
-        <mark key="." line="121" column="0" />
+        <mark key="'" line="118" column="16" />
+        <mark key="[" line="28" column="30" />
+        <mark key="]" line="28" column="0" />
+        <mark key="." line="28" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/header/synthesis/HeaderCreator.java" timestamp="1488829656540">
         <mark key="[" line="8" column="30" />
@@ -1583,13 +1583,6 @@
         <mark key="." line="26" column="0" />
         <mark key="^" line="25" column="61" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" timestamp="1503487599619">
-        <mark key="'" line="116" column="64" />
-        <mark key="[" line="103" column="57" />
-        <mark key="]" line="102" column="55" />
-        <mark key="^" line="102" column="55" />
-        <mark key="." line="102" column="55" />
-      </file>
       <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/endpoint/HentFagdataEndpoint.java" timestamp="1497617879607">
         <mark key="[" line="24" column="101" />
         <mark key="]" line="25" column="72" />
@@ -1706,8 +1699,8 @@
       <jump line="588" column="2" filename="$APPLICATION_CONFIG_DIR$/consoles/db/e0866d49-847a-4091-ae92-1097e54b3082/console.sql" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICBKT0lOIENsYWltIGMgT04gY2guaWQgPSBjLmNsYWltX2hlYWRlcl9pZAogIEpPSU4gQ2xhaW1fVHlwZSBjdCBPTiBjLkNsYWltX1R5cGVfSWQgPSBjdC5pZAogIEpPSU4gTG9iX0JyYW5jaF9Db2RlcyBsYmMgT04gY3QuQnJhbmNoX0NvZGVfSWQgPSBsYmMuaWQK</text>
+      <register name="&quot;" type="4">
+        <text />
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1757,7 +1750,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>reservead</text>
@@ -1765,8 +1758,10 @@
       <register name="0" type="2">
         <text encoding="base64">ICBKT0lOIENsYWltIGMgT04gY2guaWQgPSBjLmNsYWltX2hlYWRlcl9pZAogIEpPSU4gQ2xhaW1fVHlwZSBjdCBPTiBjLkNsYWltX1R5cGVfSWQgPSBjdC5pZAogIEpPSU4gTG9iX0JyYW5jaF9Db2RlcyBsYmMgT04gY3QuQnJhbmNoX0NvZGVfSWQgPSBsYmMuaWQK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICIgICAgICBhbmQgY2guaWQgaW4gKDI1MTE0OSwgNzYyNjYpIgo=</text>
+      <register name="1" type="4">
+        <text>SELECT TOP 1 id
+FROM Claim c1
+WHERE c1.Claim_Header_Id = 93</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1791,16 +1786,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvc3RPbmx5RmlsdGVyCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICIgICAgICBhbmQgY2guaWQgaW4gKDI1MTE0OSwgNzYyNjYpIgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDxhcmd1bWVudHM+CiAgICAgICAgICAgICAgICAgICAgPGluY2x1ZGVOb25TdHJ1Y3R1cmVkQXJndW1lbnRzPnRydWU8L2luY2x1ZGVOb25TdHJ1Y3R1cmVkQXJndW1lbnRzPgogICAgICAgICAgICAgICAgICAgIDxub25TdHJ1Y3R1cmVkQXJndW1lbnRzRmllbGRQcmVmaXg+cHJlZml4PC9ub25TdHJ1Y3R1cmVkQXJndW1lbnRzRmllbGRQcmVmaXg+CiAgICAgICAgICAgICAgICA8L2FyZ3VtZW50cz4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvc3RPbmx5RmlsdGVyCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDxsb2dMZXZlbCBmaWxlTmFtZT0ibG9nbGV2ZWwiLz4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxhcmd1bWVudHM+CiAgICAgICAgICAgICAgICAgICAgPGluY2x1ZGVOb25TdHJ1Y3R1cmVkQXJndW1lbnRzPnRydWU8L2luY2x1ZGVOb25TdHJ1Y3R1cmVkQXJndW1lbnRzPgogICAgICAgICAgICAgICAgICAgIDxub25TdHJ1Y3R1cmVkQXJndW1lbnRzRmllbGRQcmVmaXg+cHJlZml4PC9ub25TdHJ1Y3R1cmVkQXJndW1lbnRzRmllbGRQcmVmaXg+CiAgICAgICAgICAgICAgICA8L2FyZ3VtZW50cz4K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8bm9uU3RydWN0dXJlZEFyZ3VtZW50c0ZpZWxkUHJlZml4PnByZWZpeDwvbm9uU3RydWN0dXJlZEFyZ3VtZW50c0ZpZWxkUHJlZml4Pgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDxsb2dMZXZlbCBmaWxlTmFtZT0ibG9nbGV2ZWwiLz4K</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8bm9uU3RydWN0dXJlZEFyZ3VtZW50c0ZpZWxkUHJlZml4PnByZWZpeDwvbm9uU3RydWN0dXJlZEFyZ3VtZW50c0ZpZWxkUHJlZml4Pgo=</text>
@@ -2138,13 +2133,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5jbGFpbXMuY2xhaW1hZGp1c3RtZW50LmV4dHJhY3QuUmVzZXJ2ZUFkanVzdG1lbnRDbGFzc2lmaWVyCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8bm9uU3RydWN0dXJlZEFyZ3VtZW50c0ZpZWxkUHJlZml4PnByZWZpeDwvbm9uU3RydWN0dXJlZEFyZ3VtZW50c0ZpZWxkUHJlZml4Pgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIERvd25zaXplUmVzZXJ2ZSBkb3duc2l6ZVJlc2VydmUgPSBNb2NrKERvd25zaXplUmVzZXJ2ZSkK</text>
+        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5jbGFpbXMuY2xhaW1hZGp1c3RtZW50LmV4dHJhY3QuUmVzZXJ2ZUFkanVzdG1lbnRDbGFzc2lmaWVyCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRvd25zaXplUmVzZXJ2ZSwK</text>
+        <text encoding="base64">ICAgIERvd25zaXplUmVzZXJ2ZSBkb3duc2l6ZVJlc2VydmUgPSBNb2NrKERvd25zaXplUmVzZXJ2ZSkK</text>
       </register>
       <register name=":" type="4">
         <text>qa</text>

@@ -545,10 +545,10 @@
         <mark key="." line="62" column="27" />
       </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/extract/ClaimToBeAdjustedJdbcDao.java" timestamp="1504092340716">
-        <mark key="'" line="166" column="28" />
-        <mark key="]" line="104" column="8" />
-        <mark key="." line="104" column="8" />
-        <mark key="^" line="104" column="8" />
+        <mark key="'" line="163" column="28" />
+        <mark key="]" line="102" column="8" />
+        <mark key="." line="102" column="8" />
+        <mark key="^" line="102" column="8" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/dtd/claims_web_form_definition.dtd" timestamp="1489759735831">
         <mark key="[" line="42" column="0" />
@@ -789,6 +789,12 @@
         <mark key="]" line="22" column="3" />
         <mark key="." line="22" column="3" />
         <mark key="^" line="22" column="3" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/extract/ClaimToBeAdjusted.java" timestamp="1504100759021">
+        <mark key="[" line="92" column="15" />
+        <mark key="]" line="96" column="46" />
+        <mark key="^" line="96" column="46" />
+        <mark key="." line="96" column="46" />
       </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/load/cost/HeaderHandlingCostJdbcDao.java" timestamp="1504095051172">
         <mark key="'" line="58" column="8" />
@@ -1054,9 +1060,9 @@
         <mark key="^" line="29" column="40" />
         <mark key="." line="29" column="40" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/02385e45-7817-4344-8aca-b3a8940a4f60/console.sql" timestamp="1504094604433">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/02385e45-7817-4344-8aca-b3a8940a4f60/console.sql" timestamp="1504102655982">
         <mark key="'" line="1044" column="0" />
-        <mark key="[" line="1044" column="22" />
+        <mark key="[" line="1043" column="30" />
         <mark key="]" line="1044" column="38" />
         <mark key="^" line="997" column="0" />
         <mark key="." line="1044" column="0" />
@@ -1623,12 +1629,12 @@
         <mark key="." line="26" column="0" />
         <mark key="^" line="25" column="61" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" timestamp="1504100490729">
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" timestamp="1504103474325">
         <mark key="'" line="92" column="24" />
-        <mark key="[" line="91" column="85" />
-        <mark key="]" line="91" column="0" />
-        <mark key="." line="91" column="0" />
-        <mark key="^" line="93" column="23" />
+        <mark key="[" line="232" column="68" />
+        <mark key="]" line="233" column="0" />
+        <mark key="." line="233" column="0" />
+        <mark key="^" line="233" column="66" />
       </file>
       <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/endpoint/HentFagdataEndpoint.java" timestamp="1497617879607">
         <mark key="[" line="24" column="101" />
@@ -1747,7 +1753,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFpbS5nZXRDbGFpbUhlYWRlckFkanVzdGVkUmVzZXJ2ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhaW0uZ2V0WWVhcnNTaW5jZURhbWFnZURhdGUoKSksCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1797,7 +1803,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>TransactionInfoCalculator</text>
+        <text>().getAdjustedReservePerYear().get(</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyZWdpc3RlclVzZXJuYW1lXD4=</text>
@@ -1806,7 +1812,7 @@
         <text encoding="base64">ICAgICAgICAgICAgTE9HLmluZm8oU3RyaW5nLmZvcm1hdCgidXNlckV2ZW50PWNyZWF0ZUhlYWRlckhhbmRsaW5nQ29zdCA6IElOU0VSVCBJTlRPIENsYWltX0hlYWRlcl9IYW5kbGluZ19Db3N0ICgiICsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJDbGFpbV9IZWFkZXJfSWQsIEVsYXBzZWRfQ2xhaW1fQ29zdCwgRnV0dXJlX0NsYWltX0Nvc3QpIFZBTFVFUyAoJXMsICVzLCAlcykiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYWltSGVhZGVySWQsIGVsYXBzZWRDbGFpbUNvc3QsIGZ1dHVyZUNsYWltQ29zdAogICAgICAgICAgICApKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFpbS5nZXRDbGFpbUhlYWRlckFkanVzdGVkUmVzZXJ2ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhaW0uZ2V0WWVhcnNTaW5jZURhbWFnZURhdGUoKSksCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1830,20 +1836,20 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlYWRlckFkanVzdGVkUmVzZXJ2ZVNlcnZpY2UudXBkYXRlSGVhZGVyQWRqdXN0ZWRSZXNlcnZlKHJlKTsK</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFpbS5nZXRDbGFpbUhlYWRlckFkanVzdGVkUmVzZXJ2ZSgpLmdldEFkanVzdGVkUmVzZXJ2ZVBlclllYXIoKS5nZXQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFpbS5nZXRZZWFyc1NpbmNlRGFtYWdlRGF0ZSgpKSw=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gcmVzZXJ2ZUFkanVzdG1lbnQ7CiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhZGp1c3RlZFJlc2VydmVzUGVyWWVhci5nZXQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB5ZWFyc1NpbmNlRGFtYWdlRGF0ZS5pbnRWYWx1ZSgpKSwK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBIZWFkZXJBZGp1c3RlZFJlc2VydmUgZ2V0UmVzZXJ2ZUFkanVzdG1lbnQoKSB7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIEhlYWRlckFkanVzdGVkUmVzZXJ2ZS5ub1Jlc2VydmVBZGp1c3RtZW50KGNsYWltLmdldENsYWltSGVhZGVySWQoKSwgY2xhaW0uZ2V0UmVtYWluaW5nUmVzZXJ2ZSgpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlYWRlckFkanVzdGVkUmVzZXJ2ZVNlcnZpY2UudXBkYXRlSGVhZGVyQWRqdXN0ZWRSZXNlcnZlKHJlKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBMT0cuaW5mbygiU3RhcnRpbmcgY2FsY3VsYXRpb24gb2YgY29zdCBhbmQgcmVzZXJ2ZSB1cGRhdGVzIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gcmVzZXJ2ZUFkanVzdG1lbnQ7CiAgICB9Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2178,13 +2184,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNsYWltIC0+IExPRy5pbmZvKCJjYWxjdWxhdGluZyB1cGRhdGVkIHJlc2VydmUgZm9yIGNsYWltICIgKyBjbGFpbS5nZXRDbGFpbUhlYWRlcklkKCkpKS5tYXAoCg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBIZWFkZXJBZGp1c3RlZFJlc2VydmUgZ2V0UmVzZXJ2ZUFkanVzdG1lbnQoKSB7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNsYWltIC0+IExPRy5pbmZvKCJjYWxjdWxhdGluZyB1cGRhdGVkIGNvc3Qgb2YgY2xhaW0gIiArIGNsYWltLmdldENsYWltSGVhZGVySWQoKSkpLm1hcCgK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIEhlYWRlckFkanVzdGVkUmVzZXJ2ZS5ub1Jlc2VydmVBZGp1c3RtZW50KGNsYWltLmdldENsYWltSGVhZGVySWQoKSwgY2xhaW0uZ2V0UmVtYWluaW5nUmVzZXJ2ZSgpKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBMT0cuaW5mbygiU3RhcnRpbmcgY2FsY3VsYXRpb24gb2YgY29zdCBhbmQgcmVzZXJ2ZSB1cGRhdGVzIik7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

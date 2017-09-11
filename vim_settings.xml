@@ -437,8 +437,8 @@
         <mark key="^" line="8" column="12" />
         <mark key="." line="8" column="12" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1502955348852">
-        <mark key="'" line="2662" column="29" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" timestamp="1505121004370">
+        <mark key="'" line="897" column="19" />
         <mark key="[" line="2663" column="0" />
         <mark key="]" line="2663" column="0" />
         <mark key="^" line="2654" column="41" />
@@ -1712,7 +1712,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="58" column="31" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" />
       <jump line="137" column="29" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" />
       <jump line="140" column="40" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" />
       <jump line="55" column="11" filename="$USER_HOME$/repos/claims/reserve/src/test/groovy/protector/claims/claimadjustment/transform/ReserveAdjustmentCalculatorSpec.groovy" />
@@ -1812,6 +1811,7 @@
       <jump line="13" column="3" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/transaction/PaymentSEPA.java" />
       <jump line="104" column="12" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/accounting/SEPAFileParser.java" />
       <jump line="85" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/accounting/SEPAFileParser.java" />
+      <jump line="897" column="19" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/service/ClaimFormService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -1868,7 +1868,7 @@
         <text>stack.reverse().mkString(&quot;/&quot;,&quot;/&quot;, &quot;&quot;);</text>
       </register>
       <register name="/" type="4">
-        <text>\..*[^;]</text>
+        <text encoding="base64">XDxldmVudHNcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgU3RyaW5nIHBhdGggPSBzdGFjay5ta1N0cmluZygiLyIpOwo=</text>
@@ -2259,9 +2259,9 @@
       </register>
     </registers>
     <search>
-      <last-search>\..*[^;]</last-search>
+      <last-search encoding="base64">XDxldmVudHNcPg==</last-search>
       <last-offset />
-      <last-pattern>\..*[^;]</last-pattern>
+      <last-pattern encoding="base64">XDxldmVudHNcPg==</last-pattern>
       <last-replace />
       <last-substitute>\..*[^;]</last-substitute>
       <last-dir>1</last-dir>
@@ -2269,8 +2269,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxmdXR1cmVDbGFpbUNvc3RTZXJ2aWNlXD4=</entry>
-        <entry encoding="base64">XDxSZXNlcnZlQWRqdXN0bWVudENyaXRlcmlhXD4=</entry>
         <entry encoding="base64">XDxyZXNlcnZlQWRqdXN0bWVudENhbGN1bGF0b3JcPg==</entry>
         <entry encoding="base64">XDxkb3duc2l6ZVJlc2VydmVcPg==</entry>
         <entry>new \(LocalDate\)</entry>
@@ -2289,6 +2287,8 @@
         <entry>transactionst</entry>
         <entry encoding="base64">XDxEb2N1bWVudEJ1aWxkZXJcPg==</entry>
         <entry>\..*[^;]</entry>
+        <entry>asdasdasd</entry>
+        <entry encoding="base64">XDxldmVudHNcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1teLl1cJHNjb3BlL3RoaXMvZw==</entry>

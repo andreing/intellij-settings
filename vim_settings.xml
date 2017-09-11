@@ -49,12 +49,12 @@
         <mark key="." line="9" column="29" />
         <mark key="^" line="9" column="29" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/accounting/SEPAFileParser.java" timestamp="1504879588617">
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/accounting/SEPAFileParser.java" timestamp="1505118715130">
         <mark key="'" line="85" column="8" />
-        <mark key="[" line="90" column="52" />
-        <mark key="]" line="90" column="41" />
-        <mark key="." line="90" column="41" />
-        <mark key="^" line="90" column="41" />
+        <mark key="[" line="90" column="26" />
+        <mark key="]" line="90" column="26" />
+        <mark key="." line="90" column="26" />
+        <mark key="^" line="90" column="29" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TemplateController.java" timestamp="1487685424483">
         <mark key="[" line="167" column="9" />
@@ -1081,11 +1081,11 @@
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.java" timestamp="1504187062198">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/test/groovy/protector/claims/service/accounting/PaymentImporterSEPASpec.groovy" timestamp="1504879128196">
-        <mark key="[" line="11" column="41" />
-        <mark key="]" line="13" column="59" />
-        <mark key="." line="13" column="59" />
-        <mark key="^" line="13" column="59" />
+      <file name="$USER_HOME$/repos/claims/core/src/test/groovy/protector/claims/service/accounting/PaymentImporterSEPASpec.groovy" timestamp="1505118604186">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="." line="24" column="0" />
+        <mark key="^" line="34" column="4" />
       </file>
       <file name="$USER_HOME$/dev/dbs/claimsclient/src/main/java/protector/dbs/claims/hentfagdata/domain/ClaimSearchResult.java" timestamp="1497880471551">
         <mark key="[" line="11" column="0" />
@@ -1814,8 +1814,8 @@
       <jump line="85" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/accounting/SEPAFileParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBMaXN0PFN0cmluZz4gc3RhY2sgPSBMaXN0KCk7Cg==</text>
+      <register name="&quot;" type="4">
+        <text>stack.reverse().mkString(&quot;/&quot;,&quot;/&quot;, &quot;&quot;);</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1865,7 +1865,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>value</text>
+        <text>stack.reverse().mkString(&quot;/&quot;,&quot;/&quot;, &quot;&quot;);</text>
       </register>
       <register name="/" type="4">
         <text>\..*[^;]</text>
@@ -1874,7 +1874,7 @@
         <text encoding="base64">ICAgICAgICAgICAgU3RyaW5nIHBhdGggPSBzdGFjay5ta1N0cmluZygiLyIpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBMaXN0PFN0cmluZz4gc3RhY2sgPSBMaXN0KCk7Cg==</text>
+        <text encoding="base64">CiAgICBkZWYgJ2RhdGUgcGFyc2luZycoKSB7CiAgICAgICAgZ2l2ZW46CiAgICAgICAgZGVmIGR0ID0gJzIwMTctMDMtMDZUMDA6MDA6MDBaJwogICAgICAgIHdoZW46CiAgICAgICAgZGVmIHJlcyA9IExvY2FsRGF0ZS5wYXJzZShkdCwgRGF0ZVRpbWVGb3JtYXR0ZXIuSVNPX0RBVEVfVElNRSkKICAgICAgICB0aGVuOgogICAgICAgIHJlcy55ZWFyID09IDIwMTcKICAgICAgICByZXMubW9udGhWYWx1ZSA9PSAzCiAgICAgICAgcmVzLmRheU9mTW9udGggPT0gNgogICAgfQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1899,19 +1899,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBMaXN0PFN0cmluZz4gc3RhY2sgPSBMaXN0KCk7Cg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBPQ1JSZXN1bHQgb2NyUmVzdWx0ID0gbmV3IE9DUlJlc3VsdCgpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBDYXNlKCQoZXFpKCkpKQo=</text>
+        <text encoding="base64">ICAgICAgICBPQ1JSZXN1bHQgb2NyUmVzdWx0ID0gbmV3IE9DUlJlc3VsdCgpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBEZWZhdWx0SGFuZGxlciBoYW5kbGVyID0gZ2V0SGFuZGxlcihjb3VudHJ5KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBDYXNlKCQoZXFpKCkpKQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2246,13 +2246,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBEZWZhdWx0SGFuZGxlciBoYW5kbGVyID0gZ2V0SGFuZGxlcihjb3VudHJ5KTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Ly8gICAgcHJpdmF0ZSBzdGF0aWMgVm9pZCBjb25zdW1lKCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBCaWdEZWNpbWFsIHBhcnNlQmlnRGVjaW1hbChTdHJpbmcgdmFsdWUpIHsKICAgICAgICAgICAgcmV0dXJuIEJpZ0RlY2ltYWwudmFsdWVPZihEb3VibGUucGFyc2VEb3VibGUodmFsdWUpKTsKICAgICAgICB9Cgo=</text>
+        <text encoding="base64">Ly8gICAgcHJpdmF0ZSBzdGF0aWMgVm9pZCBjb25zdW1lKCkK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

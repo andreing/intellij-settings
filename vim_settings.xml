@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/a.dummy" timestamp="1505459384226">
+      <file name="/a.dummy" timestamp="1505465773556">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/test/groovy/protector/claims/service/claims/assignment/WRRSelectorSpec.groovy" timestamp="1479128709397">
@@ -1615,12 +1615,12 @@
         <mark key="." line="27" column="0" />
         <mark key="^" line="26" column="61" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" timestamp="1504704210423">
-        <mark key="'" line="348" column="13" />
-        <mark key="[" line="241" column="51" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
-        <mark key="^" line="136" column="16" />
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" timestamp="1505465872061">
+        <mark key="'" line="355" column="13" />
+        <mark key="[" line="162" column="90" />
+        <mark key="]" line="162" column="89" />
+        <mark key="." line="162" column="89" />
+        <mark key="^" line="162" column="89" />
       </file>
       <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/endpoint/HentFagdataEndpoint.java" timestamp="1497617879607">
         <mark key="[" line="24" column="101" />
@@ -1738,8 +1738,8 @@
       <jump line="32" column="8" filename="$USER_HOME$/repos/vavrdemo/src/test/java/VavrTest.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5zdW4udG9vbHMuamF2YWMuY29kZS5UeXBlczsK</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">Y29zdE9ubHlMaXN0IC0+IGNvc3RPbmx5TGlzdC5tYXAoCiAgICAgICAgICAgICAgICBjbGFpbSAtPiBnZXRDbGFpbUNvc3RGdWxsKGNsYWltLCBjbGFpbUNvc3RzKQogICAgICAgICAgICAgICAgICAgICAgICAubWFwKGNvc3QgLT4gZ2V0Q29zdE9ubHlVcGRhdGVBZGp1c3RtZW50KGNsYWltLCBjb3N0KSkKICAgICAgICAgICAgICAgICAgICAgICAgLm9uRW1wdHkoKCkgLT4gTE9HLndhcm4oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIkNvdWxkIG5vdCBjYWxjdWxhdGUgY29zdCBvbmx5IGFkanVzdG1lbnQgZm9yIGNsYWltSGVhZGVySWQ9e30iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYWltLmdldENsYWltSGVhZGVySWQoKQogICAgICAgICAgICAgICAgICAgICAgICApKSk7</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1797,8 +1797,8 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBMaXN0PExhbmd1YWdlPiBsYW5ncyA9IGdlbmVyYXRlRGF0YSgpLnRvTGlzdCgpOwo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5zdW4udG9vbHMuamF2YWMuY29kZS5UeXBlczsK</text>
+      <register name="1" type="4">
+        <text encoding="base64">Y29zdE9ubHlMaXN0IC0+IGNvc3RPbmx5TGlzdC5tYXAoCiAgICAgICAgICAgICAgICBjbGFpbSAtPiBnZXRDbGFpbUNvc3RGdWxsKGNsYWltLCBjbGFpbUNvc3RzKQogICAgICAgICAgICAgICAgICAgICAgICAubWFwKGNvc3QgLT4gZ2V0Q29zdE9ubHlVcGRhdGVBZGp1c3RtZW50KGNsYWltLCBjb3N0KSkKICAgICAgICAgICAgICAgICAgICAgICAgLm9uRW1wdHkoKCkgLT4gTE9HLndhcm4oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIkNvdWxkIG5vdCBjYWxjdWxhdGUgY29zdCBvbmx5IGFkanVzdG1lbnQgZm9yIGNsYWltSGVhZGVySWQ9e30iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYWltLmdldENsYWltSGVhZGVySWQoKQogICAgICAgICAgICAgICAgICAgICAgICApKSk7</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1822,20 +1822,26 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">Y29zdE9ubHlMaXN0IC0+IGNvc3RPbmx5TGlzdC5tYXAoCiAgICAgICAgICAgICAgICBjbGFpbSAtPiBnZXRDbGFpbUNvc3RGdWxsKGNsYWltLCBjbGFpbUNvc3RzKQogICAgICAgICAgICAgICAgICAgICAgICAubWFwKGNvc3QgLT4gZ2V0Q29zdE9ubHlVcGRhdGVBZGp1c3RtZW50KGNsYWltLCBjb3N0KSkKICAgICAgICAgICAgICAgICAgICAgICAgLm9uRW1wdHkoKCkgLT4gTE9HLndhcm4oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIkNvdWxkIG5vdCBjYWxjdWxhdGUgY29zdCBvbmx5IGFkanVzdG1lbnQgZm9yIGNsYWltSGVhZGVySWQ9e30iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYWltLmdldENsYWltSGVhZGVySWQoKQogICAgICAgICAgICAgICAgICAgICAgICApKSk7</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgLmZpbHRlcihPcHRpb246OmlzRGVmaW5lZCkKICAgICAgICAgICAgICAgICAgICAgLm1hcChPcHRpb246OmdldCk7Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>claims.map(this::calculateReserveAndIncurred)
+                     .partition(costOnly)
+                     .map1(costMappingFunction)
+                     .map2(reserveMappingFunction)
+                     .apply(List::appendAll)
+                     .filter(Option::isDefined)
+                     .map(Option::get);</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBGdW5jdGlvbjE8U3RyaW5nLCBJbnRlZ2VyPiBmID0gSW50ZWdlcjo6cGFyc2VJbnQ7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgLmZpbHRlcihPcHRpb246OmlzRGVmaW5lZCkKICAgICAgICAgICAgICAgICAgICAgLm1hcChPcHRpb246OmdldCk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IGlvLnZhdnIuVHVwbGUzOwo=</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5zdW4udG9vbHMuamF2YWMuY29kZS5UeXBlczsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2173,10 +2179,10 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5IYXNoTWFwOwo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

@@ -3,6 +3,7 @@
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping pattern="nodebunyan" type="CommandLine" />
+      <mapping pattern=".gitignore_global" type="Git file" />
       <mapping ext="tpl" type="Groovy" />
       <mapping ext="tmpl" type="HTML" />
       <mapping pattern="proxyRequestEncoder" type="JavaScript" />

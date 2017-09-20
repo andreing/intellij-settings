@@ -141,8 +141,8 @@
         <mark key="^" line="11" column="26" />
         <mark key="." line="11" column="26" />
       </file>
-      <file name="$USER_HOME$/dev/dbs/dbsclient/src/main/resources/application.properties" timestamp="1497344173067">
-        <mark key="[" line="0" column="16" />
+      <file name="$USER_HOME$/dev/dbs/dbsclient/src/main/resources/application.properties" timestamp="1505905726262">
+        <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="15" />
         <mark key="^" line="0" column="15" />
         <mark key="." line="0" column="15" />
@@ -190,7 +190,7 @@
         <mark key="." line="1" column="7" />
       </file>
       <file name="$USER_HOME$/repos/claimsgateway/apps/nobina/api.js" timestamp="1505900486212">
-        <mark key="'" line="134" column="0" />
+        <mark key="'" line="135" column="0" />
         <mark key="[" line="55" column="49" />
         <mark key="]" line="56" column="16" />
         <mark key="^" line="56" column="16" />
@@ -382,6 +382,9 @@
         <mark key="]" line="6" column="26" />
         <mark key="^" line="6" column="26" />
         <mark key="." line="6" column="26" />
+      </file>
+      <file name="$USER_HOME$/dev/dbs/dbsclient/src/main/resources/application-development.properties" timestamp="1505905768844">
+        <mark key="[" line="0" column="33" />
       </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/test/groovy/protector/claims/claimadjustment/transform/ClaimCostCalculatorSpec.groovy" timestamp="1503322946166">
         <mark key="[" line="34" column="0" />
@@ -599,10 +602,11 @@
         <mark key="^" line="20" column="53" />
         <mark key="." line="20" column="53" />
       </file>
-      <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/HentFagdataService.java" timestamp="1505904505008">
-        <mark key="[" line="16" column="98" />
-        <mark key="]" line="18" column="0" />
-        <mark key="." line="18" column="0" />
+      <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/HentFagdataService.java" timestamp="1505906057667">
+        <mark key="'" line="16" column="59" />
+        <mark key="[" line="22" column="26" />
+        <mark key="]" line="27" column="0" />
+        <mark key="." line="27" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend-online/components/claim/claims/ClaimFormDataCtrl.js" timestamp="1496839766005">
         <mark key="[" line="153" column="192" />
@@ -1317,11 +1321,6 @@
       <file name="/JavaScript Console" timestamp="1505737574402">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/templates/TemplateService.java" timestamp="1505740728409">
-        <mark key="]" line="173" column="7" />
-        <mark key="^" line="173" column="7" />
-        <mark key="." line="173" column="7" />
-      </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/HeaderAdjustedReserve.java" timestamp="1499780337916">
         <mark key="[" line="11" column="58" />
         <mark key="]" line="13" column="16" />
@@ -1438,7 +1437,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="8" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/load/cost/HeaderHandlingCostService.java" />
       <jump line="44" column="0" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/load/reserve/HeaderAdjustedReserveService.java" />
       <jump line="35" column="8" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/load/reserve/HeaderAdjustedReserveService.java" />
       <jump line="233" column="0" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" />
@@ -1538,10 +1536,11 @@
       <jump line="66" column="47" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/MDCFilter.java" />
       <jump line="106" column="4" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/MDCFilter.java" />
       <jump line="134" column="0" filename="$USER_HOME$/repos/claimsgateway/apps/nobina/api.js" />
+      <jump line="15" column="59" filename="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/HentFagdataService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBoZW50S2Fyb3NzZXJpU2thZGVEZXRhbGplci5nZXQK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1591,7 +1590,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">KCkpIA==</text>
+        <text>@Value(&quot;${claims.server.url}&quot;)</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxodHRwdG9va1w+</text>
@@ -1600,7 +1599,7 @@
         <text encoding="base64">ICAgICAgICBSZXNlcnZlQWRqdXN0bWVudENhbGN1bGF0b3IuZ2V0UmVzZXJ2ZUFkanVzdGVyc01pbk1heChyZXNlcnZlQWRqdXN0bWVudENsYXNzaWZpZXIpID09IG1pbk1heAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBoZW50S2Fyb3NzZXJpU2thZGVEZXRhbGplci5nZXQK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1625,19 +1624,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgU3RyaW4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB2YWxpZGF0ZVJlcXVlc3QoaGVudEthcm9zc2VyaVNrYWRlRGV0YWxqZXIpOwo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgU3RyaW4K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBjb21waWxlIHByb2plY3QoJzpjbGFpbXNjbGllbnQnKQo=</text>
+        <text encoding="base64">ICAgICAgICB2YWxpZGF0ZVJlcXVlc3QoaGVudEthcm9zc2VyaVNrYWRlRGV0YWxqZXIpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGNvbXBpbGUgcHJvamVjdCgnOmNsYWltc2NsaWVudCcpCg==</text>
+        <text encoding="base64">ICAgICAgICBjb21waWxlIHByb2plY3QoJzpjbGFpbXNjbGllbnQnKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+        <text encoding="base64">ICAgIGNvbXBpbGUgcHJvamVjdCgnOmNsYWltc2NsaWVudCcpCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1972,13 +1971,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5kYnMud3MuaGVudGZhZ2RhdGEuZW5kcG9pbnQuSGVudEZhZ2RhdGFFbmRwb2ludDsK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5kYnMud3MuaGVudGZhZ2RhdGEuZW5kcG9pbnQuSGVudEZhZ2RhdGFFbmRwb2ludDsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5kYnMud3MuaGVudGZhZ2RhdGEuY29udHJvbGxlci5IZW50RmFnZGF0YUNvbnRyb2xsZXI7Cg==</text>
+        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5kYnMud3MuaGVudGZhZ2RhdGEuZW5kcG9pbnQuSGVudEZhZ2RhdGFFbmRwb2ludDsK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1xcbi8gL2c=</text>

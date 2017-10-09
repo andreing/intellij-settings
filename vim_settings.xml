@@ -132,6 +132,9 @@
         <mark key="^" line="43" column="27" />
         <mark key="." line="43" column="27" />
       </file>
+      <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/test/groovy/protector/dbs/ws/hentfagdata/map/SingleDamageInfoMapperTest.groovy" timestamp="1507559129378">
+        <mark key="[" line="5" column="56" />
+      </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/dtd/claims_web_form_definition.rnc" timestamp="1482408666532">
         <mark key="[" line="5" column="27" />
         <mark key="]" line="5" column="27" />
@@ -727,7 +730,7 @@
         <mark key="^" line="17" column="61" />
         <mark key="." line="17" column="61" />
       </file>
-      <file name="/fragment.java" timestamp="1507557579711">
+      <file name="/fragment.java" timestamp="1507559081220">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/AssigneePool.java" timestamp="1481730732412">
@@ -1632,7 +1635,7 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/test/groovy/protector/dbs/ws/hentfagdata/HentFagdataServiceSpec.groovy" timestamp="1507558998900">
+      <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/test/groovy/protector/dbs/ws/hentfagdata/HentFagdataServiceSpec.groovy" timestamp="1507559594684">
         <mark key="'" line="57" column="8" />
         <mark key="[" line="97" column="66" />
         <mark key="]" line="97" column="37" />
@@ -1709,6 +1712,12 @@
         <mark key="]" line="19" column="20" />
         <mark key="." line="19" column="20" />
         <mark key="^" line="19" column="20" />
+      </file>
+      <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/test/groovy/protector/dbs/ws/hentfagdata/map/SingleDamageInfoMapperSpec.groovy" timestamp="1507559556066">
+        <mark key="[" line="41" column="93" />
+        <mark key="]" line="43" column="24" />
+        <mark key="^" line="43" column="24" />
+        <mark key="." line="43" column="24" />
       </file>
     </filemarks>
     <jumps>
@@ -1815,7 +1824,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLnRvRWl0aGVyKCkK</text>
+        <text encoding="base64">ICAgICAgICAvLyBUT0RPIGltcGxlbWVudCBhc3NlcnRpb25zCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1877,16 +1886,16 @@
         <text encoding="base64">CXB1YmxpYyBzdGF0aWMgSHR0cFN0YXR1cyB2YWx1ZU9mKGludCBzdGF0dXNDb2RlKSB7CgkJZm9yIChIdHRwU3RhdHVzIHN0YXR1cyA6IHZhbHVlcygpKSB7CgkJCWlmIChzdGF0dXMudmFsdWUgPT0gc3RhdHVzQ29kZSkgewoJCQkJcmV0dXJuIHN0YXR1czsKCQkJfQoJCX0KCQl0aHJvdyBuZXcgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJObyBtYXRjaGluZyBjb25zdGFudCBmb3IgWyIgKyBzdGF0dXNDb2RlICsgIl0iKTsKCX0K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLnRvRWl0aGVyKCkK</text>
+        <text encoding="base64">ICAgICAgICAvLyBUT0RPIGltcGxlbWVudCBhc3NlcnRpb25zCg==</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLm1hcExlZnQoYiAtPiBiLndpdGhSZXR1cm5Db2RlKFJldHVybkNvZGUuSU5WQUxJRC52YWx1ZSgpKSkK</text>
+        <text encoding="base64">ICAgICAgICAvLyBUT0RPIGltcGxlbWVudCBzdGltdWx1cwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGlvLnZhdnIuY29udHJvbC5WYWxpZGF0aW9uCg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBUT0RPIGltcGxlbWVudCBhc3NlcnRpb25zCg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAvLyBUT0RPIGltcGxlbWVudCBhc3NlcnRpb25zCg==</text>
@@ -1895,7 +1904,7 @@
         <text encoding="base64">ICAgICAgICAvLyBUT0RPIGltcGxlbWVudCBzdGltdWx1cwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZm9sZChLYXJvc3NlcmlTa2FkZURldGFsamVyQnVpbGRlcjo6YnVpbGQsIEthcm9zc2VyaVNrYWRlRGV0YWxqZXJCdWlsZGVyOjpidWlsZCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBnaXZlbjoKICAgICAgICAKCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2230,13 +2239,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBLYXJvc3NlcmlTa2FkZURldGFsamVyQnVpbGRlciBrYXJvc3NlcmlTa2FkZURldGFsamVyQnVpbGRlciA9IEthcm9zc2VyaVNrYWRlRGV0YWxqZXJCdWlsZGVyLmFLYXJvc3NlcmlTa2FkZURldGFsamVyKCk7CiAgICAgICAgU2luZ2xlRGFtYWdlSW5mb01hcHBlciBzaW5nbGVEYW1hZ2VJbmZvTWFwcGVyID0gbmV3IFNpbmdsZURhbWFnZUluZm9NYXBwZXIoKTsKICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLnRvRWl0aGVyKCkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB2YWxpZGF0b3IudmFsaWRhdGUoaGVudEthcm9zc2VyaVNrYWRlRGV0YWxqZXIpLnRvRWl0aGVyKCkKICAgICAgICAgICAgICAgICAubWFwTGVmdChrYXJvc3NlcmlTa2FkZURldGFsamVyQnVpbGRlcjo6d2l0aFJldHVyblRleHQpCiAgICAgICAgICAgICAgICAgLm1hcExlZnQoYiAtPiBiLndpdGhSZXR1cm5Db2RlKDgpKQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLm1hcExlZnQoYiAtPiBiLndpdGhSZXR1cm5Db2RlKFJldHVybkNvZGUuSU5WQUxJRC52YWx1ZSgpKSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">aW1wb3J0IGlvLnZhdnIuY29udHJvbC5WYWxpZGF0aW9uCg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1thLXpBLVpdKlteLl0vLw==</text>

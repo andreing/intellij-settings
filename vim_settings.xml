@@ -680,7 +680,7 @@
         <mark key="^" line="17" column="61" />
         <mark key="." line="17" column="61" />
       </file>
-      <file name="/fragment.java" timestamp="1507301210842">
+      <file name="/fragment.java" timestamp="1507545489165">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/AssigneePool.java" timestamp="1481730732412">
@@ -1028,6 +1028,9 @@
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
+      <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/KarosseriSkadeMapper.java" timestamp="1507545411937">
+        <mark key="[" line="35" column="5" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/TemplateFolder.java" timestamp="1485551212568">
         <mark key="[" line="10" column="8" />
         <mark key="]" line="7" column="28" />
@@ -1277,6 +1280,12 @@
         <mark key="]" line="8" column="12" />
         <mark key="^" line="8" column="12" />
         <mark key="." line="8" column="12" />
+      </file>
+      <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/SingleDamageInfoBuilder.java" timestamp="1507545648520">
+        <mark key="[" line="8" column="49" />
+        <mark key="]" line="2" column="0" />
+        <mark key="^" line="2" column="27" />
+        <mark key="." line="2" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/TreeNode.java" timestamp="1484608697890">
         <mark key="[" line="20" column="17" />
@@ -1727,8 +1736,8 @@
       <jump line="101" column="12" filename="$USER_HOME$/dev/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/ClaimsRestService.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">aW1wb3J0IG5vLndlYmRicy5kYnMuXzIwMTVfMDZfMTAuZGJzaGVudGZhZ2RhdGEuS2Fyb3NzZXJpU2thZGVEZXRhbGplcjsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1787,7 +1796,7 @@
         <text encoding="base64">ICAgICAgICAgICAgQ2hlY2tlZEZ1bmN0aW9uMDxVPiBzdXBwbGllciwKICAgICAgICAgICAgQ2hlY2tlZFByZWRpY2F0ZTxUPiB2YWxpZGF0b3IsCiAgICAgICAgICAgIEZ1bmN0aW9uPFUsIFQ+IG1hcHBlcgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IG5vLndlYmRicy5kYnMuXzIwMTVfMDZfMTAuZGJzaGVudGZhZ2RhdGEuS2Fyb3NzZXJpU2thZGVEZXRhbGplcjsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1812,19 +1821,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgPFQ+IEVpdGhlcjxUaHJvd2FibGUsIFQ+IGNoZWNrUmVxdWVzdChDaGVja2VkRnVuY3Rpb24wPFQ+IHN1cHBsaWVyKSB7CiAgICAgICAgcmV0dXJuIGNoZWNrUmVxdWVzdChzdXBwbGllciwgKENoZWNrZWRQcmVkaWNhdGU8VD4pIHggLT4gdHJ1ZSk7CiAgICB9Cg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">CiAgICBwcml2YXRlIDxUPiBFaXRoZXI8VGhyb3dhYmxlLCBUPiBjaGVja1JlcXVlc3QoQ2hlY2tlZEZ1bmN0aW9uMDxUPiBzdXBwbGllciwgQ2hlY2tlZFByZWRpY2F0ZTxUPiB2YWxpZGF0b3IpIHsKICAgICAgICByZXR1cm4gY2hlY2tSZXF1ZXN0KHN1cHBsaWVyLCBGdW5jdGlvbi5pZGVudGl0eSgpLCB2YWxpZGF0b3IpOwogICAgfQo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgQ2hlY2tlZFByZWRpY2F0ZTxUPiB2YWxpZGF0b3IsCg==</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHByaXZhdGUgPFQ+IEVpdGhlcjxUaHJvd2FibGUsIFQ+IGNoZWNrUmVxdWVzdChDaGVja2VkRnVuY3Rpb24wPFQ+IHN1cHBsaWVyKSB7CiAgICAgICAgcmV0dXJuIGNoZWNrUmVxdWVzdChzdXBwbGllciwgKENoZWNrZWRQcmVkaWNhdGU8VD4pIHggLT4gdHJ1ZSk7CiAgICB9Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">CiAgICBwcml2YXRlIDxUPiBFaXRoZXI8VGhyb3dhYmxlLCBUPiBjaGVja1JlcXVlc3QoQ2hlY2tlZEZ1bmN0aW9uMDxUPiBzdXBwbGllciwgQ2hlY2tlZFByZWRpY2F0ZTxUPiB2YWxpZGF0b3IpIHsKICAgICAgICByZXR1cm4gY2hlY2tSZXF1ZXN0KHN1cHBsaWVyLCBGdW5jdGlvbi5pZGVudGl0eSgpLCB2YWxpZGF0b3IpOwogICAgfQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgQ2hlY2tlZFByZWRpY2F0ZTxUPiB2YWxpZGF0b3IsCg==</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgU3VwcGxpZXI8PyBleHRlbmRzIFRocm93YWJsZT4gdmFsaWRhdGlvbkVycm9yU3VwcGxpZXIsCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2159,13 +2168,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgID8gVmFsaWRhdGlvbi5pbnZhbGlkKCJJa2tlIGVuIG1vdG9yc2thZGUiKQogICAgICAgICAgICAgICAgOiBWYWxpZGF0aW9uLnZhbGlkKGNsYWltSGVhZGVyKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgU3VwcGxpZXI8PyBleHRlbmRzIFRocm93YWJsZT4gdmFsaWRhdGlvbkVycm9yU3VwcGxpZXIsCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgLgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgID8gVmFsaWRhdGlvbi5pbnZhbGlkKCJJa2tlIGVuIG1vdG9yc2thZGUiKQogICAgICAgICAgICAgICAgOiBWYWxpZGF0aW9uLnZhbGlkKGNsYWltSGVhZGVyKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgLmZsYXRNYXAodCAtPiB2YWxpZGF0b3IuYXBwbHkodCkudG9UcnkoKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgLgo=</text>
       </register>
       <register name=":" type="4">
         <text>reg</text>

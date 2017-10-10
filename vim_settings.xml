@@ -704,7 +704,7 @@
         <mark key="^" line="17" column="61" />
         <mark key="." line="17" column="61" />
       </file>
-      <file name="/fragment.java" timestamp="1507639058830">
+      <file name="/fragment.java" timestamp="1507640597790">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/AssigneePool.java" timestamp="1481730732412">
@@ -719,7 +719,7 @@
         <mark key="^" line="20" column="53" />
         <mark key="." line="20" column="53" />
       </file>
-      <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/HentFagdataService.java" timestamp="1507561937886">
+      <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/HentFagdataService.java" timestamp="1507640316171">
         <mark key="'" line="47" column="32" />
         <mark key="[" line="79" column="80" />
         <mark key="]" line="78" column="87" />
@@ -730,6 +730,13 @@
         <mark key="[" line="31" column="0" />
         <mark key="]" line="31" column="0" />
         <mark key="." line="31" column="0" />
+      </file>
+      <file name="$USER_HOME$/dev/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/ReturnCode.java" timestamp="1507640427540">
+        <mark key="'" line="13" column="20" />
+        <mark key="[" line="4" column="11" />
+        <mark key="]" line="4" column="29" />
+        <mark key="." line="4" column="29" />
+        <mark key="^" line="4" column="29" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend-online/components/claim/claims/ClaimFormDataCtrl.js" timestamp="1496839766005">
         <mark key="[" line="153" column="192" />
@@ -972,7 +979,7 @@
         <mark key="." line="1" column="17" />
         <mark key="^" line="1" column="16" />
       </file>
-      <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/ReturnCode.java" timestamp="1507557746650">
+      <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/ReturnCode.java" timestamp="1507640226739">
         <mark key="'" line="24" column="4" />
         <mark key="[" line="25" column="13" />
         <mark key="]" line="30" column="27" />
@@ -1450,11 +1457,11 @@
         <mark key="^" line="10" column="0" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagService.java" timestamp="1507639438054">
-        <mark key="[" line="20" column="69" />
-        <mark key="]" line="20" column="39" />
-        <mark key="^" line="20" column="39" />
-        <mark key="." line="20" column="39" />
+      <file name="$USER_HOME$/dev/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagService.java" timestamp="1507641003103">
+        <mark key="[" line="35" column="16" />
+        <mark key="]" line="45" column="14" />
+        <mark key="^" line="45" column="14" />
+        <mark key="." line="45" column="14" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/damage-info-module.js" timestamp="1489415392528">
         <mark key="[" line="2" column="43" />
@@ -1701,7 +1708,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="82" column="0" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/SpringWebConfig.java" />
       <jump line="25" column="8" filename="$USER_HOME$/dev/dbs/claimsclient/src/main/java/protector/dbs/claims/ClaimsClientConfig.java" />
       <jump line="84" column="0" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/SpringWebConfig.java" />
       <jump line="26" column="8" filename="$USER_HOME$/dev/dbs/claimsclient/src/main/java/protector/dbs/claims/ClaimsClientConfig.java" />
@@ -1801,10 +1807,11 @@
       <jump line="0" column="0" filename="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/map/SingleDamageInfoMapper.java" />
       <jump line="28" column="8" filename="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/test/groovy/protector/dbs/ws/hentfagdata/map/SingleDamageInfoMapperSpec.groovy" />
       <jump line="290" column="1" filename="$USER_HOME$/dev/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/map/FakturaGrunnlagStatus.java" />
+      <jump line="13" column="20" filename="$USER_HOME$/dev/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/ReturnCode.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IG5vLndlYmRicy5kYnMuXzIwMTVfMDZfMTAuZGJzZmFrdHVyYWdydW5ubGFnLkZha3R1cmFncnVubmxhZ1N0YXR1czsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1857,7 +1864,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>ClaimsRestException</text>
+        <text>e Integer c</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxhcFw+</text>
@@ -1866,25 +1873,25 @@
         <text encoding="base64">CXB1YmxpYyBzdGF0aWMgSHR0cFN0YXR1cyB2YWx1ZU9mKGludCBzdGF0dXNDb2RlKSB7CgkJZm9yIChIdHRwU3RhdHVzIHN0YXR1cyA6IHZhbHVlcygpKSB7CgkJCWlmIChzdGF0dXMudmFsdWUgPT0gc3RhdHVzQ29kZSkgewoJCQkJcmV0dXJuIHN0YXR1czsKCQkJfQoJCX0KCQl0aHJvdyBuZXcgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJObyBtYXRjaGluZyBjb25zdGFudCBmb3IgWyIgKyBzdGF0dXNDb2RlICsgIl0iKTsKCX0K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IG5vLndlYmRicy5kYnMuXzIwMTVfMDZfMTAuZGJzZmFrdHVyYWdydW5ubGFnLkZha3R1cmFncnVubmxhZ1N0YXR1czsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBMT0cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihDbGFpbXNSZXN0U2VydmljZS5jbGFzcyk7Cg==</text>
+        <text encoding="base64">ICAgIFRPT19NQU5ZX0VMRU1FTlRzKDQsICJGb3IgbWFuZ2Ugc2thZGVyIHJldHVybmVydCBmcmEgQ2xhaW1zLiBMZWdnIGlubiBmbGVyZSBrcml0ZXJpZXIgZm9yIMOlIGJlZ3JlbnNlIHPDuGtldCIpLAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEBTdXBwcmVzc1dhcm5pbmdzKHsidW5jaGVja2VkIiwgInZhcmFyZ3MifSkK</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">aW1wb3J0IG5vLndlYmRicy5kYnMuXzIwMTVfMDZfMTAuZGJzZmFrdHVyYWdydW5ubGFnLkZha3R1cmFncnVubmxhZ1N0YXR1czsK</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBMT0cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihDbGFpbXNSZXN0U2VydmljZS5jbGFzcyk7Cg==</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEBTdXBwcmVzc1dhcm5pbmdzKHsidW5jaGVja2VkIiwgInZhcmFyZ3MifSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">cHVibGljIGNsYXNzIEZha3R1cmFHcnVubmxhZ1N0YXR1cyB7fQo=</text>
+        <text encoding="base64">aW1wb3J0IG5vLndlYmRicy5kYnMuXzIwMTVfMDZfMTAuZGJzZmFrdHVyYWdydW5ubGFnLkZha3R1cmFncnVubmxhZ1N0YXR1czsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2219,10 +2226,10 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudGltZS5Mb2NhbERhdGUK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmJ1aWxkZXIud2l0aExpY2VuY2VOdW1iZXIoY2xhaW1IZWFkZXIuZ2V0UmVnaXN0cmF0aW9uTnVtYmVyKCkpCiAgICAgICAgICAgICAgICAud2l0aE9iamVjdE5hbWUoY2xhaW1IZWFkZXIuZ2V0TWFrZSgpKQogICAgICAgICAgICAgICAgLndpdGhNb2RlbFllYXIoY2xhaW1IZWFkZXIuZ2V0TW9kZWwoKSAhPSBudWxsID8gSW50ZWdlci5wYXJzZUludChjbGFpbUhlYWRlci5nZXRNb2RlbCgpKSA6IDApCiAgICAgICAgICAgICAgICAud2l0aFByb3RlY3RNb2RlbFllYXIoZmFsc2UpCiAgICAgICAgICAgICAgICAud2l0aFZlaGljbGVUeXBlSUQoMCkKICAgICAgICAgICAgICAgIC53aXRoUHJvdGVjdFZlaGljbGVUeXBlSWQoZmFsc2UpCiAgICAgICAgICAgICAgICAud2l0aEluc3VyYW5jZU51bWJlcihjbGFpbUhlYWRlci5nZXRDb250cmFjdElkKCkgIT0gbnVsbCA/IGNsYWltSGVhZGVyLmdldENvbnRyYWN0SWQoKS50b1N0cmluZygpIDogbnVsbCkKICAgICAgICAgICAgICAgIC53aXRoUHJvdGVjdEluc3VyYW5jZU51bWJlcih0cnVlKQogICAgICAgICAgICAgICAgLndpdGhDbGFpbU51bWJlcihjbGFpbUhlYWRlci5nZXRJZCgpLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAud2l0aFByb3RlY3RDbGFpbU51bWJlcih0cnVlKQogICAgICAgICAgICAgICAgLndpdGhEYW1hZ2VEYXRlKHRvWE1MR3JlZ29yaWFuQ2FsZW5kYXIoY2xhaW1IZWFkZXIuZ2V0RGFtYWdlRGF0ZSgpKSkKICAgICAgICAgICAgICAgIC53aXRoUHJvdGVjdERhbWFnZURhdGUodHJ1ZSkKICAgICAgICAgICAgICAgIC53aXRoRGFtYWdlT3BlcmF0b3IoIiIpCiAgICAgICAgICAgICAgICAud2l0aFByb3RlY3REYW1hZ2VPcGVyYXRvcihmYWxzZSkKICAgICAgICAgICAgICAgIC53aXRoTWlsZWFnZShjbGFpbUhlYWRlci5nZXRNaWxlYWdlKCkgIT0gbnVsbCA/IGNsYWltSGVhZGVyLmdldE1pbGVhZ2UoKS5pbnRWYWx1ZSgpIDogbnVsbCkKICAgICAgICAgICAgICAgIC53aXRoQ292ZXJhZ2VUZXh0KCIiKTsKCg==</text>
+        <text encoding="base64">cHVibGljIGNsYXNzIEZha3R1cmFHcnVubmxhZ1N0YXR1cyB7fQo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">aW1wb3J0IGphdmEudGltZS5Mb2NhbERhdGUK</text>

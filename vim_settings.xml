@@ -73,9 +73,9 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/dev/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/ClaimsRestService.java" timestamp="1507638492007">
-        <mark key="'" line="97" column="12" />
-        <mark key="[" line="66" column="74" />
+      <file name="$USER_HOME$/dev/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/ClaimsRestService.java" timestamp="1507712987340">
+        <mark key="'" line="98" column="12" />
+        <mark key="[" line="92" column="13" />
         <mark key="]" line="41" column="18" />
         <mark key="." line="41" column="18" />
         <mark key="^" line="41" column="26" />
@@ -423,7 +423,6 @@
         <mark key="^" line="45" column="68" />
         <mark key="." line="45" column="68" />
       </file>
-      <file name="$USER_HOME$/dev/dbs/ws/fakturagrunnlag-ws/generated-src/java/no/webdbs/dbs/_2015_06_10/dbsfakturagrunnlag/FakturagrunnlagStatus.java" timestamp="1507632888265" />
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/extract/reserve/ReserveReductionValueJdbcDao.java" timestamp="1503326481648">
         <mark key="[" line="47" column="23" />
         <mark key="]" line="42" column="11" />
@@ -1266,6 +1265,12 @@
         <mark key="^" line="0" column="5" />
         <mark key="." line="0" column="5" />
       </file>
+      <file name="$USER_HOME$/dev/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/validate/ClaimHeaderValidator.java" timestamp="1507713450658">
+        <mark key="[" line="9" column="75" />
+        <mark key="]" line="9" column="73" />
+        <mark key="^" line="9" column="73" />
+        <mark key="." line="9" column="73" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/ClaimsTemplate.java" timestamp="1485551223506">
         <mark key="[" line="4" column="62" />
         <mark key="]" line="10" column="28" />
@@ -1689,6 +1694,9 @@
         <mark key="." line="27" column="0" />
         <mark key="^" line="26" column="61" />
       </file>
+      <file name="$USER_HOME$/repos/claims/cabas/src/main/java/protector/claims/CabasService.java" timestamp="1507712905087">
+        <mark key="'" line="107" column="38" />
+      </file>
       <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/endpoint/HentFagdataEndpoint.java" timestamp="1497617879607">
         <mark key="[" line="24" column="101" />
         <mark key="]" line="25" column="72" />
@@ -1708,9 +1716,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="25" column="8" filename="$USER_HOME$/dev/dbs/claimsclient/src/main/java/protector/dbs/claims/ClaimsClientConfig.java" />
-      <jump line="84" column="0" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/SpringWebConfig.java" />
-      <jump line="26" column="8" filename="$USER_HOME$/dev/dbs/claimsclient/src/main/java/protector/dbs/claims/ClaimsClientConfig.java" />
       <jump line="65" column="0" filename="$USER_HOME$/repos/claims/web/build.gradle" />
       <jump line="14" column="4" filename="$USER_HOME$/dev/dbs/claimsclient/build.gradle" />
       <jump line="17" column="0" filename="$USER_HOME$/dev/dbs/app/src/integration-test/groovy/protector/dbs/claims/ClaimsServiceTest.groovy" />
@@ -1808,6 +1813,9 @@
       <jump line="28" column="8" filename="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/test/groovy/protector/dbs/ws/hentfagdata/map/SingleDamageInfoMapperSpec.groovy" />
       <jump line="290" column="1" filename="$USER_HOME$/dev/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/map/FakturaGrunnlagStatus.java" />
       <jump line="13" column="20" filename="$USER_HOME$/dev/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/ReturnCode.java" />
+      <jump line="55" column="24" filename="$USER_HOME$/repos/claims/cabas/src/main/java/protector/claims/CabasService.java" />
+      <jump line="102" column="15" filename="$USER_HOME$/repos/claims/cabas/src/main/java/protector/claims/CabasService.java" />
+      <jump line="107" column="38" filename="$USER_HOME$/repos/claims/cabas/src/main/java/protector/claims/CabasService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -1867,7 +1875,7 @@
         <text>e Integer c</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxhcFw+</text>
+        <text encoding="base64">XDxjbGFpbURhb1w+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">CXB1YmxpYyBzdGF0aWMgSHR0cFN0YXR1cyB2YWx1ZU9mKGludCBzdGF0dXNDb2RlKSB7CgkJZm9yIChIdHRwU3RhdHVzIHN0YXR1cyA6IHZhbHVlcygpKSB7CgkJCWlmIChzdGF0dXMudmFsdWUgPT0gc3RhdHVzQ29kZSkgewoJCQkJcmV0dXJuIHN0YXR1czsKCQkJfQoJCX0KCQl0aHJvdyBuZXcgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJObyBtYXRjaGluZyBjb25zdGFudCBmb3IgWyIgKyBzdGF0dXNDb2RlICsgIl0iKTsKCX0K</text>
@@ -2239,9 +2247,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxhcFw+</last-search>
+      <last-search encoding="base64">XDxjbGFpbURhb1w+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxhcFw+</last-pattern>
+      <last-pattern encoding="base64">XDxjbGFpbURhb1w+</last-pattern>
       <last-replace />
       <last-substitute>[a-zA-Z]*[^.]</last-substitute>
       <last-dir>1</last-dir>
@@ -2249,7 +2257,6 @@
     </search>
     <history>
       <history-search>
-        <entry>\..*[^;]</entry>
         <entry>asdasdasd</entry>
         <entry encoding="base64">XDxldmVudHNcPg==</entry>
         <entry encoding="base64">XDxzZWxlY3RlZFVzZXJcPg==</entry>
@@ -2269,6 +2276,7 @@
         <entry>[a-zA-Z]*[^.]</entry>
         <entry>asdasd</entry>
         <entry encoding="base64">XDxhcFw+</entry>
+        <entry encoding="base64">XDxjbGFpbURhb1w+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL2FkZC9hcHBlbmQv</entry>

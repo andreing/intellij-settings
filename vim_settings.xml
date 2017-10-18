@@ -817,12 +817,12 @@
         <mark key="." line="9" column="4" />
         <mark key="^" line="9" column="4" />
       </file>
-      <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/ClaimsInvoiceDataController.java" timestamp="1508336448020">
-        <mark key="'" line="20" column="12" />
-        <mark key="[" line="40" column="5" />
-        <mark key="]" line="18" column="56" />
-        <mark key="." line="18" column="56" />
-        <mark key="^" line="22" column="14" />
+      <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/ClaimsInvoiceDataController.java" timestamp="1508338697982">
+        <mark key="'" line="47" column="12" />
+        <mark key="[" line="62" column="52" />
+        <mark key="]" line="62" column="62" />
+        <mark key="." line="62" column="62" />
+        <mark key="^" line="62" column="62" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/TemplateTreeMeta.java" timestamp="1485549613560">
         <mark key="[" line="2" column="31" />
@@ -1396,11 +1396,12 @@
         <mark key="^" line="32" column="10" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataService.java" timestamp="1508336670876">
-        <mark key="[" line="14" column="8" />
-        <mark key="]" line="13" column="7" />
-        <mark key="^" line="13" column="7" />
-        <mark key="." line="13" column="7" />
+      <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataService.java" timestamp="1508337505951">
+        <mark key="'" line="17" column="12" />
+        <mark key="[" line="31" column="108" />
+        <mark key="]" line="33" column="0" />
+        <mark key="." line="33" column="0" />
+        <mark key="^" line="33" column="3" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/TreeNode.java" timestamp="1484608697890">
         <mark key="[" line="20" column="17" />
@@ -1408,12 +1409,12 @@
         <mark key="^" line="20" column="9" />
         <mark key="." line="20" column="9" />
       </file>
-      <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataDao.java" timestamp="1508336732799">
+      <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataDao.java" timestamp="1508336904482">
         <mark key="'" line="16" column="12" />
-        <mark key="[" line="6" column="30" />
-        <mark key="]" line="8" column="52" />
-        <mark key="^" line="8" column="52" />
-        <mark key="." line="8" column="52" />
+        <mark key="[" line="6" column="33" />
+        <mark key="]" line="6" column="52" />
+        <mark key="^" line="6" column="52" />
+        <mark key="." line="6" column="52" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/consoles/db/6a6a7ba6-17e2-4f23-9eab-a9db6d5dea32/console_1.sql" timestamp="1505733638262">
         <mark key="[" line="0" column="0" />
@@ -1776,9 +1777,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="26" column="4" filename="$USER_HOME$/dev/dbs/build.gradle" />
-      <jump line="37" column="8" filename="$USER_HOME$/dev/dbs/build.gradle" />
-      <jump line="38" column="8" filename="$USER_HOME$/dev/dbs/build.gradle" />
       <jump line="6" column="8" filename="$USER_HOME$/dev/dbs/build.gradle" />
       <jump line="58" column="8" filename="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/HentFagdataService.java" />
       <jump line="383" column="9" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" />
@@ -1876,10 +1874,13 @@
       <jump line="19" column="4" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/ClaimsInvoiceDataController.java" />
       <jump line="26" column="0" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/ClaimsInvoiceDataController.java" />
       <jump line="22" column="12" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/ClaimsInvoiceDataController.java" />
+      <jump line="15" column="12" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataService.java" />
+      <jump line="30" column="0" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/ClaimsInvoiceDataController.java" />
+      <jump line="47" column="12" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/ClaimsInvoiceDataController.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>, consumes = MediaType.APPLICATION_JSON_UTF8_VALUE</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1938,28 +1939,28 @@
         <text>country</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgQFBhdGhWYXJpYWJsZSBMb25nIGNsYWltSGVhZGVySWQsCiAgICAgICAgICAgIEBQYXRoVmFyaWFibGUgU3RyaW5nIHJlZ2lzdHJhdGlvbk51bWJlciwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgQFBhdGhWYXJpYWJsZSBMb25nIGNsYWltSGVhZGVySWQsCiAgICAgICAgICAgIEBQYXRoVmFyaWFibGUgU3RyaW5nIHJlZ2lzdHJhdGlvbk51bWJlciwKICAgICAgICAgICAgQFJlcXVlc3RCb2R5IEludm9pY2VEYXRhQXV0byBpbnZvaWNlRGF0YUF1dG8sCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgQFAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEBHZXRNYXBwaW5nKHBhdGggPSApCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">RFJPUCBUQUJMRSBDbGFpbXNfSW52b2ljZV9EYXRhX1N0YXR1cwo=</text>
+        <text encoding="base64">ICAgICAgICBkYW8udXBkYXRlSW52b2ljZURhdGFTdGF0dXMoY2xhaW1IZWFkZXJJZCwgc3RhdHVzKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2294,13 +2295,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">RFJPUCBUQUJMRSBDbGFpbXNfSW52b2ljZV9EYXRhX1N0YXR1cwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">CkNSRUFURSBUQUJMRSBDbGFpbXNfSW52b2ljZV9EYXRhX0F1dG8gKAogIElkIElOVCBOT1QgTlVMTCBQUklNQVJZIEtFWQop</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZAo=</text>
+        <text encoding="base64">ICAgIEBHZXRNYXBwaW5nKHBhdGggPSApCg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1thLXpBLVpdKlteLl0vLw==</text>

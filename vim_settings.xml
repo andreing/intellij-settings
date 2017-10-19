@@ -198,7 +198,7 @@
       <file name="$USER_HOME$/dev/dbs/ws/oppdrag-ws/src/test/groovy/protector/dbs/ws/oppdrag/OppdragUnitBaseSpec.groovy" timestamp="1506514139237">
         <mark key="[" line="7" column="0" />
       </file>
-      <file name="/a.sql" timestamp="1508406648684">
+      <file name="/a.sql" timestamp="1508417895593">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssingment.java" timestamp="1479213358551">
@@ -488,10 +488,11 @@
         <mark key="." line="34" column="0" />
         <mark key="^" line="10" column="84" />
       </file>
-      <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataStatus.java" timestamp="1508328259807">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
+      <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataStatus.java" timestamp="1508416838825">
+        <mark key="[" line="5" column="14" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
+        <mark key="^" line="7" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claimsgateway/apps/servicecenter/servicecenter.js" timestamp="1495451319681">
         <mark key="[" line="84" column="11" />
@@ -657,7 +658,7 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1508410504749">
+      <file name="/Dummy.txt" timestamp="1508416081637">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="10" />
@@ -722,6 +723,9 @@
         <mark key="." line="43" column="0" />
         <mark key="^" line="42" column="81" />
       </file>
+      <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataJdbcDao.java" timestamp="1508416892558">
+        <mark key="[" line="6" column="59" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/ClaimSubLife.java" timestamp="1490789420941">
         <mark key="[" line="22" column="31" />
         <mark key="]" line="44" column="36" />
@@ -740,7 +744,7 @@
         <mark key="^" line="17" column="61" />
         <mark key="." line="17" column="61" />
       </file>
-      <file name="/fragment.java" timestamp="1508336516072">
+      <file name="/fragment.java" timestamp="1508416879301">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/AssigneePool.java" timestamp="1481730732412">
@@ -1165,12 +1169,12 @@
         <mark key="^" line="28" column="41" />
         <mark key="." line="28" column="41" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/6a6a7ba6-17e2-4f23-9eab-a9db6d5dea32/console.sql" timestamp="1507893884099">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/6a6a7ba6-17e2-4f23-9eab-a9db6d5dea32/console.sql" timestamp="1508417909782">
         <mark key="'" line="1" column="0" />
-        <mark key="[" line="22" column="0" />
-        <mark key="]" line="20" column="38" />
-        <mark key="." line="20" column="38" />
-        <mark key="^" line="20" column="38" />
+        <mark key="[" line="29" column="12" />
+        <mark key="]" line="29" column="12" />
+        <mark key="." line="29" column="12" />
+        <mark key="^" line="29" column="90" />
       </file>
       <file name="$USER_HOME$/dev/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/exception/AuthenticationException.java" timestamp="1507125757258">
         <mark key="[" line="2" column="27" />
@@ -1897,8 +1901,8 @@
       <jump line="47" column="12" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/ClaimsInvoiceDataController.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUK</text>
+      <register name="&quot;" type="4">
+        <text>Claim_Header_Id, Registration_Number, Deductible, Invoice_To, VAT_To, Reduction</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1951,7 +1955,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>, consumes = MediaType.APPLICATION_JSON_UTF8_VALUE</text>
+        <text>Claim_Header_Id, Registration_Number, Deductible, Invoice_To, VAT_To, Reduction</text>
       </register>
       <register name="/" type="4">
         <text>country</text>
@@ -1960,25 +1964,25 @@
         <text encoding="base64">ICAgICAgICAgICAgQFBhdGhWYXJpYWJsZSBMb25nIGNsYWltSGVhZGVySWQsCiAgICAgICAgICAgIEBQYXRoVmFyaWFibGUgU3RyaW5nIHJlZ2lzdHJhdGlvbk51bWJlciwKICAgICAgICAgICAgQFJlcXVlc3RCb2R5IEludm9pY2VEYXRhQXV0byBpbnZvaWNlRGF0YUF1dG8sCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUK</text>
+        <text encoding="base64">ICAgIFJFSkVDVEVECg==</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKQo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgewo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgQFAK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2313,13 +2317,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgQFAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1thLXpBLVpdKlteLl0vLw==</text>

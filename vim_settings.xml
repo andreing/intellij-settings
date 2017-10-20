@@ -232,6 +232,7 @@
         <mark key="^" line="1" column="7" />
         <mark key="." line="1" column="7" />
       </file>
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" timestamp="1508509946711" />
       <file name="$USER_HOME$/repos/claims/frontend/js/controllers/ClaimFormCtrl.js" timestamp="1484818534926">
         <mark key="[" line="74" column="0" />
         <mark key="]" line="74" column="0" />
@@ -1143,12 +1144,11 @@
         <mark key="." line="7" column="29" />
         <mark key="^" line="7" column="28" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/02385e45-7817-4344-8aca-b3a8940a4f60/console.sql" timestamp="1508506886012">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/02385e45-7817-4344-8aca-b3a8940a4f60/console.sql" timestamp="1508510950999">
         <mark key="'" line="1118" column="0" />
-        <mark key="[" line="1118" column="14" />
-        <mark key="]" line="1118" column="41" />
-        <mark key="." line="1118" column="0" />
-        <mark key="^" line="1117" column="0" />
+        <mark key="[" line="1123" column="34" />
+        <mark key="]" line="1124" column="0" />
+        <mark key="." line="1124" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/assignment/WeightedRoundRobin.java" timestamp="1478877999797">
         <mark key="[" line="13" column="91" />
@@ -1175,10 +1175,12 @@
         <mark key="." line="28" column="41" />
       </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.3.RELEASE/f963d559a56e848d01f973e4eb8c2428b6d8a6cd/spring-web-4.3.3.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RestController.java" timestamp="1508500590867" />
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/6a6a7ba6-17e2-4f23-9eab-a9db6d5dea32/console.sql" timestamp="1508506843271">
-        <mark key="[" line="66" column="0" />
-        <mark key="]" line="66" column="0" />
-        <mark key="." line="66" column="0" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/6a6a7ba6-17e2-4f23-9eab-a9db6d5dea32/console.sql" timestamp="1508509539672">
+        <mark key="'" line="74" column="10" />
+        <mark key="[" line="66" column="4" />
+        <mark key="]" line="66" column="2" />
+        <mark key="." line="66" column="2" />
+        <mark key="^" line="66" column="2" />
       </file>
       <file name="$USER_HOME$/dev/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/exception/AuthenticationException.java" timestamp="1507125757258">
         <mark key="[" line="2" column="27" />
@@ -1805,7 +1807,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="603" column="0" filename="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/map/SingleDamageInfo.java" />
       <jump line="60" column="32" filename="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/map/SingleDamageInfoMapper.java" />
       <jump line="45" column="16" filename="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/map/SingleDamageInfoMapper.java" />
       <jump line="46" column="57" filename="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/map/SingleDamageInfoMapper.java" />
@@ -1905,10 +1906,11 @@
       <jump line="118" column="16" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataJdbcDao.java" />
       <jump line="0" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/02385e45-7817-4344-8aca-b3a8940a4f60/console.sql" />
       <jump line="1118" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/02385e45-7817-4344-8aca-b3a8940a4f60/console.sql" />
+      <jump line="74" column="10" filename="$APPLICATION_CONFIG_DIR$/consoles/db/6a6a7ba6-17e2-4f23-9eab-a9db6d5dea32/console.sql" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">c2VsZWN0ICogZnJvbSBEb2N1bWVudCB3aGVyZSBpZCA9IDQ2NDYxODMK</text>
+        <text encoding="base64">LS0gICAgICAgICAgIEFORCBDb21tZW50cyBMSUtFICclU2tpY2thdDogZGVuIDIwIG9rdG9iZXIgMjAxNyAxNTozNyBUaWxsOiBTa2FkZSBTRSUnCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1970,25 +1972,33 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICJDbGFpbV9IZWFkZXJfSWQsIiArCiAgICAgICAgICAgICAgICAiUmVnaXN0cmF0aW9uX051bWJlciwiICsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">c2VsZWN0ICogZnJvbSBEb2N1bWVudCB3aGVyZSBpZCA9IDQ2NDYxODMK</text>
+        <text encoding="base64">LS0gICAgICAgICAgIEFORCBDb21tZW50cyBMSUtFICclU2tpY2thdDogZGVuIDIwIG9rdG9iZXIgMjAxNyAxNTozNyBUaWxsOiBTa2FkZSBTRSUnCg==</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBnZXQuYW5kRXhwZWN0KHN0YXR1cygpLmlzT2soKSkK</text>
+        <text encoding="base64">ICAgIE9SREVSIEJZIENyZWF0ZWQgQVNDCg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="8">
+        <text>H ce AS 
+ SELECT
+   *,
+   row_n
+   OVER 
+ FROM Cl
+ WHERE C
+       A
+PDATE ce</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIEBWYWx1ZSgpCg==</text>
+        <text encoding="base64">ICAgIE9SREVSIEJZIENyZWF0ZWQgQVNDCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAud2lsbFJldHVybigpCg==</text>
+        <text encoding="base64">c2VsZWN0ICogZnJvbSBEb2N1bWVudCB3aGVyZSBpZCA9IDQ2NDYxODMK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYyBvcmcubW9ja2l0by5CRERNb2NraXRvLmdpdmVuCg==</text>
+        <text encoding="base64">ICAgICAgICBnZXQuYW5kRXhwZWN0KHN0YXR1cygpLmlzT2soKSkK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2323,13 +2333,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">QFJlc3RDbGllbnRUZXN0KENsYWltc0ludm9pY2VEYXRhQXV0b0NvbnRyb2xsZXIpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">c3ByaW5nLnNlY3VyaXR5LmVuCg==</text>
+        <text encoding="base64">ICAgIEBWYWx1ZSgpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gdGVtcGxhdGUucXVlcnkoc3FsLCB0aGlzOjptYXBJbnZvaWNlRGF0YUJ5UmVnTnVtLCBjbGFpbUhlYWRlcklkKTsK</text>
+        <text encoding="base64">ICAgICAgICAud2lsbFJldHVybigpCg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1xcbi8vZw==</text>

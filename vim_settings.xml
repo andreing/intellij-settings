@@ -322,10 +322,11 @@
         <mark key="." line="23" column="0" />
         <mark key="^" line="23" column="4" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderLinker.java" timestamp="1509352199134">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="." line="3" column="0" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderLinker.java" timestamp="1509375030288">
+        <mark key="[" line="123" column="15" />
+        <mark key="]" line="123" column="19" />
+        <mark key="." line="123" column="19" />
+        <mark key="^" line="123" column="19" />
       </file>
       <file name="$USER_HOME$/repos/dmzproxy/metrics/statsd-client.js" timestamp="1496923802159">
         <mark key="[" line="2" column="0" />
@@ -660,7 +661,7 @@
         <mark key="^" line="0" column="10" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimHeaderCreatorJdbcDao.java" timestamp="1480000874576">
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimHeaderCreatorJdbcDao.java" timestamp="1509375950838">
         <mark key="[" line="54" column="0" />
         <mark key="]" line="54" column="0" />
         <mark key="." line="54" column="0" />
@@ -742,7 +743,7 @@
         <mark key="^" line="17" column="61" />
         <mark key="." line="17" column="61" />
       </file>
-      <file name="/fragment.java" timestamp="1509092292795">
+      <file name="/fragment.java" timestamp="1509374681118">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/AssigneePool.java" timestamp="1481730732412">
@@ -781,7 +782,7 @@
         <mark key="^" line="28" column="39" />
         <mark key="." line="28" column="39" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ContractController.java" timestamp="1509364815520">
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ContractController.java" timestamp="1509374603048">
         <mark key="[" line="20" column="27" />
         <mark key="]" line="20" column="34" />
         <mark key="^" line="20" column="34" />
@@ -1091,9 +1092,9 @@
         <mark key="." line="7" column="29" />
         <mark key="^" line="7" column="28" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/02385e45-7817-4344-8aca-b3a8940a4f60/console.sql" timestamp="1509368164868">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/02385e45-7817-4344-8aca-b3a8940a4f60/console.sql" timestamp="1509375216886">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="1147" column="52" />
+        <mark key="[" line="1149" column="44" />
         <mark key="]" line="1147" column="51" />
         <mark key="." line="1147" column="51" />
         <mark key="^" line="1147" column="51" />
@@ -1485,6 +1486,7 @@
         <mark key="^" line="3" column="35" />
         <mark key="." line="3" column="35" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/ClaimHeader.java" timestamp="1509375628662" />
       <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/Rainbow.java" timestamp="1508410002674">
         <mark key="[" line="6" column="16" />
         <mark key="]" line="6" column="11" />
@@ -1504,7 +1506,7 @@
         <mark key="." line="16" column="46" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/search/contracts/search-contracts-ctrl.js" timestamp="1509371910448">
-        <mark key="'" line="268" column="12" />
+        <mark key="'" line="269" column="12" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/ClaimsLetterTemplate.java" timestamp="1484230241819">
         <mark key="[" line="2" column="34" />
@@ -1810,8 +1812,8 @@
       <jump line="62" column="18" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">dGFyZ2V0Lwo=</text>
+      <register name="&quot;" type="4">
+        <text>h.getExternalContractType() != null</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1864,7 +1866,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text>h.getExternalContractType() != null</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxGaWxlU2VydmljZUNsaWVudFw+</text>

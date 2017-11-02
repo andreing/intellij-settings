@@ -934,12 +934,12 @@
         <mark key="^" line="12" column="17" />
         <mark key="." line="26" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/TransactionJdbcDao.java" timestamp="1509620234928">
-        <mark key="'" line="304" column="16" />
-        <mark key="[" line="302" column="17" />
-        <mark key="]" line="302" column="17" />
-        <mark key="^" line="302" column="17" />
-        <mark key="." line="302" column="17" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/TransactionJdbcDao.java" timestamp="1509622886575">
+        <mark key="'" line="305" column="55" />
+        <mark key="[" line="280" column="19" />
+        <mark key="]" line="280" column="26" />
+        <mark key="." line="280" column="26" />
+        <mark key="^" line="256" column="12" />
       </file>
       <file name="$USER_HOME$/dev/dbs/claimsclient/src/main/java/protector/dbs/claims/domain/DbsStatus.java" timestamp="1506518130548">
         <mark key="[" line="2" column="24" />
@@ -1701,10 +1701,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="22" column="17" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/AccountingJdbcDao.java" />
-      <jump line="116" column="11" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/AccountingJdbcDao.java" />
-      <jump line="118" column="78" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/AccountingJdbcDao.java" />
-      <jump line="367" column="8" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/AccountingJdbcDao.java" />
       <jump line="56" column="28" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataJdbcDao.java" />
       <jump line="57" column="27" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataJdbcDao.java" />
       <jump line="73" column="39" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataJdbcDao.java" />
@@ -1801,10 +1797,23 @@
       <jump line="686" column="31" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="15" column="23" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="272" column="16" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/TransactionJdbcDao.java" />
+      <jump line="256" column="31" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/TransactionJdbcDao.java" />
+      <jump line="320" column="53" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/TransactionJdbcDao.java" />
+      <jump line="265" column="45" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/TransactionJdbcDao.java" />
+      <jump line="305" column="55" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/TransactionJdbcDao.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICIgIiArCg==</text>
+      <register name="&quot;" type="4">
+        <text>g sql = &quot;SELECT &quot; +
+                &quot; Claim_Transaction.ID AS Claim_Transaction_PK, &quot; +
+                &quot; Claim_Transaction.Claim_ID, &quot; +
+                &quot; Claim_ROLE_ID, &quot; +
+                &quot; Ext_Transaction_Id, &quot; +
+                &quot; Transaction_Type_Id, &quot; +
+                &quot; Amount, &quot; +
+                &quot; Claim_Transaction.Status_Id, &quot; +
+                &quot; Claim_Transaction.Created, &quot; +
+                &quot; Claim_Transaction.Cr</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1857,16 +1866,25 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>ssification_Id in &quot; + j</text>
+        <text>CLAIM_HEADER</text>
       </register>
       <register name="/" type="4">
-        <text>,</text>
+        <text encoding="base64">XD5cKC5cKQ==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIEBSZXNwb25zZVN0YXR1cyhIdHRwU3RhdHVzLk5PVF9GT1VORCkgIC8vIDQwNAogICAgQEV4Y2VwdGlvbkhhbmRsZXIoTm90Rm91bmRFeGNlcHRpb24uY2xhc3MpCiAgICBAUmVzcG9uc2VCb2R5CiAgICBwdWJsaWMgRXJyb3JJbmZvIGhhbmRsZUNvbmZsaWN0KE5vdEZvdW5kRXhjZXB0aW9uIGUpIHsKICAgICAgICBMT0cuZXJyb3IoIkNhdWdodCBOb3RGb3VuZEV4Y2VwdGlvbjoge30iLCBlLmdldE1lc3NhZ2UoKSwgZSk7CiAgICAgICAgcmV0dXJuIG5ldyBFcnJvckluZm8oIlJlc291cmNlIG5vdCBmb3VuZDogIiArIGUuZ2V0TWVzc2FnZSgpKTsKICAgIH0K</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICIgIiArCg==</text>
+      <register name="1" type="4">
+        <text>g sql = &quot;SELECT &quot; +
+                &quot; Claim_Transaction.ID AS Claim_Transaction_PK, &quot; +
+                &quot; Claim_Transaction.Claim_ID, &quot; +
+                &quot; Claim_ROLE_ID, &quot; +
+                &quot; Ext_Transaction_Id, &quot; +
+                &quot; Transaction_Type_Id, &quot; +
+                &quot; Amount, &quot; +
+                &quot; Claim_Transaction.Status_Id, &quot; +
+                &quot; Claim_Transaction.Created, &quot; +
+                &quot; Claim_Transaction.Cr</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
@@ -1878,10 +1896,10 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICIgIiArCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICIiICsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICIgIiArCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICIgIiArCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICIiICsK</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICIgIiArCg==</text>
@@ -2228,25 +2246,20 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICIgIiArCg==</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5zLywvLCAiICtcciIvZw==</text>
+        <text encoding="base64">JzwsJz5zL1w+XCguXCkvXHVcMS9n</text>
       </register>
     </registers>
     <search>
-      <last-search>,</last-search>
+      <last-search encoding="base64">XD5cKC5cKQ==</last-search>
       <last-offset />
-      <last-pattern>,</last-pattern>
-      <last-replace>, &quot; +\r&quot;</last-replace>
-      <last-substitute>,</last-substitute>
+      <last-pattern encoding="base64">XD5cKC5cKQ==</last-pattern>
+      <last-replace>\u\1</last-replace>
+      <last-substitute encoding="base64">XD5cKC5cKQ==</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxhcFw+</entry>
-        <entry encoding="base64">XDxjbGFpbURhb1w+</entry>
-        <entry>country</entry>
-        <entry encoding="base64">XDxTaW1wbGVKZGJjQ2FsbFw+</entry>
-        <entry encoding="base64">XDxzaW1wbGVKZGJjQ2FsbFw+</entry>
         <entry encoding="base64">XDxCaWdEZWNpbWFsXD4=</entry>
         <entry encoding="base64">KyA=</entry>
         <entry>\\n</entry>
@@ -2262,13 +2275,13 @@
         <entry encoding="base64">XDxGaWxlU2VydmljZUNsaWVudFw+</entry>
         <entry encoding="base64">XDxzdWJtaXR0ZWRcPg==</entry>
         <entry>,</entry>
+        <entry>CLAIM_HEADER</entry>
+        <entry>CLAIM_TRANSACTION</entry>
+        <entry>CLAIM</entry>
+        <entry>\b\(.\)</entry>
+        <entry encoding="base64">XD5cKC5cKQ==</entry>
       </history-search>
       <history-cmd>
-        <entry>reg</entry>
-        <entry encoding="base64">JzwsJz5zL1x3Klwuc2V0L3RoaXNcLmJ1aWxkZXJcLndpdGgv</entry>
-        <entry encoding="base64">JzwsJz5zL1x3KlwuXHcqW14uXS8v</entry>
-        <entry encoding="base64">JzwsJz5zL1wuc2V0L1wud2l0aC8=</entry>
-        <entry encoding="base64">JzwsJz5zLzsvLw==</entry>
         <entry encoding="base64">JzwsJz5zL15cdypbXi5dLy8=</entry>
         <entry encoding="base64">JzwsJz5zL1x3KlteLl0vLw==</entry>
         <entry encoding="base64">JzwsJz5zL1x3KlwuLy8=</entry>
@@ -2284,6 +2297,11 @@
         <entry encoding="base64">JzwsJz5zLywvLCAiICtcbi9n</entry>
         <entry encoding="base64">JzwsJz5zLywvLCAiICtcci9n</entry>
         <entry encoding="base64">JzwsJz5zLywvLCAiICtcciIvZw==</entry>
+        <entry encoding="base64">JzwsJz5zL0NMQUlNX0hFQURFUi9DbGFpbV9IZWFkZXIvZw==</entry>
+        <entry encoding="base64">JzwsJz5zL0NMQUlNX1RSQU5TQUNUSU9OL0NsYWltX1RyYW5zYWN0aW9uL2c=</entry>
+        <entry encoding="base64">JzwsJz5zL0NMQUlNL0NsYWltL2c=</entry>
+        <entry encoding="base64">JzwsJz5zL1xiXCguXCkvXHVcMS9n</entry>
+        <entry encoding="base64">JzwsJz5zL1w+XCguXCkvXHVcMS9n</entry>
       </history-cmd>
       <history-expr />
       <history-input />

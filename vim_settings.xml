@@ -51,6 +51,9 @@
       <file name="$USER_HOME$/dev/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagEndpoint.java" timestamp="1506509075628">
         <mark key="[" line="9" column="36" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" timestamp="1509702252941">
+        <mark key="'" line="335" column="4" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/MetaTemplateFolder.java" timestamp="1485550896220">
         <mark key="[" line="9" column="62" />
         <mark key="]" line="9" column="29" />
@@ -654,7 +657,7 @@
       <file name="$USER_HOME$/repos/claims/reporting/src/main/java/protector/claims/reporting/finnish/FinnishReportingController.java" timestamp="1509636290842">
         <mark key="[" line="84" column="5" />
       </file>
-      <file name="/Dummy.txt" timestamp="1509630224315">
+      <file name="/Dummy.txt" timestamp="1509702033154">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="10" />
@@ -1119,12 +1122,12 @@
         <mark key="^" line="24" column="33" />
         <mark key="." line="24" column="33" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" timestamp="1509638318030">
-        <mark key="'" line="24" column="8" />
-        <mark key="[" line="34" column="13" />
-        <mark key="]" line="16" column="7" />
-        <mark key="." line="16" column="7" />
-        <mark key="^" line="16" column="7" />
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" timestamp="1509701665666">
+        <mark key="'" line="23" column="8" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+        <mark key="^" line="15" column="7" />
       </file>
       <file name="$USER_HOME$/repos/claims/.idea/modules/web/web_main.iml" timestamp="1509452838044">
         <mark key="[" line="30" column="50" />
@@ -1298,6 +1301,7 @@
         <mark key="^" line="17" column="28" />
         <mark key="." line="100" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-content.html" timestamp="1509702032007" />
       <file name="$USER_HOME$/repos/protector-commons/setting.xml" timestamp="1483967951014">
         <mark key="[" line="5" column="22" />
         <mark key="]" line="5" column="29" />
@@ -1704,9 +1708,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="65" column="8" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataJdbcDao.java" />
-      <jump line="83" column="8" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataJdbcDao.java" />
-      <jump line="101" column="0" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataJdbcDao.java" />
       <jump line="117" column="8" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataJdbcDao.java" />
       <jump line="21" column="0" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/ClaimsInvoiceDataController.java" />
       <jump line="20" column="4" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/ClaimsInvoiceDataController.java" />
@@ -1804,10 +1805,13 @@
       <jump line="1009" column="89" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/TransactionJdbcDao.java" />
       <jump line="14" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
       <jump line="23" column="8" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
+      <jump line="264" column="15" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" />
+      <jump line="117" column="34" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" />
+      <jump line="335" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAob2JqZWN0T3B0aW9uYWwuaXNQcmVzZW50KCkpIHsKICAgICAgICAgICAgcmV0dXJuIGRvU29tZXRoaW5nKG9iamVjdE9wdGlvbmFsLmdldCgpKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIE9wdGlvbmFsLmVtcHR5KCk7Cg==</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5Db2xsZWN0aW9uczsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1863,31 +1867,31 @@
         <text>-</text>
       </register>
       <register name="/" type="4">
-        <text>,</text>
+        <text encoding="base64">XDxwYXJ0eUluZm9DaGFuZ2VkXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBPcHRpb25hbDxPYmplY3Q+IG9iamVjdE9wdGlvbmFsID0gZ2V0T2JqZWN0T3B0aW9uYWwoKTsKICAgICAgICBpZiAob2JqZWN0T3B0aW9uYWwuaXNQcmVzZW50KCkpIHsKICAgICAgICAgICAgcmV0dXJuIGRvU29tZXRoaW5nKG9iamVjdE9wdGlvbmFsLmdldCgpKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIE9wdGlvbmFsLmVtcHR5KCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAob2JqZWN0T3B0aW9uYWwuaXNQcmVzZW50KCkpIHsKICAgICAgICAgICAgcmV0dXJuIGRvU29tZXRoaW5nKG9iamVjdE9wdGlvbmFsLmdldCgpKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIE9wdGlvbmFsLmVtcHR5KCk7Cg==</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5Db2xsZWN0aW9uczsK</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAob2JqZWN0T3B0aW9uYWwuaXNQcmVzZW50KCkpIHsKICAgICAgICAgICAgcmV0dXJuIGRvU29tZXRoaW5nKG9iamVjdE9wdGlvbmFsLmdldCgpKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIE9wdGlvbmFsLmVtcHR5KCk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIC8vMi4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgIC8vMi4K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHsK</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBNYXA8VHJhbnNhY3Rpb24sIExvbmc+IG1hcCA9IG5ldyBIYXNoTWFwPD4oKTsK</text>
+        <text encoding="base64">ICAgIHsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2221,23 +2225,23 @@
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="7" type="8">
-        <text encoding="base64">IAogCiAKIA==</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBNYXA8VHJhbnNhY3Rpb24sIExvbmc+IG1hcCA9IG5ldyBIYXNoTWFwPD4oKTsK</text>
       </register>
       <register name="8" type="8">
         <text encoding="base64">IAogCiAKIA==</text>
       </register>
       <register name="9" type="8">
-        <text encoding="base64">IAogCiAKIAog</text>
+        <text encoding="base64">IAogCiAKIA==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zLywvLCAiICtcciIvZw==</text>
       </register>
     </registers>
     <search>
-      <last-search>,</last-search>
+      <last-search encoding="base64">XDxwYXJ0eUluZm9DaGFuZ2VkXD4=</last-search>
       <last-offset />
-      <last-pattern>,</last-pattern>
+      <last-pattern encoding="base64">XDxwYXJ0eUluZm9DaGFuZ2VkXD4=</last-pattern>
       <last-replace>, &quot; +\r&quot;</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -2245,7 +2249,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxCaWdEZWNpbWFsXD4=</entry>
         <entry encoding="base64">KyA=</entry>
         <entry>\\n</entry>
         <entry encoding="base64">XDxpc1RyYW5zYWN0aW9uQWRtaW5cPg==</entry>
@@ -2265,6 +2268,7 @@
         <entry>\b\(.\)</entry>
         <entry encoding="base64">XD5cKC5cKQ==</entry>
         <entry>,</entry>
+        <entry encoding="base64">XDxwYXJ0eUluZm9DaGFuZ2VkXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL15cdypbXi5dLy8=</entry>

@@ -236,6 +236,9 @@
         <mark key="^" line="35" column="29" />
         <mark key="." line="35" column="29" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" timestamp="1510226663346">
+        <mark key="'" line="157" column="36" />
+      </file>
       <file name="$USER_HOME$/dev/dbs/ws/oppdrag-ws/src/test/groovy/protector/dbs/ws/oppdrag/OppdragUnitBaseSpec.groovy" timestamp="1506514139237">
         <mark key="[" line="7" column="0" />
       </file>
@@ -669,6 +672,11 @@
         <mark key="^" line="11" column="34" />
         <mark key="." line="11" column="34" />
       </file>
+      <file name="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/claims/Application.java" timestamp="1510227236668">
+        <mark key="[" line="128" column="36" />
+        <mark key="]" line="130" column="0" />
+        <mark key="." line="130" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/AssignClaimService.java" timestamp="1478703985877">
         <mark key="[" line="36" column="36" />
         <mark key="]" line="38" column="31" />
@@ -699,7 +707,7 @@
       <file name="$USER_HOME$/repos/claims/reporting/src/main/java/protector/claims/reporting/finnish/FinnishReportingController.java" timestamp="1509636290842">
         <mark key="[" line="84" column="5" />
       </file>
-      <file name="/Dummy.txt" timestamp="1510145849135">
+      <file name="/Dummy.txt" timestamp="1510227330204">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="10" />
@@ -790,7 +798,7 @@
         <mark key="^" line="17" column="61" />
         <mark key="." line="17" column="61" />
       </file>
-      <file name="/fragment.java" timestamp="1509971731443">
+      <file name="/fragment.java" timestamp="1510227330196">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/AssigneePool.java" timestamp="1481730732412">
@@ -1111,8 +1119,8 @@
         <mark key="^" line="112" column="3" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" timestamp="1510224476878">
-        <mark key="'" line="208" column="38" />
+      <file name="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" timestamp="1510226433924">
+        <mark key="'" line="74" column="13" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/MetaClaimsTemplate.java" timestamp="1485551104932">
         <mark key="[" line="9" column="62" />
@@ -1771,17 +1779,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="201" column="23" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/service/ClaimsMailService.java" />
-      <jump line="204" column="28" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/service/ClaimsMailService.java" />
-      <jump line="155" column="17" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
-      <jump line="166" column="16" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
-      <jump line="184" column="20" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
-      <jump line="192" column="20" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
-      <jump line="133" column="31" filename="$USER_HOME$/repos/contractservice/src/main/java/no/protector/service/BafoService.java" />
-      <jump line="134" column="68" filename="$USER_HOME$/repos/contractservice/src/main/java/no/protector/service/BafoService.java" />
-      <jump line="20" column="38" filename="$USER_HOME$/repos/contractservice/src/main/java/no/protector/service/BafoService.java" />
-      <jump line="26" column="8" filename="$USER_HOME$/repos/contractservice/src/main/java/no/protector/service/BafoService.java" />
-      <jump line="159" column="12" filename="$USER_HOME$/repos/contractservice/src/main/java/no/protector/service/BafoService.java" />
       <jump line="162" column="12" filename="$USER_HOME$/repos/contractservice/src/main/java/no/protector/service/BafoService.java" />
       <jump line="163" column="31" filename="$USER_HOME$/repos/contractservice/src/main/java/no/protector/service/BafoService.java" />
       <jump line="169" column="12" filename="$USER_HOME$/repos/contractservice/src/main/java/no/protector/service/BafoService.java" />
@@ -1871,10 +1868,21 @@
       <jump line="262" column="16" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
       <jump line="144" column="12" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
       <jump line="208" column="38" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
+      <jump line="63" column="23" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
+      <jump line="74" column="13" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
+      <jump line="166" column="18" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" />
+      <jump line="167" column="11" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" />
+      <jump line="168" column="15" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" />
+      <jump line="44" column="23" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" />
+      <jump line="76" column="52" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" />
+      <jump line="87" column="33" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" />
+      <jump line="156" column="29" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" />
+      <jump line="157" column="36" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" />
+      <jump line="125" column="12" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/claims/Application.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2VUaHJvdygoKSAtPiApOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1930,35 +1938,35 @@
         <text>Timestamp.valueOf(LocalDateTime.now())</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjb25uZWN0aW9uXD4=</text>
+        <text encoding="base64">XDxEYXRhU291cmNlXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">RlJPTSBVc2VycyB1CiAgSk9JTiBDbGFpbV9Vc2VyIGN1IE9OIHUuSWQgPSBjdS5Vc2VyX0lkCldIRVJFIHUuVXNlcl9OYW1lID0gJ3RvZ2k5OScK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2VUaHJvdygoKSAtPiApOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2VUaHJvdygoKSAtPiApOwo=</text>
+      </register>
+      <register name="3" type="4">
         <text>String.format(
                         &quot;Invoice data for claim header %d and vehicle registration %s was not found&quot;,
                         claimHeaderId,
                         regNumUpper
                 )</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICByZXR1cm4gcm93c0FmZmVjdGVkID09IDE7Cg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICBpZiAocm93c0FmZmVjdGVkID09IDApIHsKICAgICAgICAgICAgdGhyb3cgbmV3IAogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHJvd3NBZmZlY3RlZDsK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBPcHRpb24ud2hlbihyb3dzQWZmZWN0ZWQgPT0gMSwgdHJ1ZSkKICAgICAgICAgICAgICAudG9KYXZhT3B0aW9uYWwoKTsKICAgICAgICByZXR1cm4gT3B0aW9uYWwub2Yocm93c0FmZmVjdGVkKS5tYXAocm93cyAtPiByb3dzID09IDEgPyB0cnVlIDogT3B0aW9uYWwuZW1wdHkoKSk7Cg==</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoaSA9IDApIHsKICAgICAgICAgICAgcmV0dXJuIE9wdGlvbmFsLm9mKHRydWUpOwogICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICBPcHRpb24ud2hlbihyb3dzQWZmZWN0ZWQgPT0gMSwgdHJ1ZSkKICAgICAgICAgICAgICAudG9KYXZhT3B0aW9uYWwoKTsKICAgICAgICByZXR1cm4gT3B0aW9uYWwub2Yocm93c0FmZmVjdGVkKS5tYXAocm93cyAtPiByb3dzID09IDEgPyB0cnVlIDogT3B0aW9uYWwuZW1wdHkoKSk7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2293,31 +2301,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAoaSA9IDApIHsKICAgICAgICAgICAgcmV0dXJuIE9wdGlvbmFsLm9mKHRydWUpOwogICAgICAgIH0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gUmVzcG9uc2VFbnRpdHkubm9Db250ZW50KCkuYnVpbGQoKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoZGFvLmdldEludm9pY2VTdGF0dXMoY2xhaW1IZWFkZXJJZCkuaXNQcmVzZW50KCkpIHsKICAgICAgICAgICAgaW50IHJvd3NBZmZlY3RlZCA9IGRhby51cGRhdGVJbnZvaWNlRGF0YVN0YXR1cyhjbGFpbUhlYWRlcklkLCBzdGF0dXMsIHVzZXIpOwogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZGFvLmluc2VydEludm9pY2VEYXRhU3RhdHVzKGNsYWltSGVhZGVySWQsIHN0YXR1cywgdXNlcik7CiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gUmVzcG9uc2VFbnRpdHkubm9Db250ZW50KCkuYnVpbGQoKTsK</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjb25uZWN0aW9uXD4=</last-search>
+      <last-search encoding="base64">XDxEYXRhU291cmNlXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjb25uZWN0aW9uXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxEYXRhU291cmNlXD4=</last-pattern>
       <last-replace>, &quot; +\r&quot;</last-replace>
       <last-substitute>,</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>\\n</entry>
-        <entry encoding="base64">XDxpc1RyYW5zYWN0aW9uQWRtaW5cPg==</entry>
         <entry encoding="base64">XDxyZWNpcGllbnRzXD4=</entry>
         <entry encoding="base64">XDxldmVudElkXD4=</entry>
         <entry encoding="base64">XDxwZnNQcm9kdWN0VG9CYWZvUHJvZHVjdFw+</entry>
@@ -2336,6 +2342,8 @@
         <entry encoding="base64">XDxwYXJ0eUluZm9DaGFuZ2VkXD4=</entry>
         <entry encoding="base64">XDx1c2VyRGFvXD4=</entry>
         <entry encoding="base64">XDxjb25uZWN0aW9uXD4=</entry>
+        <entry encoding="base64">XDxkYXRhU291cmNlXD4=</entry>
+        <entry encoding="base64">XDxEYXRhU291cmNlXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1x3KlteLl0vLw==</entry>

@@ -603,6 +603,9 @@
         <mark key="." line="278" column="129" />
         <mark key="^" line="278" column="129" />
       </file>
+      <file name="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/domain/Message.java" timestamp="1510661742033">
+        <mark key="'" line="41" column="182" />
+      </file>
       <file name="$USER_HOME$/repos/takstrekvisisjon/Dockerfile" timestamp="1485253377599">
         <mark key="[" line="1" column="45" />
         <mark key="]" line="4" column="72" />
@@ -1149,11 +1152,12 @@
         <mark key="^" line="112" column="3" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" timestamp="1510655928549">
-        <mark key="'" line="228" column="20" />
-        <mark key="[" line="269" column="32" />
-        <mark key="]" line="261" column="0" />
-        <mark key="." line="261" column="0" />
+      <file name="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" timestamp="1510662380365">
+        <mark key="'" line="229" column="20" />
+        <mark key="[" line="250" column="57" />
+        <mark key="]" line="246" column="63" />
+        <mark key="^" line="246" column="63" />
+        <mark key="." line="246" column="63" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/MetaClaimsTemplate.java" timestamp="1485551104932">
         <mark key="[" line="9" column="62" />
@@ -1812,11 +1816,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="65" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/invoicedata/InvoiceDataJdbcDao.java" />
-      <jump line="75" column="16" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/invoicedata/InvoiceDataController.java" />
-      <jump line="166" column="18" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" />
-      <jump line="167" column="11" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" />
-      <jump line="168" column="15" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" />
       <jump line="44" column="23" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" />
       <jump line="76" column="52" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" />
       <jump line="87" column="33" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" />
@@ -1912,10 +1911,15 @@
       <jump line="230" column="28" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
       <jump line="269" column="97" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
       <jump line="231" column="20" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
+      <jump line="27" column="34" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/domain/Message.java" />
+      <jump line="24" column="24" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/domain/Message.java" />
+      <jump line="37" column="181" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/domain/Message.java" />
+      <jump line="38" column="92" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/domain/Message.java" />
+      <jump line="41" column="182" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/domain/Message.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGNvbm5lY3Rpb24ucm9sbGJhY2soKTsKICAgICAgICAgICAgfSBjYXRjaCAoU1FMRXhjZXB0aW9uIGUxKSB7CiAgICAgICAgICAgICAgICBMT0cud2FybigiRGV0IG9wcHN0byBmZWlsIHZlZCByb2xsYmFjayIsIGUxKTsKICAgICAgICAgICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgIC5maWx0ZXIoT3B0aW9uYWw6OmlzUHJlc2VudCkKICAgICAgICAgICAgICAgICAgICAgIC5tYXAoT3B0aW9uYWw6OmdldCk7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1971,13 +1975,13 @@
         <text>p</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjcmVhdGVkQnlBcHBcPg==</text>
+        <text encoding="base64">XDxtaW1lQ29udGVudFw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgIExPRy5lcnJvcigiZXJyb3JFdmVudD1mYWlsZWRUb1NhdmVBdHRhY2htZW50IGV2ZW50SWQ9IitldmVudElkKyIgRmFpbGVkIHRvIHNhdmUgZmlsZSB0byBmaWxlU2VydmljZSB3aXRoIG5hbWUgIiArIGF0dGFjaG1lbnQuZmlsZU5hbWUsZSk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGNvbm5lY3Rpb24ucm9sbGJhY2soKTsKICAgICAgICAgICAgfSBjYXRjaCAoU1FMRXhjZXB0aW9uIGUxKSB7CiAgICAgICAgICAgICAgICBMT0cud2FybigiRGV0IG9wcHN0byBmZWlsIHZlZCByb2xsYmFjayIsIGUxKTsKICAgICAgICAgICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgIC5maWx0ZXIoT3B0aW9uYWw6OmlzUHJlc2VudCkKICAgICAgICAgICAgICAgICAgICAgIC5tYXAoT3B0aW9uYWw6OmdldCk7Cg==</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
@@ -1986,16 +1990,16 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29ubmVjdGlvbi5jb21taXQoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIE9wdGlvbmFsPGJ5dGVbXT4gbWltZUNvbnRlbnRPcHQgPSBPcHRpb25hbC5vZk51bGxhYmxlKG1lc3NhZ2UubWltZUNvbnRlbnQpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmKG1lc3NhZ2UuZ2V0TWltZUNvbnRlbnRJbnB1dFN0cmVhbSgpLmlzUHJlc2VudCgpKXsKICAgICAgICAgICAgICAgICAgICBpcyA9IG1lc3NhZ2UuZ2V0TWltZUNvbnRlbnRJbnB1dFN0cmVhbSgpLmdldCgpOwogICAgICAgICAgICAgICAgICAgIHNpemUgPSBtZXNzYWdlLnNpemU7CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGlzID0gbmV3IEJ5dGVBcnJheUlucHV0U3RyZWFtKG1lc3NhZ2UubWltZUNvbnRlbnQpOwogICAgICAgICAgICAgICAgICAgIHNpemUgPSBtZXNzYWdlLm1pbWVDb250ZW50Lmxlbmd0aDsKICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29ubmVjdGlvbi5jb21taXQoKTsgLy8gSG1tbSEhIEhhciB2aSBpa2tlIGtvbnRyb2xsIHDDpSB0cmFuc2Frc2pvbmVuZSwgZWxsZXIgLi4uPwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIEludGVnZXIgc2l6ZSA9IDsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIEZpbGVNZXRhZGF0YSBtZXRhZGF0YSA9IGZpbGVTZXJ2aWNlQ2xpZW50LnNhdmVGaWxlKGlzLEFQUF9OQU1FLGZpbGVOYW1lLG1pbWVUeXBlKTsKICAgICAgICAgICAgICAgIGRvY3VtZW50SWQgPSBpbnNlcnREb2N1bWVudCh0c05vdywgbWV0YWRhdGEuZ2V0SWQoKSwgaWRQYWlyLmNsYWltSGVhZGVySWQsIG1pbWVUeXBlLCBmaWxlTmFtZSwgc2l6ZSk7CiAgICAgICAgICAgICAgICBMT0cuaW5mbygiTGFncmV0IG9yaWdpbmFsbWVsZGluZyBzb20gdmVkbGVnZyB0aWwgc2thZGVtYXBwZSAiICsgaWRQYWlyLmNsYWltSGVhZGVySWQgKyAiIG1lZCBuYXZuIFwiIiArIGZpbGVOYW1lCiAgICAgICAgICAgICAgICAgICAgICAgICsgIlwiLCBzb20gZmlrayBmaWxlU2VydmljZUlkPSIgKyBtZXRhZGF0YS5nZXRJZCgpICsgIiBvZyBibGUga255dHRldCB0aWwgZG9jdW1lbnRJZD0iICsgZG9jdW1lbnRJZCk7CiAgICAgICAgICAgICAgICBTdHJpbmcgc3FsID0gIklOU0VSVCBpbnRvIENMQUlNX0RPQ1VNRU5UX0VWRU5UIChjbGFpbV9ldmVudF9pZCwgY2xhaW1fZG9jdW1lbnRfaWQpIHZhbHVlcyAoIgogICAgICAgICAgICAgICAgICAgICAgICArIGV2ZW50SWQgKyAiLCAiICsgZG9jdW1lbnRJZCArICIpIjsKCiAgICAgICAgICAgICAgICB0cnkgKFN0YXRlbWVudCBzdG10ID0gY29ubmVjdGlvbi5jcmVhdGVTdGF0ZW1lbnQoKSkgewogICAgICAgICAgICAgICAgICAgIHN0bXQuZXhlY3V0ZShzcWwpOwogICAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2330,22 +2334,22 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgdHJ5IChTdGF0ZW1lbnQgc3RtdCA9IGNvbm5lY3Rpb24uY3JlYXRlU3RhdGVtZW50KCkpewovLyAgICAgICAgICAgICAgICAgICAgaWYoU3RyaW5nVXRpbHMuaXNFbXB0eShhdHRhY2htZW50LmZpbGVOYW1lKSl7Ci8vICAgICAgICAgICAgICAgICAgICAgICAgTE9HLmVycm9yKCJGaWxlTmFtZSBpcyBlbXB0eTogaGVhZGVySWQ6ICIgKyBpZFBhaXIuY2xhaW1IZWFkZXJJZCArICIgZnJvbTogIiArZnJvbSk7Ci8vICAgICAgICAgICAgICAgICAgICAgICAgdGhyb3cgbmV3IElPRXhjZXB0aW9uKCJzdXBwbGllZCBhdHRhY2htZW50IGhhcyBlbXB0eSBmaWxlTmFtZSwgY2Fubm90IHNhdmUiICsgYXR0YWNobWVudC50b1N0cmluZygpKTsKLy8gICAgICAgICAgICAgICAgICAgIH0KLy8gICAgICAgICAgICAgICAgICAgIEZpbGVNZXRhZGF0YSBtZXRhZGF0YSA9IGZpbGVTZXJ2aWNlQ2xpZW50LnNhdmVGaWxlKGF0dGFjaG1lbnQuZ2V0Q29udGVudCgpLGNyZWF0ZWRCeUFwcCxhdHRhY2htZW50LmZpbGVOYW1lLGF0dGFjaG1lbnQubWltZVR5cGUpOwovLyAgICAgICAgICAgICAgICAgICAgZG9jdW1lbnRJZCA9IGluc2VydERvY3VtZW50KHRzTm93LCBtZXRhZGF0YS5nZXRJZCgpLCBpZFBhaXIuY2xhaW1IZWFkZXJJZCwgYXR0YWNobWVudC5taW1lVHlwZSwgYXR0YWNobWVudC5maWxlTmFtZSwgbWV0YWRhdGEuZ2V0U2l6ZSgpKTsKLy8gICAgICAgICAgICAgICAgICAgIExPRy5pbmZvKCJMYWdyZXQgdmVkbGVnZyB0aWwgc2thZGVtYXBwZSAiICsgaWRQYWlyLmNsYWltSGVhZGVySWQgKyAiIG1lZCBuYXZuIFwiIiArIGF0dGFjaG1lbnQuZmlsZU5hbWUKLy8gICAgICAgICAgICAgICAgICAgICAgICAgICAgKyAiXCIsIHNvbSBmaWtrIGZpbGVTZXJ2aWNlSWQ9IiArIG1ldGFkYXRhLmdldElkKCkgKyAiIG9nIGJsZSBrbnl0dGV0IHRpbCBkb2N1bWVudElkPSIgKyBkb2N1bWVudElkKTsKLy8gICAgICAgICAgICAgICAgICAgIFN0cmluZyBzcWwgPSAiSU5TRVJUIGludG8gQ0xBSU1fRE9DVU1FTlRfRVZFTlQgKGNsYWltX2V2ZW50X2lkLCBjbGFpbV9kb2N1bWVudF9pZCkgdmFsdWVzICgiCi8vICAgICAgICAgICAgICAgICAgICAgICAgICAgICsgZXZlbnRJZCArICIsICIgKyBkb2N1bWVudElkICsgIikiOwovLwovLyAgICAgICAgICAgICAgICAgICAgc3RtdC5leGVjdXRlKHNxbCk7Ci8vICAgICAgICAgICAgICAgICAgICBzdWNjZXNzQ291bnQrKzsKLy8gICAgICAgICAgICAgICAgfSBjYXRjaCAoSU9FeGNlcHRpb24gZSl7Ci8vICAgICAgICAgICAgICAgICAgICBMT0cuZXJyb3IoImVycm9yRXZlbnQ9ZmFpbGVkVG9TYXZlQXR0YWNobWVudCBldmVudElkPSIrZXZlbnRJZCsiIEZhaWxlZCB0byBzYXZlIGZpbGUgdG8gZmlsZVNlcnZpY2Ugd2l0aCBuYW1lICIgKyBhdHRhY2htZW50LmZpbGVOYW1lLGUpOwovLyAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBUaW1lc3RhbXAgdHNOb3cgPSBUaW1lc3RhbXAuZnJvbShJbnN0YW50Lm5vdygpKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBMT0cuZXJyb3IoZS5nZXRNZXNzYWdlKCksIGUpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGNvbm5lY3Rpb24ucm9sbGJhY2soKTsKICAgICAgICAgICAgfSBjYXRjaCAoU1FMRXhjZXB0aW9uIGUxKSB7CiAgICAgICAgICAgICAgICBMT0cud2FybigiRGV0IG9wcHN0byBmZWlsIHZlZCByb2xsYmFjayIsIGUxKTsKICAgICAgICAgICAgfQoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgY3JlYXRlZEJ5QXBwID0gIm1haWxzZXJ2aWNlIjsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjcmVhdGVkQnlBcHBcPg==</last-search>
+      <last-search encoding="base64">XDxtaW1lQ29udGVudFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjcmVhdGVkQnlBcHBcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxtaW1lQ29udGVudFw+</last-pattern>
       <last-replace>, &quot; +\r&quot;</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -2353,8 +2357,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxtYXRjaFR5cGVJc0ludGVybmFsXD4=</entry>
-        <entry encoding="base64">XDxmaWxlU2VydmljZUNsaWVudFw+</entry>
         <entry encoding="base64">XDxGaWxlU2VydmljZUNsaWVudFw+</entry>
         <entry encoding="base64">XDxzdWJtaXR0ZWRcPg==</entry>
         <entry>CLAIM_HEADER</entry>
@@ -2373,6 +2375,8 @@
         <entry encoding="base64">XDxoYXNDV0JDb2x1bW5zXD4=</entry>
         <entry encoding="base64">XDxkb2N1bWVudElkXD4=</entry>
         <entry encoding="base64">XDxjcmVhdGVkQnlBcHBcPg==</entry>
+        <entry encoding="base64">XDxtaW1lQ29udGVudElucHV0U3RyZWFtXD4=</entry>
+        <entry encoding="base64">XDxtaW1lQ29udGVudFw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1x3KlteLl0vLw==</entry>

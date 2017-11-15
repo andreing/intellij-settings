@@ -277,8 +277,10 @@
         <mark key="." line="45" column="55" />
         <mark key="^" line="45" column="55" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-module.js" timestamp="1510745685694">
-        <mark key="[" line="0" column="35" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-module.js" timestamp="1510755987474">
+        <mark key="[" line="6" column="77" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/claims/components/static_data/static-data-module.js" timestamp="1481896198643">
         <mark key="[" line="3" column="24" />
@@ -624,8 +626,11 @@
         <mark key="^" line="2" column="55" />
         <mark key="." line="2" column="55" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" timestamp="1510746039405">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" timestamp="1510756287964">
+        <mark key="[" line="23" column="91" />
+        <mark key="]" line="23" column="71" />
+        <mark key="^" line="23" column="71" />
+        <mark key="." line="23" column="71" />
       </file>
       <file name="$USER_HOME$/dev/dbs/src/main/java/protector/dbs/ws/fakturagrunnlag/generated/SpringFakturagrunnlagWsConfig.java" timestamp="1493042779481">
         <mark key="[" line="6" column="44" />
@@ -1912,7 +1917,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLmFueU1hdGNoKGlkIC0+IHZhbGlkYXRlQWNjZXNzVG9QYXJ0eShpZCwgY3VycmVudFVzZXIpKQogICAgICAgICAgICAgICAgICAgICAgICAub3JFbHNlKGZhbHNlKTsK</text>
+        <text encoding="base64">aW1wb3J0IHggZnJvbSAnLi9pJwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1974,25 +1979,25 @@
         <text encoding="base64">ICAgICAgICBTdHJpbmcgZnVsbENvbW1lbnRzID0gZ2V0SHRtbENvbW1lbnRGcm9tQm9keShib2R5KTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLmFueU1hdGNoKGlkIC0+IHZhbGlkYXRlQWNjZXNzVG9QYXJ0eShpZCwgY3VycmVudFVzZXIpKQogICAgICAgICAgICAgICAgICAgICAgICAub3JFbHNlKGZhbHNlKTsK</text>
+        <text encoding="base64">aW1wb3J0IHggZnJvbSAnLi9pJwo=</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8dGl0bGU+VGl0bGU8L3RpdGxlPgo8L2hlYWQ+Cjxib2R5PgoKPC9ib2R5Pgo8L2h0bWw+Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLmFueU1hdGNoKGlkIC0+IHZhbGlkYXRlQWNjZXNzVG9QYXJ0eShpZCwgY3VycmVudFVzZXIpKQogICAgICAgICAgICAgICAgICAgICAgICAub3JFbHNlKGZhbHNlKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGdldEFsbEljZHMoKSB7CiAgICAgICAgcmV0dXJuIHRoaXMuXyRodHRwKHsKICAgICAgICAgICAgdXJsOiBgJHt0aGlzLmFwaX1pbmZvL2ljZGAsCiAgICAgICAgICAgIG1ldGhvZDogJ0dFVCcKICAgICAgICB9KS50aGVuKHJlcyA9PiByZXMuZGF0YSk7CiAgICB9Cg==</text>
+        <text encoding="base64">PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8dGl0bGU+VGl0bGU8L3RpdGxlPgo8L2hlYWQ+Cjxib2R5PgoKPC9ib2R5Pgo8L2h0bWw+Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmdCdWlsZGVyIGJvZHlCdWlsZGVyID0gbmV3IFN0cmluZ0J1aWxkZXIoYm9keSk7CiAgICAgICAgZm9yKFJlY2lwaWVudCByIDogbWVzc2FnZS50by5yZWNpcGllbnRzKCkpIHsKICAgICAgICAgICAgYm9keUJ1aWxkZXIuaW5zZXJ0KDAsIHIubmFtZSArICIgXCIiICsgci5lbWFpbEFkZHJlc3MgKyAiXCI8YnIvPiIpOwogICAgICAgIH0KICAgICAgICBib2R5ID0gYm9keUJ1aWxkZXIudG9TdHJpbmcoKTsK</text>
+        <text encoding="base64">ICAgIGdldEFsbEljZHMoKSB7CiAgICAgICAgcmV0dXJuIHRoaXMuXyRodHRwKHsKICAgICAgICAgICAgdXJsOiBgJHt0aGlzLmFwaX1pbmZvL2ljZGAsCiAgICAgICAgICAgIG1ldGhvZDogJ0dFVCcKICAgICAgICB9KS50aGVuKHJlcyA9PiByZXMuZGF0YSk7CiAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmdCdWlsZGVyCg==</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmdCdWlsZGVyIGJvZHlCdWlsZGVyID0gbmV3IFN0cmluZ0J1aWxkZXIoYm9keSk7CiAgICAgICAgZm9yKFJlY2lwaWVudCByIDogbWVzc2FnZS50by5yZWNpcGllbnRzKCkpIHsKICAgICAgICAgICAgYm9keUJ1aWxkZXIuaW5zZXJ0KDAsIHIubmFtZSArICIgXCIiICsgci5lbWFpbEFkZHJlc3MgKyAiXCI8YnIvPiIpOwogICAgICAgIH0KICAgICAgICBib2R5ID0gYm9keUJ1aWxkZXIudG9TdHJpbmcoKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmdCdWlsZGVyCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2327,13 +2332,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmdCdWlsZGVyIGJvZHlCdWlsZGVyID0gbmV3IFN0cmluZ0J1aWxkZXIoYm9keSk7Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgU3RyaW5nQnVpbGRlciBib2R5QnVpbGRlciA9IG5ldyBTdHJpbmdCdWlsZGVyKGJvZHkpOwogICAgICAgICAgICBmb3IoUmVjaXBpZW50IHIgOiBtZXNzYWdlLmNjLnJlY2lwaWVudHMoKSkgewogICAgICAgICAgICAgICAgYm9keUJ1aWxkZXIuaW5zZXJ0KDAsIHIubmFtZSArICIgXCIiICsgci5lbWFpbEFkZHJlc3MgKyAiXCI8YnIvPiIpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGJvZHkgPSBib2R5QnVpbGRlci50b1N0cmluZygpOwo=</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmdCdWlsZGVyIGJvZHlCdWlsZGVyID0gbmV3IFN0cmluZ0J1aWxkZXIoYm9keSk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIC8qKgogICAgICogTmV3IGNvbHVtbnMgaW50cm9kdWNlZCBieSBDbGFpbXMgV29ya2JlbmNoLgogICAgICovCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgU3RyaW5nQnVpbGRlciBib2R5QnVpbGRlciA9IG5ldyBTdHJpbmdCdWlsZGVyKGJvZHkpOwogICAgICAgICAgICBmb3IoUmVjaXBpZW50IHIgOiBtZXNzYWdlLmNjLnJlY2lwaWVudHMoKSkgewogICAgICAgICAgICAgICAgYm9keUJ1aWxkZXIuaW5zZXJ0KDAsIHIubmFtZSArICIgXCIiICsgci5lbWFpbEFkZHJlc3MgKyAiXCI8YnIvPiIpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGJvZHkgPSBib2R5QnVpbGRlci50b1N0cmluZygpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

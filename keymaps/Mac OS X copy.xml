@@ -14,6 +14,26 @@
   <action id="EditorResetFontSize">
     <keyboard-shortcut first-keystroke="shift meta 0" />
   </action>
+  <action id="ExpandAllToLevel1">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="1" />
+    <keyboard-shortcut first-keystroke="meta alt comma" second-keystroke="1" />
+  </action>
+  <action id="ExpandAllToLevel2">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="2" />
+    <keyboard-shortcut first-keystroke="meta alt comma" second-keystroke="2" />
+  </action>
+  <action id="ExpandAllToLevel3">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="3" />
+    <keyboard-shortcut first-keystroke="meta alt comma" second-keystroke="3" />
+  </action>
+  <action id="ExpandAllToLevel4">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="4" />
+    <keyboard-shortcut first-keystroke="meta alt comma" second-keystroke="4" />
+  </action>
+  <action id="ExpandAllToLevel5">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="5" />
+    <keyboard-shortcut first-keystroke="meta alt comma" second-keystroke="5" />
+  </action>
   <action id="Gradle.ExecuteTask">
     <keyboard-shortcut first-keystroke="shift meta alt g" />
   </action>

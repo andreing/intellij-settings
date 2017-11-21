@@ -334,12 +334,12 @@
         <mark key="^" line="14" column="34" />
         <mark key="." line="14" column="34" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-resource.js" timestamp="1511259668748">
-        <mark key="'" line="29" column="16" />
-        <mark key="[" line="20" column="26" />
-        <mark key="]" line="36" column="12" />
-        <mark key="." line="36" column="12" />
-        <mark key="^" line="36" column="12" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-resource.js" timestamp="1511266076762">
+        <mark key="'" line="28" column="16" />
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="0" />
+        <mark key="." line="22" column="0" />
+        <mark key="^" line="34" column="12" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/transaction/PaymentSEPA.java" timestamp="1504875598588">
         <mark key="[" line="13" column="4" />
@@ -666,11 +666,10 @@
         <mark key="^" line="2" column="55" />
         <mark key="." line="2" column="55" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" timestamp="1511258818554">
-        <mark key="[" line="36" column="14" />
-        <mark key="]" line="35" column="19" />
-        <mark key="^" line="35" column="19" />
-        <mark key="." line="35" column="19" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" timestamp="1511267877880">
+        <mark key="[" line="65" column="37" />
+        <mark key="]" line="52" column="0" />
+        <mark key="." line="52" column="0" />
       </file>
       <file name="$USER_HOME$/dev/dbs/src/main/java/protector/dbs/ws/fakturagrunnlag/generated/SpringFakturagrunnlagWsConfig.java" timestamp="1493042779481">
         <mark key="[" line="6" column="44" />
@@ -1870,10 +1869,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="240" column="20" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
-      <jump line="254" column="50" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
-      <jump line="261" column="122" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
-      <jump line="225" column="16" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
       <jump line="216" column="19" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
       <jump line="230" column="28" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
       <jump line="269" column="97" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" />
@@ -1970,10 +1965,14 @@
       <jump line="30" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-resource.js" />
       <jump line="49" column="11" filename="$USER_HOME$/repos/claimsgateway/auth.js" />
       <jump line="43" column="51" filename="$USER_HOME$/repos/claimsgateway/auth.js" />
+      <jump line="59" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
+      <jump line="60" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
+      <jump line="41" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
+      <jump line="66" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">bGV0IGdldFRva2VuRnJvbUhlYWRlciA9IGZ1bmN0aW9uKHJlcSkgeyByZXR1cm4gcmVxLmhlYWRlcnMuYXV0aG9yaXphdGlvbjsKfTsKCg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBQcm9taXNlLmFsbChbCiAgICAgICAgLy8gICAgIHRoaXMuX3Jlc291cmNlLmdldEludm9pY2VEYXRhKCksCiAgICAgICAgICAgIC8vIHRoaXMuX3Jlc291cmNlLmdldEludm9pY2VTdGF0dXMoKQogICAgICAgIC8vIF0pLnRoZW4oZGF0YSA9PiB7CiAgICAgICAgLy8gICAgIHRoaXMuaW52b2ljZURhdGEgPSBkYXRhWzBdOwogICAgICAgICAgICAvLyB0aGlzLmludm9pY2VEYXRhU3RhdHVzID0gZGF0YVsxXTsKICAgICAgICAvLyB9KTsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -2031,29 +2030,29 @@
       <register name="/" type="4">
         <text encoding="base64">XDxyb2xlc1w+</text>
       </register>
-      <register name="0" type="4">
-        <text>req.headers.authorization</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaGFzRGVkdWN0aWJsZTogZmFsc2UsCiAgICAgICAgICAgIGhhc1ZhdFJlY2VpdmVyOiBmYWxzZSwKICAgICAgICAgICAgaGFzUmVkdWN0aW9uOiBmYWxzZSwKICAgICAgICAgICAgaGFzSW52b2ljZVJlY2VpdmVyOiBmYWxzZQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">bGV0IGdldFRva2VuRnJvbUhlYWRlciA9IGZ1bmN0aW9uKHJlcSkgeyByZXR1cm4gcmVxLmhlYWRlcnMuYXV0aG9yaXphdGlvbjsKfTsKCg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBQcm9taXNlLmFsbChbCiAgICAgICAgLy8gICAgIHRoaXMuX3Jlc291cmNlLmdldEludm9pY2VEYXRhKCksCiAgICAgICAgICAgIC8vIHRoaXMuX3Jlc291cmNlLmdldEludm9pY2VTdGF0dXMoKQogICAgICAgIC8vIF0pLnRoZW4oZGF0YSA9PiB7CiAgICAgICAgLy8gICAgIHRoaXMuaW52b2ljZURhdGEgPSBkYXRhWzBdOwogICAgICAgICAgICAvLyB0aGlzLmludm9pY2VEYXRhU3RhdHVzID0gZGF0YVsxXTsKICAgICAgICAvLyB9KTsK</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmNhdGNoKG5leHQpCg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBnZXRUb2tlbkZyb21IZWFkZXIocmVxKQogICAgICAgICAgICAudGhlbih0b2tlbiA9PiB7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcGFydHlJbnZvaWNlRGF0YQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZWR1Y3Rpb246IG51bGwK</text>
+        <text encoding="base64">ICAgICAgICB9IGVsc2Ugewo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAocGFydHlJbnZvaWNlRGF0YSkgewo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICA8c29tZS10cmFuc2NsdWRlZC1kaXJlY3RpdmUgbW9kZWw9InZtLmZvby5hc2Rhc2QiIHRvZ2dsZT0idm0uZm9vLmhhc0FzZGFzZCIgbGFiZWwtY29sPSIiIGRhdGEtY29sPSIiIGxhYmVsPSIiPgogICAgICAgICAgICA8aW5wdXQKICAgICAgICA8L3NvbWUtdHJhbnNjbHVkZWQtZGlyZWN0aXZlPgoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2388,16 +2387,16 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAvLyB0aGlzLmludm9pY2VTdGF0dXMgPSB7fTsKICAgICAgICB0aGlzLmlucHV0VG9nZ2xlID0gewogICAgICAgICAgICBkZWR1Y3RpYmxlOiBmYWxzZSwKICAgICAgICAgICAgdmF0UmVjZWl2ZXI6IGZhbHNlCiAgICAgICAgfTsK</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaW50KCkgewogICAgICAgIGNvbnNvbGUubG9nKCIlTyIsIHRoaXMudGVzdGRhdGEpOwogICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICBpZiAoaW52b2ljZURhdGEudGhpcmRQYXJ0eSkgewo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLl9hY3RpdmF0ZSgpOwogICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>noh</text>
       </register>
     </registers>
     <search>
@@ -2451,8 +2450,8 @@
         <entry encoding="base64">JzwsJz5zL1xiXCguXCkvXHVcMS9n</entry>
         <entry encoding="base64">JzwsJz5zL1w+XCguXCkvXHVcMS9n</entry>
         <entry encoding="base64">JzwsJz5zLywvLCAiICtcciIvZw==</entry>
-        <entry>noh</entry>
         <entry>q</entry>
+        <entry>noh</entry>
       </history-cmd>
       <history-expr />
       <history-input />

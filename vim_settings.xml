@@ -1700,11 +1700,11 @@
         <mark key="^" line="2" column="35" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/test/proxy.test.js" timestamp="1510564954715">
-        <mark key="[" line="57" column="38" />
-        <mark key="]" line="57" column="22" />
-        <mark key="^" line="57" column="22" />
-        <mark key="." line="57" column="22" />
+      <file name="$USER_HOME$/repos/dmzproxy/test/proxy.test.js" timestamp="1511967445491">
+        <mark key="'" line="28" column="12" />
+        <mark key="[" line="42" column="15" />
+        <mark key="]" line="42" column="15" />
+        <mark key="." line="27" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/WRRClaimAssignmentState.java" timestamp="1478876259981">
         <mark key="[" line="25" column="5" />
@@ -1894,9 +1894,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="52" column="9" filename="$USER_HOME$/repos/claims/frontend/components/claim/dbs-invoice-data/invoice-data-resource.js" />
-      <jump line="52" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
-      <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto.html" />
       <jump line="12" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto.html" />
       <jump line="18" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto.html" />
       <jump line="15" column="27" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto.html" />
@@ -1994,10 +1991,13 @@
       <jump line="34" column="49" filename="$USER_HOME$/repos/dbs/ws/build.gradle" />
       <jump line="35" column="26" filename="$USER_HOME$/repos/dbs/ws/build.gradle" />
       <jump line="51" column="40" filename="$USER_HOME$/repos/dbs/ws/build.gradle" />
+      <jump line="15" column="0" filename="$USER_HOME$/repos/dmzproxy/test/proxy.test.js" />
+      <jump line="35" column="0" filename="$USER_HOME$/repos/dmzproxy/test/proxy.test.js" />
+      <jump line="28" column="12" filename="$USER_HOME$/repos/dmzproxy/test/proxy.test.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Y2xhaW1zLnNlcnZlci51cmw9aHR0cDovL2xvY2FsaG9zdDo4MDgwL2NsYWltcy9hcGkK</text>
+        <text encoding="base64">ICAgICAgICBsZXQgbW9ja1Rva2VuOwogICAgICAgIGxldCBtb2NrVXNlcjsKCiAgICAgICAgbGV0IHNjb3BlOwoKICAgICAgICBiZWZvcmUoZnVuY3Rpb24gKCkgewogICAgICAgICAgICBtb2NrVG9rZW4gPSAnbW9ja3Rva2VuJzsKICAgICAgICAgICAgbW9ja1VzZXIgPSB7cGFydHlJZDogMTIzLCBmaXJzdE5hbWU6ICdHYW5kYWxmJ307CiAgICAgICAgICAgIHNjb3BlID0gbm9jayhjb25maWcubG9naW5TZXJ2ZXIpLmxvZyhjb25zb2xlLmxvZyk7CiAgICAgICAgICAgIHN0YXJ0TW9ja1NlcnZlcigpOwogICAgICAgIH0pOwoKICAgICAgICBhZnRlcihmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIHNodXRkb3duU2VydmVyKCk7CiAgICAgICAgfSk7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -2056,7 +2056,7 @@
         <text encoding="base64">XDx3c2RsRmlsZW5hbWVcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">Y2xhaW1zLnNlcnZlci51cmw9aHR0cDovL2xvY2FsaG9zdDo4MDgwL2NsYWltcy9hcGkK</text>
+        <text encoding="base64">ICAgICAgICBsZXQgbW9ja1Rva2VuOwogICAgICAgIGxldCBtb2NrVXNlcjsKCiAgICAgICAgbGV0IHNjb3BlOwoKICAgICAgICBiZWZvcmUoZnVuY3Rpb24gKCkgewogICAgICAgICAgICBtb2NrVG9rZW4gPSAnbW9ja3Rva2VuJzsKICAgICAgICAgICAgbW9ja1VzZXIgPSB7cGFydHlJZDogMTIzLCBmaXJzdE5hbWU6ICdHYW5kYWxmJ307CiAgICAgICAgICAgIHNjb3BlID0gbm9jayhjb25maWcubG9naW5TZXJ2ZXIpLmxvZyhjb25zb2xlLmxvZyk7CiAgICAgICAgICAgIHN0YXJ0TW9ja1NlcnZlcigpOwogICAgICAgIH0pOwoKICAgICAgICBhZnRlcihmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIHNodXRkb3duU2VydmVyKCk7CiAgICAgICAgfSk7Cg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -2065,19 +2065,19 @@
         <text>jdd</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGluUGF0aG5hbWUubWF0Y2goUk9PVF9OQU1FX1BBVFRFUk4pCiAgICAgICAgLnJlZHVjZSgoYSwgYikgPT4gYSArIGIsICcnKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Y29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsK</text>
+        <text encoding="base64">ICAgICAgICBpdCgncm91dGVzIGFwaS5wcm90ZWN0b3Jmb3JzaWtyaW5nLm5vIGJhc2VkIG9uICcsIGZ1bmN0aW9uIChkb25lKSB7CiAgICAgICAgICAgIAogICAgICAgIH0pOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBjYXRjaCAoRGF0YUFjY2Vzc0V4Y2VwdGlvbiBleCkgewogICAgICAgICAgICBMT0cud2FybihleC5nZXRNZXNzYWdlKCksIGV4KTsKICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgfQo=</text>
+        <text encoding="base64">CiAgICBpdCgncmV0dXJucyA0MDQgaWYgdXJsIG5vdCBpbiBwcm94eSBtYXAnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgcmV0dXJuIHJlcXVlc3QKICAgICAgICAgICAgLmdldCgnJykKICAgICAgICAgICAgLnNldCgnQWNjZXB0JywgJ3RleHQvaHRtbCcpCiAgICAgICAgICAgIC5zZXQoJ0hvc3QnLCAnbm90aW5wcm94eW1hcCcpCiAgICAgICAgICAgIC5leHBlY3QoNDA0KTsKICAgIH0pOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgTE9HLmVycm9yKGUuZ2V0TWVzc2FnZSgpLCBlKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAvL2xldCByZXNvbHZlZEhvc3RuYW1lID0gJ2h0dHBzOi8vcGlhdGVzdC5wcm90ZWN0b3Jmb3JzaWtyaW5nLm5vJwo=</text>
+        <text encoding="base64">ICAgIGluUGF0aG5hbWUubWF0Y2goUk9PVF9OQU1FX1BBVFRFUk4pCiAgICAgICAgLnJlZHVjZSgoYSwgYikgPT4gYSArIGIsICcnKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2412,13 +2412,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIDwvZmllbGRzZXQK</text>
+        <text encoding="base64">Y29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjYXRjaCAoRGF0YUFjY2Vzc0V4Y2VwdGlvbiBleCkgewogICAgICAgICAgICBMT0cud2FybihleC5nZXRNZXNzYWdlKCksIGV4KTsKICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIDwhLS0gbWFudWFsPyAtLT4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgTE9HLmVycm9yKGUuZ2V0TWVzc2FnZSgpLCBlKTsK</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

@@ -529,9 +529,10 @@
         <mark key="^" line="8" column="15" />
         <mark key="." line="8" column="15" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/url_rewrite/hostname-lookup.js" timestamp="1512041937821">
-        <mark key="[" line="13" column="31" />
-        <mark key="]" line="0" column="0" />
+      <file name="$USER_HOME$/repos/dmzproxy/url_rewrite/hostname-lookup.js" timestamp="1512045968743">
+        <mark key="'" line="16" column="0" />
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="22" column="71" />
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/Cover.java" timestamp="1505913777459">
@@ -679,10 +680,10 @@
         <mark key="^" line="4" column="72" />
         <mark key="." line="4" column="72" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/config/dev.js" timestamp="1512041345874">
-        <mark key="[" line="11" column="45" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
+      <file name="$USER_HOME$/repos/dmzproxy/config/dev.js" timestamp="1512045961082">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/finland/life/fi_life_workerscomp_confirmation.xml" timestamp="1491382170073">
         <mark key="[" line="1" column="146" />
@@ -1393,11 +1394,11 @@
         <mark key="^" line="26" column="36" />
         <mark key="." line="72" column="47" />
       </file>
-      <file name="$USER_HOME$/repos/dmzproxy/config/test.js" timestamp="1496924089374">
-        <mark key="[" line="3" column="60" />
-        <mark key="]" line="4" column="21" />
-        <mark key="." line="4" column="21" />
-        <mark key="^" line="4" column="21" />
+      <file name="$USER_HOME$/repos/dmzproxy/config/test.js" timestamp="1512046190310">
+        <mark key="'" line="16" column="8" />
+        <mark key="[" line="16" column="8" />
+        <mark key="]" line="16" column="76" />
+        <mark key="." line="15" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/common/InfoService.java" timestamp="1488803974621">
         <mark key="[" line="7" column="8" />
@@ -1932,9 +1933,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="4" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto.html" />
-      <jump line="49" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
-      <jump line="22" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-resource.js" />
       <jump line="21" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-resource.js" />
       <jump line="30" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-resource.js" />
       <jump line="49" column="11" filename="$USER_HOME$/repos/claimsgateway/auth.js" />
@@ -2032,10 +2030,13 @@
       <jump line="35" column="12" filename="$USER_HOME$/repos/dmzproxy/url_rewrite/proxy-url-rewrite.spec.js" />
       <jump line="8" column="22" filename="$USER_HOME$/repos/dmzproxy/config/dev.js" />
       <jump line="11" column="45" filename="$USER_HOME$/repos/dmzproxy/config/dev.js" />
+      <jump line="16" column="0" filename="$USER_HOME$/repos/dmzproxy/url_rewrite/hostname-lookup.js" />
+      <jump line="7" column="8" filename="$USER_HOME$/repos/dmzproxy/config/test.js" />
+      <jump line="16" column="8" filename="$USER_HOME$/repos/dmzproxy/config/test.js" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">ID0gJ2FwaXRlc3QucHJvdGVjdG9yZm9yc2lrcmluZy5ubyc7</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">cGF0aE1hcC5zZXQoJy9hcGknLCAnY2xhaW1zZ2F0ZXdheXRlc3QucHJvdGVjdG9yZm9yc2lrcmluZy5uby9hcGknKTsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -2091,31 +2092,31 @@
         <text encoding="base64">ID0gJ2FwaXRlc3QucHJvdGVjdG9yZm9yc2lrcmluZy5ubyc7</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx3c2RsRmlsZW5hbWVcPg==</text>
+        <text>[^\(]*\(([^)])\);</text>
       </register>
-      <register name="0" type="4">
-        <text>`localhost:${this.itestPort}`</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIGhvc3RNYXAuc2V0KCdjbGFpbXN0ZXN0LnByb3RlY3RvcmZvcnNpa3Jpbmcubm8nLCAnY2xhaW1zdGVzdC5wcm90ZWN0b3Jmb3JzaWtyaW5nLm5vJyk7CiAgICBob3N0TWFwLnNldCgnY2xhaW1zb25saW5ldGVzdC5wcm90ZWN0b3Jmb3JzaWtyaW5nLm5vJywgJ2NsYWltc29ubGluZXRlc3QucHJvdGVjdG9yZm9yc2lrcmluZy5ubycpOwogICAgaG9zdE1hcC5zZXQoJ3BpYXRlc3QucHJvdGVjdG9yZm9yc2lrcmluZy5ubycsICdwaWF0ZXN0LnByb3RlY3RvcmZvcnNpa3Jpbmcubm8nKTsKICAgIGhvc3RNYXAuc2V0KCdwb3J0YWx0ZXN0LnByb3RlY3RvcmZvcnNpa3Jpbmcubm8nLCAncG9ydGFsdGVzdC5wcm90ZWN0b3Jmb3JzaWtyaW5nLm5vJyk7CiAgICBob3N0TWFwLnNldCgnY2xhaW1zZ2F0ZXdheXRlc3QucHJvdGVjdG9yZm9yc2lrcmluZy5ubycsICdjbGFpbXNnYXRld2F5dGVzdC5wcm90ZWN0b3Jmb3JzaWtyaW5nLm5vJyk7CgogICAgcGF0aE1hcC5zZXQoJy9hcGknLCAnY2xhaW1zZ2F0ZXdheXRlc3QucHJvdGVjdG9yZm9yc2lrcmluZy5uby9hcGknKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGhvc3RNYXA6IFsKICAgICAgICBbJ2NsYWltc3Rlc3QucHJvdGVjdG9yZm9yc2lrcmluZy5ubycsICdjbGFpbXN0ZXN0LnByb3RlY3RvcmZvcnNpa3Jpbmcubm8nXSwKICAgICAgICBbJ2xvY2FsaG9zdCcsIGBsb2NhbGhvc3Q6JHt0aGlzLml0ZXN0UG9ydH1gXQogICAgXSwKICAgIGFwaU1hcDogWwogICAgICAgIFsnL2ZvbycsIGBsb2NhbGhvc3Q6JHt0aGlzLml0ZXN0UG9ydH1gXQogICAgXQo=</text>
+        <text encoding="base64">cGF0aE1hcC5zZXQoJy9hcGknLCAnY2xhaW1zZ2F0ZXdheXRlc3QucHJvdGVjdG9yZm9yc2lrcmluZy5uby9hcGknKTsK</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBbJ2NsYWltc3Rlc3QucHJvdGVjdG9yZm9yc2lrcmluZy5ubycsICdjbGFpbXN0ZXN0LnByb3RlY3RvcmZvcnNpa3Jpbmcubm8nXSwK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Y29uc3QgY29uZmlnID0gcmVxdWlyZSgnY29uZmlnJykK</text>
+        <text encoding="base64">ICAgIGhvc3RNYXA6IFsKICAgICAgICBbJ2NsYWltc3Rlc3QucHJvdGVjdG9yZm9yc2lrcmluZy5ubycsICdjbGFpbXN0ZXN0LnByb3RlY3RvcmZvcnNpa3Jpbmcubm8nXSwKICAgICAgICBbJ2xvY2FsaG9zdCcsIGBsb2NhbGhvc3Q6JHt0aGlzLml0ZXN0UG9ydH1gXQogICAgXSwKICAgIGFwaU1hcDogWwogICAgICAgIFsnL2ZvbycsIGBsb2NhbGhvc3Q6JHt0aGlzLml0ZXN0UG9ydH1gXQogICAgXQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CmZ1bmN0aW9uIGdldFJvdXRlSG9zdE5hbWUoKSB7CiAgICBzd2l0Y2gocHJvY2Vzcy5lbnYuTk9ERV9FTlYpIHsKICAgICAgICBjYXNlICdwcm9kdWN0aW9uJzogIHJldHVybiBBUElfSE9TVE5BTUU7CiAgICAgICAgY2FzZSAndGVzdCc6CiAgICAgICAgY2FzZSAnZGV2JzogICAgICAgICByZXR1cm4gQVBJX1RFU1RfSE9TVE5BTUU7CiAgICB9Cn0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Y29uc3QgQVBJX0hPU1ROQU1FID0gJ2FwaS5wcm90ZWN0b3Jmb3JzaWtyaW5nLm5vJzsKY29uc3QgQVBJX1RFU1RfSE9TVE5BTUUgPSAnYXBpdGVzdC5wcm90ZWN0b3Jmb3JzaWtyaW5nLm5vJzsK</text>
+        <text encoding="base64">Y29uc3QgY29uZmlnID0gcmVxdWlyZSgnY29uZmlnJykK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZXhwb3J0cy5ob3N0TWFwID0gaG9zdE1hcDsKZXhwb3J0cy5wYXRoTWFwID0gcGF0aE1hcDsK</text>
+        <text encoding="base64">CmZ1bmN0aW9uIGdldFJvdXRlSG9zdE5hbWUoKSB7CiAgICBzd2l0Y2gocHJvY2Vzcy5lbnYuTk9ERV9FTlYpIHsKICAgICAgICBjYXNlICdwcm9kdWN0aW9uJzogIHJldHVybiBBUElfSE9TVE5BTUU7CiAgICAgICAgY2FzZSAndGVzdCc6CiAgICAgICAgY2FzZSAnZGV2JzogICAgICAgICByZXR1cm4gQVBJX1RFU1RfSE9TVE5BTUU7CiAgICB9Cn0K</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2450,31 +2451,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Y29uc3QgQVBJX0hPU1ROQU1FID0gJ2FwaS5wcm90ZWN0b3Jmb3JzaWtyaW5nLm5vJzsKY29uc3QgQVBJX1RFU1RfSE9TVE5BTUUgPSAnYXBpdGVzdC5wcm90ZWN0b3Jmb3JzaWtyaW5nLm5vJzsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZXhwb3J0cy5ob3N0TWFwID0gaG9zdE1hcDsKZXhwb3J0cy5wYXRoTWFwID0gcGF0aE1hcDsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">LyoKICogIGlucHV0OiAoaG9zdG5hbWUsIHBhdGgpCiAqCiAqICBwYWlyKGhvc3RuYW1lLCBwYXRoKQogKgogKiAgaWYgaG9zdG5hbWUgPT0gQVBJX0hPU1ROQU1FOgogKiAgICAgIHNwbGl0cGF0aCA9PiAocF8wLCBwX3Jlc3QpID0+IHBhaXIKICoKICogIGhvc3Q6IHJlc29sdmUocGFpcl8xKQogKiAgcGF0aDogcGFpcl8yCiAqCiAqICByZXR1cm4gaG9zdCA/IGhvc3QgKyBwYXRoOwogKgogKi8K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>noh</text>
+        <text encoding="base64">JzwsJz5zL1teXChdKlwoKFteKV0pXCk7L1xbXDFcXS8=</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx3c2RsRmlsZW5hbWVcPg==</last-search>
+      <last-search>[^\(]*\(([^)])\);</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx3c2RsRmlsZW5hbWVcPg==</last-pattern>
-      <last-replace>, &quot; +\r&quot;</last-replace>
-      <last-substitute>,</last-substitute>
+      <last-pattern>[^\(]*\(([^)])\);</last-pattern>
+      <last-replace>\[\1\]</last-replace>
+      <last-substitute>[^\(]*\(([^)])\);</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxjcmVhdGVkQnlBcHBcPg==</entry>
-        <entry encoding="base64">XDxtaW1lQ29udGVudElucHV0U3RyZWFtXD4=</entry>
         <entry encoding="base64">XDxtaW1lQ29udGVudFw+</entry>
         <entry encoding="base64">XDxjcmVhdGVkV2hlblw+</entry>
         <entry encoding="base64">XDxjbGFpbUxvYlw+</entry>
@@ -2493,10 +2492,10 @@
         <entry encoding="base64">XDxyb2xlc1w+</entry>
         <entry encoding="base64">XDx0YWJIYXNCZWVuT3Blblw+</entry>
         <entry encoding="base64">XDx3c2RsRmlsZW5hbWVcPg==</entry>
+        <entry>[^(]*(\([^)]\));</entry>
+        <entry>[^\(]*\(([^)])\);</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zL1x3KlwuLy8=</entry>
-        <entry encoding="base64">JzwsJz5zL1thLXpBLVpdKlteLl0vLw==</entry>
         <entry encoding="base64">JzwsJz5zLysgLyskL2c=</entry>
         <entry encoding="base64">JzwsJz5zLysgLytcbi9n</entry>
         <entry encoding="base64">JzwsJz5zLysgLytcci9n</entry>
@@ -2515,6 +2514,8 @@
         <entry encoding="base64">JzwsJz5zLywvLCAiICtcciIvZw==</entry>
         <entry>q</entry>
         <entry>noh</entry>
+        <entry encoding="base64">JzwsJz5zL1teKF0qKFwoW14pXVwpKTsvXFtcMVxdLw==</entry>
+        <entry encoding="base64">JzwsJz5zL1teXChdKlwoKFteKV0pXCk7L1xbXDFcXS8=</entry>
       </history-cmd>
       <history-expr />
       <history-input />

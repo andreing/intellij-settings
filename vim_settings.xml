@@ -692,12 +692,12 @@
         <mark key="^" line="2" column="55" />
         <mark key="." line="2" column="55" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" timestamp="1512057381555">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" timestamp="1512059643505">
         <mark key="'" line="41" column="0" />
-        <mark key="[" line="50" column="27" />
-        <mark key="]" line="51" column="15" />
-        <mark key="." line="51" column="15" />
-        <mark key="^" line="51" column="15" />
+        <mark key="[" line="113" column="31" />
+        <mark key="]" line="89" column="0" />
+        <mark key="." line="89" column="0" />
+        <mark key="^" line="89" column="60" />
       </file>
       <file name="$USER_HOME$/dev/dbs/src/main/java/protector/dbs/ws/fakturagrunnlag/generated/SpringFakturagrunnlagWsConfig.java" timestamp="1493042779481">
         <mark key="[" line="6" column="44" />
@@ -1192,6 +1192,9 @@
         <mark key="]" line="19" column="0" />
         <mark key="^" line="40" column="38" />
         <mark key="." line="19" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/common/uk-account-number-validator.js" timestamp="1512058757292">
+        <mark key="'" line="172" column="36" />
       </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/automaticReserveAdjustment/ReserveReductionValueJdbcDao.java" timestamp="1497963915338">
         <mark key="[" line="35" column="82" />
@@ -1917,8 +1920,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="71" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
-      <jump line="75" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
       <jump line="35" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
       <jump line="40" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
       <jump line="21" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
@@ -2017,10 +2018,12 @@
       <jump line="26" column="110" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/invoicedata/InvoiceDataController.java" />
       <jump line="42" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
       <jump line="41" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
+      <jump line="2" column="62" filename="$USER_HOME$/repos/claims/frontend/components/common/uk-account-number-validator.js" />
+      <jump line="172" column="36" filename="$USER_HOME$/repos/claims/frontend/components/common/uk-account-number-validator.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW5zdXJhbnQ6ICAgICAgewogICAgICAgICAgICAgICAgZGVkdWN0aWJsZTogICAgICAgICAgICBudWxsLAogICAgICAgICAgICAgICAgVkFUUmVjZWl2ZXJSb2xlSWQ6ICAgICBudWxsLAogICAgICAgICAgICAgICAgaW52b2ljZVJlY2VpdmVyUm9sZUlkOiBudWxsLAogICAgICAgICAgICAgICAgcmVkdWN0aW9uOiAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgIH0sCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IGluc3VyYW50Um9sZUlkID0gdGhpcy5nZXRJbnN1cmFudCgpOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -2076,31 +2079,31 @@
         <text encoding="base64">ID0gJ2FwaXRlc3QucHJvdGVjdG9yZm9yc2lrcmluZy5ubyc7</text>
       </register>
       <register name="/" type="4">
-        <text>[^\(]*(\([^\)]*\));</text>
+        <text encoding="base64">XDx1a01vZHVsdXNXZWlnaHRTZXJ2aWNlXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgaW5zdXJhbnQ6ICAgICAgewogICAgICAgICAgICAgICAgZGVkdWN0aWJsZTogICAgICAgICAgICBudWxsLAogICAgICAgICAgICAgICAgVkFUUmVjZWl2ZXJSb2xlSWQ6ICAgICBudWxsLAogICAgICAgICAgICAgICAgaW52b2ljZVJlY2VpdmVyUm9sZUlkOiBudWxsLAogICAgICAgICAgICAgICAgcmVkdWN0aW9uOiAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgIH0sCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV0IGluc3VyYW50Um9sZUlkID0gdGhpcy5nZXRJbnN1cmFudCgpOwo=</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5idWlsZEFuZEV4cGFuZChpbnZvaWNlRGF0YS5nZXRSZWdpc3RyYXRpb25OdW1iZXIoKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpbnZvaWNlRGF0YS5zZXRSZWdpc3RyYXRpb25OdW1iZXIoaW52b2ljZURhdGEuZ2V0UmVnaXN0cmF0aW9uTnVtYmVyKCkudG9VcHBlckNhc2UoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW52b2ljZURhdGEudGhpcmRQYXJ0eS5yZWdpc3RyYXRpb25OdW1iZXIgPSB0aGlzLl9nZXRUaGlyZFBhcnR5UmVnaXN0cmF0aW9uTnVtYmVyKCk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">CiAgICBfZ2V0VGhpcmRQYXJ0eVJlZ2lzdHJhdGlvbk51bWJlcnMoKSB7CiAgICAgICAgLy8gcmV0dXJuIG1hcCBvZiByb2xlSWQgPT4gcmVnTnIKICAgICAgICByZXR1cm4gdGhpcy5oZWFkZXIuY2xhaW1zCiAgICAgICAgICAgIC5tYXAoYyA9PiBjLnJvbGVzCiAgICAgICAgICAgICAgICAuZmlsdGVyKHIgPT4gVEhJUkRfUEFSVFlfUk9MRV9UWVBFX0lELmluY2x1ZGVzKHIuaWQpCiAgICAgICAgICAgICAgICAgICAgLmZpbHRlcihjID0+ICEhYy5yZWdpc3RyYXRpb25OdW1iZXIpLnBvcCgpKSkKICAgICAgICByZXR1cm4gdGhpcy5oZWFkZXIuY2xhaW1zLmZpbHRlcihjID0+ICEhYy5yZWdpc3RyYXRpb25OdW1iZXIpCiAgICAgICAgICAgIC5tYXAoYyA9PiBjLnJlZ2lzdHJhdGlvbk51bWJlcikgfHwgbnVsbDsKICAgIH0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICBPcHRpb25hbDxJbnZvaWNlRGF0YT4gaW52b2ljZURhdGEgPSBpbnZvaWNlRGF0YVNlcnZpY2UuZmluZEludm9pY2VEYXRhKGNsYWltSGVhZGVySWQpOwogICAgICAgIGlmIChpbnZvaWNlRGF0YS5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgdGhyb3cgbmV3IE5vdEZvdW5kRXhjZXB0aW9uKCJObyBpbnZvaWNlIGRhdGEgZm91bmQgZm9yIGNsYWltIGhlYWRlciAiICsgY2xhaW1IZWFkZXJJZCk7CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gaW52b2ljZURhdGE7Cg==</text>
+        <text encoding="base64">ICAgICAgICBbXS4K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIEBHZXRNYXBwaW5nKHBhdGggPSAiL3N0YXR1cyIpCiAgICBJbnZvaWNlRGF0YVN0YXR1c1dyYXBwZXIgZ2V0SW52b2ljZVN0YXR1cyhAUGF0aFZhcmlhYmxlKCJpZCIpIExvbmcgY2xhaW1IZWFkZXJJZCkgewogICAgICAgIHJldHVybiBuZXcgSW52b2ljZURhdGFTdGF0dXNXcmFwcGVyKGNsYWltSGVhZGVySWQsIGludm9pY2VEYXRhU2VydmljZS5nZXRTdGF0dXMoY2xhaW1IZWFkZXJJZCkpOwogICAgfQoKICAgIEBQdXRNYXBwaW5nKHBhdGggPSAiL3N0YXR1cyIsIGNvbnN1bWVzID0gTWVkaWFUeXBlLkFQUExJQ0FUSU9OX0pTT05fVVRGOF9WQUxVRSkKICAgIFJlc3BvbnNlRW50aXR5IHB1dEludm9pY2VTdGF0dXMoCiAgICAgICAgICAgIEBQYXRoVmFyaWFibGUoImlkIikgTG9uZyBjbGFpbUhlYWRlcklkLCBAUmVxdWVzdEJvZHkgSW52b2ljZURhdGFTdGF0dXNXcmFwcGVyIHN0YXR1cwogICAgKSB7CiAgICAgICAgYm9vbGVhbiBzdWNjZXNzID0gaW52b2ljZURhdGFTZXJ2aWNlLnVwc2VydFN0YXR1cyhjbGFpbUhlYWRlcklkLCBzdGF0dXMuZ2V0SW52b2ljZURhdGFTdGF0dXMoKSk7CiAgICAgICAgaWYgKCFzdWNjZXNzKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBOb3RGb3VuZEV4Y2VwdGlvbihTdHJpbmcuZm9ybWF0KCJDbGFpbSBoZWFkZXIgd2l0aCBpZCAlZCB3YXMgbm90IGZvdW5kIiwgY2xhaW1IZWFkZXJJZCkpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gUmVzcG9uc2VFbnRpdHkubm9Db250ZW50KCkuYnVpbGQoKTsKICAgIH0KCg==</text>
+        <text encoding="base64">Y29uc3QgVEhJUkRfUEFSVFlfQ09NUF9ST0xFX1RZUEVfSUQgPSA0MjU7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2435,10 +2438,10 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB7CiAgICAgICAgICAgICAgICBkZWR1Y3RpYmxlOiAgICAgICAgICAgIG51bGwsCiAgICAgICAgICAgICAgICBWQVRSZWNlaXZlclJvbGVJZDogICAgIG51bGwsCiAgICAgICAgICAgICAgICBpbnZvaWNlUmVjZWl2ZXJSb2xlSWQ6IG51bGwKICAgICAgICAgICAgfSwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBJbnZvaWNlRGF0YSgpIHt9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGRlZHVjdGlibGU6ICAgICAgICAgICAgbnVsbCwKICAgICAgICAgICAgICAgIFZBVFJlY2VpdmVyUm9sZUlkOiAgICAgbnVsbCwKICAgICAgICAgICAgICAgIGludm9pY2VSZWNlaXZlclJvbGVJZDogbnVsbCwKICAgICAgICAgICAgICAgIHJlZHVjdGlvbjogICAgICAgICAgICAgbnVsbAogICAgICAgICAgICB9LAo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -2448,17 +2451,16 @@
       </register>
     </registers>
     <search>
-      <last-search>[^\(]*(\([^\)]*\));</last-search>
+      <last-search encoding="base64">XDx1a01vZHVsdXNXZWlnaHRTZXJ2aWNlXD4=</last-search>
       <last-offset />
-      <last-pattern>[^\(]*(\([^\)]*\));</last-pattern>
+      <last-pattern encoding="base64">XDx1a01vZHVsdXNXZWlnaHRTZXJ2aWNlXD4=</last-pattern>
       <last-replace>\[\1\],</last-replace>
       <last-substitute>[^\(]*(\([^\)]*\));</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxjbGFpbUxvYlw+</entry>
         <entry encoding="base64">XDxjbGFpbUhlYWRlclJvbGVJZFw+</entry>
         <entry encoding="base64">XDxodG1sXD4=</entry>
         <entry encoding="base64">XDxzZXF1ZW5jZU51bWJlclw+</entry>
@@ -2478,6 +2480,7 @@
         <entry>[^\(]*\(([^)])\);</entry>
         <entry>[^\(]*\(([^)]*)\);</entry>
         <entry>[^\(]*(\([^\)]*\));</entry>
+        <entry encoding="base64">XDx1a01vZHVsdXNXZWlnaHRTZXJ2aWNlXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>map</entry>

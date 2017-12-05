@@ -470,12 +470,12 @@
         <mark key="." line="0" column="0" />
         <mark key="^" line="15" column="7" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto.html" timestamp="1512470521482">
-        <mark key="'" line="37" column="8" />
-        <mark key="[" line="38" column="56" />
-        <mark key="]" line="31" column="99" />
-        <mark key="." line="31" column="99" />
-        <mark key="^" line="31" column="99" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto.html" timestamp="1512476015051">
+        <mark key="'" line="28" column="92" />
+        <mark key="[" line="67" column="117" />
+        <mark key="]" line="28" column="82" />
+        <mark key="." line="28" column="82" />
+        <mark key="^" line="28" column="97" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/consoles/db/02385e45-7817-4344-8aca-b3a8940a4f60/console_5.sql" timestamp="1509454113066">
         <mark key="[" line="12" column="0" />
@@ -718,11 +718,12 @@
         <mark key="^" line="2" column="55" />
         <mark key="." line="2" column="55" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" timestamp="1512470279286">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" timestamp="1512476181445">
         <mark key="'" line="62" column="8" />
-        <mark key="[" line="94" column="0" />
-        <mark key="]" line="94" column="0" />
-        <mark key="." line="94" column="0" />
+        <mark key="[" line="130" column="25" />
+        <mark key="]" line="130" column="44" />
+        <mark key="." line="130" column="44" />
+        <mark key="^" line="130" column="44" />
       </file>
       <file name="$USER_HOME$/dev/dbs/src/main/java/protector/dbs/ws/fakturagrunnlag/generated/SpringFakturagrunnlagWsConfig.java" timestamp="1493042779481">
         <mark key="[" line="6" column="44" />
@@ -1940,7 +1941,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="12" column="0" filename="$USER_HOME$/repos/dmzproxy/proxy-router.js" />
       <jump line="28" column="4" filename="$USER_HOME$/repos/dmzproxy/proxy-router.js" />
       <jump line="17" column="0" filename="$USER_HOME$/repos/dmzproxy/proxy-url-rewrite.spec.js" />
       <jump line="27" column="8" filename="$USER_HOME$/repos/dmzproxy/proxy-url-rewrite.spec.js" />
@@ -2040,10 +2040,11 @@
       <jump line="32" column="25" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto.html" />
       <jump line="38" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto.html" />
       <jump line="52" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-resource.js" />
+      <jump line="28" column="92" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto.html" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygic2V0Q2xhaW1Qcm9wZXJ0aWVzIik7Cg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IG5nLWluaXQ9InRoaXNSb2xlID0gdm0uZ2V0Um9sZShpbnZvaWNlRGF0YS5yb2xlSWQpOyI=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -2096,10 +2097,10 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>insurant</text>
+        <text encoding="base64">IG5nLWluaXQ9InRoaXNSb2xlID0gdm0uZ2V0Um9sZShpbnZvaWNlRGF0YS5yb2xlSWQpOyI=</text>
       </register>
       <register name="/" type="4">
-        <text>preparedst</text>
+        <text encoding="base64">XDx0aGlzUm9sZVw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICByZXR1cm4gUHJvbWlzZS5yZXNvbHZlKHtkYXRhOiB7fSwgc3RhdHVzOiAyMDB9KQo=</text>
@@ -2471,17 +2472,16 @@
       </register>
     </registers>
     <search>
-      <last-search>preparedst</last-search>
+      <last-search encoding="base64">XDx0aGlzUm9sZVw+</last-search>
       <last-offset />
-      <last-pattern>preparedst</last-pattern>
+      <last-pattern encoding="base64">XDx0aGlzUm9sZVw+</last-pattern>
       <last-replace>\[\1\],</last-replace>
       <last-substitute>[^\(]*(\([^\)]*\));</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxzZXF1ZW5jZU51bWJlclw+</entry>
         <entry encoding="base64">XDxub3dcPg==</entry>
         <entry encoding="base64">XDx0c05vd1w+</entry>
         <entry encoding="base64">XDxhc3NpZ25lZFRvRW1haWxcPg==</entry>
@@ -2501,6 +2501,7 @@
         <entry encoding="base64">XDx1a01vZHVsdXNXZWlnaHRTZXJ2aWNlXD4=</entry>
         <entry encoding="base64">XDxSRVRVUk5fR0VORVJBVEVEX0tFWVNcPg==</entry>
         <entry>preparedst</entry>
+        <entry encoding="base64">XDx0aGlzUm9sZVw+</entry>
       </history-search>
       <history-cmd>
         <entry>map</entry>

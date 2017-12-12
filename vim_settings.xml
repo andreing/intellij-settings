@@ -278,6 +278,7 @@
         <mark key="." line="5" column="49" />
         <mark key="^" line="5" column="49" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/ClaimSubAuto.java" timestamp="1513095313813" />
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/TRoot.java" timestamp="1484576890220">
         <mark key="[" line="4" column="18" />
         <mark key="]" line="8" column="0" />
@@ -645,6 +646,12 @@
         <mark key="]" line="42" column="11" />
         <mark key="." line="42" column="11" />
         <mark key="^" line="42" column="11" />
+      </file>
+      <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/domain/Claim.java" timestamp="1513095326690">
+        <mark key="[" line="89" column="5" />
+        <mark key="]" line="99" column="4" />
+        <mark key="^" line="99" column="4" />
+        <mark key="." line="99" column="4" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/WRRAssignee.java" timestamp="1481716842320">
         <mark key="[" line="9" column="23" />
@@ -1105,12 +1112,12 @@
         <mark key="^" line="61" column="53" />
         <mark key="." line="61" column="53" />
       </file>
-      <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagService.java" timestamp="1513095131561">
-        <mark key="'" line="106" column="38" />
-        <mark key="[" line="127" column="30" />
-        <mark key="]" line="120" column="36" />
-        <mark key="." line="120" column="36" />
-        <mark key="^" line="120" column="36" />
+      <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagService.java" timestamp="1513095767117">
+        <mark key="'" line="104" column="20" />
+        <mark key="[" line="104" column="93" />
+        <mark key="]" line="104" column="28" />
+        <mark key="." line="104" column="28" />
+        <mark key="^" line="104" column="28" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/util/SortableWrapper.java" timestamp="1485530966945">
         <mark key="[" line="4" column="4" />
@@ -2069,7 +2076,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="36" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto.html" />
       <jump line="32" column="25" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto.html" />
       <jump line="38" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto.html" />
       <jump line="52" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-resource.js" />
@@ -2169,10 +2175,11 @@
       <jump line="25" column="0" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/map/StatusInfoMapper.java" />
       <jump line="26" column="0" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/map/StatusInfoMapper.java" />
       <jump line="45" column="20" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/map/StatusInfoMapper.java" />
+      <jump line="107" column="20" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNlbmREYnNTdGF0dXMoRGJzU3RhdHVzIGRic1N0YXR1cykgewoKICAgIH0KCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -2234,25 +2241,25 @@
         <text encoding="base64">ICAgICAgICBCaWdEZWNpbWFsIGRlZHVjdGlibGUgPSBpbnN1cmFudERhdGEuZ2V0RGVkdWN0aWJsZSgpOwogICAgICAgIFN0cmluZyBjYWxsVG9Db25maXJtID0gbWFwQ2FsbFRvQ29uZmlybShpbnZvaWNlRGF0YS5nZXRDYWxsVG9Db25maXJtKCkpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNlbmREYnNTdGF0dXMoRGJzU3RhdHVzIGRic1N0YXR1cykgewoKICAgIH0KCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBMb25nIHZhdFJlY2VpdmVyUm9sZUlkID0gZ2V0UmVjZWl2ZXJSb2xlSWQoaW52b2ljZURhdGExLmdldEluc3VyYW50KCkpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIEZ1bmN0aW9uPFJlc3BvbnNlRW50aXRWeTxqYXZhLnV0aWwuTGlzdDxDbGFpbT4+LCBMaXN0PENsYWltPj4gcmVzcG9uc2VFbnRpdHlUb1ZhdnJMaXN0ID0gcmUgLT4gTGlzdC5vZkFsbChyZS5nZXRCb2R5KCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICBjbGFpbXMubWFwKGNzIC0+IGdldENsYWltRm9yVHJhbnNhY3Rpb24oY3MsIGxpY2VuY2VOdW1iZXIsICkpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFJlc3BvbnNlRW50aXR5OjpnZXRCb2R5Cg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNlbmREYnNTdGF0dXMoRGJzU3RhdHVzIGRic1N0YXR1cykgewoKICAgIH0KCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFJlc3BvbnNlRW50aXR5OjpnZXRCb2R5Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIEZ1bmN0aW9uPFJlc3BvbnNlRW50aXRWeTxqYXZhLnV0aWwuTGlzdDxDbGFpbT4+LCBMaXN0PENsYWltPj4gcmVzcG9uc2VFbnRpdHlUb1ZhdnJMaXN0ID0gcmUgLT4gTGlzdC5vZkFsbChyZS5nZXRCb2R5KCkpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2587,13 +2594,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBGdW5jdGlvbjxSZXNwb25zZUVudGl0eTxqYXZhLnV0aWwuTGlzdDxDbGFpbT4+LCBMaXN0PENsYWltPj4gbWFwcGVyID0gcmUgLT4gTGlzdC5vZkFsbChyZS5nZXRCb2R5KCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFJlc3BvbnNlRW50aXR5OjpnZXRCb2R5Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIFJlc3BvbnNlRW50aXR5OjpnZXRCb2R5Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5MaXN0Owo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

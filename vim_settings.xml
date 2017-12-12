@@ -247,6 +247,7 @@
         <mark key="^" line="14" column="34" />
         <mark key="." line="14" column="34" />
       </file>
+      <file name="$USER_HOME$/repos/file-service/client/gradle.properties" timestamp="1513093581708" />
       <file name="$USER_HOME$/dev/dbs/ws/hent-fagdata-ws/src/test/groovy/protector/dbs/ws/hentfagdata/HentFagdataBaseSpec.groovy" timestamp="1497875225705">
         <mark key="[" line="6" column="0" />
         <mark key="]" line="5" column="4" />
@@ -1104,10 +1105,12 @@
         <mark key="^" line="61" column="53" />
         <mark key="." line="61" column="53" />
       </file>
-      <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagService.java" timestamp="1513090575710">
-        <mark key="'" line="104" column="38" />
-        <mark key="[" line="102" column="0" />
-        <mark key="^" line="104" column="98" />
+      <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagService.java" timestamp="1513093771470">
+        <mark key="'" line="106" column="38" />
+        <mark key="[" line="53" column="103" />
+        <mark key="]" line="53" column="16" />
+        <mark key="." line="53" column="16" />
+        <mark key="^" line="53" column="16" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/util/SortableWrapper.java" timestamp="1485530966945">
         <mark key="[" line="4" column="4" />
@@ -1636,11 +1639,11 @@
         <mark key="." line="8" column="12" />
       </file>
       <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/map/StatusInfoMapper.java" timestamp="1513092748355">
-        <mark key="'" line="44" column="20" />
-        <mark key="[" line="58" column="55" />
-        <mark key="]" line="58" column="14" />
-        <mark key="." line="58" column="14" />
-        <mark key="^" line="58" column="14" />
+        <mark key="'" line="45" column="20" />
+        <mark key="[" line="59" column="55" />
+        <mark key="]" line="59" column="14" />
+        <mark key="." line="59" column="14" />
+        <mark key="^" line="59" column="14" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/TreeNode.java" timestamp="1484608697890">
         <mark key="[" line="20" column="17" />
@@ -2169,7 +2172,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIoc3RhdHVzSW5mb09wdCAtPiBzdGF0dXNJbmZvT3B0LmlzRGVmaW5lZCgpKQogICAgICAgICAgICAgICAgLm1hcChlIC0+IGUuZ2V0KCkpCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -2222,7 +2225,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBFaXRoZXI8VGhyb3dhYmxlLCBMaXN0PENsYWltPj4gY2xhaW1zRm9ySGVhZGVyID0gY2xhaW1zUmVzdFNlcnZpY2UuZ2V0Q2xhaW1zRm9ySGVhZGVyKGNsYWltSGVhZGVySWQpOw==</text>
+        <text>StatusInfoMapper.fromClaimsInvoiceData('')::mapFromClaimsInvoiceData</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxQT1NUXD4=</text>
@@ -2231,25 +2234,25 @@
         <text encoding="base64">ICAgICAgICBCaWdEZWNpbWFsIGRlZHVjdGlibGUgPSBpbnN1cmFudERhdGEuZ2V0RGVkdWN0aWJsZSgpOwogICAgICAgIFN0cmluZyBjYWxsVG9Db25maXJtID0gbWFwQ2FsbFRvQ29uZmlybShpbnZvaWNlRGF0YS5nZXRDYWxsVG9Db25maXJtKCkpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIoc3RhdHVzSW5mb09wdCAtPiBzdGF0dXNJbmZvT3B0LmlzRGVmaW5lZCgpKQogICAgICAgICAgICAgICAgLm1hcChlIC0+IGUuZ2V0KCkpCg==</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBTZXQ8SW52b2ljZURhdGEuUm9sZURhdGE+IHJvbGVEYXRhU2V0ID0gU2V0KGludm9pY2VEYXRhLmdldEluc3VyYW50KCkpLmFkZEFsbChpbnZvaWNlRGF0YS5nZXRUaGlyZFBhcnR5KCkpOwo=</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBTZXQ8SW52b2ljZURhdGEuUm9sZURhdGE+IHJvbGVEYXRhU2V0ID0gU2V0KGludm9pY2VEYXRhLmdldEluc3VyYW50KCkpLmFkZEFsbChpbnZvaWNlRGF0YS5nZXRUaGlyZFBhcnR5KCkpOwo=</text>
+      </register>
       <register name="4" type="2">
-        <text encoding="base64">CiAgICBwdWJsaWMgQmlnRGVjaW1hbCBnZXRUYXgoKSB7CiAgICAgICAgcmV0dXJuIHRheDsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRUYXgoQmlnRGVjaW1hbCB0YXgpIHsKICAgICAgICB0aGlzLnRheCA9IHRheDsKICAgIH0KCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC53aXRoUmVkdWN0aW9uKGluc3VyYW50RGF0YS5nZXRSZWR1Y3Rpb24oKS5pbnRWYWx1ZSgpKQo=</text>
+        <text encoding="base64">CiAgICBwdWJsaWMgQmlnRGVjaW1hbCBnZXRUYXgoKSB7CiAgICAgICAgcmV0dXJuIHRheDsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRUYXgoQmlnRGVjaW1hbCB0YXgpIHsKICAgICAgICB0aGlzLnRheCA9IHRheDsKICAgIH0KCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgQmlnRGVjaW1hbCB0YXg7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC53aXRoUmVkdWN0aW9uKGluc3VyYW50RGF0YS5nZXRSZWR1Y3Rpb24oKS5pbnRWYWx1ZSgpKQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2584,13 +2587,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgVHJhbnNhY3Rpb24gY3JlYXRlTXZhVHJhbnNhY3Rpb24oU2VuZEZha3R1cmFncnVubmxhZyBzZW5kRmFrdHVyYWdydW5ubGFnLCBMb25nIGNsYWltSWQsIExvbmcgcm9sZUlkKSB7CgogICAgfQoK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgQmlnRGVjaW1hbCB0YXg7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNldFRyYW5zYWN0aW9uVHlwZUlkKExvbmcgdHJhbnNhY3Rpb25UeXBlSWQpIHsKICAgICAgICB0aGlzLnRyYW5zYWN0aW9uVHlwZUlkID0gdHJhbnNhY3Rpb25UeXBlSWQ7CiAgICB9Cgo=</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgVHJhbnNhY3Rpb24gY3JlYXRlTXZhVHJhbnNhY3Rpb24oU2VuZEZha3R1cmFncnVubmxhZyBzZW5kRmFrdHVyYWdydW5ubGFnLCBMb25nIGNsYWltSWQsIExvbmcgcm9sZUlkKSB7CgogICAgfQoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNldFRyYW5zYWN0aW9uVHlwZUlkKExvbmcgdHJhbnNhY3Rpb25UeXBlSWQpIHsKICAgICAgICB0aGlzLnRyYW5zYWN0aW9uVHlwZUlkID0gdHJhbnNhY3Rpb25UeXBlSWQ7CiAgICB9Cgo=</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

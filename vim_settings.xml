@@ -575,12 +575,12 @@
         <mark key="^" line="61" column="53" />
         <mark key="." line="61" column="53" />
       </file>
-      <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagService.java" timestamp="1513166927594">
-        <mark key="'" line="134" column="16" />
-        <mark key="[" line="139" column="64" />
-        <mark key="]" line="139" column="34" />
-        <mark key="." line="139" column="48" />
-        <mark key="^" line="139" column="34" />
+      <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagService.java" timestamp="1513169005269">
+        <mark key="'" line="137" column="20" />
+        <mark key="[" line="142" column="19" />
+        <mark key="]" line="142" column="0" />
+        <mark key="." line="142" column="0" />
+        <mark key="^" line="142" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/util/SortableWrapper.java" timestamp="1485530966945">
         <mark key="[" line="4" column="4" />
@@ -2076,8 +2076,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="127" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
-      <jump line="48" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
       <jump line="72" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto.html" />
       <jump line="262" column="17" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" />
       <jump line="286" column="55" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" />
@@ -2176,10 +2174,12 @@
       <jump line="130" column="8" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagService.java" />
       <jump line="136" column="0" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagService.java" />
       <jump line="142" column="16" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagService.java" />
+      <jump line="140" column="0" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagService.java" />
+      <jump line="138" column="20" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagService.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBFaXRoZXI8RmFrdHVyYWdydW5ubGFnQnVpbGRlciwgSW52b2ljZURhdGE+IGludm9pY2VEYXRhRWl0aGVyID0gZ2V0SW52b2ljZURhdGEoY2xhaW1IZWFkZXJJZCwgbGljZW5jZU51bWJlcikKICAgICAgICAgICAgICAgIC5tYXBMZWZ0KCBSZXR1cm5Db2RlOjp2YWx1ZSkKICAgICAgICAgICAgICAgIC5tYXBMZWZ0KHJlc3BvbnNlQnVpbGRlcjo6d2l0aFJldHVybkNvZGUpOwogICAgICAgIAogICAgICAgIEVpdGhlcjxGYWt0dXJhZ3J1bm5sYWdCdWlsZGVyLCBMaXN0PENsYWltPj4gY2xhaW1zRWl0aGVyID0gZ2V0Q2xhaW1zKGNsYWltSGVhZGVySWQpCiAgICAgICAgICAgICAgICAubWFwTGVmdChSZXR1cm5Db2RlOjp2YWx1ZSkKICAgICAgICAgICAgICAgIC5tYXBMZWZ0KHJlc3BvbnNlQnVpbGRlcjo6d2l0aFJldHVybkNvZGUpOwoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -2238,28 +2238,28 @@
         <text encoding="base64">XDxQT1NUXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXBMZWZ0KFJldHVybkNvZGU6OnZhbHVlKQogICAgICAgICAgICAgICAgLm1hcExlZnQocmVzcG9uc2VCdWlsZGVyOjp3aXRoUmV0dXJuQ29kZSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBPcHRpb248Q2xhaW0+IGNsYWltRm9yVHJhbnNhY3Rpb24gPSBnZXRDbGFpbUZvclRyYW5zYWN0aW9uKHR1cGxlLl8yLCB0dXBsZS5fMywgbGljZW5jZU51bWJlcik7CiAgICAgICAgICAgICAgICAgICAgTG9uZyBpbnZvaWNlUmVjZWl2ZXJSb2xlSWQgPSBnZXRDdXJyZW50Um9sZURhdGEodHVwbGUuXzMsIGxpY2VuY2VOdW1iZXIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZmxhdE1hcChyb2xlRGF0YSAtPiBPcHRpb24ub2Yocm9sZURhdGEuZ2V0SW52b2ljZVJlY2VpdmVyUm9sZUlkKCkpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmdldE9yRWxzZSh0dXBsZS5fMS5nZXRJZCgpKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBFaXRoZXI8RmFrdHVyYWdydW5ubGFnQnVpbGRlciwgSW52b2ljZURhdGE+IGludm9pY2VEYXRhRWl0aGVyID0gZ2V0SW52b2ljZURhdGEoY2xhaW1IZWFkZXJJZCwgbGljZW5jZU51bWJlcikKICAgICAgICAgICAgICAgIC5tYXBMZWZ0KCBSZXR1cm5Db2RlOjp2YWx1ZSkKICAgICAgICAgICAgICAgIC5tYXBMZWZ0KHJlc3BvbnNlQnVpbGRlcjo6d2l0aFJldHVybkNvZGUpOwogICAgICAgIAogICAgICAgIEVpdGhlcjxGYWt0dXJhZ3J1bm5sYWdCdWlsZGVyLCBMaXN0PENsYWltPj4gY2xhaW1zRWl0aGVyID0gZ2V0Q2xhaW1zKGNsYWltSGVhZGVySWQpCiAgICAgICAgICAgICAgICAubWFwTGVmdChSZXR1cm5Db2RlOjp2YWx1ZSkKICAgICAgICAgICAgICAgIC5tYXBMZWZ0KHJlc3BvbnNlQnVpbGRlcjo6d2l0aFJldHVybkNvZGUpOwoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text>jdd</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAodHVwbGUgLT4gewogICAgICAgICAgICAgICAgICAgIE9wdGlvbjxDbGFpbT4gY2xhaW1Gb3JUcmFuc2FjdGlvbiA9IGdldENsYWltRm9yVHJhbnNhY3Rpb24odHVwbGUuXzIsIHR1cGxlLl8zLCBsaWNlbmNlTnVtYmVyKTsKICAgICAgICAgICAgICAgICAgICBMb25nIGludm9pY2VSZWNlaXZlclJvbGVJZCA9IGdldEN1cnJlbnRSb2xlRGF0YSh0dXBsZS5fMywgbGljZW5jZU51bWJlcikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5mbGF0TWFwKHJvbGVEYXRhIC0+IE9wdGlvbi5vZihyb2xlRGF0YS5nZXRJbnZvaWNlUmVjZWl2ZXJSb2xlSWQoKSkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZ2V0T3JFbHNlKHR1cGxlLl8xLmdldElkKCkpOwogICAgICAgICAgICAgICAgfSkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBFaXRoZXI8RmFrdHVyYWdydW5ubGFnQnVpbGRlciwgTGlzdDxDbGFpbT4+IGNsYWltc0VpdGhlciA9IGdldENsYWltcyhjbGFpbUhlYWRlcklkKQogICAgICAgICAgICAgICAgLm1hcExlZnQoUmV0dXJuQ29kZTo6dmFsdWUpCiAgICAgICAgICAgICAgICAubWFwTGVmdChyZXNwb25zZUJ1aWxkZXI6OndpdGhSZXR1cm5Db2RlKTsKCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBPcHRpb248SW52b2ljZURhdGEuUm9sZURhdGE+IGN1cnJlbnRSb2xlRGF0YSA9IGdldEN1cnJlbnRSb2xlRGF0YSh0dXBsZS5fMywgbGljZW5jZU51bWJlcik7Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">KTsK</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoY2xhaW1zRWl0aGVyLmlzTGVmdCgpKSB7CiAgICAgICAgICAgIHJldHVybiAKICAgICAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXBMZWZ0KHJiIC0+IHJiLikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2594,13 +2594,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXBMZWZ0KHRoaXM6OmVycm9yQ29kZVRvUmVzcG9uc2UpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZXR1cm4gVHJhbnNhY3Rpb25NYXBwZXIuY3JlYXRlUmVwYWlyVHJhbnNhY3Rpb24oc2VuZEZha3R1cmFncnVubmxhZywpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoY2xhaW1zIC0+IGdldENsYWltRm9yVHJhbnNhY3Rpb24oY2xhaW1zLCApKTsK</text>
+        <text encoding="base64">ICAgICAgICBFaXRoZXI8RmFrdHVyYWdydW5ubGFnQnVpbGRlciwgSW52b2ljZURhdGE+IGludm9pY2VEYXRhRWl0aGVyID0gZ2V0SW52b2ljZURhdGEoY2xhaW1IZWFkZXJJZCwgbGljZW5jZU51bWJlcikKICAgICAgICAgICAgICAgIC5tYXBMZWZ0KCBSZXR1cm5Db2RlOjp2YWx1ZSkKICAgICAgICAgICAgICAgIC5tYXBMZWZ0KHJlc3BvbnNlQnVpbGRlcjo6d2l0aFJldHVybkNvZGUpOwogICAgICAgIAogICAgICAgIEVpdGhlcjxGYWt0dXJhZ3J1bm5sYWdCdWlsZGVyLCBMaXN0PENsYWltPj4gY2xhaW1zRWl0aGVyID0gZ2V0Q2xhaW1zKGNsYWltSGVhZGVySWQpCiAgICAgICAgICAgICAgICAubWFwTGVmdChSZXR1cm5Db2RlOjp2YWx1ZSkKICAgICAgICAgICAgICAgIC5tYXBMZWZ0KHJlc3BvbnNlQnVpbGRlcjo6d2l0aFJldHVybkNvZGUpOwoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoaW52b2ljZURhdGEgLT4gKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

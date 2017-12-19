@@ -214,6 +214,11 @@
         <mark key="^" line="14" column="34" />
         <mark key="." line="14" column="34" />
       </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/dto/EventDto.java" timestamp="1513698027702">
+        <mark key="'" line="7" column="0" />
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="29" column="35" />
+      </file>
       <file name="$USER_HOME$/dev/robotprocessing/m7/src/main/java/no/protector/m7/kafka/Consumers.java" timestamp="1492514720947">
         <mark key="[" line="26" column="37" />
         <mark key="]" line="29" column="37" />
@@ -548,11 +553,6 @@
         <mark key="]" line="8" column="40" />
         <mark key="^" line="8" column="38" />
         <mark key="." line="8" column="38" />
-      </file>
-      <file name="$USER_HOME$/repos/dbs/app/src/main/resources/application-dev.properties" timestamp="1513686465577">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="." line="3" column="0" />
       </file>
       <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagConfig.java" timestamp="1513693395248">
         <mark key="[" line="24" column="0" />
@@ -1000,6 +1000,13 @@
         <mark key="]" line="6" column="11" />
         <mark key="^" line="6" column="11" />
         <mark key="." line="6" column="11" />
+      </file>
+      <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/domain/ClaimEvent.java" timestamp="1513698045185">
+        <mark key="'" line="4" column="4" />
+        <mark key="[" line="4" column="4" />
+        <mark key="]" line="26" column="36" />
+        <mark key="^" line="3" column="3" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/claims/templates/NodeWrapper.java" timestamp="1485551329299">
         <mark key="[" line="2" column="29" />
@@ -2238,8 +2245,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="121" column="8" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/invoicedata/InvoiceDataJdbcDao.java" />
-      <jump line="0" column="32" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/invoicedata/InvoiceDataJdbcDao.java" />
       <jump line="134" column="27" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
       <jump line="53" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
       <jump line="29" column="13" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
@@ -2338,10 +2343,12 @@
       <jump line="44" column="8" filename="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/HentFagdataService.java" />
       <jump line="20" column="0" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagTestConfig.java" />
       <jump line="27" column="4" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagTestConfig.java" />
+      <jump line="7" column="0" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/dto/EventDto.java" />
+      <jump line="4" column="4" filename="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/domain/ClaimEvent.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgbG9uZyBpZDsKICAgIHByaXZhdGUgU3RyaW5nIHN0YXJ0RGF0ZTsKICAgIHByaXZhdGUgU3RyaW5nIGZpbmlzaGVkRGF0ZTsKICAgIHByaXZhdGUgTG9uZyBjbGFpbVJvbGVJZDsKICAgIHByaXZhdGUgTG9uZyBhc3NvY2lhdGVkQ2xhaW1Sb2xlSWQ7CiAgICBwcml2YXRlIExvbmcgY2xhaW1FdmVudFR5cGVJZDsKICAgIHByaXZhdGUgbG9uZyBzdGF0dXNJZDsKICAgIHByaXZhdGUgU3RyaW5nIHJlbWluZGVyRGF0ZTsKICAgIHByaXZhdGUgU3RyaW5nIGNvbW1lbnRzOwogICAgcHJpdmF0ZSBEYXRlIGNyZWF0ZWREYXRlOwogICAgcHJpdmF0ZSBMb25nIGNyZWF0ZWRVc2VySWQ7CiAgICBwcml2YXRlIERhdGUgbGFzdFVwZGF0ZWREYXRlOwogICAgcHJpdmF0ZSBMb25nIGxhc3RVcGRhdGVkVXNlcklkOwogICAgcHJpdmF0ZSBMb25nIGNvbW1UeXBlSWQ7CiAgICBwcml2YXRlIFVzZXIgY3JlYXRlZFVzZXI7CiAgICBwcml2YXRlIFVzZXIgbGFzdFVwZGF0ZWRVc2VyOwogICAgcHJpdmF0ZSBsb25nIGNsYWltSGVhZGVySWQ7CiAgICBwcml2YXRlIExvbmcgaG91cnNVc2VkOwogICAgcHJpdmF0ZSBMb25nIHNlcmlhbE51bWJlcjsKICAgIHByaXZhdGUgU3RyaW5nIG1ldGFJbmZvOwogICAgcHJpdmF0ZSBMb25nIHBhcmVudEV2ZW50SWQ7CiAgICBwcml2YXRlIEJvb2xlYW4gbWFkZUNvbnRhY3Q7CiAgICBwcml2YXRlIFN0cmluZyBmcm9tRW1haWxBZGRyZXNzOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -2400,7 +2407,7 @@
         <text encoding="base64">XDxQT1NUXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEBCZWFuCiAgICBwdWJsaWMgRW5kcG9pbnQgZmFrdHVyYWdydW5ubGFnRW5kcG9pbnQoU3ByaW5nQnVzIHNwcmluZ0J1cywgRGJzUG9ydFR5cGUgc2VydmljZSkgewogICAgICAgIEVuZHBvaW50SW1wbCBlbmRwb2ludCA9IG5ldyBFbmRwb2ludEltcGwoc3ByaW5nQnVzLCBzZXJ2aWNlKTsKICAgICAgICBlbmRwb2ludC5wdWJsaXNoKCIvZmFrdHVyYWdydW5ubGFnIik7CiAgICAgICAgcmV0dXJuIGVuZHBvaW50OwogICAgfQo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgbG9uZyBpZDsKICAgIHByaXZhdGUgU3RyaW5nIHN0YXJ0RGF0ZTsKICAgIHByaXZhdGUgU3RyaW5nIGZpbmlzaGVkRGF0ZTsKICAgIHByaXZhdGUgTG9uZyBjbGFpbVJvbGVJZDsKICAgIHByaXZhdGUgTG9uZyBhc3NvY2lhdGVkQ2xhaW1Sb2xlSWQ7CiAgICBwcml2YXRlIExvbmcgY2xhaW1FdmVudFR5cGVJZDsKICAgIHByaXZhdGUgbG9uZyBzdGF0dXNJZDsKICAgIHByaXZhdGUgU3RyaW5nIHJlbWluZGVyRGF0ZTsKICAgIHByaXZhdGUgU3RyaW5nIGNvbW1lbnRzOwogICAgcHJpdmF0ZSBEYXRlIGNyZWF0ZWREYXRlOwogICAgcHJpdmF0ZSBMb25nIGNyZWF0ZWRVc2VySWQ7CiAgICBwcml2YXRlIERhdGUgbGFzdFVwZGF0ZWREYXRlOwogICAgcHJpdmF0ZSBMb25nIGxhc3RVcGRhdGVkVXNlcklkOwogICAgcHJpdmF0ZSBMb25nIGNvbW1UeXBlSWQ7CiAgICBwcml2YXRlIFVzZXIgY3JlYXRlZFVzZXI7CiAgICBwcml2YXRlIFVzZXIgbGFzdFVwZGF0ZWRVc2VyOwogICAgcHJpdmF0ZSBsb25nIGNsYWltSGVhZGVySWQ7CiAgICBwcml2YXRlIExvbmcgaG91cnNVc2VkOwogICAgcHJpdmF0ZSBMb25nIHNlcmlhbE51bWJlcjsKICAgIHByaXZhdGUgU3RyaW5nIG1ldGFJbmZvOwogICAgcHJpdmF0ZSBMb25nIHBhcmVudEV2ZW50SWQ7CiAgICBwcml2YXRlIEJvb2xlYW4gbWFkZUNvbnRhY3Q7CiAgICBwcml2YXRlIFN0cmluZyBmcm9tRW1haWxBZGRyZXNzOwo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>

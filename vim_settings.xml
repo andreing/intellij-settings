@@ -167,11 +167,11 @@
         <mark key="^" line="11" column="26" />
         <mark key="." line="11" column="26" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1513852781249">
-        <mark key="[" line="94" column="33" />
-        <mark key="]" line="92" column="10" />
-        <mark key="." line="92" column="10" />
-        <mark key="^" line="92" column="10" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1513853505078">
+        <mark key="[" line="96" column="33" />
+        <mark key="]" line="96" column="2" />
+        <mark key="." line="96" column="2" />
+        <mark key="^" line="96" column="2" />
       </file>
       <file name="$USER_HOME$/repos/dbs/ws/oppdrag-ws/src/main/java/protector/dbs/ws/oppdrag/OppdragService.java" timestamp="1513242794737">
         <mark key="[" line="26" column="0" />
@@ -1773,7 +1773,7 @@
         <mark key="." line="9" column="150" />
       </file>
       <file name="$USER_HOME$/repos/claims/party/src/main/java/protector/claims/party/common/Address.java" timestamp="1513851936280" />
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9687894a-0f49-472d-9fa9-dcdbab8d1841/console.sql" timestamp="1513852736869">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9687894a-0f49-472d-9fa9-dcdbab8d1841/console.sql" timestamp="1513853582168">
         <mark key="'" line="75" column="28" />
         <mark key="[" line="107" column="50" />
         <mark key="]" line="52" column="0" />
@@ -2203,11 +2203,11 @@
         <mark key="." line="20" column="70" />
         <mark key="^" line="20" column="70" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/8ae164ab-fb76-4fca-8092-a0f4c70e8b27/console.sql" timestamp="1512138509378">
-        <mark key="[" line="31" column="0" />
-        <mark key="]" line="31" column="0" />
-        <mark key="." line="31" column="0" />
-        <mark key="^" line="31" column="50" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/8ae164ab-fb76-4fca-8092-a0f4c70e8b27/console.sql" timestamp="1513853636002">
+        <mark key="[" line="31" column="6" />
+        <mark key="]" line="41" column="32" />
+        <mark key="." line="41" column="32" />
+        <mark key="^" line="41" column="32" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/icd/icd-code-module.js" timestamp="1490870706044">
         <mark key="[" line="1" column="52" />
@@ -2399,15 +2399,19 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>select * from Translation where [Key] like 'editRoleModalContent.form.zip%'
-
- UPDATE Translation
-SET English = 'Postcode'
-WHERE [Key] = 'editRoleModalContent.form.zipCode'
-
-UPDATE Translation
-SET English = 'Postal address'
-WHERE [Key] = 'editRoleModalContent.form.zipPlace'</text>
+        <text>UPDATE CC
+SET cc1 = 5, cc2 = 'uk', cc3 = NULL
+FROM
+  (SELECT
+     cr.id a,
+     p.Country_Id AS cc1,
+     A.Country    AS cc2,
+     A.ISO_3166_3 AS cc3
+   FROM Claim_Role cr
+     JOIN Party p ON cr.Party_Id = p.Id
+     JOIN Party_Address PA ON p.Id = PA.Party_Id
+     JOIN Address A ON PA.Address_Id = A.Id
+   WHERE cr.Claim_Header_Id = 348583 AND p.Country_Id = 1) AS CC</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -2469,15 +2473,19 @@ WHERE [Key] = 'editRoleModalContent.form.zipPlace'</text>
         <text encoding="base64">ICAgIHB1YmxpYyBDb25zdW1lcjxJbnB1dFN0cmVhbT4gZ2V0U3RyZWFtQ29uc3VtZXIoSHR0cFNlcnZsZXRSZXNwb25zZSBvdXQsIFN0cmluZyBmaWxlbmFtZSkgewogICAgICAgIG91dC5zZXRDb250ZW50VHlwZShNZWRpYVR5cGUuQVBQTElDQVRJT05fT0NURVRfU1RSRUFNX1ZBTFVFKTsKICAgICAgICBvdXQuYWRkSGVhZGVyKCJDb250ZW50LURpc3Bvc2l0aW9uIiwgImF0dGFjaG1lbnQ7ZmlsZW5hbWU9IiArIGZpbGVuYW1lKTsKICAgICAgICByZXR1cm4gaXMgLT4gewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBTdHJlYW1VdGlscy5jb3B5KGlzLCBvdXQuZ2V0T3V0cHV0U3RyZWFtKCkpOwogICAgICAgICAgICAgICAgfSBjYXRjaCAoSU9FeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBJbnRlcm5hbFNlcnZlckV4Y2VwdGlvbigiRXJyb3Igd2hlbiB3cml0aW5nIHRvIE91dHB1dFN0cmVhbSIsIGUpOwogICAgICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICBvdXQuZmx1c2hCdWZmZXIoKTsKICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChJT0V4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBJbnRlcm5hbFNlcnZlckV4Y2VwdGlvbigiRXJyb3Igd2hlbiB0cnlpbmcgdG8gZmx1c2ggcmVzcG9uc2UgYnVmZmVyIiwgZSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9OwogICAgfQo=</text>
       </register>
       <register name="1" type="4">
-        <text>select * from Translation where [Key] like 'editRoleModalContent.form.zip%'
-
- UPDATE Translation
-SET English = 'Postcode'
-WHERE [Key] = 'editRoleModalContent.form.zipCode'
-
-UPDATE Translation
-SET English = 'Postal address'
-WHERE [Key] = 'editRoleModalContent.form.zipPlace'</text>
+        <text>UPDATE CC
+SET cc1 = 5, cc2 = 'uk', cc3 = NULL
+FROM
+  (SELECT
+     cr.id a,
+     p.Country_Id AS cc1,
+     A.Country    AS cc2,
+     A.ISO_3166_3 AS cc3
+   FROM Claim_Role cr
+     JOIN Party p ON cr.Party_Id = p.Id
+     JOIN Party_Address PA ON p.Id = PA.Party_Id
+     JOIN Address A ON PA.Address_Id = A.Id
+   WHERE cr.Claim_Header_Id = 348583 AND p.Country_Id = 1) AS CC</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2503,20 +2511,28 @@ WHERE [Key] = 'editRoleModalContent.form.zipPlace'</text>
           <key char="44" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5mdW5jdGlvbi5Db25zdW1lcjsK</text>
+      <register name="2" type="4">
+        <text>select * from Translation where [Key] like 'editRoleModalContent.form.zip%'
+
+ UPDATE Translation
+SET English = 'Postcode'
+WHERE [Key] = 'editRoleModalContent.form.zipCode'
+
+UPDATE Translation
+SET English = 'Postal address'
+WHERE [Key] = 'editRoleModalContent.form.zipPlace'</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB0cnkgKENsb3NlYWJsZUh0dHBDbGllbnQgaHR0cENsaWVudCA9IEh0dHBDbGllbnRCdWlsZGVyLmNyZWF0ZSgpLmJ1aWxkKCkpIHsKICAgICAgICAgICAgcmV0dXJuIGRvY3VtZW50U2VydmljZS5zdG9yZURvY3VtZW50KGRvY3VtZW50U2VydmljZS5nZXRQZGZJbnB1dFN0cmVhbShjb21wbGV0ZUh0bWwsIGh0dHBDbGllbnQpLCBtZXRhRGF0YSkuZ2V0SWQoKTsKICAgICAgICB9IGNhdGNoIChJT0V4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBJbnRlcm5hbFNlcnZlckV4Y2VwdGlvbigiVHJvdWJsZSB3aGVuIGNvbnZlcnRpbmcgSFRNTCB0byBQREYtZG9jdW1lbnQiLCBlKTsKICAgICAgICB9Cg==</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5mdW5jdGlvbi5Db25zdW1lcjsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIExPRy5lcnJvcihlLmdldE1lc3NhZ2UoKSwgZSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICB0cnkgKENsb3NlYWJsZUh0dHBDbGllbnQgaHR0cENsaWVudCA9IEh0dHBDbGllbnRCdWlsZGVyLmNyZWF0ZSgpLmJ1aWxkKCkpIHsKICAgICAgICAgICAgcmV0dXJuIGRvY3VtZW50U2VydmljZS5zdG9yZURvY3VtZW50KGRvY3VtZW50U2VydmljZS5nZXRQZGZJbnB1dFN0cmVhbShjb21wbGV0ZUh0bWwsIGh0dHBDbGllbnQpLCBtZXRhRGF0YSkuZ2V0SWQoKTsKICAgICAgICB9IGNhdGNoIChJT0V4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBJbnRlcm5hbFNlcnZlckV4Y2VwdGlvbigiVHJvdWJsZSB3aGVuIGNvbnZlcnRpbmcgSFRNTCB0byBQREYtZG9jdW1lbnQiLCBlKTsKICAgICAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIExPRy5lcnJvcihlLmdldE1lc3NhZ2UoKSwgZSk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB0cnkgKENsb3NlYWJsZUh0dHBDbGllbnQgaHR0cENsaWVudCA9IEh0dHBDbGllbnRCdWlsZGVyLmNyZWF0ZSgpLmJ1aWxkKCkpIHsKICAgICAgICAgICAgU3RyZWFtVXRpbHMuY29weShkb2N1bWVudFNlcnZpY2UuZ2V0UGRmSW5wdXRTdHJlYW0oaHRtbCwgaHR0cENsaWVudCksIG91dC5nZXRPdXRwdXRTdHJlYW0oKSk7CiAgICAgICAgfSBjYXRjaCAoSU9FeGNlcHRpb24gZSkgewogICAgICAgICAgICB0aHJvdyBuZXcgSW50ZXJuYWxTZXJ2ZXJFeGNlcHRpb24oIlRyb3VibGUgd2hlbiBjb252ZXJ0aW5nIEhUTUwgdG8gUERGLWRvY3VtZW50IiwgZSk7CiAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgb3V0LmZsdXNoQnVmZmVyKCk7CiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2851,13 +2867,13 @@ WHERE [Key] = 'editRoleModalContent.form.zipPlace'</text>
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBDb25zdW1lcjxJbnB1dFN0cmVhbT4gZ2V0U3RyZWFtQ29uc3VtZXIoSHR0cFNlcnZsZXRSZXNwb25zZSBvdXQsIFN0cmluZyBmaWxlbmFtZSkgewogICAgICAgIG91dC5zZXRDb250ZW50VHlwZShNZWRpYVR5cGUuQVBQTElDQVRJT05fT0NURVRfU1RSRUFNX1ZBTFVFKTsKICAgICAgICBvdXQuYWRkSGVhZGVyKCJDb250ZW50LURpc3Bvc2l0aW9uIiwgImF0dGFjaG1lbnQ7ZmlsZW5hbWU9IiArIGZpbGVuYW1lKTsKICAgICAgICByZXR1cm4gaXMgLT4gewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBTdHJlYW1VdGlscy5jb3B5KGlzLCBvdXQuZ2V0T3V0cHV0U3RyZWFtKCkpOwogICAgICAgICAgICAgICAgfSBjYXRjaCAoSU9FeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBJbnRlcm5hbFNlcnZlckV4Y2VwdGlvbigiRXJyb3Igd2hlbiB3cml0aW5nIHRvIE91dHB1dFN0cmVhbSIsIGUpOwogICAgICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICBvdXQuZmx1c2hCdWZmZXIoKTsKICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChJT0V4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBJbnRlcm5hbFNlcnZlckV4Y2VwdGlvbigiRXJyb3Igd2hlbiB0cnlpbmcgdG8gZmx1c2ggcmVzcG9uc2UgYnVmZmVyIiwgZSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9OwogICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICB0cnkgKENsb3NlYWJsZUh0dHBDbGllbnQgaHR0cENsaWVudCA9IEh0dHBDbGllbnRCdWlsZGVyLmNyZWF0ZSgpLmJ1aWxkKCkpIHsKICAgICAgICAgICAgU3RyZWFtVXRpbHMuY29weShkb2N1bWVudFNlcnZpY2UuZ2V0UGRmSW5wdXRTdHJlYW0oaHRtbCwgaHR0cENsaWVudCksIG91dC5nZXRPdXRwdXRTdHJlYW0oKSk7CiAgICAgICAgfSBjYXRjaCAoSU9FeGNlcHRpb24gZSkgewogICAgICAgICAgICB0aHJvdyBuZXcgSW50ZXJuYWxTZXJ2ZXJFeGNlcHRpb24oIlRyb3VibGUgd2hlbiBjb252ZXJ0aW5nIEhUTUwgdG8gUERGLWRvY3VtZW50IiwgZSk7CiAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgb3V0LmZsdXNoQnVmZmVyKCk7CiAgICAgICAgfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBDb25zdW1lcjxJbnB1dFN0cmVhbT4gc3RyZWFtQ29uc3VtZXIgPSBnZXRTdHJlYW1Db25zdW1lcihvdXQsIGZpbGVOYW1lKTsK</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBDb25zdW1lcjxJbnB1dFN0cmVhbT4gZ2V0U3RyZWFtQ29uc3VtZXIoSHR0cFNlcnZsZXRSZXNwb25zZSBvdXQsIFN0cmluZyBmaWxlbmFtZSkgewogICAgICAgIG91dC5zZXRDb250ZW50VHlwZShNZWRpYVR5cGUuQVBQTElDQVRJT05fT0NURVRfU1RSRUFNX1ZBTFVFKTsKICAgICAgICBvdXQuYWRkSGVhZGVyKCJDb250ZW50LURpc3Bvc2l0aW9uIiwgImF0dGFjaG1lbnQ7ZmlsZW5hbWU9IiArIGZpbGVuYW1lKTsKICAgICAgICByZXR1cm4gaXMgLT4gewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBTdHJlYW1VdGlscy5jb3B5KGlzLCBvdXQuZ2V0T3V0cHV0U3RyZWFtKCkpOwogICAgICAgICAgICAgICAgfSBjYXRjaCAoSU9FeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBJbnRlcm5hbFNlcnZlckV4Y2VwdGlvbigiRXJyb3Igd2hlbiB3cml0aW5nIHRvIE91dHB1dFN0cmVhbSIsIGUpOwogICAgICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICBvdXQuZmx1c2hCdWZmZXIoKTsKICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChJT0V4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBJbnRlcm5hbFNlcnZlckV4Y2VwdGlvbigiRXJyb3Igd2hlbiB0cnlpbmcgdG8gZmx1c2ggcmVzcG9uc2UgYnVmZmVyIiwgZSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9OwogICAgfQoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBvdXQuc2V0Q29udGVudFR5cGUoTWVkaWFUeXBlLkFQUExJQ0FUSU9OX09DVEVUX1NUUkVBTV9WQUxVRSk7CiAgICAgICAgb3V0LmFkZEhlYWRlcigiQ29udGVudC1EaXNwb3NpdGlvbiIsICJhdHRhY2htZW50O2ZpbGVuYW1lPSIgKyBmaWxlTmFtZSk7Cgo=</text>
+        <text encoding="base64">ICAgICAgICBDb25zdW1lcjxJbnB1dFN0cmVhbT4gc3RyZWFtQ29uc3VtZXIgPSBnZXRTdHJlYW1Db25zdW1lcihvdXQsIGZpbGVOYW1lKTsK</text>
       </register>
       <register name=":" type="4">
         <text>reg</text>

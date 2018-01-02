@@ -140,11 +140,11 @@
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/dbs/app/src/main/java/protector/dbs/Application.java" timestamp="1514883100485">
-        <mark key="[" line="36" column="56" />
-        <mark key="]" line="17" column="50" />
-        <mark key="." line="17" column="50" />
-        <mark key="^" line="17" column="50" />
+      <file name="$USER_HOME$/repos/dbs/app/src/main/java/protector/dbs/Application.java" timestamp="1514883985902">
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="27" column="0" />
+        <mark key="." line="27" column="0" />
+        <mark key="^" line="14" column="50" />
       </file>
       <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/invoicedata/InvoiceDataDao.java" timestamp="1512561074800">
         <mark key="[" line="13" column="27" />
@@ -271,10 +271,11 @@
       <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/ResourceNotFoundException.java" timestamp="1508835496681">
         <mark key="[" line="3" column="4" />
       </file>
-      <file name="$USER_HOME$/repos/dbs/app/src/main/java/protector/dbs/RayGunExceptionHandler.java" timestamp="1513953360465">
-        <mark key="[" line="14" column="8" />
-        <mark key="]" line="14" column="0" />
-        <mark key="." line="14" column="0" />
+      <file name="$USER_HOME$/repos/dbs/app/src/main/java/protector/dbs/RayGunExceptionHandler.java" timestamp="1514884023682">
+        <mark key="[" line="8" column="32" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+        <mark key="^" line="10" column="29" />
       </file>
       <file name="$USER_HOME$/repos/dbs/app/src/main/resources/logback-config-test.xml" timestamp="1513857264879">
         <mark key="[" line="3" column="27" />
@@ -504,7 +505,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBSYXlndW5DbGllbnQgY2xpZW50ID0gbmV3IFJheWd1bkNsaWVudCgibWtRaHpxcXZKaHR1MUpTOFNUeHJtZz09Iik7Cg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmFwaUtleSA9IGFwaUtleTsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -557,7 +558,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>claimRoleId == null || Objects.equals(claimRoleId, 0L)</text>
+        <text>@Value(&quot;${raygun.apiKey}&quot;) String apiKey</text>
       </register>
       <register name="/" type="4">
         <text>@Req</text>
@@ -566,7 +567,7 @@
         <text encoding="base64">ICAgICAgICBTdHJpbmcgbmFtZUFuZEFkZHJlc3MgPSBwYXJ0eUFkZHJlc3NUb0h0bWxTdHJpbmcocGFydHksIHJvbGUsIGNvdW50cnlJZCwgaXNNYWlsVGVtcGxhdGUpCiAgICAgICAgICAgICAgICAub3JFbHNlR2V0KCgpIC0+IGlzTWFpbFRlbXBsYXRlIHx8IHJlbW92ZUxldHRlclNwYWNpbmcKICAgICAgICAgICAgICAgICAgICAgICAgPyAiPGRpdiBzdHlsZT1cImhlaWdodDo1MHB4XCI+XG48L2JyPjwvZGl2PiIKICAgICAgICAgICAgICAgICAgICAgICAgOiAiPGRpdiBzdHlsZT1cImhlaWdodDo4MHB4XCI+PC9kaXY+Iik7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBSYXlndW5DbGllbnQgY2xpZW50ID0gbmV3IFJheWd1bkNsaWVudCgibWtRaHpxcXZKaHR1MUpTOFNUeHJtZz09Iik7Cg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmFwaUtleSA9IGFwaUtleTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -593,19 +594,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEBCZWFuCiAgICBwdWJsaWMgUmF5Z3VuQ2xpZW50IHJheWd1bkNsaWVudChAVmFsdWUoIiR7cmF5Z3VuLmFwaUtleX0iKSBTdHJpbmcgYXBpS2V5KSB7CiAgICAgICAgcmV0dXJuIG5ldyBSYXlndW5DbGllbnQoYXBpS2V5KTsKICAgIH0KCiAgICBAQmVhbiBSYXlHdW5FeGNlcHRpb25IYW5kbGVyIHJheUd1bkV4Y2VwdGlvbkhhbmRsZXIoUmF5Z3VuQ2xpZW50IHJheWd1bkNsaWVudCkgewogICAgICAgIHJldHVybiBuZXcgUmF5R3VuRXhjZXB0aW9uSGFuZGxlcihyYXlndW5DbGllbnQpOwogICAgfQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgbmFtZUFuZEFkZHJlc3MgPSBwYXJ0eUFkZHJlc3NUb0h0bWxTdHJpbmcocGFydHksIHJvbGUsIGNvdW50cnlJZCwgaXNNYWlsVGVtcGxhdGUpCg==</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYmVhbnMuZmFjdG9yeS5hbm5vdGF0aW9uLkF1dG93aXJlZDsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBPcHRpb25hbDxQYXJ0eT4gcGFydHkgPSBjbGFpbVJvbGUubWFwKENsYWltUm9sZTo6Z2V0UGFydHkpOwo=</text>
+        <text encoding="base64">ICAgIEBBdXRvd2lyZWQKICAgIHByaXZhdGUgZmluYWwgUmF5Z3VuQ2xpZW50IHJheWd1bkNsaWVudCA9IG51bGw7Cgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnJheWd1bkNsaWVudCA9IHJheWd1bkNsaWVudDsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBSYXlndW5DbGllbnQgY2xpZW50ID0gbmV3IFJheWd1bkNsaWVudCgibWtRaHpxcXZKaHR1MUpTOFNUeHJtZz09Iik7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -940,13 +941,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcGFydHlBZGRyZXNzVG9IdG1sU3RyaW4pCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgbmFtZUFuZEFkZHJlc3MgPSBwYXJ0eUFkZHJlc3NUb0h0bWxTdHJpbmcocGFydHksIHJvbGUsIGNvdW50cnlJZCwgaXNNYWlsVGVtcGxhdGUpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoY2xhaW1Sb2xlSWQgPT0gbnVsbCB8fCBPYmplY3RzLmVxdWFscyhjbGFpbVJvbGVJZCwgMEwpKSB7CiAgICAgICAgICAgIENsYWltUm9sZSByb2xlID0gcm9sZVJldHJpZXZlU2VydmljZS5nZXRSb2xlQnlJZChjbGFpbVJvbGVJZCk7CiAgICAgICAgICAgIFBhcnR5IHBhcnR5ID0gcm9sZS5nZXRQYXJ0eSgpOwo=</text>
+        <text encoding="base64">ICAgICAgICBPcHRpb25hbDxQYXJ0eT4gcGFydHkgPSBjbGFpbVJvbGUubWFwKENsYWltUm9sZTo6Z2V0UGFydHkpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>reg</text>

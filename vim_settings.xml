@@ -130,7 +130,7 @@
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/dbs/app/src/main/java/protector/dbs/Application.java" timestamp="1514991806818">
+      <file name="$USER_HOME$/repos/dbs/app/src/main/java/protector/dbs/Application.java" timestamp="1514993363349">
         <mark key="[" line="32" column="0" />
         <mark key="]" line="32" column="0" />
         <mark key="." line="32" column="0" />
@@ -366,8 +366,11 @@
       <file name="$USER_HOME$/repos/dbs/app/src/main/resources/logback-config-prod.xml" timestamp="1514985666858">
         <mark key="[" line="41" column="45" />
       </file>
-      <file name="$USER_HOME$/repos/dbs/app/src/main/java/protector/dbs/logging/CustomSoapLogEventSender.java" timestamp="1514990664911">
-        <mark key="[" line="2" column="38" />
+      <file name="$USER_HOME$/repos/dbs/app/src/main/java/protector/dbs/logging/CustomSoapLogEventSender.java" timestamp="1514993174456">
+        <mark key="[" line="7" column="38" />
+        <mark key="]" line="8" column="13" />
+        <mark key="." line="8" column="13" />
+        <mark key="^" line="8" column="13" />
       </file>
       <file name="/RegExp Fragment (Address.java:289).regexp" timestamp="1513851942968">
         <mark key="[" line="0" column="0" />
@@ -509,7 +512,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBjb21waWxlICIiCg==</text>
+        <text encoding="base64">Ly8gICAgQEJlYW4KLy8gICAgcHVibGljIEFic3RyYWN0TG9nZ2luZ0ludGVyY2VwdG9yIGxvZ0luSW50ZXJjZXB0b3IoKSB7Ci8vICAgICAgICBMb2dnaW5nSW5JbnRlcmNlcHRvciBsb2dJbkludGVyY2VwdG9yID0gbmV3IEN1c3RvbVNvYXBMb2dnaW5nSW5JbnRlcmNlcHRvcigpOwovLyAgICAgICAgLy8gVGhlIEluLU1lc3NhZ2VzIGFyZSBwcmV0dHkgd2l0aG91dCBzZXR0aW5nIGl0IC0gd2hlbiBzZXR0aW5nIGl0IEFwYWNoZSBDWEYgdGhyb3dzIGVtcHR5IGxpbmVzIGludG8gdGhlIEluLU1lc3NhZ2VzCi8vICAgICAgICByZXR1cm4gbG9nSW5JbnRlcmNlcHRvcjsKLy8gICAgfQoK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -571,7 +574,7 @@
         <text>&quot;inbound soap message {} {} {}&quot;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBjb21waWxlICIiCg==</text>
+        <text encoding="base64">Ly8gICAgQEJlYW4KLy8gICAgcHVibGljIEFic3RyYWN0TG9nZ2luZ0ludGVyY2VwdG9yIGxvZ0luSW50ZXJjZXB0b3IoKSB7Ci8vICAgICAgICBMb2dnaW5nSW5JbnRlcmNlcHRvciBsb2dJbkludGVyY2VwdG9yID0gbmV3IEN1c3RvbVNvYXBMb2dnaW5nSW5JbnRlcmNlcHRvcigpOwovLyAgICAgICAgLy8gVGhlIEluLU1lc3NhZ2VzIGFyZSBwcmV0dHkgd2l0aG91dCBzZXR0aW5nIGl0IC0gd2hlbiBzZXR0aW5nIGl0IEFwYWNoZSBDWEYgdGhyb3dzIGVtcHR5IGxpbmVzIGludG8gdGhlIEluLU1lc3NhZ2VzCi8vICAgICAgICByZXR1cm4gbG9nSW5JbnRlcmNlcHRvcjsKLy8gICAgfQoK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -598,29 +601,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnaW5nRmVhdHUK</text>
+        <text encoding="base64">ICAgICAgICBsb2dnaW5nRmVhdHVyZS4K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICB2YWx1ZShTT0FQX01FU1NBR0VfSU5CT1VORCwgbG9nZ2luZ01lc3NhZ2UuZ2V0UGF5bG9hZCgpLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgIHZhbHVlKFNPQVBfQUREUkVTUywgbG9nZ2luZ01lc3NhZ2UuZ2V0QWRkcmVzcygpLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgIHZhbHVlKFNPQVBfSEVBREVSUywgbG9nZ2luZ01lc3NhZ2UuZ2V0SGVhZGVyKCkudG9TdHJpbmcoKSkpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>e
-    protected String formatLoggingMessage(LoggingMessage loggingMessage) {
-        LOG.info(&quot;inbound soap message {} {} {}&quot;,
-                 value(SOAP_MESSAGE_INBOUND, loggingMessage.getPayload().toString()),
-                 value(SOAP_ADDRESS, loggingMessage.getAddress().toString()),
-                 value(SOAP_HEADERS, loggingMessage.getHeader().toString()));
-        LOG.info(append(SOAP_MESSAGE_INBOUND, loggingMessage.getPayload().toString())
-                .and(append(SOAP_ADDRESS, loggingMessage.getAddress().toString()))
-                .and(append(SOAP_HEADERS, loggingMessage.getHeader().toString())),
-                 &quot;inbound soap message&quot;);
-                 value(SOAP_MESSAGE_INBOUND, loggingMessage.getPayload().toString(</text>
+      <register name="4" type="2">
+        <text encoding="base64">Ly8gICAgICAgIGxvZ2dpbmdGZWF0dXJlLnNldFByZXR0eUxvZ2dpbmcodHJ1ZSk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnaW5nRmVhdHVyZS5pbml0aWFsaXplKCkK</text>
+        <text encoding="base64">ICAgICAgICBsb2dnaW5nRmVhdHVyZS5zZXQK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAobG9nZ2luZ01lc3NhZ2UuZ2V0UGF5bG9hZCgpLmxlbmd0aCgpID4gMCkgCg==</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5hcGFjaGUuY3hmLmZlYXR1cmUuTG9nZ2luZ0ZlYXR1cmU7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -955,13 +948,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYyBuZXQubG9nc3Rhc2gubG9nYmFjay5tYXJrZXIuTWFya2Vycy5hcHBlbmQ7Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb21waWxlICIiCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzdXBlci5sb2cobG9nZ2VyLCBtZXNzYWdlKTsK</text>
+        <text encoding="base64">ICAgICAgICBsb2dnaW5nRmVhdHUK</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgICAgICBTdHJpbmdCdWlsZGVyIGJ1ZmZlciA9IG5ldyBTdHJpbmdCdWlsZGVyKCk7CiAgICAgICAgYnVmZmVyLmFwcGVuZCgiSW5ib3VuZCBNZXNzYWdlOlxuIik7CiAgICAgICAgcmV0dXJuIHN1cGVyLmZvcm1hdExvZ2dpbmdNZXNzYWdlKGxvZ2dpbmdNZXNzYWdlKTs=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICB2YWx1ZShTT0FQX01FU1NBR0VfSU5CT1VORCwgbG9nZ2luZ01lc3NhZ2UuZ2V0UGF5bG9hZCgpLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgIHZhbHVlKFNPQVBfQUREUkVTUywgbG9nZ2luZ01lc3NhZ2UuZ2V0QWRkcmVzcygpLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgIHZhbHVlKFNPQVBfSEVBREVSUywgbG9nZ2luZ01lc3NhZ2UuZ2V0SGVhZGVyKCkudG9TdHJpbmcoKSkpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

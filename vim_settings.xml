@@ -29,6 +29,7 @@
       <file name="/JSRegexp Fragment (public-id-validator.js:5182).regexp" timestamp="1509703921348">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.cxf/cxf-rt-features-logging/3.2.1/57a1246322b8dc655d91613a5c69fa51614e0457/cxf-rt-features-logging-3.2.1-sources.jar!/org/apache/cxf/ext/logging/slf4j/Slf4jEventSender.java" timestamp="1514997700227" />
       <file name="$USER_HOME$/repos/claims/dbs/src/test/groovy/protector/claims/dbs/invoicedata/InvoiceDataControllerSpec.groovy" timestamp="1512638742894">
         <mark key="[" line="193" column="0" />
         <mark key="]" line="193" column="0" />
@@ -124,10 +125,10 @@
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/dbs/app/src/main/java/protector/dbs/Application.java" timestamp="1514996987927">
-        <mark key="[" line="26" column="61" />
-        <mark key="]" line="28" column="0" />
-        <mark key="." line="28" column="0" />
+      <file name="$USER_HOME$/repos/dbs/app/src/main/java/protector/dbs/Application.java" timestamp="1514997578091">
+        <mark key="[" line="28" column="38" />
+        <mark key="]" line="30" column="0" />
+        <mark key="." line="30" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/invoicedata/InvoiceDataDao.java" timestamp="1512561074800">
         <mark key="[" line="13" column="27" />
@@ -380,6 +381,11 @@
         <mark key="." line="15" column="0" />
         <mark key="^" line="15" column="7" />
       </file>
+      <file name="$USER_HOME$/repos/dbs/app/src/main/java/protector/dbs/logging/CustomLogInSender.java" timestamp="1514997941040">
+        <mark key="]" line="25" column="39" />
+        <mark key="^" line="25" column="39" />
+        <mark key="." line="25" column="39" />
+      </file>
       <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/validate/InvoiceDataValidator.java" timestamp="1513370268938">
         <mark key="[" line="56" column="62" />
         <mark key="]" line="56" column="0" />
@@ -507,7 +513,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">bG9nZ2luZy4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -560,7 +566,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>@Value(&quot;${raygun.apiKey}&quot;) String apiKey</text>
+        <text encoding="base64">ICAgIH0=</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxmaWx0ZXJDb25maWdcPg==</text>
@@ -569,7 +575,7 @@
         <text>&quot;inbound soap message {} {} {}&quot;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">bG9nZ2luZy4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -596,19 +602,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBldmVudC5nCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZm9yIChTdHJpbmcga2V5IDoga2V5cykgewo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBMT0cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihDdXN0b21Mb2dTZW5kZXIuY2xhc3MpOwoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgc2VuZChMb2dFdmVudCBldmVudCkgewogICAgICAgIFN0cmluZyBhZGRyZXNzID0gZXZlbnQuZ2V0QWRkcmVzcygpOwogICAgICAgIFN0cmluZyBoZWFkZXJzID0gZXZlbnQuZ2V0SGVhZGVycygpLnRvU3RyaW5nKCk7CiAgICAgICAgU3RyaW5nIHBheWxvYWQgPSBldmVudC5nZXRQYXlsb2FkKCk7CiAgICAgICAgU3RyaW5nIGNvbnRlbnRUeXBlID0gZXZlbnQuZ2V0Q29udGVudFR5cGUoKTsKICAgICAgICBTdHJpbmcgbWVzc2FnZUlkID0gZXZlbnQuZ2V0TWVzc2FnZUlkKCk7CiAgICAgICAgU3RyaW5nIGh0dHBNZXRob2QgPSBldmVudC5nZXRIdHRwTWV0aG9kKCk7CiAgICAgICAgU3RyaW5nIG9wZXJhdGlvbk5hbWUgPSBldmVudC5nZXRPcGVyYXRpb25OYW1lKCk7CiAgICAgICAgU3RyaW5nIHBvcnROYW1lID0gZXZlbnQuZ2V0UG9ydE5hbWUoKS50b1N0cmluZygpOwogICAgICAgIFN0cmluZyBzZXJ2aWNlTmFtZSA9IGV2ZW50LmdldFNlcnZpY2VOYW1lKCkudG9TdHJpbmcoKTsKICAgICAgICBTdHJpbmcgcmVzcG9uc2VDb2RlID0gZXZlbnQuZ2V0UmVzcG9uc2VDb2RlKCk7CiAgICAgICAgU3RyaW5nIHMgPSBldmVudC5nZXRUeXBlKCkudG9TdHJpbmcoKTsKCiAgICAgICAgTE9HLmluZm8oYXBwZW5kKCIiLCApKQogICAgfQoKICAgIHByaXZhdGUgU3RyaW5nIGZvcm1hdEV2ZW50KCkK</text>
+      <register name="3" type="4">
+        <text encoding="base64">IGZpbmFsbHkgewogICAgICAgICAgICBmb3IgKFN0cmluZyBrZXkgOiBrZXlzKSB7CiAgICAgICAgICAgICAgICBNREMucmVtb3ZlKGtleSk7CiAgICAgICAgICAgIH0KICAgICAgICB9</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnaW5nRmVhdHVyZS5zZXQK</text>
+        <text encoding="base64">bG9nZ2luZy4K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBldmVudC5nZXRQYXlsb2FkKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBldmVudC5nCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Ly8gICAgQEJlYW4KLy8gICAgcHVibGljIEFic3RyYWN0TG9nZ2luZ0ludGVyY2VwdG9yIGxvZ0luSW50ZXJjZXB0b3IoKSB7Ci8vICAgICAgICBMb2dnaW5nSW5JbnRlcmNlcHRvciBsb2dJbkludGVyY2VwdG9yID0gbmV3IEN1c3RvbVNvYXBMb2dnaW5nSW5JbnRlcmNlcHRvcigpOwovLyAgICAgICAgLy8gVGhlIEluLU1lc3NhZ2VzIGFyZSBwcmV0dHkgd2l0aG91dCBzZXR0aW5nIGl0IC0gd2hlbiBzZXR0aW5nIGl0IEFwYWNoZSBDWEYgdGhyb3dzIGVtcHR5IGxpbmVzIGludG8gdGhlIEluLU1lc3NhZ2VzCi8vICAgICAgICByZXR1cm4gbG9nSW5JbnRlcmNlcHRvcjsKLy8gICAgfQoK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBMT0cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihDdXN0b21Mb2dTZW5kZXIuY2xhc3MpOwoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgc2VuZChMb2dFdmVudCBldmVudCkgewogICAgICAgIFN0cmluZyBhZGRyZXNzID0gZXZlbnQuZ2V0QWRkcmVzcygpOwogICAgICAgIFN0cmluZyBoZWFkZXJzID0gZXZlbnQuZ2V0SGVhZGVycygpLnRvU3RyaW5nKCk7CiAgICAgICAgU3RyaW5nIHBheWxvYWQgPSBldmVudC5nZXRQYXlsb2FkKCk7CiAgICAgICAgU3RyaW5nIGNvbnRlbnRUeXBlID0gZXZlbnQuZ2V0Q29udGVudFR5cGUoKTsKICAgICAgICBTdHJpbmcgbWVzc2FnZUlkID0gZXZlbnQuZ2V0TWVzc2FnZUlkKCk7CiAgICAgICAgU3RyaW5nIGh0dHBNZXRob2QgPSBldmVudC5nZXRIdHRwTWV0aG9kKCk7CiAgICAgICAgU3RyaW5nIG9wZXJhdGlvbk5hbWUgPSBldmVudC5nZXRPcGVyYXRpb25OYW1lKCk7CiAgICAgICAgU3RyaW5nIHBvcnROYW1lID0gZXZlbnQuZ2V0UG9ydE5hbWUoKS50b1N0cmluZygpOwogICAgICAgIFN0cmluZyBzZXJ2aWNlTmFtZSA9IGV2ZW50LmdldFNlcnZpY2VOYW1lKCkudG9TdHJpbmcoKTsKICAgICAgICBTdHJpbmcgcmVzcG9uc2VDb2RlID0gZXZlbnQuZ2V0UmVzcG9uc2VDb2RlKCk7CiAgICAgICAgU3RyaW5nIHMgPSBldmVudC5nZXRUeXBlKCkudG9TdHJpbmcoKTsKCiAgICAgICAgTE9HLmluZm8oYXBwZW5kKCIiLCApKQogICAgfQoKICAgIHByaXZhdGUgU3RyaW5nIGZvcm1hdEV2ZW50KCkK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -943,13 +949,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnaW5nRmVhdHVyZS4K</text>
+        <text encoding="base64">ICAgICAgICBsb2dnaW5nRmVhdHVyZS5zZXQK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBldmVudC5nZXRQYXlsb2FkKCk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Ly8gICAgICAgIGxvZ2dpbmdGZWF0dXJlLnNldFByZXR0eUxvZ2dpbmcodHJ1ZSk7Cg==</text>
+        <text encoding="base64">Ly8gICAgQEJlYW4KLy8gICAgcHVibGljIEFic3RyYWN0TG9nZ2luZ0ludGVyY2VwdG9yIGxvZ0luSW50ZXJjZXB0b3IoKSB7Ci8vICAgICAgICBMb2dnaW5nSW5JbnRlcmNlcHRvciBsb2dJbkludGVyY2VwdG9yID0gbmV3IEN1c3RvbVNvYXBMb2dnaW5nSW5JbnRlcmNlcHRvcigpOwovLyAgICAgICAgLy8gVGhlIEluLU1lc3NhZ2VzIGFyZSBwcmV0dHkgd2l0aG91dCBzZXR0aW5nIGl0IC0gd2hlbiBzZXR0aW5nIGl0IEFwYWNoZSBDWEYgdGhyb3dzIGVtcHR5IGxpbmVzIGludG8gdGhlIEluLU1lc3NhZ2VzCi8vICAgICAgICByZXR1cm4gbG9nSW5JbnRlcmNlcHRvcjsKLy8gICAgfQoK</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

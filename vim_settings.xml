@@ -247,6 +247,9 @@
       <file name="/fragment.js" timestamp="1515067522237">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/bower_components/date.js/test/scripts/Date_Ext.js" timestamp="1515069435525">
+        <mark key="'" line="99" column="13" />
+      </file>
       <file name="$USER_HOME$/dev/dbs/claimsclient/src/main/java/protector/dbs/claims/domain/ClaimHeader.java" timestamp="1507723123021">
         <mark key="[" line="323" column="18" />
       </file>
@@ -320,12 +323,12 @@
       <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataStatusResponse.java" timestamp="1508764858556">
         <mark key="[" line="2" column="38" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" timestamp="1515068859119">
+      <file name="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" timestamp="1515069732829">
         <mark key="'" line="73" column="0" />
-        <mark key="[" line="75" column="109" />
-        <mark key="]" line="78" column="0" />
-        <mark key="." line="78" column="0" />
-        <mark key="^" line="79" column="93" />
+        <mark key="[" line="77" column="64" />
+        <mark key="]" line="77" column="30" />
+        <mark key="." line="77" column="30" />
+        <mark key="^" line="77" column="30" />
       </file>
       <file name="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/src.zip!/java/lang/Thread.java" timestamp="1513950438982">
         <mark key="'" line="1837" column="21" />
@@ -489,9 +492,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="93" column="16" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/NoteController.java" />
-      <jump line="102" column="8" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/NoteController.java" />
-      <jump line="85" column="47" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/NoteController.java" />
       <jump line="87" column="71" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/NoteController.java" />
       <jump line="97" column="0" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/NoteController.java" />
       <jump line="246" column="4" filename="$USER_HOME$/repos/claims/document/src/main/java/protector/claims/document/ClaimDocumentService.java" />
@@ -589,6 +589,9 @@
       <jump line="14" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/buffer1" />
       <jump line="0" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/buffer1" />
       <jump line="73" column="0" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
+      <jump line="118" column="9" filename="$USER_HOME$/repos/claims/frontend/bower_components/date.js/test/scripts/Date_Ext.js" />
+      <jump line="95" column="5" filename="$USER_HOME$/repos/claims/frontend/bower_components/date.js/test/scripts/Date_Ext.js" />
+      <jump line="99" column="13" filename="$USER_HOME$/repos/claims/frontend/bower_components/date.js/test/scripts/Date_Ext.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -648,7 +651,7 @@
         <text>a</text>
       </register>
       <register name="/" type="4">
-        <text>\$scope</text>
+        <text encoding="base64">XDxmb3JtYXRGdW5jdGlvbnNcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsZXQgdGVtcERhdGUgPSBuZXcgRGF0ZShoZWFkZXIuZGFtYWdlRGF0ZSk7CiAgICAgICAgICAgICAgICAgICAgdGVtcERhdGUgPSAodGVtcERhdGUuZ2V0RnVsbFllYXIoKSkudG9TdHJpbmcoKS5zdWJzdHJpbmcoMikgKwogICAgICAgICAgICAgICAgICAgICAgICAoJzAnICsgKHRlbXBEYXRlLmdldE1vbnRoKCkgKyAxKSkuc2xpY2UoLTIpICsgKCcwJyArICh0ZW1wRGF0ZS5nZXREYXRlKCkpKS5zbGljZSgtMik7Cg==</text>
@@ -1041,17 +1044,16 @@
       </register>
     </registers>
     <search>
-      <last-search>\$scope</last-search>
+      <last-search encoding="base64">XDxmb3JtYXRGdW5jdGlvbnNcPg==</last-search>
       <last-offset />
-      <last-pattern>\$scope</last-pattern>
+      <last-pattern encoding="base64">XDxmb3JtYXRGdW5jdGlvbnNcPg==</last-pattern>
       <last-replace>this</last-replace>
       <last-substitute>\$scope</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxodG1sXD4=</entry>
         <entry encoding="base64">XDxoZWFkZXJEYXRlXD4=</entry>
         <entry>@</entry>
         <entry>@Req</entry>
@@ -1071,6 +1073,7 @@
         <entry encoding="base64">XDxyb290U2NvcGVcPg==</entry>
         <entry encoding="base64">XDxoZWFkZXJEYXRhXD4=</entry>
         <entry>\$scope</entry>
+        <entry encoding="base64">XDxmb3JtYXRGdW5jdGlvbnNcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1teXChdKlwoKFteKV0pXCk7L1xbXDFcXS8=</entry>

@@ -244,7 +244,7 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/dbs-invoice-data/invoice-data-auto-module.js" timestamp="1510745527233">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.js" timestamp="1515067522237">
+      <file name="/fragment.js" timestamp="1515070513421">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/bower_components/date.js/test/scripts/Date_Ext.js" timestamp="1515069435525">
@@ -323,12 +323,11 @@
       <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataStatusResponse.java" timestamp="1508764858556">
         <mark key="[" line="2" column="38" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" timestamp="1515069732829">
-        <mark key="'" line="73" column="0" />
-        <mark key="[" line="77" column="64" />
-        <mark key="]" line="77" column="30" />
-        <mark key="." line="77" column="30" />
-        <mark key="^" line="77" column="30" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" timestamp="1515071496953">
+        <mark key="'" line="106" column="41" />
+        <mark key="[" line="147" column="0" />
+        <mark key="]" line="147" column="0" />
+        <mark key="." line="147" column="0" />
       </file>
       <file name="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/src.zip!/java/lang/Thread.java" timestamp="1513950438982">
         <mark key="'" line="1837" column="21" />
@@ -492,9 +491,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="87" column="71" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/NoteController.java" />
-      <jump line="97" column="0" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/NoteController.java" />
-      <jump line="246" column="4" filename="$USER_HOME$/repos/claims/document/src/main/java/protector/claims/document/ClaimDocumentService.java" />
       <jump line="257" column="22" filename="$USER_HOME$/repos/claims/document/src/main/java/protector/claims/document/ClaimDocumentService.java" />
       <jump line="86" column="32" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/NoteController.java" />
       <jump line="80" column="56" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/NoteController.java" />
@@ -577,9 +573,7 @@
       <jump line="63" column="8" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="28" column="27" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="34" column="29" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
-      <jump line="65" column="19" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="104" column="27" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
-      <jump line="110" column="23" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="187" column="23" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="191" column="35" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="32" column="85" filename="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.promise.d.ts" />
@@ -592,10 +586,15 @@
       <jump line="118" column="9" filename="$USER_HOME$/repos/claims/frontend/bower_components/date.js/test/scripts/Date_Ext.js" />
       <jump line="95" column="5" filename="$USER_HOME$/repos/claims/frontend/bower_components/date.js/test/scripts/Date_Ext.js" />
       <jump line="99" column="13" filename="$USER_HOME$/repos/claims/frontend/bower_components/date.js/test/scripts/Date_Ext.js" />
+      <jump line="84" column="28" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
+      <jump line="65" column="12" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
+      <jump line="110" column="28" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
+      <jump line="119" column="8" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
+      <jump line="106" column="41" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiAoaGVhZGVyLnJlZ2lzdHJhdGlvbk51bWJlcikgewogICAgICAgICAgICAgICAgICAgICAgICB0aGlzLmVtYWlsLnN1YmplY3QgKz0gaGVhZGVyLnJlZ2lzdHJhdGlvbk51bWJlciArICcgICc7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHRoaXMuZW1haWwuc3ViamVjdCArPSB0ZW1wRGF0ZTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZ1bmN0aQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -648,16 +647,16 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>a</text>
+        <text>function (documents)</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxmb3JtYXRGdW5jdGlvbnNcPg==</text>
+        <text>\$scope</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsZXQgdGVtcERhdGUgPSBuZXcgRGF0ZShoZWFkZXIuZGFtYWdlRGF0ZSk7CiAgICAgICAgICAgICAgICAgICAgdGVtcERhdGUgPSAodGVtcERhdGUuZ2V0RnVsbFllYXIoKSkudG9TdHJpbmcoKS5zdWJzdHJpbmcoMikgKwogICAgICAgICAgICAgICAgICAgICAgICAoJzAnICsgKHRlbXBEYXRlLmdldE1vbnRoKCkgKyAxKSkuc2xpY2UoLTIpICsgKCcwJyArICh0ZW1wRGF0ZS5nZXREYXRlKCkpKS5zbGljZSgtMik7Cg==</text>
+      <register name="0" type="4">
+        <text encoding="base64">ZnVuY3Rpb24gKGV2ZW50RG9jcykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IHRoaXMuYXR0YWNobWVudHMubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChldmVudERvY3NDb250YWluRG9jdW1lbnQoZXZlbnREb2NzLCB0aGlzLmF0dGFjaG1lbnRzW2ldLmlkKSAmJgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRoaXMuYXR0YWNobWVudHNbaV0uZmlsZU5hbWUuaW5kZXhPZigib3JpZ2luYWxtZWxkaW5nLmVtbCIpID09PSAtMSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRoaXMuYXR0YWNobWVudHNbaV0uY2hlY2tlZCA9IHRydWU7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiAoaGVhZGVyLnJlZ2lzdHJhdGlvbk51bWJlcikgewogICAgICAgICAgICAgICAgICAgICAgICB0aGlzLmVtYWlsLnN1YmplY3QgKz0gaGVhZGVyLnJlZ2lzdHJhdGlvbk51bWJlciArICcgICc7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHRoaXMuZW1haWwuc3ViamVjdCArPSB0ZW1wRGF0ZTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZ1bmN0aQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -683,20 +682,20 @@
           <key char="44" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsZXQgcHJldmlvdXMgPSBmYWxzZTsKICAgICAgICAgICAgICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IHJlZ051bUxpc3QubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHJlZ051bUxpc3RbaV0gJiYgIiIgIT09IHJlZ051bUxpc3RbaV0pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChwcmV2aW91cykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRoaXMucmVnTnVtcyArPSAiLCAiOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aGlzLnJlZ051bXMgPSAiIjsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRoaXMucmVnTnVtcyArPSByZWdOdW1MaXN0W2ldOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJldmlvdXMgPSB0cnVlOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQo=</text>
+      <register name="2" type="4">
+        <text encoding="base64">b24gKGEpewogICAgICAgICAgICAgICAgICAgIHJldHVybiBhOwogICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZnVuY3Rpb24gKHJlZ051bUxpc3QpIHsKICAgIGxldCBwcmV2aW91cyA9IGZhbHNlOwogICAgZm9yIChsZXQgaSA9IDA7IGkgPCByZWdOdW1MaXN0Lmxlbmd0aDsgaSsrKSB7CiAgICAgICAgaWYgKHJlZ051bUxpc3RbaV0gJiYgIiIgIT09IHJlZ051bUxpc3RbaV0pIHsKICAgICAgICAgICAgaWYgKHByZXZpb3VzKSB7CiAgICAgICAgICAgICAgICAkc2NvcGUucmVnTnVtcyArPSAiLCAiOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgJHNjb3BlLnJlZ051bXMgPSAiIjsKICAgICAgICAgICAgfQogICAgICAgICAgICAkc2NvcGUucmVnTnVtcyArPSByZWdOdW1MaXN0W2ldOwogICAgICAgICAgICBwcmV2aW91cyA9IHRydWU7CiAgICAgICAgfQogICAgfQp9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZ1bmN0aW9uIGV2ZW50RG9jc0NvbnRhaW5Eb2N1bWVudChldmVudERvY3MsIHdpdGhJZCkgewogICAgICAgICAgICAgICAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgZXZlbnREb2NzLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChldmVudERvY3NbaV0uaWQgPT09IHdpdGhJZCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgICAgICAgICAgfQoK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZnVuY3Rpb24gZ2V0VGhpcmRQYXJ0eVJlZ2lzdHJhdGlvbk51bWJlcnMoKSB7CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLypHZXQgZG9jdW1lbnRzKi8K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8qVXNlZCB0byBzaG93IHRoZSBjb3VudGVyIHBhcnRpZXMgcmVnaXN0cmF0aW9uIG51bWJlciBpbiB0aGUgaGVhZGluZyAqLwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJHNjb3BlLmhlYWRlciA9IGhlYWRlckRhdGE7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLypHZXQgYXNzaWduZWRVc2VyKi8K</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1031,22 +1030,22 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAkaHR0cC5nZXQoJHJvb3RTY29wZS5hcGlCYXNlVXJsICsgImNsYWltaGVhZGVycy8iICsgJHNjb3BlLmNsYWltSGVhZGVySWQpCg==</text>
+        <text encoding="base64">ICAgICAgICBmdW5jdGlvbiBnZXRBc3NpZ25lZFVzZXIoKSB7CiAgICAgICAgICAgIC8qR2V0IGFzc2lnbmVkVXNlciovCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLiRyb290U2NvcGUgPSAkcm9vdFNjb3BlOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAkaHR0cC5nZXQobGlua1NlcnZpY2UoJHNjb3BlLmhlYWRlciwgJ3JvbGVzQnlUeXBlJykpLnN1Y2Nlc3MoKHJvbGVzRGF0YSkgPT4gewogICAgICAgICAgICAkc2NvcGUuaW5zdXJhbnQgPSByb2xlc0RhdGEuRm9yc2lrcmluZ3N0YWtlclswXTsKICAgICAgICB9KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsZXQgdGVtcERhdGUgPSBuZXcgRGF0ZShoZWFkZXIuZGFtYWdlRGF0ZSk7CiAgICAgICAgICAgICAgICAgICAgdGVtcERhdGUgPSAodGVtcERhdGUuZ2V0RnVsbFllYXIoKSkudG9TdHJpbmcoKS5zdWJzdHJpbmcoMikgKwogICAgICAgICAgICAgICAgICAgICAgICAoJzAnICsgKHRlbXBEYXRlLmdldE1vbnRoKCkgKyAxKSkuc2xpY2UoLTIpICsgKCcwJyArICh0ZW1wRGF0ZS5nZXREYXRlKCkpKS5zbGljZSgtMik7CgogICAgICAgICAgICAgICAgICAgIGxldCBkYXRlT2JqID0gRGF0ZS5wYXJzZShoZWFkZXIuZGFtYWdlRGF0ZSk7Cgo=</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5zL1wkc2NvcGUvdGhpcy8=</text>
+        <text encoding="base64">JzwsJz5zL1wkc2NvcGUvdGhpcy9n</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxmb3JtYXRGdW5jdGlvbnNcPg==</last-search>
+      <last-search>\$scope</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxmb3JtYXRGdW5jdGlvbnNcPg==</last-pattern>
+      <last-pattern>\$scope</last-pattern>
       <last-replace>this</last-replace>
       <last-substitute>\$scope</last-substitute>
       <last-dir>1</last-dir>
@@ -1072,11 +1071,10 @@
         <entry>this\.\(\$\)\@=</entry>
         <entry encoding="base64">XDxyb290U2NvcGVcPg==</entry>
         <entry encoding="base64">XDxoZWFkZXJEYXRhXD4=</entry>
-        <entry>\$scope</entry>
         <entry encoding="base64">XDxmb3JtYXRGdW5jdGlvbnNcPg==</entry>
+        <entry>\$scope</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zL1teXChdKlwoKFteKV0pXCk7L1xbXDFcXS8=</entry>
         <entry encoding="base64">JzwsJz5zL1teXChdKlwoKFteKV0qKVwpOy9cW1wxXF0v</entry>
         <entry encoding="base64">JzwsJz5zL1teXChdKihcKFteXCldKlwpKTsvXFtcMVxdLw==</entry>
         <entry encoding="base64">JzwsJz5zL1teXChdKihcKFteXCldKlwpKTsvXFtcMVxdLC8=</entry>
@@ -1094,8 +1092,9 @@
         <entry encoding="base64">JzwsJz5zL3RoaXNcLlwoPz1cJFwpLy8=</entry>
         <entry encoding="base64">JzwsJz5zL3RoaXNcLlwoXCRcKVxAPS8v</entry>
         <entry encoding="base64">JzwsJz5zL3RoaXNcLlwoXCRcKVxAPS8vZw==</entry>
-        <entry encoding="base64">JzwsJz5zL1wkc2NvcGUvdGhpcy8=</entry>
         <entry>set ft=js</entry>
+        <entry encoding="base64">JzwsJz5zL1wkc2NvcGUvdGhpcy8=</entry>
+        <entry encoding="base64">JzwsJz5zL1wkc2NvcGUvdGhpcy9n</entry>
       </history-cmd>
       <history-expr />
       <history-input />

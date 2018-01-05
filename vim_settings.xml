@@ -311,11 +311,12 @@
         <mark key="^" line="84" column="138" />
         <mark key="." line="84" column="138" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/email/compose-email.html" timestamp="1515159419132">
-        <mark key="[" line="190" column="29" />
-        <mark key="]" line="189" column="23" />
-        <mark key="^" line="189" column="23" />
-        <mark key="." line="189" column="23" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/email/compose-email.html" timestamp="1515160469837">
+        <mark key="'" line="227" column="28" />
+        <mark key="[" line="207" column="32" />
+        <mark key="]" line="207" column="34" />
+        <mark key="^" line="207" column="34" />
+        <mark key="." line="207" column="34" />
       </file>
       <file name="$USER_HOME$/dev/dbs/ws/oppdrag-ws/src/main/java/protector/dbs/ws/oppdrag/OppdragEndpoint.java" timestamp="1506513827571">
         <mark key="[" line="8" column="28" />
@@ -509,8 +510,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="169" column="4" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
-      <jump line="197" column="36" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="179" column="12" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="196" column="45" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="221" column="12" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
@@ -608,7 +607,9 @@
       <jump line="42" column="13" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="274" column="66" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="480" column="25" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
-      <jump line="191" column="20" filename="$USER_HOME$/repos/claims/frontend/components/email/compose-email.html" />
+      <jump line="194" column="61" filename="$USER_HOME$/repos/claims/frontend/components/email/compose-email.html" />
+      <jump line="191" column="85" filename="$USER_HOME$/repos/claims/frontend/components/email/compose-email.html" />
+      <jump line="229" column="28" filename="$USER_HOME$/repos/claims/frontend/components/email/compose-email.html" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -618,7 +619,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iY29sLXNtLTUiPgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4K</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -674,13 +675,13 @@
         <text>nonProtectorRoles</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxhbGxSb2xlc1w+</text>
+        <text encoding="base64">XDxwb3BvdmVyXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIH0sIDApOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iY29sLXNtLTUiPgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -707,19 +708,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iY29sLW1kLTEyIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx1bCBjbGFzcz0ibmF2IG5hdi1waWxscyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBuZy1yZXBlYXQ9ImVudHJ5IGluIHZtLmVtYWlsLnRvIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzPSJhY3RpdmUiIG5nLWlmPSIhZW50cnkudXNlT3RoZXJFbWFpbEFkZHJlc3MiPnt7ZW50cnkgfCBmdWxsUm9sZU5hbWV9fSAoe3tlbnRyeS5yb2xlfX0pIDxzcGFuIG5nLWhpZGU9IiFlbnRyeS5wYXJ0eS5lbWFpbCI+PHt7ZW50cnkucGFydHkuZW1haWx9fT48L3NwYW4+PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzPSJhY3RpdmUiIG5nLWlmPSJlbnRyeS51c2VPdGhlckVtYWlsQWRkcmVzcyI+e3tlbnRyeSB8IGZ1bGxSb2xlTmFtZX19ICh7e2VudHJ5LnJvbGV9fSkgPHNwYW4gbmctaGlkZT0iIWVudHJ5LnBhcnR5LmVtYWlsT3RoZXIiPjx7e2VudHJ5LnBhcnR5LmVtYWlsT3RoZXJ9fT48L3NwYW4+PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbm9uUHJvdGVjdG9yUm9sZXMgPSByb2xlRGF0YS5maWx0ZXIocmQgPT4gIWlzUHJvdGVjdG9yKHJkKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx1bCBjbGFzcz0ibmF2IG5hdi1waWxscyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBuZy1yZXBlYXQ9ImVudHJ5IGluIHZtLmVtYWlsLmNjIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzPSJhY3RpdmUiIG5nLWlmPSIhZW50cnkudXNlT3RoZXJFbWFpbEFkZHJlc3MiPnt7ZW50cnkgfCBmdWxsUm9sZU5hbWV9fSAoe3tlbnRyeS5yb2xlfX0pIDx7e2VudHJ5LnBhcnR5LmVtYWlsfX0+PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzPSJhY3RpdmUiIG5nLWlmPSJlbnRyeS51c2VPdGhlckVtYWlsQWRkcmVzcyI+e3tlbnRyeSB8IGZ1bGxSb2xlTmFtZX19ICh7e2VudHJ5LnJvbGV9fSkgPHt7ZW50cnkucGFydHkuZW1haWxPdGhlcn19PjwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3VsPgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLmZpbHRlcihyZCA9PiAhdmFsaWRFbWFpbFJvbGVzLmluY2x1ZGVzKHJkKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iY29sLW1kLTEyIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx1bCBjbGFzcz0ibmF2IG5hdi1waWxscyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBuZy1yZXBlYXQ9ImVudHJ5IGluIHZtLmVtYWlsLnRvIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzPSJhY3RpdmUiIG5nLWlmPSIhZW50cnkudXNlT3RoZXJFbWFpbEFkZHJlc3MiPnt7ZW50cnkgfCBmdWxsUm9sZU5hbWV9fSAoe3tlbnRyeS5yb2xlfX0pIDxzcGFuIG5nLWhpZGU9IiFlbnRyeS5wYXJ0eS5lbWFpbCI+PHt7ZW50cnkucGFydHkuZW1haWx9fT48L3NwYW4+PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzPSJhY3RpdmUiIG5nLWlmPSJlbnRyeS51c2VPdGhlckVtYWlsQWRkcmVzcyI+e3tlbnRyeSB8IGZ1bGxSb2xlTmFtZX19ICh7e2VudHJ5LnJvbGV9fSkgPHNwYW4gbmctaGlkZT0iIWVudHJ5LnBhcnR5LmVtYWlsT3RoZXIiPjx7e2VudHJ5LnBhcnR5LmVtYWlsT3RoZXJ9fT48L3NwYW4+PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgbWFwcGVkID0gbmV3IFNldCh2YWxpZEVtYWlsUm9sZXMubWFwKHIgPT4gci5pZCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgbm9uUHJvdGVjdG9yUm9sZXMgPSByb2xlRGF0YS5maWx0ZXIocmQgPT4gIWlzUHJvdGVjdG9yKHJkKSk7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1054,32 +1055,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAvLyB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLmZpbHRlcihyZCA9PiAhdmFsaWRFbWFpbFJvbGVzLmluY2x1ZGVzKHJkKSkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBpZiAoJHJvdXRlUGFyYW1zLmlkICYmICRyb3V0ZVBhcmFtcy5ldmVudElkICYmICRyb3V0ZVBhcmFtcy5yb2xlSWQpIHsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygnSU5JVCBTVEFSVCBDbGFpbXNNYWlsQ29udHJvbGxlcicpOwo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQgbWFwcGVkID0gbmV3IFNldCh2YWxpZEVtYWlsUm9sZXMubWFwKHIgPT4gci5pZCkpOwo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1wkc2NvcGUvdGhpcy9n</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxhbGxSb2xlc1w+</last-search>
+      <last-search encoding="base64">XDxwb3BvdmVyXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxhbGxSb2xlc1w+</last-pattern>
+      <last-pattern encoding="base64">XDxwb3BvdmVyXD4=</last-pattern>
       <last-replace>this</last-replace>
       <last-substitute>\$scope</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxldmVudERvY3NDb250YWluRG9jdW1lbnRcPg==</entry>
-        <entry encoding="base64">XDxfZ2V0VGhpcmRQYXJ0eVJlZ051bXNcPg==</entry>
-        <entry encoding="base64">XDxnZW5lcmF0ZURlZmF1bHRUZXh0XD4=</entry>
         <entry>[^\d ]</entry>
         <entry>[^0-9 ]</entry>
         <entry>\([0-9]\) \+</entry>
@@ -1097,6 +1095,9 @@
         <entry encoding="base64">XDxldmVudElkXD4=</entry>
         <entry encoding="base64">XDxfZ2VuZXJhdGVMZXR0ZXJTZW50RXZlbnREdG9cPg==</entry>
         <entry encoding="base64">XDxhbGxSb2xlc1w+</entry>
+        <entry encoding="base64">XDxjaGVja2JveFw+</entry>
+        <entry encoding="base64">XDwxMFw+</entry>
+        <entry encoding="base64">XDxwb3BvdmVyXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3RoaXNcLlteXHddLy8=</entry>

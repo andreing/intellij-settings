@@ -312,11 +312,11 @@
         <mark key="^" line="84" column="138" />
         <mark key="." line="84" column="138" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/email/compose-email.html" timestamp="1515404985793">
-        <mark key="[" line="204" column="116" />
-        <mark key="]" line="191" column="61" />
-        <mark key="." line="191" column="61" />
-        <mark key="^" line="191" column="61" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/email/compose-email.html" timestamp="1515406874955">
+        <mark key="[" line="196" column="146" />
+        <mark key="]" line="196" column="108" />
+        <mark key="." line="196" column="108" />
+        <mark key="^" line="196" column="108" />
       </file>
       <file name="$USER_HOME$/dev/dbs/ws/oppdrag-ws/src/main/java/protector/dbs/ws/oppdrag/OppdragEndpoint.java" timestamp="1506513827571">
         <mark key="[" line="8" column="28" />
@@ -337,13 +337,13 @@
       <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataStatusResponse.java" timestamp="1508764858556">
         <mark key="[" line="2" column="38" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" timestamp="1515405343994">
-        <mark key="'" line="660" column="4" />
-        <mark key="[" line="653" column="32" />
-        <mark key="]" line="729" column="29" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" timestamp="1515407389349">
+        <mark key="'" line="644" column="25" />
+        <mark key="[" line="647" column="94" />
+        <mark key="]" line="645" column="65" />
         <mark key="n" line="68" column="13" />
-        <mark key="." line="729" column="29" />
-        <mark key="^" line="729" column="29" />
+        <mark key="." line="645" column="65" />
+        <mark key="^" line="645" column="65" />
       </file>
       <file name="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/src.zip!/java/lang/Thread.java" timestamp="1513950438982">
         <mark key="'" line="1837" column="21" />
@@ -510,7 +510,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="147" column="4" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="100" column="36" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="94" column="82" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="101" column="4" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
@@ -610,6 +609,7 @@
       <jump line="249" column="80" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="677" column="23" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="660" column="4" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
+      <jump line="644" column="25" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -675,7 +675,7 @@
         <text encoding="base64">ZnVuY3Rpb24g</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxlbWFpbE90aGVyXD4=</text>
+        <text>vm\.</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIH0sIDApOwo=</text>
@@ -1064,21 +1064,20 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8L2Rpdj4K</text>
       </register>
       <register name=":" type="4">
-        <text>noh</text>
+        <text encoding="base64">JzwsJz5zL3ZtXC4vdGhpc1wuL2c=</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxlbWFpbE90aGVyXD4=</last-search>
+      <last-search>vm\.</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxlbWFpbE90aGVyXD4=</last-pattern>
-      <last-replace>this</last-replace>
-      <last-substitute>\$scope</last-substitute>
+      <last-pattern>vm\.</last-pattern>
+      <last-replace>this\.</last-replace>
+      <last-substitute>vm\.</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>\([0-9]\) \+</entry>
         <entry encoding="base64">XDxjdXJyZW50XD4=</entry>
         <entry>\$filter</entry>
         <entry>\$rootScope</entry>
@@ -1098,9 +1097,9 @@
         <entry encoding="base64">XDxwb3BvdmVyXD4=</entry>
         <entry encoding="base64">XDxyZWNlaXZlcnNcPg==</entry>
         <entry encoding="base64">XDxlbWFpbE90aGVyXD4=</entry>
+        <entry>vm\.</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zL3RoaXNcLig/PVwkKS8v</entry>
         <entry encoding="base64">JzwsJz5zL3RoaXNcLlwoPz1cJFwpLy8=</entry>
         <entry encoding="base64">JzwsJz5zL3RoaXNcLlwoXCRcKVxAPS8v</entry>
         <entry encoding="base64">JzwsJz5zL3RoaXNcLlwoXCRcKVxAPS8vZw==</entry>
@@ -1120,6 +1119,7 @@
         <entry encoding="base64">JzwsJz5zL1wkd2luZG93L3RoaXNcLiYvZw==</entry>
         <entry encoding="base64">JzwsJz5zL1wkc2NvcGUvdGhpcy9n</entry>
         <entry>noh</entry>
+        <entry encoding="base64">JzwsJz5zL3ZtXC4vdGhpc1wuL2c=</entry>
       </history-cmd>
       <history-expr />
       <history-input />

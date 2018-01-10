@@ -221,8 +221,12 @@
       <file name="$USER_HOME$/dev/dbs/claimsclient/src/main/java/protector/dbs/claims/domain/ClaimHeader.java" timestamp="1507723123021">
         <mark key="[" line="323" column="18" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" timestamp="1515598189780">
+      <file name="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" timestamp="1515599464250">
+        <mark key="'" line="50" column="11" />
         <mark key="[" line="14" column="27" />
+        <mark key="]" line="15" column="27" />
+        <mark key="^" line="15" column="27" />
+        <mark key="." line="15" column="27" />
       </file>
       <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/InvoiceDataDaoAuto.java" timestamp="1508502494187">
         <mark key="[" line="11" column="30" />
@@ -260,11 +264,11 @@
         <mark key="]" line="34" column="0" />
         <mark key="." line="34" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/denmark/auto/dk_auto_collision.xml" timestamp="1515597936136">
-        <mark key="[" line="3" column="102" />
-        <mark key="]" line="1" column="16" />
+      <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/denmark/auto/dk_auto_collision.xml" timestamp="1515599121670">
+        <mark key="[" line="139" column="52" />
+        <mark key="]" line="139" column="62" />
         <mark key="^" line="1" column="16" />
-        <mark key="." line="1" column="16" />
+        <mark key="." line="139" column="52" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/WebClaimController.java" timestamp="1515509099430">
         <mark key="[" line="12" column="0" />
@@ -493,7 +497,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="205" column="41" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="206" column="41" filename="$USER_HOME$/repos/claims/frontend/components/email/mail-editor-ctrl.js" />
       <jump line="46" column="16" filename="$USER_HOME$/repos/claims/frontend/lib/multiselect/multiselect-tpls.js" />
       <jump line="103" column="18" filename="$USER_HOME$/repos/claims/frontend/lib/multiselect/multiselect-tpls.js" />
@@ -593,6 +596,7 @@
       <jump line="1324" column="8" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="2481" column="12" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="1357" column="48" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
+      <jump line="50" column="11" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -601,8 +605,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>everywhere</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -655,10 +659,10 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Lm9yRWxzZVRocm93KCgpIC0+IG5ldyBTeXN0ZW1FeGNlcHRpb24oIk5vIHNldHRsZW1lbnQgY29tcGFueSBmb3VuZCIpKQ==</text>
+        <text>everywhere</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxBQ0NJREVOVF9ERVNDUklQVElPTlw+</text>
+        <text encoding="base64">XDx2YWxpZFRvXD4=</text>
       </register>
       <register name="0" type="4">
         <text>&quot;uk_auto_collision&quot;.equals(formSubmission.getName())</text>
@@ -1051,9 +1055,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxBQ0NJREVOVF9ERVNDUklQVElPTlw+</last-search>
+      <last-search encoding="base64">XDx2YWxpZFRvXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxBQ0NJREVOVF9ERVNDUklQVElPTlw+</last-pattern>
+      <last-pattern encoding="base64">XDx2YWxpZFRvXD4=</last-pattern>
       <last-replace>this\.</last-replace>
       <last-substitute>vm\.</last-substitute>
       <last-dir>1</last-dir>
@@ -1061,7 +1065,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxlbWFpbE90aGVyXD4=</entry>
         <entry>vm\.</entry>
         <entry encoding="base64">XDx1bmNoZWNrQWxsXD4=</entry>
         <entry encoding="base64">XDxzZWxlY3RcPg==</entry>
@@ -1081,6 +1084,7 @@
         <entry encoding="base64">XDx6b25lZERhdGVUaW1lXD4=</entry>
         <entry encoding="base64">XDxEQU1BR0VfTE9DQVRJT05cPg==</entry>
         <entry encoding="base64">XDxBQ0NJREVOVF9ERVNDUklQVElPTlw+</entry>
+        <entry encoding="base64">XDx2YWxpZFRvXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3RoaXNcLlwoPz1cJFwpLy8=</entry>

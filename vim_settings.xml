@@ -54,7 +54,7 @@
         <mark key="^" line="0" column="14" />
         <mark key="." line="146" column="0" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9687894a-0f49-472d-9fa9-dcdbab8d1841/console.sql" timestamp="1516960249863">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9687894a-0f49-472d-9fa9-dcdbab8d1841/console.sql" timestamp="1517215695917">
         <mark key="'" line="195" column="31" />
         <mark key="[" line="213" column="0" />
         <mark key="]" line="213" column="0" />
@@ -248,12 +248,12 @@
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1516960234927">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="147" column="53" />
-        <mark key="]" line="145" column="0" />
-        <mark key="^" line="142" column="12" />
-        <mark key="." line="145" column="0" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1517215827011">
+        <mark key="'" line="171" column="83" />
+        <mark key="[" line="171" column="57" />
+        <mark key="]" line="171" column="84" />
+        <mark key="^" line="171" column="56" />
+        <mark key="." line="171" column="57" />
       </file>
       <file name="$USER_HOME$/repos/dbs/ws/oppdrag-ws/src/main/java/protector/dbs/ws/oppdrag/OppdragService.java" timestamp="1513242794737">
         <mark key="[" line="26" column="0" />
@@ -443,8 +443,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1128" column="50" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
-      <jump line="2664" column="8" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="2671" column="68" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="2668" column="76" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="471" column="80" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
@@ -543,6 +541,8 @@
       <jump line="112" column="20" filename="$APPLICATION_CONFIG_DIR$/consoles/db/8ae164ab-fb76-4fca-8092-a0f4c70e8b27/console.sql" />
       <jump line="123" column="108" filename="$APPLICATION_CONFIG_DIR$/consoles/db/8ae164ab-fb76-4fca-8092-a0f4c70e8b27/console.sql" />
       <jump line="108" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/8ae164ab-fb76-4fca-8092-a0f4c70e8b27/console.sql" />
+      <jump line="166" column="7" filename="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" />
+      <jump line="171" column="83" filename="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -551,8 +551,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgbG9icy5jb250YWluc0FsbCgKICAgICAgICAgICAgICAgIAogICAgICAgICkK</text>
+      <register name="&quot;" type="4">
+        <text>'Förskott (skattepliktigt)'</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -610,8 +610,8 @@
       <register name="/" type="4">
         <text>\('\)\(.*\)\('\)</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">SU5TRVJUIElOVE8gQ2xhaW1fVHJhbnNhY3Rpb25fVHlwZSAoRGVzY3JpcHRpb24sIENyZWF0ZWQsIENyZWF0ZWRfVXNlcl9JZCwgTGFzdF9VcGRhdGVkLCBMYXN0X1VwZGF0ZWRfVXNlcl9JZCwgU29ydCwgUGFyZW50X0lkLCBDYXRlZ29yeSwgQ2xhaW1fTG9iX0lkLCBSdHZfRmVlLCBSZWNvdXJzZSwgQ291bnRyeV9JZCwgTWFuZGF0b3J5X1JlcG9ydGluZywgQWNjb3VudGluZ19FcnBfVHlwZV9OciwgQWNjb3VudGluZ19DYXRlZ29yeSkKICAgIFZBTFVFUwogICAgICAoJ1NqdWtneW1uYXN0JywgY3VycmVudF90aW1lc3RhbXAsIDAsIGN1cnJlbnRfdGltZXN0YW1wLCAwLCAyMDAwLCAzLCAtMSwgNSwgMCwgMCwgMiwgTlVMTCwgMjEsIDEpLAogICAgICAoJ05hcHJhcGF0LCBraXJvcHJha3RvcicsIGN1cnJlbnRfdGltZXN0YW1wLCAwLCBjdXJyZW50X3RpbWVzdGFtcCwgMCwgMjAwMCwgMywgLTEsIDUsIDAsIDAsIDIsIE5VTEwsIDIxLCAxKSwKICAgICAgKCdQc3lrb2xvZywgcHN5a290ZXJhcGV1dCcsIGN1cnJlbnRfdGltZXN0YW1wLCAwLCBjdXJyZW50X3RpbWVzdGFtcCwgMCwgMjAwMCwgMywgLTEsIDUsIDAsIDAsIDIsIE5VTEwsIDIxLCAxKSwKICAgICAgKCdUZWxlZm9ua29uc3VsdGF0aW9uJywgY3VycmVudF90aW1lc3RhbXAsIDAsIGN1cnJlbnRfdGltZXN0YW1wLCAwLCAyMDAwLCAzLCAtMSwgNSwgMCwgMCwgMiwgTlVMTCwgMjEsIDEpLAogICAgICAoJ0RpZXRpc3QnLCBjdXJyZW50X3RpbWVzdGFtcCwgMCwgY3VycmVudF90aW1lc3RhbXAsIDAsIDIwMDAsIDMsIC0xLCA1LCAwLCAwLCAyLCBOVUxMLCAyMSwgMSksCiAgICAgICgnT2ZmZW50bGlnIHbDpXJkJywgY3VycmVudF90aW1lc3RhbXAsIDAsIGN1cnJlbnRfdGltZXN0YW1wLCAwLCAyMDAwLCAzLCAtMSwgNSwgMCwgMCwgMiwgTlVMTCwgMjEsIDEpLAogICAgICAoJ0JlaGFuZGxpbmdza29zdG5hZCcsIGN1cnJlbnRfdGltZXN0YW1wLCAwLCBjdXJyZW50X3RpbWVzdGFtcCwgMCwgMjAwMCwgMywgLTEsIDUsIDAsIDAsIDIsIE5VTEwsIDIxLCAxKSwKICAgICAgKCdHbGFzw7Znb24nLCBjdXJyZW50X3RpbWVzdGFtcCwgMCwgY3VycmVudF90aW1lc3RhbXAsIDAsIDIwMDAsIDMsIC0xLCA1LCAwLCAwLCAyLCBOVUxMLCAyMSwgMSksCiAgICAgICgnS2zDpGRlcicsIGN1cnJlbnRfdGltZXN0YW1wLCAwLCBjdXJyZW50X3RpbWVzdGFtcCwgMCwgMjAwMCwgMywgLTEsIDUsIDAsIDAsIDIsIE5VTEwsIDIxLCAxKSwKICAgICAgKCdTanVraHVzdsOlcmQnLCBjdXJyZW50X3RpbWVzdGFtcCwgMCwgY3VycmVudF90aW1lc3RhbXAsIDAsIDIwMDAsIDMsIC0xLCA1LCAwLCAwLCAyLCBOVUxMLCAyMSwgMSksCiAgICAgICgnQmVncmF2bmluZycsIGN1cnJlbnRfdGltZXN0YW1wLCAwLCBjdXJyZW50X3RpbWVzdGFtcCwgMCwgMjAwMCwgMywgLTEsIDUsIDAsIDAsIDIsIE5VTEwsIDIxLCAxKSwKICAgICAgKCdVbmRlcmjDpWxsc2bDtnJsdXN0JywgY3VycmVudF90aW1lc3RhbXAsIDAsIGN1cnJlbnRfdGltZXN0YW1wLCAwLCAyMDAwLCAzLCAtMSwgNSwgMCwgMCwgMiwgTlVMTCwgMjEsIDEpLAogICAgICAoJ0bDtnJza290dCAoc2thdHRlZnJpdHQpJywgY3VycmVudF90aW1lc3RhbXAsIDAsIGN1cnJlbnRfdGltZXN0YW1wLCAwLCAyMDAwLCAzLCAtMSwgNSwgMCwgMCwgMiwgTlVMTCwgMjEsIDEpLAogICAgICAoJ0bDtnJza290dCAoc2thdHRlcGxpa3RpZ3QpJywgY3VycmVudF90aW1lc3RhbXAsIDAsIGN1cnJlbnRfdGltZXN0YW1wLCAwLCAyMDAwLCAzLCAtMSwgNSwgMCwgMCwgMiwgTlVMTCwgMjEsIDEpCg==</text>
+      <register name="0" type="4">
+        <text>'Förskott (skattepliktigt)'</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBhc3NlcnQgbG9icy5jb250YWluc0FsbCgKICAgICAgICAgICAgICAgIAogICAgICAgICkK</text>

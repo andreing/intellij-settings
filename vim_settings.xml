@@ -200,11 +200,18 @@
         <mark key="." line="1" column="17" />
         <mark key="^" line="1" column="15" />
       </file>
-      <file name="/Dummy.txt" timestamp="1517315324206">
+      <file name="/Dummy.txt" timestamp="1517318103143">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="4" />
         <mark key="^" line="0" column="4" />
         <mark key="." line="0" column="4" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/elastic/src/main/java/protector/claims/SpringElasticConfig.java" timestamp="1517317841652">
+        <mark key="'" line="15" column="66" />
+        <mark key="[" line="15" column="96" />
+        <mark key="]" line="17" column="45" />
+        <mark key="." line="17" column="45" />
+        <mark key="^" line="17" column="45" />
       </file>
       <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/validate/FakturagrunnlagValidator.java" timestamp="1516370178574">
         <mark key="'" line="13" column="4" />
@@ -305,7 +312,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="471" column="80" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="532" column="89" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="2673" column="84" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="549" column="84" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
@@ -405,6 +411,7 @@
       <jump line="171" column="83" filename="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/claims/web/src/main/resources/application-dev.properties" />
       <jump line="44" column="0" filename="$USER_HOME$/repos/claims/web/src/main/resources/application-dev.properties" />
+      <jump line="14" column="66" filename="$USER_HOME$/repos/claims/elastic/src/main/java/protector/claims/SpringElasticConfig.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -413,8 +420,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICByZXF1ZXN0LnNvdXJjZShoZWFkZXIucHJvcGVydGllcykK</text>
+      <register name="&quot;" type="4">
+        <text>RestClient.builder(new HttpHost(&quot;localhost&quot;, 9200, &quot;http&quot;))</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -467,7 +474,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>RestClient.builder(new HttpHost(&quot;localhost&quot;, 9200, &quot;http&quot;))</text>
       </register>
       <register name="/" type="4">
         <text>\('\)\(.*\)\('\)</text>

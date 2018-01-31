@@ -138,6 +138,9 @@
         <mark key="^" line="23" column="27" />
         <mark key="." line="18" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/SpringServletFilterConfig.java" timestamp="1517395860072">
+        <mark key="[" line="1" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimRegistrationService.java" timestamp="1515591037845">
         <mark key="'" line="2" column="0" />
         <mark key="[" line="7" column="0" />
@@ -196,6 +199,13 @@
         <mark key="]" line="171" column="84" />
         <mark key="^" line="171" column="56" />
         <mark key="." line="171" column="57" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/Application.java" timestamp="1517395598890">
+        <mark key="'" line="34" column="130" />
+        <mark key="[" line="34" column="23" />
+        <mark key="]" line="34" column="131" />
+        <mark key="." line="34" column="23" />
+        <mark key="^" line="37" column="51" />
       </file>
       <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/test/groovy/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagServiceSpec.groovy" timestamp="1516370682733">
         <mark key="[" line="15" column="124" />
@@ -357,12 +367,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1382" column="93" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
-      <jump line="2655" column="16" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
-      <jump line="1386" column="23" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
-      <jump line="1389" column="27" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
-      <jump line="1390" column="16" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
-      <jump line="1394" column="57" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="1563" column="20" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="8" column="4" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimRegistrationService.java" />
       <jump line="14" column="0" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimFormsController.java" />
@@ -457,6 +461,12 @@
       <jump line="35" column="0" filename="$USER_HOME$/repos/claims/web/build.gradle" />
       <jump line="103" column="0" filename="$USER_HOME$/repos/file-service/build.gradle" />
       <jump line="39" column="0" filename="$USER_HOME$/repos/claims/web/build.gradle" />
+      <jump line="69" column="41" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/Application.java" />
+      <jump line="85" column="30" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/Application.java" />
+      <jump line="22" column="31" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/Application.java" />
+      <jump line="39" column="38" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/Application.java" />
+      <jump line="37" column="25" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/Application.java" />
+      <jump line="34" column="130" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/Application.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -465,8 +475,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">aW50ZWdyYXRpb25UZXN0Lm11c3RSdW5BZnRlciB0ZXN0ICAgLy8gaW50ZWdyYXRpb24gdGVzdHMgcnVuIGFmdGVyIHVuaXQgdGVzdHMKCnByb2plY3QuaW50ZWdyYXRpb25UZXN0IHsKCW91dHB1dHMudXBUb0RhdGVXaGVuIHsgZmFsc2UgfSAgLy8gYWx3YXlzIHJ1biBpbnRlZ3JhdGlvbiB0ZXN0cwp9CgovLyBzZXBhcmF0ZSB0ZXN0IHJlcG9ydHMgZm9yIHVuaXQgYW5kIGludGVncmF0aW9uIHRlc3QgKG5vdCBuZWVkZWQgaW4gdGVzdCBzZXQgcGx1Z2luIDEuMi4wPz8pCnRhc2tzLndpdGhUeXBlKFRlc3QpIHsKCXJlcG9ydHMuaHRtbC5kZXN0aW5hdGlvbiA9IG5ldyBGaWxlKHByb2plY3QucmVwb3J0c0RpciwgbmFtZSkKCXJlcG9ydHMuanVuaXRYbWwuZGVzdGluYXRpb24gPSBuZXcgRmlsZShwcm9qZWN0LmJ1aWxkRGlyLCAiJHtuYW1lfS1yZXN1bHRzIikKCWJpblJlc3VsdHNEaXIgPSBuZXcgRmlsZShyZXBvcnRzLmp1bml0WG1sLmRlc3RpbmF0aW9uLCAnYmluYXJ5JykKfQo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">ZXhjbHVkZSA9IA==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -519,16 +529,16 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>RestClient.builder(new HttpHost(&quot;localhost&quot;, 9200, &quot;http&quot;))</text>
+        <text encoding="base64">ZXhjbHVkZSA9IA==</text>
       </register>
       <register name="/" type="4">
-        <text>\('\)\(.*\)\('\)</text>
+        <text encoding="base64">XDxjbGFpbXNUb2dnbHpDb25maWd1cmF0aW9uXD4=</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">aW50ZWdyYXRpb25UZXN0Lm11c3RSdW5BZnRlciB0ZXN0ICAgLy8gaW50ZWdyYXRpb24gdGVzdHMgcnVuIGFmdGVyIHVuaXQgdGVzdHMKCnByb2plY3QuaW50ZWdyYXRpb25UZXN0IHsKCW91dHB1dHMudXBUb0RhdGVXaGVuIHsgZmFsc2UgfSAgLy8gYWx3YXlzIHJ1biBpbnRlZ3JhdGlvbiB0ZXN0cwp9CgovLyBzZXBhcmF0ZSB0ZXN0IHJlcG9ydHMgZm9yIHVuaXQgYW5kIGludGVncmF0aW9uIHRlc3QgKG5vdCBuZWVkZWQgaW4gdGVzdCBzZXQgcGx1Z2luIDEuMi4wPz8pCnRhc2tzLndpdGhUeXBlKFRlc3QpIHsKCXJlcG9ydHMuaHRtbC5kZXN0aW5hdGlvbiA9IG5ldyBGaWxlKHByb2plY3QucmVwb3J0c0RpciwgbmFtZSkKCXJlcG9ydHMuanVuaXRYbWwuZGVzdGluYXRpb24gPSBuZXcgRmlsZShwcm9qZWN0LmJ1aWxkRGlyLCAiJHtuYW1lfS1yZXN1bHRzIikKCWJpblJlc3VsdHNEaXIgPSBuZXcgRmlsZShyZXBvcnRzLmp1bml0WG1sLmRlc3RpbmF0aW9uLCAnYmluYXJ5JykKfQo=</text>
+      <register name="0" type="4">
+        <text>exclude = {DataSourceAutoConfiguration.class, ErrorMvcAutoConfiguration.class, MongoAutoConfiguration.class}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGRlcGVuZGVuY2llcyB7CiAgICAgICAgY2xhc3NwYXRoICdvcmcudW5icm9rZW4tZG9tZS5ncmFkbGUtcGx1Z2luczpncmFkbGUtdGVzdHNldHMtcGx1Z2luOjEuNC4yJwogICAgfQo=</text>
+        <text encoding="base64">QENvbXBvbmVudFNjYW4oInByb3RlY3Rvci5jbGFpbXMuYXBpLmNvbnRyb2xsZXJzIikK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -555,19 +565,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">QENvbXBvbmVudFNjYW4K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB3aGVuOgogICAgICAgIGRlZiBoZWFkZXIgPSBoZWFkZXJTZXJ2aWNlLmdldENsYWltSGVhZGVyQnlJZCgzMDQzNTVMLCBmYWxzZSwgdHJ1ZSkKCg==</text>
+        <text encoding="base64">ICAgIGRlcGVuZGVuY2llcyB7CiAgICAgICAgY2xhc3NwYXRoICdvcmcudW5icm9rZW4tZG9tZS5ncmFkbGUtcGx1Z2luczpncmFkbGUtdGVzdHNldHMtcGx1Z2luOjEuNC4yJwogICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">QENvbnRleHRDb25maWd1cmF0aW9uKGNsYXNzZXM9U3ByaW5nRWxhc3RpY0NvbmZpZykK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZXh0WydzcG9jay52ZXJzaW9uJ10gPSAnMS4xJyAvLyBuZWVkZWQgaW4gb3JkZXIgdG8gZm9yY2Ugc3ByaW5nIGJvb3Qgc3BvY2sgdmVyc2lvbgpleHRbJ2VsYXN0aWNzZWFyY2gudmVyc2lvbiddID0gJzYuMS4yJyAvLyBpbiBjYXNlIHNvbWVvbmUgZGVjaWRlcyB0byB1c2UgdGhlIHNwcmluZyBib290IGdyYWRsZSBwbHVnaW4gYWdhaW4KCg==</text>
+        <text encoding="base64">ICAgICAgICB3aGVuOgogICAgICAgIGRlZiBoZWFkZXIgPSBoZWFkZXJTZXJ2aWNlLmdldENsYWltSGVhZGVyQnlJZCgzMDQzNTVMLCBmYWxzZSwgdHJ1ZSkKCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIEBJZ25vcmUK</text>
+        <text encoding="base64">QENvbnRleHRDb25maWd1cmF0aW9uKGNsYXNzZXM9U3ByaW5nRWxhc3RpY0NvbmZpZykK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -902,31 +912,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGRlcGVuZGVuY2llcyB7CiAgICAgICAgY2xhc3NwYXRoKCJvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3Q6c3ByaW5nLWJvb3QtZ3JhZGxlLXBsdWdpbjokc3ByaW5nQm9vdFZlcnNpb24iKQogICAgfQo=</text>
+        <text encoding="base64">ZXh0WydzcG9jay52ZXJzaW9uJ10gPSAnMS4xJyAvLyBuZWVkZWQgaW4gb3JkZXIgdG8gZm9yY2Ugc3ByaW5nIGJvb3Qgc3BvY2sgdmVyc2lvbgpleHRbJ2VsYXN0aWNzZWFyY2gudmVyc2lvbiddID0gJzYuMS4yJyAvLyBpbiBjYXNlIHNvbWVvbmUgZGVjaWRlcyB0byB1c2UgdGhlIHNwcmluZyBib290IGdyYWRsZSBwbHVnaW4gYWdhaW4KCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">YXBwbHkgcGx1Z2luOiAnb3JnLnNwcmluZ2ZyYW1ld29yay5ib290Jwo=</text>
+        <text encoding="base64">ICAgIEBJZ25vcmUK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGV4dFtlbGFzdGljc2VhcmNoLnZlcnNpb25dID0gJzIuMy4xJwo=</text>
+        <text encoding="base64">ICAgIGRlcGVuZGVuY2llcyB7CiAgICAgICAgY2xhc3NwYXRoKCJvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3Q6c3ByaW5nLWJvb3QtZ3JhZGxlLXBsdWdpbjokc3ByaW5nQm9vdFZlcnNpb24iKQogICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL1woJ1wpXCguKlwpXCgnXCkvKFwxXDJcMykv</text>
       </register>
     </registers>
     <search>
-      <last-search>\('\)\(.*\)\('\)</last-search>
+      <last-search encoding="base64">XDxjbGFpbXNUb2dnbHpDb25maWd1cmF0aW9uXD4=</last-search>
       <last-offset />
-      <last-pattern>\('\)\(.*\)\('\)</last-pattern>
+      <last-pattern encoding="base64">XDxjbGFpbXNUb2dnbHpDb25maWd1cmF0aW9uXD4=</last-pattern>
       <last-replace>(\1\2\3)</last-replace>
       <last-substitute>\('\)\(.*\)\('\)</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxmaWx0ZXJcPg==</entry>
-        <entry encoding="base64">XDxpdGVtc1w+</entry>
         <entry encoding="base64">XDxjb25zb2xlXD4=</entry>
         <entry encoding="base64">XDxjaGFuZ2VIYW5kbGVyXD4=</entry>
         <entry encoding="base64">XDxjaGFuZ2VNYWlsVGVtcGxhdGVzXD4=</entry>
@@ -945,6 +953,8 @@
         <entry>&quot;</entry>
         <entry>$</entry>
         <entry>\('\)\(.*\)\('\)</entry>
+        <entry encoding="base64">XDxDbGFpbXNUb2dnbHpDb25maWd1cmF0aW9uXD4=</entry>
+        <entry encoding="base64">XDxjbGFpbXNUb2dnbHpDb25maWd1cmF0aW9uXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>set ft=js</entry>

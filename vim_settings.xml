@@ -20,7 +20,7 @@
         <mark key="]" line="24" column="0" />
         <mark key="." line="24" column="0" />
       </file>
-      <file name="/a.dummy" timestamp="1517997044237">
+      <file name="/a.dummy" timestamp="1517997478757">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/integration-test/java/protector/integrationtest/search/IndexSomeDocument.groovy" timestamp="1517408382765">
@@ -141,12 +141,12 @@
         <mark key="]" line="11" column="0" />
         <mark key="." line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/search/src/main/java/protector/claims/elastic/ElasticIndexer.java" timestamp="1517997078391">
-        <mark key="'" line="36" column="8" />
-        <mark key="[" line="88" column="30" />
-        <mark key="]" line="89" column="16" />
-        <mark key="." line="89" column="16" />
-        <mark key="^" line="89" column="16" />
+      <file name="$USER_HOME$/repos/claims/search/src/main/java/protector/claims/elastic/ElasticIndexer.java" timestamp="1517999346177">
+        <mark key="'" line="40" column="8" />
+        <mark key="[" line="41" column="89" />
+        <mark key="]" line="40" column="66" />
+        <mark key="." line="40" column="66" />
+        <mark key="^" line="40" column="66" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" timestamp="1515683110804">
         <mark key="'" line="144" column="8" />
@@ -525,9 +525,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="41" column="35" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/TransactionJdbcDao.java" />
-      <jump line="90" column="50" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
-      <jump line="2693" column="38" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="2696" column="12" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="2697" column="38" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="2698" column="16" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
@@ -625,6 +622,9 @@
       <jump line="1395" column="49" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="40" column="0" filename="$USER_HOME$/repos/claims/search/src/main/java/protector/claims/elastic/ElasticIndexer.java" />
       <jump line="37" column="8" filename="$USER_HOME$/repos/claims/search/src/main/java/protector/claims/elastic/ElasticIndexer.java" />
+      <jump line="74" column="24" filename="$USER_HOME$/repos/claims/search/src/main/java/protector/claims/elastic/ElasticIndexer.java" />
+      <jump line="44" column="0" filename="$USER_HOME$/repos/claims/search/src/main/java/protector/claims/elastic/ElasticIndexer.java" />
+      <jump line="41" column="8" filename="$USER_HOME$/repos/claims/search/src/main/java/protector/claims/elastic/ElasticIndexer.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -634,7 +634,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBJbmRleFJlcXVlc3QgcmVxdWVzdCA9IG5ldyBJbmRleFJlcXVlc3QoSU5ERVgsIFRZUEUsIFN0cmluZy52YWx1ZU9mKGV2ZW50LmdldElkKCkpKQogICAgICAgICAgICAgICAgLnNvdXJjZShqc29uVmFsdWUsIFhDb250ZW50VHlwZS5KU09OKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoanNvblZhbHVlIC0+IG5ldyBJbmRleFJlcXVlc3QoSU5ERVgsIFRZUEUsIFN0cmluZy52YWx1ZU9mKGV2ZW50LmdldElkKCkpKQogICAgICAgICAgICAgICAgICAgICAgICAuc291cmNlKGpzb25WYWx1ZSwgWENvbnRlbnRUeXBlLkpTT04pKQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -687,16 +687,16 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IERhdGFTb3VyY2VQcm9wZXJ0aWVz</text>
+        <text>this::createIndexRequest</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxDbGFpbUV2ZW50VHlwZURlc2NyaXB0aW9uXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcganNvblZhbHVlOwogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGpzb25WYWx1ZSA9IG9iamVjdE1hcHBlci53cml0ZVZhbHVlQXNTdHJpbmcoZXZlbnQpOwogICAgICAgIH0gY2F0Y2ggKEpzb25Qcm9jZXNzaW5nRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgTE9HLmVycm9yKGUuZ2V0TWVzc2FnZSgpLCBlKTsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KCiAgICAgICAgSW5kZXhSZXF1ZXN0IHJlcXVlc3QgPSBuZXcgSW5kZXhSZXF1ZXN0KElOREVYLCBUWVBFLCBTdHJpbmcudmFsdWVPZihldmVudC5nZXRJZCgpKSkKICAgICAgICAgICAgICAgIC5zb3VyY2UoanNvblZhbHVlLCBYQ29udGVudFR5cGUuSlNPTik7Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gVHJ5Lm9mKCgpIC0+IG9iamVjdE1hcHBlci53cml0ZVZhbHVlQXNTdHJpbmcoZXZlbnQpKQogICAgICAgICAgICAgICAgLm1hcChqc29uVmFsdWUgLT4gbmV3IEluZGV4UmVxdWVzdChJTkRFWCwgVFlQRSwgU3RyaW5nLnZhbHVlT2YoZXZlbnQuZ2V0SWQoKSkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5zb3VyY2UoanNvblZhbHVlLCBYQ29udGVudFR5cGUuSlNPTikpCiAgICAgICAgICAgICAgICAub25GYWlsdXJlKHRocm93YWJsZSAtPiBMT0cuZXJyb3IoIkNvdWxkIG5vdCBwcm9jZXNzIG9iamVjdCBpbnRvIGpzb24iKSkKICAgICAgICAgICAgICAgIC5nZXRPckVsc2UoSW5kZXhSZXF1ZXN0OjpuZXcpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBJbmRleFJlcXVlc3QgcmVxdWVzdCA9IG5ldyBJbmRleFJlcXVlc3QoSU5ERVgsIFRZUEUsIFN0cmluZy52YWx1ZU9mKGV2ZW50LmdldElkKCkpKQogICAgICAgICAgICAgICAgLnNvdXJjZShqc29uVmFsdWUsIFhDb250ZW50VHlwZS5KU09OKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoanNvblZhbHVlIC0+IG5ldyBJbmRleFJlcXVlc3QoSU5ERVgsIFRZUEUsIFN0cmluZy52YWx1ZU9mKGV2ZW50LmdldElkKCkpKQogICAgICAgICAgICAgICAgICAgICAgICAuc291cmNlKGpzb25WYWx1ZSwgWENvbnRlbnRUeXBlLkpTT04pKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -723,19 +723,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcganNvblZhbHVlOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcganNvblZhbHVlOwo=</text>
+        <text encoding="base64">ICAgICAgICBCdWxrUHJvY2Vzc29yLkxpc3RlbmVyIGxpc3RlbmVyID0gZ2V0QnVsa0xpc3RlbmVyKCk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAganNvblZhbHVlID0gb2JqZWN0TWFwcGVyLndyaXRlVmFsdWVBc1N0cmluZyhldmVudCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBJbmRleFJlcXVlc3QgcmVxdWVzdCA9IGNyZWF0ZUluZGV4UmVxdWVzdChldmVudCk7Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB0cnkgewo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1070,13 +1070,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB0cnkgewo=</text>
+        <text encoding="base64">ICAgICAgICB9IGNhdGNoIChKc29uUHJvY2Vzc2luZ0V4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIExPRy5lcnJvcihlLmdldE1lc3NhZ2UoKSwgZSk7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB9IGNhdGNoIChKc29uUHJvY2Vzc2luZ0V4Y2VwdGlvbiBlKSB7CiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICBldmVudHMuc3RyZWFtKCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgTE9HLmVycm9yKGUuZ2V0TWVzc2FnZSgpLCBlKTsK</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5TZXQ7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

@@ -46,8 +46,12 @@
       <file name="$USER_HOME$/repos/claims/elastic/src/main/java/protector/claims/elastic/ElasticIndexer.java" timestamp="1517306462436">
         <mark key="[" line="3" column="29" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/css/claims.css" timestamp="1518169689295">
-        <mark key="[" line="212" column="1" />
+      <file name="$USER_HOME$/repos/claims/frontend/css/claims.css" timestamp="1518174108864">
+        <mark key="'" line="215" column="51" />
+        <mark key="[" line="215" column="52" />
+        <mark key="]" line="215" column="58" />
+        <mark key="." line="215" column="58" />
+        <mark key="^" line="215" column="58" />
       </file>
       <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/FakturagrunnlagService.java" timestamp="1518168162809">
         <mark key="[" line="66" column="131" />
@@ -396,8 +400,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2698" column="16" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
-      <jump line="2694" column="12" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="2695" column="12" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="29" column="33" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/map/StatusInfoMapper.java" />
       <jump line="60" column="24" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/map/StatusInfoMapper.java" />
@@ -496,6 +498,8 @@
       <jump line="41" column="8" filename="$USER_HOME$/repos/claims/search/src/main/java/protector/claims/elastic/ElasticIndexer.java" />
       <jump line="15" column="0" filename="$USER_HOME$/repos/claims/web/src/integration-test/groovy/protector/claims/integrationtest/search/IndexSomeDocument.groovy" />
       <jump line="5" column="0" filename="$USER_HOME$/repos/claims/web/src/integration-test/groovy/protector/claims/integrationtest/search/ElasticIndexerSpec.groovy" />
+      <jump line="220" column="4" filename="$USER_HOME$/repos/claims/frontend/css/claims.css" />
+      <jump line="215" column="51" filename="$USER_HOME$/repos/claims/frontend/css/claims.css" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -504,8 +508,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgPGRpdiBjbGFzcz0iZm9ybS1ncm91cCI+CiAgICAgICAgICAgICAgICA8bGFiZWwgY2xhc3M9ImNvbnRyb2wtbGFiZWwgY29sLW1kLTQiPlJpbmcgZm9yIHV0bGV2ZXJpbmc6PC9sYWJlbD4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNvbC1tZC04Ij4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJpbnB1dC1ncm91cCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzcz0iYnRuIGJ0bi1wcmltYXJ5IiBuZy1tb2RlbD0idm0uaW52b2ljZURhdGEuY2FsbFRvQ29uZmlybSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJ0bi1jaGVja2JveD0idHJ1ZSI+SmE8L2xhYmVsPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgoK</text>
+      <register name="&quot;" type="4">
+        <text>.btn.primary.active:hover</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -563,11 +567,11 @@
       <register name="/" type="4">
         <text encoding="base64">XDxDbGFpbUV2ZW50VHlwZURlc2NyaXB0aW9uXD4=</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">QFNwcmluZ0Jvb3RUZXN0KHdlYkVudmlyb25tZW50ID0gTU9DSykKQEFjdGl2ZVByb2ZpbGVzKFsnZGV2JywgJ25vc3dhZ2dlciddKQo=</text>
+      <register name="0" type="4">
+        <text>.btn.primary.active:hover</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgPGRpdiBjbGFzcz0iZm9ybS1ncm91cCI+CiAgICAgICAgICAgICAgICA8bGFiZWwgY2xhc3M9ImNvbnRyb2wtbGFiZWwgY29sLW1kLTQiPlJpbmcgZm9yIHV0bGV2ZXJpbmc6PC9sYWJlbD4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNvbC1tZC04Ij4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJpbnB1dC1ncm91cCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzcz0iYnRuIGJ0bi1wcmltYXJ5IiBuZy1tb2RlbD0idm0uaW52b2ljZURhdGEuY2FsbFRvQ29uZmlybSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJ0bi1jaGVja2JveD0idHJ1ZSI+SmE8L2xhYmVsPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgoK</text>
+        <text encoding="base64">LmJ0bi1wcmltYXJ5LmFjdGl2ZSwgLmJ0bi5wcmltYXJ5OmhvdmVyIHsKICAgIGJhY2tncm91bmQ6ICNjMzZlMTc7Cn0KCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -594,19 +598,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgLnBlZWsocmVxdWVzdCAtPiBMT0cuaW5mbygiQ3JlYXRlZCBpbmRleCByZXF1ZXN0IFt7fV0gZm9yIGRvY3VtZW50IHdpdGggaWQge30iLCBpbmRleCwgb2JqZWN0LmdldElkKCkpKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgdHJ1ZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgY29tbVR5cGUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgPGRpdiBjbGFzcz0iZm9ybS1ncm91cCI+CiAgICAgICAgICAgICAgICA8bGFiZWwgY2xhc3M9ImNvbnRyb2wtbGFiZWwgY29sLW1kLTQiPlJpbmcgZm9yIHV0bGV2ZXJpbmc6PC9sYWJlbD4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNvbC1tZC04Ij4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJpbnB1dC1ncm91cCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzcz0iYnRuIGJ0bi1wcmltYXJ5IiBuZy1tb2RlbD0idm0uaW52b2ljZURhdGEuY2FsbFRvQ29uZmlybSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJ0bi1jaGVja2JveD0idHJ1ZSI+SmE8L2xhYmVsPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgoK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGhpcy5jb21tVHlwZSA9IGV2ZW50LmdldENvbW1UeXBlRW51bSgpCg==</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgLnBlZWsocmVxdWVzdCAtPiBMT0cuaW5mbygiQ3JlYXRlZCBpbmRleCByZXF1ZXN0IFt7fV0gZm9yIGRvY3VtZW50IHdpdGggaWQge30iLCBpbmRleCwgb2JqZWN0LmdldElkKCkpKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudGltZS5Mb2NhbERhdGVUaW1lCg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgdHJ1ZQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -941,13 +945,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoSHR0cEhvc3Q6Om5ldykK</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgY29tbVR5cGUK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGhpcy5jb21tVHlwZSA9IGV2ZW50LmdldENvbW1UeXBlRW51bSgpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBGdW5jdGlvbjxJZGVudGlmaWFibGUsIE9wdGlvbjxJbmRleFJlcXVlc3Q+PiBjcmVhdGVJbmRleFJlcXVlc3QgPSBvYmogLT4gdGhpcy5jcmVhdGVJbmRleFJlcXVlc3QoaW5kZXgsIG9iaik7Cg==</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudGltZS5Mb2NhbERhdGVUaW1lCg==</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

@@ -168,6 +168,9 @@
         <mark key="^" line="26" column="11" />
         <mark key="." line="36" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-resource.js" timestamp="1518186575621">
+        <mark key="[" line="26" column="45" />
+      </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/resources/log-config-dev.xml" timestamp="1517496340663">
         <mark key="[" line="10" column="21" />
         <mark key="]" line="10" column="20" />
@@ -342,11 +345,12 @@
       <file name="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/util/SecretProperties.java" timestamp="1517839719177">
         <mark key="[" line="5" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" timestamp="1518180135987">
-        <mark key="'" line="41" column="13" />
-        <mark key="[" line="41" column="0" />
-        <mark key="]" line="41" column="0" />
-        <mark key="." line="41" column="0" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" timestamp="1518186716086">
+        <mark key="'" line="54" column="90" />
+        <mark key="[" line="54" column="40" />
+        <mark key="]" line="54" column="18" />
+        <mark key="." line="54" column="18" />
+        <mark key="^" line="54" column="18" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/MailService.java" timestamp="1515422898575">
         <mark key="'" line="185" column="21" />
@@ -447,8 +451,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="22" column="31" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/Application.java" />
-      <jump line="39" column="38" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/Application.java" />
       <jump line="37" column="25" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/Application.java" />
       <jump line="34" column="130" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/Application.java" />
       <jump line="8" column="4" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/SpringServletFilterConfig.java" />
@@ -547,6 +549,8 @@
       <jump line="79" column="0" filename="$USER_HOME$/repos/claims/dbs/src/test/groovy/protector/claims/dbs/invoicedata/InvoiceDataControllerSpec.groovy" />
       <jump line="44" column="8" filename="$USER_HOME$/repos/claims/dbs/src/test/groovy/protector/claims/dbs/invoicedata/InvoiceDataControllerSpec.groovy" />
       <jump line="57" column="4" filename="$USER_HOME$/repos/claims/dbs/src/test/groovy/protector/claims/dbs/invoicedata/InvoiceDataControllerSpec.groovy" />
+      <jump line="137" column="85" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
+      <jump line="54" column="90" filename="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -612,7 +616,7 @@
         <text encoding="base64">bGF0TWFwKE9wdGlvbmFsOjpvZikucmVkdWNlKE9wdGlvbmFsLmVtcHR5KCksIChhLCBiKSAtPiBPcHRpb25hbC5vZihhKSk=</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjYWxsVG9Db25maXJtXD4=</text>
+        <text encoding="base64">XDxwdXRJbnZvaWNlRGF0YVw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBkZWYgdmVoaWNsZVJlZ2lzdHJhdGlvbiA9ICdBQjEyMzQ1Jwo=</text>
@@ -1005,9 +1009,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjYWxsVG9Db25maXJtXD4=</last-search>
+      <last-search encoding="base64">XDxwdXRJbnZvaWNlRGF0YVw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjYWxsVG9Db25maXJtXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxwdXRJbnZvaWNlRGF0YVw+</last-pattern>
       <last-replace>(\1\2\3)</last-replace>
       <last-substitute>\('\)\(.*\)\('\)</last-substitute>
       <last-dir>1</last-dir>
@@ -1015,7 +1019,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxUZW1wbGF0ZVRva2VuUmVwbGFjZXJcPg==</entry>
         <entry encoding="base64">XDx6b25lZERhdGVUaW1lXD4=</entry>
         <entry encoding="base64">XDxEQU1BR0VfTE9DQVRJT05cPg==</entry>
         <entry encoding="base64">XDxBQ0NJREVOVF9ERVNDUklQVElPTlw+</entry>
@@ -1035,6 +1038,7 @@
         <entry encoding="base64">XDxDbGFpbUV2ZW50VHlwZURlc2NyaXB0aW9uXD4=</entry>
         <entry encoding="base64">XDxkaXNhYmxlZFw+</entry>
         <entry encoding="base64">XDxjYWxsVG9Db25maXJtXD4=</entry>
+        <entry encoding="base64">XDxwdXRJbnZvaWNlRGF0YVw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1wkc2NvcGUvdGhpcy8=</entry>

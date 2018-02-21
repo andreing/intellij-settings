@@ -86,12 +86,12 @@
       <file name="$USER_HOME$/repos/claims/frontend/gulpfile.js" timestamp="1519137378496">
         <mark key="'" line="16" column="26" />
       </file>
-      <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/ClaimsRestService.java" timestamp="1519134209708">
-        <mark key="'" line="43" column="170" />
-        <mark key="[" line="50" column="56" />
-        <mark key="]" line="50" column="53" />
-        <mark key="." line="50" column="53" />
-        <mark key="^" line="50" column="53" />
+      <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/ClaimsRestService.java" timestamp="1519215258427">
+        <mark key="'" line="152" column="16" />
+        <mark key="[" line="152" column="0" />
+        <mark key="]" line="152" column="61" />
+        <mark key="." line="152" column="0" />
+        <mark key="^" line="160" column="15" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/app.js" timestamp="1519034284449" />
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header.html" timestamp="1518168945328">
@@ -396,9 +396,6 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/accounting/AccountingService.java" timestamp="1519049083639" />
     </filemarks>
     <jumps>
-      <jump line="7" column="0" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/invoicedata/InvoiceData.java" />
-      <jump line="45" column="8" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/invoicedata/InvoiceData.java" />
-      <jump line="9" column="4" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/invoicedata/InvoiceData.java" />
       <jump line="149" column="0" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/invoicedata/InvoiceDataJdbcDao.java" />
       <jump line="136" column="8" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/invoicedata/InvoiceDataJdbcDao.java" />
       <jump line="48" column="0" filename="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/invoicedata/InvoiceDataJdbcDao.java" />
@@ -496,6 +493,9 @@
       <jump line="89" column="8" filename="$USER_HOME$/repos/dbs/app/src/test/groovy/protector/dbs/claims/rest/ClaimsRestServiceSpec.groovy" />
       <jump line="114" column="8" filename="$USER_HOME$/repos/dbs/app/src/test/groovy/protector/dbs/claims/rest/ClaimsRestServiceSpec.groovy" />
       <jump line="130" column="8" filename="$USER_HOME$/repos/dbs/app/src/test/groovy/protector/dbs/claims/rest/ClaimsRestServiceSpec.groovy" />
+      <jump line="163" column="37" filename="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/ClaimsRestService.java" />
+      <jump line="162" column="62" filename="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/ClaimsRestService.java" />
+      <jump line="152" column="16" filename="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/ClaimsRestService.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -505,7 +505,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIEBTaGFyZWQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vbkZhaWx1cmUodCAtPiBMT0cuZXJyb3IodC5nZXRNZXNzYWdlKCksIHQpKQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -558,16 +558,16 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>components = [ClaimsRestService, ClaimsRequestInterceptor, ProtectorAuth]</text>
+        <text encoding="base64">dGhyb3dhYmxlIC0+IExPRy5lcnJy</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxidW5kbGVcPg==</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dpblNlcnZlci5leHBlY3QocmVxdWVzdFRvKCJodHRwOi8vbG9naW5ob3N0L3Rlc3QiKSkKICAgICAgICAgICAgICAgIC5hbmRSZXNwb25kKHdpdGhTdWNjZXNzKCJ0b2tlbiIsIE1lZGlhVHlwZS5URVhUX1BMQUlOKSkK</text>
+      <register name="0" type="4">
+        <text encoding="base64">dCAtPiBMT0cuZXJyb3IodC5nZXRNZXNzYWdlKCksIHQp</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEBTaGFyZWQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vbkZhaWx1cmUodCAtPiBMT0cuZXJyb3IodC5nZXRNZXNzYWdlKCksIHQpKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -597,16 +597,16 @@
         <text encoding="base64">ICAgIEBTaGFyZWQK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Ly9AUmVzdENsaWVudFRlc3QK</text>
+        <text encoding="base64">ICAgIEBTaGFyZWQK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIEBBdXRvd2lyZWQK</text>
+        <text encoding="base64">Ly9AUmVzdENsaWVudFRlc3QK</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgIEBBdXRvd2lyZWQK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIE1vY2tSZXN0U2VydmljZVNlcnZlciBzZXJ2ZXIK</text>
+        <text encoding="base64">ICAgIEBBdXRvd2lyZWQK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -941,13 +941,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEBBdXRvd2lyZWQK</text>
+        <text encoding="base64">ICAgIE1vY2tSZXN0U2VydmljZVNlcnZlciBzZXJ2ZXIK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">QFJ1bldpdGgoU3ByaW5nUnVubmVyKQo=</text>
+        <text encoding="base64">ICAgIEBBdXRvd2lyZWQK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">QFJ1bldpdGgoU3ByaW5nUnVubmVyKQo=</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

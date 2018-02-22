@@ -96,10 +96,11 @@
         <mark key="." line="93" column="65" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" timestamp="1519299574402" />
-      <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/ClaimsRestService.java" timestamp="1519307426286">
-        <mark key="[" line="149" column="21" />
-        <mark key="]" line="147" column="0" />
-        <mark key="." line="147" column="0" />
+      <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/ClaimsRestService.java" timestamp="1519309662722">
+        <mark key="[" line="149" column="65" />
+        <mark key="]" line="149" column="64" />
+        <mark key="." line="149" column="64" />
+        <mark key="^" line="149" column="64" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/app.js" timestamp="1519034284449" />
       <file name="$USER_HOME$/repos/dbs/app/src/integration-test/groovy/integrationtest/ApplicationTest.groovy" timestamp="1519304216315">
@@ -315,11 +316,11 @@
         <mark key="[" line="5" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssignmentService.java" timestamp="1519033992713" />
-      <file name="$USER_HOME$/repos/dbs/app/src/integration-test/groovy/integrationtest/claims/ClaimsRestServiceTest.groovy" timestamp="1519304936892">
+      <file name="$USER_HOME$/repos/dbs/app/src/integration-test/groovy/integrationtest/claims/ClaimsRestServiceTest.groovy" timestamp="1519309401485">
         <mark key="'" line="42" column="8" />
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="11" column="0" />
-        <mark key="." line="11" column="0" />
+        <mark key="[" line="49" column="58" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
         <mark key="^" line="48" column="41" />
       </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/protector.accounting/protector-domain/1.5/7e6be6e2ae8301f3285e0d7b7d2e3495e2bcfd1/protector-domain-1.5-sources.jar!/no/protectorforsikring/accounting/domain/claims/ClaimsAccount.java" timestamp="1519054389751" />
@@ -531,7 +532,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBEYXRlIHBsYWluRGFtYWdlRGF0ZSA9IAo=</text>
+        <text encoding="base64">ICAgICAgICBEYXRlLnBhcnNlKGRhdGVTdHJpbmcpOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -593,7 +594,7 @@
         <text>Date.from(damageDate.atZone(ZoneId.systemDefault()).toInstant())</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBEYXRlIHBsYWluRGFtYWdlRGF0ZSA9IAo=</text>
+        <text encoding="base64">ICAgICAgICBEYXRlLnBhcnNlKGRhdGVTdHJpbmcpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -620,19 +621,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICA9IERhdGUuZnJvbShkYW1hZ2VEYXRlLmF0Wm9uZShab25lSWQuc3lzdGVtRGVmYXVsdCgpKS50b0luc3RhbnQoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBEYXRlIHBsYWluRGFtYWdlRGF0ZSA9IAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICA9IERhdGUuZnJvbShkYW1hZ2VEYXRlLmF0Wm9uZShab25lSWQuc3lzdGVtRGVmYXVsdCgpKS50b0luc3RhbnQoKSk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBIdHRwRW50aXR5PGphdmEudXRpbC5NYXA8U3RyaW5nLCBPYmplY3Q+PiBlbnRpdHkgPSBuZXcgSHR0cEVudGl0eTw+KHBhcmFtcy50b0phdmFNYXAoKSwgKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBNYXA8U3RyaW5nLCBPYmplY3Q+IHBhcmFtcyA9IE1hcCgicmVnTnVtYmVyIiwgdmVoaWNsZVJlZ2lzdHJhdGlvbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZGFtYWdlRGF0ZSIsIERhdGUuZnJvbShkYW1hZ2VEYXRlLmF0Wm9uZShab25lSWQuc3lzdGVtRGVmYXVsdCgpKS50b0luc3RhbnQoKSkpOwogICAgICAgIE11bHRpVmFsdWVNYXA8U3RyaW5nLCBTdHJpbmc+IGhlYWRlcnMgPSBuZXcgTGlua2VkTXVsdGlWYWx1ZU1hcDw+KCk7CiAgICAgICAgaGVhZGVycy5hZGQoIkNvbnRlbnQtVHlwZSIsICJ3d3ctZm9ybSIpOwo=</text>
+        <text encoding="base64">ICAgICAgICBIdHRwRW50aXR5PGphdmEudXRpbC5NYXA8U3RyaW5nLCBPYmplY3Q+PiBlbnRpdHkgPSBuZXcgSHR0cEVudGl0eTw+KHBhcmFtcy50b0phdmFNYXAoKSwgKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBlbnRpdHkuCg==</text>
+        <text encoding="base64">ICAgICAgICBNYXA8U3RyaW5nLCBPYmplY3Q+IHBhcmFtcyA9IE1hcCgicmVnTnVtYmVyIiwgdmVoaWNsZVJlZ2lzdHJhdGlvbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZGFtYWdlRGF0ZSIsIERhdGUuZnJvbShkYW1hZ2VEYXRlLmF0Wm9uZShab25lSWQuc3lzdGVtRGVmYXVsdCgpKS50b0luc3RhbnQoKSkpOwogICAgICAgIE11bHRpVmFsdWVNYXA8U3RyaW5nLCBTdHJpbmc+IGhlYWRlcnMgPSBuZXcgTGlua2VkTXVsdGlWYWx1ZU1hcDw+KCk7CiAgICAgICAgaGVhZGVycy5hZGQoIkNvbnRlbnQtVHlwZSIsICJ3d3ctZm9ybSIpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -967,13 +968,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5kZWZhdWx0TWVzc2FnZUNvbnZlcnRlcnMoZGQpCiAgICAgICAgICAgICAgICAuYWRkaXRpb25hbE1lc3NhZ2VDb252ZXJ0ZXJzKCkK</text>
+        <text encoding="base64">ICAgICAgICBlbnRpdHkuCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5kZWZhdWx0TWVzc2FnZUNvbnZlcnRlcnMoZGQpCiAgICAgICAgICAgICAgICAuYWRkaXRpb25hbE1lc3NhZ2VDb252ZXJ0ZXJzKCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">QFByb2ZpbGUoJ2RldicpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tZQo=</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

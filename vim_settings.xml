@@ -49,6 +49,9 @@
         <mark key="^" line="34" column="9" />
         <mark key="." line="38" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/document/src/main/java/protector/claims/document/ClaimDocumentService.java" timestamp="1519983949215">
+        <mark key="'" line="286" column="32" />
+      </file>
       <file name="/RegExp Fragment (ClaimsDomainMapper.java:443).regexp" timestamp="1516368203557">
         <mark key="[" line="0" column="0" />
       </file>
@@ -176,6 +179,12 @@
         <mark key="^" line="931" column="90" />
       </file>
       <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/generated-src/java/no/webdbs/dbs/_2015_06_10/dbshentfagdata/GlassSkadeDetaljer.java" timestamp="1519653692151" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/PartyController.java" timestamp="1519982785929">
+        <mark key="[" line="117" column="5" />
+        <mark key="]" line="43" column="16" />
+        <mark key="^" line="43" column="16" />
+        <mark key="." line="43" column="16" />
+      </file>
       <file name="$USER_HOME$/repos/claims/web/src/integration-test/java/protector/claims/api/controllers/ClaimControllerTest.java" timestamp="1517393221015">
         <mark key="[" line="53" column="34" />
         <mark key="]" line="54" column="46" />
@@ -447,7 +456,7 @@
         <mark key="^" line="1" column="22" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1519982305553">
+      <file name="/Dummy.txt" timestamp="1519984002287">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="2" />
         <mark key="^" line="0" column="53" />
@@ -531,11 +540,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="8" column="0" filename="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/validate/ContractValidator.java" />
-      <jump line="39" column="0" filename="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/validate/ContractValidator.java" />
-      <jump line="45" column="4" filename="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/validate/ContractValidator.java" />
-      <jump line="22" column="0" filename="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/validate/ResponseValidatorBase.java" />
-      <jump line="24" column="0" filename="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/validate/ResponseValidatorBase.java" />
       <jump line="20" column="20" filename="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/validate/ResponseValidatorBase.java" />
       <jump line="15" column="4" filename="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/validate/ResponseValidatorBase.java" />
       <jump line="19" column="4" filename="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/validate/ClaimHeaderValidator.java" />
@@ -631,6 +635,11 @@
       <jump line="48" column="36" filename="$USER_HOME$/repos/claims/party/src/main/java/protector/claims/party/core/PartyService.java" />
       <jump line="372" column="15" filename="$USER_HOME$/repos/claims/party/src/main/java/protector/claims/party/core/PartyService.java" />
       <jump line="376" column="15" filename="$USER_HOME$/repos/claims/party/src/main/java/protector/claims/party/core/PartyService.java" />
+      <jump line="16" column="35" filename="$USER_HOME$/repos/claims/document/src/main/java/protector/claims/document/ClaimDocumentService.java" />
+      <jump line="41" column="31" filename="$USER_HOME$/repos/claims/document/src/main/java/protector/claims/document/ClaimDocumentService.java" />
+      <jump line="50" column="45" filename="$USER_HOME$/repos/claims/document/src/main/java/protector/claims/document/ClaimDocumentService.java" />
+      <jump line="56" column="28" filename="$USER_HOME$/repos/claims/document/src/main/java/protector/claims/document/ClaimDocumentService.java" />
+      <jump line="286" column="32" filename="$USER_HOME$/repos/claims/document/src/main/java/protector/claims/document/ClaimDocumentService.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -696,7 +705,7 @@
         <text>.</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwaWFTcHJpbmdSZXN0U2VydmljZVw+</text>
+        <text encoding="base64">XDxwYXJ0eVNlcnZpY2VcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICByZXR1cm4gY2xhaW1zLmdldFJvbGVzRm9ySGVhZGVyKGNsYWltSGVhZGVySWQpCg==</text>
@@ -1089,9 +1098,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxwaWFTcHJpbmdSZXN0U2VydmljZVw+</last-search>
+      <last-search encoding="base64">XDxwYXJ0eVNlcnZpY2VcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwaWFTcHJpbmdSZXN0U2VydmljZVw+</last-pattern>
+      <last-pattern encoding="base64">XDxwYXJ0eVNlcnZpY2VcPg==</last-pattern>
       <last-replace />
       <last-substitute>\.mapLeft[^;]*</last-substitute>
       <last-dir>1</last-dir>
@@ -1099,8 +1108,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxJbnZvaWNlRGF0YVw+</entry>
-        <entry encoding="base64">XDxpbnZvaWNlRGF0YVw+</entry>
         <entry encoding="base64">XDxyb2xlRm9ySGVhZGVyUmV0cmlldmVTZXJ2aWNlXD4=</entry>
         <entry encoding="base64">XDxoZWFkZXJcPg==</entry>
         <entry encoding="base64">XDxhY2NvdW50aW5nSW50ZWdyYXRpb25VcmxcPg==</entry>
@@ -1119,6 +1126,8 @@
         <entry encoding="base64">XDxjbGFpbXNTZXJ2aWNlXD4=</entry>
         <entry encoding="base64">XDxQaWFTcHJpbmdSZXN0U2VydmljZVw+</entry>
         <entry encoding="base64">XDxwaWFTcHJpbmdSZXN0U2VydmljZVw+</entry>
+        <entry encoding="base64">XDxQYXJ0eVNlcnZpY2VcPg==</entry>
+        <entry encoding="base64">XDxwYXJ0eVNlcnZpY2VcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1wkZmlsdGVyL3RoaXNcLiYv</entry>

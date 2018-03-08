@@ -467,6 +467,9 @@
       <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/map/DamageInfoBuilder.java" timestamp="1519653899101">
         <mark key="[" line="4" column="19" />
       </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/buffer1" timestamp="1520503517797">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/map/StatusInfoMapper.java" timestamp="1519979791261">
         <mark key="[" line="31" column="50" />
         <mark key="]" line="45" column="35" />
@@ -715,12 +718,12 @@
         <mark key="^" line="29" column="42" />
         <mark key="." line="31" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" timestamp="1520502540878">
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" timestamp="1520503846245">
         <mark key="[" line="240" column="26" />
         <mark key="]" line="110" column="0" />
         <mark key="." line="110" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1520502532832">
+      <file name="/fragment.java" timestamp="1520503722908">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -840,8 +843,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgT3B0aW9uPEhlYWRlckFkanVzdGVkUmVzZXJ2ZT4gcmVzZXJ2ZUFkanVzdG1lbnRPcHRpb24gPSBhZGp1c3RtZW50LmdldFJlc2VydmVBZGp1c3RtZW50KCk7CiAgICAgICAgICAgIGlmIChyZXNlcnZlQWRqdXN0bWVudE9wdGlvbi5pc0RlZmluZWQoKSkgewogICAgICAgICAgICAgICAgaGVhZGVyQWRqdXN0ZWRSZXNlcnZlU2VydmljZS51cGRhdGVIZWFkZXJBZGp1c3RlZFJlc2VydmUocmVzZXJ2ZUFkanVzdG1lbnRPcHRpb24uZ2V0KCkpOwogICAgICAgICAgICB9Cg==</text>
+      <register name="&quot;" type="4">
+        <text>adjustedReservePerYear.lift().apply(claim.getYearsSinceDamageDate()).getOrNull(</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -894,7 +897,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>E</text>
+        <text>adjustedReservePerYear.lift().apply(claim.getYearsSinceDamageDate()).getOrNull(</text>
       </register>
       <register name="/" type="4">
         <text>ioasakldaskjlda</text>

@@ -260,9 +260,9 @@
         <mark key="." line="54" column="46" />
         <mark key="^" line="54" column="46" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TransactionApprovalController.java" timestamp="1520346773585" />
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1519394511569">
-        <mark key="[" line="175" column="44" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1520499675020">
+        <mark key="'" line="20" column="0" />
+        <mark key="[" line="191" column="15" />
         <mark key="]" line="175" column="43" />
         <mark key="^" line="175" column="43" />
         <mark key="." line="175" column="43" />
@@ -458,7 +458,6 @@
         <mark key="." line="23" column="33" />
         <mark key="^" line="23" column="33" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TransactionController.java" timestamp="1520346956339" />
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimHeaderMapper.java" timestamp="1519051893732">
         <mark key="[" line="114" column="61" />
         <mark key="]" line="144" column="12" />
@@ -468,7 +467,6 @@
       <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/map/DamageInfoBuilder.java" timestamp="1519653899101">
         <mark key="[" line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/TransactionApprovalService.java" timestamp="1520346402583" />
       <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/map/StatusInfoMapper.java" timestamp="1519979791261">
         <mark key="[" line="31" column="50" />
         <mark key="]" line="45" column="35" />
@@ -502,6 +500,12 @@
       </file>
       <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/mapping/ClaimsDomainMapper.java" timestamp="1520338556694">
         <mark key="[" line="5" column="24" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/extract/ClaimToBeAdjustedJdbcDao.java" timestamp="1520499914776">
+        <mark key="[" line="50" column="42" />
+        <mark key="]" line="51" column="18" />
+        <mark key="^" line="51" column="18" />
+        <mark key="." line="51" column="18" />
       </file>
       <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/validate/AbstractResponseValidator.java" timestamp="1519387114456">
         <mark key="[" line="19" column="103" />
@@ -586,11 +590,12 @@
         <mark key="^" line="23" column="21" />
         <mark key="." line="23" column="21" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/8ae164ab-fb76-4fca-8092-a0f4c70e8b27/console.sql" timestamp="1519394638555">
-        <mark key="[" line="131" column="0" />
-        <mark key="]" line="133" column="17" />
-        <mark key="^" line="133" column="17" />
-        <mark key="." line="133" column="17" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/8ae164ab-fb76-4fca-8092-a0f4c70e8b27/console.sql" timestamp="1520499895609">
+        <mark key="'" line="164" column="0" />
+        <mark key="[" line="164" column="20" />
+        <mark key="]" line="164" column="3" />
+        <mark key="^" line="164" column="2" />
+        <mark key="." line="164" column="3" />
       </file>
       <file name="$USER_HOME$/repos/claims/eclaim/build.gradle" timestamp="1515508679554">
         <mark key="[" line="1" column="28" />
@@ -667,7 +672,6 @@
         <mark key="^" line="0" column="108" />
         <mark key="." line="0" column="108" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/FourEyesApproval.java" timestamp="1520347980848" />
       <file name="$USER_HOME$/repos/dbs/app/src/main/java/protector/dbs/logging/CustomLogSender.java" timestamp="1514996468459">
         <mark key="[" line="15" column="0" />
         <mark key="]" line="15" column="0" />
@@ -710,6 +714,7 @@
         <mark key="^" line="29" column="42" />
         <mark key="." line="31" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" timestamp="1520500552318" />
       <file name="/fragment.java" timestamp="1520342864314">
         <mark key="[" line="0" column="0" />
       </file>
@@ -720,8 +725,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="372" column="15" filename="$USER_HOME$/repos/claims/party/src/main/java/protector/claims/party/core/PartyService.java" />
-      <jump line="376" column="15" filename="$USER_HOME$/repos/claims/party/src/main/java/protector/claims/party/core/PartyService.java" />
       <jump line="16" column="35" filename="$USER_HOME$/repos/claims/document/src/main/java/protector/claims/document/ClaimDocumentService.java" />
       <jump line="41" column="31" filename="$USER_HOME$/repos/claims/document/src/main/java/protector/claims/document/ClaimDocumentService.java" />
       <jump line="50" column="45" filename="$USER_HOME$/repos/claims/document/src/main/java/protector/claims/document/ClaimDocumentService.java" />
@@ -820,6 +823,8 @@
       <jump line="166" column="8" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimRegistrationService.java" />
       <jump line="2740" column="97" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="2738" column="59" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
+      <jump line="20" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" />
+      <jump line="165" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/8ae164ab-fb76-4fca-8092-a0f4c70e8b27/console.sql" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -829,7 +834,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>&quot;auto_denmark_existing_claim&quot;</text>
+        <text>E</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -882,13 +887,13 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;auto_denmark_existing_claim&quot;</text>
+        <text>E</text>
       </register>
       <register name="/" type="4">
         <text>ioasakldaskjlda</text>
       </register>
-      <register name="0" type="4">
-        <text>&quot;auto_denmark_existing_claim&quot;</text>
+      <register name="0" type="2">
+        <text encoding="base64">V0hFUkUgQ2xhaW1fSGVhZGVyX0lkIElOICgzNDMxMDAsIDI0NTEzNywgMTQxNTYyKQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIGpzb25SZXNwb25zZTsK</text>

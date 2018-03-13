@@ -40,7 +40,7 @@
         <mark key="]" line="16" column="0" />
         <mark key="." line="16" column="0" />
       </file>
-      <file name="/a.dummy" timestamp="1520936656746">
+      <file name="/a.dummy" timestamp="1520942344101">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/glass/mapping/GlassSkadeMapper.java" timestamp="1520338456390">
@@ -240,11 +240,12 @@
       <file name="$USER_HOME$/repos/dbs/claimsclient/src/test/groovy/protector/dbs/claims/SpringClaimsClientTestConfig.java" timestamp="1519132130940">
         <mark key="[" line="5" column="18" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/transform/AdjustmentCalculationService.java" timestamp="1520937002801">
-        <mark key="'" line="108" column="16" />
-        <mark key="[" line="95" column="99" />
-        <mark key="]" line="126" column="0" />
-        <mark key="." line="126" column="0" />
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/transform/AdjustmentCalculationService.java" timestamp="1520942537351">
+        <mark key="'" line="93" column="8" />
+        <mark key="[" line="99" column="59" />
+        <mark key="]" line="99" column="23" />
+        <mark key="." line="99" column="23" />
+        <mark key="^" line="99" column="23" />
       </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/test/groovy/protector/claims/claimadjustment/transform/AdjustmentCalculationServiceSpec.groovy" timestamp="1520522589637">
         <mark key="[" line="19" column="39" />
@@ -833,7 +834,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="17" column="4" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/service/RecordType.java" />
       <jump line="20" column="4" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/service/RecordType.java" />
       <jump line="0" column="0" filename="/a.dummy" />
       <jump line="27" column="4" filename="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/service/KarosseriRequestHandler.java" />
@@ -933,6 +933,7 @@
       <jump line="5" column="23" filename="$USER_HOME$/Desktop/Claim_Header_Adjusted_Reserves_235251_294382_294385.sql" />
       <jump line="24" column="13" filename="$USER_HOME$/repos/claims/party/src/main/java/protector/claims/party/core/PartyJdbcDao.java" />
       <jump line="93" column="16" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/transform/AdjustmentCalculationService.java" />
+      <jump line="94" column="8" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/transform/AdjustmentCalculationService.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -942,7 +943,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBPcHRpb24ud2hlbigKICAgICAgICAgICAgICAgIAogICAgICAgICkKICAgICAgICAK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1001,10 +1002,10 @@
         <text encoding="base64">XDxGdW5jdGlvbjFcPg==</text>
       </register>
       <register name="0" type="4">
-        <text>Protect.Protect2.</text>
+        <text>b</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBPcHRpb24ud2hlbigKICAgICAgICAgICAgICAgIAogICAgICAgICkKICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1031,19 +1032,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgQmlnRGVjaW1hbCBnZXRGaW5hbEFkanVzdGVkUmVzZXJ2ZShDbGFpbVRvQmVBZGp1c3RlZCBjbGFpbSwgTGlzdDxCaWdEZWNpbWFsPiBpbml0aWFsUmVzZXJ2ZXNQZXJZZWFyLCApCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZ2V0RmluYWxBZGp1c3RlZFJlc2VydmUoKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW5kZXggPSBjbGFpbS5nZXRZZWFyc1NpbmNlRGFtYWdlRGF0ZSgpOwogICAgICAgICAgICBnZXRGaW5hbEFkanVzdGVkUmVzZXJ2ZSgpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgQmlnRGVjaW1hbCBsYXN0ID0gYWRqdXN0ZWRSZXNlcnZlUGVyWWVhci5sYXN0KCkuc3VidHJhY3QoY2xhaW0uZ2V0SW5jdXJyZWREYW1hZ2UoKSk7Cg==</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBpbnQgaW5kZXggPSAwOwo=</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5mb3JFYWNoKGFkanVzdGVkUmVzZXJ2ZVBlclllYXI6OmFwcGVuZCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy8gc2FtZSB5ZWFyLCBhZGp1c3QgcmVzZXJ2ZSBmb3IgaW5jdXJyZWQKICAgICAgICAgICAgQmlnRGVjaW1hbCBkb3duc2l6ZWRSZXNlcnZlID0gaW5pdGlhbFJlc2VydmVQZXJZZWFyLmdldChhZGp1c3RlZFJlc2VydmVQZXJZZWFyLmxlbmd0aCgpIC0gMSkKICAgICAgICAgICAgICAgICAgICAuc3VidHJhY3QoY2xhaW0uZ2V0SW5jdXJyZWREYW1hZ2UoKSk7CiAgICAgICAgICAgIEJpZ0RlY2ltYWwgZmluYWxBZGp1c3RlZFJlc2VydmUgPSBSZXNlcnZlQWRqdXN0bWVudENhbGN1bGF0b3IuZ2V0RmluYWxBZGp1c3RlZFJlc2VydmUoCiAgICAgICAgICAgICAgICAgICAgY2xhaW0uZ2V0UmVtYWluaW5nUmVzZXJ2ZSgpLAogICAgICAgICAgICAgICAgICAgIGRvd25zaXplZFJlc2VydmUpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1378,10 +1379,10 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBMb25nIHggPSAwTDsKICAgICAgICAK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgQmlnRGVjaW1hbCBnZXRGaW5hbEFkanVzdGVkUmVzZXJ2ZShDbGFpbVRvQmVBZGp1c3RlZCBjbGFpbSwgTGlzdDxCaWdEZWNpbWFsPiBpbml0aWFsUmVzZXJ2ZXNQZXJZZWFyLCApCg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>

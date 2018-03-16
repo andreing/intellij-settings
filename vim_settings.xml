@@ -183,12 +183,12 @@
         <mark key="^" line="30" column="10" />
       </file>
       <file name="$USER_HOME$/repos/dmzproxy/url_rewrite/proxy-url-rewrite.spec.js" timestamp="1521023292612" />
-      <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/ClaimsRestService.java" timestamp="1521208891139">
-        <mark key="'" line="235" column="4" />
-        <mark key="[" line="60" column="87" />
-        <mark key="]" line="188" column="53" />
-        <mark key="^" line="188" column="53" />
-        <mark key="." line="188" column="53" />
+      <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/ClaimsRestService.java" timestamp="1521210477253">
+        <mark key="'" line="243" column="4" />
+        <mark key="[" line="107" column="57" />
+        <mark key="]" line="107" column="68" />
+        <mark key="^" line="107" column="68" />
+        <mark key="." line="107" column="68" />
       </file>
       <file name="$USER_HOME$/repos/dbs/app/src/integration-test/groovy/integrationtest/ApplicationTest.groovy" timestamp="1519304216315">
         <mark key="[" line="11" column="16" />
@@ -413,12 +413,12 @@
         <mark key="." line="16" column="0" />
       </file>
       <file name="$USER_HOME$/repos/dmzproxy/url_rewrite/hostname-lookup.js" timestamp="1521023433029" />
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" timestamp="1521209530611">
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" timestamp="1521210455679">
         <mark key="'" line="641" column="20" />
-        <mark key="[" line="641" column="34" />
-        <mark key="]" line="641" column="14" />
-        <mark key="." line="641" column="14" />
-        <mark key="^" line="641" column="14" />
+        <mark key="[" line="642" column="66" />
+        <mark key="]" line="642" column="30" />
+        <mark key="." line="642" column="30" />
+        <mark key="^" line="642" column="30" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/integration-test/java/protector/claims/integrationtest/search/IndexSomeDocument.groovy" timestamp="1517410120354">
         <mark key="[" line="19" column="21" />
@@ -685,11 +685,11 @@
         <mark key="." line="15" column="0" />
         <mark key="^" line="15" column="7" />
       </file>
-      <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/glass/HentGlassSkadeDetaljerRequestHandler.java" timestamp="1520343153758">
-        <mark key="[" line="38" column="145" />
-        <mark key="]" line="38" column="51" />
-        <mark key="^" line="38" column="51" />
-        <mark key="." line="38" column="51" />
+      <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/glass/HentGlassSkadeDetaljerRequestHandler.java" timestamp="1521210377831">
+        <mark key="[" line="68" column="0" />
+        <mark key="]" line="68" column="0" />
+        <mark key="^" line="63" column="23" />
+        <mark key="." line="68" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/load/reserve/HeaderAdjustedReserveJdbcDao.java" timestamp="1521021642208">
         <mark key="[" line="67" column="37" />
@@ -728,7 +728,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="14" column="4" filename="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/service/RequestHandlerBase.java" />
       <jump line="13" column="4" filename="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/service/GlassRequestHandler.java" />
       <jump line="23" column="4" filename="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/service/GlassRequestHandler.java" />
       <jump line="24" column="4" filename="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/service/GlassRequestHandler.java" />
@@ -828,6 +827,7 @@
       <jump line="696" column="9" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" />
       <jump line="18" column="42" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" />
       <jump line="641" column="20" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" />
+      <jump line="61" column="16" filename="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/glass/HentGlassSkadeDetaljerRequestHandler.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -837,7 +837,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBoZWFkZXJBc3NpZ25lZVNlcnZpY2UuYXNzaWduTmV3VXNlclRvSGVhZGVyKGhlYWRlcklkLCB1c2VySWQpOwogICAgICAgIHJldHVybiBmaW5kQ2xhaW1IZWFkZXJCeUlkKGhlYWRlcklkKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -899,7 +899,7 @@
         <text encoding="base64">ICAgICAgICByZXR1cm4gRXZlbnRNYXBwZXIudG9DbGFpbVRyYW5zYWN0aW9uRXZlbnQoc2VuZEZha3R1cmFncnVubmxhZywgY2xhaW1IZWFkZXJJZCwgY2xhaW1Sb2xlSWQsIHRydWUpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBoZWFkZXJBc3NpZ25lZVNlcnZpY2UuYXNzaWduTmV3VXNlclRvSGVhZGVyKGhlYWRlcklkLCB1c2VySWQpOwogICAgICAgIHJldHVybiBmaW5kQ2xhaW1IZWFkZXJCeUlkKGhlYWRlcklkKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -926,19 +926,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBqYXZhLnV0aWwuTGlzdCBsaXN0ID0gbmV3IEFycmF5TGlzdCgpOwogICAgICAgIExpc3Qub2ZBbGwobGlzdCkuCiAgICAgICAgTGlzdC5vZigxLDIsMykubWFwKHggLT4geCArIDEpCiAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAvLyBjcmVhdGUgZXZlbnQK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CgoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAvLyBOT1RFIEkgdGhpbmsgdGhpcyBpcyBub3QgdHJ1ZS4gSWYgd2UgZG8gbm90IGhhdmUgYSBjbGFpbSwgd2UgY2Fubm90IGNyZWF0ZSB0cmFuc2FjdGlvbiBsYXRlcgogICAgICAgICAgICAgICAgICAgIGNsYWltcy5jcmVhdGVDbGFpbShDbGFpbXNPYmplY3RNYXBwZXIucmVxdWVzdDJOZXdDbGFpbShoZW50R2xhc3NTa2FkZURldGFsamVyLCBjbGFpbUVudGl0aWVzLl8yLmdldElkKCkpKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5mbGF0TWFwKGNsYWltRW50aXRpZXMgLT4gY2xhaW1zLmFzc2lnbkgpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+        <text encoding="base64">ICAgICAgICBoZWFkZXJBc3NpZ25lZVNlcnZpY2UuYXNzaWduTmV3VXNlclRvSGVhZGVyKGhlYWRlcklkLCB1c2VySWQpOwogICAgICAgIHJldHVybiBmaW5kQ2xhaW1IZWFkZXJCeUlkKGhlYWRlcklkKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBsb25nIGNsYWltSGVhZGVySWQgPSBDbGFpbXNVdGlscy5wYXJzZUNsYWltSGVhZGVySWQoc2VuZEZha3R1cmFncnVubmxhZy5nZXRDbGFpbU51bWJlcigpKTsK</text>
+        <text encoding="base64">ICAgICAgICBqYXZhLnV0aWwuTGlzdCBsaXN0ID0gbmV3IEFycmF5TGlzdCgpOwogICAgICAgIExpc3Qub2ZBbGwobGlzdCkuCiAgICAgICAgTGlzdC5vZigxLDIsMykubWFwKHggLT4geCArIDEpCiAgICAgICAgCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1273,13 +1273,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5mbGF0TWFwKGFWb2lkIC0+IGNsYWltcy51cGRhdGVSZXNlcnZlKGNsYWltSGVhZGVySWQsIEJpZ0RlY2ltYWwuWkVSTykpCg==</text>
+        <text encoding="base64">CgoK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5mbGF0TWFwKGFWb2lkIC0+IGNsYWltcy51cGRhdGVSZXNlcnZlKGNsYWltSGVhZGVySWQsIEJpZ0RlY2ltYWwuWkVSTykpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5mbGF0TWFwKGFWb2lkIC0+IGNsYWltcy5jbG9zZSkK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

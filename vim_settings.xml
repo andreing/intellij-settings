@@ -719,8 +719,8 @@
         <mark key="." line="8" column="13" />
         <mark key="^" line="8" column="13" />
       </file>
-      <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/mapping/ClaimsUtils.java" timestamp="1521641332201">
-        <mark key="[" line="78" column="75" />
+      <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/mapping/ClaimsUtils.java" timestamp="1521641617331">
+        <mark key="[" line="90" column="27" />
       </file>
       <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/service/HentGlassSkadeDetaljerRequestHandler.java" timestamp="1520338127592">
         <mark key="'" line="70" column="49" />
@@ -747,11 +747,12 @@
         <mark key="." line="15" column="0" />
         <mark key="^" line="15" column="7" />
       </file>
-      <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/glass/HentGlassSkadeDetaljerRequestHandler.java" timestamp="1521641376051">
-        <mark key="[" line="60" column="85" />
-        <mark key="]" line="69" column="0" />
-        <mark key="^" line="64" column="23" />
-        <mark key="." line="69" column="0" />
+      <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/glass/HentGlassSkadeDetaljerRequestHandler.java" timestamp="1521642891414">
+        <mark key="'" line="92" column="62" />
+        <mark key="[" line="102" column="118" />
+        <mark key="]" line="102" column="15" />
+        <mark key="." line="102" column="15" />
+        <mark key="^" line="102" column="15" />
       </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/load/reserve/HeaderAdjustedReserveJdbcDao.java" timestamp="1521021642208">
         <mark key="[" line="67" column="37" />
@@ -805,9 +806,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2" column="16" filename="$APPLICATION_CONFIG_DIR$/scratches/buffer1" />
-      <jump line="8" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/buffer1" />
-      <jump line="16" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/buffer1" />
       <jump line="27" column="8" filename="$USER_HOME$/repos/claims/reserve/src/test/groovy/protector/claims/claimadjustment/load/reserve/HeaderAdjustedReserveServiceSpec.groovy" />
       <jump line="4" column="4" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/transform/AdjustmentCalculationService.java" />
       <jump line="41" column="4" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" />
@@ -905,6 +903,9 @@
       <jump line="126" column="31" filename="$USER_HOME$/repos/claims/frontend/gulpfile.js" />
       <jump line="127" column="14" filename="$USER_HOME$/repos/claims/frontend/gulpfile.js" />
       <jump line="3" column="29" filename="$USER_HOME$/repos/claims/frontend/gulpfile.js" />
+      <jump line="83" column="0" filename="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/glass/HentGlassSkadeDetaljerRequestHandler.java" />
+      <jump line="87" column="8" filename="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/glass/HentGlassSkadeDetaljerRequestHandler.java" />
+      <jump line="92" column="62" filename="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/glass/HentGlassSkadeDetaljerRequestHandler.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -913,8 +914,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgCg==</text>
+      <register name="&quot;" type="4">
+        <text>String licenceNumber, LocalDate damageDate</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -972,11 +973,11 @@
       <register name="/" type="4">
         <text encoding="base64">XDxqc2hpbnRcPg==</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmFsbE9ubGluZVVzZXJzID0gW107CiAgICAgICAgdGhpcy5vbmxpbmVVc2VyTmFtZXMgPSBbXTsK</text>
+      <register name="0" type="4">
+        <text>String licenceNumber, LocalDate damageDate</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgCg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">Y2xhaW1zLmdldENvdmVycyhsaWNlbmNlTnVtYmVyLCBkYW1hZ2VEYXRlKQogICAgICAgICAgICAgICAgICAgICAgICAubWFwKGNvdmVycyAtPiBjb3ZlcnMuZmluZChjb3ZlciAtPiBjb3Zlci5nZXROYW1lKCkuc3RhcnRzV2l0aCgiR2xhc3MiKSkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5mbGF0TWFwKHJlcyAtPiByZXMudG9FaXRoZXIoKCkgLT4gRXJyb3JSZXNwb25zZS5vZihSZXR1cm5Db2RlLkVSUk9SLCBHTEFTU19DT1ZFUl9OT1RfRk9VTkRfTUVTU0FHRSkpKQ==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1003,19 +1004,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">KQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIENhc2UoJCgpLCApCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5IYXNoTWFwOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBjbGFpbXMuZ2V0Q292ZXJzKGxpY2VuY2VOdW1iZXIsIGRhbWFnZURhdGUpCiAgICAgICAgICAgICAgICAubWFwKGNvdmVycyAtPiBjb3ZlcnMuZmluZChjb3ZlciAtPiBjb3Zlci5nZXROYW1lKCkuc3RhcnRzV2l0aCgiR2xhc3MiKSkpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoYXBpS2V5ICE9IG51bGwpIHsK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">KQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1350,13 +1351,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5IYXNoTWFwOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzcHJpbmdCdXMub25BcHBsaWNhdGlvbkV2ZW50KCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBldmVudC4K</text>
+        <text encoding="base64">ICAgICAgICBpZiAoYXBpS2V5ICE9IG51bGwpIHsK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

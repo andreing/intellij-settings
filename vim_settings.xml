@@ -781,6 +781,13 @@
         <mark key="." line="15" column="0" />
         <mark key="^" line="15" column="7" />
       </file>
+      <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/glass/HentGlassSkadeDetaljerRequestHandler.java" timestamp="1521815431097">
+        <mark key="'" line="92" column="4" />
+        <mark key="[" line="84" column="79" />
+        <mark key="]" line="84" column="27" />
+        <mark key="^" line="84" column="27" />
+        <mark key="." line="84" column="27" />
+      </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/load/reserve/HeaderAdjustedReserveJdbcDao.java" timestamp="1521021642208">
         <mark key="[" line="67" column="37" />
         <mark key="]" line="85" column="57" />
@@ -833,7 +840,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="12" column="4" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/AutomaticTransactionApprovalService.java" />
       <jump line="17" column="4" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/AutomaticTransactionApprovalService.java" />
       <jump line="1" column="17" filename="$USER_HOME$/Desktop/Claim_Header_Adjusted_Reserves_235251_294382_294385.sql" />
       <jump line="4" column="16" filename="$USER_HOME$/Desktop/Claim_Header_Adjusted_Reserves_235251_294382_294385.sql" />
@@ -933,6 +939,7 @@
       <jump line="8" column="0" filename="$USER_HOME$/repos/dbs/app/src/main/resources/application-dev.properties" />
       <jump line="4" column="0" filename="$USER_HOME$/repos/dbs/app/src/main/resources/application-test.properties" />
       <jump line="10" column="4" filename="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/utils/raygun/RaygunConfig.java" />
+      <jump line="94" column="4" filename="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/glass/HentGlassSkadeDetaljerRequestHandler.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -942,7 +949,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Ly8gICAgICAgIFRocmVhZC5zZXREZWZhdWx0VW5jYXVnaHRFeGNlcHRpb25IYW5kbGVyKG5ldyBSYXlHdW5FeGNlcHRpb25IYW5kbGVyKCkpOy8vTk9URSB0aGlzIHdpbGwgb3ZlcnJpZGUgc3ByaW5nIGJvb3QgZXhjZXB0aW9uIGhhbmRsZXIsIGRvIG5vdCB3YW50IHRoaXMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoQ292ZXI6OmdldERlZHVjdGFibGUpOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1004,7 +1011,7 @@
         <text encoding="base64">QFByb2ZpbGUoInt0ZXN0LCBwcm9kfSIpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly8gICAgICAgIFRocmVhZC5zZXREZWZhdWx0VW5jYXVnaHRFeGNlcHRpb25IYW5kbGVyKG5ldyBSYXlHdW5FeGNlcHRpb25IYW5kbGVyKCkpOy8vTk9URSB0aGlzIHdpbGwgb3ZlcnJpZGUgc3ByaW5nIGJvb3QgZXhjZXB0aW9uIGhhbmRsZXIsIGRvIG5vdCB3YW50IHRoaXMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoQ292ZXI6OmdldERlZHVjdGFibGUpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1031,19 +1038,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBSYXlndW5Mb2dnZXIoKSB7CiAgICB9Cgo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBPV05fREFNQUdFX0NPVkVSX05PVF9GT1VORF9NRVNTQUdFID0gIkZhbnQgaWtrZSBrYXNrb2Rla25pbmcuIFZlbm5saWdzdCBrb250YWt0IHNlbHNrYXBldC4iOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBjbGllbnQgPSBuZXcgUmF5Z3VuQ2xpZW50KGFwaUtleSk7Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgUmF5Z3VuQ2xpZW50IGNsaWVudDsK</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHByaXZhdGUgRWl0aGVyPEVycm9yUmVzcG9uc2UsIEludGVnZXI+IGdldFplcm9EZWR1Y3RpYmxlKFN0cmluZyBsaWNlbmNlTnVtYmVyLCBMb2NhbERhdGUgZGFtYWdlRGF0ZSkgewogICAgICAgIHJldHVybiBjbGFpbXMuZ2V0Q292ZXJzKGxpY2VuY2VOdW1iZXIsIGRhbWFnZURhdGUpCiAgICAgICAgICAgICAgICAubWFwKGNvdmVycyAtPiBjb3ZlcnMuZmluZChjb3ZlciAtPiBjb3Zlci5nZXROYW1lKCkuc3RhcnRzV2l0aCgiS2Fza28iKSkpCiAgICAgICAgICAgICAgICAuZmxhdE1hcChyZXMgLT4gcmVzLnRvRWl0aGVyKCgpIC0+IEVycm9yUmVzcG9uc2Uub2YoUmV0dXJuQ29kZS5FUlJPUiwgT1dOX0RBTUFHRV9DT1ZFUl9OT1RfRk9VTkRfTUVTU0FHRSkpKQogICAgICAgICAgICAgICAgLm1hcChpZ25vcmUgLT4gMCk7CgogICAgfQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Ly8gICAgICAgIFRocmVhZC5zZXREZWZhdWx0VW5jYXVnaHRFeGNlcHRpb25IYW5kbGVyKG5ldyBSYXlHdW5FeGNlcHRpb25IYW5kbGVyKCkpOy8vTk9URSB0aGlzIHdpbGwgb3ZlcnJpZGUgc3ByaW5nIGJvb3QgZXhjZXB0aW9uIGhhbmRsZXIsIGRvIG5vdCB3YW50IHRoaXMK</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIEBWYWx1ZSgiJHtyYXlndW4uYXBpS2V5fSIpCg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBSYXlndW5Mb2dnZXIoKSB7CiAgICB9Cgo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1378,13 +1385,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEBWYWx1ZSgiJHtyYXlndW4uYXBpS2V5fSIpCiAgICBwcml2YXRlIFN0cmluZyBhcGlLZXk7Cgo=</text>
+        <text encoding="base64">ICAgICAgICBjbGllbnQgPSBuZXcgUmF5Z3VuQ2xpZW50KGFwaUtleSk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBhcGlLZXkgPSBhcGlLZXkgIT0gbnVsbCA/IGFwaUtleSA6ICIiOwo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgUmF5Z3VuQ2xpZW50IGNsaWVudDsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">QENvbXBvbmVudApAUHJvZmlsZSgie3Rlc3QsIHByb2R9IikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>

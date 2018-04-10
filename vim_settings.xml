@@ -316,6 +316,9 @@
         <mark key="]" line="30" column="0" />
         <mark key="." line="30" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/integration/exchange/domain/Mail.java" timestamp="1523364312236">
+        <mark key="'" line="117" column="16" />
+      </file>
       <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/service/RequestHandlerBase.java" timestamp="1520330770325">
         <mark key="'" line="23" column="4" />
         <mark key="[" line="15" column="6" />
@@ -341,7 +344,7 @@
         <mark key="^" line="13" column="32" />
         <mark key="." line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" timestamp="1523363775876" />
+      <file name="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/storage/ClaimJdbcDao.java" timestamp="1523364372762" />
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" timestamp="1523356857206">
         <mark key="'" line="152" column="8" />
         <mark key="[" line="2" column="0" />
@@ -887,8 +890,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1412" column="116" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="1356" column="24" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="1355" column="20" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="1357" column="24" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
@@ -987,6 +988,8 @@
       <jump line="148" column="12" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
       <jump line="153" column="8" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
       <jump line="812" column="36" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
+      <jump line="114" column="16" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/integration/exchange/domain/Mail.java" />
+      <jump line="117" column="16" filename="$USER_HOME$/repos/mail-modules/src/main/groovy/protector/mailservice/integration/exchange/domain/Mail.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1052,7 +1055,7 @@
         <text>t</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxmdWxsUGFydHlOYW1lRmlsdGVyXD4=</text>
+        <text encoding="base64">XDx0ZXh0Q29udGVudFw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICA8ZmllbGQgdGl0bGU9IiIgaW5saW5ldGl0bGU9IkplZyBzYW10eWtrZXIgaSBwdW5rdCAyLiBvdmVuZm9yIiBuYW1lPSJjb25zZW50X2NvbmZpcm1hdGlvbl8yIiB0eXBlPSJib29sZWFuIi8+Cg==</text>
@@ -1445,9 +1448,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxmdWxsUGFydHlOYW1lRmlsdGVyXD4=</last-search>
+      <last-search encoding="base64">XDx0ZXh0Q29udGVudFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxmdWxsUGFydHlOYW1lRmlsdGVyXD4=</last-pattern>
+      <last-pattern encoding="base64">XDx0ZXh0Q29udGVudFw+</last-pattern>
       <last-replace>&quot;,\r&quot;</last-replace>
       <last-substitute encoding="base64">LCA=</last-substitute>
       <last-dir>1</last-dir>
@@ -1455,7 +1458,6 @@
     </search>
     <history>
       <history-search>
-        <entry>internetor</entry>
         <entry encoding="base64">LCA=</entry>
         <entry>ioasakldaskjlda</entry>
         <entry encoding="base64">XDxGdW5jdGlvbjFcPg==</entry>
@@ -1475,6 +1477,7 @@
         <entry encoding="base64">XDx0YWJpbmRleFw+</entry>
         <entry encoding="base64">XDxhbGxSb2xlc1w+</entry>
         <entry encoding="base64">XDxmdWxsUGFydHlOYW1lRmlsdGVyXD4=</entry>
+        <entry encoding="base64">XDx0ZXh0Q29udGVudFw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1woWzAtOV1cKSBcKy9cMSwgL2c=</entry>

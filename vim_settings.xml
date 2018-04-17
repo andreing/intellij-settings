@@ -1171,7 +1171,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>\d\+\.\d\+</text>
+        <text>\urrquestioncount</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBYTUxHcmVnb3JpYW5DYWxlbmRhciBkdWVEYXRlID0gc2VuZEZha3R1cmFncnVubmxhZy5nZXREdWVEYXRlKCk7CiAgICAgICAgU3RyaW5nIGJhbmtBY2NvdW50TnVtYmVyID0gc2VuZEZha3R1cmFncnVubmxhZy5nZXRCYW5rQWNjb3VudE51bWJlcigpOwogICAgICAgIFN0cmluZyBjdXN0b21lclJlZmVyZW5jZU51bWJlciA9IHNlbmRGYWt0dXJhZ3J1bm5sYWcuZ2V0Q3VzdG9tZXJSZWZlcmVuY2VOdW1iZXIoKTsKICAgICAgICBMb25nIGNsYWltTnVtYmVyID0gQ2xhaW1zVXRpbHMucGFyc2VDbGFpbUhlYWRlcklkKHNlbmRGYWt0dXJhZ3J1bm5sYWcuZ2V0Q2xhaW1OdW1iZXIoKSk7CiAgICAgICAgQmlnRGVjaW1hbCBjb21wYW55QW1vdW50ID0gdG9XaG9sZUFtb3VudChzZW5kRmFrdHVyYWdydW5ubGFnLmdldENvbXBhbnlBbW91bnQoKSk7Cg==</text>
@@ -1564,9 +1564,9 @@
       </register>
     </registers>
     <search>
-      <last-search>\d\+\.\d\+</last-search>
+      <last-search>\urrquestioncount</last-search>
       <last-offset />
-      <last-pattern>\d\+\.\d\+</last-pattern>
+      <last-pattern>\urrquestioncount</last-pattern>
       <last-replace encoding="base64">JyYn</last-replace>
       <last-substitute>\d\+\.\d\+</last-substitute>
       <last-dir>1</last-dir>
@@ -1574,8 +1574,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxhc3Nlc3NtZW50SGFuZGxpbmdcPg==</entry>
-        <entry encoding="base64">XDxhbGxVc2Vyc1w+</entry>
         <entry encoding="base64">XDxwZXJtaXNzaW9uc1w+</entry>
         <entry encoding="base64">XDxhbGxvd0NyZWF0ZVw+</entry>
         <entry encoding="base64">XDxGQVVMVF9TVEFDS1RSQUNFX0VOQUJMRURcPg==</entry>
@@ -1594,6 +1592,8 @@
         <entry>\d+</entry>
         <entry>\d\+</entry>
         <entry>\d\+\.\d\+</entry>
+        <entry>rrquestioncount</entry>
+        <entry>\urrquestioncount</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLyIvJy9n</entry>

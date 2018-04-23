@@ -354,12 +354,12 @@
         <mark key="^" line="13" column="32" />
         <mark key="." line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" timestamp="1524483446402">
-        <mark key="'" line="172" column="25" />
-        <mark key="[" line="26" column="43" />
-        <mark key="]" line="172" column="25" />
-        <mark key="." line="172" column="25" />
-        <mark key="^" line="172" column="25" />
+      <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" timestamp="1524483588153">
+        <mark key="'" line="37" column="45" />
+        <mark key="[" line="1" column="15" />
+        <mark key="]" line="1" column="17" />
+        <mark key="." line="1" column="17" />
+        <mark key="^" line="36" column="77" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/resources/templates/email/claimforms/auto_denmark.tmpl" timestamp="1523970316182" />
       <file name="$USER_HOME$/repos/claims/dbs/src/main/java/protector/claims/dbs/invoicedata/InvoiceDataDao.java" timestamp="1518184235983">
@@ -951,9 +951,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="144" column="8" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
-      <jump line="3" column="0" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
-      <jump line="20" column="0" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
       <jump line="148" column="12" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
       <jump line="153" column="8" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
       <jump line="812" column="36" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
@@ -1050,7 +1047,10 @@
       <jump line="10" column="4" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
       <jump line="11" column="0" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
       <jump line="29" column="8" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
-      <jump line="172" column="25" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
+      <jump line="36" column="75" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
+      <jump line="0" column="0" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
+      <jump line="172" column="34" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
+      <jump line="37" column="45" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1059,8 +1059,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgPGFsdGVybmF0aXZlcz4KICAgICAgICAgICAgICAgIDxhbHRlcm5hdGl2ZSB0aXRsZT0iSmEsIGplZyBzYW10eWtrZXIiIHZhbHVlPSJ0cnVlIi8+CiAgICAgICAgICAgICAgICA8YWx0ZXJuYXRpdmUgdGl0bGU9Ik5laSwgamVnIHNhbXR5a2tlciBpa2tlIiB2YWx1ZT0iZmFsc2UiLz4KICAgICAgICAgICAgPC9hbHRlcm5hdGl2ZXM+CiAgICAgICAgPC9maWVsZD4K</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">Lz4=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1113,13 +1113,13 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">Lz4=</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxUQUJMRV9ST1dfVEVNUExBVEVcPg==</text>
+        <text encoding="base64">XDxjaGVja2JveFJlcXVpcmVkXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICA8ZmllbGQgdGl0bGU9IiIKICAgICAgICAgICAgICAgaW50cm89IkplZyBzYW10eWtrZXIgb2cgZXIgaW5uZm9yc3TDpXR0IG1lZCBhdCBzZWxza2FwZXQgdmlsIGt1bm5lIHRyZW5nZSBuw7hkdmVuZGlnZSBvZyByZWxldmFudGUgb3BwbHlzbmluZ2VyIGZvciDDpSBrdW5uZSBiZWhhbmRsZQogICAgc2FrZW4sIGhlcnVuZGVyIHNlbnNpdGl2ZSBwZXJzb25vcHBseXNuaW5nZXIgaSBmb3JtIGF2IGhlbHNlb3BwbHlzbmluZ2VyLiBKZWcgZ2lyIGhlcnZlZCBtaXR0IHNhbXR5a2tlIHRpbCBQcm90ZWN0b3IKICAgIEZvcnNpa3JpbmcgQVNBIHRpbCDDpSBzYW1sZSBpbm4gb2cgYmVoYW5kbGUgZGUgcGVyc29ub3BwbHlzbmluZ2VuZSBzb20gZXIgbsO4ZHZlbmRpZ2Ugb2cgcmVsZXZhbnQgZm9yIMOlIGt1bm5lIHRhCiAgICBzdGlsbGluZyB0aWwgbWluIHNhayBvZyBiZXJlZ25lIGV2ZW50dWVsbCBlcnN0YXRuaW5nLiBTYW10eWtrZSBrYW4gbsOlciBzb20gaGVsc3QgdHJla2tlcyB0aWxiYWtlIHZlZCDDpSBrb250YWt0ZQogICAgc2Vsc2thcGV0IHDDpSB0ZWxlZm9uLCBlLXBvc3QgZWxsZXIgcG9zdCwgb2cgdsOlciBiZWhhbmRsaW5nIGF2IHBlcnNvbm9wcGx5c25pbmdlbmUgdmlsIGRhIG9wcGjDuHJlLiIKICAgICAgICAgICAgICAgbmFtZT0iY29uc2VudF9jb25maXJtYXRpb25fMSIgcmVxdWlyZWQ9InRydWUiIHR5cGU9Im9iamVjdCI+CiAgICAgICAgICAgIDxhbHRlcm5hdGl2ZXM+CiAgICAgICAgICAgICAgICA8YWx0ZXJuYXRpdmUgdGl0bGU9IkphLCBqZWcgc2FtdHlra2VyIiB2YWx1ZT0idHJ1ZSIvPgogICAgICAgICAgICAgICAgPGFsdGVybmF0aXZlIHRpdGxlPSJOZWksIGplZyBzYW10eWtrZXIgaWtrZSIgdmFsdWU9ImZhbHNlIi8+CiAgICAgICAgICAgIDwvYWx0ZXJuYXRpdmVzPgogICAgICAgIDwvZmllbGQ+Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgY3VzdG9tSHRtbENsYXNzZXM9ImNoZWNrYm94UmVxdWlyZWQiCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgPGFsdGVybmF0aXZlcz4KICAgICAgICAgICAgICAgIDxhbHRlcm5hdGl2ZSB0aXRsZT0iSmEsIGplZyBzYW10eWtrZXIiIHZhbHVlPSJ0cnVlIi8+CiAgICAgICAgICAgICAgICA8YWx0ZXJuYXRpdmUgdGl0bGU9Ik5laSwgamVnIHNhbXR5a2tlciBpa2tlIiB2YWx1ZT0iZmFsc2UiLz4KICAgICAgICAgICAgPC9hbHRlcm5hdGl2ZXM+CiAgICAgICAgPC9maWVsZD4K</text>
@@ -1509,9 +1509,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxUQUJMRV9ST1dfVEVNUExBVEVcPg==</last-search>
+      <last-search encoding="base64">XDxjaGVja2JveFJlcXVpcmVkXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxUQUJMRV9ST1dfVEVNUExBVEVcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxjaGVja2JveFJlcXVpcmVkXD4=</last-pattern>
       <last-replace />
       <last-substitute>+</last-substitute>
       <last-dir>1</last-dir>
@@ -1519,7 +1519,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxqc2hpbnRcPg==</entry>
         <entry encoding="base64">XDxfYXBpS2V5XD4=</entry>
         <entry encoding="base64">XDx0YWJpbmRleFw+</entry>
         <entry encoding="base64">XDxhbGxSb2xlc1w+</entry>
@@ -1539,6 +1538,7 @@
         <entry>\\n</entry>
         <entry>+</entry>
         <entry encoding="base64">XDxUQUJMRV9ST1dfVEVNUExBVEVcPg==</entry>
+        <entry encoding="base64">XDxjaGVja2JveFJlcXVpcmVkXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>s/\.mapLeft[^;]*//</entry>

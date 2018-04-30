@@ -57,10 +57,10 @@
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimFormsController.java" timestamp="1523881745630">
         <mark key="[" line="91" column="29" />
       </file>
-      <file name="$USER_HOME$/repos/claims/document/src/main/java/protector/claims/document/ClaimDocumentService.java" timestamp="1525076720416">
-        <mark key="[" line="174" column="0" />
-        <mark key="]" line="174" column="0" />
-        <mark key="." line="174" column="0" />
+      <file name="$USER_HOME$/repos/claims/document/src/main/java/protector/claims/document/ClaimDocumentService.java" timestamp="1525083989081">
+        <mark key="[" line="91" column="70" />
+        <mark key="]" line="176" column="0" />
+        <mark key="." line="176" column="0" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1524738344087">
         <mark key="[" line="172" column="0" />
@@ -136,6 +136,9 @@
         <mark key="[" line="1" column="15" />
         <mark key="]" line="1" column="17" />
         <mark key="." line="1" column="17" />
+      </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/org/apache/http/message/BasicHeaderValueParser.java" timestamp="1525080309202">
+        <mark key="'" line="70" column="32" />
       </file>
       <file name="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/dao/ClaimFormDao.java" timestamp="1523888625088">
         <mark key="[" line="3" column="0" />
@@ -368,11 +371,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="48" column="4" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours_consent.xml" />
-      <jump line="150" column="15" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
-      <jump line="158" column="12" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
-      <jump line="140" column="27" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours.xml" />
-      <jump line="1465" column="81" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="26" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" />
       <jump line="38" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" />
       <jump line="241" column="16" filename="$APPLICATION_CONFIG_DIR$/consoles/db/9687894a-0f49-472d-9fa9-dcdbab8d1841/console.sql" />
@@ -468,6 +466,11 @@
       <jump line="66" column="29" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/automaticreminder/AutomaticReminderProcessingService.java" />
       <jump line="79" column="32" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/automaticreminder/AutomaticReminderProcessingService.java" />
       <jump line="2440" column="8" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
+      <jump line="64" column="30" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/org/apache/http/message/BasicHeaderValueParser.java" />
+      <jump line="239" column="67" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/org/apache/http/message/BasicHeaderValueParser.java" />
+      <jump line="69" column="32" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/org/apache/http/message/BasicHeaderValueParser.java" />
+      <jump line="248" column="68" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/org/apache/http/message/BasicHeaderValueParser.java" />
+      <jump line="70" column="32" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/org/apache/http/message/BasicHeaderValueParser.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -533,7 +536,7 @@
         <text>responseHeaders.getContentType().toString()</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx0ZW1wbGF0ZUNvbXBpbGVyXD4=</text>
+        <text encoding="base64">XDxWQUxVRV9ERUxJTVNcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAoU3RyaW5nKSB1cGxvYWQuZ2V0KCJvcmlnaW5hbE5hbWUiKSwK</text>
@@ -926,19 +929,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx0ZW1wbGF0ZUNvbXBpbGVyXD4=</last-search>
+      <last-search encoding="base64">XDxWQUxVRV9ERUxJTVNcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx0ZW1wbGF0ZUNvbXBpbGVyXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxWQUxVRV9ERUxJTVNcPg==</last-pattern>
       <last-replace />
       <last-substitute>+</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxhbGxSb2xlc1w+</entry>
-        <entry encoding="base64">XDxmdWxsUGFydHlOYW1lRmlsdGVyXD4=</entry>
-        <entry encoding="base64">XDx0ZXh0Q29udGVudFw+</entry>
         <entry>,</entry>
         <entry>\d+[^']</entry>
         <entry>\d+\.\d+</entry>
@@ -956,6 +956,9 @@
         <entry encoding="base64">XDxjaGVja2JveFJlcXVpcmVkXD4=</entry>
         <entry encoding="base64">XDxUZW1wbGF0ZUNvbXBpbGVyXD4=</entry>
         <entry encoding="base64">XDx0ZW1wbGF0ZUNvbXBpbGVyXD4=</entry>
+        <entry encoding="base64">XDxQQVJBTV9ERUxJTUlURVJcPg==</entry>
+        <entry encoding="base64">XDxUT0tFTl9ERUxJTVNcPg==</entry>
+        <entry encoding="base64">XDxWQUxVRV9ERUxJTVNcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>s/\.mapLeft[^;]*//</entry>

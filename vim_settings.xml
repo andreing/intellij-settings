@@ -35,11 +35,12 @@
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" timestamp="1525864527374">
-        <mark key="'" line="189" column="16" />
-        <mark key="[" line="16" column="0" />
-        <mark key="]" line="16" column="0" />
-        <mark key="." line="16" column="0" />
+      <file name="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" timestamp="1525874635123">
+        <mark key="'" line="37" column="6" />
+        <mark key="[" line="15" column="28" />
+        <mark key="]" line="15" column="26" />
+        <mark key="." line="15" column="26" />
+        <mark key="^" line="15" column="26" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_child.xml" timestamp="1525872332067">
         <mark key="'" line="3" column="22" />
@@ -83,12 +84,6 @@
         <mark key="]" line="8" column="27" />
         <mark key="^" line="8" column="27" />
         <mark key="." line="8" column="27" />
-      </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/finland/life/fi_life_group.xml" timestamp="1525872275156">
-        <mark key="[" line="1" column="17" />
-        <mark key="]" line="21" column="0" />
-        <mark key="." line="21" column="0" />
-        <mark key="^" line="1" column="15" />
       </file>
       <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/HentFagdataTestConfig.java" timestamp="1523004643019">
         <mark key="[" line="12" column="0" />
@@ -268,8 +263,8 @@
         <mark key="]" line="1" column="17" />
         <mark key="." line="1" column="17" />
       </file>
-      <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/glass/mapping/DamageInfoMapper.java" timestamp="1525870871908">
-        <mark key="[" line="18" column="36" />
+      <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/glass/mapping/DamageInfoMapper.java" timestamp="1525874798158">
+        <mark key="[" line="29" column="24" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/sweden/life/se_life_organization.xml" timestamp="1525872418792">
         <mark key="[" line="1" column="17" />
@@ -400,9 +395,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="64" column="30" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/org/apache/http/message/BasicHeaderValueParser.java" />
-      <jump line="239" column="67" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/org/apache/http/message/BasicHeaderValueParser.java" />
-      <jump line="69" column="32" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/org/apache/http/message/BasicHeaderValueParser.java" />
       <jump line="248" column="68" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/org/apache/http/message/BasicHeaderValueParser.java" />
       <jump line="70" column="32" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/org/apache/http/message/BasicHeaderValueParser.java" />
       <jump line="11" column="8" filename="$USER_HOME$/repos/claims/core/src/test/groovy/protector/claims/ClaimDocumentServiceSpec.groovy" />
@@ -500,6 +492,9 @@
       <jump line="12" column="0" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
       <jump line="189" column="16" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
       <jump line="3" column="0" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/denmark/liability/dk_liability_schema.xml" />
+      <jump line="15" column="9" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
+      <jump line="29" column="84" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
+      <jump line="37" column="6" filename="$USER_HOME$/repos/webformdefinitions/src/main/groovy/uploadforms.groovy" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -565,7 +560,7 @@
         <text>Jeg er indforstået med at selskabet vil have behov for nødvendige og relevante oplysninger for at kunne behandle sagen, herunder sensitive personoplysninger i form af sundhedsoplysninger. Jeg giver hermed mit samtykke til Protector Forsikring ASA til at behandle de personoplysninger, som fremkommer i skadeanmeldelsen for at kunne tage stilling til min sag og beregne eventuel erstatning. Samtykke kan når som helst trækkes tilbage ved at kontakte selskabet ved brug af e-mail eller post, og vores videre behandling af de aktuelle personoplysninger vil da ophøre. Jeg er også indforstået med, at hvis det er nødvendigt for Protector at indhente yderligere sundhedsoplysninger om mig, vil Protector Forsikring bede om et nyt specifikt samtykke.</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzZXJ2ZXJNYXBcPg==</text>
+        <text encoding="base64">XDxwcm9kdWN0aW9uXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIDxmaWVsZHNldCB0aXRsZT0iQW5naXYgZGluIHJvbGxlIiBuYW1lPSJzdWJtaXR0ZXJfaW5mbyI+CiAgICAgICAgPGZpZWxkIHRpdGxlPSIiIG5hbWU9InN1Ym1pdHRlcl9yb2xlIiByZXF1aXJlZD0idHJ1ZSIgdHlwZT0ic3RyaW5nIj4KICAgICAgICAgICAgPGFsdGVybmF0aXZlcz4KICAgICAgICAgICAgICAgIDxhbHRlcm5hdGl2ZSB0aXRsZT0iSmVnIGVyIGFyYmVqZHN0YWdlciBlbGxlciBza2FkZWxpZHRlIiB2YWx1ZT0iZW1wbG95ZWUiLz4KICAgICAgICAgICAgICAgIDxhbHRlcm5hdGl2ZSB0aXRsZT0iSmVnIGVyIGZvcnNpa3JpbmdzdGFnZXIgZWxsZXIgZm9yc2lrcmluZ3N0YWdlcnMga29udGFrdHBlcnNvbiIgdmFsdWU9Imluc3VyYW50Ii8+CiAgICAgICAgICAgICAgICA8YWx0ZXJuYXRpdmUgdGl0bGU9IkplZyBhbm1lbGRlciBww6UgdmVnbmUgYWYgZW4gYW5kZW4iIHZhbHVlPSJvdGhlciIvPgogICAgICAgICAgICA8L2FsdGVybmF0aXZlcz4KICAgICAgICA8L2ZpZWxkPgogICAgPC9maWVsZHNldD4K</text>
@@ -958,9 +953,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxzZXJ2ZXJNYXBcPg==</last-search>
+      <last-search encoding="base64">XDxwcm9kdWN0aW9uXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzZXJ2ZXJNYXBcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxwcm9kdWN0aW9uXD4=</last-pattern>
       <last-replace />
       <last-substitute>+</last-substitute>
       <last-dir>1</last-dir>
@@ -968,7 +963,6 @@
     </search>
     <history>
       <history-search>
-        <entry>\\?&quot;</entry>
         <entry>\\\?&quot;</entry>
         <entry>\\n</entry>
         <entry>+</entry>
@@ -988,6 +982,7 @@
         <entry encoding="base64">XDxUV09fUk9XX1RBQkxFX1RFTVBMQVRFXD4=</entry>
         <entry encoding="base64">XDxDb25maWd1cmFibGVNaW1lRmlsZVR5cGVNYXBcPg==</entry>
         <entry encoding="base64">XDxzZXJ2ZXJNYXBcPg==</entry>
+        <entry encoding="base64">XDxwcm9kdWN0aW9uXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLywgLyIsXG4v</entry>

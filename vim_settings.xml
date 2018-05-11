@@ -248,8 +248,8 @@
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/vendors/flatpickr/flatpickr.js" timestamp="1526038636088">
-        <mark key="'" line="352" column="48" />
+      <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/vendors/flatpickr/flatpickr.js" timestamp="1526043218070">
+        <mark key="'" line="1905" column="61" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/denmark/liability/dk_liability_schema.xml" timestamp="1525872297326">
         <mark key="'" line="3" column="0" />
@@ -297,10 +297,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="318" column="27" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
-      <jump line="79" column="49" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
-      <jump line="103" column="8" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
-      <jump line="2345" column="37" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="5" column="4" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimRegistrationUtils.java" />
       <jump line="40" column="5" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimRegistrationUtils.java" />
       <jump line="12" column="4" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimRegistrationUtils.java" />
@@ -397,6 +393,10 @@
       <jump line="352" column="48" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/vendors/flatpickr/flatpickr.js" />
       <jump line="135" column="8" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/finland/life/fi_life_workerscomp.xml" />
       <jump line="137" column="8" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/finland/life/fi_life_workerscomp.xml" />
+      <jump line="1631" column="13" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/vendors/flatpickr/flatpickr.js" />
+      <jump line="1901" column="72" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/vendors/flatpickr/flatpickr.js" />
+      <jump line="1904" column="61" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/vendors/flatpickr/flatpickr.js" />
+      <jump line="1905" column="61" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/vendors/flatpickr/flatpickr.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -462,7 +462,7 @@
         <text>,</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwcm9kdWN0aW9uXD4=</text>
+        <text encoding="base64">XDxmb3JtYXREYXRlXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICA8ZmllbGQgdGl0bGU9IiIgbmFtZT0iZGFtYWdlX2RhdGUiIHR5cGU9ImhpZGRlbiIvPgo=</text>
@@ -855,17 +855,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxwcm9kdWN0aW9uXD4=</last-search>
+      <last-search encoding="base64">XDxmb3JtYXREYXRlXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwcm9kdWN0aW9uXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxmb3JtYXREYXRlXD4=</last-pattern>
       <last-replace />
       <last-substitute>+</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>\\\?&quot;</entry>
         <entry>\\n</entry>
         <entry>+</entry>
         <entry encoding="base64">XDxUQUJMRV9ST1dfVEVNUExBVEVcPg==</entry>
@@ -885,6 +884,7 @@
         <entry encoding="base64">XDxDb25maWd1cmFibGVNaW1lRmlsZVR5cGVNYXBcPg==</entry>
         <entry encoding="base64">XDxzZXJ2ZXJNYXBcPg==</entry>
         <entry encoding="base64">XDxwcm9kdWN0aW9uXD4=</entry>
+        <entry encoding="base64">XDxmb3JtYXREYXRlXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLywgLyIsXG4v</entry>

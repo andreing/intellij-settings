@@ -52,12 +52,12 @@
         <mark key="]" line="54" column="0" />
         <mark key="." line="54" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/libs/userform/userform.js" timestamp="1526033529025">
-        <mark key="'" line="350" column="24" />
-        <mark key="[" line="350" column="0" />
-        <mark key="]" line="350" column="42" />
-        <mark key="^" line="324" column="32" />
-        <mark key="." line="350" column="0" />
+      <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/libs/userform/userform.js" timestamp="1526034642614">
+        <mark key="'" line="759" column="0" />
+        <mark key="[" line="16" column="46" />
+        <mark key="]" line="381" column="42" />
+        <mark key="^" line="326" column="32" />
+        <mark key="." line="381" column="42" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1525263617528">
         <mark key="[" line="219" column="0" />
@@ -246,7 +246,7 @@
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/vendors/flatpickr/flatpickr.js" timestamp="1526031222484">
+      <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/vendors/flatpickr/flatpickr.js" timestamp="1526034604969">
         <mark key="'" line="0" column="4" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/denmark/liability/dk_liability_schema.xml" timestamp="1525872297326">
@@ -288,9 +288,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="674" column="41" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
-      <jump line="679" column="39" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
-      <jump line="702" column="65" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="856" column="28" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="868" column="51" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="130" column="4" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/FormSubmissionUtils.java" />
@@ -388,6 +385,9 @@
       <jump line="408" column="4" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/vendors/flatpickr/flatpickr.js" />
       <jump line="24" column="30" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/vendors/flatpickr/flatpickr.js" />
       <jump line="2107" column="4" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/vendors/flatpickr/flatpickr.js" />
+      <jump line="716" column="49" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/libs/userform/userform.js" />
+      <jump line="21" column="30" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/libs/userform/userform.js" />
+      <jump line="757" column="0" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/libs/userform/userform.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -396,8 +396,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgImRlZmF1bHREYXRlIjogJycsCg==</text>
+      <register name="&quot;" type="4">
+        <text>,</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -450,7 +450,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>Jeg er indforstået med at selskabet vil have behov for nødvendige og relevante oplysninger for at kunne behandle sagen, herunder sensitive personoplysninger i form af sundhedsoplysninger. Jeg giver hermed mit samtykke til Protector Forsikring ASA til at behandle de personoplysninger, som fremkommer i skadeanmeldelsen for at kunne tage stilling til min sag og beregne eventuel erstatning. Samtykke kan når som helst trækkes tilbage ved at kontakte selskabet ved brug af e-mail eller post, og vores videre behandling af de aktuelle personoplysninger vil da ophøre. Jeg er også indforstået med, at hvis det er nødvendigt for Protector at indhente yderligere sundhedsoplysninger om mig, vil Protector Forsikring bede om et nyt specifikt samtykke.</text>
+        <text>,</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxwcm9kdWN0aW9uXD4=</text>
@@ -459,7 +459,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgImRlZmF1bHREYXRlIjogJycsCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBWIT0gbnVsbCA/IHBhcnR5LmdldFBob25lKCkucmVwbGFjZSgiKyIsICIwMCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5yZXBsYWNlKCIgIiwgIiIpIDogbnVsbCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U6IGZ1bmN0aW9uKHNlbGVjdGVkRGF0ZXMsIGRhdGVTdHIsIGZwKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnc2VsZWN0ZWREYXRlcycsIHNlbGVjdGVkRGF0ZXMpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ2RhdGVTdHInLCBkYXRlU3RyKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -486,19 +486,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">PDw8PDw8PCAubWVyZ2VfZmlsZV9xRVNhVkIKPGZvcm0gdmVyc2lvbj0iNCIgdGl0bGU9IktvbGxla3RpdiB1bHlra2UiIG5hbWU9ImRrX2xpZmVfa29sbGVrdGl2IiBsb2I9InBlcnNvbiIgY291bnRyeT0iZGVubWFyayIgb3JkZXI9IjEiPgo9PT09PT09Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBWIT0gbnVsbCA/IHBhcnR5LmdldFBob25lKCkucmVwbGFjZSgiKyIsICIwMCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5yZXBsYWNlKCIgIiwgIiIpIDogbnVsbCkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Pj4+Pj4+PiAubWVyZ2VfZmlsZV82SE9zSlIK</text>
+        <text encoding="base64">PDw8PDw8PCAubWVyZ2VfZmlsZV9xRVNhVkIKPGZvcm0gdmVyc2lvbj0iNCIgdGl0bGU9IktvbGxla3RpdiB1bHlra2UiIG5hbWU9ImRrX2xpZmVfa29sbGVrdGl2IiBsb2I9InBlcnNvbiIgY291bnRyeT0iZGVubWFyayIgb3JkZXI9IjEiPgo9PT09PT09Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Pj4+Pj4+PiAubWVyZ2VfZmlsZV84c1hGSEUK</text>
+        <text encoding="base64">Pj4+Pj4+PiAubWVyZ2VfZmlsZV82SE9zSlIK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">PDw8PDw8PCAubWVyZ2VfZmlsZV9uU0xYSnUKPGZvcm0gdmVyc2lvbj0iMyIgdGl0bGU9IkZyaXZpbGxpZyBhcmJlamRzc2thZGUiIG5hbWU9ImRrX2xpZmVfZnJpdmlsbGlnX2FyYmVqZHNza2FkZSIgbG9iPSJwZXJzb24iIGNvdW50cnk9ImRlbm1hcmsiIG9yZGVyPSIyIj4KPT09PT09PQo=</text>
+        <text encoding="base64">Pj4+Pj4+PiAubWVyZ2VfZmlsZV84c1hGSEUK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Pj4+Pj4+PiAubWVyZ2VfZmlsZV90ajlWd1YK</text>
+        <text encoding="base64">PDw8PDw8PCAubWVyZ2VfZmlsZV9uU0xYSnUKPGZvcm0gdmVyc2lvbj0iMyIgdGl0bGU9IkZyaXZpbGxpZyBhcmJlamRzc2thZGUiIG5hbWU9ImRrX2xpZmVfZnJpdmlsbGlnX2FyYmVqZHNza2FkZSIgbG9iPSJwZXJzb24iIGNvdW50cnk9ImRlbm1hcmsiIG9yZGVyPSIyIj4KPT09PT09PQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -833,13 +833,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">PDw8PDw8PCAubWVyZ2VfZmlsZV9odUhXa0IKPGZvcm0gdmVyc2lvbj0iNSIgdGl0bGU9IkJyaWxsZXNrYWRlIiBuYW1lPSJka19saWZlX2JyaWxsZXNrYWRlIiBsb2I9InBlcnNvbiIgY291bnRyeT0iZGVubWFyayIgb3JkZXI9IjMiPgo9PT09PT09Cg==</text>
+        <text encoding="base64">Pj4+Pj4+PiAubWVyZ2VfZmlsZV90ajlWd1YK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIDxiZWZvcmU+CiAgICAgICAgPGJlZm9yZT4KICAgICAgICA8L2JlZm9yZT4KICAgIDwvYmVmb3JlPgo=</text>
+        <text encoding="base64">PDw8PDw8PCAubWVyZ2VfZmlsZV9odUhXa0IKPGZvcm0gdmVyc2lvbj0iNSIgdGl0bGU9IkJyaWxsZXNrYWRlIiBuYW1lPSJka19saWZlX2JyaWxsZXNrYWRlIiBsb2I9InBlcnNvbiIgY291bnRyeT0iZGVubWFyayIgb3JkZXI9IjMiPgo9PT09PT09Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Pj4+Pj4+PiAubWVyZ2VfZmlsZV9JZ2t6TTAK</text>
+        <text encoding="base64">ICAgIDxiZWZvcmU+CiAgICAgICAgPGJlZm9yZT4KICAgICAgICA8L2JlZm9yZT4KICAgIDwvYmVmb3JlPgo=</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

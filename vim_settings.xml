@@ -175,8 +175,11 @@
         <mark key="]" line="17" column="0" />
         <mark key="." line="17" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/extract/ClaimToBeAdjustedJdbcDao.java" timestamp="1526384439917">
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/extract/ClaimToBeAdjustedJdbcDao.java" timestamp="1526387512178">
         <mark key="[" line="50" column="42" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/transform/AdjustmentCalculationService.java" timestamp="1526387552797">
+        <mark key="[" line="36" column="42" />
       </file>
       <file name="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/dao/ClaimFormJdbcDao.java" timestamp="1523888727759">
         <mark key="[" line="17" column="0" />
@@ -213,7 +216,7 @@
         <mark key="]" line="1" column="17" />
         <mark key="." line="1" column="17" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/scratches/rest-api_3.http" timestamp="1526384610350">
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/rest-api_3.http" timestamp="1526386393922">
         <mark key="[" line="6" column="0" />
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
@@ -330,17 +333,23 @@
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/claims/ScheduledTasksController.java" timestamp="1526384588200" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/claims/ScheduledTasksController.java" timestamp="1526386182909">
+        <mark key="'" line="138" column="60" />
+      </file>
       <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/map/EventMapper.java" timestamp="1520342686281">
         <mark key="[" line="49" column="73" />
         <mark key="]" line="17" column="0" />
         <mark key="." line="17" column="0" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/6ce59dc5-6f18-4d5e-8c11-f42780f07061/console.sql" timestamp="1526388096032">
+        <mark key="[" line="3" column="42" />
       </file>
       <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/validate/InvoiceDataValidator.java" timestamp="1519652630005">
         <mark key="[" line="11" column="40" />
         <mark key="]" line="11" column="40" />
         <mark key="." line="11" column="40" />
       </file>
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/transform/AdjustmentPredicates.java" timestamp="1526387986871" />
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/denmark/life/dk_life_frivillig_arbejdsskade.xml" timestamp="1525872311281">
         <mark key="[" line="1" column="15" />
         <mark key="]" line="1" column="16" />
@@ -357,14 +366,14 @@
         <mark key="." line="1" column="15" />
         <mark key="^" line="1" column="15" />
       </file>
-      <file name="/fragment.java" timestamp="1526385589835">
+      <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" timestamp="1526386279007" />
+      <file name="/fragment.java" timestamp="1526387993567">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="144" column="0" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimRegistrationUtils.java" />
       <jump line="20" column="4" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimRegistrationUtils.java" />
       <jump line="159" column="4" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimRegistrationUtils.java" />
       <jump line="150" column="9" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimRegistrationUtils.java" />
@@ -464,6 +473,7 @@
       <jump line="8" column="2" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/locales/da.json" />
       <jump line="8" column="2" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/locales/en.json" />
       <jump line="2339" column="8" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
+      <jump line="138" column="60" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/claims/ScheduledTasksController.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -473,7 +483,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">PD4gMjAxOC0wNS0xNVQwMjEyMzYuMjAwLmpzb24KPD4gMjAxOC0wNS0xNVQwMjEwMDEuMjAwLmpzb24KPD4gMjAxOC0wNS0xNVQwMjA5MjIuNDA0Lmh0bWwK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -535,7 +545,7 @@
         <text encoding="base64">ICAiaG9tZXBhZ2VIcmVmIjogImh0dHBzOi8vd3d3LnByb3RlY3RvcmZvcnNha3Jpbmcuc2UiLAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">PD4gMjAxOC0wNS0xNVQwMjEyMzYuMjAwLmpzb24KPD4gMjAxOC0wNS0xNVQwMjEwMDEuMjAwLmpzb24KPD4gMjAxOC0wNS0xNVQwMjA5MjIuNDA0Lmh0bWwK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -562,19 +572,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">PCAvVXNlcnMvYW5kcmUvRG93bmxvYWRzLzM1YmU0MzIyLTI2YzgtNGJlNS1hMjUyLWMxOWEwZWFmMWM0MS5qc29uCg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICBpZiAobGlzdC5sZW5ndGggPCBiYXRjaFNpemUpIHsKICAgICAgICAgICAgcmV0dXJuIFN0cmVhbS5vZihsaXN0KTsKICAgICAgICB9CiAgICAgICAgCg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBsaXN0LnN0cmVhbSgpLmxpbWl0KDVMKQo=</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">PCAvVXNlcnMvYW5kcmUvRG93bmxvYWRzLzM1YmU0MzIyLTI2YzgtNGJlNS1hMjUyLWMxOWEwZWFmMWM0MS5qc29uCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAKICAgICAgICBpZiAobGlzdC5sZW5ndGggPCBiYXRjaFNpemUpIHsKICAgICAgICAgICAgcmV0dXJuIFN0cmVhbS5vZihsaXN0KTsKICAgICAgICB9CiAgICAgICAgCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBsaXN0LnN0cmVhbSgpLmxpbWl0KDVMKQo=</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">PD4gMjAxOC0wNC0yNVQwNTAyNTkuMjAwLmpzb24K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -909,13 +919,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICA8ZmllbGQgdGl0bGU9IkhlbmtpbMO2dmFoaW5nb24ga3V2YXVzIiBuYW1lPSJwZXJzb25hbF9pbmp1cnlfZGVzY3JpcHRpb24iIHJlbGV2YW50SWY9ImZpZWxkKCdwZXJzb25hbF9pbmp1cnknKSA9PSAnMSciIHR5cGU9InRleHRhcmVhIi8+Cg==</text>
+        <text encoding="base64">PD4gMjAxOC0wNC0yNVQwNTAyNTkuMjAwLmpzb24K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIDxiZWZvcmU+CiAgICAgICAgPCFbQ0RBVEFbCiAgICAgICAgPHA+CgogICAgICAgIDwvcD4KICAgICAgICBdXT4KICAgIDwvYmVmb3JlPgoK</text>
+        <text encoding="base64">ICAgICAgICA8ZmllbGQgdGl0bGU9IkhlbmtpbMO2dmFoaW5nb24ga3V2YXVzIiBuYW1lPSJwZXJzb25hbF9pbmp1cnlfZGVzY3JpcHRpb24iIHJlbGV2YW50SWY9ImZpZWxkKCdwZXJzb25hbF9pbmp1cnknKSA9PSAnMSciIHR5cGU9InRleHRhcmVhIi8+Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICA8ZmllbGQgdGl0bGU9IiIgbmFtZT0iZGFtYWdlX2RhdGUiIHR5cGU9ImhpZGRlbiIvPgo=</text>
+        <text encoding="base64">ICAgIDxiZWZvcmU+CiAgICAgICAgPCFbQ0RBVEFbCiAgICAgICAgPHA+CgogICAgICAgIDwvcD4KICAgICAgICBdXT4KICAgIDwvYmVmb3JlPgoK</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

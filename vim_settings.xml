@@ -29,12 +29,12 @@
         <mark key="." line="15" column="26" />
         <mark key="^" line="15" column="26" />
       </file>
-      <file name="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" timestamp="1528195700736">
-        <mark key="'" line="2396" column="0" />
-        <mark key="[" line="67" column="0" />
-        <mark key="]" line="67" column="0" />
-        <mark key="." line="67" column="0" />
-        <mark key="^" line="2392" column="19" />
+      <file name="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" timestamp="1528200547925">
+        <mark key="'" line="237" column="52" />
+        <mark key="[" line="237" column="28" />
+        <mark key="]" line="237" column="24" />
+        <mark key="." line="237" column="24" />
+        <mark key="^" line="237" column="24" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" timestamp="1526284576650">
         <mark key="[" line="85" column="0" />
@@ -49,7 +49,7 @@
         <mark key="." line="8" column="52" />
         <mark key="^" line="8" column="52" />
       </file>
-      <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/libs/userform/userform.js" timestamp="1528108818526">
+      <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/libs/userform/userform.js" timestamp="1528201384889">
         <mark key="[" line="457" column="40" />
       </file>
       <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/glass/mapping/DamageInfoMapper.java" timestamp="1527764294905">
@@ -207,7 +207,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="98" column="159" filename="$USER_HOME$/repos/webformdefinitions/forms/xml/finland/auto/fi_auto_collision.xml" />
       <jump line="8" column="2" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/locales/no.json" />
       <jump line="8" column="2" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/locales/da.json" />
       <jump line="8" column="2" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/locales/en.json" />
@@ -307,6 +306,7 @@
       <jump line="100" column="8" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="2406" column="106" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
       <jump line="2397" column="0" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
+      <jump line="237" column="52" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -315,8 +315,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudGltZS5mb3JtYXQuRGF0ZVRpbWVQYXJzZUV4Y2VwdGlvbjsK</text>
+      <register name="&quot;" type="4">
+        <text>0</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -369,7 +369,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>.ofPattern(&quot;uuuu-MM-dd HH:mm:ssZ&quot;),</text>
+        <text>0</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxBQ0NFUFRFRF9EQVRFX0ZPUk1BVFNcPg==</text>

@@ -25,11 +25,11 @@
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/libs/userform/userform.js" timestamp="1528201384889">
         <mark key="[" line="457" column="40" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-module.js" timestamp="1528447777394">
-        <mark key="[" line="5" column="36" />
-        <mark key="]" line="4" column="4" />
-        <mark key="^" line="4" column="4" />
-        <mark key="." line="4" column="4" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-module.js" timestamp="1528450112562">
+        <mark key="[" line="5" column="39" />
+        <mark key="]" line="5" column="38" />
+        <mark key="^" line="5" column="38" />
+        <mark key="." line="5" column="38" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/consoles/db/8ae164ab-fb76-4fca-8092-a0f4c70e8b27/console.sql" timestamp="1526384733210">
         <mark key="[" line="186" column="0" />
@@ -47,7 +47,7 @@
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/denmark/auto/dk_auto_burglary.xml" timestamp="1527092887121">
         <mark key="[" line="18" column="48" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-modal-ctrl.js" timestamp="1528447852302">
+      <file name="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-modal-ctrl.js" timestamp="1528449913005">
         <mark key="'" line="13" column="17" />
         <mark key="[" line="0" column="1" />
       </file>
@@ -109,11 +109,11 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/admin-module.js" timestamp="1528447484312">
         <mark key="[" line="1" column="63" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-ctrl.js" timestamp="1528447916474">
-        <mark key="[" line="0" column="15" />
-        <mark key="]" line="65" column="5" />
-        <mark key="." line="65" column="5" />
-        <mark key="^" line="65" column="5" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-ctrl.js" timestamp="1528450066661">
+        <mark key="[" line="86" column="7" />
+        <mark key="]" line="87" column="0" />
+        <mark key="." line="87" column="0" />
+        <mark key="^" line="87" column="0" />
       </file>
       <file name="$USER_HOME$/repos/dbs/ws/hent-fagdata-ws/src/main/java/protector/dbs/ws/hentfagdata/glass/mapping/DamageInfoMapper.java" timestamp="1527764294905">
         <mark key="[" line="16" column="53" />
@@ -324,8 +324,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>const claimsFourEyesAdminModule = angular.module('claims.fourEyes.admin',[])
-    .controller('4eyesCtrl'</text>
+        <text>controller('4EyesModalInstanceCtrl',</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -378,7 +377,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>0</text>
+        <text>controller('4EyesModalInstanceCtrl',</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxhcHByb3ZhbExpbWl0c0N0cmxcPg==</text>

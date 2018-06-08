@@ -25,6 +25,11 @@
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/src/javascripts/libs/userform/userform.js" timestamp="1528201384889">
         <mark key="[" line="457" column="40" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/header/department-reminders-overview.html" timestamp="1528452795331">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="6" column="9" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-module.js" timestamp="1528450795726">
         <mark key="[" line="0" column="93" />
         <mark key="]" line="2" column="4" />
@@ -60,6 +65,11 @@
       <file name="$USER_HOME$/repos/claims/frontend/.gitignore" timestamp="1528451173794" />
       <file name="$USER_HOME$/repos/claims/frontend/gulpfile.js" timestamp="1528450598635">
         <mark key="'" line="137" column="14" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-tabs.html" timestamp="1528452810614">
+        <mark key="[" line="1" column="51" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_group_fatality_confirmation.xml" timestamp="1527150667815">
         <mark key="'" line="12" column="0" />
@@ -215,11 +225,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="64" column="16" filename="$USER_HOME$/repos/claims/reserve/src/test/groovy/protector/claims/claimadjustment/transform/AdjustmentCalculationServiceSpec.groovy" />
-      <jump line="30" column="8" filename="$USER_HOME$/repos/claims/reserve/src/test/groovy/protector/claims/claimadjustment/transform/ReserveAdjustmentCalculatorSpec.groovy" />
-      <jump line="54" column="54" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/extract/ClaimToBeAdjustedJdbcDao.java" />
-      <jump line="52" column="37" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/extract/ClaimToBeAdjustedJdbcDao.java" />
-      <jump line="95" column="89" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/extract/ClaimToBeAdjustedJdbcDao.java" />
       <jump line="51" column="38" filename="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/extract/ClaimToBeAdjustedJdbcDao.java" />
       <jump line="28" column="15" filename="$USER_HOME$/repos/claims/reserve/src/test/groovy/protector/claims/claimadjustment/transform/ReserveAdjustmentCandidateFilterSpec.groovy" />
       <jump line="9" column="2" filename="$APPLICATION_CONFIG_DIR$/consoles/db/6ce59dc5-6f18-4d5e-8c11-f42780f07061/console.sql" />
@@ -315,6 +320,11 @@
       <jump line="21" column="4" filename="$USER_HOME$/repos/claims/frontend/components/admin/admin-module.js" />
       <jump line="1" column="6" filename="$USER_HOME$/repos/claims/frontend/gulpfile.js" />
       <jump line="137" column="14" filename="$USER_HOME$/repos/claims/frontend/gulpfile.js" />
+      <jump line="8" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-tabs.html" />
+      <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-tabs.html" />
+      <jump line="7" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-tabs.html" />
+      <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/header/department-reminders-overview.html" />
+      <jump line="2" column="4" filename="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-tabs.html" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -323,8 +333,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>controller('4EyesModalInstanceCtrl',</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -377,17 +387,16 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>controller('4EyesModalInstanceCtrl',</text>
+        <text encoding="base64">PCFET0NUWVBFIGh0bWw+</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxndWxwSWZcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZXhwb3J0IGNvbnN0IGNsYWltc0ZvdXJFeWVzQWRtaW5Nb2R1bGUgPSBhbmd1bGFyLm1vZHVsZSgnY2xhaW1zLmZvdXJFeWVzLmFkbWluJyxbXSkK</text>
+        <text encoding="base64">PHRhYnNldD4KICAgIDx0YWIgZWRpdC10cmFuc2xhdGlvbi1pbmxpbmU9ImhlYWRpbmcgTm9yZ2UiIGNsYXNzPSJub1RvdWNoZWROZ0NsaWNrIiBhY3RpdmU9Im5vQWN0aXZlIiBuZy1jbGljaz0ic2V0QWN0aXZlVGFiKCdubycpIj4KICAgICAgICA8ZGVwYXJ0bWVudC1yZW1pbmRlcnMgY291bnRyeS1pZCA9IDEgbmctaWY9Im5vQWN0aXZlIj48L2RlcGFydG1lbnQtcmVtaW5kZXJzPgogICAgPC90YWI+CiAgICA8dGFiIGVkaXQtdHJhbnNsYXRpb24taW5saW5lPSJoZWFkaW5nIFN2ZXJpZ2UiIGNsYXNzPSJub1RvdWNoZWROZ0NsaWNrIiBhY3RpdmU9InNlQWN0aXZlIiBuZy1jbGljaz0ic2V0QWN0aXZlVGFiKCdzZScpIj4KICAgICAgICA8ZGVwYXJ0bWVudC1yZW1pbmRlcnMgY291bnRyeS1pZCA9IDIgbmctaWY9InNlQWN0aXZlIj48L2RlcGFydG1lbnQtcmVtaW5kZXJzPgogICAgPC90YWI+Cg==</text>
       </register>
-      <register name="1" type="4">
-        <text>const claimsFourEyesAdminModule = angular.module('claims.fourEyes.admin',[])
-    .controller('4eyesCtrl'</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -414,19 +423,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIDx0YWJzZXQ+Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">CiAgICAvKioKICAgICAqIFRPRE8gKFRoaXMgaXMgbm90IHdlbGwgdGhvdWdodCBvdXQpCiAgICAgKiBpZiB0aGVyZSBpcyBub3QgZW5vdWdoIGFwcHJvdmFscyB0aGUgcGVuZGluZyBhcHByb3ZhbHMgbmVlZHMgdG8gZ28gaW50byBhIGxpc3Qgc29tZXdoZXJlPwogICAgICogcHJvYmFibHkgc29tZSBzZXQgb2YgdXNlcnMgc2hvdWxkIGJlIG5vdGlmaWVkIHdoZW4gdGhpcyBoYXBwZW5zLi4uaG93IChhbmQgaG93IHRvIGF2b2lkIGNvbnN0YW50IGFwcHJvdmFsLXNwYW0pCiAgICAgKgogICAgICogc2hvdWxkIHRoZSB1c2VyIHRoYXQgaW5pdGlhdGVzIHNlbmQgdG8gYXBwcm92YWwgZ2V0IHNvbWUga2luZCBvZiBmZWVkYmFjayB3aGVuIHRoZXJlIGFyZSB0b28gZmV3IGluIHRoZSBwb29sPwogICAgICoKICAgICAqIHBvb2xzLi4uIG1heWJlIHRoaXMgY291bGQgYmV0dGVyIGJlIG1vZGVsZWQgYXMgcG9vbHMgb2YgYXBwcm92ZXJzIGFuZCBoYXZlIGEgZ3VpIG11Y2ggbGlrZSBhdXRvIGFzc2lnbm1lbnQKICAgICAqIHdpdGggc3RhdHVzZXMgYW5kIGNvbG9ycyBpbiBzb21lIHdheQogICAgICoKICAgICAqIHNwZWFraW5nIG9mLi4uIHdlIGhhdmUgdGhlIDQgZXllcyBlbGVtZW50IGluIGd1aSBhbHJlYWR5LiBNYXliZSB0aGlzIGlzIGEgbmV3IHN1YnZpZXcgdGhlcmUuIEhleSwgdGhpcyBpcyBhIG5ldyBkYXNoYm9hcmQhIChvbWcgbm9vb29vLi4uKQogICAgICoKICAgICAqIE9rLCBzbyB3aGF0IHdvdWxkIHRoZSBzb2x1dGlvbiBiZSBpZiB3ZSBkbyBub3QgYmxpbmQgb3Vyc2VsdmVzIHRvIGhvdyBDbGFpbXMgd29ya3MgYW5kIGxvb2tzIHRvZGF5PwogICAgICogUHJvY2VzcyBzdXBwb3J0IQogICAgICoKICAgICAqIEFzIGEgImNsYWltIG1hbmFnZXIiIGZvciBteSBjb3VudHJ5L2xvYiAuLi4KICAgICAqIEkgbmVlZCB0byBiZSBub3RpZmllZCBvZiB0cmFuc2FjdGlvbnMgbWlzc2luZyBvbmUgb3IgbW9yZSA0IGV5ZXMgYXBwcm92YWxzIC4uLgogICAgICogYnV0IEkgZG8gbm90IHdhbnQgdG8gYmUgYm9tYmFyZGVkIHdpdGggbm90aWZpY2F0aW9ucyBldmVyeXRpbWUgdGhpcyBoYXBwZW5zIC4uLgogICAgICogQSBzaW1wbGUgaWNvbiBvciBzb21ldGhpbmcgdmlzaWJsZSBmb3IgbXkgdXNlciByb2xlIG9uIHRoZSBuYXZiYXIgd2hlbmV2ZXIgdGhlcmUgYXJlIHVuaGFuZGxlZCB0cmFuc2FjdGlvbnMgc2hvdWxkIHN1ZmZpY2UKICAgICAqCiAgICAgKiBXaGVuIEkgaG92ZXIgb3ZlciB0aGUgaWNvbiBJIGdldCBhIGRyaWxsZG93biBvZiBtaXNzaW5nIGFwcHJvdmFsczogaG93IG1hbnkgcGVuZGluZywgaG93IG1hbnkgKGlmIGFueSkgb3ZlcmR1ZSAobWF5YmUpCiAgICAgKiAoaWYgdGhlcmUgYXJlIG92ZXJkdWUgdHJhbnNhY3Rpb25zLCBtYXliZSBtYXJrIHRoYXQgYnkgYSBtb3JlIHNldmVyZSBjb2xvdXIgKHRhbGtpbmcgYWJvdXQgcmVkIG9mIGNvdXJzZSkpCiAgICAgKgogICAgICogV2hlbiBJIGNsaWNrIHRoZSA0IGV5ZXMgYnV0dG9uIEkgZ2V0IGEgdmlldyBvZiB0aGUgdHJhbnNhY3Rpb25zIG1pc3NpbmcgYXBwcm92YWxzCiAgICAgKiBUaGUgcHJvY2VzcyBvZiBhZGRpbmcgYXBwcm92ZXIgaXMgc2ltcGx5IGNsaWNraW5nIGFuZCBjaG9vc2luZyBmcm9tIGEgbGlzdAogICAgICogYnV0IHdoYXQgaWYgdGhlIGxpc3QgaXMgZW1wdHk/IG1heWJlIHNob3cgYWxsIHRoZSB1c2VycyB0aGF0IGlzICJvbiB2YWNhdGlvbiIgYXMgd2VsbCBzbyB0aGV5IGNhbiBiZSBib3RoZXJlZCBpZiB0aGV5IGFyZSBub3Q/CiAgICAgKiBidXQgd2hhdCBpZiB0aGF0IGxpc3QgaXMgZW1wdHk/IGZ1Y2sgaXQKICAgICAqCiAgICAgKiAKICAgICAqCiAgICAgKi8=</text>
+      <register name="3" type="2">
+        <text encoding="base64">PGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8dGl0bGU+VGl0bGU8L3RpdGxlPgo8L2hlYWQ+Cjxib2R5PgoKPC9ib2R5Pgo8L2h0bWw+Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAqIEBwYXJhbSB1c2Vyc0luTG9iCiAgICAgKiBAcGFyYW0gaXNWYW5hbWV5ZGVGZWVUcmFuc2FjdGlvbgogICAgICogQHJldHVybgo=</text>
+        <text encoding="base64">PGh0bWwgbGFuZz0iZW4iPgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIEZ1bmN0aW9uPENvdW50cnlFbnVtLCBQcmVkaWNhdGU8VXNlcj4+IGdldENvdW50cnlQcmVkaWNhdGUgPSBjIC0+IHUgLT4gQ291bnRyeUVudW0udmFsdWVPZih1LmdldENvdW50cnlJZCgpKSA9PSBjOyAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmlzRG9tZXN0aWNVc2VyID0gZ2V0Q291bnRyeVByZWRpY2F0ZS5hcHBseShDb3VudHJ5RW51bS52YWx1ZU9mQ3VycmVuY3kodHJhbnNhY3Rpb24uZ2V0Q3VycmVuY3koKSkpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -760,14 +769,15 @@
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgUHJlZGljYXRlPFVzZXI+IGlzRG9tZXN0aWNVc2VyOwo=</text>
+      <register name="7" type="4">
+        <text>const claimsFourEyesAdminModule = angular.module('claims.fourEyes.admin',[])
+    .controller('4eyesCtrl'</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="9" type="4">
+        <text encoding="base64">CiAgICAvKioKICAgICAqIFRPRE8gKFRoaXMgaXMgbm90IHdlbGwgdGhvdWdodCBvdXQpCiAgICAgKiBpZiB0aGVyZSBpcyBub3QgZW5vdWdoIGFwcHJvdmFscyB0aGUgcGVuZGluZyBhcHByb3ZhbHMgbmVlZHMgdG8gZ28gaW50byBhIGxpc3Qgc29tZXdoZXJlPwogICAgICogcHJvYmFibHkgc29tZSBzZXQgb2YgdXNlcnMgc2hvdWxkIGJlIG5vdGlmaWVkIHdoZW4gdGhpcyBoYXBwZW5zLi4uaG93IChhbmQgaG93IHRvIGF2b2lkIGNvbnN0YW50IGFwcHJvdmFsLXNwYW0pCiAgICAgKgogICAgICogc2hvdWxkIHRoZSB1c2VyIHRoYXQgaW5pdGlhdGVzIHNlbmQgdG8gYXBwcm92YWwgZ2V0IHNvbWUga2luZCBvZiBmZWVkYmFjayB3aGVuIHRoZXJlIGFyZSB0b28gZmV3IGluIHRoZSBwb29sPwogICAgICoKICAgICAqIHBvb2xzLi4uIG1heWJlIHRoaXMgY291bGQgYmV0dGVyIGJlIG1vZGVsZWQgYXMgcG9vbHMgb2YgYXBwcm92ZXJzIGFuZCBoYXZlIGEgZ3VpIG11Y2ggbGlrZSBhdXRvIGFzc2lnbm1lbnQKICAgICAqIHdpdGggc3RhdHVzZXMgYW5kIGNvbG9ycyBpbiBzb21lIHdheQogICAgICoKICAgICAqIHNwZWFraW5nIG9mLi4uIHdlIGhhdmUgdGhlIDQgZXllcyBlbGVtZW50IGluIGd1aSBhbHJlYWR5LiBNYXliZSB0aGlzIGlzIGEgbmV3IHN1YnZpZXcgdGhlcmUuIEhleSwgdGhpcyBpcyBhIG5ldyBkYXNoYm9hcmQhIChvbWcgbm9vb29vLi4uKQogICAgICoKICAgICAqIE9rLCBzbyB3aGF0IHdvdWxkIHRoZSBzb2x1dGlvbiBiZSBpZiB3ZSBkbyBub3QgYmxpbmQgb3Vyc2VsdmVzIHRvIGhvdyBDbGFpbXMgd29ya3MgYW5kIGxvb2tzIHRvZGF5PwogICAgICogUHJvY2VzcyBzdXBwb3J0IQogICAgICoKICAgICAqIEFzIGEgImNsYWltIG1hbmFnZXIiIGZvciBteSBjb3VudHJ5L2xvYiAuLi4KICAgICAqIEkgbmVlZCB0byBiZSBub3RpZmllZCBvZiB0cmFuc2FjdGlvbnMgbWlzc2luZyBvbmUgb3IgbW9yZSA0IGV5ZXMgYXBwcm92YWxzIC4uLgogICAgICogYnV0IEkgZG8gbm90IHdhbnQgdG8gYmUgYm9tYmFyZGVkIHdpdGggbm90aWZpY2F0aW9ucyBldmVyeXRpbWUgdGhpcyBoYXBwZW5zIC4uLgogICAgICogQSBzaW1wbGUgaWNvbiBvciBzb21ldGhpbmcgdmlzaWJsZSBmb3IgbXkgdXNlciByb2xlIG9uIHRoZSBuYXZiYXIgd2hlbmV2ZXIgdGhlcmUgYXJlIHVuaGFuZGxlZCB0cmFuc2FjdGlvbnMgc2hvdWxkIHN1ZmZpY2UKICAgICAqCiAgICAgKiBXaGVuIEkgaG92ZXIgb3ZlciB0aGUgaWNvbiBJIGdldCBhIGRyaWxsZG93biBvZiBtaXNzaW5nIGFwcHJvdmFsczogaG93IG1hbnkgcGVuZGluZywgaG93IG1hbnkgKGlmIGFueSkgb3ZlcmR1ZSAobWF5YmUpCiAgICAgKiAoaWYgdGhlcmUgYXJlIG92ZXJkdWUgdHJhbnNhY3Rpb25zLCBtYXliZSBtYXJrIHRoYXQgYnkgYSBtb3JlIHNldmVyZSBjb2xvdXIgKHRhbGtpbmcgYWJvdXQgcmVkIG9mIGNvdXJzZSkpCiAgICAgKgogICAgICogV2hlbiBJIGNsaWNrIHRoZSA0IGV5ZXMgYnV0dG9uIEkgZ2V0IGEgdmlldyBvZiB0aGUgdHJhbnNhY3Rpb25zIG1pc3NpbmcgYXBwcm92YWxzCiAgICAgKiBUaGUgcHJvY2VzcyBvZiBhZGRpbmcgYXBwcm92ZXIgaXMgc2ltcGx5IGNsaWNraW5nIGFuZCBjaG9vc2luZyBmcm9tIGEgbGlzdAogICAgICogYnV0IHdoYXQgaWYgdGhlIGxpc3QgaXMgZW1wdHk/IG1heWJlIHNob3cgYWxsIHRoZSB1c2VycyB0aGF0IGlzICJvbiB2YWNhdGlvbiIgYXMgd2VsbCBzbyB0aGV5IGNhbiBiZSBib3RoZXJlZCBpZiB0aGV5IGFyZSBub3Q/CiAgICAgKiBidXQgd2hhdCBpZiB0aGF0IGxpc3QgaXMgZW1wdHk/IGZ1Y2sgaXQKICAgICAqCiAgICAgKiAKICAgICAqCiAgICAgKi8=</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

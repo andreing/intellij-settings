@@ -150,11 +150,12 @@
         <mark key="^" line="24" column="69" />
         <mark key="." line="24" column="69" />
       </file>
-      <file name="$USER_HOME$/repos/claims/robot-handling/src/main/java/protector/claims/robothandling/executors/RobotEventCreationStepExecutor.java" timestamp="1528729233578">
-        <mark key="[" line="43" column="17" />
-        <mark key="]" line="43" column="16" />
-        <mark key="^" line="43" column="16" />
-        <mark key="." line="43" column="16" />
+      <file name="$USER_HOME$/repos/claims/robot-handling/src/main/java/protector/claims/robothandling/executors/RobotEventCreationStepExecutor.java" timestamp="1528730983490">
+        <mark key="'" line="71" column="16" />
+        <mark key="[" line="43" column="20" />
+        <mark key="]" line="41" column="7" />
+        <mark key="." line="41" column="7" />
+        <mark key="^" line="41" column="7" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/validation/src/python/requirements.txt" timestamp="1527854086982">
         <mark key="[" line="0" column="9" />
@@ -194,10 +195,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="44" column="7" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
-      <jump line="290" column="4" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
-      <jump line="293" column="23" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
-      <jump line="213" column="18" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
       <jump line="252" column="14" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
       <jump line="260" column="14" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
       <jump line="67" column="0" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
@@ -294,6 +291,10 @@
       <jump line="49" column="42" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/repository/SubmissionRepository.java" />
       <jump line="77" column="30" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/repository/SubmissionRepository.java" />
       <jump line="193" column="0" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TransactionController.java" />
+      <jump line="50" column="0" filename="$USER_HOME$/repos/claims/robot-handling/src/main/java/protector/claims/robothandling/executors/RobotEventCreationStepExecutor.java" />
+      <jump line="71" column="8" filename="$USER_HOME$/repos/claims/robot-handling/src/main/java/protector/claims/robothandling/executors/RobotEventCreationStepExecutor.java" />
+      <jump line="78" column="0" filename="$USER_HOME$/repos/claims/robot-handling/src/main/java/protector/claims/robothandling/executors/RobotEventCreationStepExecutor.java" />
+      <jump line="73" column="16" filename="$USER_HOME$/repos/claims/robot-handling/src/main/java/protector/claims/robothandling/executors/RobotEventCreationStepExecutor.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -303,7 +304,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2UoT3B0aW9uYWwuZW1wdHkoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBEZWZhdWx0RXZlbnRPYmplY3RCdWlsZGVyIGJ1aWxkZXIgPSBmcm9tU3RlcChzdGVwLCByb2JvdENhc2UsIHVzZXIpOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -356,16 +357,16 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>currentuserorthrowdefaultillegalstateexception</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxDT1VOVFJJRVNcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIDx0YWIgbmctcmVwZWF0PSJ0YWIgaW4gdm0udGFicyIgZWRpdC10cmFuc2xhdGlvbi1pbmxpbmU9ImhlYWRpbmcgZmFmYWZhZmEiIGNsYXNzPSJub1RvdWNoZWROZ0NsaWNrIiBhY3RpdmU9InRhYi5hY3RpdmUiCiAgICAgICAgIG5nLWNsaWNrPSJvbkNsaWNrKHRhYikiPgogICAgICAgIFlFcyBUaGlTIGlTIHRhQiB7e3RhYn19CiAgICA8L3RhYj4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC53aXRoU3RhcnREYXRlKHN0YXJ0RGF0ZSkKICAgICAgICAgICAgICAgIC53aXRoUmVtaW5kZXJEYXRlKHJlbWluZGVyKQogICAgICAgICAgICAgICAgLndpdGhBc3NvY2lhdGVkQ2xhaW1Sb2xlKGFzc29jaWF0ZWRSb2xlKQogICAgICAgICAgICAgICAgLndpdGhDb21tZW50KGNvbW1lbnQpCiAgICAgICAgICAgICAgICAud2l0aE1heVNlbmRTdXJ2ZXkobWF5U2VuZFN1cnZleSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2UoT3B0aW9uYWwuZW1wdHkoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBEZWZhdWx0RXZlbnRPYmplY3RCdWlsZGVyIGJ1aWxkZXIgPSBmcm9tU3RlcChzdGVwLCByb2JvdENhc2UsIHVzZXIpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -392,19 +393,20 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIoT3B0aW9uYWw6OmlzUHJlc2VudCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC53aXRoQXNzb2NpYXRlZENsYWltUm9sZShhc3NvY2lhdGVkUm9sZSkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIoT3B0aW9uYWw6OmlzUHJlc2VudCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2UoT3B0aW9uYWwuZW1wdHkoKSk7Cg==</text>
+      <register name="4" type="4">
+        <text>step.step.getEventTypeId(), step.getReminder(), step.getStartDate(), associatedClaimRoleId,
+                    step.getComment(), step.isMaySendSurvey(), robotCase.getClaimHeaderId()</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIDx0YWIgbmctcmVwZWF0PSJ0YWIgaW4gdm0udGFicyIgZWRpdC10cmFuc2xhdGlvbi1pbmxpbmU9ImhlYWRpbmcgZmFmYWZhZmEiIGNsYXNzPSJub1RvdWNoZWROZ0NsaWNrIiBhY3RpdmU9InRhYi5hY3RpdmUiCiAgICAgICAgIG5nLWNsaWNrPSJvbkNsaWNrKHRhYikiPgogICAgICAgIFlFcyBUaGlTIGlTIHRhQiB7e3RhYn19CiAgICA8L3RhYj4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2UoT3B0aW9uYWwuZW1wdHkoKSk7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -739,13 +741,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIDwvc3Bhbj4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIoT3B0aW9uYWw6OmlzUHJlc2VudCkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIDxzcGFuIG5nLXJlcGVhdD0idGFiIGluIHZtLnRhYnMiPgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIoT3B0aW9uYWw6OmlzUHJlc2VudCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIDx0YWIgbmctcmVwZWF0PSJ0YWIgaW4gdm0udGFicyIgZWRpdC10cmFuc2xhdGlvbi1pbmxpbmU9ImhlYWRpbmcgZmFmYWZhZmEiIGNsYXNzPSJub1RvdWNoZWROZ0NsaWNrIiBhY3RpdmU9InRhYi5hY3RpdmUiCiAgICAgICAgIG5nLWNsaWNrPSJvbkNsaWNrKHRhYikiPgogICAgICAgIFlFcyBUaGlTIGlTIHRhQiB7e3RhYn19CiAgICA8L3RhYj4KCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vckVsc2UoT3B0aW9uYWwuZW1wdHkoKSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

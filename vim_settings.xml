@@ -35,12 +35,12 @@
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/views/partials/header-navigation.handlebars" timestamp="1526049650360">
         <mark key="[" line="19" column="34" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" timestamp="1528983848110">
-        <mark key="'" line="40" column="8" />
-        <mark key="[" line="369" column="13" />
-        <mark key="]" line="39" column="37" />
-        <mark key="^" line="39" column="37" />
-        <mark key="." line="39" column="37" />
+      <file name="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" timestamp="1528987624969">
+        <mark key="'" line="82" column="8" />
+        <mark key="[" line="8" column="35" />
+        <mark key="]" line="80" column="37" />
+        <mark key="^" line="80" column="37" />
+        <mark key="." line="80" column="37" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/denmark/auto/dk_auto_burglary.xml" timestamp="1527092887121">
         <mark key="[" line="18" column="48" />
@@ -245,13 +245,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="8" filename="$USER_HOME$/repos/claims/frontend/components/admin/admin-module.js" />
-      <jump line="21" column="4" filename="$USER_HOME$/repos/claims/frontend/components/admin/admin-module.js" />
-      <jump line="1" column="6" filename="$USER_HOME$/repos/claims/frontend/gulpfile.js" />
-      <jump line="137" column="14" filename="$USER_HOME$/repos/claims/frontend/gulpfile.js" />
-      <jump line="8" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-tabs.html" />
-      <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-tabs.html" />
-      <jump line="7" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-tabs.html" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/header/department-reminders-overview.html" />
       <jump line="2" column="4" filename="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-tabs.html" />
       <jump line="50" column="20" filename="$USER_HOME$/repos/claims/claims-mail-mode/src/main/java/protector/claims/mailmatching/ClaimHeaderMatcher.java" />
@@ -345,6 +338,13 @@
       <jump line="15" column="0" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
       <jump line="27" column="11" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
       <jump line="40" column="8" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
+      <jump line="88" column="12" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
+      <jump line="90" column="12" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
+      <jump line="344" column="53" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
+      <jump line="368" column="4" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
+      <jump line="43" column="8" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
+      <jump line="80" column="8" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
+      <jump line="82" column="8" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -410,7 +410,7 @@
         <text>;</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxXT1JLSU5HX0RJUlw+</text>
+        <text encoding="base64">XDxwcmludFw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICB0aGlzLmNhbmNlbCA9ICgpID0+IHsKICAgICAgICAgICAgJG1vZGFsSW5zdGFuY2UuZGlzbWlzcygnY2FuY2VsJyk7CiAgICAgICAgfTsK</text>
@@ -803,9 +803,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxXT1JLSU5HX0RJUlw+</last-search>
+      <last-search encoding="base64">XDxwcmludFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxXT1JLSU5HX0RJUlw+</last-pattern>
+      <last-pattern encoding="base64">XDxwcmludFw+</last-pattern>
       <last-replace>this</last-replace>
       <last-substitute>vm</last-substitute>
       <last-dir>1</last-dir>
@@ -813,7 +813,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">ID0gTm9uZQ==</entry>
         <entry encoding="base64">XDxldHJlZVw+</entry>
         <entry encoding="base64">XDxwYXJzZVw+</entry>
         <entry encoding="base64">XDxMb2NhbERhdGVcPg==</entry>
@@ -833,6 +832,7 @@
         <entry encoding="base64">XDxzY29wZVw+</entry>
         <entry encoding="base64">XDxnZXRjd2RcPg==</entry>
         <entry encoding="base64">XDxXT1JLSU5HX0RJUlw+</entry>
+        <entry encoding="base64">XDxwcmludFw+</entry>
       </history-search>
       <history-cmd>
         <entry>%s/+//g</entry>

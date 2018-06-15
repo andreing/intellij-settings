@@ -53,11 +53,6 @@
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TransactionController.java" timestamp="1528892497678">
         <mark key="[" line="118" column="75" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-directive.js" timestamp="1528892242497">
-        <mark key="'" line="7" column="0" />
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="15" column="75" />
-      </file>
       <file name="$USER_HOME$/repos/webformdefinitions/validation/src/python/form.py" timestamp="1529065525490">
         <mark key="'" line="61" column="8" />
         <mark key="[" line="28" column="24" />
@@ -87,6 +82,7 @@
         <mark key="." line="15" column="27" />
         <mark key="^" line="15" column="27" />
       </file>
+      <file name="$USER_HOME$/repos/claims/reporting/src/main/java/protector/claims/reporting/daysy/DaysyReportJdbcDao.java" timestamp="1529068472535" />
       <file name="/Claim_Character_Type [testdailyprotect@pfsvnosqlp08]" timestamp="1527155289773">
         <mark key="[" line="0" column="0" />
       </file>
@@ -172,8 +168,10 @@
         <mark key="^" line="49" column="19" />
         <mark key="." line="49" column="19" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/validation/src/python/form_collector.py" timestamp="1529067131253">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/repos/webformdefinitions/validation/src/python/form_collector.py" timestamp="1529067781536">
+        <mark key="]" line="15" column="20" />
+        <mark key="." line="15" column="20" />
+        <mark key="^" line="15" column="20" />
       </file>
       <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/mapping/StatusInfoMapper.java" timestamp="1527764325378">
         <mark key="[" line="40" column="0" />
@@ -181,6 +179,7 @@
         <mark key="^" line="39" column="79" />
         <mark key="." line="40" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/reporting/src/main/java/protector/claims/reporting/daysy/Field.java" timestamp="1529068573708" />
       <file name="/dummy.sql" timestamp="1527076083059">
         <mark key="[" line="0" column="0" />
       </file>
@@ -245,6 +244,7 @@
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" timestamp="1526462314449">
         <mark key="[" line="95" column="112" />
       </file>
+      <file name="$USER_HOME$/repos/claims/reporting/src/main/java/protector/claims/reporting/daysy/DaysyReportService.java" timestamp="1529068283245" />
       <file name="/fragment.java" timestamp="1528879927620">
         <mark key="[" line="0" column="0" />
       </file>
@@ -364,7 +364,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBkaXJfYmFzZSA9IG9zLnBhdGguc3BsaXQoc2VsZi5wYXRoKQo=</text>
+        <text encoding="base64">ICAgIAogICAgZGVmIF9faW5pdF9fKHNlbGYpOgogICAgICAgIHNlbGYuZm9ybXMgPSBOb25lCgo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -426,7 +426,7 @@
         <text encoding="base64">ICAgICAgICBkaXJfYmFzZSA9IG9zLnBhdGguc3BsaXQoc2VsZi5wYXRoKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwYXJlbnQgPSBmb3JtbmFtZQo=</text>
+        <text encoding="base64">ICAgIAogICAgZGVmIF9faW5pdF9fKHNlbGYpOgogICAgICAgIHNlbGYuZm9ybXMgPSBOb25lCgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -453,19 +453,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBwYXJlbnQgPSBmb3JtbmFtZQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGRlZiBfX25ld19fKGNscywgKmFyZ3MsICoqa3dhcmdzKToK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIGRlZiBfX25ld19fKGNscywgKmFyZ3MsICoqa3dhcmdzKToK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -800,13 +800,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICA8ZGl2IGNsYXNzPSJyb3ciPgogICAgICAgICAgICAmbmJzcDsKICAgICAgICA8L2Rpdj4KCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIDwvZGl2Pgo=</text>
+        <text encoding="base64">ICAgICAgICA8ZGl2IGNsYXNzPSJyb3ciPgogICAgICAgICAgICAmbmJzcDsKICAgICAgICA8L2Rpdj4KCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgICAgICAgdGhpcy5vayA9ICgpID0+IHsKICAgICAgICAgICAgJG1vZGFsSW5zdGFuY2UuY2xvc2UodGhpcy5zZWxlY3RlZEFwcHJvdmVyKTsKICAgICAgICB9OwoKICAgICAgICB0aGlzLmNhbmNlbCA9ICgpID0+IHsKICAgICAgICAgICAgJG1vZGFsSW5zdGFuY2UuZGlzbWlzcygnY2FuY2VsJyk7CiAgICAgICAgfTsK</text>
+        <text encoding="base64">ICAgIDwvZGl2Pgo=</text>
       </register>
       <register name=":" type="4">
         <text>vs validateforms.py</text>

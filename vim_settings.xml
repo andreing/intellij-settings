@@ -75,12 +75,6 @@
         <mark key="^" line="358" column="26" />
         <mark key="." line="358" column="26" />
       </file>
-      <file name="$USER_HOME$/repos/claims/claims-mail-mode/src/main/java/protector/claims/mailmatching/ClaimHeaderMatcher.java" timestamp="1528461833222">
-        <mark key="'" line="49" column="20" />
-        <mark key="[" line="29" column="0" />
-        <mark key="]" line="29" column="0" />
-        <mark key="." line="29" column="0" />
-      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4eyes-pending-directive.js" timestamp="1528977530483">
         <mark key="'" line="10" column="8" />
         <mark key="[" line="0" column="38" />
@@ -125,6 +119,13 @@
         <mark key="." line="114" column="38" />
         <mark key="^" line="114" column="38" />
       </file>
+      <file name="$USER_HOME$/repos/webformdefinitions/upload/build.gradle" timestamp="1529317686948">
+        <mark key="'" line="8" column="4" />
+        <mark key="[" line="3" column="1" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
+        <mark key="^" line="4" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours_confirmation.xml" timestamp="1527158191935">
         <mark key="[" line="34" column="0" />
       </file>
@@ -136,6 +137,11 @@
         <mark key="]" line="40" column="18" />
         <mark key="." line="40" column="18" />
         <mark key="^" line="40" column="18" />
+      </file>
+      <file name="$USER_HOME$/repos/webformdefinitions/build.gradle" timestamp="1529317674437">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="." line="6" column="0" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" timestamp="1526284576650">
         <mark key="[" line="85" column="0" />
@@ -184,7 +190,7 @@
       <file name="/dummy.sql" timestamp="1527076083059">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1529077580111">
+      <file name="/Dummy.txt" timestamp="1529317788794">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/claims-mail-mode/src/main/java/protector/claims/mailprocessing/FileServiceMailRepository.java" timestamp="1528459276243">
@@ -214,12 +220,6 @@
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/production.yml" timestamp="1528713400931">
         <mark key="[" line="41" column="20" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes.html" timestamp="1528976764404">
-        <mark key="'" line="67" column="4" />
-        <mark key="[" line="25" column="23" />
-        <mark key="]" line="29" column="0" />
-        <mark key="." line="29" column="0" />
-      </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/load/reserve/HeaderAdjustedReserveJdbcDao.java" timestamp="1526468281272">
         <mark key="[" line="81" column="40" />
         <mark key="]" line="81" column="48" />
@@ -248,7 +248,7 @@
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" timestamp="1526462314449">
         <mark key="[" line="95" column="112" />
       </file>
-      <file name="/fragment.java" timestamp="1528879927620">
+      <file name="/fragment.java" timestamp="1529317603416">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/DummyFile.xpath" timestamp="1529063165942">
@@ -258,8 +258,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="78" column="0" filename="$USER_HOME$/repos/claims/robot-handling/src/main/java/protector/claims/robothandling/executors/RobotEventCreationStepExecutor.java" />
-      <jump line="73" column="16" filename="$USER_HOME$/repos/claims/robot-handling/src/main/java/protector/claims/robothandling/executors/RobotEventCreationStepExecutor.java" />
       <jump line="74" column="0" filename="$USER_HOME$/repos/claims/robot-handling/src/main/java/protector/claims/robothandling/executors/RobotEventCreationStepExecutor.java" />
       <jump line="54" column="16" filename="$USER_HOME$/repos/claims/robot-handling/src/main/java/protector/claims/robothandling/executors/RobotEventCreationStepExecutor.java" />
       <jump line="55" column="8" filename="$USER_HOME$/repos/claims/robot-handling/src/main/java/protector/claims/robothandling/executors/RobotEventCreationStepExecutor.java" />
@@ -358,6 +356,8 @@
       <jump line="117" column="11" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
       <jump line="31" column="4" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/form_collector.py" />
       <jump line="22" column="8" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/form_collector.py" />
+      <jump line="13" column="0" filename="$USER_HOME$/repos/webformdefinitions/upload/build.gradle" />
+      <jump line="9" column="4" filename="$USER_HOME$/repos/webformdefinitions/upload/build.gradle" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -367,7 +367,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIEBzdGF0aWNtZXRob2QK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -426,10 +426,10 @@
         <text encoding="base64">XDxXSU5ET1dTXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGRlZiBpc2ZpbGUoc2VsZiwgcGF0aCk6CiAgICAgICAgcmV0dXJuIG9zLnBhdGguaXNmaWxlKHBhdGgpCg==</text>
+        <text encoding="base64">ICAgIGNvbXBpbGUgbW9kdWxlKGdyb3VwOiAnb3JnLmNvZGVoYXVzLmdyb292eScsIG5hbWU6ICdncm9vdnktYWxsJywgdmVyc2lvbjogJzIuNC41JykgewogICAgICAgIGRlcGVuZGVuY3koZ3JvdXA6ICdjb21tb25zLWNsaScsIG5hbWU6ICdjb21tb25zLWNsaScsIHZlcnNpb246ICcxLjMuMScpCiAgICB9CgogICAgY29tcGlsZSAnb3JnLmNvZGVoYXVzLmdyb292eS5tb2R1bGVzLmh0dHAtYnVpbGRlcjpodHRwLWJ1aWxkZXI6MC43LjEnCiAgICBjb21waWxlICdvcmcuYml0YnVja2V0LmJfYzpqb3NlNGo6MC40LjQnCiAgICBjb21waWxlICdwcm90ZWN0b3IuZmlsZXNlcnZpY2U6Y2xpZW50OjAuMi42Jwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEBzdGF0aWNtZXRob2QK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -456,19 +456,27 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzdXBlcihQYXRoRm9ybUNvbGxlY3Rvciwgc2VsZikuX19pbml0X18oKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">dmVyc2lvbiAnMS4wLVNOQVBTSE9UJwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIEBhYnN0cmFjdG1ldGhvZAogICAgZGVmIF9faW5pdF9fKHNlbGYpOgogICAgICAgIHNlbGYuX2ZpbGVzID0gTm9uZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIEBzdGF0aWNtZXRob2QK</text>
+        <text encoding="base64">YXBwbHkgcGx1Z2luOiAnZ3Jvb3Z5Jwo=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>dependencies {
+    compile module(group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.4.5') {
+        dependency(group: 'commons-cli', name: 'commons-cli', version: '1.3.1')
+    }
+
+    compile 'org.codehaus.groovy.modules.http-builder:http-builder:0.7.1'
+    compile 'org.bitbucket.b_c:jose4j:0.4.4'
+    compile 'protector.fileservice:client:0.2.6'
+}</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -803,10 +811,10 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGRlZiBjb2xsZWN0KHNlbGYpOgogICAgICAgIHJldHVybiBzdXBlcihHaXRGb3JtQ29sbGVjdG9yLCBzZWxmKS5jb2xsZWN0KCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">dmVyc2lvbiAnMS4wLjAnCg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>

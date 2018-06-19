@@ -113,12 +113,12 @@
         <mark key="^" line="196" column="57" />
         <mark key="." line="196" column="57" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/validation/form_collector.py" timestamp="1529416792503">
+      <file name="$USER_HOME$/repos/webformdefinitions/validation/form_collector.py" timestamp="1529420398494">
         <mark key="'" line="36" column="8" />
-        <mark key="[" line="47" column="95" />
-        <mark key="]" line="55" column="34" />
-        <mark key="." line="55" column="34" />
-        <mark key="^" line="55" column="34" />
+        <mark key="[" line="47" column="110" />
+        <mark key="]" line="47" column="87" />
+        <mark key="." line="47" column="87" />
+        <mark key="^" line="47" column="87" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/tox.ini" timestamp="1529061222709">
         <mark key="[" line="27" column="27" />
@@ -129,12 +129,12 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4eyes-module.js" timestamp="1528977517103">
         <mark key="[" line="0" column="97" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/validation/form.py" timestamp="1529418353109">
-        <mark key="'" line="71" column="0" />
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="5" column="0" />
-        <mark key="." line="5" column="0" />
-        <mark key="^" line="5" column="0" />
+      <file name="$USER_HOME$/repos/webformdefinitions/validation/form.py" timestamp="1529420465928">
+        <mark key="'" line="15" column="32" />
+        <mark key="[" line="15" column="34" />
+        <mark key="]" line="80" column="44" />
+        <mark key="." line="80" column="44" />
+        <mark key="^" line="80" column="44" />
       </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/transform/AdjustmentCalculationService.java" timestamp="1526475657246">
         <mark key="[" line="113" column="74" />
@@ -276,9 +276,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="79" column="15" filename="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-ctrl.js" />
-      <jump line="63" column="8" filename="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-ctrl.js" />
-      <jump line="16" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-ctrl.js" />
       <jump line="81" column="8" filename="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-ctrl.js" />
       <jump line="86" column="15" filename="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-ctrl.js" />
       <jump line="43" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4eyes-resource.js" />
@@ -376,6 +373,9 @@
       <jump line="5" column="0" filename="$USER_HOME$/repos/webformdefinitions/validation/form.py" />
       <jump line="71" column="0" filename="$USER_HOME$/repos/webformdefinitions/validation/form.py" />
       <jump line="72" column="0" filename="$USER_HOME$/repos/webformdefinitions/validation/form.py" />
+      <jump line="17" column="0" filename="$USER_HOME$/repos/webformdefinitions/validation/form.py" />
+      <jump line="74" column="4" filename="$USER_HOME$/repos/webformdefinitions/validation/form.py" />
+      <jump line="14" column="32" filename="$USER_HOME$/repos/webformdefinitions/validation/form.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -385,7 +385,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgIEBjbGFzc21ldGhvZAogICAgZGVmIGdlbihjbHMsIHBhdGgpOgogICAgICAgIAo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -447,7 +447,7 @@
         <text encoding="base64">ICAgIGRlZiBwYXJzZShzZWxmKToKICAgICAgICByb290ID0gZXRyZWUucGFyc2Uoc2VsZi5wYXRoKQogICAgICAgIHJvb3QuZG9jaW5mby5zeXN0ZW1fdXJsID0gc2VsZi5wYXRoCiAgICAgICAgcmV0dXJuIEZvcm0uUGFyc2VkKHNlbGYsIHJvb3QpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgIEBjbGFzc21ldGhvZAogICAgZGVmIGdlbihjbHMsIHBhdGgpOgogICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -474,19 +474,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Y2xhc3MgRm9ybU1hbmFnZXIob2JqZWN0KToKICAgIEZPUk1fVFlQRVMgPSB7Jyc6IEZvcm0sIGFmdGVybWF0aF9zdWZmaXg6IEFmdGVybWF0aH0KCiAgICBkZWYgY3JlYXRlX2Zvcm0oc2VsZiwgcGF0aCk6CiAgICAgICAgCgo=</text>
+        <text encoding="base64">ICAgICAgICBmb3IgZnQgaW4gY2xzLkZPUk1fVFlQRVM6CiAgICAgICAgICAgIGlmIGZ0LmNoZWNrX3R5cGUocGF0aCk6CiAgICAgICAgICAgICAgICByZXR1cm4gZnQocGF0aCkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CiAgICBkZWYgX19pbml0X18oc2VsZik6Cgo=</text>
+        <text encoding="base64">ICAgIGRlZiBpc19hZnRlcm1hdGgoc2VsZiwgcGF0aCk6CiAgICAgICAgcmV0dXJuIHBhdGguZW5kc3dpdGgoJ3t9LnhtbCcuZm9ybWF0KGFmdGVybWF0aF9zdWZmaXgpKQoK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLgo=</text>
+        <text encoding="base64">ICAgIGRlZiBpc19hZnRlcm1hdGgoc2VsZik6CiAgICAgICAgcmV0dXJuIFRydWUKCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmZvcm1fY2xhc3MgPSBzZWxmLl9jaG9vc2VfZm9ybV9jbGFzcygpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGRlZiBpc19hZnRlcm1hdGgoc2VsZik6CiAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgZGVmIGhhc19hZnRlcm1hdGgoc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYuY2hpbGQgaXMgbm90IE5vbmUK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -821,13 +821,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGRlZiBfY2hvb3NlX2Zvcm1fY2xhc3Moc2VsZik6CiAgICAgICAgcmV0dXJuCg==</text>
+        <text encoding="base64">ICAgIAogICAgQGNsYXNzbWV0aG9kCiAgICBkZWYgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGRlZiBwYXJzZShzZWxmKToKICAgICAgICByb290ID0gZXRyZWUucGFyc2Uoc2VsZi5wYXRoKQogICAgICAgIHJvb3QuZG9jaW5mby5zeXN0ZW1fdXJsID0gc2VsZi5wYXRoCiAgICAgICAgcmV0dXJuIEZvcm0uUGFyc2VkKHNlbGYsIHJvb3QpCgo=</text>
+        <text encoding="base64">ICAgIGRlZiBpc19hZnRlcm1hdGgoc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYucGF0aC5lbmRzd2l0aCgne30ueG1sJy5mb3JtYXQoYWZ0ZXJtYXRoX3N1ZmZpeCkpCgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnBhdGggPSBwYXRoCg==</text>
+        <text encoding="base64">ICAgIEBhYnN0cmFjdG1ldGhvZAo=</text>
       </register>
       <register name=":" type="4">
         <text>vs validateforms.py</text>

@@ -65,6 +65,9 @@
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/denmark/auto/dk_auto_burglary.xml" timestamp="1527092887121">
         <mark key="[" line="18" column="48" />
       </file>
+      <file name="$USER_HOME$/repos/webformdefinitions/validation/steps.py" timestamp="1529576907930">
+        <mark key="[" line="28" column="29" />
+      </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TransactionController.java" timestamp="1528892497678">
         <mark key="[" line="118" column="75" />
       </file>
@@ -96,6 +99,13 @@
         <mark key="]" line="15" column="27" />
         <mark key="." line="15" column="27" />
         <mark key="^" line="15" column="27" />
+      </file>
+      <file name="$USER_HOME$/repos/webformdefinitions/validation/runner.py" timestamp="1529576499604">
+        <mark key="'" line="25" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="^" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="/Claim_Character_Type [testdailyprotect@pfsvnosqlp08]" timestamp="1527155289773">
         <mark key="[" line="0" column="0" />
@@ -255,15 +265,17 @@
       <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9687894a-0f49-472d-9fa9-dcdbab8d1841/console.sql" timestamp="1529396865113">
         <mark key="[" line="291" column="0" />
       </file>
-      <file name="/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/suite.py" timestamp="1529511437411">
+      <file name="/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/suite.py" timestamp="1529576280880">
         <mark key="'" line="61" column="8" />
       </file>
-      <file name="$USER_HOME$/repos/webformdefinitions/validation/validator.py" timestamp="1529512654896">
-        <mark key="'" line="60" column="8" />
-        <mark key="[" line="170" column="23" />
-        <mark key="]" line="185" column="7" />
-        <mark key="." line="185" column="7" />
-        <mark key="^" line="185" column="7" />
+      <file name="$USER_HOME$/repos/webformdefinitions/validation/result.py" timestamp="1529576376644">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/webformdefinitions/validation/validator.py" timestamp="1529576618737">
+        <mark key="'" line="59" column="8" />
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/load/reserve/HeaderAdjustedReserveJdbcDao.java" timestamp="1526468281272">
         <mark key="[" line="81" column="40" />
@@ -294,7 +306,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="63" column="4" filename="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes.html" />
       <jump line="39" column="12" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
       <jump line="37" column="10" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
       <jump line="38" column="8" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
@@ -394,6 +405,7 @@
       <jump line="280" column="23" filename="/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/suite.py" />
       <jump line="284" column="20" filename="/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/suite.py" />
       <jump line="61" column="8" filename="/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/suite.py" />
+      <jump line="22" column="0" filename="$USER_HOME$/repos/webformdefinitions/validation/runner.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -403,7 +415,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSByZXN1bHQgaW1wb3J0IFRleHRSZXN1bHQK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -465,7 +477,7 @@
         <text encoding="base64">ICAgICAgICBjb2xsZWN0b3IgPSBQYXRoRm9ybUNvbGxlY3RvcihhcmdzLmZpbGVzKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSByZXN1bHQgaW1wb3J0IFRleHRSZXN1bHQK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -492,19 +504,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRlZiBhZGRWYWxpZGF0aW9uc1N0ZXBzKHNlbGYsIHZhbGlkYXRpb25zKToKICAgICAgICBwYXNzCg==</text>
+        <text encoding="base64">aW1wb3J0IHVuaXR0ZXN0Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFkZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ICAgIGRlZiBfX2l0ZXJfXyhzZWxmKToKICAgICAgICByZXR1cm4gaXRlcigp</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -839,13 +851,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBmb3JtcyA9IHNlbGYuZm9ybV9jb2xsZWN0b3IuY29sbGVjdCgpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBzZWxmLmRlc2NyaXB0aW9uczoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>vs validateforms.py</text>

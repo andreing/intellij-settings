@@ -180,8 +180,15 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4eyes-module.js" timestamp="1528977517103">
         <mark key="[" line="0" column="97" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" timestamp="1529930196270">
-        <mark key="'" line="95" column="22" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" timestamp="1529931205815">
+        <mark key="'" line="115" column="28" />
+        <mark key="[" line="103" column="68" />
+        <mark key="]" line="103" column="48" />
+        <mark key="." line="103" column="48" />
+        <mark key="^" line="103" column="48" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/kpi-modal-ctrl.js" timestamp="1529930839164">
+        <mark key="'" line="31" column="25" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/validation/form.py" timestamp="1529495503026">
         <mark key="'" line="93" column="14" />
@@ -341,11 +348,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="88" column="12" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
-      <jump line="90" column="12" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
-      <jump line="344" column="53" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
-      <jump line="368" column="4" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
-      <jump line="43" column="8" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
       <jump line="80" column="8" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
       <jump line="82" column="8" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
       <jump line="33" column="0" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/formvalidator.py" />
@@ -441,6 +443,11 @@
       <jump line="211" column="15" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" />
       <jump line="443" column="49" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/summary-ctrl.js" />
       <jump line="95" column="22" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" />
+      <jump line="117" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" />
+      <jump line="112" column="28" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" />
+      <jump line="99" column="39" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/kpi-modal-ctrl.js" />
+      <jump line="21" column="93" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/kpi-modal-ctrl.js" />
+      <jump line="31" column="25" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/kpi-modal-ctrl.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -449,8 +456,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICA8L3NtYWxsPgo=</text>
+      <register name="&quot;" type="4">
+        <text>b</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -503,16 +510,16 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ZXh0KChrIGZvciBrLCB2IGluIHZhcnMoYXJncykuaXRlcml0ZW1zKCkgaWYgayBpbiBbJ2FsbCcsICdzdGFnZWQnXSBhbmQgdiksICdmaWxlcycgaWYgbGVuKGFyZ3MuZmlsZXMpID4gMCBlbHNlICdtb2RpZmllZCcp</text>
+        <text>b</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjbGFpbUhlYWRlclRvUmVzb3VyY2VcPg==</text>
+        <text encoding="base64">XDxzdGF0dXNVcmxcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">c2VsZWN0ICogZnJvbSBDbGFpbXNfSW52b2ljZV9EYXRhX0F1dG8gd2hlcmUgQ2xhaW1fSGVhZGVyX0lkID0gNDYzOTUwCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcmVzb2x2ZTogewogICAgICAgICAgICAgICAgICAgICAgICAgICAga3BpOiAoKSA9PiBrcGksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb2JJZDogKCkgPT4gdGhpcy5oZWFkZXIuY2xhaW1Mb2JJZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlYWRlcklkOiAoKSA9PiB0aGlzLmhlYWRlci5pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvdW50cnlJZDogKCkgPT4gdGhpcy5oZWFkZXIuY291bnRyeSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBvc3RVcmw6ICgpID0+IGAke3RoaXMucm9vdFNjb3BlLmFwaUJhc2VVcmx9a3BpLyR7dGhpcy5oZWFkZXIuY291bnRyeX0vJHt0aGlzLmhlYWRlci5jbGFpbUxvYklkfWAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXNVcmw6ICgpID0+IGAke3RoaXMucm9vdFNjb3BlLmFwaUJhc2VVcmx9a3BpLyR7dGhpcy5oZWFkZXIuaWR9L2NvbXBsZXRlLXN0YXR1cz9sb2JJZD0ke3RoaXMuaGVhZGVyLmNsYWltTG9iSWR9YCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJvb3RTY29wZTogKCkgPT4gdGhpcy5yb290U2NvcGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWFkZXI6ICgpID0+IHRoaXMuaGVhZGVyCiAgICAgICAgICAgICAgICAgICAgICAgIH0K</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICA8L3NtYWxsPgo=</text>
+      <register name="1" type="4">
+        <text encoding="base64">ewogICAgICAgICAgICAgICAgICAgICAgICB0ZW1wbGF0ZVVybDogJ2NvbXBvbmVudHMvY2xhaW0vc3VtbWFyeS9jbG9zaW5nL21vZGFsS3BpLmh0bWwnLAogICAgICAgICAgICAgICAgICAgICAgICBjb250cm9sbGVyOiAnTW9kYWxLcGlDdHJsJywKICAgICAgICAgICAgICAgICAgICAgICAgY29udHJvbGxlckFzOiAndm0nLAogICAgICAgICAgICAgICAgICAgICAgICByZXNvbHZlOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBrcGk6ICgpID0+IGtwaSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvYklkOiAoKSA9PiB0aGlzLmhlYWRlci5jbGFpbUxvYklkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVhZGVySWQ6ICgpID0+IHRoaXMuaGVhZGVyLmlkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY291bnRyeUlkOiAoKSA9PiB0aGlzLmhlYWRlci5jb3VudHJ5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zdFVybDogKCkgPT4gYCR7dGhpcy5yb290U2NvcGUuYXBpQmFzZVVybH1rcGkvJHt0aGlzLmhlYWRlci5jb3VudHJ5fS8ke3RoaXMuaGVhZGVyLmNsYWltTG9iSWR9YCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXR1c1VybDogKCkgPT4gYCR7dGhpcy5yb290U2NvcGUuYXBpQmFzZVVybH1rcGkvJHt0aGlzLmhlYWRlci5pZH0vY29tcGxldGUtc3RhdHVzP2xvYklkPSR7dGhpcy5oZWFkZXIuY2xhaW1Mb2JJZH1gLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcm9vdFNjb3BlOiAoKSA9PiB0aGlzLnJvb3RTY29wZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlYWRlcjogKCkgPT4gdGhpcy5oZWFkZXIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -539,19 +546,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29udGV4dC53aGljaFByaXZhY3lQb2xpY3kgPSBmdW5jdGlvbigpIHsKICAgICAgICAgICAgICAgIHJldHVybiAncHJpdmFjeS1wb2xpY3ktdWsnOwogICAgICAgICAgICB9Owo=</text>
+        <text encoding="base64">ICAgICAgICA8L3NtYWxsPgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIER1ZSB0byB0aGUgaW1wZW5kaW5nIEdEUFIgcmVndWxhdGlvbnMsIGVtYWlsIHNpZ25hdHVyZXMgbmVlZCB0byBpbmNsdWRlIHRoZSBmb2xsb3dpbmcgdGV4dDoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIChsaW5rIHRvIHByaXZhY3kgcG9saWN5IHBsZWFzZSkuCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29udGV4dC53aGljaFByaXZhY3lQb2xpY3kgPSBmdW5jdGlvbigpIHsKICAgICAgICAgICAgICAgIHJldHVybiAncHJpdmFjeS1wb2xpY3ktdWsnOwogICAgICAgICAgICB9Owo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmZvcm0gPSBmb3JtCg==</text>
+        <text encoding="base64">ICAgIER1ZSB0byB0aGUgaW1wZW5kaW5nIEdEUFIgcmVndWxhdGlvbnMsIGVtYWlsIHNpZ25hdHVyZXMgbmVlZCB0byBpbmNsdWRlIHRoZSBmb2xsb3dpbmcgdGV4dDoK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -886,30 +893,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ZnJvbSByZXN1bHQgaW1wb3J0IFRleHRSZXN1bHQK</text>
+        <text encoding="base64">ICAgIChsaW5rIHRvIHByaXZhY3kgcG9saWN5IHBsZWFzZSkuCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IHVuaXR0ZXN0Cg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmZvcm0gPSBmb3JtCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSByZXN1bHQgaW1wb3J0IFRleHRSZXN1bHQK</text>
       </register>
       <register name=":" type="4">
         <text>vs validateforms.py</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjbGFpbUhlYWRlclRvUmVzb3VyY2VcPg==</last-search>
+      <last-search encoding="base64">XDxzdGF0dXNVcmxcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjbGFpbUhlYWRlclRvUmVzb3VyY2VcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxzdGF0dXNVcmxcPg==</last-pattern>
       <last-replace>this</last-replace>
       <last-substitute encoding="base64">XDxfZmluZF90ZXN0c1w+</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxfZWRpdE1vZGFsT3B0aW9uc1w+</entry>
         <entry encoding="base64">XDxyb290U2NvcGVcPg==</entry>
         <entry encoding="base64">XDxzY29wZVw+</entry>
         <entry encoding="base64">XDxnZXRjd2RcPg==</entry>
@@ -929,6 +935,7 @@
         <entry encoding="base64">XDxydW5cPg==</entry>
         <entry encoding="base64">XDx0ZXN0TWV0aG9kUHJlZml4XD4=</entry>
         <entry encoding="base64">XDxjbGFpbUhlYWRlclRvUmVzb3VyY2VcPg==</entry>
+        <entry encoding="base64">XDxzdGF0dXNVcmxcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1xuIiArICIvLC9n</entry>

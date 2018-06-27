@@ -29,9 +29,10 @@
       <file name="/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/main.py" timestamp="1529508409592">
         <mark key="'" line="233" column="30" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1530015082036">
-        <mark key="[" line="228" column="69" />
-        <mark key="]" line="228" column="68" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1530094023355">
+        <mark key="'" line="209" column="0" />
+        <mark key="[" line="210" column="30" />
+        <mark key="]" line="212" column="30" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4-eyes-module.js" timestamp="1528972560523">
         <mark key="[" line="6" column="58" />
@@ -207,13 +208,7 @@
       <file name="/dummy.sql" timestamp="1527076083059">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/email/mail-template-context-service.js" timestamp="1529674434070">
-        <mark key="'" line="140" column="12" />
-        <mark key="[" line="135" column="15" />
-        <mark key="]" line="143" column="14" />
-        <mark key="." line="141" column="0" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1530003700396">
+      <file name="/Dummy.txt" timestamp="1530093437388">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/claims-mail-mode/src/main/java/protector/claims/mailprocessing/FileServiceMailRepository.java" timestamp="1528459276243">
@@ -277,7 +272,7 @@
         <mark key="[" line="3" column="40" />
       </file>
       <file name="$USER_HOME$/repos/claims/claims-handling-instructions/src/main/java/protector/claims/handlinginstructions/ClaimsHandlingInstructionsController.java" timestamp="1530017013377" />
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" timestamp="1526475763775">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" timestamp="1530094095057">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/ClaimAdjustmentService.java" timestamp="1526462314449">
@@ -288,7 +283,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="60" column="8" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/form.py" />
       <jump line="14" column="0" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/form_collector.py" />
       <jump line="20" column="4" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/form_collector.py" />
       <jump line="24" column="0" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/form_collector.py" />
@@ -388,6 +382,7 @@
       <jump line="171" column="20" filename="$USER_HOME$/repos/claims/integration-api/src/main/groovy/protector/claims/integrationApi/Easy/core/EasyService.java" />
       <jump line="377" column="12" filename="$USER_HOME$/repos/claims/integration-api/src/main/groovy/protector/claims/integrationApi/Easy/core/EasyService.java" />
       <jump line="63" column="32" filename="$USER_HOME$/repos/claims/integration-api/src/main/groovy/protector/claims/integrationApi/Easy/core/EasyService.java" />
+      <jump line="209" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -396,8 +391,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>b</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">c2VsZWN0IERvY3VtZW50X0ZpbGVfTmFtZSwgQ3JlYXRlZCBmcm9tIENsYWltX0RvY3VtZW50CndoZXJlIENyZWF0ZWQgQkVUV0VFTiAnMjAxOC0wNC0yNScgQU5EICcyMDE4LTA0LTI2JwpBTkQgQ2xhaW1fSGVhZGVyX0lkIGlzIG51bGwKQU5EIENsYWltX0RvY3VtZW50X1R5cGVfSWQgPSA0MQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -456,7 +451,7 @@
         <text encoding="base64">XDxMT0dcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcmVzb2x2ZTogewogICAgICAgICAgICAgICAgICAgICAgICAgICAga3BpOiAoKSA9PiBrcGksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb2JJZDogKCkgPT4gdGhpcy5oZWFkZXIuY2xhaW1Mb2JJZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlYWRlcklkOiAoKSA9PiB0aGlzLmhlYWRlci5pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvdW50cnlJZDogKCkgPT4gdGhpcy5oZWFkZXIuY291bnRyeSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBvc3RVcmw6ICgpID0+IGAke3RoaXMucm9vdFNjb3BlLmFwaUJhc2VVcmx9a3BpLyR7dGhpcy5oZWFkZXIuY291bnRyeX0vJHt0aGlzLmhlYWRlci5jbGFpbUxvYklkfWAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXNVcmw6ICgpID0+IGAke3RoaXMucm9vdFNjb3BlLmFwaUJhc2VVcmx9a3BpLyR7dGhpcy5oZWFkZXIuaWR9L2NvbXBsZXRlLXN0YXR1cz9sb2JJZD0ke3RoaXMuaGVhZGVyLmNsYWltTG9iSWR9YCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJvb3RTY29wZTogKCkgPT4gdGhpcy5yb290U2NvcGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWFkZXI6ICgpID0+IHRoaXMuaGVhZGVyCiAgICAgICAgICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">c2VsZWN0IERvY3VtZW50X0ZpbGVfTmFtZSwgQ3JlYXRlZCBmcm9tIENsYWltX0RvY3VtZW50CndoZXJlIENyZWF0ZWQgQkVUV0VFTiAnMjAxOC0wNC0yNScgQU5EICcyMDE4LTA0LTI2JwpBTkQgQ2xhaW1fSGVhZGVyX0lkIGlzIG51bGwKQU5EIENsYWltX0RvY3VtZW50X1R5cGVfSWQgPSA0MQo=</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ewogICAgICAgICAgICAgICAgICAgICAgICB0ZW1wbGF0ZVVybDogJ2NvbXBvbmVudHMvY2xhaW0vc3VtbWFyeS9jbG9zaW5nL21vZGFsS3BpLmh0bWwnLAogICAgICAgICAgICAgICAgICAgICAgICBjb250cm9sbGVyOiAnTW9kYWxLcGlDdHJsJywKICAgICAgICAgICAgICAgICAgICAgICAgY29udHJvbGxlckFzOiAndm0nLAogICAgICAgICAgICAgICAgICAgICAgICByZXNvbHZlOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBrcGk6ICgpID0+IGtwaSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvYklkOiAoKSA9PiB0aGlzLmhlYWRlci5jbGFpbUxvYklkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVhZGVySWQ6ICgpID0+IHRoaXMuaGVhZGVyLmlkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY291bnRyeUlkOiAoKSA9PiB0aGlzLmhlYWRlci5jb3VudHJ5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zdFVybDogKCkgPT4gYCR7dGhpcy5yb290U2NvcGUuYXBpQmFzZVVybH1rcGkvJHt0aGlzLmhlYWRlci5jb3VudHJ5fS8ke3RoaXMuaGVhZGVyLmNsYWltTG9iSWR9YCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXR1c1VybDogKCkgPT4gYCR7dGhpcy5yb290U2NvcGUuYXBpQmFzZVVybH1rcGkvJHt0aGlzLmhlYWRlci5pZH0vY29tcGxldGUtc3RhdHVzP2xvYklkPSR7dGhpcy5oZWFkZXIuY2xhaW1Mb2JJZH1gLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcm9vdFNjb3BlOiAoKSA9PiB0aGlzLnJvb3RTY29wZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlYWRlcjogKCkgPT4gdGhpcy5oZWFkZXIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0=</text>

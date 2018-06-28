@@ -153,12 +153,12 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/kpi-modal-ctrl.js" timestamp="1529930839164">
         <mark key="'" line="31" column="25" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" timestamp="1530182604187">
-        <mark key="'" line="30" column="12" />
-        <mark key="[" line="20" column="8" />
-        <mark key="]" line="22" column="0" />
-        <mark key="." line="22" column="0" />
-        <mark key="^" line="21" column="96" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" timestamp="1530185621184">
+        <mark key="'" line="85" column="115" />
+        <mark key="[" line="103" column="28" />
+        <mark key="]" line="103" column="27" />
+        <mark key="." line="103" column="27" />
+        <mark key="^" line="103" column="27" />
       </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/transform/AdjustmentCalculationService.java" timestamp="1526475657246">
         <mark key="[" line="113" column="74" />
@@ -291,10 +291,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="45" column="46" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
-      <jump line="117" column="11" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" />
-      <jump line="31" column="4" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/form_collector.py" />
-      <jump line="22" column="8" filename="$USER_HOME$/repos/webformdefinitions/validation/src/python/form_collector.py" />
       <jump line="13" column="0" filename="$USER_HOME$/repos/webformdefinitions/upload/build.gradle" />
       <jump line="9" column="4" filename="$USER_HOME$/repos/webformdefinitions/upload/build.gradle" />
       <jump line="38" column="0" filename="$USER_HOME$/repos/webformdefinitions/validation/validateforms.py" />
@@ -391,6 +387,10 @@
       <jump line="29" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend-online/components/claim/claim-header-ctrl.js" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" />
+      <jump line="60" column="19" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" />
+      <jump line="55" column="35" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" />
+      <jump line="97" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" />
+      <jump line="86" column="115" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -400,7 +400,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gdGhpcy5kaXNwbGF5S3BpTW9kYWwoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -456,13 +456,14 @@
         <text>b</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxMT0dcPg==</text>
+        <text>this\.</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiAodGhpcy5oZWFkZXIuY2xhaW1Mb2JJZCA9PT0gNCAmJiB0aGlzLmhlYWRlci5jb3VudHJ5ID09PSAyKSB7Cg==</text>
+      <register name="0" type="4">
+        <text>this.filter('translate')(
+            'This Claim has no contract, please supply a reason for closing it without connecting it to a contract')</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gdGhpcy5kaXNwbGF5S3BpTW9kYWwoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -488,20 +489,21 @@
           <key char="44" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLmNhdGNoKGNhdXNlID0+IHsKICAgICAgICAgICAgICAgIGlmIChjYXVzZSA9PT0gJ0luY29tcGxldGUnIHx8ICFjYXVzZSkgewogICAgICAgICAgICAgICAgICAgIHRoaXMuZmxhc2guZXJyb3IgPSB0aGlzLmZpbHRlcigndHJhbnNsYXRlJykoJ0tQSXMgbm90IGNvbXBsZXRlbHkgYW5zd2VyZWQsIGFib3J0aW5nIGNsb3Npbmcgb2YgY2xhaW0nKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSk7Cg==</text>
+      <register name="2" type="4">
+        <text>this.filter('translate')(
+            'This Claim has no contract, please supply a reason for closing it without connecting it to a contract')</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB9KTsK</text>
+        <text encoding="base64">ICAgICAgICBib290Ym94LnByb21wdCh0aGlzLmZpbHRlcigndHJhbnNsYXRlJykoCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewo=</text>
+        <text encoding="base64">ICAgICAgICBib290Ym94LnByb21wdCh0aGlzLmZpbHRlcigndHJhbnNsYXRlJykoCiAgICAgICAgICAgICdUaGlzIENsYWltIGhhcyBubyBjb250cmFjdCwgcGxlYXNlIHN1cHBseSBhIHJlYXNvbiBmb3IgY2xvc2luZyBpdCB3aXRob3V0IGNvbm5lY3RpbmcgaXQgdG8gYSBjb250cmFjdCcpLAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZWplY3QoY2F1c2UpOwo=</text>
+        <text encoding="base64">ICAgICAgICB9KTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUscmVqZWN0KSA9PiB7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -836,30 +838,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBuby1leHRyYS1wYXJlbnMK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsZXQgY2xvc2luZ01lc3NhZ2UgPSBudWxsOwogICAgICAgICAgICAgICAgICAgIGlmICh0aGlzLmhlYWRlci5jbGFpbUxvYklkID09PSA0ICYmIHRoaXMuaGVhZGVyLmNvdW50cnkgPT09IDIpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGhpcy5jaGVja0Zvck1pc3NpbmdDbGFpbWVkRXhjZXNzKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC50aGVuKGlzTWlzc2luZyA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGlzTWlzc2luZy5jb250ZW50ID09PSB0cnVlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsb3NpbmdNZXNzYWdlID0gIldBUk5JTkc6IE5vIGV4Y2VzcyBvciB2YXQgaXMgY2xhaW1lZCEiOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgICAgICB9IGVsc2Ugewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVsc2UgewogICAgICAgICAgICAgICAgICAgIHJlamVjdChyZXNwb25zZSk7CiAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
-        <text>vs validateforms.py</text>
+        <text encoding="base64">JzwsJz5zL3RoaXNcLi8vZw==</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxMT0dcPg==</last-search>
+      <last-search>this\.</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxMT0dcPg==</last-pattern>
-      <last-replace>this</last-replace>
-      <last-substitute encoding="base64">XDxfZmluZF90ZXN0c1w+</last-substitute>
+      <last-pattern>this\.</last-pattern>
+      <last-replace />
+      <last-substitute>this\.</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxzY29wZVw+</entry>
         <entry encoding="base64">XDxnZXRjd2RcPg==</entry>
         <entry encoding="base64">XDxXT1JLSU5HX0RJUlw+</entry>
         <entry encoding="base64">XDxwcmludFw+</entry>
@@ -879,9 +880,9 @@
         <entry encoding="base64">XDxjbGFpbUhlYWRlclRvUmVzb3VyY2VcPg==</entry>
         <entry encoding="base64">XDxzdGF0dXNVcmxcPg==</entry>
         <entry encoding="base64">XDxMT0dcPg==</entry>
+        <entry>this\.</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zL1xuIiArICIvLC9n</entry>
         <entry encoding="base64">JzwsJz5zL1xuIlwgXCtcICIvLC9n</entry>
         <entry encoding="base64">JzwsJz5zL1xuIlwgKyBcICIvLC9n</entry>
         <entry encoding="base64">JzwsJz5zL1xcbiJcICsgXCAiLywvZw==</entry>
@@ -901,6 +902,7 @@
         <entry>%s/\$scope\./vm\./g</entry>
         <entry encoding="base64">JzwsJz5zL3ZtL3RoaXMvZw==</entry>
         <entry>vs validateforms.py</entry>
+        <entry encoding="base64">JzwsJz5zL3RoaXNcLi8vZw==</entry>
       </history-cmd>
       <history-expr />
       <history-input />

@@ -153,12 +153,12 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/kpi-modal-ctrl.js" timestamp="1529930839164">
         <mark key="'" line="31" column="25" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" timestamp="1530185621184">
-        <mark key="'" line="85" column="115" />
-        <mark key="[" line="103" column="28" />
-        <mark key="]" line="103" column="27" />
-        <mark key="." line="103" column="27" />
-        <mark key="^" line="103" column="27" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" timestamp="1530187474344">
+        <mark key="'" line="24" column="25" />
+        <mark key="[" line="72" column="36" />
+        <mark key="]" line="72" column="26" />
+        <mark key="." line="72" column="26" />
+        <mark key="^" line="72" column="26" />
       </file>
       <file name="$USER_HOME$/repos/claims/reserve/src/main/java/protector/claims/claimadjustment/transform/AdjustmentCalculationService.java" timestamp="1526475657246">
         <mark key="[" line="113" column="74" />
@@ -291,9 +291,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="13" column="0" filename="$USER_HOME$/repos/webformdefinitions/upload/build.gradle" />
-      <jump line="9" column="4" filename="$USER_HOME$/repos/webformdefinitions/upload/build.gradle" />
-      <jump line="38" column="0" filename="$USER_HOME$/repos/webformdefinitions/validation/validateforms.py" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/webformdefinitions/validation/form_collector.py" />
       <jump line="35" column="11" filename="$USER_HOME$/repos/webformdefinitions/validation/validateforms.py" />
       <jump line="7" column="0" filename="$USER_HOME$/repos/webformdefinitions/validation/form_collector.py" />
@@ -391,6 +388,9 @@
       <jump line="55" column="35" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" />
       <jump line="97" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" />
       <jump line="86" column="115" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" />
+      <jump line="100" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" />
+      <jump line="7" column="21" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" />
+      <jump line="24" column="25" filename="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/header-closer.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -400,7 +400,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLnRoZW4oaGFzQ29udHJhY3QgPT4gaGFzQ29udHJhY3QgPyAnJyA6IHRoaXMuc2hvd05vQ29udHJhY3RQcm9tcHQoKSkK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -456,14 +456,14 @@
         <text>b</text>
       </register>
       <register name="/" type="4">
-        <text>this\.</text>
+        <text encoding="base64">XDxzY29wZVw+</text>
       </register>
       <register name="0" type="4">
         <text>this.filter('translate')(
             'This Claim has no contract, please supply a reason for closing it without connecting it to a contract')</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLnRoZW4oaGFzQ29udHJhY3QgPT4gaGFzQ29udHJhY3QgPyAnJyA6IHRoaXMuc2hvd05vQ29udHJhY3RQcm9tcHQoKSkK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -489,21 +489,20 @@
           <key char="44" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text>this.filter('translate')(
-            'This Claim has no contract, please supply a reason for closing it without connecting it to a contract')</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLnRoZW4ocmVhc29uID0+IHRoaXMuc2VuZENsb3NlUmVxdWVzdChyZWFzb24pKQogICAgICAgICAgICAuY2F0Y2gocmVhc29uID0+IHRoaXMuZmxhc2guZXJyb3IgPSByZWFzb24pOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBib290Ym94LnByb21wdCh0aGlzLmZpbHRlcigndHJhbnNsYXRlJykoCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBib290Ym94LnByb21wdCh0aGlzLmZpbHRlcigndHJhbnNsYXRlJykoCiAgICAgICAgICAgICdUaGlzIENsYWltIGhhcyBubyBjb250cmFjdCwgcGxlYXNlIHN1cHBseSBhIHJlYXNvbiBmb3IgY2xvc2luZyBpdCB3aXRob3V0IGNvbm5lY3RpbmcgaXQgdG8gYSBjb250cmFjdCcpLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLnRoZW4oKCkgPT4gewogICAgICAgICAgICAgICAgaWYodGhpcy5oZWFkZXIuY29udHJhY3RJZCB8fCAodGhpcy5oZWFkZXIuY2xhaW1Mb2JJZCA9PT0gNSAmJiB0aGlzLmhlYWRlci5wYXJlbnRIZWFkZXJJZCkpIHsKICAgICAgICAgICAgICAgICAgICB0aGlzLnNlbmRDbG9zZVJlcXVlc3Qoe30pCiAgICAgICAgICAgICAgICAgICAgICAgIC50aGVuKCgpID0+IHJlc29sdmUoJycpKQogICAgICAgICAgICAgICAgICAgICAgICAuY2F0Y2goZXJyPT4gcmVqZWN0KGVycikpOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBib290Ym94LnByb21wdCh0aGlzLmZpbHRlcigndHJhbnNsYXRlJykoJ1RoaXMgQ2xhaW0gaGFzIG5vIGNvbnRyYWN0LCBwbGVhc2Ugc3VwcGx5IGEgcmVhc29uIGZvciBjbG9zaW5nIGl0IHdpdGhvdXQgY29ubmVjdGluZyBpdCB0byBhIGNvbnRyYWN0JykscmVzdWx0ID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYocmVzdWx0ID09PSAnJyl7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCByZWFzb24gPSAnRW1wdHkgcmVhc29uIG5vdCBhY2NlcHRlZCc7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aGlzLmZsYXNoLmVycm9yID0gcmVhc29uOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVqZWN0KHJlYXNvbik7CiAgICAgICAgICAgICAgICAgICAgICAgIH1lbHNlIGlmKHJlc3VsdCl7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aGlzLnNlbmRDbG9zZVJlcXVlc3QocmVzdWx0KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC50aGVuKCgpID0+IHJlc29sdmUoJycpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jYXRjaChlcnI9PiByZWplY3QoZXJyKSk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwgKCkgPT57CiAgICAgICAgICAgICAgICByZWplY3QoIlVzZXIgY2FuY2VsZWQiKTsKICAgICAgICAgICAgfSk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB9KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgcmVhc29uID0gJ0VtcHR5IHJlYXNvbiBub3QgYWNjZXB0ZWQnOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUscmVqZWN0KSA9PiB7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAudGhlbigoKSA9PiByZXNvbHZlKCcnKSkKICAgICAgICAgICAgICAgICAgICAuY2F0Y2goZXJyID0+IHJlamVjdChlcnIpKSkK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -838,22 +837,22 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBuby1leHRyYS1wYXJlbnMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdGhpcy5zZW5kQ2xvc2VSZXF1ZXN0KHJlc3VsdCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC50aGVuKCgpID0+IHJlc29sdmUoJycpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNhdGNoKGVyciA9PiByZWplY3QoZXJyKSk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGVsc2UgewogICAgICAgICAgICAgICAgICAgIHJlamVjdChyZXNwb25zZSk7CiAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdGhpcy5mbGFzaC5lcnJvciA9IHJlYXNvbjsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL3RoaXNcLi8vZw==</text>
       </register>
     </registers>
     <search>
-      <last-search>this\.</last-search>
+      <last-search encoding="base64">XDxzY29wZVw+</last-search>
       <last-offset />
-      <last-pattern>this\.</last-pattern>
+      <last-pattern encoding="base64">XDxzY29wZVw+</last-pattern>
       <last-replace />
       <last-substitute>this\.</last-substitute>
       <last-dir>1</last-dir>
@@ -861,7 +860,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxnZXRjd2RcPg==</entry>
         <entry encoding="base64">XDxXT1JLSU5HX0RJUlw+</entry>
         <entry encoding="base64">XDxwcmludFw+</entry>
         <entry encoding="base64">XDx3aW5kb3dzXD4=</entry>
@@ -881,6 +879,7 @@
         <entry encoding="base64">XDxzdGF0dXNVcmxcPg==</entry>
         <entry encoding="base64">XDxMT0dcPg==</entry>
         <entry>this\.</entry>
+        <entry encoding="base64">XDxzY29wZVw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1xuIlwgXCtcICIvLC9n</entry>

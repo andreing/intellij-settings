@@ -39,12 +39,12 @@
         <mark key="^" line="43" column="7" />
         <mark key="." line="43" column="7" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1531324208620">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1531480059429">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="330" column="0" />
-        <mark key="]" line="316" column="13" />
+        <mark key="[" line="334" column="0" />
+        <mark key="]" line="334" column="0" />
         <mark key="^" line="316" column="13" />
-        <mark key="." line="316" column="13" />
+        <mark key="." line="334" column="0" />
       </file>
       <file name="$USER_HOME$/repos/file-service/client/src/main/groovy/protector/fileservice/client/rest/FileServiceRestClient.groovy" timestamp="1528459685033">
         <mark key="[" line="67" column="5" />
@@ -333,8 +333,14 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Y29uc3QgcGFyc2VycyA9IHsKICAgICdjdXJyZW5jeSc6IHZpZXdWYWx1ZSA9PiBwYXJzZUZsb2F0KHZpZXdWYWx1ZS5yZXBsYWNlKCcsJywgJy4nKSkudG9GaXhlZCgyKSwKICAgICdudW1iZXInOiB2aWV3VmFsdWUgPT4gdmlld1ZhbHVlLnJlcGxhY2UoL1teXGRcLSsuLF0vZywgJycpLAp9Owo=</text>
+      <register name="&quot;" type="4">
+        <text>Mikkel Wolff Andersen
+Marie Nykjær Berg
+Robin Dahl
+Linus Gustavsson
+Muhammet Yilmaz
+Christina Røtzer
+Samia Younas</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -395,8 +401,14 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBsZXQgcGFyc2VkVmFsdWUgPSBwYXJzZUZsb2F0KHZpZXdWYWx1ZS5yZXBsYWNlKCcsJywgJy4nKSkudG9GaXhlZCgyKTsKICAgICAgICByZXR1cm4gdGhpcy4kZmlsdGVyKCkK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Y29uc3QgcGFyc2VycyA9IHsKICAgICdjdXJyZW5jeSc6IHZpZXdWYWx1ZSA9PiBwYXJzZUZsb2F0KHZpZXdWYWx1ZS5yZXBsYWNlKCcsJywgJy4nKSkudG9GaXhlZCgyKSwKICAgICdudW1iZXInOiB2aWV3VmFsdWUgPT4gdmlld1ZhbHVlLnJlcGxhY2UoL1teXGRcLSsuLF0vZywgJycpLAp9Owo=</text>
+      <register name="1" type="4">
+        <text>Mikkel Wolff Andersen
+Marie Nykjær Berg
+Robin Dahl
+Linus Gustavsson
+Muhammet Yilmaz
+Christina Røtzer
+Samia Younas</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -423,19 +435,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLiRmaWx0ZXIgPSAkZmlsdGVyOwo=</text>
+        <text encoding="base64">Y29uc3QgcGFyc2VycyA9IHsKICAgICdjdXJyZW5jeSc6IHZpZXdWYWx1ZSA9PiBwYXJzZUZsb2F0KHZpZXdWYWx1ZS5yZXBsYWNlKCcsJywgJy4nKSkudG9GaXhlZCgyKSwKICAgICdudW1iZXInOiB2aWV3VmFsdWUgPT4gdmlld1ZhbHVlLnJlcGxhY2UoL1teXGRcLSsuLF0vZywgJycpLAp9Owo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLiRmaWx0ZXIgPSAkZmlsdGVyOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGFtb3VudChuZXdBbW91bnQpIHsKICAgICAgICBjb25zb2xlLmxvZygnZ2V0dGVyU2V0dGVyOiAnLCBuZXdBbW91bnQpOwogICAgICAgIC8vIE5vdGUgdGhhdCBuZXdBbW91bnQgY2FuIGJlIHVuZGVmaW5lZCBmb3IgdHdvIHJlYXNvbnM6CiAgICAgICAgLy8gMS4gQmVjYXVzZSBpdCBpcyBjYWxsZWQgYXMgYSBnZXR0ZXIgYW5kIHRodXMgY2FsbGVkIHdpdGggbm8gYXJndW1lbnRzCiAgICAgICAgLy8gMi4gQmVjYXVzZSB0aGUgcHJvcGVydHkgc2hvdWxkIGFjdHVhbGx5IGJlIHNldCB0byB1bmRlZmluZWQuIFRoaXMgaGFwcGVucyBlLmcuIGlmIHRoZSBpbnB1dCBpcyBpbnZhbGlkCiAgICAgICAgcmV0dXJuIGFyZ3VtZW50cy5sZW5ndGggPyAodGhpcy5fYW1vdW50ID0gdGhpcy5maWx0ZXJOdW1TdHJpbmcobmV3QW1vdW50KSkgOiB0aGlzLl9hbW91bnQ7CiAgICB9CgogICAgZmlsdGVyTnVtU3RyaW5nKGFtb3VudCkgewogICAgICAgIHJldHVybiAhIWFtb3VudCA/IGFtb3VudC5yZXBsYWNlKCcsJywnLicpIDogJyc7CiAgICB9Cgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQgcGFyc2VyID0gcGFyc2Vyc1twYXJzZXJzLmhhc093blByb3BlcnR5KGF0dHJzLmZvcm1hdCkgPyBhdHRycy5mb3JtYXQgOiB4ID0+IHhdOwo=</text>
+        <text encoding="base64">ICAgIGFtb3VudChuZXdBbW91bnQpIHsKICAgICAgICBjb25zb2xlLmxvZygnZ2V0dGVyU2V0dGVyOiAnLCBuZXdBbW91bnQpOwogICAgICAgIC8vIE5vdGUgdGhhdCBuZXdBbW91bnQgY2FuIGJlIHVuZGVmaW5lZCBmb3IgdHdvIHJlYXNvbnM6CiAgICAgICAgLy8gMS4gQmVjYXVzZSBpdCBpcyBjYWxsZWQgYXMgYSBnZXR0ZXIgYW5kIHRodXMgY2FsbGVkIHdpdGggbm8gYXJndW1lbnRzCiAgICAgICAgLy8gMi4gQmVjYXVzZSB0aGUgcHJvcGVydHkgc2hvdWxkIGFjdHVhbGx5IGJlIHNldCB0byB1bmRlZmluZWQuIFRoaXMgaGFwcGVucyBlLmcuIGlmIHRoZSBpbnB1dCBpcyBpbnZhbGlkCiAgICAgICAgcmV0dXJuIGFyZ3VtZW50cy5sZW5ndGggPyAodGhpcy5fYW1vdW50ID0gdGhpcy5maWx0ZXJOdW1TdHJpbmcobmV3QW1vdW50KSkgOiB0aGlzLl9hbW91bnQ7CiAgICB9CgogICAgZmlsdGVyTnVtU3RyaW5nKGFtb3VudCkgewogICAgICAgIHJldHVybiAhIWFtb3VudCA/IGFtb3VudC5yZXBsYWNlKCcsJywnLicpIDogJyc7CiAgICB9Cgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQgcGFyc2VyID0gcGFyc2Vyc1twYXJzZXJzLmhhc093blByb3BlcnR5KGF0dHJzLmZvcm1hdCkgPyBhdHRycy5mb3JtYXQgOiB4ID0+IHhdOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -770,13 +782,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGZ1bmN0aW9uIHBhcnNlQ3VycmVuY3kodmlld1ZhbHVlKSB7CiAgICAgICAgcmV0dXJuIHBhcnNlRmxvYXQodmlld1ZhbHVlLnJlcGxhY2UoJywnLCAnLicpKS50b0ZpeGVkKDIpOwogICAgfQoKICAgIGZ1bmN0aW9uIHBhcnNlTnVtYmVyKHZpZXdWYWx1ZSkgewoKICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIGZ1bmN0aW9uIHBhcnNlQ3VycmVuY3kodmlld1ZhbHVlKSB7CiAgICAgICAgcmV0dXJuIHBhcnNlRmxvYXQodmlld1ZhbHVlLnJlcGxhY2UoJywnLCAnLicpKS50b0ZpeGVkKDIpOwogICAgfQoKICAgIGZ1bmN0aW9uIHBhcnNlTnVtYmVyKHZpZXdWYWx1ZSkgewoKICAgIH0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gdGhpcy4kZmlsdGVyKCkK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL2ludGVycG9sYXRlL2ZpbHRlci9n</text>

@@ -72,6 +72,11 @@
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/views/partials/header-navigation.handlebars" timestamp="1526049650360">
         <mark key="[" line="19" column="34" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/assignment/WRRState.java" timestamp="1530885495572">
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="28" column="0" />
+        <mark key="." line="28" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/webformdefinitions/validation/src/python/validateforms.py" timestamp="1529077429267">
         <mark key="[" line="8" column="35" />
       </file>
@@ -90,6 +95,11 @@
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/summary/summary-ctrl.js" timestamp="1529930186853">
         <mark key="'" line="443" column="49" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/core/src/test/groovy/protector/claims/service/assignment/ClaimAssignmentServiceSpec.groovy" timestamp="1531140788738">
+        <mark key="[" line="121" column="0" />
+        <mark key="]" line="121" column="0" />
+        <mark key="." line="121" column="0" />
       </file>
       <file name="/JSRegexp Fragment (format-model-directive.js:956).regexp" timestamp="1531228833126">
         <mark key="[" line="0" column="0" />
@@ -112,7 +122,7 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/InitialReservationBreakdownService.java" timestamp="1531747248686">
         <mark key="'" line="24" column="105" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/app.js" timestamp="1531746527564">
+      <file name="$USER_HOME$/repos/claims/frontend/app.js" timestamp="1531827586718">
         <mark key="'" line="270" column="8" />
         <mark key="[" line="60" column="19" />
         <mark key="]" line="41" column="0" />
@@ -192,8 +202,10 @@
       <file name="/Dummy.txt" timestamp="1531320762384">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/lib/lib-import-module.js" timestamp="1531825752713">
-        <mark key="[" line="0" column="51" />
+      <file name="$USER_HOME$/repos/claims/frontend/lib/lib-import-module.js" timestamp="1531827304329">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/production.yml" timestamp="1528713400931">
         <mark key="[" line="41" column="20" />
@@ -206,6 +218,11 @@
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/validation/result.py" timestamp="1529576376644">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/assignment/WRRStateJdbcDao.java" timestamp="1530884459972">
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="23" column="0" />
+        <mark key="." line="23" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-routes.js" timestamp="1530534403467">
         <mark key="[" line="43" column="96" />
@@ -365,7 +382,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IGFzZGFzZCBmcm9tICcnCg==</text>
+        <text encoding="base64">aW1wb3J0IGFtcyBmcm9tICdub2RlJwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -427,7 +444,7 @@
         <text encoding="base64">ICAgICAgICAgICAgbGV0IGZpbHRlck5hbWUgPSBnZXRGaWx0ZXJOYW1lKCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGFzZGFzZCBmcm9tICcnCg==</text>
+        <text encoding="base64">aW1wb3J0IGFtcyBmcm9tICdub2RlJwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -454,19 +471,19 @@
         </keys>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">aW1wb3J0IGFzZGFzZCBmcm9tICcnCg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIChmaWx0ZXJOYW1lID09PSAnbnVtYmVyJykgewogICAgICAgICAgICAgICAgICAgIGFyZ3MucHVzaCg2KTsKICAgICAgICAgICAgICAgIH0K</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">ICAgICAgICAgICAgLy8gaWYgKGZpbHRlck5hbWUpIHsKICAgICAgICAgICAgLy8gICAgIGxldCBhcmdzID0gW3BhcnNlZFZhbHVlXS5jb25jYXQoZmlsdGVyQXJncy5zbGljZSgxKSk7CiAgICAgICAgICAgIC8vICAgICBlbGVtLnZhbCh0aGlzLiRmaWx0ZXIoZmlsdGVyTmFtZSkoLi4uYXJncykpOwogICAgICAgICAgICAvLyB9IGVsc2UgewogICAgICAgICAgICAvLyAgICAgZWxlbS52YWwocGFyc2VkVmFsdWUpOwogICAgICAgICAgICAvLyB9</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbGV0IGZpbHRlckFyZ3MgPSAK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">CiAgICBmdW5jdGlvbgoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -801,9 +818,12 @@
         </keys>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">CiAgICBmdW5jdGlvbgoK</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">fQo=</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>Mikkel Wolff Andersen
 Marie Nykjær Berg
 Robin Dahl
@@ -811,9 +831,6 @@ Linus Gustavsson
 Muhammet Yilmaz
 Christina Røtzer
 Samia Younas</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Y29uc3QgcGFyc2VycyA9IHsKICAgICdjdXJyZW5jeSc6IHZpZXdWYWx1ZSA9PiBwYXJzZUZsb2F0KHZpZXdWYWx1ZS5yZXBsYWNlKCcsJywgJy4nKSkudG9GaXhlZCgyKSwKICAgICdudW1iZXInOiB2aWV3VmFsdWUgPT4gdmlld1ZhbHVlLnJlcGxhY2UoL1teXGRcLSsuLF0vZywgJycpLAp9Owo=</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

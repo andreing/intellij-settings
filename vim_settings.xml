@@ -135,12 +135,12 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/summary/closing/kpi-modal-ctrl.js" timestamp="1529930839164">
         <mark key="'" line="31" column="25" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.html" timestamp="1531844944081">
-        <mark key="'" line="62" column="16" />
-        <mark key="[" line="60" column="72" />
-        <mark key="]" line="60" column="53" />
-        <mark key="." line="60" column="53" />
-        <mark key="^" line="60" column="53" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.html" timestamp="1531911267148">
+        <mark key="'" line="61" column="16" />
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="0" />
+        <mark key="^" line="59" column="53" />
+        <mark key="." line="10" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/dao/ClaimFormJdbcDao.java" timestamp="1531322653237" />
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/WRRClaimAssigner.java" timestamp="1531139275492">
@@ -242,7 +242,7 @@
         <mark key="." line="559" column="51" />
         <mark key="^" line="559" column="51" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/incoming/create-incoming-payment.html" timestamp="1531845764461">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/incoming/create-incoming-payment.html" timestamp="1531912775779">
         <mark key="[" line="13" column="0" />
         <mark key="]" line="13" column="0" />
         <mark key="." line="13" column="0" />
@@ -265,13 +265,14 @@
       <file name="/fragment.java" timestamp="1531320762371">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.directive.js" timestamp="1531845711944">
-        <mark key="[" line="23" column="1" />
-        <mark key="]" line="24" column="0" />
-        <mark key="." line="24" column="0" />
-        <mark key="^" line="23" column="18" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.directive.js" timestamp="1531912990342">
+        <mark key="'" line="48" column="12" />
+        <mark key="[" line="28" column="55" />
+        <mark key="]" line="28" column="72" />
+        <mark key="." line="28" column="72" />
+        <mark key="^" line="28" column="72" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/incoming/incoming-payment-ctrl.js" timestamp="1531845861038">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/incoming/incoming-payment-ctrl.js" timestamp="1531912665887">
         <mark key="'" line="152" column="44" />
         <mark key="[" line="58" column="0" />
         <mark key="]" line="58" column="0" />
@@ -280,8 +281,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="73" column="35" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/incoming/incoming-payment-ctrl.js" />
-      <jump line="164" column="31" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/incoming/incoming-payment-ctrl.js" />
       <jump line="203" column="31" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/incoming/incoming-payment-ctrl.js" />
       <jump line="98" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/incoming/create-incoming-payment.html" />
       <jump line="30" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.directive.js" />
@@ -380,6 +379,8 @@
       <jump line="70" column="28" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/incoming/incoming-payment-ctrl.js" />
       <jump line="189" column="25" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/incoming/incoming-payment-ctrl.js" />
       <jump line="150" column="44" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/incoming/incoming-payment-ctrl.js" />
+      <jump line="31" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.directive.js" />
+      <jump line="47" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.directive.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -478,19 +479,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzY29wZS4kb24oKCkgPT4gc2NvcGUucGFyZW50Rm9ybS5zdSkK</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygibGluayBzY29wZSAiLCBzY29wZSk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLy8gJHNjb3BlLmluY29taW5nVHJhbnNhY3Rpb24uc3ViLnB1c2goe3RyYW5zYWN0aW9uVHlwZTogJHNjb3BlLmluY29taW5nVHJhbnNhY3Rpb24udHlwZX0pOwogICAgICAgICAgICAgICAgICAgICAgICAvLyAkc2NvcGUuc2V0U3ViVHJhbnNhY3Rpb25UeXBlSWQoJHNjb3BlLmluY29taW5nVHJhbnNhY3Rpb24uc3ViLmxlbmd0aCAtIDEpOwo=</text>
+        <text encoding="base64">ICAgICAgICAvLyB0aGlzLl90cmFuc2FjdGlvblR5cGUgPSB0eFR5cGU7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygidHJhbnNhY3Rpb24gdG8gcG9zdDogIikK</text>
+        <text encoding="base64">ICAgIC8vIHVwZGF0ZVRyYW5zYWN0aW9uVHlwZShzdWIpIHsKICAgIC8vICAgICBzdWIudHJhbnNhY3Rpb25UeXBlSWQgPSBzdWIudHJhbnNhY3Rpb25UeXBlID8gc3ViLnRyYW5zYWN0aW9uVHlwZS5pZCA6IG51bGw7CiAgICAvLyB9Cgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eC10eXBlLWlkLWZuPSJzZXRTdWJUcmFuc2FjdGlvblR5cGVJZCIK</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygic2V0dGVyIGNhbGxlZCIpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2V0U3ViVHJhbnNhY3Rpb25UeXBlSWQ6ICcmdHlwZUlkRm4nLAo=</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygiZ2V0dGVyIGNhbGxlZCIpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -825,13 +826,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZmxhc2guZXJyb3JhCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBuZy1jaGFuZ2U9InZtLnVwZGF0ZVRyYW5zYWN0aW9uVHlwZShzdWIpIgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAvLyAkc2NvcGUuZW1pdCgnZm9ybS1zdWJtaXQnKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8IS0tbmctY2hhbmdlPSJ2bS51cGRhdGVUcmFuc2FjdGlvblR5cGUoc3ViKSItLT4K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLnNldFN1YlRyYW5zYWN0aW9uVHlwZUlkKHRoaXMudHJhbnNhY3Rpb24uc3ViLmxlbmd0aCAtIDEpOwo=</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnRyYW5zYWN0aW9uVHlwZUlkID0gdHJhbnNhY3Rpb25UeXBlID8gdHJhbnNhY3Rpb25UeXBlLmlkIDogbnVsbDsK</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

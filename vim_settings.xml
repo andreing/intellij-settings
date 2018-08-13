@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" timestamp="1534164228189">
-        <mark key="'" line="204" column="112" />
-        <mark key="[" line="215" column="85" />
-        <mark key="]" line="215" column="88" />
-        <mark key="^" line="145" column="52" />
-        <mark key="." line="215" column="85" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" timestamp="1534165418503">
+        <mark key="'" line="597" column="38" />
+        <mark key="[" line="40" column="38" />
+        <mark key="]" line="610" column="75" />
+        <mark key="^" line="494" column="26" />
+        <mark key="." line="610" column="72" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/WRRSelector.java" timestamp="1531212614723">
         <mark key="[" line="33" column="74" />
@@ -236,20 +236,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="616" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="625" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="71" column="41" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.resource.js" />
-      <jump line="76" column="33" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.resource.js" />
-      <jump line="80" column="35" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.resource.js" />
-      <jump line="85" column="31" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.resource.js" />
-      <jump line="629" column="79" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="627" column="25" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="636" column="20" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="635" column="20" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="634" column="55" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="639" column="52" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="71" column="13" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="638" column="30" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="72" column="32" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="645" column="30" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="73" column="13" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
@@ -336,6 +322,20 @@
       <jump line="109" column="117" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
       <jump line="185" column="117" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
       <jump line="204" column="112" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="215" column="136" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="221" column="142" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="227" column="128" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="229" column="126" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="237" column="100" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="238" column="132" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="259" column="53" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="310" column="92" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="439" column="28" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="440" column="82" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="441" column="88" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="442" column="95" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="449" column="88" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="597" column="38" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -398,7 +398,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>$scope.</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxjb3VudHJ5SWQyQ3VycmVuY3lcPg==</text>

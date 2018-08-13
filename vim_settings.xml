@@ -3,6 +3,13 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" timestamp="1534164228189">
+        <mark key="'" line="204" column="112" />
+        <mark key="[" line="215" column="85" />
+        <mark key="]" line="215" column="88" />
+        <mark key="^" line="145" column="52" />
+        <mark key="." line="215" column="85" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/WRRSelector.java" timestamp="1531212614723">
         <mark key="[" line="33" column="74" />
         <mark key="]" line="34" column="7" />
@@ -229,17 +236,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="582" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="140" column="33" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="180" column="29" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="37" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.resource.js" />
-      <jump line="595" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="735" column="17" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="818" column="17" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="601" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="45" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.resource.js" />
-      <jump line="609" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="52" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.resource.js" />
       <jump line="616" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="625" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="71" column="41" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.resource.js" />
@@ -329,6 +325,17 @@
       <jump line="862" column="31" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="1018" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="17" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.directive.js" />
+      <jump line="12" column="102" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="52" column="97" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="63" column="36" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="65" column="71" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="81" column="36" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="98" column="90" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="106" column="135" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="105" column="32" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="109" column="117" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="185" column="117" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="204" column="112" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -337,8 +344,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>vm.</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -391,13 +398,13 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>(</text>
+        <text>$scope.</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxjb3VudHJ5SWQyQ3VycmVuY3lcPg==</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGdldEV2ZW50cyhoZWFkZXIpIHsKICAgICAgICByZXR1cm4gdGhpcy4kaHR0cC5nZXQodGhpcy5saW5rU2VydmljZShoZWFkZXIsICdldmVudHMnKSkKICAgICAgICAgICAgLnRoZW4ocmVzID0+IHJlcy5kYXRhKTsKICAgIH0K</text>
+      <register name="0" type="4">
+        <text>vm.</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>

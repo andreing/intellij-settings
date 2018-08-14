@@ -157,6 +157,9 @@
         <mark key="." line="411" column="97" />
         <mark key="^" line="411" column="97" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-routes.js" timestamp="1534241652328">
+        <mark key="'" line="54" column="11" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" timestamp="1532096055173">
         <mark key="[" line="211" column="42" />
         <mark key="]" line="211" column="62" />
@@ -236,8 +239,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="97" column="42" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="59" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="82" column="69" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/incoming/incoming-payment-ctrl.js" />
       <jump line="1020" column="6" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="862" column="31" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
@@ -336,6 +337,8 @@
       <jump line="287" column="27" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
       <jump line="288" column="26" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
       <jump line="293" column="26" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="4" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-routes.js" />
+      <jump line="54" column="11" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-routes.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -401,7 +404,7 @@
         <text>.</text>
       </register>
       <register name="/" type="4">
-        <text>ng-.*=&quot;[^v]</text>
+        <text encoding="base64">XDxjbGFpbXNPdXRnb2luZ1BheW1lbnRDb250cm9sbGVyXD4=</text>
       </register>
       <register name="0" type="4">
         <text>vm.</text>
@@ -531,9 +534,9 @@
       </register>
     </registers>
     <search>
-      <last-search>ng-.*=&quot;[^v]</last-search>
+      <last-search encoding="base64">XDxjbGFpbXNPdXRnb2luZ1BheW1lbnRDb250cm9sbGVyXD4=</last-search>
       <last-offset />
-      <last-pattern>ng-.*=&quot;[^v]</last-pattern>
+      <last-pattern encoding="base64">XDxjbGFpbXNPdXRnb2luZ1BheW1lbnRDb250cm9sbGVyXD4=</last-pattern>
       <last-replace>this</last-replace>
       <last-substitute>\$scope</last-substitute>
       <last-dir>1</last-dir>
@@ -541,7 +544,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxyb3V0ZVBhcmFtc1w+</entry>
         <entry encoding="base64">XDxsb2NhdGlvblw+</entry>
         <entry encoding="base64">XDxjb3VudHJ5U2VydmljZVw+</entry>
         <entry encoding="base64">XDxyb290U2NvcGVcPg==</entry>
@@ -561,6 +563,7 @@
         <entry>ng-click=&quot;[^v]</entry>
         <entry>ng-show=&quot;[^v]</entry>
         <entry>ng-.*=&quot;[^v]</entry>
+        <entry encoding="base64">XDxjbGFpbXNPdXRnb2luZ1BheW1lbnRDb250cm9sbGVyXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1xcbiJcIFwrIFwgIi8sL2c=</entry>

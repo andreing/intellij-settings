@@ -135,6 +135,9 @@
         <mark key="." line="19" column="80" />
         <mark key="^" line="19" column="80" />
       </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TransactionController.java" timestamp="1534328473878">
+        <mark key="'" line="88" column="95" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/common/angular-filters.js" timestamp="1534257904920">
         <mark key="[" line="354" column="38" />
         <mark key="]" line="355" column="66" />
@@ -196,7 +199,7 @@
         <mark key="." line="700" column="32" />
         <mark key="^" line="700" column="81" />
       </file>
-      <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/mapping/TransactionMapper.java" timestamp="1534328205587" />
+      <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/mapping/TransactionMapper.java" timestamp="1534328882149" />
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment.html" timestamp="1534321160559">
         <mark key="'" line="144" column="182" />
         <mark key="[" line="191" column="0" />
@@ -217,6 +220,7 @@
         <mark key="^" line="48" column="4" />
         <mark key="." line="48" column="4" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/TransactionDaoTools.java" timestamp="1534328568846" />
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.html" timestamp="1534321314182">
         <mark key="'" line="61" column="16" />
         <mark key="[" line="10" column="0" />
@@ -257,7 +261,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="231" column="26" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
       <jump line="238" column="36" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
       <jump line="247" column="22" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
       <jump line="251" column="22" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
@@ -357,6 +360,7 @@
       <jump line="358" column="47" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
       <jump line="362" column="63" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
       <jump line="261" column="90" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="88" column="95" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TransactionController.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -422,7 +426,7 @@
         <text>this.linkService(header, 'events')</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzb3J0Q29kZVw+</text>
+        <text>outgoing</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgLnRoZW4odXJsID0+IHVybCB8fCBQcm9taXNlLnJlamVjdCgnTm8gbGluayBuYW1lZCAiY2xhaW1zIiBmb3VuZCcpKQo=</text>
@@ -552,9 +556,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxzb3J0Q29kZVw+</last-search>
+      <last-search>outgoing</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzb3J0Q29kZVw+</last-pattern>
+      <last-pattern>outgoing</last-pattern>
       <last-replace>this</last-replace>
       <last-substitute>\$scope</last-substitute>
       <last-dir>1</last-dir>
@@ -562,7 +566,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxpbmp1cmVkQWNjaWRlbnRDb250cmlidXRpb25MaXN0XD4=</entry>
         <entry encoding="base64">XDxwYXltZW50Rm9ybVw+</entry>
         <entry encoding="base64">XDxzYXZlQW5kQ3JlYXRlTmV3XD4=</entry>
         <entry encoding="base64">XDxzYXZlQW5kQ3JlYXRlTmV3VHJhbnNhY3Rpb25cPg==</entry>
@@ -582,6 +585,7 @@
         <entry encoding="base64">XDxhbW91bnRcPg==</entry>
         <entry encoding="base64">XDx1c2VLaWRcPg==</entry>
         <entry encoding="base64">XDxzb3J0Q29kZVw+</entry>
+        <entry>outgoing</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1xcbiJcIFwrIFwgIi8sL2c=</entry>

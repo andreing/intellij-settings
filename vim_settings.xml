@@ -61,12 +61,12 @@
         <mark key="." line="3" column="58" />
         <mark key="^" line="3" column="58" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/common/swedish-account-number-validator.js" timestamp="1534500242967">
-        <mark key="'" line="62" column="42" />
-        <mark key="[" line="113" column="60" />
-        <mark key="]" line="113" column="67" />
-        <mark key="." line="113" column="67" />
-        <mark key="^" line="113" column="67" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/common/swedish-account-number-validator.js" timestamp="1534501279937">
+        <mark key="'" line="92" column="16" />
+        <mark key="[" line="116" column="65" />
+        <mark key="]" line="116" column="71" />
+        <mark key="." line="116" column="71" />
+        <mark key="^" line="116" column="71" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/claim-header-damage-info-simple-ctrl.js" timestamp="1532095459995">
         <mark key="[" line="72" column="81" />
@@ -172,12 +172,12 @@
         <mark key="." line="100" column="19" />
         <mark key="^" line="100" column="19" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" timestamp="1534426020248">
-        <mark key="'" line="143" column="46" />
-        <mark key="[" line="298" column="49" />
-        <mark key="]" line="300" column="38" />
-        <mark key="^" line="300" column="38" />
-        <mark key="." line="300" column="38" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" timestamp="1534502422563">
+        <mark key="'" line="156" column="121" />
+        <mark key="[" line="155" column="0" />
+        <mark key="]" line="155" column="0" />
+        <mark key="^" line="300" column="120" />
+        <mark key="." line="155" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/rr-admin-ctrl.js" timestamp="1532094889986">
         <mark key="[" line="411" column="40" />
@@ -192,7 +192,7 @@
         <mark key="." line="924" column="110" />
         <mark key="^" line="924" column="110" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" timestamp="1534423069215">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" timestamp="1534502419890">
         <mark key="'" line="730" column="38" />
         <mark key="[" line="680" column="41" />
         <mark key="]" line="680" column="40" />
@@ -286,9 +286,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="341" column="54" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="347" column="13" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="363" column="38" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="394" column="68" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="398" column="81" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="399" column="75" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
@@ -386,6 +383,9 @@
       <jump line="143" column="46" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
       <jump line="730" column="38" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="62" column="42" filename="$USER_HOME$/repos/claims/frontend/components/common/swedish-account-number-validator.js" />
+      <jump line="92" column="16" filename="$USER_HOME$/repos/claims/frontend/components/common/swedish-account-number-validator.js" />
+      <jump line="293" column="32" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
+      <jump line="156" column="121" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-new.html" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -395,7 +395,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgICAgICBhdHRycy4kb2JzZXJ2ZSgnc3dlZGlzaEFjY291bnROdW1iZXInLCBvYmogPT4gewogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCckb2JzZXJ2ZSBhdHRyOiAlTycsIG9iaik7CiAgICAgICAgICAgICAgICB9KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDwhLS1UT0RPIHJlbW92ZSBkZXBlbmRlbmN5IG9uICRwYXJlbnQtLT4K</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -451,13 +451,13 @@
         <text>s.transactionType</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjdHJsXD4=</text>
+        <text encoding="base64">XDx0b19hY2NvdW50XD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgLnRoZW4odXJsID0+IHVybCB8fCBQcm9taXNlLnJlamVjdCgnTm8gbGluayBuYW1lZCAiY2xhaW1zIiBmb3VuZCcpKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgICAgICBhdHRycy4kb2JzZXJ2ZSgnc3dlZGlzaEFjY291bnROdW1iZXInLCBvYmogPT4gewogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCckb2JzZXJ2ZSBhdHRyOiAlTycsIG9iaik7CiAgICAgICAgICAgICAgICB9KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIDwhLS1UT0RPIHJlbW92ZSBkZXBlbmRlbmN5IG9uICRwYXJlbnQtLT4K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -503,19 +503,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0gCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgc2NvcGUuJHdhdGNoKCdzd2VkaXNoVHJhbnNhY3Rpb24uYmFuaycsIGJhbmsgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGJhbmspIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdHJsLiR2YWxpZGF0b3JzLnZhbGlkQmFuayA9IHZhbGlkYXRlQmFuazsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdHJsLiR2YWxpZGF0ZSgpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">CiAgICAgICAgICAgICAgICBhdHRycy4kb2JzZXJ2ZSgnc3dlZGlzaEFjY291bnROdW1iZXInLCBvYmogPT4gewogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCckb2JzZXJ2ZSBhdHRyOiAlTycsIG9iaik7CiAgICAgICAgICAgICAgICB9KTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8qVHlwZSBpcyBvbmx5IHNldCBpZiBzd2VkaXNoIGNhc2VzKi8K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHNjb3BlLiR3YXRjaChhdHRycy5zd2VkaXNoVHJhbnNhY3Rpb24udHJhbnNmZXJUeXBlLCBhdHRycy5zd2VkaXNoVHJhbnNhY3Rpb24uYmFua10pCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -568,22 +568,22 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8gdGhpcy5nZXRDbGFpbUhlYWRlcigpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgc2NvcGUuJHdhdGNoKCdzd2VkaXNoVHJhbnNhY3Rpb24uYmFuaycsIGJhbmsgPT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGJhbmspIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdHJsLiR2YWxpZGF0b3JzLnZhbGlkQmFuayA9IHZhbGlkYXRlQmFuazsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdHJsLiR2YWxpZGF0ZSgpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLnNldExvY2F0aW9uRGF0YSgkbG9jYXRpb24pOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8qVHlwZSBpcyBvbmx5IHNldCBpZiBzd2VkaXNoIGNhc2VzKi8K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNjb3BlLiR3YXRjaChhdHRycy5zd2VkaXNoVHJhbnNhY3Rpb24udHJhbnNmZXJUeXBlLCBhdHRycy5zd2VkaXNoVHJhbnNhY3Rpb24uYmFua10pCg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjdHJsXD4=</last-search>
+      <last-search encoding="base64">XDx0b19hY2NvdW50XD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjdHJsXD4=</last-pattern>
+      <last-pattern encoding="base64">XDx0b19hY2NvdW50XD4=</last-pattern>
       <last-replace>this</last-replace>
       <last-substitute>\$scope</last-substitute>
       <last-dir>1</last-dir>
@@ -591,7 +591,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxoaWRlVHJhbnNhY3Rpb25UeXBlRmlsdGVyXD4=</entry>
         <entry encoding="base64">XDx0cmFuc2FjdGlvblN1bVw+</entry>
         <entry encoding="base64">XDxzZXRVcE5ld1R4XD4=</entry>
         <entry encoding="base64">XDxzZXRVcEVkaXRUeFw+</entry>
@@ -611,6 +610,7 @@
         <entry encoding="base64">XDxnZXRTd2VkaXNoQmFua3NJbmZvXD4=</entry>
         <entry>swedish-account</entry>
         <entry encoding="base64">XDxjdHJsXD4=</entry>
+        <entry encoding="base64">XDx0b19hY2NvdW50XD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLyA9IE5vbmUvLw==</entry>

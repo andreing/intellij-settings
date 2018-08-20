@@ -247,6 +247,9 @@
         <mark key="." line="1" column="16" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/common/uk-account-number-validator.js" timestamp="1534752655097" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/ContractService.java" timestamp="1534770773044">
+        <mark key="'" line="200" column="68" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/common/ProtectorCommons.js.orig" timestamp="1534329733930" />
       <file name="/Dummy.txt" timestamp="1534500067696">
         <mark key="[" line="0" column="0" />
@@ -323,7 +326,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="512" column="22" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="513" column="57" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="562" column="49" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="563" column="84" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
@@ -423,6 +425,7 @@
       <jump line="44" column="14" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="314" column="79" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/incoming/incoming-payment-ctrl.js" />
       <jump line="786" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
+      <jump line="200" column="68" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/ContractService.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -488,7 +491,7 @@
         <text>true</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx0b0FjY291bnRcPg==</text>
+        <text encoding="base64">XDxkYXRlXD4=</text>
       </register>
       <register name="0" type="4">
         <text>sortAndAccountNumberCombinationValid</text>
@@ -618,17 +621,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx0b0FjY291bnRcPg==</last-search>
+      <last-search encoding="base64">XDxkYXRlXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx0b0FjY291bnRcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxkYXRlXD4=</last-pattern>
       <last-replace>this</last-replace>
       <last-substitute>\$scope</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxwYXlvdXRGb3JtVGV4dFw+</entry>
         <entry encoding="base64">XDxsb2NhdGlvblw+</entry>
         <entry encoding="base64">XDxmaW5kUm9sZVw+</entry>
         <entry encoding="base64">XDxzaG93T3V0Z29pbmdcPg==</entry>
@@ -648,6 +650,7 @@
         <entry encoding="base64">XDxhY2NvdW50bnVtYmVyXD4=</entry>
         <entry encoding="base64">XDxhY2NvdW50TnVtYmVyXD4=</entry>
         <entry encoding="base64">XDx0b0FjY291bnRcPg==</entry>
+        <entry encoding="base64">XDxkYXRlXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLyA9IE5vbmUvLw==</entry>

@@ -37,8 +37,8 @@
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" timestamp="1535442957801">
-        <mark key="'" line="25" column="15" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" timestamp="1535622964794">
+        <mark key="'" line="577" column="19" />
         <mark key="[" line="16" column="0" />
         <mark key="]" line="16" column="0" />
         <mark key="." line="16" column="0" />
@@ -212,9 +212,9 @@
         <mark key="." line="924" column="110" />
         <mark key="^" line="924" column="110" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" timestamp="1535622230497">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" timestamp="1535623411019">
         <mark key="'" line="74" column="13" />
-        <mark key="[" line="717" column="69" />
+        <mark key="[" line="373" column="64" />
         <mark key="]" line="601" column="70" />
         <mark key="." line="601" column="70" />
         <mark key="^" line="601" column="70" />
@@ -331,7 +331,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="787" column="55" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="810" column="17" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="901" column="125" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="533" column="56" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
@@ -431,6 +430,7 @@
       <jump line="366" column="32" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="73" column="42" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TransactionController.java" />
       <jump line="38" column="23" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/transaction/Transaction.java" />
+      <jump line="577" column="19" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -496,7 +496,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx0YXhcPg==</text>
+        <text encoding="base64">XDxpbmNvbWluZ1RyYW5zYWN0aW9uRm9ybVw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygnb25UeFR5cGVDaGFuZ2UgJW8nLCB0aGlzLnRyYW5zYWN0aW9uLmFtb3VudCk7Cg==</text>
@@ -626,9 +626,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx0YXhcPg==</last-search>
+      <last-search encoding="base64">XDxpbmNvbWluZ1RyYW5zYWN0aW9uRm9ybVw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx0YXhcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxpbmNvbWluZ1RyYW5zYWN0aW9uRm9ybVw+</last-pattern>
       <last-replace>inTransaction</last-replace>
       <last-substitute encoding="base64">XDxibGFcPg==</last-substitute>
       <last-dir>1</last-dir>
@@ -636,7 +636,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxjbGFpbUNhc2VcPg==</entry>
         <entry encoding="base64">XDxxXD4=</entry>
         <entry encoding="base64">XDxfc2V0TmV4dEF2YWlsYWJsZVBheW1lbnREYXRlXD4=</entry>
         <entry encoding="base64">XDxzZXRMb2NhdGlvbkRhdGFcPg==</entry>
@@ -656,6 +655,7 @@
         <entry encoding="base64">XDx0YXhUcmFuc2FjdGlvblRvZ2dsZVw+</entry>
         <entry encoding="base64">XDxvdXRnb2luZ1RyYW5zYWN0aW9uU2VydmljZVw+</entry>
         <entry encoding="base64">XDx0YXhcPg==</entry>
+        <entry encoding="base64">XDxpbmNvbWluZ1RyYW5zYWN0aW9uRm9ybVw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1xbMFxdL1xbMVxdLw==</entry>

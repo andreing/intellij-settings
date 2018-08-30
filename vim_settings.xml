@@ -37,8 +37,8 @@
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" timestamp="1535622964794">
-        <mark key="'" line="577" column="19" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" timestamp="1535625501074">
+        <mark key="'" line="603" column="223" />
         <mark key="[" line="16" column="0" />
         <mark key="]" line="16" column="0" />
         <mark key="." line="16" column="0" />
@@ -331,15 +331,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="810" column="17" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="901" column="125" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="533" column="56" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="23" column="9" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="34" column="77" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="43" column="9" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="58" column="19" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="160" column="24" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
-      <jump line="192" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="585" column="45" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="161" column="21" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
       <jump line="178" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" />
@@ -431,6 +422,15 @@
       <jump line="73" column="42" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/TransactionController.java" />
       <jump line="38" column="23" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/transaction/Transaction.java" />
       <jump line="577" column="19" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" />
+      <jump line="589" column="11" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" />
+      <jump line="599" column="41" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" />
+      <jump line="588" column="11" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" />
+      <jump line="598" column="40" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" />
+      <jump line="614" column="19" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" />
+      <jump line="595" column="66" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" />
+      <jump line="601" column="22" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" />
+      <jump line="600" column="44" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" />
+      <jump line="603" column="223" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -496,7 +496,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxpbmNvbWluZ1RyYW5zYWN0aW9uRm9ybVw+</text>
+        <text encoding="base64">XDx0cmFuc2FjdGlvblR5cGVJZFw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygnb25UeFR5cGVDaGFuZ2UgJW8nLCB0aGlzLnRyYW5zYWN0aW9uLmFtb3VudCk7Cg==</text>
@@ -626,9 +626,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxpbmNvbWluZ1RyYW5zYWN0aW9uRm9ybVw+</last-search>
+      <last-search encoding="base64">XDx0cmFuc2FjdGlvblR5cGVJZFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxpbmNvbWluZ1RyYW5zYWN0aW9uRm9ybVw+</last-pattern>
+      <last-pattern encoding="base64">XDx0cmFuc2FjdGlvblR5cGVJZFw+</last-pattern>
       <last-replace>inTransaction</last-replace>
       <last-substitute encoding="base64">XDxibGFcPg==</last-substitute>
       <last-dir>1</last-dir>
@@ -636,19 +636,15 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxxXD4=</entry>
-        <entry encoding="base64">XDxfc2V0TmV4dEF2YWlsYWJsZVBheW1lbnREYXRlXD4=</entry>
         <entry encoding="base64">XDxzZXRMb2NhdGlvbkRhdGFcPg==</entry>
         <entry encoding="base64">XDxwYXJzZVVybFBhcmFtZXRlcnNcPg==</entry>
         <entry encoding="base64">XDxnZXRDbGFpbUhlYWRlclw+</entry>
         <entry encoding="base64">XDx0cmFuc2FjdGlvbmFsSW5mb1w+</entry>
-        <entry encoding="base64">XDx0cmFuc2FjdGlvblN1bVw+</entry>
         <entry encoding="base64">XDxmaWx0ZXJUeFR5cGVzXD4=</entry>
         <entry encoding="base64">XDxnZXRSb2xlc1w+</entry>
         <entry encoding="base64">XDxnZXREZWZhdWx0Q2xhaW1zSGFuZGxpbmdDb21wYW55XD4=</entry>
         <entry encoding="base64">XDx1bmZpbHRlcmVkVHJhbnNhY3Rpb25UeXBlc1w+</entry>
         <entry encoding="base64">XDxnZXRUcmFuc2FjdGlvblR5cGVzXD4=</entry>
-        <entry encoding="base64">XDx0cmFuc2FjdGlvblR5cGVJZFw+</entry>
         <entry encoding="base64">XDxvblRyYW5zYWN0aW9uVHlwZUNoYW5nZVw+</entry>
         <entry encoding="base64">XDxzdWJUeEZhY3RvcnlcPg==</entry>
         <entry encoding="base64">XDxpbnRlcmVzdFw+</entry>
@@ -656,6 +652,10 @@
         <entry encoding="base64">XDxvdXRnb2luZ1RyYW5zYWN0aW9uU2VydmljZVw+</entry>
         <entry encoding="base64">XDx0YXhcPg==</entry>
         <entry encoding="base64">XDxpbmNvbWluZ1RyYW5zYWN0aW9uRm9ybVw+</entry>
+        <entry encoding="base64">XDx0cmFuc2FjdGlvblN1bVw+</entry>
+        <entry encoding="base64">XDxsaW5rZWRFdmVudElkXD4=</entry>
+        <entry encoding="base64">XDxvdXRnb2luZ1RyYW5zYWN0aW9uRm9ybVw+</entry>
+        <entry encoding="base64">XDx0cmFuc2FjdGlvblR5cGVJZFw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL1xbMFxdL1xbMVxdLw==</entry>

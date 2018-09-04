@@ -26,6 +26,12 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header-ctrl.js" timestamp="1535629827855">
         <mark key="'" line="597" column="12" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/common/account-number-validators.js" timestamp="1534763021297">
+        <mark key="[" line="104" column="84" />
+        <mark key="]" line="96" column="55" />
+        <mark key="." line="96" column="55" />
+        <mark key="^" line="96" column="55" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/tax-transaction.html" timestamp="1536063636612">
         <mark key="'" line="48" column="4" />
         <mark key="[" line="48" column="0" />
@@ -39,12 +45,30 @@
         <mark key="^" line="208" column="7" />
         <mark key="." line="208" column="7" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts-outgoing.html" timestamp="1536067251972">
-        <mark key="'" line="89" column="8" />
-        <mark key="[" line="89" column="28" />
-        <mark key="]" line="89" column="27" />
-        <mark key="." line="89" column="27" />
-        <mark key="^" line="89" column="27" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.module.js" timestamp="1536068034517">
+        <mark key="[" line="3" column="94" />
+        <mark key="]" line="7" column="65" />
+        <mark key="." line="7" column="65" />
+        <mark key="^" line="7" column="65" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts-outgoing.html" timestamp="1536068089129">
+        <mark key="'" line="90" column="8" />
+        <mark key="[" line="69" column="112" />
+        <mark key="]" line="68" column="51" />
+        <mark key="." line="68" column="51" />
+        <mark key="^" line="68" column="51" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/claim-header-damage-info-simple-ctrl.js" timestamp="1532095459995">
+        <mark key="[" line="72" column="81" />
+        <mark key="]" line="72" column="101" />
+        <mark key="." line="72" column="101" />
+        <mark key="^" line="72" column="101" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/common/angular-filters.js" timestamp="1534257904920">
+        <mark key="[" line="354" column="38" />
+        <mark key="]" line="355" column="66" />
+        <mark key="^" line="355" column="66" />
+        <mark key="." line="355" column="66" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/sub-transaction.js" timestamp="1535614734778">
         <mark key="'" line="58" column="8" />
@@ -56,6 +80,12 @@
         <mark key="'" line="49" column="72" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/TransactionJdbcDao.java" timestamp="1536054187159" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/WRRClaimAssigner.java" timestamp="1531139275492">
+        <mark key="[" line="99" column="17" />
+        <mark key="]" line="100" column="19" />
+        <mark key="." line="100" column="19" />
+        <mark key="^" line="100" column="19" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.ctrl.js" timestamp="1536066587430">
         <mark key="'" line="95" column="8" />
         <mark key="[" line="94" column="14" />
@@ -87,25 +117,62 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-routes.js" timestamp="1534252125879">
         <mark key="'" line="4" column="62" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/incoming/create-incoming-payment.html" timestamp="1535552261463">
+        <mark key="[" line="93" column="0" />
+        <mark key="]" line="93" column="0" />
+        <mark key="^" line="112" column="30" />
+        <mark key="." line="93" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/transaction/OutgoingTransaction.java" timestamp="1535025083658">
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="5" column="3" />
+        <mark key="^" line="5" column="3" />
+        <mark key="." line="5" column="3" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/update-reserves.js" timestamp="1535460876436">
         <mark key="'" line="147" column="51" />
         <mark key="[" line="4" column="0" />
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.directive.js" timestamp="1536057132918">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/TransactionDaoTools.java" timestamp="1535024425751">
+        <mark key="[" line="96" column="8" />
+        <mark key="]" line="100" column="42" />
+        <mark key="^" line="100" column="42" />
+        <mark key="." line="100" column="42" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.directive.js" timestamp="1536068499504">
+        <mark key="[" line="26" column="32" />
+        <mark key="]" line="25" column="34" />
+        <mark key="." line="25" column="34" />
+        <mark key="^" line="25" column="34" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/admin/edit-other-online.js" timestamp="1532094673969">
+        <mark key="[" line="23" column="50" />
+        <mark key="]" line="23" column="48" />
+        <mark key="." line="23" column="48" />
+        <mark key="^" line="23" column="48" />
       </file>
       <file name="/fragment.js" timestamp="1536058328303">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/WRRSelector.java" timestamp="1531212614723">
+        <mark key="[" line="33" column="74" />
+        <mark key="]" line="34" column="7" />
+        <mark key="^" line="34" column="7" />
+        <mark key="." line="34" column="7" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-multi.html" timestamp="1536066754233">
         <mark key="[" line="395" column="112" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/rest-api_6.http" timestamp="1536056053753">
         <mark key="[" line="0" column="82" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/assignment/ClaimAssigner.java" timestamp="1531135047040">
+        <mark key="[" line="38" column="7" />
+        <mark key="]" line="43" column="7" />
+        <mark key="^" line="43" column="7" />
+        <mark key="." line="43" column="7" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1536053866319">
         <mark key="'" line="0" column="0" />
@@ -114,14 +181,38 @@
         <mark key="^" line="348" column="70" />
         <mark key="." line="348" column="70" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/transaction/IncomingSubTransaction.java" timestamp="1535010840749">
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="." line="17" column="0" />
+        <mark key="^" line="6" column="43" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.module.js" timestamp="1535552219342">
         <mark key="[" line="4" column="66" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/tax-transaction.directive.js" timestamp="1536067093742">
-        <mark key="[" line="43" column="5" />
-        <mark key="]" line="44" column="3" />
-        <mark key="." line="44" column="3" />
-        <mark key="^" line="44" column="3" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/dashboard/navigation/navigation-directive.js" timestamp="1532096230386">
+        <mark key="[" line="19" column="60" />
+        <mark key="]" line="19" column="80" />
+        <mark key="." line="19" column="80" />
+        <mark key="^" line="19" column="80" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-content.html" timestamp="1534763126428">
+        <mark key="[" line="376" column="43" />
+        <mark key="]" line="360" column="43" />
+        <mark key="^" line="360" column="43" />
+        <mark key="." line="360" column="43" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/common/format-model-directive.js" timestamp="1531742447778">
+        <mark key="[" line="60" column="32" />
+        <mark key="]" line="40" column="0" />
+        <mark key="." line="40" column="0" />
+        <mark key="^" line="38" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/tax-transaction.directive.js" timestamp="1536068185042">
+        <mark key="[" line="16" column="23" />
+        <mark key="]" line="45" column="3" />
+        <mark key="." line="45" column="3" />
+        <mark key="^" line="45" column="3" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/rest-api_5.http" timestamp="1536055583836">
         <mark key="[" line="0" column="107" />
@@ -138,6 +229,24 @@
       <file name="/Claim_Transaction_Type [TESTProtect@test.sql.protector.local]" timestamp="1535618689105">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.resource.js" timestamp="1535460654892">
+        <mark key="[" line="41" column="0" />
+        <mark key="]" line="41" column="0" />
+        <mark key="^" line="17" column="73" />
+        <mark key="." line="41" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/admin/rr-admin-ctrl.js" timestamp="1532094889986">
+        <mark key="[" line="411" column="40" />
+        <mark key="]" line="411" column="60" />
+        <mark key="." line="411" column="60" />
+        <mark key="^" line="411" column="60" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/.jshintrc" timestamp="1532026347316">
+        <mark key="[" line="1" column="16" />
+        <mark key="]" line="1" column="16" />
+        <mark key="^" line="1" column="16" />
+        <mark key="." line="1" column="16" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/ContractService.java" timestamp="1534770773044">
         <mark key="'" line="200" column="68" />
       </file>
@@ -151,7 +260,19 @@
         <mark key="[" line="353" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/resources/application-dev.properties" timestamp="1536054858604" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" timestamp="1534333364542">
+        <mark key="[" line="228" column="46" />
+        <mark key="]" line="228" column="66" />
+        <mark key="." line="228" column="66" />
+        <mark key="^" line="228" column="66" />
+      </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/claims/ScheduledTasksController.java" timestamp="1536054528126" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/transactions.resource.js" timestamp="1535379626423">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="18" column="40" />
+        <mark key="." line="18" column="40" />
+        <mark key="^" line="18" column="40" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/transaction/OutgoingSubTransaction.java" timestamp="1534855034236">
         <mark key="'" line="6" column="4" />
         <mark key="[" line="6" column="35" />

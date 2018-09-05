@@ -229,6 +229,9 @@
         <mark key="^" line="34" column="7" />
         <mark key="." line="34" column="7" />
       </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/AuthenticationFilter.java" timestamp="1536145256818">
+        <mark key="'" line="35" column="39" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-multi.html" timestamp="1536066754233">
         <mark key="[" line="395" column="112" />
       </file>
@@ -443,7 +446,6 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/accounting/AccountingService.java" timestamp="1536054278725" />
     </filemarks>
     <jumps>
-      <jump line="35" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/sub-transaction.js" />
       <jump line="10" column="157" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts-outgoing.html" />
       <jump line="14" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts-outgoing.directive.js" />
       <jump line="34" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.ctrl.js" />
@@ -543,6 +545,7 @@
       <jump line="102" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts-outgoing.html" />
       <jump line="90" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts-outgoing.html" />
       <jump line="106" column="42" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.ctrl.js" />
+      <jump line="35" column="39" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/AuthenticationFilter.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -608,7 +611,7 @@
         <text>e</text>
       </register>
       <register name="/" type="4">
-        <text>this\.transaction</text>
+        <text encoding="base64">XDxleHRlcm5hbFVzZXJSZXN0U2VydmljZVw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaXMub3V0Z29pbmdUeFR5cGVzID0gdGhpcy5maWx0ZXJUeFR5cGVzKHRoaXMudHJhbnNhY3Rpb25UeXBlSWQsIHR4VHlwZXMpOwo=</text>
@@ -738,9 +741,9 @@
       </register>
     </registers>
     <search>
-      <last-search>this\.transaction</last-search>
+      <last-search encoding="base64">XDxleHRlcm5hbFVzZXJSZXN0U2VydmljZVw+</last-search>
       <last-offset />
-      <last-pattern>this\.transaction</last-pattern>
+      <last-pattern encoding="base64">XDxleHRlcm5hbFVzZXJSZXN0U2VydmljZVw+</last-pattern>
       <last-replace>sub</last-replace>
       <last-substitute>this\.transaction</last-substitute>
       <last-dir>1</last-dir>
@@ -748,7 +751,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx0YXhUcmFuc2FjdGlvblRvZ2dsZVw+</entry>
         <entry encoding="base64">XDxvdXRnb2luZ1RyYW5zYWN0aW9uU2VydmljZVw+</entry>
         <entry encoding="base64">XDx0YXhcPg==</entry>
         <entry encoding="base64">XDxpbmNvbWluZ1RyYW5zYWN0aW9uRm9ybVw+</entry>
@@ -768,6 +770,7 @@
         <entry encoding="base64">XDxpc1ZhbGlkVGF4VmFsdWVcPg==</entry>
         <entry encoding="base64">XDxwYXJlbnRGb3JtXD4=</entry>
         <entry>this\.transaction</entry>
+        <entry encoding="base64">XDxleHRlcm5hbFVzZXJSZXN0U2VydmljZVw+</entry>
       </history-search>
       <history-cmd>
         <entry>s/$scope\./vm\./g</entry>

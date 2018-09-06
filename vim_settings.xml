@@ -67,11 +67,11 @@
         <mark key="." line="7" column="65" />
         <mark key="^" line="7" column="65" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts-outgoing.html" timestamp="1536229538133">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts-outgoing.html" timestamp="1536231631967">
         <mark key="'" line="60" column="66" />
-        <mark key="[" line="109" column="77" />
-        <mark key="]" line="109" column="28" />
-        <mark key="." line="109" column="28" />
+        <mark key="[" line="20" column="79" />
+        <mark key="]" line="20" column="79" />
+        <mark key="." line="20" column="79" />
         <mark key="^" line="109" column="28" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/claim-header-damage-info-simple-ctrl.js" timestamp="1532095459995">
@@ -184,6 +184,12 @@
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-routes.js" timestamp="1534252125879">
         <mark key="'" line="4" column="62" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/common/ProtectorCommons.js" timestamp="1536232189821">
+        <mark key="[" line="459" column="81" />
+        <mark key="]" line="466" column="41" />
+        <mark key="." line="466" column="41" />
+        <mark key="^" line="466" column="41" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/incoming/create-incoming-payment.html" timestamp="1535552261463">
         <mark key="[" line="93" column="0" />
@@ -558,8 +564,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICA8ZGl2IGNsYXNzPSJjb2wtbWQtMiI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZvcm0tZ3JvdXAiIG5nLWNsYXNzPSJ7J2hhcy1lcnJvcicgOiBwYXltZW50Rm9ybS5kdWVkYXRlLiRpbnZhbGlkICAmJiBwYXltZW50Rm9ybS4kc3VibWl0dGVkfSI+CiAgICAgICAgICAgICAgICA8bGFiZWwgZm9yPSJkYXRlQW5jaG9yIj48c3BhbiBlZGl0LXRyYW5zbGF0aW9uPSJjcmVhdGVPdXRnb2luZ1BheW1lbnQuZHVlRGF0ZSI+Rm9yZmFsbHNkYXRvPC9zcGFuPjoKICAgICAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJpbnB1dC1ncm91cCI+CiAgICAgICAgICAgICAgICAgICAgPGlucHV0IGlkPSJkYXRlQW5jaG9yIgogICAgICAgICAgICAgICAgICAgICAgICAgICBqcXVlcnktZGF0ZXBpY2tlcj0iIgogICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlPSJ0ZXh0IgogICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhsZW5ndGg9IjEwIgogICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplPSIxNiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3M9ImZvcm0tY29udHJvbCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT0iZHVlZGF0ZSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluLWRhdGU9InZtLm1pbkRhdGUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgIG91dGdvaW5nLXBheW1lbnQtZGF0ZXM9Int7IXZtLm91dGdvaW5nVHJhbnNhY3Rpb24udXJnZW50UGF5bWVudH19IgogICAgICAgICAgICAgICAgICAgICAgICAgICBuZy1tb2RlbD0idm0ub3V0Z29pbmdUcmFuc2FjdGlvbi5kYXRlIgogICAgICAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iREQuTU0uWVlZWSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgbmctcmVxdWlyZWQ9InRydWUiLz4KICAgICAgICAgICAgICAgICAgICA8bGFiZWwgZm9yPSJkYXRlQW5jaG9yIiBjbGFzcz0iaW5wdXQtZ3JvdXAtYWRkb24gYnRuIGJ0bi1kZWZhdWx0IGFkZC1vbiI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzPSJnbHlwaGljb24gZ2x5cGhpY29uLWNhbGVuZGFyIj48L2k+CiAgICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPHNwYW4gbmctc2hvdz0icGF5bWVudEZvcm0uZHVlZGF0ZS4kaW52YWxpZCAmJiBwYXltZW50Rm9ybS4kc3VibWl0dGVkIgogICAgICAgICAgICAgICAgICAgICAgY2xhc3M9ImhlbHAtYmxvY2sgcmVxdWlyZWQtdHh0LWNvbG9yIiBzdHlsZT0iY29sb3I6ZGFya3JlZCIKICAgICAgICAgICAgICAgICAgICAgIGVkaXQtdHJhbnNsYXRpb249ImNyZWF0ZU91dGdvaW5nUGF5bWVudC5lcnJvckR1ZURhdGUiPkZvcmZhbGxzZGF0byBlciBww6VrcmV2ZXQuPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGxhYmVsIG5nLXNob3c9InZtLmNsYWltSGVhZGVyLmNvdW50cnkgPT09IDUgIj4KICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJjaGVja2JveCIgbmctY2xpY2s9InZtLm91dGdvaW5nVHJhbnNhY3Rpb24uZGF0ZSA9IG51bGwiCiAgICAgICAgICAgICAgICAgICAgICAgbmctbW9kZWw9InZtLm91dGdvaW5nVHJhbnNhY3Rpb24udXJnZW50UGF5bWVudCI+CiAgICAgICAgICAgICAgICA8c3BhbiBlZGl0LXRyYW5zbGF0aW9uPSJjcmVhdGVPdXRnb2luZ1BheW1lbnQudXJnZW50UGF5bWVudCI+VXJnZW50IHBheW1lbnQ8L3NwYW4+CiAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgPC9kaXY+Cg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IG1heGZsb2F0PSJzdWIubWF4VmFsdWUi</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -612,7 +618,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>this.outgoingTransaction.type.id</text>
+        <text encoding="base64">IG1heGZsb2F0PSJzdWIubWF4VmFsdWUi</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxtYXh2YWx1ZVw+</text>

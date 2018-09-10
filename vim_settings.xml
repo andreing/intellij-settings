@@ -66,9 +66,9 @@
         <mark key="]" line="348" column="0" />
         <mark key="." line="348" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/togglz/ClaimsFeatures.java" timestamp="1536572716286">
+      <file name="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/togglz/ClaimsFeatures.java" timestamp="1536573998493">
         <mark key="'" line="9" column="4" />
-        <mark key="[" line="49" column="25" />
+        <mark key="[" line="49" column="31" />
         <mark key="]" line="49" column="30" />
         <mark key="." line="49" column="30" />
         <mark key="^" line="49" column="30" />
@@ -159,12 +159,11 @@
         <mark key="^" line="264" column="50" />
         <mark key="." line="264" column="50" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/transaction-list.js" timestamp="1535701228969">
-        <mark key="'" line="329" column="18" />
-        <mark key="[" line="321" column="84" />
-        <mark key="]" line="321" column="57" />
-        <mark key="^" line="321" column="57" />
-        <mark key="." line="321" column="57" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/transaction-list.js" timestamp="1536574890080">
+        <mark key="'" line="321" column="24" />
+        <mark key="[" line="1" column="104" />
+        <mark key="]" line="325" column="0" />
+        <mark key="." line="325" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment.html" timestamp="1536321928063">
         <mark key="'" line="197" column="23" />
@@ -273,9 +272,9 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" timestamp="1536572536181">
         <mark key="'" line="246" column="17" />
         <mark key="[" line="465" column="5" />
-        <mark key="]" line="469" column="16" />
-        <mark key="." line="469" column="16" />
-        <mark key="^" line="469" column="16" />
+        <mark key="]" line="467" column="16" />
+        <mark key="." line="467" column="16" />
+        <mark key="^" line="467" column="16" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9687894a-0f49-472d-9fa9-dcdbab8d1841/console.sql" timestamp="1534427594823">
         <mark key="[" line="353" column="0" />
@@ -286,6 +285,12 @@
         <mark key="]" line="9" column="7" />
         <mark key="." line="9" column="0" />
         <mark key="^" line="3" column="3" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/validator/accountnumber/uk/UkAccountNumberValidator.java" timestamp="1536574013220">
+        <mark key="[" line="25" column="68" />
+        <mark key="]" line="25" column="0" />
+        <mark key="^" line="25" column="0" />
+        <mark key="." line="25" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-routes.js" timestamp="1534252125879">
         <mark key="'" line="4" column="62" />
@@ -327,9 +332,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="51" column="21" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
-      <jump line="469" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
-      <jump line="684" column="7" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
       <jump line="490" column="22" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
       <jump line="68" column="13" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
       <jump line="79" column="13" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
@@ -427,6 +429,9 @@
       <jump line="557" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
       <jump line="246" column="17" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
       <jump line="9" column="4" filename="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/togglz/ClaimsFeatures.java" />
+      <jump line="322" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/transaction-list.js" />
+      <jump line="324" column="20" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/transaction-list.js" />
+      <jump line="321" column="24" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/transaction-list.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -436,7 +441,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICB0b2dnbHpGYWN0b3J5LmFjdGl2ZSgnSU5WT0lDRV9EQVRBJykudGhlbihpc0FjdGl2ZSA9PiAkc2NvcGUuaGlkZGVuVGFiWzExXSA9ICFpc0FjdGl2ZSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy8gc2NvcGUuJGVtaXQoJ3Nob3dPdXRnb2luZycse2NsYWltSWQ6Y2xhaW1JZCwgdHJhbnNJZDp0cmFuc0lkfSk7CiAgICAgICAgICAgIHNjb3BlLiRlbWl0KCdzaG93T3V0Z29pbmcnLHtjbGFpbUlkOmNsYWltSWQsIHRyYW5zSWQ6dHJhbnNJZCwgbXVsdGk6dHJ1ZX0pOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -495,10 +500,10 @@
         <text encoding="base64">XDxJTlZPSUNFX0RBVEFcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB0b2dnbHpGYWN0b3J5LmFjdGl2ZSgnSU5WT0lDRV9EQVRBJykudGhlbihpc0FjdGl2ZSA9PiAkc2NvcGUuaGlkZGVuVGFiWzExXSA9ICFpc0FjdGl2ZSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2NvcGUuJGVtaXQoJ3Nob3dPdXRnb2luZycse2NsYWltSWQ6Y2xhaW1JZCwgdHJhbnNJZDp0cmFuc0lkLCBtdWx0aTp0cnVlfSk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy8gc2NvcGUuJGVtaXQoJ3Nob3dPdXRnb2luZycse2NsYWltSWQ6Y2xhaW1JZCwgdHJhbnNJZDp0cmFuc0lkfSk7CiAgICAgICAgICAgIHNjb3BlLiRlbWl0KCdzaG93T3V0Z29pbmcnLHtjbGFpbUlkOmNsYWltSWQsIHRyYW5zSWQ6dHJhbnNJZCwgbXVsdGk6dHJ1ZX0pOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -544,19 +549,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEBMYWJlbCgiIikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAvL1RPRE8gY2hlY2sgdGhhdCB0aGlzIGlzIGNvcnJlY3Qgd2l0aCB0aGUgb2xkIGNvZGUKICAgICAgICAKICAgICAgICBjb3VudHJ5PTIgfCBTRXR4IHwgU0V0eHR5cGUhPSdiYW5rJyB8IE9VVAogICAgICAgIDAgICAgICAgICB8IDAgICAgfCAwICAgICAgICAgICAgICAgIHwgMQogICAgICAgIDAgICAgICAgICB8IDAgICAgfCAxICAgICAgICAgICAgICAgIHwgMQogICAgICAgIDAgICAgICAgICB8IDEgICAgfCAwICAgICAgICAgICAgICAgIHwgMQogICAgICAgIDAgICAgICAgICB8IDEgICAgfCAxICAgICAgICAgICAgICAgIHwgMQogICAgICAgIDEgICAgICAgICB8IDAgICAgfCAwICAgICAgICAgICAgICAgIHwgMQogICAgICAgIDEgICAgICAgICB8IDAgICAgfCAxICAgICAgICAgICAgICAgIHwgMQogICAgICAgIDEgICAgICAgICB8IDEgICAgfCAwICAgICAgICAgICAgICAgIHwgMAogICAgICAgIDEgICAgICAgICB8IDEgICAgfCAxICAgICAgICAgICAgICAgIHwgMQogICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAvL1RPRE8gY2hlY2sgdGhhdCB0aGlzCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiAoJHNjb3BlLmNsYWltQ2FzZS5jb3VudHJ5ID09PSAyICYmICRzY29wZS5zd2VkaXNoVHJhbnNhY3Rpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuICRzY29wZS5zd2VkaXNoVHJhbnNhY3Rpb24udHJhbnNmZXJUeXBlICE9PSAnYmFuayc7CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgICAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgIEBMYWJlbCgiIikK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAvL1RPRE8gY2hlY2sgdGhhdCB0aGlzIGlzIGNvcnJlY3Qgd2l0aCB0aGUgb2xkIGNvZGUKICAgICAgICAKICAgICAgICBjb3VudHJ5PTIgfCBTRXR4IHwgU0V0eHR5cGUhPSdiYW5rJyB8IE9VVAogICAgICAgIDAgICAgICAgICB8IDAgICAgfCAwICAgICAgICAgICAgICAgIHwgMQogICAgICAgIDAgICAgICAgICB8IDAgICAgfCAxICAgICAgICAgICAgICAgIHwgMQogICAgICAgIDAgICAgICAgICB8IDEgICAgfCAwICAgICAgICAgICAgICAgIHwgMQogICAgICAgIDAgICAgICAgICB8IDEgICAgfCAxICAgICAgICAgICAgICAgIHwgMQogICAgICAgIDEgICAgICAgICB8IDAgICAgfCAwICAgICAgICAgICAgICAgIHwgMQogICAgICAgIDEgICAgICAgICB8IDAgICAgfCAxICAgICAgICAgICAgICAgIHwgMQogICAgICAgIDEgICAgICAgICB8IDEgICAgfCAwICAgICAgICAgICAgICAgIHwgMAogICAgICAgIDEgICAgICAgICB8IDEgICAgfCAxICAgICAgICAgICAgICAgIHwgMQogICAgICAgIAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -609,13 +614,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAvL1RPRE8gY2hlY2sgdGhhdCB0aGlzCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiAoJHNjb3BlLmNsYWltQ2FzZS5jb3VudHJ5ID09PSAyICYmICRzY29wZS5zd2VkaXNoVHJhbnNhY3Rpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuICRzY29wZS5zd2VkaXNoVHJhbnNhY3Rpb24udHJhbnNmZXJUeXBlICE9PSAnYmFuayc7CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgICAgICAgICAgY29uc3QgaXNFbXB0eSA9IGZ1bmN0aW9uIChvYmplY3QpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIE9iamVjdC5nZXRPd25Qcm9wZXJ0eU5hbWVzKG9iamVjdCkubGVuZ3RoID09PSAwOwoKICAgICAgICAgICAgICAgICAgICB9OwoKICAgICAgICAgICAgICAgICAgICBjb25zdCB2YWxpZGF0ZSA9IGZ1bmN0aW9uICh2aWV3VmFsdWUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGtpZFZhbGlkYXRpb25TZXJ2aWNlLnZhbGlkYXRlS2lkKHZpZXdWYWx1ZSwgc2NvcGUuY2xhaW1DYXNlLmNvdW50cnkpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdHJsLiRzZXRWYWxpZGl0eSgna2lkJywgdHJ1ZSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gdmlld1ZhbHVlOwogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY3RybC4kc2V0VmFsaWRpdHkoJ2tpZCcsIGZhbHNlKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiB1bmRlZmluZWQ7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9OwogICAgICAgICAgICAgICAgICAgIGNvbnN0IHVucmVnV2F0Y2ggPSBzY29wZS4kd2F0Y2goJ2NsYWltQ2FzZScsIGZ1bmN0aW9uICh3YXRjaGVkU2NvcGUpIHsgLy9UT0RPIG9oIGxvcmQuLi4KICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGFuZ3VsYXIuaXNEZWZpbmVkKHdhdGNoZWRTY29wZSkgJiYgIWlzRW1wdHkod2F0Y2hlZFNjb3BlKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY3RybC4kcGFyc2Vycy51bnNoaWZ0KHZhbGlkYXRlKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN0cmwuJGZvcm1hdHRlcnMudW5zaGlmdCh2YWxpZGF0ZSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB1bnJlZ1dhdGNoKCk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9KTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zL3RoaXNcLnRyYW5zYWN0aW9uL3N1Yi9n</text>

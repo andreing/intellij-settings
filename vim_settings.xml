@@ -6,8 +6,8 @@
       <file name="/fragment.js" timestamp="1536058328303">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/AuthenticationFilter.java" timestamp="1536145256818">
-        <mark key="'" line="35" column="39" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/AuthenticationFilter.java" timestamp="1536765003273">
+        <mark key="'" line="125" column="30" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/claim-header-damage-info-health-ctrl.js" timestamp="1532095123115">
         <mark key="'" line="87" column="55" />
@@ -155,12 +155,6 @@
         <mark key="^" line="264" column="50" />
         <mark key="." line="264" column="50" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/transaction-list.js" timestamp="1536574890080">
-        <mark key="'" line="321" column="24" />
-        <mark key="[" line="1" column="104" />
-        <mark key="]" line="325" column="0" />
-        <mark key="." line="325" column="0" />
-      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment.html" timestamp="1536590530525">
         <mark key="'" line="197" column="23" />
         <mark key="[" line="197" column="0" />
@@ -239,6 +233,9 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/ContractService.java" timestamp="1534770773044">
         <mark key="'" line="200" column="68" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/OutgoingTransactionCreator.java" timestamp="1536580506885">
+        <mark key="'" line="84" column="59" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/transaction-overview.js" timestamp="1535378903797">
         <mark key="'" line="0" column="141" />
         <mark key="[" line="0" column="151" />
@@ -257,6 +254,9 @@
       </file>
       <file name="/Dummy.txt" timestamp="1536149587814">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/user/SystemUserService.java" timestamp="1536765094612">
+        <mark key="'" line="61" column="12" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" timestamp="1534333646825">
         <mark key="'" line="136" column="38" />
@@ -316,12 +316,6 @@
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/update-reserves.js" timestamp="1536588914855">
-        <mark key="'" line="147" column="51" />
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
-      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.directive.js" timestamp="1536068499504">
         <mark key="[" line="26" column="32" />
         <mark key="]" line="25" column="34" />
@@ -343,17 +337,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="287" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
-      <jump line="288" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
-      <jump line="289" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
-      <jump line="290" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
-      <jump line="953" column="20" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
-      <jump line="557" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
-      <jump line="9" column="4" filename="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/togglz/ClaimsFeatures.java" />
-      <jump line="322" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/transaction-list.js" />
-      <jump line="324" column="20" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/transaction-list.js" />
-      <jump line="321" column="24" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/transaction-list.js" />
-      <jump line="0" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/9687894a-0f49-472d-9fa9-dcdbab8d1841/console.sql" />
       <jump line="438" column="13" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
       <jump line="535" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
       <jump line="458" column="31" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
@@ -443,6 +426,17 @@
       <jump line="734" column="38" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
       <jump line="10" column="26" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
+      <jump line="8" column="29" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/AuthenticationFilter.java" />
+      <jump line="31" column="36" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/AuthenticationFilter.java" />
+      <jump line="34" column="140" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/AuthenticationFilter.java" />
+      <jump line="37" column="33" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/AuthenticationFilter.java" />
+      <jump line="125" column="30" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/AuthenticationFilter.java" />
+      <jump line="58" column="18" filename="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/user/SystemUserService.java" />
+      <jump line="60" column="25" filename="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/user/SystemUserService.java" />
+      <jump line="70" column="25" filename="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/user/SystemUserService.java" />
+      <jump line="88" column="19" filename="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/user/SystemUserService.java" />
+      <jump line="83" column="17" filename="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/user/SystemUserService.java" />
+      <jump line="61" column="12" filename="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/user/SystemUserService.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -508,7 +502,7 @@
         <text>(</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx3aW5kb3dcPg==</text>
+        <text encoding="base64">XDxzZXRQaWFVc2VyVG9rZW5cPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIDxzcGFuIG5nLXNob3c9InBheW1lbnRGb3JtLmFtb3VudC4kZXJyb3IubWF4dmFsdWUiIGNsYXNzPSJoZWxwLWJsb2NrIHJlcXVpcmVkLXR4dC1jb2xvciIgZWRpdC10cmFuc2xhdGlvbj0iY3JlYXRlT3V0Z29pbmdQYXltZW50LmV4Y2VlZHNSZXNlcnZlIj5PdmVyc3RpZ2VyIHJlc2VydmU8L3NwYW4+Cg==</text>
@@ -638,9 +632,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx3aW5kb3dcPg==</last-search>
+      <last-search encoding="base64">XDxzZXRQaWFVc2VyVG9rZW5cPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx3aW5kb3dcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxzZXRQaWFVc2VyVG9rZW5cPg==</last-pattern>
       <last-replace />
       <last-substitute encoding="base64">XDxfaXNQb3N0QWRkcmVzc1w+</last-substitute>
       <last-dir>1</last-dir>
@@ -648,11 +642,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx0b3RhbEFtb3VudFw+</entry>
-        <entry encoding="base64">XDxzdWJtaXRUcmFuc2FjdGlvbkZvcm1cPg==</entry>
-        <entry encoding="base64">XDx2YWxpZGF0ZVw+</entry>
-        <entry encoding="base64">XDxwYXltZW50Rm9ybVw+</entry>
-        <entry encoding="base64">XDxpc1dvcmtJbmp1cnlcPg==</entry>
         <entry encoding="base64">XDxjbGFpbXNcPg==</entry>
         <entry encoding="base64">XDxvblBhcnR5Q2hhbmdlXD4=</entry>
         <entry encoding="base64">XDxvblRyYW5zYWN0aW9uVHlwZUNoYW5nZVw+</entry>
@@ -668,6 +657,11 @@
         <entry encoding="base64">XDxodHRwXD4=</entry>
         <entry encoding="base64">XDxyb290U2NvcGVcPg==</entry>
         <entry encoding="base64">XDx3aW5kb3dcPg==</entry>
+        <entry encoding="base64">XDxTeXN0ZW1Vc2VyU2VydmljZVw+</entry>
+        <entry encoding="base64">XDxzeXN0ZW1Vc2VyU2VydmljZVw+</entry>
+        <entry encoding="base64">XDxnZXRQaWFTeXN0ZW1Vc2VyVG9rZW5cPg==</entry>
+        <entry encoding="base64">XDxmZXRjaFRva2VuRnJvbVVzZXJTZXJ2aWNlXD4=</entry>
+        <entry encoding="base64">XDxzZXRQaWFVc2VyVG9rZW5cPg==</entry>
       </history-search>
       <history-cmd>
         <entry>%s/\$scope\./vm\./g</entry>

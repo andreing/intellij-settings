@@ -345,6 +345,9 @@
       <file name="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimRegistrationService.java" timestamp="1537530077549">
         <mark key="'" line="73" column="12" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/event/events.html" timestamp="1537789186264">
+        <mark key="'" line="326" column="134" />
+      </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/ClaimsApiConfiguration.java" timestamp="1537775786034">
         <mark key="[" line="134" column="0" />
         <mark key="]" line="16" column="0" />
@@ -380,10 +383,6 @@
         <mark key="[" line="16" column="0" />
         <mark key="]" line="16" column="51" />
         <mark key="." line="16" column="0" />
-      </file>
-      <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/validation/FormSubmissionValidator.java" timestamp="1537532419810">
-        <mark key="'" line="8" column="28" />
-        <mark key="[" line="4" column="75" />
       </file>
       <file name="/Dummy.txt" timestamp="1537534246586">
         <mark key="[" line="0" column="0" />
@@ -425,8 +424,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="56" column="22" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
-      <jump line="130" column="32" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
       <jump line="21" column="9" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
       <jump line="33" column="63" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
       <jump line="41" column="9" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
@@ -525,6 +522,8 @@
       <jump line="58" column="13" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
       <jump line="88" column="68" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.ctrl.js" />
       <jump line="89" column="72" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/partial-amounts/partial-amounts.ctrl.js" />
+      <jump line="430" column="143" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events.html" />
+      <jump line="326" column="134" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events.html" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -590,7 +589,7 @@
         <text>String, Submission</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjbGFpbUlkXD4=</text>
+        <text encoding="base64">XDxjcmVhdGVOZXdMaW5rZWRUcmFuc2FjdGlvblw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgPHZlcnNpb24+MS4zLjU8L3ZlcnNpb24+Cg==</text>
@@ -720,9 +719,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjbGFpbUlkXD4=</last-search>
+      <last-search encoding="base64">XDxjcmVhdGVOZXdMaW5rZWRUcmFuc2FjdGlvblw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjbGFpbUlkXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxjcmVhdGVOZXdMaW5rZWRUcmFuc2FjdGlvblw+</last-pattern>
       <last-replace />
       <last-substitute encoding="base64">XDxfaXNQb3N0QWRkcmVzc1w+</last-substitute>
       <last-dir>1</last-dir>
@@ -730,7 +729,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx1c2VyU2VydmljZVw+</entry>
         <entry encoding="base64">XDxodHRwXD4=</entry>
         <entry encoding="base64">XDxyb290U2NvcGVcPg==</entry>
         <entry encoding="base64">XDx3aW5kb3dcPg==</entry>
@@ -750,6 +748,7 @@
         <entry encoding="base64">XDxpc1dvcmtJbmp1cnlcPg==</entry>
         <entry encoding="base64">XDxjbGFpbVR5cGVJZFw+</entry>
         <entry encoding="base64">XDxjbGFpbUlkXD4=</entry>
+        <entry encoding="base64">XDxjcmVhdGVOZXdMaW5rZWRUcmFuc2FjdGlvblw+</entry>
       </history-search>
       <history-cmd>
         <entry>%s/\$scope\./vm\./g</entry>

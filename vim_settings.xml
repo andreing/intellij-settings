@@ -407,6 +407,11 @@
         <mark key="]" line="39" column="0" />
         <mark key="." line="39" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/party/src/test/groovy/protector/claims/party/validator/publicid/PublicIdValidatorSpec.groovy" timestamp="1537876388511">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="." line="24" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/transaction/OutgoingSubTransaction.java" timestamp="1534855034236">
         <mark key="'" line="6" column="4" />
         <mark key="[" line="6" column="35" />
@@ -436,8 +441,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="46" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
-      <jump line="37" column="17" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
       <jump line="40" column="24" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
       <jump line="370" column="20" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/create-outgoing-payment-multi.html" />
       <jump line="734" column="38" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-ctrl.js" />
@@ -536,6 +539,8 @@
       <jump line="33" column="46" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment-multi.ctrl.js" />
       <jump line="157" column="12" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/pom.xml" />
       <jump line="162" column="12" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/pom.xml" />
+      <jump line="0" column="0" filename="$USER_HOME$/repos/claims/party/src/main/java/protector/claims/party/validator/publicid/PublicIdValidator.java" />
+      <jump line="24" column="8" filename="$USER_HOME$/repos/claims/party/src/test/groovy/protector/claims/party/validator/publicid/PublicIdValidatorSpec.groovy" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -544,8 +549,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>-e clean instal</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBDb3VudHJ5RW51bS5OT1JXQVkgfCAiOTQ4MDk1MjU0IiB8IHRydWUK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -604,10 +609,10 @@
         <text encoding="base64">XDxwdWJsaWNJZFZhbGlkYXRpb25TZXJ2aWNlXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgPHZlcnNpb24+Mi4yNS4xPC92ZXJzaW9uPgo=</text>
+        <text encoding="base64">ICAgICAgICBDb3VudHJ5RW51bS5OT1JXQVkgfCAiOTgzMDUzNjk2IiB8IHRydWUK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBDb3VudHJ5RW51bS5OT1JXQVkgfCAiOTQ4MDk1MjU0IiB8IHRydWUK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -652,20 +657,20 @@
           <key char="98" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="4">
         <text encoding="base64">ICAgICAgICA8ZGVwZW5kZW5jeT4KICAgICAgICAgICAgPGdyb3VwSWQ+aW8uZHJvcHdpemFyZC5tZXRyaWNzPC9ncm91cElkPgogICAgICAgICAgICA8YXJ0aWZhY3RJZD5tZXRyaWNzLWNvcmU8L2FydGlmYWN0SWQ+CiAgICAgICAgICAgIDx2ZXJzaW9uPjQuMC4yPC92ZXJzaW9uPgogICAgICAgIDwvZGVwZW5kZW5jeT4=</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICA8ZGVwZW5kZW5jaWVzPgo=</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICA8L2RlcGVuZGVuY2llcz4K</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICA8ZGVwZW5kZW5jeT4KICAgICAgICAgICAgPGdyb3VwSWQ+aW8uZHJvcHdpemFyZC5tZXRyaWNzPC9ncm91cElkPgogICAgICAgICAgICA8YXJ0aWZhY3RJZD5tZXRyaWNzLWNvcmU8L2FydGlmYWN0SWQ+CiAgICAgICAgICAgIDx2ZXJzaW9uPjQuMC4yPC92ZXJzaW9uPgogICAgICAgIDwvZGVwZW5kZW5jeT4K</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpblByb2dyZXNzU3RvcmUuZ2V0U3RyZWFtcygpLnN0YXJ0KCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICA8ZGVwZW5kZW5jeT4KICAgICAgICAgICAgPGdyb3VwSWQ+aW8uZHJvcHdpemFyZC5tZXRyaWNzPC9ncm91cElkPgogICAgICAgICAgICA8YXJ0aWZhY3RJZD5tZXRyaWNzLWNvcmU8L2FydGlmYWN0SWQ+CiAgICAgICAgICAgIDx2ZXJzaW9uPjQuMC4yPC92ZXJzaW9uPgogICAgICAgIDwvZGVwZW5kZW5jeT4K</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -718,13 +723,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">QFZhbGlkYXRlZAo=</text>
+        <text encoding="base64">ICAgICAgICBpblByb2dyZXNzU3RvcmUuZ2V0U3RyZWFtcygpLnN0YXJ0KCk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHRpbWVab25lOiAiRXVyb3BlL0NvcGVuaGFnZW4iCg==</text>
+        <text encoding="base64">QFZhbGlkYXRlZAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHRpbWVab25lOiAiRXVyb3BlL0NvcGVuaGFnZW4iCg==</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

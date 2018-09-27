@@ -22,6 +22,9 @@
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/service/GlassRequestHandler.java" timestamp="1538035820562">
+        <mark key="[" line="35" column="87" />
+      </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimFormsController.java" timestamp="1537533288263">
         <mark key="[" line="62" column="40" />
         <mark key="]" line="62" column="39" />
@@ -30,6 +33,12 @@
       </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/services/email/SendMailTask.java" timestamp="1537880044611">
         <mark key="'" line="99" column="34" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1538036314262">
+        <mark key="'" line="451" column="8" />
+        <mark key="]" line="349" column="13" />
+        <mark key="." line="349" column="13" />
+        <mark key="^" line="349" column="13" />
       </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/kafka/KafkaProperties.java" timestamp="1537886594402">
         <mark key="]" line="33" column="31" />
@@ -90,6 +99,7 @@
         <mark key="." line="125" column="41" />
         <mark key="^" line="125" column="41" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/accounting/AXTransactionExport.java" timestamp="1538034867035" />
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.resource.js" timestamp="1536741862281">
         <mark key="[" line="18" column="0" />
         <mark key="]" line="18" column="0" />
@@ -100,6 +110,7 @@
         <mark key="]" line="70" column="0" />
         <mark key="." line="70" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/TransactionJdbcDao.java" timestamp="1538035004830" />
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/kafka/KafkaService.java" timestamp="1537883483897">
         <mark key="[" line="28" column="41" />
         <mark key="]" line="28" column="29" />
@@ -143,6 +154,13 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
         <mark key="^" line="0" column="10" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9687894a-0f49-472d-9fa9-dcdbab8d1841/console.sql" timestamp="1538036317372">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="370" column="0" />
+        <mark key="]" line="366" column="5" />
+        <mark key="^" line="366" column="5" />
+        <mark key="." line="366" column="5" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/resources/application-dev.properties" timestamp="1537356063417">
         <mark key="[" line="51" column="0" />
@@ -189,7 +207,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="8" column="0" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/kafka/KafkaService.java" />
       <jump line="90" column="22" filename="$USER_HOME$/repos/claims/claims-mail-mode/src/main/java/protector/claims/mailprocessing/ClaimsEmailConsumerBootstrap.java" />
       <jump line="45" column="4" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/ClaimsApiApplication.java" />
       <jump line="146" column="8" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/ClaimsApiApplication.java" />
@@ -289,6 +306,7 @@
       <jump line="99" column="34" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/services/email/SendMailTask.java" />
       <jump line="327" column="21" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/repository/SubmissionRepository.java" />
       <jump line="125" column="21" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/repository/SubmissionRepository.java" />
+      <jump line="451" column="8" filename="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -354,7 +372,7 @@
         <text>pfsvnowebt01:5000</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx1cGRhdGVTdWJtaXNzaW9uSW5Qcm9ncmVzc1w+</text>
+        <text>$</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIDx2ZXJzaW9uPiR7a2Fma2EudmVyc2lvbn08L3ZlcnNpb24+Cg==</text>
@@ -480,21 +498,20 @@
         <text encoding="base64">ICAgICAgICAgICAgPCEtLTx2ZXJzaW9uPiR7Z2xhc3NmaXNoLmplcnNleS52ZXJzaW9ufTwvdmVyc2lvbj4tLT4K</text>
       </register>
       <register name=":" type="4">
-        <text>noh</text>
+        <text encoding="base64">JzwsJz5zLyQvLC8=</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx1cGRhdGVTdWJtaXNzaW9uSW5Qcm9ncmVzc1w+</last-search>
+      <last-search>$</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx1cGRhdGVTdWJtaXNzaW9uSW5Qcm9ncmVzc1w+</last-pattern>
-      <last-replace />
-      <last-substitute encoding="base64">XDxfaXNQb3N0QWRkcmVzc1w+</last-substitute>
+      <last-pattern>$</last-pattern>
+      <last-replace>,</last-replace>
+      <last-substitute>$</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxnZXRQaWFTeXN0ZW1Vc2VyVG9rZW5cPg==</entry>
         <entry encoding="base64">XDxmZXRjaFRva2VuRnJvbVVzZXJTZXJ2aWNlXD4=</entry>
         <entry encoding="base64">XDxzZXRQaWFVc2VyVG9rZW5cPg==</entry>
         <entry encoding="base64">XDxqZXJzZXlDbGllbnRcPg==</entry>
@@ -514,9 +531,9 @@
         <entry encoding="base64">XDxlbWFpbENsaWVudFw+</entry>
         <entry encoding="base64">XDxlbWFpbFNlbmRlclw+</entry>
         <entry encoding="base64">XDx1cGRhdGVTdWJtaXNzaW9uSW5Qcm9ncmVzc1w+</entry>
+        <entry>$</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/\$scope\./vm\./g</entry>
         <entry encoding="base64">JzwsJz5zL3ZtL3RoaXMvZw==</entry>
         <entry>vs validateforms.py</entry>
         <entry encoding="base64">JzwsJz5zL3RoaXNcLi8vZw==</entry>
@@ -536,6 +553,7 @@
         <entry encoding="base64">JzwsJz5zL3RoaXNcLnRyYW5zYWN0aW9uL3N1Yi9n</entry>
         <entry>s/L//g</entry>
         <entry>noh</entry>
+        <entry encoding="base64">JzwsJz5zLyQvLC8=</entry>
       </history-cmd>
       <history-expr />
       <history-input />

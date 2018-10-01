@@ -48,12 +48,11 @@
         <mark key="^" line="62" column="39" />
         <mark key="." line="62" column="39" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1538389041902">
-        <mark key="'" line="451" column="8" />
-        <mark key="[" line="454" column="0" />
-        <mark key="]" line="349" column="13" />
-        <mark key="." line="349" column="13" />
-        <mark key="^" line="349" column="13" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1538391220505">
+        <mark key="[" line="483" column="78" />
+        <mark key="]" line="483" column="25" />
+        <mark key="." line="483" column="25" />
+        <mark key="^" line="483" column="25" />
       </file>
       <file name="/Claim_Header_Adjusted_Reserves [TESTProtect@test.sql.protector.local]" timestamp="1538060023501">
         <mark key="[" line="0" column="0" />
@@ -263,7 +262,6 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/ClaimClosingService.java" timestamp="1538043268198" />
     </filemarks>
     <jumps>
-      <jump line="45" column="4" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/ClaimsApiApplication.java" />
       <jump line="146" column="8" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/ClaimsApiApplication.java" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/kafka/KafkaProperties.java" />
       <jump line="11" column="4" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/kafka/KafkaProperties.java" />
@@ -363,6 +361,7 @@
       <jump line="125" column="21" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/repository/SubmissionRepository.java" />
       <jump line="451" column="8" filename="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" />
       <jump line="70" column="8" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/kafka/GlobalKVStore.java" />
+      <jump line="463" column="7" filename="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -371,8 +370,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">CnNlbGVjdCAqCmZyb20gVXNlcnMgdQogIGpvaW4gQ2xhaW1fVXNlciBjdSBvbiB1LklkID0gY3UuVXNlcl9JZAp3aGVyZSB1LklkID0gMTU2Ng==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -433,8 +432,8 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIDx2ZXJzaW9uPiR7a2Fma2EudmVyc2lvbn08L3ZlcnNpb24+Cg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">CnNlbGVjdCAqCmZyb20gVXNlcnMgdQogIGpvaW4gQ2xhaW1fVXNlciBjdSBvbiB1LklkID0gY3UuVXNlcl9JZAp3aGVyZSB1LklkID0gMTU2Ng==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -480,19 +479,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gc3RyZWFtczsK</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBLYWZrYVN0cmVhbXMgZ2V0U3RyZWFtcygpIHsK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gc3RyZWFtczsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBMT0cuaW5mbygiR2xvYmFsS1ZTdG9yZSBzdHJlYW0gc3RhdHVzIGlzIHt9IiwgaW5Qcm9ncmVzc1N0b3JlLmdldFN0cmVhbXMoKS5zdGF0ZSgpLnRvU3RyaW5nKCkpOwo=</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBLYWZrYVN0cmVhbXMgZ2V0U3RyZWFtcygpIHsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBTdGF0ZUxpc3RlbmVyIHNsID0gKHN0YXRlLCBzdGF0ZTEpIC0+IHsKICAgICAgICAgICAgCiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICBMT0cuaW5mbygiR2xvYmFsS1ZTdG9yZSBzdHJlYW0gc3RhdHVzIGlzIHt9IiwgaW5Qcm9ncmVzc1N0b3JlLmdldFN0cmVhbXMoKS5zdGF0ZSgpLnRvU3RyaW5nKCkpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -544,14 +543,14 @@
           <key char="104" code="0" mods="0" />
         </keys>
       </register>
-      <register name="7" type="4">
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBTdGF0ZUxpc3RlbmVyIHNsID0gKHN0YXRlLCBzdGF0ZTEpIC0+IHsKICAgICAgICAgICAgCiAgICAgICAgfQo=</text>
+      </register>
+      <register name="8" type="4">
         <text encoding="base64">ICAgICAgICB0aGlzLnN0cmVhbXMuc3RhcnQoKTsKICAgICAgICB0aGlzLnZpZXcgPSBjcmVhdGVSZWFkT25seUtleVZhbHVlU3RvcmUoc3RyZWFtcywga3ZTdG9yZU5hbWUpOw==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcm9wcy5wdXQoUHJvZHVjZXJDb25maWcuTElOR0VSX01TX0NPTkZJRywgMSk7Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5mbGF0TWFwKGFWb2lkIC0+ICkK</text>
+        <text encoding="base64">ICAgICAgICBwcm9wcy5wdXQoUHJvZHVjZXJDb25maWcuTElOR0VSX01TX0NPTkZJRywgMSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zLyQvLC8=</text>

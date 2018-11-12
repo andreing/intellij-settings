@@ -164,11 +164,11 @@
         <mark key="." line="59" column="40" />
         <mark key="^" line="59" column="40" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/sinks/ReportMetadataListener.java" timestamp="1542024453968">
-        <mark key="[" line="65" column="5" />
-        <mark key="]" line="30" column="7" />
-        <mark key="." line="30" column="7" />
-        <mark key="^" line="30" column="7" />
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/sinks/ReportMetadataListener.java" timestamp="1542025380265">
+        <mark key="'" line="59" column="0" />
+        <mark key="[" line="83" column="5" />
+        <mark key="]" line="14" column="0" />
+        <mark key="." line="14" column="0" />
       </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/files/ForsiFileMetadata.java" timestamp="1542024057025">
         <mark key="'" line="6" column="4" />
@@ -214,6 +214,12 @@
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/test.yml" timestamp="1539345804908">
         <mark key="[" line="40" column="15" />
       </file>
+      <file name="$USER_HOME$/repos/dbs/README.md" timestamp="1540900033008">
+        <mark key="'" line="44" column="35" />
+        <mark key="[" line="58" column="78" />
+        <mark key="]" line="91" column="15" />
+        <mark key="." line="91" column="15" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/outgoing/outgoing-payment.ctrl.js" timestamp="1535627989067">
         <mark key="'" line="373" column="18" />
         <mark key="[" line="373" column="64" />
@@ -229,6 +235,12 @@
         <mark key="^" line="44" column="38" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/SpringConfiguration.java" timestamp="1542023227002" />
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/sinks/Listener.java" timestamp="1541673034957">
+        <mark key="'" line="18" column="0" />
+        <mark key="[" line="9" column="21" />
+        <mark key="]" line="23" column="0" />
+        <mark key="." line="23" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/transaction-overview.js" timestamp="1535378903797">
         <mark key="'" line="0" column="141" />
         <mark key="[" line="0" column="151" />
@@ -653,7 +665,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="599" column="14" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
       <jump line="611" column="26" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
       <jump line="612" column="15" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
       <jump line="661" column="14" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
@@ -753,6 +764,7 @@
       <jump line="66" column="8" filename="$USER_HOME$/repos/forsi-reports/build.gradle" />
       <jump line="7" column="0" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/files/DocumentService.java" />
       <jump line="6" column="4" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/files/ForsiFileMetadata.java" />
+      <jump line="57" column="0" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/sinks/ReportMetadataListener.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -762,7 +774,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb247Cg==</text>
+        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5maWxlc2VydmljZS5jbGllbnQuZG9tYWluLkZpbGVNZXRhZGF0YTsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -821,10 +833,10 @@
         <text encoding="base64">XDx0b3BpY1w+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB0cnkgewogICAgICAgICAgICBMT0cuaW5mbygiUmVjZWl2ZWQgbWV0YWRhdGEgbWVzc2FnZSBpbiBsaXN0ZW5lciAxIGtleT17fSB2YWx1ZT17fSIsIGtleSwgb20ud3JpdGVWYWx1ZUFzU3RyaW5nKHBheWxvYWQpKTsKICAgICAgICB9IGNhdGNoIChKc29uUHJvY2Vzc2luZ0V4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIExPRy5lcnJvcihlLmdldE1lc3NhZ2UoKSwgZSk7CiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEBIZWFkZXIodmFsdWUgPSBLYWZrYUhlYWRlcnMuUkVDRUlWRURfTUVTU0FHRV9LRVkpIFN0cmluZyBrZXksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBASGVhZGVyKEthZmthSGVhZGVycy5SRUNFSVZFRF9QQVJUSVRJT05fSUQpIGludCBwYXJ0aXRpb24sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBASGVhZGVyKEthZmthSGVhZGVycy5SRUNFSVZFRF9UT1BJQykgU3RyaW5nIHRvcGljLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQEhlYWRlcihLYWZrYUhlYWRlcnMuUkVDRUlWRURfVElNRVNUQU1QKSBsb25nIHRzKSB7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb247Cg==</text>
+        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5maWxlc2VydmljZS5jbGllbnQuZG9tYWluLkZpbGVNZXRhZGF0YTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -870,19 +882,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vbkZhaWx1cmUodCAtPiBMT0cuaW5mbyAoKSkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5hcGFjaGUuaHR0cC5lbnRpdHkuQ29udGVudFR5cGU7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5vbkZhaWx1cmUodCAtPiBMT0cuKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBGb3JzaUZpbGVNZXRhZGF0YShTdHJpbmcgcmVwb3J0S2V5KSB7CiAgICAgICAgdGhpcy5yZXBvcnRLZXkgPSByZXBvcnRLZXk7CiAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoZmlsZU1ldGFkYXRhIC0+IGZpbGVNZXRhZGF0YSkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgU3RyaW5nIHJlcG9ydEtleTsKCiAgICBwdWJsaWMgU3RyaW5nIGdldFJlcG9ydEtleSgpIHsKICAgICAgICByZXR1cm4gcmVwb3J0S2V5OwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldFJlcG9ydEtleShTdHJpbmcgcmVwb3J0S2V5KSB7CiAgICAgICAgdGhpcy5yZXBvcnRLZXkgPSByZXBvcnRLZXk7CiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">aW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb247Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -938,10 +950,10 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICBwcml2YXRlIFN0cmluZyByZXBvcnRLZXk7Cgo=</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5hcGFjaGUuaHR0cC5lbnRpdHkuQ29udGVudFR5cGU7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CQlpbXBsZW1lbnRhdGlvbigncHJvdGVjdG9yLmZpbGVzZXJ2aWNlOmNsaWVudDowLjIuNicpCg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBGb3JzaUZpbGVNZXRhZGF0YShTdHJpbmcgcmVwb3J0S2V5KSB7CiAgICAgICAgdGhpcy5yZXBvcnRLZXkgPSByZXBvcnRLZXk7CiAgICB9Cgo=</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

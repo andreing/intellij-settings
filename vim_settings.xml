@@ -315,11 +315,12 @@
         <mark key="." line="483" column="25" />
         <mark key="^" line="483" column="25" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messages/ForsiReportMessage.java" timestamp="1542196741996">
-        <mark key="[" line="11" column="12" />
-        <mark key="]" line="11" column="30" />
-        <mark key="." line="11" column="30" />
-        <mark key="^" line="11" column="30" />
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messages/ForsiReportMessage.java" timestamp="1542204946895">
+        <mark key="'" line="23" column="4" />
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="23" column="0" />
+        <mark key="." line="23" column="0" />
+        <mark key="^" line="24" column="3" />
       </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/pom.xml" timestamp="1537879476120">
         <mark key="'" line="409" column="8" />
@@ -580,10 +581,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="704" column="26" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
-      <jump line="705" column="15" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
-      <jump line="758" column="14" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
-      <jump line="769" column="26" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
       <jump line="770" column="15" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
       <jump line="67" column="14" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
       <jump line="78" column="26" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
@@ -680,6 +677,10 @@
       <jump line="103" column="21" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/RemoteAC.java" />
       <jump line="588" column="29" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/RemoteAC.java" />
       <jump line="31" column="8" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/sinks/ClaimsMessageMapper.java" />
+      <jump line="8" column="4" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messages/ForsiReportMessage.java" />
+      <jump line="9" column="4" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messages/ForsiReportMessage.java" />
+      <jump line="11" column="4" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messages/ForsiReportMessage.java" />
+      <jump line="24" column="4" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messages/ForsiReportMessage.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -689,7 +690,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICByZW1vdGVBMS5nZXRTa2FkZXR5cGUoKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -745,13 +746,13 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFJlcG9ydE1ldGFkYXRhUHJvZHVjZXIgbWV0YWRhdGFQcm9kdWNlcg==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzdHJha3NhZnJlZ25pbmdcPg==</text>
+        <text>payload</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIEBLYWZrYUxpc3RlbmVyKHRvcGljcyA9ICJmb3JzaS1yZXBvcnQtbWV0YWRhdGEiLCBncm91cElkID0gImZvcnNpLW1ldGFkYXRhLTMiKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByZW1vdGVBMS5nZXRTa2FkZXR5cGUoKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -797,19 +798,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBSZW1vdGVWMCByZW1vdGVWMCA9IHBheWxvYWQuZ2V0UmVtb3RlVjAoKTsK</text>
+        <text encoding="base64">ICAgICAgICBMb25nIHRvdGFsQmVsb2ViTWVkTW9tczsvL2Rlbm5lIHRvdGFsZW4gc2thbCBicnVrZXMgZm9yIMOlIHNldHRlIHJlc2VydmVuIGtvcnJla3QsIHNhbXQgYmVsw7hwIGZvciBmYWt0dXJhCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICByZW1vdGVBOC5nZXRTa2FkZW51bW1lcigpOwo=</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgcmVwYXJhdG9lclRlbGVmb25OdW1tZXI7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBSZW1vdGVBQSByZW1vdGVBQSA9IHBheWxvYWQuZ2V0UmVtb3RlQUEoKTsK</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgcmVwYXJhdG9lckJhbmtLb250b25yOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiAgICBwdWJsaWMgdm9pZCBtYXBUb1NrYWRlKFJlbW90ZVJhcHBvcnREYXRhIHBheWxvYWQpIHsKICAgICAgICBSZW1vdGVBMSByZW1vdGVBMSA9IHBheWxvYWQuZ2V0UmVtb3RlQTEoKTsKCiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgcmVwYXJhdG9lckJhbmtSZWdOcjsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByZW1vdGVBMS5nZXRTa2FkZXR5cGUoKTsKICAgICAgICByZW1vdGVBMS5nZXRTa2FkZXpvbmUxKCk7CiAgICAgICAgcmVtb3RlQTEuZ2V0U2thZGV6b25lMigpOwogICAgICAgIHJlbW90ZUExLmdldFNrYWRlem9uZTMoKTsKICAgICAgICByZW1vdGVBMS5nZXRTa2FkZXpvbmU0KCk7CiAgICAgICAgcmVtb3RlQTEuZ2V0U2thZGV6b25lNSgpOwogICAgICAgIHJlbW90ZUExLmdldFNrYWRlem9uZTYoKTsKICAgICAgICByZW1vdGVBMS5nZXRTa2FkZXpvbmU3KCk7CiAgICAgICAgcmVtb3RlQTEuZ2V0U2thZGV6b25lOCgpOwo=</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgZW1haWxBZHJlc3NlOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -862,30 +863,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICByZW1vdGVBMS5nZXRTa2FkZWtvZGUoKTsK</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgcmVwYXJhdG9lckJ5TmF2bjsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgcmVwYXJhdG9lclBvc3ROdW1tZXI7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZW1vdGVBMS4K</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgcmVwYXJhdG9lckFkcmVzc2UyOwo=</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxzdHJha3NhZnJlZ25pbmdcPg==</last-search>
+      <last-search>payload</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzdHJha3NhZnJlZ25pbmdcPg==</last-pattern>
-      <last-replace>\\</last-replace>
-      <last-substitute>$</last-substitute>
+      <last-pattern>payload</last-pattern>
+      <last-replace>reportData</last-replace>
+      <last-substitute>payload</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxjcmVhdGVCaW5kaW5nc1w+</entry>
         <entry encoding="base64">XDx3c2ltcG9ydFw+</entry>
         <entry>jaxws</entry>
         <entry>implementation</entry>
@@ -905,9 +905,9 @@
         <entry encoding="base64">XDxPYmplY3RNYXBwZXJcPg==</entry>
         <entry encoding="base64">XDx0b3BpY1w+</entry>
         <entry encoding="base64">XDxzdHJha3NhZnJlZ25pbmdcPg==</entry>
+        <entry>payload</entry>
       </history-search>
       <history-cmd>
-        <entry>set scrollbinf</entry>
         <entry>set scrollbind</entry>
         <entry>close</entry>
         <entry encoding="base64">JzwsJz4vdHJhbnNhY3Rpb24vaW5UcmFuc2FjdGlvbi9n</entry>
@@ -926,6 +926,7 @@
         <entry encoding="base64">JzwsJz5zL3t9Ly9n</entry>
         <entry encoding="base64">JzwsJz5zL21ldGFkYXRhL3JhcHBvcnRJbmZvLw==</entry>
         <entry encoding="base64">JzwsJz5zLyQvXFwv</entry>
+        <entry encoding="base64">JzwsJz5zL3BheWxvYWQvcmVwb3J0RGF0YS8=</entry>
         <entry>noh</entry>
       </history-cmd>
       <history-expr />

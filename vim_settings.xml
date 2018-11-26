@@ -515,11 +515,9 @@
         <mark key="]" line="16" column="0" />
         <mark key="." line="16" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" timestamp="1543232104157">
-        <mark key="[" line="688" column="48" />
-        <mark key="]" line="688" column="45" />
-        <mark key="^" line="688" column="45" />
-        <mark key="." line="688" column="45" />
+      <file name="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" timestamp="1543233846944">
+        <mark key="[" line="657" column="34" />
+        <mark key="^" line="777" column="99" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/invoice-data-auto/invoice-data-auto-directive.js" timestamp="1538564678398">
         <mark key="[" line="20" column="0" />
@@ -713,8 +711,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="301" column="15" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
-      <jump line="358" column="14" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
       <jump line="369" column="26" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
       <jump line="370" column="15" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
       <jump line="429" column="14" filename="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/generated-src/java/dk/fp/atlight/server/remote/ForsiOutputWebService.java" />
@@ -813,6 +809,8 @@
       <jump line="53" column="8" filename="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ApplicationTest.groovy" />
       <jump line="65" column="83" filename="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ApplicationTest.groovy" />
       <jump line="32" column="0" filename="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ApplicationTest.groovy" />
+      <jump line="655" column="0" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
+      <jump line="660" column="0" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimFormService.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -822,7 +820,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CiAgICAgICAgc3ViTGlmZUhlYWRlci5zZXRBZGRpdGlvbmFsQ3JlYXRpb25JbmZvKGdldEFkZGl0aW9uYWxMaWZlSW5mbyhmb3JtU3VibWlzc2lvbikpOwogICAgICAgIHN1YkxpZmVIZWFkZXIuc2V0TGluZSgxTCk7CiAgICAgICAgc3ViTGlmZUhlYWRlci5zZXRBc3N1bWVkTnVsbENsYWltKG51bGwpOwoK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -884,7 +882,7 @@
         <text encoding="base64">aW1wb3J0IHN0YXRpYyBzcG9jay51dGlsLm1hdGNoZXIuSGFtY3Jlc3RTdXBwb3J0LmV4cGVjdAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CiAgICAgICAgc3ViTGlmZUhlYWRlci5zZXRBZGRpdGlvbmFsQ3JlYXRpb25JbmZvKGdldEFkZGl0aW9uYWxMaWZlSW5mbyhmb3JtU3VibWlzc2lvbikpOwogICAgICAgIHN1YkxpZmVIZWFkZXIuc2V0TGluZSgxTCk7CiAgICAgICAgc3ViTGlmZUhlYWRlci5zZXRBc3N1bWVkTnVsbENsYWltKG51bGwpOwoK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -930,19 +928,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgdCA9IFsiYXJiR2l2IjogIlRSIl0gYXMgUmFwcG9ydEluZm8K</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgZm9yY2UgPSB0cnVlCiAgICAgICAgfQ==</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgKChGaW5uaXNoQ2xhaW1IZWFkZXJTdWJMaWZlKSBzdWJMaWZlSGVhZGVyKS5zZXRUcmFmZmljQWNjaWRlbnQoZmFsc2UpOwogICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICgidHJ1ZSIuZXF1YWxzKGlzVHJhZmZpY0FjY2lkZW50KSkgewo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGV0YWlscy4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBrYWZrYUVtYmVkZGVkLgo=</text>
+        <text encoding="base64">ICAgICAgICBkZWYgdCA9IFsiYXJiR2l2IjogIlRSIl0gYXMgUmFwcG9ydEluZm8K</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -994,14 +992,14 @@
           <key char="104" code="0" mods="0" />
         </keys>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBLYWZrYVRlc3RVdGlscy5nZXRSZWNvcmRzKCkK</text>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgZm9yY2UgPSB0cnVlCiAgICAgICAgfQ==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBleHBlY3QocmVjZWl2ZWQsIGhhcykK</text>
+        <text encoding="base64">CiAgICAgICAgfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZWNvcmRzLgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGV0YWlscy4K</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

@@ -160,6 +160,9 @@
         <mark key="." line="69" column="50" />
         <mark key="^" line="69" column="50" />
       </file>
+      <file name="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/user/User.java" timestamp="1543319536553">
+        <mark key="'" line="16" column="17" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/claim-header-damage-info-life-ctrl.js" timestamp="1536743193843">
         <mark key="'" line="5" column="52" />
         <mark key="[" line="1130" column="81" />
@@ -205,6 +208,9 @@
       </file>
       <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/resources/application-prod.properties" timestamp="1544104087829">
         <mark key="[" line="5" column="13" />
+      </file>
+      <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/repositories/MailJdbcDao.java" timestamp="1544185849033">
+        <mark key="'" line="51" column="13" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/transactions/transaction-overview.js" timestamp="1535378903797">
         <mark key="'" line="0" column="141" />
@@ -329,8 +335,11 @@
         <mark key="^" line="25" column="48" />
         <mark key="." line="261" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/UnmappedForsiReportConsumer.java" timestamp="1544183549695">
-        <mark key="[" line="10" column="40" />
+      <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/UnmappedForsiReportConsumer.java" timestamp="1544186060460">
+        <mark key="[" line="14" column="25" />
+        <mark key="]" line="13" column="45" />
+        <mark key="^" line="13" column="45" />
+        <mark key="." line="13" column="45" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/common/swedish-account-number-validator.js" timestamp="1535629106539">
         <mark key="'" line="8" column="19" />
@@ -553,7 +562,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="33" column="40" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaConfig.java" />
       <jump line="34" column="8" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaConfig.java" />
       <jump line="35" column="15" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaConfig.java" />
       <jump line="3" column="38" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaConfig.java" />
@@ -653,6 +661,7 @@
       <jump line="60" column="8" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/KafkaConfig.java" />
       <jump line="46" column="22" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/MailAnalyzedConsumer.java" />
       <jump line="27" column="0" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/MailProcessedProducerSpring.java" />
+      <jump line="51" column="13" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/repositories/MailJdbcDao.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -718,7 +727,7 @@
         <text>s</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzZXJ2aWNlXD4=</text>
+        <text encoding="base64">XDxpbnNlcnRUZW1wbGF0ZVw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBmYWN0b3J5LmdldENvbnRhaW5lclByb3BlcnRpZXMoKS5zZXRBY2tNb2RlKEFic3RyYWN0TWVzc2FnZUxpc3RlbmVyQ29udGFpbmVyLkFja01vZGUuUkVDT1JEKTsKICAgICAgICBmYWN0b3J5LmdldENvbnRhaW5lclByb3BlcnRpZXMoKS5zZXRTeW5jQ29tbWl0cyh0cnVlKTsK</text>
@@ -848,9 +857,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxzZXJ2aWNlXD4=</last-search>
+      <last-search encoding="base64">XDxpbnNlcnRUZW1wbGF0ZVw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzZXJ2aWNlXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxpbnNlcnRUZW1wbGF0ZVw+</last-pattern>
       <last-replace>reportData</last-replace>
       <last-substitute>payload</last-substitute>
       <last-dir>1</last-dir>
@@ -858,7 +867,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxCdXNcPg==</entry>
         <entry>{}</entry>
         <entry encoding="base64">XDxsb2FkSGVhZGVyXD4=</entry>
         <entry>metadata</entry>
@@ -878,6 +886,7 @@
         <entry encoding="base64">XDxvYmplY3RNYXBwZXJcPg==</entry>
         <entry encoding="base64">XDxPYmplY3RNYXBwZXJcPg==</entry>
         <entry encoding="base64">XDxzZXJ2aWNlXD4=</entry>
+        <entry encoding="base64">XDxpbnNlcnRUZW1wbGF0ZVw+</entry>
       </history-search>
       <history-cmd>
         <entry>set scrollbind</entry>

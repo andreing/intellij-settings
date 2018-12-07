@@ -25,6 +25,9 @@
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/MessageCreator.java" timestamp="1543325301380">
         <mark key="[" line="8" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/inbox/MailElement.js" timestamp="1544193212329">
+        <mark key="'" line="63" column="16" />
+      </file>
       <file name="$USER_HOME$/repos/forsi-reports/settings.gradle" timestamp="1542899814616">
         <mark key="[" line="3" column="44" />
       </file>
@@ -229,6 +232,7 @@
         <mark key="." line="48" column="0" />
         <mark key="^" line="38" column="19" />
       </file>
+      <file name="$USER_HOME$/repos/claims-mail-app/web/src/redux/reducers/index.js" timestamp="1544193253787" />
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" timestamp="1534333646825">
         <mark key="'" line="136" column="38" />
         <mark key="[" line="122" column="54" />
@@ -557,8 +561,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="8" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaConfig.java" />
-      <jump line="35" column="15" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaConfig.java" />
       <jump line="3" column="38" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaConfig.java" />
       <jump line="74" column="4" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaConfig.java" />
       <jump line="38" column="0" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/sources/ReportMetadataService.java" />
@@ -657,6 +659,8 @@
       <jump line="46" column="22" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/MailAnalyzedConsumer.java" />
       <jump line="27" column="0" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/MailProcessedProducerSpring.java" />
       <jump line="51" column="13" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/repositories/MailJdbcDao.java" />
+      <jump line="11" column="8" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/inbox/MailElement.js" />
+      <jump line="63" column="16" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/inbox/MailElement.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -722,7 +726,7 @@
         <text>s</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxpbnNlcnRUZW1wbGF0ZVw+</text>
+        <text encoding="base64">XDxyZWZyZXNoRW1haWxMaXN0XD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBmYWN0b3J5LmdldENvbnRhaW5lclByb3BlcnRpZXMoKS5zZXRBY2tNb2RlKEFic3RyYWN0TWVzc2FnZUxpc3RlbmVyQ29udGFpbmVyLkFja01vZGUuUkVDT1JEKTsKICAgICAgICBmYWN0b3J5LmdldENvbnRhaW5lclByb3BlcnRpZXMoKS5zZXRTeW5jQ29tbWl0cyh0cnVlKTsK</text>
@@ -852,9 +856,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxpbnNlcnRUZW1wbGF0ZVw+</last-search>
+      <last-search encoding="base64">XDxyZWZyZXNoRW1haWxMaXN0XD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxpbnNlcnRUZW1wbGF0ZVw+</last-pattern>
+      <last-pattern encoding="base64">XDxyZWZyZXNoRW1haWxMaXN0XD4=</last-pattern>
       <last-replace>reportData</last-replace>
       <last-substitute>payload</last-substitute>
       <last-dir>1</last-dir>
@@ -862,7 +866,6 @@
     </search>
     <history>
       <history-search>
-        <entry>{}</entry>
         <entry encoding="base64">XDxsb2FkSGVhZGVyXD4=</entry>
         <entry>metadata</entry>
         <entry encoding="base64">XDxSZW1vdGVSYXBwb3J0RGF0YVw+</entry>
@@ -882,6 +885,7 @@
         <entry encoding="base64">XDxPYmplY3RNYXBwZXJcPg==</entry>
         <entry encoding="base64">XDxzZXJ2aWNlXD4=</entry>
         <entry encoding="base64">XDxpbnNlcnRUZW1wbGF0ZVw+</entry>
+        <entry encoding="base64">XDxyZWZyZXNoRW1haWxMaXN0XD4=</entry>
       </history-search>
       <history-cmd>
         <entry>set scrollbind</entry>

@@ -416,8 +416,8 @@
         <mark key="^" line="5" column="49" />
         <mark key="." line="6" column="29" />
       </file>
-      <file name="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" timestamp="1545044333200">
-        <mark key="'" line="76" column="43" />
+      <file name="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" timestamp="1545046439229">
+        <mark key="'" line="0" column="0" />
         <mark key="[" line="25" column="1" />
         <mark key="]" line="51" column="45" />
         <mark key="^" line="51" column="45" />
@@ -525,8 +525,8 @@
         <mark key="^" line="657" column="45" />
         <mark key="." line="655" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" timestamp="1545043428343">
-        <mark key="'" line="80" column="22" />
+      <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" timestamp="1545046159581">
+        <mark key="'" line="34" column="12" />
         <mark key="[" line="46" column="122" />
         <mark key="]" line="55" column="17" />
         <mark key="^" line="55" column="17" />
@@ -691,12 +691,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="194" column="9" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/invoice_view/InvoiceView.jsx" />
-      <jump line="207" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/invoice_view/InvoiceView.jsx" />
-      <jump line="119" column="55" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/AppraisalsView.jsx" />
-      <jump line="138" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/AppraisalsView.jsx" />
-      <jump line="9" column="7" filename="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_update_emails.js" />
-      <jump line="20" column="35" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/invoice_inbox/InvoiceInbox.jsx" />
       <jump line="135" column="4" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/invoice_inbox/InvoiceInbox.jsx" />
       <jump line="108" column="38" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/invoice_inbox/InvoiceInbox.jsx" />
       <jump line="33" column="13" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/invoice_inbox/InvoiceInbox.jsx" />
@@ -787,10 +781,16 @@
       <jump line="45" column="19" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/inbox/InboxItem.jsx" />
       <jump line="165" column="23" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/inbox/InboxItem.jsx" />
       <jump line="11" column="7" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/inbox/InboxItem.jsx" />
-      <jump line="5" column="8" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" />
       <jump line="70" column="22" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" />
       <jump line="119" column="12" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/inbox/InboxItem.jsx" />
       <jump line="155" column="8" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/inbox/InboxItem.jsx" />
+      <jump line="79" column="22" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" />
+      <jump line="5" column="22" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" />
+      <jump line="68" column="8" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" />
+      <jump line="21" column="27" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" />
+      <jump line="34" column="12" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" />
+      <jump line="23" column="21" filename="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" />
+      <jump line="0" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -856,7 +856,7 @@
         <text>50</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzZWxlY3RlZEVtYWlsXD4=</text>
+        <text encoding="base64">XDxzZWxlY3RlZFJlcG9ydFw+</text>
       </register>
       <register name="0" type="4">
         <text>\&quot;reportKey\&quot;:\&quot;TR4124120007H\&quot;,</text>
@@ -986,9 +986,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxzZWxlY3RlZEVtYWlsXD4=</last-search>
+      <last-search encoding="base64">XDxzZWxlY3RlZFJlcG9ydFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzZWxlY3RlZEVtYWlsXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxzZWxlY3RlZFJlcG9ydFw+</last-pattern>
       <last-replace>reportData</last-replace>
       <last-substitute>payload</last-substitute>
       <last-dir>1</last-dir>
@@ -996,8 +996,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxzYW5pdGl6ZUh0bWxcPg==</entry>
-        <entry encoding="base64">XDxib2R5U3R5bGVcPg==</entry>
         <entry encoding="base64">XDx1cGRhdGVFbWFpbFw+</entry>
         <entry encoding="base64">XDxzaG93VXNlckRyYXdlclw+</entry>
         <entry encoding="base64">XDxvblVzZXJEcmF3ZXJDbG9zZVw+</entry>
@@ -1016,6 +1014,8 @@
         <entry encoding="base64">XDx1cGRhdGVNZXNzYWdlXD4=</entry>
         <entry encoding="base64">XDxmZXRjaFJlcG9ydHNcPg==</entry>
         <entry encoding="base64">XDxzZWxlY3RlZEVtYWlsXD4=</entry>
+        <entry encoding="base64">XDx1cGRhdGVSZXBvcnRcPg==</entry>
+        <entry encoding="base64">XDxzZWxlY3RlZFJlcG9ydFw+</entry>
       </history-search>
       <history-cmd>
         <entry>set scrollbind</entry>

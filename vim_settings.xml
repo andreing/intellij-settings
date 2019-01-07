@@ -3,12 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/LoopingMetadataListenerTest.groovy" timestamp="1546870159429">
-        <mark key="'" line="38" column="0" />
-        <mark key="[" line="94" column="0" />
-        <mark key="]" line="94" column="0" />
-        <mark key="^" line="37" column="49" />
-        <mark key="." line="94" column="0" />
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/LoopingMetadataListenerTest.groovy" timestamp="1546871646949">
+        <mark key="'" line="70" column="8" />
+        <mark key="[" line="70" column="40" />
+        <mark key="]" line="70" column="41" />
+        <mark key="." line="70" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/kafka/exceptions/KafkaIOException.java" timestamp="1539079904091">
         <mark key="[" line="5" column="3" />
@@ -41,6 +40,11 @@
         <mark key="]" line="49" column="30" />
         <mark key="." line="49" column="30" />
         <mark key="^" line="49" column="30" />
+      </file>
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/LoopingMetadataListener.java" timestamp="1546871725460">
+        <mark key="[" line="40" column="99" />
+        <mark key="]" line="40" column="99" />
+        <mark key="." line="40" column="99" />
       </file>
       <file name="$USER_HOME$/repos/file-service/client/src/main/groovy/protector/fileservice/client/rest/FileServiceRestClient.groovy" timestamp="1546434482394">
         <mark key="[" line="193" column="0" />
@@ -266,12 +270,12 @@
         <mark key="." line="9" column="0" />
         <mark key="^" line="3" column="3" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ReportMetadataProducerTest.groovy" timestamp="1546868276451">
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ReportMetadataProducerTest.groovy" timestamp="1546871476395">
         <mark key="'" line="59" column="0" />
-        <mark key="[" line="59" column="0" />
-        <mark key="]" line="61" column="26" />
-        <mark key="." line="61" column="26" />
-        <mark key="^" line="61" column="26" />
+        <mark key="[" line="106" column="0" />
+        <mark key="]" line="106" column="0" />
+        <mark key="." line="106" column="0" />
+        <mark key="^" line="105" column="53" />
       </file>
       <file name="/Claim_Header_Handling_Cost [TESTProtect@test.sql.protector.local]" timestamp="1538059969269">
         <mark key="[" line="0" column="0" />
@@ -464,10 +468,10 @@
         <mark key="." line="97" column="0" />
         <mark key="^" line="96" column="30" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ReportMetadataListenerTest.groovy" timestamp="1546870489660">
-        <mark key="[" line="36" column="4" />
-        <mark key="]" line="38" column="0" />
-        <mark key="." line="38" column="0" />
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ReportMetadataListenerTest.groovy" timestamp="1546871590133">
+        <mark key="[" line="67" column="8" />
+        <mark key="]" line="45" column="0" />
+        <mark key="." line="45" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/UserMenu.jsx" timestamp="1545141974710">
         <mark key="'" line="106" column="17" />
@@ -532,7 +536,7 @@
         <mark key="." line="73" column="38" />
         <mark key="^" line="73" column="38" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/ReportMetadataListener.java" timestamp="1546429450875">
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/ReportMetadataListener.java" timestamp="1546871126180">
         <mark key="[" line="60" column="0" />
         <mark key="]" line="60" column="0" />
         <mark key="." line="60" column="0" />
@@ -632,7 +636,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" />
       <jump line="8" column="7" filename="$USER_HOME$/repos/claims-mail-app/web/src/pages/Base.js" />
       <jump line="40" column="45" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" />
       <jump line="66" column="8" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" />
@@ -732,6 +735,7 @@
       <jump line="37" column="0" filename="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/LoopingMetadataListenerTest.groovy" />
       <jump line="25" column="0" filename="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ReportMetadataListenerTest.groovy" />
       <jump line="35" column="4" filename="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ReportMetadataListenerTest.groovy" />
+      <jump line="70" column="8" filename="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/LoopingMetadataListenerTest.groovy" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -740,8 +744,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIEBBdXRvd2lyZWQK</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBDb25zdW1lcjxTdHJpbmcsIFJhcHBvcnRJbmZvPiBjb25zdW1lcg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -802,8 +806,8 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgIAogICAgQFNwcmluZ0JlYW4obmFtZSA9ICJjbGFpbU1lc3NhZ2VUb3BvbG9neSIpCiAgICBLU3RyZWFtIHN0cmVhbSA9IE1vY2soKQo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIEBBdXRvd2lyZWQK</text>
+      <register name="1" type="4">
+        <text encoding="base64">LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBDb25zdW1lcjxTdHJpbmcsIFJhcHBvcnRJbmZvPiBjb25zdW1lcg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -849,19 +853,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEBTcHJpbmdCZWFuCg==</text>
+        <text encoding="base64">ICAgICAgICAxICogbGlzdGVuZXIubGlzdGVuQW5kRmV0Y2hOZXh0KCkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEBTcHJpbmdCZWFuCiAgICBSZXBvcnRNZXRhZGF0YUxpc3RlbmVyIHJlcG9ydE1ldGFkYXRhTGlzdGVuZXIgPSBNb2NrKCkKCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIE1vY2soUmFwcG9ydEluZm8pIHsKICAgICAgICAgICAgZ2V0QXJiR2l2KCkgPj4gJ1RSJwogICAgICAgICAgICBnZXRPcHJBcmJHaXYoKSA+PiAnVFInCiAgICAgICAgICAgIGdldE9wclRha3NOcigpID4+IDQxMjQKICAgICAgICAgICAgZ2V0UmFwcElkKCkgPj4gMjY1NjU1ODAxCiAgICAgICAgICAgIGdldFJhcHBOcigpID4+IDEyMDAwNwogICAgICAgICAgICBnZXRSYXBwVHlwZSgpID4+ICdIICcKICAgICAgICAgICAgZ2V0VGFrc0ZvcigpID4+ICdQRicKICAgICAgICAgICAgZ2V0VGFrc05yKCkgPj4gNDEyNAogICAgICAgICAgICBnZXRWa05yKCkgPj4gJzMnCiAgICAgICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CiAgICBAU3ByaW5nQmVhbgogICAgTG9vcGluZ01ldGFkYXRhTGlzdGVuZXIgbGlzdGVuZXIgPSBuZXcgTG9vcGluZ01ldGFkYXRhTGlzdGVuZXIocmVwb3J0c0NsaWVudCkK</text>
+        <text encoding="base64">ICAgIEBBdXRvd2lyZWQK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEBTcHJpbmdCZWFuCg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">CiAgICBwcml2YXRlIFJhcHBvcnRJbmZvIGdldFJhcHBvcnRJbmZvTW9jaygpIHsKICAgICAgICByZXR1cm4gTW9jayhSYXBwb3J0SW5mbykgewogICAgICAgICAgICBnZXRBcmJHaXYoKSA+PiAnVFInCiAgICAgICAgICAgIGdldE9wckFyYkdpdigpID4+ICdUUicKICAgICAgICAgICAgZ2V0T3ByVGFrc05yKCkgPj4gNDEyNAogICAgICAgICAgICBnZXRSYXBwSWQoKSA+PiAyNjU2NTU4MDEKICAgICAgICAgICAgZ2V0UmFwcE5yKCkgPj4gMTIwMDA3CiAgICAgICAgICAgIGdldFJhcHBUeXBlKCkgPj4gJ0ggJwogICAgICAgICAgICBnZXRUYWtzRm9yKCkgPj4gJ1BGJwogICAgICAgICAgICBnZXRUYWtzTnIoKSA+PiA0MTI0CiAgICAgICAgICAgIGdldFZrTnIoKSA+PiAnMycKICAgICAgICB9CiAgICB9</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIEBTcHJpbmdCZWFuCiAgICBSZXBvcnRNZXRhZGF0YUxpc3RlbmVyIHJlcG9ydE1ldGFkYXRhTGlzdGVuZXIgPSBNb2NrKCkKCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -914,13 +918,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEBBdXRvd2lyZWQKICAgIEVtYmVkZGVkS2Fma2FCcm9rZXIgZW1iZWRkZWRLYWZrYQoK</text>
+        <text encoding="base64">CiAgICBAU3ByaW5nQmVhbgogICAgTG9vcGluZ01ldGFkYXRhTGlzdGVuZXIgbGlzdGVuZXIgPSBuZXcgTG9vcGluZ01ldGFkYXRhTGlzdGVuZXIocmVwb3J0c0NsaWVudCkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">QERpcnRpZXNDb250ZXh0CkBTcHJpbmdCb290VGVzdChjbGFzc2VzID0gQXBwbGljYXRpb24uY2xhc3MpCkBFbWJlZGRlZEthZmthKHBhcnRpdGlvbnMgPSAxLAogICAgICAgIHRvcGljcyA9IFsKICAgICAgICAgICAgICAgICdmb3JzaS1yZXBvcnRzLW1ldGFkYXRhJwogICAgICAgIF0pCkBUZXN0UHJvcGVydHlTb3VyY2UobG9jYXRpb25zID0gJ2NsYXNzcGF0aDphcHBsaWNhdGlvbi1pbnRlZ3JhdGlvbi5wcm9wZXJ0aWVzJykK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBMT0cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihMb29waW5nTWV0YWRhdGFMaXN0ZW5lclRlc3QuY2xhc3MpOwoK</text>
+      <register name="9" type="4">
+        <text encoding="base64">CiAgICBwcml2YXRlIFJhcHBvcnRJbmZvIGdldFJhcHBvcnRJbmZvTW9jaygpIHsKICAgICAgICByZXR1cm4gTW9jayhSYXBwb3J0SW5mbykgewogICAgICAgICAgICBnZXRBcmJHaXYoKSA+PiAnVFInCiAgICAgICAgICAgIGdldE9wckFyYkdpdigpID4+ICdUUicKICAgICAgICAgICAgZ2V0T3ByVGFrc05yKCkgPj4gNDEyNAogICAgICAgICAgICBnZXRSYXBwSWQoKSA+PiAyNjU2NTU4MDEKICAgICAgICAgICAgZ2V0UmFwcE5yKCkgPj4gMTIwMDA3CiAgICAgICAgICAgIGdldFJhcHBUeXBlKCkgPj4gJ0ggJwogICAgICAgICAgICBnZXRUYWtzRm9yKCkgPj4gJ1BGJwogICAgICAgICAgICBnZXRUYWtzTnIoKSA+PiA0MTI0CiAgICAgICAgICAgIGdldFZrTnIoKSA+PiAnMycKICAgICAgICB9CiAgICB9</text>
       </register>
       <register name=":" type="4">
         <text>reg</text>

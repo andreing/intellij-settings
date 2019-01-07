@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/LoopingMetadataListenerTest.groovy" timestamp="1546868280485">
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/LoopingMetadataListenerTest.groovy" timestamp="1546870159429">
         <mark key="'" line="38" column="0" />
-        <mark key="[" line="38" column="0" />
-        <mark key="]" line="40" column="27" />
-        <mark key="." line="38" column="0" />
+        <mark key="[" line="94" column="0" />
+        <mark key="]" line="94" column="0" />
         <mark key="^" line="37" column="49" />
+        <mark key="." line="94" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/kafka/exceptions/KafkaIOException.java" timestamp="1539079904091">
         <mark key="[" line="5" column="3" />
@@ -106,6 +106,12 @@
       </file>
       <file name="$USER_HOME$/repos/claims-mail-app/web/src/redux/index.js" timestamp="1544533924309">
         <mark key="[" line="4" column="18" />
+      </file>
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/KafkaTestSpecification.groovy" timestamp="1546870362934">
+        <mark key="[" line="21" column="52" />
+        <mark key="]" line="22" column="7" />
+        <mark key="^" line="22" column="7" />
+        <mark key="." line="22" column="7" />
       </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/pom.xml" timestamp="1540202633462">
         <mark key="'" line="88" column="16" />
@@ -458,8 +464,10 @@
         <mark key="." line="97" column="0" />
         <mark key="^" line="96" column="30" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ReportMetadataListenerTest.groovy" timestamp="1546869094647">
-        <mark key="[" line="0" column="41" />
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ReportMetadataListenerTest.groovy" timestamp="1546870489660">
+        <mark key="[" line="36" column="4" />
+        <mark key="]" line="38" column="0" />
+        <mark key="." line="38" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/UserMenu.jsx" timestamp="1545141974710">
         <mark key="'" line="106" column="17" />
@@ -624,8 +632,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="12" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" />
-      <jump line="23" column="21" filename="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" />
       <jump line="8" column="7" filename="$USER_HOME$/repos/claims-mail-app/web/src/pages/Base.js" />
       <jump line="40" column="45" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" />
@@ -724,6 +730,8 @@
       <jump line="54" column="0" filename="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ReportMetadataProducerTest.groovy" />
       <jump line="59" column="0" filename="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ReportMetadataProducerTest.groovy" />
       <jump line="37" column="0" filename="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/LoopingMetadataListenerTest.groovy" />
+      <jump line="25" column="0" filename="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ReportMetadataListenerTest.groovy" />
+      <jump line="35" column="4" filename="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ReportMetadataListenerTest.groovy" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -733,7 +741,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAogICAgQFNwcmluZ0JlYW4obmFtZSA9ICJjbGFpbU1lc3NhZ2VUb3BvbG9neSIpCiAgICBLU3RyZWFtIHN0cmVhbSA9IE1vY2soKQo=</text>
+        <text encoding="base64">ICAgIEBBdXRvd2lyZWQK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -786,7 +794,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">S2Fma2FFbWJlZGRlZCA=</text>
+        <text>Mock()</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxlbWJlZGRlZEthZmthXD4=</text>
@@ -795,7 +803,7 @@
         <text encoding="base64">ICAgIAogICAgQFNwcmluZ0JlYW4obmFtZSA9ICJjbGFpbU1lc3NhZ2VUb3BvbG9neSIpCiAgICBLU3RyZWFtIHN0cmVhbSA9IE1vY2soKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEBBdXRvd2lyZWQKICAgIEVtYmVkZGVkS2Fma2FCcm9rZXIgZW1iZWRkZWRLYWZrYQoK</text>
+        <text encoding="base64">ICAgIEBBdXRvd2lyZWQK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -841,19 +849,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">QERpcnRpZXNDb250ZXh0CkBTcHJpbmdCb290VGVzdChjbGFzc2VzID0gQXBwbGljYXRpb24uY2xhc3MpCkBFbWJlZGRlZEthZmthKHBhcnRpdGlvbnMgPSAxLAogICAgICAgIHRvcGljcyA9IFsKICAgICAgICAgICAgICAgICdmb3JzaS1yZXBvcnRzLW1ldGFkYXRhJwogICAgICAgIF0pCkBUZXN0UHJvcGVydHlTb3VyY2UobG9jYXRpb25zID0gJ2NsYXNzcGF0aDphcHBsaWNhdGlvbi1pbnRlZ3JhdGlvbi5wcm9wZXJ0aWVzJykK</text>
+        <text encoding="base64">ICAgIEBTcHJpbmdCZWFuCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBMT0cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihMb29waW5nTWV0YWRhdGFMaXN0ZW5lclRlc3QuY2xhc3MpOwoK</text>
+        <text encoding="base64">ICAgIEBTcHJpbmdCZWFuCiAgICBSZXBvcnRNZXRhZGF0YUxpc3RlbmVyIHJlcG9ydE1ldGFkYXRhTGlzdGVuZXIgPSBNb2NrKCkKCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIEBBdXRvd2lyZWQKICAgIEVtYmVkZGVkS2Fma2FCcm9rZXIgZW1iZWRkZWRLYWZrYQoKICAgIEBBdXRvd2lyZWQKICAgIEthZmthTGlzdGVuZXJFbmRwb2ludFJlZ2lzdHJ5IGthZmthTGlzdGVuZXJFbmRwb2ludFJlZ2lzdHJ5Cgo=</text>
+        <text encoding="base64">CiAgICBAU3ByaW5nQmVhbgogICAgTG9vcGluZ01ldGFkYXRhTGlzdGVuZXIgbGlzdGVuZXIgPSBuZXcgTG9vcGluZ01ldGFkYXRhTGlzdGVuZXIocmVwb3J0c0NsaWVudCkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">QERpcnRpZXNDb250ZXh0CkBTcHJpbmdCb290VGVzdChjbGFzc2VzID0gQXBwbGljYXRpb24uY2xhc3MpCkBFbWJlZGRlZEthZmthKHBhcnRpdGlvbnMgPSAxLAogICAgICAgIHRvcGljcyA9IFsKICAgICAgICAgICAgICAgICdmb3JzaS1yZXBvcnRzLW1ldGFkYXRhJwogICAgICAgIF0pCkBUZXN0UHJvcGVydHlTb3VyY2UobG9jYXRpb25zID0gJ2NsYXNzcGF0aDphcHBsaWNhdGlvbi1pbnRlZ3JhdGlvbi5wcm9wZXJ0aWVzJykK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsua2Fma2EudGVzdC5ydWxlLkthZmthRW1iZWRkZWQK</text>
+      <register name="6" type="4">
+        <text encoding="base64">CiAgICBwcml2YXRlIFJhcHBvcnRJbmZvIGdldFJhcHBvcnRJbmZvTW9jaygpIHsKICAgICAgICByZXR1cm4gTW9jayhSYXBwb3J0SW5mbykgewogICAgICAgICAgICBnZXRBcmJHaXYoKSA+PiAnVFInCiAgICAgICAgICAgIGdldE9wckFyYkdpdigpID4+ICdUUicKICAgICAgICAgICAgZ2V0T3ByVGFrc05yKCkgPj4gNDEyNAogICAgICAgICAgICBnZXRSYXBwSWQoKSA+PiAyNjU2NTU4MDEKICAgICAgICAgICAgZ2V0UmFwcE5yKCkgPj4gMTIwMDA3CiAgICAgICAgICAgIGdldFJhcHBUeXBlKCkgPj4gJ0ggJwogICAgICAgICAgICBnZXRUYWtzRm9yKCkgPj4gJ1BGJwogICAgICAgICAgICBnZXRUYWtzTnIoKSA+PiA0MTI0CiAgICAgICAgICAgIGdldFZrTnIoKSA+PiAnMycKICAgICAgICB9CiAgICB9</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -906,13 +914,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEBTcHJpbmdCZWFuCiAgICBSZXBvcnREYXRhTGlzdGVuZXIgcmVwb3J0RGF0YUxpc3RlbmVyID0gTW9jaygpCgo=</text>
+        <text encoding="base64">ICAgIEBBdXRvd2lyZWQKICAgIEVtYmVkZGVkS2Fma2FCcm9rZXIgZW1iZWRkZWRLYWZrYQoK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIEBTcHJpbmdCZWFuCiAgICBSZXBvcnREYXRhTGlzdGVuZXIgcmVwb3J0RGF0YUxpc3RlbmVyID0gTW9jaygpCgo=</text>
+        <text encoding="base64">QERpcnRpZXNDb250ZXh0CkBTcHJpbmdCb290VGVzdChjbGFzc2VzID0gQXBwbGljYXRpb24uY2xhc3MpCkBFbWJlZGRlZEthZmthKHBhcnRpdGlvbnMgPSAxLAogICAgICAgIHRvcGljcyA9IFsKICAgICAgICAgICAgICAgICdmb3JzaS1yZXBvcnRzLW1ldGFkYXRhJwogICAgICAgIF0pCkBUZXN0UHJvcGVydHlTb3VyY2UobG9jYXRpb25zID0gJ2NsYXNzcGF0aDphcHBsaWNhdGlvbi1pbnRlZ3JhdGlvbi5wcm9wZXJ0aWVzJykK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5mb3JzaXJlcG9ydHMubWVzc2FnaW5nLlJlcG9ydERhdGFMaXN0ZW5lcgo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBMT0cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihMb29waW5nTWV0YWRhdGFMaXN0ZW5lclRlc3QuY2xhc3MpOwoK</text>
       </register>
       <register name=":" type="4">
         <text>reg</text>

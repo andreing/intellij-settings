@@ -189,17 +189,10 @@
         <mark key="^" line="26" column="19" />
         <mark key="." line="26" column="19" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/Application.java" timestamp="1542712491903">
-        <mark key="'" line="38" column="8" />
-        <mark key="[" line="41" column="0" />
-        <mark key="]" line="34" column="0" />
-        <mark key="^" line="31" column="0" />
-        <mark key="." line="34" column="0" />
-      </file>
-      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.kafka/spring-kafka/2.2.2.RELEASE/c73e6ac211da0002b604c57bcc247a6dab74a8a5/spring-kafka-2.2.2.RELEASE-sources.jar!/org/springframework/kafka/support/serializer/JsonSerde.java" timestamp="1546527727152">
-        <mark key="'" line="71" column="0" />
-        <mark key="[" line="71" column="0" />
-        <mark key="]" line="72" column="92" />
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/Application.java" timestamp="1546954553638">
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="27" column="0" />
+        <mark key="." line="27" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/test.yml" timestamp="1539345804908">
         <mark key="[" line="40" column="15" />
@@ -273,6 +266,12 @@
         <mark key="]" line="9" column="7" />
         <mark key="." line="9" column="0" />
         <mark key="^" line="3" column="3" />
+      </file>
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/web/InitFetchController.java" timestamp="1546955672682">
+        <mark key="[" line="22" column="24" />
+        <mark key="]" line="22" column="25" />
+        <mark key="." line="22" column="25" />
+        <mark key="^" line="22" column="24" />
       </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ReportMetadataProducerTest.groovy" timestamp="1546871476395">
         <mark key="'" line="59" column="0" />
@@ -508,12 +507,12 @@
         <mark key="^" line="1" column="88" />
         <mark key="." line="1" column="87" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/build.gradle" timestamp="1546946184918">
-        <mark key="'" line="95" column="0" />
-        <mark key="[" line="65" column="0" />
-        <mark key="]" line="65" column="0" />
-        <mark key="^" line="68" column="23" />
-        <mark key="." line="65" column="0" />
+      <file name="$USER_HOME$/repos/forsi-reports/build.gradle" timestamp="1546953622738">
+        <mark key="'" line="96" column="0" />
+        <mark key="[" line="64" column="68" />
+        <mark key="]" line="66" column="0" />
+        <mark key="^" line="69" column="23" />
+        <mark key="." line="66" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claimsgateway/README.md" timestamp="1540817904739">
         <mark key="'" line="80" column="89" />
@@ -548,7 +547,7 @@
       <file name="/dummy.sql" timestamp="1538060025392">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1546868151727">
+      <file name="/Dummy.txt" timestamp="1546954748205">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="10" />
         <mark key="." line="0" column="10" />
@@ -625,11 +624,12 @@
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/integration-test/resources/test.yml" timestamp="1537884714157">
         <mark key="[" line="158" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/resources/application-dev.properties" timestamp="1546524764567">
-        <mark key="'" line="11" column="0" />
-        <mark key="[" line="22" column="46" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/resources/application-dev.properties" timestamp="1546955712736">
+        <mark key="'" line="12" column="0" />
+        <mark key="[" line="1" column="28" />
+        <mark key="]" line="25" column="9" />
+        <mark key="." line="25" column="9" />
+        <mark key="^" line="25" column="9" />
       </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsi/reports/messaging/Sender.java" timestamp="1540993118750">
         <mark key="[" line="12" column="26" />
@@ -755,7 +755,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Ly8JCWltcGxlbWVudGF0aW9uKCdvcmcuYXBhY2hlLmthZmthOmthZmthLWNsaWVudHM6Mi4wLjAnKQo=</text>
+        <text encoding="base64">CglAQXV0b3dpcmVkCiAgICBSZXBvcnRNZXRhZGF0YVByb2R1Y2VyIG1ldGFkYXRhU2VydmljZTsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -817,7 +817,7 @@
         <text encoding="base64">ICAgIAogICAgQFNwcmluZ0JlYW4obmFtZSA9ICJjbGFpbU1lc3NhZ2VUb3BvbG9neSIpCiAgICBLU3RyZWFtIHN0cmVhbSA9IE1vY2soKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly8JCWltcGxlbWVudGF0aW9uKCdvcmcuYXBhY2hlLmthZmthOmthZmthLWNsaWVudHM6Mi4wLjAnKQo=</text>
+        <text encoding="base64">CglAQXV0b3dpcmVkCiAgICBSZXBvcnRNZXRhZGF0YVByb2R1Y2VyIG1ldGFkYXRhU2VydmljZTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -863,19 +863,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBsaXN0ZW5lciAhPSBudWxsCg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAxICogbGlzdGVuZXIubGlzdGVuQW5kRmV0Y2hOZXh0KCpfKSAvLyB0b2RvIHByb2JzIHJlbW92ZQo=</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Ci8vICAgICAgICBtZXRhZGF0YVNlcnZpY2UuaW5pdGlhbGl6ZUJhdGNoKExvY2FsRGF0ZS5vZigyMDE3LCAzLCAxKSk7CgoK</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBMT0cuaW5mbygiTG9vcGluZ01ldGFkYXRhTGlzdGVuZXI6IHt9IiwgbGlzdGVuZXIpCg==</text>
+        <text encoding="base64">aW1wb3J0IGphdmF4LndzLnJzLlF1ZXJ5UGFyYW07Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBsaXN0ZW5lciA9IGhhcm5lc3MuZ2V0U3B5KCJsb29waW5nTWVzc2FnZUxpc3RlbmVyIikK</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLmJpbmQuYW5ub3RhdGlvbi5QYXRoVmFyaWFibGU7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -928,13 +928,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBMT0cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihMb29waW5nTWV0YWRhdGFMaXN0ZW5lclRlc3QuY2xhc3MpOwoK</text>
+        <text encoding="base64">Ly8JCWltcGxlbWVudGF0aW9uKCdvcmcuYXBhY2hlLmthZmthOmthZmthLWNsaWVudHM6Mi4wLjAnKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIEBBdXRvd2lyZWQgLy9UT0RPIGRvZXMgbm90IHdvcmsKICAgIEthZmthTGlzdGVuZXJUZXN0SGFybmVzcyBoYXJuZXNzCgo=</text>
+        <text encoding="base64">ICAgICAgICBsaXN0ZW5lciAhPSBudWxsCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">QEltcG9ydChJbnRlZ3JhdGlvblRlc3RLYWZrYUNvbmZpZy5jbGFzcykK</text>
+        <text encoding="base64">ICAgICAgICAxICogbGlzdGVuZXIubGlzdGVuQW5kRmV0Y2hOZXh0KCpfKSAvLyB0b2RvIHByb2JzIHJlbW92ZQo=</text>
       </register>
       <register name=":" type="4">
         <text>reg</text>

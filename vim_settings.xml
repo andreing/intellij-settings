@@ -214,8 +214,8 @@
       <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/repositories/MailJdbcDao.java" timestamp="1544185849033">
         <mark key="'" line="51" column="13" />
       </file>
-      <file name="$USER_HOME$/repos/claims-mail-app/web/src/redux/reducers/reducer_reports.js" timestamp="1547203761546">
-        <mark key="[" line="54" column="44" />
+      <file name="$USER_HOME$/repos/claims-mail-app/web/src/redux/reducers/reducer_reports.js" timestamp="1547205961453">
+        <mark key="[" line="34" column="64" />
         <mark key="]" line="56" column="26" />
         <mark key="." line="56" column="26" />
         <mark key="^" line="56" column="26" />
@@ -518,9 +518,9 @@
         <mark key="." line="56" column="0" />
         <mark key="^" line="56" column="57" />
       </file>
-      <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" timestamp="1547136033549">
-        <mark key="'" line="9" column="4" />
-        <mark key="[" line="91" column="0" />
+      <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" timestamp="1547205982271">
+        <mark key="'" line="6" column="4" />
+        <mark key="[" line="27" column="45" />
         <mark key="]" line="91" column="0" />
         <mark key="^" line="29" column="49" />
         <mark key="." line="91" column="0" />
@@ -674,7 +674,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="84" column="25" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/UserMenu.jsx" />
       <jump line="106" column="17" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/UserMenu.jsx" />
       <jump line="142" column="28" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Inbox.jsx" />
       <jump line="5" column="8" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Inbox.jsx" />
@@ -774,6 +773,7 @@
       <jump line="199" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/drawer/ActionArea.jsx" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/drawer/ActionArea.jsx" />
       <jump line="135" column="8" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/drawer/ActionArea.jsx" />
+      <jump line="6" column="4" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/Item.jsx" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -839,7 +839,7 @@
         <text>email</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx1cGRhdGVSZXBvcnRcPg==</text>
+        <text encoding="base64">XDxhZGRSZXBvcnRUb0FjdGlvblw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOwo=</text>
@@ -969,9 +969,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx1cGRhdGVSZXBvcnRcPg==</last-search>
+      <last-search encoding="base64">XDxhZGRSZXBvcnRUb0FjdGlvblw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx1cGRhdGVSZXBvcnRcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxhZGRSZXBvcnRUb0FjdGlvblw+</last-pattern>
       <last-replace>reportData</last-replace>
       <last-substitute>payload</last-substitute>
       <last-dir>1</last-dir>
@@ -979,7 +979,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxoYXJkRGVsZXRlXD4=</entry>
         <entry encoding="base64">XDxjaGVja01haWxTdGF0dXNcPg==</entry>
         <entry encoding="base64">XDxIZWFkZXJcPg==</entry>
         <entry encoding="base64">XDxzZWxlY3RlZE9iamVjdFw+</entry>
@@ -999,6 +998,7 @@
         <entry encoding="base64">XDxoYW5kbGVBY3Rpb25cPg==</entry>
         <entry encoding="base64">XDxyZW5kZXJBY3Rpb25CdXR0b25cPg==</entry>
         <entry encoding="base64">XDx1cGRhdGVSZXBvcnRcPg==</entry>
+        <entry encoding="base64">XDxhZGRSZXBvcnRUb0FjdGlvblw+</entry>
       </history-search>
       <history-cmd>
         <entry>close</entry>

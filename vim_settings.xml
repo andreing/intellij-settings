@@ -244,7 +244,8 @@
         <mark key="." line="601" column="70" />
         <mark key="^" line="601" column="70" />
       </file>
-      <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/authentication/AuthenticationFilter.java" timestamp="1548083230684">
+      <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/authentication/AuthenticationFilter.java" timestamp="1548236772273">
+        <mark key="'" line="47" column="16" />
         <mark key="[" line="103" column="99" />
       </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/sources/ReportDataService.java" timestamp="1541513946096">
@@ -710,9 +711,6 @@
         <mark key="^" line="50" column="57" />
         <mark key="." line="50" column="57" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/EventController.java" timestamp="1548173165027">
-        <mark key="'" line="231" column="54" />
-      </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/ReportMetadataListener.java" timestamp="1548150207946">
         <mark key="[" line="41" column="40" />
         <mark key="]" line="61" column="0" />
@@ -831,7 +829,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="14" column="4" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/ReportTable.jsx" />
       <jump line="19" column="4" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/ReportTable.jsx" />
       <jump line="24" column="4" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/ReportTable.jsx" />
       <jump line="29" column="4" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/ReportTable.jsx" />
@@ -931,6 +928,7 @@
       <jump line="144" column="4" filename="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" />
       <jump line="163" column="58" filename="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" />
       <jump line="2" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" />
+      <jump line="47" column="16" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/authentication/AuthenticationFilter.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -996,7 +994,7 @@
         <text>ClaimsUtils.CLAIM_EVENT_TYPE_ID_TRANSACTION_CREATED</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxmaWxlU2VydmljZVw+</text>
+        <text encoding="base64">XDxnZXRUb2tlblw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCJzdWJtaXRUb0NsYWltcyAiLCBjbGFpbUhlYWRlcklkLCByZXBvcnQpOwo=</text>
@@ -1126,17 +1124,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxmaWxlU2VydmljZVw+</last-search>
+      <last-search encoding="base64">XDxnZXRUb2tlblw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxmaWxlU2VydmljZVw+</last-pattern>
+      <last-pattern encoding="base64">XDxnZXRUb2tlblw+</last-pattern>
       <last-replace>implementation</last-replace>
       <last-substitute>compileOnly</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxwcmludEVycm9yXD4=</entry>
         <entry encoding="base64">XDxpdGVtc0ZvclN1Ym1pdFw+</entry>
         <entry encoding="base64">XDxyZXBvcnRzXD4=</entry>
         <entry encoding="base64">XDx1cGRhdGVBY3Rpb25EcmF3ZXJcPg==</entry>
@@ -1156,6 +1153,7 @@
         <entry encoding="base64">XDxhcHByYWlzYWxHbG9iYWxLVGFibGVcPg==</entry>
         <entry encoding="base64">XDxhcHByYWlzYWxzU3RyZWFtc1RvcG9sb2d5XD4=</entry>
         <entry encoding="base64">XDxmaWxlU2VydmljZVw+</entry>
+        <entry encoding="base64">XDxnZXRUb2tlblw+</entry>
       </history-search>
       <history-cmd>
         <entry>close</entry>

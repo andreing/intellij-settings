@@ -738,12 +738,12 @@
       <file name="$USER_HOME$/repos/forsi-reports/app/src/test/java/protector/forsireports/ws/forsioutputservice/util/ForsiUtilsSpec.groovy" timestamp="1541077972515">
         <mark key="[" line="6" column="36" />
       </file>
-      <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/KafkaConfig.java" timestamp="1548331191709">
-        <mark key="'" line="51" column="8" />
-        <mark key="[" line="78" column="38" />
-        <mark key="]" line="76" column="12" />
-        <mark key="." line="76" column="12" />
-        <mark key="^" line="76" column="12" />
+      <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/KafkaConfig.java" timestamp="1548342848944">
+        <mark key="'" line="76" column="92" />
+        <mark key="[" line="81" column="101" />
+        <mark key="]" line="79" column="29" />
+        <mark key="." line="79" column="29" />
+        <mark key="^" line="79" column="29" />
       </file>
       <file name="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/src/main/java/protector/forsi/reports/ws/forsioutputservice/ForsiService.java" timestamp="1539942208096">
         <mark key="[" line="2" column="26" />
@@ -782,7 +782,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="4" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/ReportTable.jsx" />
       <jump line="58" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/ReportTable.jsx" />
       <jump line="1" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/DamageInfo.jsx" />
       <jump line="2" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/DamageInfo.jsx" />
@@ -882,6 +881,7 @@
       <jump line="35" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/ReportTable.jsx" />
       <jump line="43" column="8" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/ReportTable.jsx" />
       <jump line="77" column="4" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/ReportTable.jsx" />
+      <jump line="76" column="92" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/KafkaConfig.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -891,7 +891,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBQcm9kdWNlclJlY29yZDxTdHJpbmcsIFN0cmluZz4gcmVjb3JkOwo=</text>
+        <text encoding="base64">ICAgICAgICBwcm9jZXNzaW5nVGFibGUuCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -953,7 +953,7 @@
         <text encoding="base64">ICAgIHsKICAgICAgICB0aXRsZTogJ0fDpmxkZXIgc29tIGZha3R1cmEnLAogICAgICAgIGRhdGFJbmRleDogJ2FzSW52b2ljZScsCiAgICAgICAga2V5OiAnYXNpbnZvaWNlJwogICAgfSwK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBQcm9kdWNlclJlY29yZDxTdHJpbmcsIFN0cmluZz4gcmVjb3JkOwo=</text>
+        <text encoding="base64">ICAgICAgICBwcm9jZXNzaW5nVGFibGUuCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -999,19 +999,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVjb3JkID0gbmV3IFByb2R1Y2VyUmVjb3JkPD4oVE9QSUMsIGtleSwgb2JqZWN0TWFwcGVyLndyaXRlVmFsdWVBc1N0cmluZyhtc2cpKTsK</text>
+        <text encoding="base64">ICAgICAgICBQcm9kdWNlclJlY29yZDxTdHJpbmcsIFN0cmluZz4gcmVjb3JkOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBtc2cucHV0KCJ0aW1lc3RhbXAiLCBMb2NhbERhdGVUaW1lLm5vdygpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVjb3JkID0gbmV3IFByb2R1Y2VyUmVjb3JkPD4oVE9QSUMsIGtleSwgb2JqZWN0TWFwcGVyLndyaXRlVmFsdWVBc1N0cmluZyhtc2cpKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBtc2cucHV0KCJ0aW1lc3RhbXAiLCBMb2NhbERhdGVUaW1lLm5vdygpKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Ci8vVG9nZ2xlIG9mZiBpbiBwcm9kCmNvbnN0IGZvcnNpTWVudUl0ZW0gPSAoe2FjdGl2ZVByb2ZpbGV9KSA9IHsKCn0K</text>
+        <text encoding="base64">CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1064,13 +1064,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIC8vIGNvbnN0cnVjdG9yKHByb3BzKSB7CiAgICAvLyAgICAgc3VwZXIocHJvcHMpOwogICAgLy8gfQoK</text>
+        <text encoding="base64">Ci8vVG9nZ2xlIG9mZiBpbiBwcm9kCmNvbnN0IGZvcnNpTWVudUl0ZW0gPSAoe2FjdGl2ZVByb2ZpbGV9KSA9IHsKCn0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICAvLyBjb25zdHJ1Y3Rvcihwcm9wcykgewogICAgLy8gICAgIHN1cGVyKHByb3BzKTsKICAgIC8vIH0K</text>
+        <text encoding="base64">ICAgIC8vIGNvbnN0cnVjdG9yKHByb3BzKSB7CiAgICAvLyAgICAgc3VwZXIocHJvcHMpOwogICAgLy8gfQoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCJkYXRlIHN0cmluZyIsIGRhdGVTdHJpbmcpOwo=</text>
+        <text encoding="base64">CiAgICAvLyBjb25zdHJ1Y3Rvcihwcm9wcykgewogICAgLy8gICAgIHN1cGVyKHByb3BzKTsKICAgIC8vIH0K</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

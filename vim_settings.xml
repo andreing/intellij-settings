@@ -38,10 +38,10 @@
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaConsumerHealth.java" timestamp="1548941697564">
-        <mark key="[" line="16" column="28" />
-        <mark key="]" line="2" column="0" />
-        <mark key="." line="2" column="0" />
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaConsumerHealth.java" timestamp="1548944495209">
+        <mark key="[" line="47" column="65" />
+        <mark key="]" line="43" column="0" />
+        <mark key="." line="43" column="0" />
       </file>
       <file name="$USER_HOME$/repos/forsi-reports/settings.gradle" timestamp="1542899814616">
         <mark key="[" line="3" column="44" />
@@ -313,10 +313,6 @@
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/StreamingProcessor.java" timestamp="1548844604331">
-        <mark key="[" line="30" column="0" />
-        <mark key="]" line="30" column="97" />
-      </file>
       <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/controllers/ForsiReportController.java" timestamp="1548418515496">
         <mark key="[" line="27" column="0" />
         <mark key="]" line="27" column="0" />
@@ -361,6 +357,8 @@
         <mark key="." line="13" column="13" />
         <mark key="^" line="13" column="13" />
       </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.kafka/spring-kafka/2.2.2.RELEASE/c73e6ac211da0002b604c57bcc247a6dab74a8a5/spring-kafka-2.2.2.RELEASE-sources.jar!/org/springframework/kafka/event/ContainerStoppedEvent.java" timestamp="1548944423119" />
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.kafka/spring-kafka/2.2.2.RELEASE/c73e6ac211da0002b604c57bcc247a6dab74a8a5/spring-kafka-2.2.2.RELEASE-sources.jar!/org/springframework/kafka/listener/ContainerProperties.java" timestamp="1548944217446" />
       <file name="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ReportMetadataProducerTest.groovy" timestamp="1548846204889">
         <mark key="[" line="58" column="0" />
         <mark key="]" line="58" column="0" />
@@ -697,9 +695,9 @@
         <mark key="." line="73" column="26" />
         <mark key="^" line="73" column="26" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/ReportMetadataListener.java" timestamp="1548842973690">
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/ReportMetadataListener.java" timestamp="1548943660095">
         <mark key="'" line="62" column="16" />
-        <mark key="[" line="45" column="21" />
+        <mark key="[" line="34" column="19" />
         <mark key="]" line="65" column="0" />
         <mark key="^" line="64" column="28" />
         <mark key="." line="65" column="0" />
@@ -928,7 +926,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5hcGFjaGUua2Fma2EuY29tbW9uLk1ldHJpY05hbWU7Cg==</text>
+        <text encoding="base64">ICAgICAgICByZWdpc3RyeS5nZXRMaXN0ZW5lckNvbnRhaW5lcigiIikK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -991,7 +989,7 @@
     }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5hcGFjaGUua2Fma2EuY29tbW9uLk1ldHJpY05hbWU7Cg==</text>
+        <text encoding="base64">ICAgICAgICByZWdpc3RyeS5nZXRMaXN0ZW5lckNvbnRhaW5lcigiIikK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1037,19 +1035,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsua2Fma2EubGlzdGVuZXIuS2Fma2FNZXNzYWdlTGlzdGVuZXJDb250YWluZXI7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoYyAtPiBjLmdldENvbnRhaW5lclByb3BlcnRpZXMoKS5nZXRNZXNzYWdlTGlzdGVuZXIoKS50b1N0cmluZygpKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEthZmthTGlzdGVuZXJDb250YWluZXJGYWN0b3J5IGJvbzsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoTGlmZWN5Y2xlOjppc1J1bm5pbmcpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIEBPdmVycmlkZQogICAgcHVibGljIEhlYWx0aCBoZWFsdGgoKSB7CgogICAgICAgIEhlYWx0aC5kb3duKCkKICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0KCg==</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5hcGFjaGUua2Fma2EuY29tbW9uLk1ldHJpY05hbWU7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsua2Fma2EubGlzdGVuZXIuS2Fma2FNZXNzYWdlTGlzdGVuZXJDb250YWluZXI7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEthZmthTGlzdGVuZXJDb250YWluZXJGYWN0b3J5IGJvbzsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1102,13 +1100,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">I2ZpbGVzZXJ2aWNlLnVybD1odHRwOi8vbG9jYWxob3N0Ojg5OTkK</text>
+        <text encoding="base64">ICAgIEBPdmVycmlkZQogICAgcHVibGljIEhlYWx0aCBoZWFsdGgoKSB7CgogICAgICAgIEhlYWx0aC5kb3duKCkKICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0KCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcm9wcy5wdQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">c3ByaW5nLmthZmthLmJvb3RzdHJhcC1zZXJ2ZXJzPXBmc3Zub2thZmthdDAxOjkwOTIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

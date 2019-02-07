@@ -118,6 +118,12 @@
       <file name="/HTML File.txt.ft" timestamp="1539861397746">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/ClaimsAsyncConsumerBootstrap.java" timestamp="1549547276539">
+        <mark key="'" line="35" column="0" />
+        <mark key="[" line="35" column="0" />
+        <mark key="]" line="43" column="115" />
+        <mark key="." line="38" column="14" />
+      </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/domain/PaymentInfo.java" timestamp="1547048782439">
         <mark key="[" line="15" column="0" />
         <mark key="]" line="15" column="0" />
@@ -252,9 +258,6 @@
         <mark key="]" line="156" column="40" />
         <mark key="." line="154" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/ws/forsi-output-ws/src/main/java/protector/forsireports/ws/forsioutputservice/client/ReportsClient.java" timestamp="1549456177148">
-        <mark key="[" line="46" column="68" />
-      </file>
       <file name="/JavaScript Console" timestamp="1540815899439">
         <mark key="[" line="0" column="0" />
       </file>
@@ -274,7 +277,7 @@
         <mark key="^" line="62" column="59" />
         <mark key="." line="62" column="59" />
       </file>
-      <file name="/dummy.sql" timestamp="1538060025392">
+      <file name="/dummy.sql" timestamp="1549546385358">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/domain/ForsiClaimsMessage.java" timestamp="1549456320055">
@@ -348,6 +351,9 @@
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsi/reports/messaging/Sender.java" timestamp="1540993118750">
         <mark key="[" line="12" column="26" />
       </file>
+      <file name="/Claim_Form_Assigned_User [TESTProtect@test.sql.protector.local]" timestamp="1549546384348">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/actuator/KafkaConsumerHealth.java" timestamp="1549275278889">
         <mark key="[" line="13" column="57" />
         <mark key="]" line="26" column="0" />
@@ -359,7 +365,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="47" column="8" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/ForsiReportStreams.java" />
       <jump line="13" column="112" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/ForsiReportStreams.java" />
       <jump line="95" column="11" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/KafkaConfig.java" />
       <jump line="96" column="19" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/KafkaConfig.java" />
@@ -459,6 +464,7 @@
       <jump line="0" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet" />
       <jump line="409" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/9687894a-0f49-472d-9fa9-dcdbab8d1841/console.sql" />
       <jump line="415" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/9687894a-0f49-472d-9fa9-dcdbab8d1841/console.sql" />
+      <jump line="35" column="0" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/ClaimsAsyncConsumerBootstrap.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -468,7 +474,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">QEVuYWJsZUFzeW5jCkBDb25maWd1cmF0aW9uCkBJbXBvcnQoe1NwcmluZ0NvbmZpZ3VyYXRpb24uY2xhc3N9KQpAQ29tcG9uZW50U2NhbgpARW5hYmxlQXV0b0NvbmZpZ3VyYXRpb24oZXhjbHVkZSA9IHtEYXRhU291cmNlQXV0b0NvbmZpZ3VyYXRpb24uY2xhc3MsIEVycm9yTXZjQXV0b0NvbmZpZ3VyYXRpb24uY2xhc3MsIE1vbmdvQXV0b0NvbmZpZ3VyYXRpb24uY2xhc3N9KQpwdWJsaWMgY2xhc3MgQ2xhaW1zQXN5bmNDb25zdW1lckJvb3RzdHJhcCB7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgS0FGS0FfS0VZX1NFUklBTElaRVIgPSAib3JnLmFwYWNoZS5rYWZrYS5jb21tb24uc2VyaWFsaXphdGlvbi5TdHJpbmdTZXJpYWxpemVyIjsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBLQUZLQV9WQUxVRV9TRVJJQUxJWkVSID0gS0FGS0FfS0VZX1NFUklBTElaRVI7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgS0FGS0FfS0VZX0RFU0VSSUFMSVpFUiA9ICJvcmcuYXBhY2hlLmthZmthLmNvbW1vbi5zZXJpYWxpemF0aW9uLlN0cmluZ0Rlc2VyaWFsaXplciI7Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -521,13 +527,13 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>forsiClaimsMessageJsonSerde</text>
+        <text>(basePackages = { &quot;protector.claims.service.claims&quot;, &quot;protector.claims.service.mail&quot;, &quot;protector.claims.user&quot;, &quot;protector.claims.lob&quot;, &quot;protector.claims.tools&quot;, &quot;protector.claims.dao&quot;, &quot;protector.claims.party.core&quot;, &quot;protector.claims.country&quot;, &quot;protector.claims.integration.pia&quot;, &quot;protector.claims.party.validator&quot;, &quot;protector.claims.services&quot;, &quot;protector.claims.service.survey&quot;, &quot;protector.claims.templates&quot;, &quot;protector.claims.mail&quot;, &quot;protector.claims.translation&quot;, &quot;protector.claims.util&quot;, &quot;protector.claims.document&quot;, &quot;protector.claims.rr.core&quot;, &quot;protector.claims.kpi.service&quot;, &quot;protector.claims.kpi.dao&quot;, &quot;protector.claims.kpi.demandreduction&quot;, &quot;protector.claims.kpi.decisionlist.service&quot;, &quot;protector.claims.integration.netigate&quot;, &quot;protector.claims.header.state&quot;, &quot;protector.claims.integration.tff&quot;, &quot;protector.claims.service.common&quot;, &quot;protector.claims.integration.dmr&quot;, &quot;protector.claims.integration.vtr&quot;, &quot;protector.claims.gdpr.service&quot;, &quot;protector.claims.gdpr.dao&quot;, &quot;protector.claims.validator.accountnumber.uk&quot;, &quot;protector.claims.service.assignment&quot;, &quot;protector.claims.mailprocessing&quot;, &quot;protector.claims.forsiprocessing&quot;})</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDx1bnByb2Nlc3NlZEFwcHJhaXNhbHNTdG9yZVw+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">c2VsZWN0ICoKZnJvbSBVc2VycyB1CiAgam9pbiBDbGFpbV9Vc2VyIGN1IG9uIHUuSWQgPSBjdS5Vc2VyX0lkCndoZXJlIHUuVXNlcl9OYW1lID0gJ3JpbWE5OCcK</text>
+        <text encoding="base64">QEVuYWJsZUFzeW5jCkBDb25maWd1cmF0aW9uCkBJbXBvcnQoe1NwcmluZ0NvbmZpZ3VyYXRpb24uY2xhc3N9KQpAQ29tcG9uZW50U2NhbgpARW5hYmxlQXV0b0NvbmZpZ3VyYXRpb24oZXhjbHVkZSA9IHtEYXRhU291cmNlQXV0b0NvbmZpZ3VyYXRpb24uY2xhc3MsIEVycm9yTXZjQXV0b0NvbmZpZ3VyYXRpb24uY2xhc3MsIE1vbmdvQXV0b0NvbmZpZ3VyYXRpb24uY2xhc3N9KQpwdWJsaWMgY2xhc3MgQ2xhaW1zQXN5bmNDb25zdW1lckJvb3RzdHJhcCB7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgS0FGS0FfS0VZX1NFUklBTElaRVIgPSAib3JnLmFwYWNoZS5rYWZrYS5jb21tb24uc2VyaWFsaXphdGlvbi5TdHJpbmdTZXJpYWxpemVyIjsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBLQUZLQV9WQUxVRV9TRVJJQUxJWkVSID0gS0FGS0FfS0VZX1NFUklBTElaRVI7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgS0FGS0FfS0VZX0RFU0VSSUFMSVpFUiA9ICJvcmcuYXBhY2hlLmthZmthLmNvbW1vbi5zZXJpYWxpemF0aW9uLlN0cmluZ0Rlc2VyaWFsaXplciI7Cg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>

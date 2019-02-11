@@ -240,9 +240,9 @@
         <mark key="." line="44" column="38" />
         <mark key="^" line="44" column="38" />
       </file>
-      <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/ClaimsInfo.jsx" timestamp="1549886973598">
+      <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/ClaimsInfo.jsx" timestamp="1549891067055">
         <mark key="'" line="1" column="0" />
-        <mark key="[" line="11" column="18" />
+        <mark key="[" line="13" column="47" />
         <mark key="]" line="36" column="91" />
         <mark key="." line="36" column="91" />
         <mark key="^" line="36" column="91" />
@@ -326,8 +326,12 @@
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/app.js" timestamp="1539013343997">
         <mark key="[" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/ClaimHeaderForm.jsx" timestamp="1549887287038">
-        <mark key="[" line="97" column="33" />
+      <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/ClaimHeaderForm.jsx" timestamp="1549891890495">
+        <mark key="'" line="22" column="4" />
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="48" />
+        <mark key="." line="22" column="0" />
+        <mark key="^" line="99" column="26" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/finland/auto/fi_auto_collision_en.fxml" timestamp="1530616628144">
         <mark key="'" line="9" column="0" />
@@ -792,12 +796,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="29" column="8" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/ForsiReportStreams.java" />
-      <jump line="72" column="20" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/ForsiReportStreams.java" />
-      <jump line="39" column="8" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/ForsiReportStreams.java" />
-      <jump line="106" column="0" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/KafkaConfig.java" />
-      <jump line="44" column="8" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/KafkaConfig.java" />
-      <jump line="75" column="0" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/KafkaConfig.java" />
       <jump line="69" column="8" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/KafkaConfig.java" />
       <jump line="50" column="0" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/GlobalKVStore.java" />
       <jump line="85" column="0" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/KafkaConfig.java" />
@@ -892,6 +890,12 @@
       <jump line="1" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/ActionArea.jsx" />
       <jump line="1" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/ClaimsInfo.jsx" />
       <jump line="68" column="69" filename="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" />
+      <jump line="114" column="74" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/ClaimHeaderForm.jsx" />
+      <jump line="8" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/ClaimHeaderForm.jsx" />
+      <jump line="68" column="24" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/ClaimHeaderForm.jsx" />
+      <jump line="58" column="19" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/ClaimHeaderForm.jsx" />
+      <jump line="67" column="15" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/ClaimHeaderForm.jsx" />
+      <jump line="22" column="4" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/ClaimHeaderForm.jsx" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -901,7 +905,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHsvKjxDYXJkLkdyaWQgc3R5bGU9e2dyaWRTdHlsZX0+e2NoaWR9PC9DYXJkLkdyaWQ+Ki99Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zdCB7Z2V0RmllbGREZWNvcmF0b3J9ID0gdGhpcy5wcm9wcy5mb3JtOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -957,13 +961,13 @@
         <text>(basePackages = { &quot;protector.claims.service.claims&quot;, &quot;protector.claims.service.mail&quot;, &quot;protector.claims.user&quot;, &quot;protector.claims.lob&quot;, &quot;protector.claims.tools&quot;, &quot;protector.claims.dao&quot;, &quot;protector.claims.party.core&quot;, &quot;protector.claims.country&quot;, &quot;protector.claims.integration.pia&quot;, &quot;protector.claims.party.validator&quot;, &quot;protector.claims.services&quot;, &quot;protector.claims.service.survey&quot;, &quot;protector.claims.templates&quot;, &quot;protector.claims.mail&quot;, &quot;protector.claims.translation&quot;, &quot;protector.claims.util&quot;, &quot;protector.claims.document&quot;, &quot;protector.claims.rr.core&quot;, &quot;protector.claims.kpi.service&quot;, &quot;protector.claims.kpi.dao&quot;, &quot;protector.claims.kpi.demandreduction&quot;, &quot;protector.claims.kpi.decisionlist.service&quot;, &quot;protector.claims.integration.netigate&quot;, &quot;protector.claims.header.state&quot;, &quot;protector.claims.integration.tff&quot;, &quot;protector.claims.service.common&quot;, &quot;protector.claims.integration.dmr&quot;, &quot;protector.claims.integration.vtr&quot;, &quot;protector.claims.gdpr.service&quot;, &quot;protector.claims.gdpr.dao&quot;, &quot;protector.claims.validator.accountnumber.uk&quot;, &quot;protector.claims.service.assignment&quot;, &quot;protector.claims.mailprocessing&quot;, &quot;protector.claims.forsiprocessing&quot;})</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjbGFpbUhlYWRlcklkc1w+</text>
+        <text encoding="base64">XDxyZXBvcnRzXD4=</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">VVBEQVRFX1JFUE9SVF9DTEFJTV9IRUFERVIg</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBjb25zdCB7Z2V0RmllbGREZWNvcmF0b3J9ID0gdGhpcy5wcm9wcy5mb3JtOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHsvKjxDYXJkLkdyaWQgc3R5bGU9e2dyaWRTdHlsZX0+e2NoaWR9PC9DYXJkLkdyaWQ+Ki99Cg==</text>
+        <text encoding="base64">ICAgICAgICA8TW9kYWwKICAgICAgICAgICAgdGl0bGU9IkRvIHlvdSB3YW50IHRvIHRyYW5zZmVyIHRoZSByZXBvcnQocykgdG8gQ2xhaW1zPyIKICAgICAgICAgICAgc3R5bGU9e3t0b3A6IDUwfX0KICAgICAgICAgICAgdmlzaWJsZT17dGhpcy5zdGF0ZS5tb2RhbFZpc2libGV9CiAgICAgICAgICAgIG9uT2s9e3RoaXMuaGFuZGxlT2t9CiAgICAgICAgICAgIG9uQ2FuY2VsPXt0aGlzLmhhbmRsZUNhbmNlbH0KICAgICAgICAgICAgY2FuY2VsVGV4dD0iTm8sIHRoaXMgaXMgd3JvbmciCiAgICAgICAgICAgIG9rVGV4dD0iWWVzLCBjcmVhdGUgZXZlbnQiCiAgICAgICAgPgogICAgICAgICAgICA8Um93PgogICAgICAgICAgICAgICAgPENvbCBzcGFuPXs2fT4KICAgICAgICAgICAgICAgICAgICA8aW1nIGFsdD0iIiBzcmM9e3F1ZXN0aW9ubWFya30gc3R5bGU9e3twYWRkaW5nUmlnaHQ6IDMwLCBoZWlnaHQ6IDgwfX0vPgogICAgICAgICAgICAgICAgPC9Db2w+CiAgICAgICAgICAgICAgICA8Q29sIHNwYW49ezE4fT4KICAgICAgICAgICAgICAgICAgICB7dGhpcy5zdGF0ZS5tb2RhbE1lc3NhZ2V9CiAgICAgICAgICAgICAgICA8L0NvbD4KICAgICAgICAgICAgPC9Sb3c+CiAgICAgICAgPC9Nb2RhbD4K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1009,19 +1013,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygibWFwUHJvcHNUb0ZpZWxkcyIsICk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZXhwb3J0IGRlZmF1bHQgQ2xhaW1zSW5mbzsK</text>
+        <text encoding="base64">ICAgICAgICBwcm9wcy4K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Y29uc3QgQ2xhaW1zSW5mbyA9ICh7Y2xhaW1zSW5mb30pID0+IHsKfTsKCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHZhbHVlOiBwcm9wcy5jbGFpbUhlYWRlcklkLnZhbHVlCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKCJDbGFpbXNJbmZvICIsIGNsYWltc0luZm8pOwogICAgaWYgKCFjbGFpbXNJbmZvKSB7CiAgICAgICAgcmV0dXJuIG51bGw7CiAgICB9CiAgICBjb25zdCBsaXN0SXRlbXMgPSBjbGFpbXNJbmZvLmNsYWltSGVhZGVyTWF0Y2hlcwogICAgICAgIC5tYXAoKGhpZCkgPT4gPGxpIGtleT17aGlkLnRvU3RyaW5nKCl9PjxhIGhyZWY9e2dldENsYWltc0xpbmsoaGlkKX0gdGFyZ2V0PSJfYmxhbmsiPntoaWR9PC9hPjwvbGk+KTsKCiAgICByZXR1cm4gKAogICAgICAgIDxDYXJkCiAgICAgICAgICAgIHRpdGxlPSJDbGFpbXMgaW5mbyIKICAgICAgICAgICAgdHlwZT0iaW5uZXIiCiAgICAgICAgPgogICAgICAgICAgICA8aDY+VHJlZmYgcMOlIHNrYWRlOjwvaDY+CiAgICAgICAgICAgIDx1bD57bGlzdEl0ZW1zfTwvdWw+CiAgICAgICAgICAgIDxoNj5NZWxkaW5nOjwvaDY+CiAgICAgICAgICAgIDxwPntjbGFpbXNJbmZvLmVycm9yTWVzc2FnZX08L3A+CiAgICAgICAgPC9DYXJkPgogICAgKTsK</text>
+        <text encoding="base64">ICAgIGNvbnN0IEN1c3RvbWl6ZWRGb3JtID0gRm9ybS5jcmVhdGUoewogICAgICAgIG9uRmllbGRzQ2hhbmdlKHByb3BzLCBjaGFuZ2VkRmllbGRzKSB7CiAgICAgICAgICAgIHByb3BzLm9uQ2hhbmdlKGNoYW5nZWRGaWVsZHMpOwogICAgICAgIH0sCiAgICAgICAgbWFwUHJvcHNUb0ZpZWxkcyhwcm9wcykgewogICAgICAgICAgICByZXR1cm4gewogICAgICAgICAgICAgICAgY2xhaW1IZWFkZXJJZDogRm9ybS5jcmVhdGVGb3JtRmllbGQoewogICAgICAgICAgICAgICAgICAgIC4uLnByb3BzLmNsYWltSGVhZGVySWQsCiAgICAgICAgICAgICAgICAgICAgdmFsdWU6IHByb3BzLmNsYWltSGVhZGVySWQudmFsdWUKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIH07CiAgICAgICAgfSwKICAgICAgICBvblZhbHVlc0NoYW5nZShfLCB2YWx1ZXMpIHsKICAgICAgICAgICAgY29uc29sZS5sb2codmFsdWVzKTsKICAgICAgICB9CiAgICB9KTsKICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHsvKjxDYXJkLkdyaWQgc3R5bGU9e2dyaWRTdHlsZX0+e2NoaWR9PC9DYXJkLkdyaWQ+Ki99Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1074,31 +1078,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBKc29uU2VyZGU8Rm9yc2lGaWxlTWV0YWRhdGE+IGZvcnNpRmlsZU1ldGFkYXRhSnNvblNlcmRlID0gbmV3IEpzb25TZXJkZTw+KEZvcnNpRmlsZU1ldGFkYXRhLmNsYXNzLCBvYmplY3RNYXBwZXIpOwogICAgICAgIEpzb25TZXJkZTxSZW1vdGVSYXBwb3J0RGF0YT4gcmVtb3RlUmFwcG9ydERhdGFKc29uU2VyZGUgPSBuZXcgSnNvblNlcmRlPD4oUmVtb3RlUmFwcG9ydERhdGEuY2xhc3MsIG9iamVjdE1hcHBlcik7CiAgICAgICAgSnNvblNlcmRlPEZvcnNpQ2xhaW1zTWVzc2FnZT4gZm9yc2lDbGFpbXNNZXNzYWdlSnNvblNlcmRlID0gbmV3IEpzb25TZXJkZTw+KEZvcnNpQ2xhaW1zTWVzc2FnZS5jbGFzcywgb2JqZWN0TWFwcGVyKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5wZWVrKChrZXksIHZhbHVlKSAtPiBMT0cuaW5mbygiZm9yc2ktcmVwb3J0LWZpbGVzIHN0cmVhbSBrZXk9e30iLCBrZXkpKTsK</text>
+        <text encoding="base64">ZXhwb3J0IGRlZmF1bHQgQ2xhaW1zSW5mbzsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBKc29uU2VyZGU8UmVtb3RlUmFwcG9ydERhdGE+IHJlbW90ZVJhcHBvcnREYXRhSnNvblNlcmRlID0gbmV3IEpzb25TZXJkZTw+KFJlbW90ZVJhcHBvcnREYXRhLmNsYXNzLCBvYmplY3RNYXBwZXIpOwo=</text>
+        <text encoding="base64">Y29uc3QgQ2xhaW1zSW5mbyA9ICh7Y2xhaW1zSW5mb30pID0+IHsKfTsKCg==</text>
       </register>
       <register name=":" type="4">
         <text>onl</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjbGFpbUhlYWRlcklkc1w+</last-search>
+      <last-search encoding="base64">XDxyZXBvcnRzXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjbGFpbUhlYWRlcklkc1w+</last-pattern>
+      <last-pattern encoding="base64">XDxyZXBvcnRzXD4=</last-pattern>
       <last-replace>implementation</last-replace>
       <last-substitute>compileOnly</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx1cGRhdGVGaWx0ZXJlZFJlcG9ydHNcPg==</entry>
-        <entry encoding="base64">XDx1cGRhdGVGaWx0ZXJ0ZXh0XD4=</entry>
         <entry encoding="base64">XDxLYWZrYVRlbXBsYXRlXD4=</entry>
         <entry encoding="base64">XDxrYWZrYVRlbXBsYXRlXD4=</entry>
         <entry encoding="base64">XDxTdHJlYW1zQnVpbGRlckZhY3RvcnlCZWFuXD4=</entry>
@@ -1117,6 +1119,8 @@
         <entry encoding="base64">XDxzdG9yZVw+</entry>
         <entry encoding="base64">XDx1bnByb2Nlc3NlZEFwcHJhaXNhbHNTdG9yZVw+</entry>
         <entry encoding="base64">XDxjbGFpbUhlYWRlcklkc1w+</entry>
+        <entry encoding="base64">XDxDbGFpbUhlYWRlckZvcm1cPg==</entry>
+        <entry encoding="base64">XDxyZXBvcnRzXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>close</entry>

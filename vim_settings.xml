@@ -576,12 +576,12 @@
         <mark key="^" line="245" column="69" />
         <mark key="." line="245" column="69" />
       </file>
-      <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/repository/SubmissionRepository.java" timestamp="1550153869832">
+      <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/repository/SubmissionRepository.java" timestamp="1550223642780">
         <mark key="'" line="61" column="40" />
-        <mark key="[" line="236" column="97" />
-        <mark key="]" line="274" column="0" />
-        <mark key="." line="274" column="0" />
-        <mark key="^" line="273" column="3" />
+        <mark key="[" line="218" column="22" />
+        <mark key="]" line="218" column="22" />
+        <mark key="." line="218" column="22" />
+        <mark key="^" line="269" column="3" />
       </file>
       <file name="$USER_HOME$/repos/claims-mail-app/web/src/redux/containers/MailList.js" timestamp="1544016677089">
         <mark key="[" line="112" column="38" />
@@ -692,7 +692,6 @@
         <mark key="." line="73" column="26" />
         <mark key="^" line="73" column="26" />
       </file>
-      <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/development.yml" timestamp="1550146203630" />
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/ReportMetadataListener.java" timestamp="1549017843479">
         <mark key="'" line="61" column="16" />
         <mark key="[" line="62" column="107" />
@@ -932,7 +931,11 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+        <text>else {
+                        // delete from store
+//                        kafkaService.deleteInProgress(uuid);
+//                        findParentUuid(formDefinition).ifPresent(kafkaService::deleteInProgress);
+                    }</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -993,8 +996,12 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzdWJtaXRUb0NsYWltczogICAgICAgICAgICBzdWJtaXRUb0NsYWltcywKICAgICAgICB1cGRhdGVSZXBvcnRzQWN0aW9uRHJhd2VyOiB1cGRhdGVSZXBvcnRzQWN0aW9uRHJhd2VyCg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>else {
+                        // delete from store
+//                        kafkaService.deleteInProgress(uuid);
+//                        findParentUuid(formDefinition).ifPresent(kafkaService::deleteInProgress);
+                    }</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1040,19 +1047,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgRm9ybURlZmluaXRpb24gdmFsdWUgPSB4bWxNYXBwZXIucmVhZFZhbHVlKHNyYywgRm9ybURlZmluaXRpb24uY2xhc3MpOwogICAgICAgICAgICByZXR1cm4gT3B0aW9uYWwub2YodmFsdWUpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB0cnkgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgRm9ybURlZmluaXRpb24gdmFsdWUgPSB4bWxNYXBwZXIucmVhZFZhbHVlKHNyYywgRm9ybURlZmluaXRpb24uY2xhc3MpOwogICAgICAgICAgICByZXR1cm4gT3B0aW9uYWwub2YodmFsdWUpOwo=</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICB0cnkgewo=</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICB9IGNhdGNoIChJT0V4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIExPRy5lcnJvcigiQ291bGRuJ3QgcmVhZCBmaWxlOiAiICsgbmFtZSwgZS5nZXRNZXNzYWdlKCkpOwoKICAgICAgICAgICAgcmV0dXJuIE9wdGlvbmFsLmVtcHR5KCk7CiAgICAgICAgfQo=</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">IGNhdGNoIChJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24gZSkgewogICAgICAgICAgICBMT0cuZXJyb3IoIkNvdWxkbid0IHJlYWQgcmVzb3VyY2Ugc3RyZWFtOiAiICsgbmFtZSwgZS5nZXRNZXNzYWdlKCkpOwoKICAgICAgICAgICAgcmV0dXJuIE9wdGlvbmFsLmVtcHR5KCk7CiAgICAgICAgfQ==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1104,14 +1111,14 @@
           <key char="104" code="0" mods="0" />
         </keys>
       </register>
-      <register name="7" type="4">
+      <register name="7" type="2">
+        <text encoding="base64">ICAK</text>
+      </register>
+      <register name="8" type="4">
         <text encoding="base64">ICBATm90RW1wdHkKICAgIEBQYXR0ZXJuKHJlZ2V4cCA9ICJcXHcrIik=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIEBOb3ROdWxsCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAvL1RPRE8gbm8gbG9uZ2VyIG5lZWRlZCAobmV2ZXIgd29ya2VkIGFueXdheS4uLikK</text>
+        <text encoding="base64">ICAgIEBOb3ROdWxsCg==</text>
       </register>
       <register name=":" type="4">
         <text>onl</text>
@@ -1124,7 +1131,7 @@
       <last-replace>implementation</last-replace>
       <last-substitute>compileOnly</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>

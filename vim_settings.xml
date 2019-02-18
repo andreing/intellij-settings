@@ -402,6 +402,9 @@
         <mark key="." line="62" column="0" />
         <mark key="^" line="6" column="51" />
       </file>
+      <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/PageHeader.jsx" timestamp="1550239880576">
+        <mark key="[" line="61" column="27" />
+      </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/ReportDataListener.java" timestamp="1545314789473">
         <mark key="[" line="31" column="5" />
         <mark key="]" line="30" column="30" />
@@ -418,11 +421,11 @@
         <mark key="^" line="36" column="44" />
         <mark key="." line="8" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/AppraisalsHeader.jsx" timestamp="1550068456601">
-        <mark key="[" line="26" column="5" />
-        <mark key="]" line="26" column="4" />
-        <mark key="." line="26" column="4" />
-        <mark key="^" line="26" column="4" />
+      <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/AppraisalsHeader.jsx" timestamp="1550240078458">
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="." line="8" column="0" />
+        <mark key="^" line="7" column="34" />
       </file>
       <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/DefaultHeader.jsx" timestamp="1547813888892">
         <mark key="'" line="14" column="0" />
@@ -480,12 +483,9 @@
         <mark key="^" line="35" column="17" />
         <mark key="." line="35" column="17" />
       </file>
-      <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/Message.jsx" timestamp="1550236309607">
-        <mark key="'" line="26" column="8" />
-        <mark key="[" line="27" column="5" />
-        <mark key="]" line="48" column="8" />
-        <mark key="^" line="48" column="8" />
-        <mark key="." line="48" column="8" />
+      <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/Message.jsx" timestamp="1550239681356">
+        <mark key="[" line="28" column="28" />
+        <mark key="^" line="27" column="3" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9881a73a-5dd5-4991-94f1-6366c4f3b6fb/console.sql" timestamp="1549541491937">
         <mark key="[" line="511" column="0" />
@@ -522,8 +522,8 @@
         <mark key="." line="66" column="0" />
         <mark key="^" line="2" column="63" />
       </file>
-      <file name="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" timestamp="1550062248463">
-        <mark key="'" line="68" column="69" />
+      <file name="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" timestamp="1550239348125">
+        <mark key="'" line="167" column="29" />
         <mark key="[" line="133" column="30" />
         <mark key="]" line="68" column="70" />
         <mark key="^" line="68" column="35" />
@@ -855,10 +855,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="121" column="79" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/AppraisalsKafkaConfig.java" />
-      <jump line="104" column="16" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/AppraisalsKafkaConfig.java" />
-      <jump line="67" column="11" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/AppraisalsKafkaConfig.java" />
-      <jump line="87" column="11" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/AppraisalsKafkaConfig.java" />
       <jump line="63" column="26" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/AppraisalsKafkaConfig.java" />
       <jump line="64" column="19" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/AppraisalsKafkaConfig.java" />
       <jump line="112" column="17" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/AppraisalsKafkaConfig.java" />
@@ -955,6 +951,10 @@
       <jump line="48" column="4" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/resources/ServiceCenterResource.java" />
       <jump line="60" column="4" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/resources/ServiceCenterResource.java" />
       <jump line="16" column="4" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/resources/AdministratorResource.java" />
+      <jump line="1" column="7" filename="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" />
+      <jump line="150" column="29" filename="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" />
+      <jump line="159" column="29" filename="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" />
+      <jump line="167" column="29" filename="$USER_HOME$/repos/claims-mail-app/web/src/redux/actions/action_reports.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -964,7 +964,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm47Cg==</text>
+        <text encoding="base64">Ly8gaW1wb3J0IE1lc3NhZ2UgZnJvbSAiLi9NZXNzYWdlIjsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -1020,13 +1020,13 @@
         <text>, mapDispatchToProps</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxmb3Jtc0ZvbGRlclw+</text>
+        <text encoding="base64">XDx1cGRhdGVNZXNzYWdlXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzdWJtaXRUb0NsYWltczogICAgICAgICAgICBzdWJtaXRUb0NsYWltcywKICAgICAgICB1cGRhdGVSZXBvcnRzQWN0aW9uRHJhd2VyOiB1cGRhdGVSZXBvcnRzQWN0aW9uRHJhd2VyCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm47Cg==</text>
+        <text encoding="base64">Ly8gaW1wb3J0IE1lc3NhZ2UgZnJvbSAiLi9NZXNzYWdlIjsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1072,19 +1072,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBtZXNzYWdlLmluZm8oJ2R1cmF0aW9uIHRlc3QnLCA1KTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IHVwZGF0ZU1lc3NhZ2UgZnJvbSAiLi4vLi4vcmVkdXgvYWN0aW9ucy9hY3Rpb25fdXBkYXRlX21lc3NhZ2UiOwo=</text>
+        <text encoding="base64">CiAgICBvbkNhbmNlbChlKSB7CiAgICAgICAgdGhpcy5wcm9wcy51cGRhdGVNZXNzYWdlKHtjb250ZW50OiAiYXNkbGFzZCBlbiBpbmZvIiwgbGV2ZWw6ICdpbmZvJ30pCiAgICB9Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IHtiaW5kQWN0aW9uQ3JlYXRvcnN9IGZyb20gInJlZHV4IjsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DYW5jZWw9e3RoaXMub25DYW5jZWwuYmluZCh0aGlzKX0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CmZ1bmN0aW9uIG1hcERpc3BhdGNoVG9Qcm9wcyhkaXNwYXRjaCkgewogICAgcmV0dXJuIGJpbmRBY3Rpb25DcmVhdG9ycyh7CiAgICB9LCBkaXNwYXRjaCk7Cn0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB1cGRhdGVNZXNzYWdlOiB1cGRhdGVNZXNzYWdlCg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygic2hvd01lc3NhZ2UiKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -1137,30 +1137,29 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAoKCkgPT4gewo=</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygiY29tcG9uZW50V2lsbFVubW91bnQiKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB9KSgpLnRoZW4oKCkgPT4gdGhpcy5wcm9wcy51cGRhdGVNZXNzYWdlKHt9KSwgKCkgPT4ge30pOwo=</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygiY29tcG9uZW50RGlkVXBkYXRlIiwgcHJldlN0YXRlLCBwcmV2UHJvcHMpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgPGRlcGVuZGVuY3k+CiAgICAgICAgICAgICAgICA8Z3JvdXBJZD5pby5kcm9wd2l6YXJkLm1ldHJpY3M8L2dyb3VwSWQ+CiAgICAgICAgICAgICAgICA8YXJ0aWZhY3RJZD5tZXRyaWNzLWNvcmU8L2FydGlmYWN0SWQ+CiAgICAgICAgICAgICAgICA8dmVyc2lvbj40LjAuMjwvdmVyc2lvbj4KICAgICAgICAgICAgPC9kZXBlbmRlbmN5Pgo=</text>
+        <text encoding="base64">CiAgICBjb21wb25lbnRXaWxsTW91bnQoKSB7CiAgICAgICAgY29uc29sZS5sb2coImNvbXBvbmVudFdpbGxNb3VudCIpOwogICAgfQoK</text>
       </register>
       <register name=":" type="4">
         <text>onl</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxmb3Jtc0ZvbGRlclw+</last-search>
+      <last-search encoding="base64">XDx1cGRhdGVNZXNzYWdlXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxmb3Jtc0ZvbGRlclw+</last-pattern>
+      <last-pattern encoding="base64">XDx1cGRhdGVNZXNzYWdlXD4=</last-pattern>
       <last-replace>implementation</last-replace>
       <last-substitute>compileOnly</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxzdHJlYW1zQnVpbGRlclw+</entry>
         <entry encoding="base64">XDxTdHJlYW1zQnVpbGRlclw+</entry>
         <entry encoding="base64">XDx1bnByb2Nlc3NlZEFwcHJhaXNhbHNTdHJlYW1cPg==</entry>
         <entry encoding="base64">XDxzdG9yZVw+</entry>
@@ -1180,6 +1179,7 @@
         <entry encoding="base64">XDxGb3JtRGVmaW5pdGlvblJlcG9zaXRvcnlcPg==</entry>
         <entry encoding="base64">XDxmb3JtRGVmaW5pdGlvblJlcG9zaXRvcnlcPg==</entry>
         <entry encoding="base64">XDxmb3Jtc0ZvbGRlclw+</entry>
+        <entry encoding="base64">XDx1cGRhdGVNZXNzYWdlXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>close</entry>

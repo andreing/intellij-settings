@@ -161,9 +161,9 @@
         <mark key="." line="122" column="74" />
         <mark key="^" line="122" column="74" />
       </file>
-      <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/app.js" timestamp="1551100605949">
+      <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/app.js" timestamp="1551275900118">
         <mark key="'" line="49" column="8" />
-        <mark key="[" line="116" column="40" />
+        <mark key="[" line="65" column="17" />
       </file>
       <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_inbox/ClaimHeaderForm.jsx" timestamp="1550062806229">
         <mark key="[" line="22" column="52" />
@@ -335,6 +335,12 @@
         <mark key="." line="56" column="19" />
         <mark key="^" line="56" column="19" />
       </file>
+      <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/development.yml" timestamp="1551276422874">
+        <mark key="[" line="73" column="40" />
+        <mark key="]" line="74" column="9" />
+        <mark key="^" line="74" column="9" />
+        <mark key="." line="74" column="9" />
+      </file>
       <file name="/dummy.sql" timestamp="1551106699613">
         <mark key="[" line="0" column="0" />
       </file>
@@ -422,8 +428,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="25" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/AppraisalsHeader.jsx" />
-      <jump line="0" column="46" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/AppraisalsHeader.jsx" />
       <jump line="8" column="34" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/AppraisalsHeader.jsx" />
       <jump line="23" column="8" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/AppraisalsHeader.jsx" />
       <jump line="9" column="16" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/FileRepository.java" />
@@ -522,6 +526,8 @@
       <jump line="80" column="8" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaStreamsConfig.java" />
       <jump line="15" column="4" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/app.js" />
       <jump line="49" column="8" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/app.js" />
+      <jump line="9" column="8" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/development.yml" />
+      <jump line="74" column="0" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/development.yml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -587,7 +593,7 @@
         <text>@Value(&quot;${appraisals.streams.application.id}&quot;) String applicationId</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxtb3JnYW5Mb2dnZXJcPg==</text>
+        <text encoding="base64">XDxqb2huc3Nvblw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">YXBwcmFpc2Fscy5zdHJlYW1zLmFwcGxpY2F0aW9uLmlkPWZvcnNpLXJlcG9ydHMtdW5tYXBwZWQtc3RyZWFtcy1kZXYK</text>
@@ -717,17 +723,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxtb3JnYW5Mb2dnZXJcPg==</last-search>
+      <last-search encoding="base64">XDxqb2huc3Nvblw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxtb3JnYW5Mb2dnZXJcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxqb2huc3Nvblw+</last-pattern>
       <last-replace>\1</last-replace>
       <last-substitute>'\(.*\)'</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx1bnByb2Nlc3NlZEFwcHJhaXNhbHNTdG9yZVw+</entry>
         <entry encoding="base64">XDxjbGFpbUhlYWRlcklkc1w+</entry>
         <entry encoding="base64">XDxDbGFpbUhlYWRlckZvcm1cPg==</entry>
         <entry encoding="base64">XDxyZXBvcnRzXD4=</entry>
@@ -747,6 +752,7 @@
         <entry>'\(.*\)'</entry>
         <entry encoding="base64">XDxib290c3RyYXBTZXJ2ZXJzXD4=</entry>
         <entry encoding="base64">XDxtb3JnYW5Mb2dnZXJcPg==</entry>
+        <entry encoding="base64">XDxqb2huc3Nvblw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4vdHJhbnNhY3Rpb24vaW5UcmFuc2FjdGlvbi9n</entry>

@@ -109,6 +109,12 @@
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/ReportMetadataProducer.java" timestamp="1547033643420">
         <mark key="[" line="30" column="46" />
       </file>
+      <file name="$USER_HOME$/repos/claims/claims-handling-instructions/src/main/java/protector/claims/handlinginstructions/ExcelHandlingInstructionsConverter.java" timestamp="1551794114556">
+        <mark key="'" line="28" column="47" />
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/test.yml" timestamp="1550499024661">
         <mark key="[" line="170" column="20" />
       </file>
@@ -173,6 +179,7 @@
         <mark key="." line="13" column="13" />
         <mark key="^" line="13" column="13" />
       </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.17/c9967472b96ef92372352958dcfd3e8e0e5bd2d0/poi-ooxml-3.17-sources.jar!/org/apache/poi/ss/usermodel/WorkbookFactory.java" timestamp="1551794000868" />
       <file name="$USER_HOME$/repos/forsi-reports/app/src/integration-test/groovy/protector/forsireports/test/ReportMetadataProducerTest.groovy" timestamp="1548846204889">
         <mark key="[" line="58" column="0" />
         <mark key="]" line="58" column="0" />
@@ -364,7 +371,7 @@
         <mark key="^" line="4" column="64" />
         <mark key="." line="8" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1551774859947">
+      <file name="/Dummy.txt" timestamp="1551792551542">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="10" />
         <mark key="." line="0" column="10" />
@@ -427,7 +434,7 @@
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/actuator/KafkaConsumerHealth.java" timestamp="1551103562401">
         <mark key="[" line="20" column="28" />
       </file>
-      <file name="/fragment.java" timestamp="1551704448430">
+      <file name="/fragment.java" timestamp="1551792583652">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="5" />
         <mark key="^" line="0" column="5" />
@@ -435,9 +442,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="52" column="23" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/repository/FormDefinitionRepository.java" />
-      <jump line="62" column="8" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/repository/FormDefinitionRepository.java" />
-      <jump line="63" column="13" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/repository/FormDefinitionRepository.java" />
       <jump line="64" column="103" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/repository/FormDefinitionRepository.java" />
       <jump line="66" column="76" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/repository/FormDefinitionRepository.java" />
       <jump line="75" column="73" filename="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/repository/FormDefinitionRepository.java" />
@@ -535,6 +539,9 @@
       <jump line="692" column="12" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/TransactionToPdfService.java" />
       <jump line="693" column="28" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/TransactionToPdfService.java" />
       <jump line="5" column="29" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/TransactionToPdfService.java" />
+      <jump line="17" column="37" filename="$USER_HOME$/repos/claims/claims-handling-instructions/src/main/java/protector/claims/handlinginstructions/ExcelHandlingInstructionsConverter.java" />
+      <jump line="26" column="27" filename="$USER_HOME$/repos/claims/claims-handling-instructions/src/main/java/protector/claims/handlinginstructions/ExcelHandlingInstructionsConverter.java" />
+      <jump line="29" column="47" filename="$USER_HOME$/repos/claims/claims-handling-instructions/src/main/java/protector/claims/handlinginstructions/ExcelHandlingInstructionsConverter.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -544,7 +551,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Ly8gICAgY29tcGlsZSAnb3JnLmhpYmVybmF0ZTpoaWJlcm5hdGUtdmFsaWRhdG9yOjUuMS4zLkZpbmFsJwo=</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5hcGFjaGUucG9pLm9wZW54bWw0ai5leGNlcHRpb25zLkludmFsaWRGb3JtYXRFeGNlcHRpb247Cg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -600,13 +607,13 @@
         <text>@Value(&quot;${appraisals.streams.application.id}&quot;) String applicationId</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxQZGZXcml0ZXJcPg==</text>
+        <text encoding="base64">XDx0b01hcFw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">YXBwcmFpc2Fscy5zdHJlYW1zLmFwcGxpY2F0aW9uLmlkPWZvcnNpLXJlcG9ydHMtdW5tYXBwZWQtc3RyZWFtcy1kZXYK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly8gICAgY29tcGlsZSAnb3JnLmhpYmVybmF0ZTpoaWJlcm5hdGUtdmFsaWRhdG9yOjUuMS4zLkZpbmFsJwo=</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5hcGFjaGUucG9pLm9wZW54bWw0ai5leGNlcHRpb25zLkludmFsaWRGb3JtYXRFeGNlcHRpb247Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -652,19 +659,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Ly8gICAgcmVzb2x1dGlvblN0cmF0ZWd5IHsKLy8gICAgICAgIGZvcmNlICdvcmcuaGliZXJuYXRlOmhpYmVybmF0ZS12YWxpZGF0b3I6NS4xLjMuRmluYWwnCi8vICAgIH0K</text>
+        <text encoding="base64">Ly8gICAgY29tcGlsZSAnb3JnLmhpYmVybmF0ZTpoaWJlcm5hdGUtdmFsaWRhdG9yOjUuMS4zLkZpbmFsJwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB0ZXN0Q29tcGlsZSAnb3JnLm9iamVuZXNpczpvYmplbmVzaXM6My4wLjEnCg==</text>
+        <text encoding="base64">Ly8gICAgcmVzb2x1dGlvblN0cmF0ZWd5IHsKLy8gICAgICAgIGZvcmNlICdvcmcuaGliZXJuYXRlOmhpYmVybmF0ZS12YWxpZGF0b3I6NS4xLjMuRmluYWwnCi8vICAgIH0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy50ZXN0bmcudXRpbC5TdHJpbmdzOwo=</text>
+        <text encoding="base64">ICAgICAgICB0ZXN0Q29tcGlsZSAnb3JnLm9iamVuZXNpczpvYmplbmVzaXM6My4wLjEnCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIEBOb3RFbXB0eQogICAgQFBhdHRlcm4ocmVnZXhwID0gIlswLTkgKy1dKyIpCg==</text>
+        <text encoding="base64">aW1wb3J0IG9yZy50ZXN0bmcudXRpbC5TdHJpbmdzOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIEBOb3RFbXB0eQogICAgQEVtYWlsCg==</text>
+        <text encoding="base64">ICAgIEBOb3RFbXB0eQogICAgQFBhdHRlcm4ocmVnZXhwID0gIlswLTkgKy1dKyIpCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -717,22 +724,22 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">c2VsZWN0ICogZnJvbSBDbGFpbV9IZWFkZXIgd2hlcmUgc291cmNlID0gJ25ldCcK</text>
+        <text encoding="base64">ICAgIEBOb3RFbXB0eQogICAgQEVtYWlsCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB0aHJvd1Rlc3QoKTsK</text>
+        <text encoding="base64">c2VsZWN0ICogZnJvbSBDbGFpbV9IZWFkZXIgd2hlcmUgc291cmNlID0gJ25ldCcK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB0aHJvd1Rlc3QoKTsK</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxQZGZXcml0ZXJcPg==</last-search>
+      <last-search encoding="base64">XDx0b01hcFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxQZGZXcml0ZXJcPg==</last-pattern>
+      <last-pattern encoding="base64">XDx0b01hcFw+</last-pattern>
       <last-replace>\1</last-replace>
       <last-substitute>'\(.*\)'</last-substitute>
       <last-dir>1</last-dir>
@@ -740,7 +747,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxrYWZrYVNlcnZpY2VcPg==</entry>
         <entry encoding="base64">XDxLYWZrYVNlcnZpY2VcPg==</entry>
         <entry encoding="base64">XDxQb2xsZXJcPg==</entry>
         <entry encoding="base64">XDxwb2xsZXJcPg==</entry>
@@ -760,6 +766,7 @@
         <entry encoding="base64">XDxpdGV4dHBkZlw+</entry>
         <entry encoding="base64">XDxQZGZQQ2VsbFw+</entry>
         <entry encoding="base64">XDxQZGZXcml0ZXJcPg==</entry>
+        <entry encoding="base64">XDx0b01hcFw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4vdHJhbnNhY3Rpb24vaW5UcmFuc2FjdGlvbi9n</entry>

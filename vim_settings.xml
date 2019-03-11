@@ -49,11 +49,12 @@
       <file name="$USER_HOME$/repos/claims-mail-app/web/public/locales/en.json" timestamp="1547645454231">
         <mark key="[" line="17" column="48" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/LoopingMetadataListener.java" timestamp="1552310510679">
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/LoopingMetadataListener.java" timestamp="1552311145995">
         <mark key="'" line="39" column="4" />
-        <mark key="[" line="61" column="98" />
-        <mark key="]" line="61" column="0" />
-        <mark key="." line="61" column="0" />
+        <mark key="[" line="65" column="12" />
+        <mark key="]" line="67" column="8" />
+        <mark key="." line="67" column="8" />
+        <mark key="^" line="67" column="8" />
       </file>
       <file name="$USER_HOME$/repos/forsi-reports/Dockerfile" timestamp="1549275014633">
         <mark key="[" line="3" column="57" />
@@ -626,7 +627,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maQo=</text>
+        <text encoding="base64">ICAgICAgICBuZXh0UmVwb3J0TWV0YWRhdGEKICAgICAgICAK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -688,7 +689,7 @@
         <text encoding="base64">ICAgIEBTdXBwcmVzc1dhcm5pbmdzKCJ1bnVzZWQiKQogICAgcHVibGljIFN0cmluZyBnZXRUb3BpYygpIHsKICAgICAgICByZXR1cm4gdG9waWM7CiAgICB9CgogICAgcHVibGljIFN0cmluZyBnZXRSZXBseVRvcGljKCkgewogICAgICAgIHJldHVybiByZXBseVRvcGljOwogICAgfQoK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maQo=</text>
+        <text encoding="base64">ICAgICAgICBuZXh0UmVwb3J0TWV0YWRhdGEKICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -734,29 +735,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC50b09wdGlvbigpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIoT2JqZWN0czo6bm9uTnVsbCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">c3ByaW5nLmthZmthLnN0cmVhbXMuYXBwbGljYXRpb24taWQ9Zm9yc2ktcmVwb3J0cy1pbXBvcnQtc3RyZWFtcwprYWZrYS5tZXRhZGF0YS10b3BpYz1mb3JzaS1yZXBvcnQtbWV0YWRhdGEKa2Fma2EuZGF0YS10b3BpYz1mb3JzaS1yZXBvcnQtZGF0YQprYWZrYS5wZGYtbWV0YWRhdGEtdG9waWM9Zm9yc2ktcmVwb3J0LWZpbGVzCmthZmthLmNsYWltcy1kYXRhLXRvcGljPWZvcnNpLWNsYWltLTEKa2Fma2EubWV0YWRhdGEtaW1wb3J0LWNvbnN1bWVyLmdyb3VwLWlkPWZvcnNpLW1ldGFkYXRhLWltcG9ydAprYWZrYS5kYXRhLWltcG9ydC1jb25zdW1lci5ncm91cC1pZD1mb3JzaS1kYXRhLWltcG9ydAprYWZrYS5wZGYtaW1wb3J0LWNvbnN1bWVyLmdyb3VwLWlkPWZvcnNpLWZpbGUtaW1wb3J0Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC50b09wdGlvbigpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC50b09wdGlvbigpCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>spring.kafka.streams.application-id=forsi-reports-import-streams
-
-kafka.metadata-topic=forsi-report-metadata
-kafka.data-topic=forsi-report-data
-kafka.pdf-metadata-topic=forsi-report-files
-kafka.claims-data-topic=forsi-claim-1
-
-
-kafka.metadata-import-consumer.group-id=forsi-metadata-import
-kafka.data-import-consumer.group-id=forsi-data-import
-kafka.pdf-import-consumer.group-id=forsi-file-import</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -809,13 +800,13 @@ kafka.pdf-import-consumer.group-id=forsi-file-import</text>
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">a2Fma2EucGRmLWltcG9ydC1jb25zdW1lci5jbGllbnQtaWQ9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC50b09wdGlvbigpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">a2Fma2EuZGF0YS1pbXBvcnQtY29uc3VtZXIuY2xpZW50LWlkPQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIoT2JqZWN0czo6bm9uTnVsbCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">a2Fma2EubWV0YWRhdGEtaW1wb3J0LWNvbnN1bWVyLmNsaWVudC1pZD0K</text>
+        <text encoding="base64">c3ByaW5nLmthZmthLnN0cmVhbXMuYXBwbGljYXRpb24taWQ9Zm9yc2ktcmVwb3J0cy1pbXBvcnQtc3RyZWFtcwprYWZrYS5tZXRhZGF0YS10b3BpYz1mb3JzaS1yZXBvcnQtbWV0YWRhdGEKa2Fma2EuZGF0YS10b3BpYz1mb3JzaS1yZXBvcnQtZGF0YQprYWZrYS5wZGYtbWV0YWRhdGEtdG9waWM9Zm9yc2ktcmVwb3J0LWZpbGVzCmthZmthLmNsYWltcy1kYXRhLXRvcGljPWZvcnNpLWNsYWltLTEKa2Fma2EubWV0YWRhdGEtaW1wb3J0LWNvbnN1bWVyLmdyb3VwLWlkPWZvcnNpLW1ldGFkYXRhLWltcG9ydAprYWZrYS5kYXRhLWltcG9ydC1jb25zdW1lci5ncm91cC1pZD1mb3JzaS1kYXRhLWltcG9ydAprYWZrYS5wZGYtaW1wb3J0LWNvbnN1bWVyLmdyb3VwLWlkPWZvcnNpLWZpbGUtaW1wb3J0Cg==</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

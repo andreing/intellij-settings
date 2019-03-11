@@ -247,8 +247,12 @@
       <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/AppraisalsHeader.jsx" timestamp="1551353738530">
         <mark key="[" line="30" column="128" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/DataImportListener.java" timestamp="1552312356558">
-        <mark key="[" line="60" column="5" />
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/DataImportListener.java" timestamp="1552313194213">
+        <mark key="'" line="62" column="8" />
+        <mark key="[" line="53" column="42" />
+        <mark key="]" line="53" column="42" />
+        <mark key="^" line="68" column="14" />
+        <mark key="." line="53" column="42" />
       </file>
       <file name="$USER_HOME$/repos/claims/build.gradle" timestamp="1551874943281">
         <mark key="[" line="53" column="26" />
@@ -257,9 +261,6 @@
       </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-frontend/routes/forms.js" timestamp="1551277535802">
         <mark key="'" line="125" column="119" />
-      </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/web/filters/AuthenticationFilter.java" timestamp="1551878886034">
-        <mark key="[" line="146" column="23" />
       </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-streams/2.0.1/d6e66daf5bd727bd4ec3a4370dc03a785392cad2/kafka-streams-2.0.1-sources.jar!/org/apache/kafka/streams/processor/internals/StreamThread.java" timestamp="1551885484801">
         <mark key="'" line="189" column="22" />
@@ -496,8 +497,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="94" column="12" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/mapping/ClaimsMessageMapper.java" />
-      <jump line="96" column="12" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/mapping/ClaimsMessageMapper.java" />
       <jump line="98" column="12" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/mapping/ClaimsMessageMapper.java" />
       <jump line="100" column="12" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/mapping/ClaimsMessageMapper.java" />
       <jump line="102" column="12" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/mapping/ClaimsMessageMapper.java" />
@@ -596,6 +595,8 @@
       <jump line="38" column="0" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/FileImportListener.java" />
       <jump line="36" column="4" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/ReportMetadataListener.java" />
       <jump line="4" column="0" filename="$USER_HOME$/repos/forsi-reports/app/src/main/resources/application.properties" />
+      <jump line="52" column="0" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/DataImportListener.java" />
+      <jump line="63" column="8" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/DataImportListener.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -604,8 +605,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsubWVzc2FnaW5nLmhhbmRsZXIuYW5ub3RhdGlvbi5TZW5kVG87Cg==</text>
+      <register name="&quot;" type="4">
+        <text>MessageCreator.createMessage(getReplyTopic(), key, remoteRapportData)</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -658,16 +659,16 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>#{kafkaProperties.metadataImportConsumer.groupId</text>
+        <text>MessageCreator.createMessage(getReplyTopic(), key, remoteRapportData)</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxHUk9VUF9JRFw+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEBTdXBwcmVzc1dhcm5pbmdzKCJ1bnVzZWQiKQogICAgcHVibGljIFN0cmluZyBnZXRUb3BpYygpIHsKICAgICAgICByZXR1cm4gdG9waWM7CiAgICB9CgogICAgcHVibGljIFN0cmluZyBnZXRSZXBseVRvcGljKCkgewogICAgICAgIHJldHVybiByZXBseVRvcGljOwogICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gY2xpZW50LmdldFJlcG9ydERhdGEoa2V5KQogICAgICAgICAgICAgICAgLnBlZWsoZGF0YSAtPiBMT0cuaW5mbygiZmV0Y2hlZCByZXBvcnQgZGF0YSBmb3IgcmVwb3J0S2V5PXt9Iiwga2V5KSkK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsubWVzc2FnaW5nLmhhbmRsZXIuYW5ub3RhdGlvbi5TZW5kVG87Cg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">Y2xpZW50LmdldFJlcG9ydERhdGEoa2V5KQogICAgICAgICAgICAgICAgLnBlZWsoZGF0YSAtPiBMT0cuaW5mbygiZmV0Y2hlZCByZXBvcnQgZGF0YSBmb3IgcmVwb3J0S2V5PXt9Iiwga2V5KSk=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -713,16 +714,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBuZXh0UmVwb3J0TWV0YWRhdGEKICAgICAgICAK</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsubWVzc2FnaW5nLmhhbmRsZXIuYW5ub3RhdGlvbi5TZW5kVG87Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBuZXh0UmVwb3J0TWV0YWRhdGEKICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC50b09wdGlvbigpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIC50b09wdGlvbigpCg==</text>
@@ -778,13 +779,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maQo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIC50b09wdGlvbigpCg==</text>
       </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maQo=</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIoT2JqZWN0czo6bm9uTnVsbCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC50b09wdGlvbigpCg==</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

@@ -130,12 +130,12 @@
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/ReportMetadataProducer.java" timestamp="1547033643420">
         <mark key="[" line="30" column="46" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/a0d6137a-c479-41d8-820f-95b36121f5c4/console.sql" timestamp="1553079076633">
-        <mark key="'" line="51" column="2" />
-        <mark key="[" line="33" column="23" />
-        <mark key="]" line="33" column="22" />
-        <mark key="." line="33" column="22" />
-        <mark key="^" line="33" column="22" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/a0d6137a-c479-41d8-820f-95b36121f5c4/console.sql" timestamp="1553080774761">
+        <mark key="'" line="71" column="27" />
+        <mark key="[" line="34" column="19" />
+        <mark key="]" line="35" column="13" />
+        <mark key="." line="35" column="13" />
+        <mark key="^" line="35" column="13" />
       </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/test.yml" timestamp="1550499024661">
         <mark key="[" line="170" column="20" />
@@ -527,7 +527,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="5" column="0" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/resources/application-prod.properties" />
       <jump line="53" column="59" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/AppraisalsKafkaConfig.java" />
       <jump line="35" column="4" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/AppraisalsKafkaConfig.java" />
       <jump line="41" column="4" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/AppraisalsKafkaConfig.java" />
@@ -627,6 +626,7 @@
       <jump line="40" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/a0d6137a-c479-41d8-820f-95b36121f5c4/console.sql" />
       <jump line="49" column="2" filename="$APPLICATION_CONFIG_DIR$/consoles/db/a0d6137a-c479-41d8-820f-95b36121f5c4/console.sql" />
       <jump line="48" column="2" filename="$APPLICATION_CONFIG_DIR$/consoles/db/a0d6137a-c479-41d8-820f-95b36121f5c4/console.sql" />
+      <jump line="67" column="27" filename="$APPLICATION_CONFIG_DIR$/consoles/db/a0d6137a-c479-41d8-820f-95b36121f5c4/console.sql" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -636,7 +636,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgIFJNLklkIGFzIEZvcnNpa3JpbmdzbWVnbGVyX0lELAo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -698,7 +698,7 @@
         <text encoding="base64">ICBzZWxlY3QgQ1IuQ2xhaW1fSWQgICAgICAgIGFzIFJNX0NsYWltX0lkLAogICAgICAgICBDUi5DbGFpbV9IZWFkZXJfSWQgYXMgUk1fQ2xhaW1fSGVhZGVyX0lkLAogICAgICAgICBQLk5hbWUgICAgICAgICAgICAgYXMgUk1fTmFtZQogIGZyb20gQ2xhaW1fUm9sZSBDUgogICAgICAgICBqb2luIFBhcnR5IFAgb24gQ1IuUGFydHlfSWQgPSBQLklkCiAgd2hlcmUgQ1IuQ2xhaW1fUm9sZV9UeXBlX0lkID0gMjA0LS1GSVhNRQogICAgYW5kIENSLlN0YXR1c19JZCAhPSAxCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgIFJNLklkIGFzIEZvcnNpa3JpbmdzbWVnbGVyX0lELAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -744,19 +744,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAtLSBzdWJzZWxlY3Qgc2thZGVsaWR0Cg==</text>
+        <text encoding="base64">ICAgICAgIFJNLk5hbWUgYXMgRm9yc2lrcmluZ3NtZWdsZXJfTmFtZQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICBzZWxlY3QK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgUC5OYW1lICAgICAgICAgICAgIGFzIE5hbWUsCg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgIGpvaW4gQ2xhaW1fUm9sZSBDUiBvbiBDLklkID0gQ1IuQ2xhaW1fSWQK</text>
+      <register name="4" type="8">
+        <text encoding="base64">dCBDSC5JRCwKICBDSC5Db3VudHJ5X0lkLAogIENILkNsYWltX0xvYl9JZCwKICBDLkNsYWltX1R5cGVfSWQsCiAgQy5DbGFpbV9DYXVzZV9JZAogICAgIFJNLklkIGFzIEZvcnNpa3JpbgogICAgIFJNLk5hbWUgYXMgRm9yc2lrcgpDbGFpbV9IZWFkZXIgQ0gKbiBDbGFpbV9Eb2N1bWVudCBDRAouSUQgPSBDRC5DbGFpbV9IZWFkZXJfSQpuIENsYWltIEMgb24gQ0guSUQgPSBDLgpzdWJzZWxlY3QgbWVnbGVyCmpvaW4gKHNlbGVjdCBDUi5DbGFpbV9JCiAgICAgICAgICAgICBDUi5DbGFpbV9ICiAgICAgICAgICAgICBDUi5JZCAgICAgCiAgICAgICAgICAgICBQLk5hbWUgICAgCiAgICAgIGZyb20gQ2xhaW1fUm9sZSBDCiAgICAgICAgICAgICBqb2luIFBhcnR5CiAgICAgIHdoZXJlIENSLkNsYWltX1JvCiAgICAgICAgYW5kIENSLlN0YXR1c19JCi0tIHN1YnNlbGVjdCBza2FkZWxpZHQKLS0gICBqb2luICgKLS0gICBzZWxlY3QgQ1IuQ2xhaW1fSWQKLS0gICBDUi5DbGFpbV9IZWFkZXJfSWQKLS0gICBQLk5hbWUgYXMgTmFtZQotLSAgIGZyb20gQ2xhaW1fUm9sZSBDUgotLSAgIGpvaW4gUGFydHkgUCBvbiBDUgotLSAgIHdoZXJlIENSLkNsYWltX1JvbAotLSAgIGFuZCBDUi5TdGF0dXNfSWQgIQotLSAgICkgUlMgb24gUlMuQ2xhaW1fSAogQ0QuQ2xhaW1fRG9jdW1lbnRfVHlwZQogQ0guU3RhdHVzX0lkICE9IDEKIEMuU3RhdHVzX0lkICE9IDEKIENILkNsYWltX0xvYl9JZCA9IDUKIENILkNyZWF0ZWQgPj0gJzIwMTktMDEKIENILkNyZWF0ZWQgPD0gJzIwMTktMDEKIENILklEID0gNTcyNzg0IC0tIDIgJ0YKYW5kIENILklEID0gNTcyNjk5IC0tIDAKdXAgYnkgQ0guSUQsIENILkNsYWltX0w=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgIENSLkNsYWltX1JvbGVfVHlwZV9JZAo=</text>
+        <text encoding="base64">ICAgICAgIENELkRvY3VtZW50X0ZpbGVfTmFtZSwKICAgICAgIENELioK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByZWdpc3RyeS5nZXRMaXN0ZW5lckNvbnRhaW5lcnMoKQogICAgICAgICAgICAgICAgLnN0cmVhbSgpLm1hcChjIC0+IGMuZ2V0QXNzaWduZWRQYXJ0aXRpb25zKCkpCg==</text>
+        <text encoding="base64">Z3JvdXAgYnkgSUQsIENsYWltX0xvYl9JZCwgQ291bnRyeV9JZCwgSWQsIERvY3VtZW50X0ZpbGVfTmFtZSwgSWQsIENsYWltX0NhdXNlX0lkLCBDbGFpbV9UeXBlX0lkCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -809,13 +809,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBncm91cHNSZXN1bHQuYWxsKCkudGhlbkFwcGx5KGEgLT4gYS5nZXQoIiIpLikK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBMT0cuaW5mbygib25QYXJ0aXRpb25zQXNzaWduZWQ6IFNlZWtpbmcgdG8gb2Zmc2V0IGxhdGVzdCAtIDEgZm9yIGxvb3BpbmcgY29uc3VtZXIiKTsK</text>
+        <text encoding="base64">ICAgICAtLSBzdWJzZWxlY3Qgc2thZGVsaWR0Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBMT0cuaW5mbygib25QYXJ0aXRpb25zQXNzaWduZWQ6IFNlZWtpbmcgdG8gb2Zmc2V0IGxhdGVzdCAtIDEgZm9yIGxvb3BpbmcgY29uc3VtZXIiKTsK</text>
+        <text encoding="base64">ICBzZWxlY3QK</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

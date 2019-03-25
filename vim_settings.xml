@@ -129,12 +129,12 @@
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/ReportMetadataProducer.java" timestamp="1547033643420">
         <mark key="[" line="30" column="46" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/a0d6137a-c479-41d8-820f-95b36121f5c4/console.sql" timestamp="1553514240260">
-        <mark key="'" line="121" column="2" />
-        <mark key="[" line="99" column="48" />
-        <mark key="]" line="99" column="47" />
-        <mark key="." line="99" column="47" />
-        <mark key="^" line="99" column="47" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/a0d6137a-c479-41d8-820f-95b36121f5c4/console.sql" timestamp="1553515053467">
+        <mark key="'" line="123" column="2" />
+        <mark key="[" line="40" column="2" />
+        <mark key="]" line="68" column="113" />
+        <mark key="." line="68" column="113" />
+        <mark key="^" line="68" column="113" />
       </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/test.yml" timestamp="1550499024661">
         <mark key="[" line="170" column="20" />
@@ -635,8 +635,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICBSTS5waWRyYW5rICAgICAgIGFzIFJtX3BpZHJhbmssCg==</text>
+      <register name="&quot;" type="4">
+        <text>rank() over (partition by CH.ID order by RM.Public_Id desc)</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -689,7 +689,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>rank() over (partition by CH.ID order by RM.Public_Id desc)</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxjcmVhdGVNb2RlXD4=</text>

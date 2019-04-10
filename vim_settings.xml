@@ -150,12 +150,12 @@
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/ReportMetadataProducer.java" timestamp="1547033643420">
         <mark key="[" line="30" column="46" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/a0d6137a-c479-41d8-820f-95b36121f5c4/console.sql" timestamp="1554894260951">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/a0d6137a-c479-41d8-820f-95b36121f5c4/console.sql" timestamp="1554895533911">
         <mark key="'" line="39" column="0" />
-        <mark key="[" line="173" column="47" />
-        <mark key="]" line="179" column="24" />
-        <mark key="." line="179" column="24" />
-        <mark key="^" line="179" column="24" />
+        <mark key="[" line="170" column="3" />
+        <mark key="]" line="170" column="3" />
+        <mark key="." line="170" column="3" />
+        <mark key="^" line="170" column="24" />
       </file>
       <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiToClaimProcessor.java" timestamp="1554811275029">
         <mark key="'" line="54" column="30" />
@@ -682,8 +682,16 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5jbGFpbXMudXNlci5Vc2VyU2VydmljZQo=</text>
+      <register name="&quot;" type="4">
+        <text>ect * from Claim_Type ct join Claim_Type_Hide_Filter f on ct.Id = f.Claim_Type_Id where ct.Claim_Lob_Id = 5 and f.Country_Id = 2
+
+select * from Claim_Type where Claim_Lob_Id = 5
+
+select * from Claim_Cause where Claim_Lob_Id = 5
+
+select * from Claim_Type_Hide_Filter where
+
+select * from Claim_Type_</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -744,8 +752,16 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBMb2NhbERhdGUgcmVtaW5kZXIgPSBldmVudFJlbWluZGVyU2VydmljZS5maW5kRGVmYXVsdFJlbWluZGVyRGF0ZShDb3VudHJ5RW51bS5ERU5NQVJLLCBBVVRPLCBldmVudFR5cGVEZXNjcmlwdGlvbi5nZXRJZCgpKTsK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5jbGFpbXMudXNlci5Vc2VyU2VydmljZQo=</text>
+      <register name="1" type="4">
+        <text>ect * from Claim_Type ct join Claim_Type_Hide_Filter f on ct.Id = f.Claim_Type_Id where ct.Claim_Lob_Id = 5 and f.Country_Id = 2
+
+select * from Claim_Type where Claim_Lob_Id = 5
+
+select * from Claim_Cause where Claim_Lob_Id = 5
+
+select * from Claim_Type_Hide_Filter where
+
+select * from Claim_Type_</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -791,16 +807,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIFVzZXJTZXJ2aWNlIHVzZXJTZXJ2aWNlID0gTW9jayhVc2VyU2VydmljZSkKICAgIExvbmcgZm9yc2lTeXN0ZW1Vc2VySWQgPSAxMjM0Cg==</text>
+        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5jbGFpbXMudXNlci5Vc2VyU2VydmljZQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLnVzZXJTZXJ2aWNlID0gdXNlclNlcnZpY2U7Cg==</text>
+        <text encoding="base64">ICAgIFVzZXJTZXJ2aWNlIHVzZXJTZXJ2aWNlID0gTW9jayhVc2VyU2VydmljZSkKICAgIExvbmcgZm9yc2lTeXN0ZW1Vc2VySWQgPSAxMjM0Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgVXNlclNlcnZpY2UgdXNlclNlcnZpY2U7Cg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnVzZXJTZXJ2aWNlID0gdXNlclNlcnZpY2U7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgVXNlclNlcnZpY2UgdXNlclNlcnZpY2U7Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
@@ -856,13 +872,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBUaHJlYWRMb2NhbEN1cnJlbnRVc2VyLmdldCgpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB0cmFuc2FjdGlvbkRhdGEuc2V0Q3JlYXRlZFVzZXIoY3VycmVudFVzZXIpOwogICAgICAgIHRyYW5zYWN0aW9uRGF0YS5zZXRDcmVhdGVkVXNlcklkKGN1cnJlbnRVc2VyLmdldElkKCkpOwogICAgICAgIHRyYW5zYWN0aW9uRGF0YS5zZXRMYXN0VXBkYXRlZChuZXcgRGF0ZSgpKTsKICAgICAgICB0cmFuc2FjdGlvbkRhdGEuc2V0TGFzdFVwZGF0ZWRVc2VyKGN1cnJlbnRVc2VyKTsKICAgICAgICB0cmFuc2FjdGlvbkRhdGEuc2V0TGFzdFVwZGF0ZWRVc2VySWQoY3VycmVudFVzZXIuZ2V0SWQoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBUaHJlYWRMb2NhbEN1cnJlbnRVc2VyLmdldCgpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBVc2VyIGN1cnJlbnRVc2VyID0gdXNlclNlcnZpY2UuZ2V0VXNlckJ5SWQoZm9yc2lTeXN0ZW1Vc2VySWQpOwogICAgICAgIFRocmVhZExvY2FsQ3VycmVudFVzZXIuc2V0KGN1cnJlbnRVc2VyKTsK</text>
+        <text encoding="base64">ICAgICAgICB0cmFuc2FjdGlvbkRhdGEuc2V0Q3JlYXRlZFVzZXIoY3VycmVudFVzZXIpOwogICAgICAgIHRyYW5zYWN0aW9uRGF0YS5zZXRDcmVhdGVkVXNlcklkKGN1cnJlbnRVc2VyLmdldElkKCkpOwogICAgICAgIHRyYW5zYWN0aW9uRGF0YS5zZXRMYXN0VXBkYXRlZChuZXcgRGF0ZSgpKTsKICAgICAgICB0cmFuc2FjdGlvbkRhdGEuc2V0TGFzdFVwZGF0ZWRVc2VyKGN1cnJlbnRVc2VyKTsKICAgICAgICB0cmFuc2FjdGlvbkRhdGEuc2V0TGFzdFVwZGF0ZWRVc2VySWQoY3VycmVudFVzZXIuZ2V0SWQoKSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

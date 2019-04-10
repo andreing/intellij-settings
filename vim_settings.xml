@@ -53,8 +53,8 @@
       <file name="$USER_HOME$/repos/claims-mail-app/web/public/locales/en.json" timestamp="1547645454231">
         <mark key="[" line="17" column="48" />
       </file>
-      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/resources/application-dev.properties" timestamp="1554904988219">
-        <mark key="[" line="48" column="21" />
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/resources/application-dev.properties" timestamp="1554905610151">
+        <mark key="[" line="48" column="47" />
         <mark key="]" line="5" column="24" />
         <mark key="." line="5" column="24" />
         <mark key="^" line="5" column="24" />
@@ -157,12 +157,12 @@
         <mark key="." line="170" column="3" />
         <mark key="^" line="170" column="24" />
       </file>
-      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiToClaimProcessor.java" timestamp="1554811275029">
-        <mark key="'" line="54" column="30" />
-        <mark key="[" line="426" column="0" />
-        <mark key="]" line="442" column="55" />
-        <mark key="^" line="442" column="55" />
-        <mark key="." line="442" column="55" />
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiToClaimProcessor.java" timestamp="1554905409447">
+        <mark key="'" line="43" column="0" />
+        <mark key="[" line="111" column="13" />
+        <mark key="]" line="116" column="53" />
+        <mark key="^" line="116" column="53" />
+        <mark key="." line="116" column="53" />
       </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/test.yml" timestamp="1550499024661">
         <mark key="[" line="170" column="20" />
@@ -548,10 +548,11 @@
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/integration-test/resources/test.yml" timestamp="1537884714157">
         <mark key="[" line="158" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/consumers/ForsiReceivedEventConsumer.java" timestamp="1554904401799">
-        <mark key="[" line="59" column="0" />
-        <mark key="]" line="59" column="0" />
-        <mark key="." line="59" column="0" />
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/consumers/ForsiReceivedEventConsumer.java" timestamp="1554905664353">
+        <mark key="'" line="36" column="8" />
+        <mark key="[" line="61" column="53" />
+        <mark key="]" line="22" column="0" />
+        <mark key="." line="22" column="0" />
       </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsi/reports/messaging/Sender.java" timestamp="1540993118750">
         <mark key="[" line="12" column="26" />
@@ -577,9 +578,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="38" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/DamageInfo.jsx" />
-      <jump line="3" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/DamageInfo.jsx" />
-      <jump line="8" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/ClaimsInfo.jsx" />
       <jump line="11" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/ClaimsInfo.jsx" />
       <jump line="30" column="0" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/AppraisalProcessedProducer.java" />
       <jump line="27" column="4" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/AppraisalToClaimsProducer.java" />
@@ -677,6 +675,9 @@
       <jump line="54" column="30" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiToClaimProcessor.java" />
       <jump line="18" column="157" filename="$USER_HOME$/repos/claims/claims-async-mode/src/test/groovy/protector/claims/forsiprocessing/ForsiPaymentServiceSpec.groovy" />
       <jump line="28" column="64" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimRegistrationService.java" />
+      <jump line="66" column="118" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/consumers/ForsiReceivedEventConsumer.java" />
+      <jump line="43" column="0" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiToClaimProcessor.java" />
+      <jump line="38" column="8" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/consumers/ForsiReceivedEventConsumer.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -686,7 +687,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBNREMucHV0KCIiKQo=</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBuZXQubG9nc3Rhc2gubG9nYmFjay5hcmd1bWVudC5TdHJ1Y3R1cmVkQXJndW1lbnRzLmtleVZhbHVlOwoK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -745,10 +746,10 @@
         <text encoding="base64">XDxrZXlWYWx1ZVw+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBMb2NhbERhdGUgcmVtaW5kZXIgPSBldmVudFJlbWluZGVyU2VydmljZS5maW5kRGVmYXVsdFJlbWluZGVyRGF0ZShDb3VudHJ5RW51bS5ERU5NQVJLLCBBVVRPLCBldmVudFR5cGVEZXNjcmlwdGlvbi5nZXRJZCgpKTsK</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBuZXQubG9nc3Rhc2gubG9nYmFjay5hcmd1bWVudC5TdHJ1Y3R1cmVkQXJndW1lbnRzLmtleVZhbHVlOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBNREMucHV0KCIiKQo=</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBuZXQubG9nc3Rhc2gubG9nYmFjay5hcmd1bWVudC5TdHJ1Y3R1cmVkQXJndW1lbnRzLmtleVZhbHVlOwoK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -794,27 +795,20 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5jbGFpbXMudXRpbC5FbnZpcm9ubWVudFNlcnZpY2U7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXlWYWx1ZSgiY29uc3VtZXIiLCBnZXRDbGFzcygpLmdldFNpbXBsZU5hbWUoKSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5VmFsdWUoInRvcGljIiwgRk9SU0lfQ0xBSU1fREFUQV9UT1BJQykpOwo=</text>
       </register>
-      <register name="3" type="4">
-        <text>ect * from Claim_Type ct join Claim_Type_Hide_Filter f on ct.Id = f.Claim_Type_Id where ct.Claim_Lob_Id = 5 and f.Country_Id = 2
-
-select * from Claim_Type where Claim_Lob_Id = 5
-
-select * from Claim_Cause where Claim_Lob_Id = 5
-
-select * from Claim_Type_Hide_Filter where
-
-select * from Claim_Type_</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBNREMucHV0KCJjb25zdW1lciIsIENPTlNVTUVSX0lEKTsKICAgICAgICAgICAgICAgICAgICBNREMucHV0KCJ0b3BpYyIsIEZPUlNJX0NMQUlNX0RBVEFfVE9QSUMpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5jbGFpbXMudXNlci5Vc2VyU2VydmljZQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIFVzZXJTZXJ2aWNlIHVzZXJTZXJ2aWNlID0gTW9jayhVc2VyU2VydmljZSkKICAgIExvbmcgZm9yc2lTeXN0ZW1Vc2VySWQgPSAxMjM0Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLnVzZXJTZXJ2aWNlID0gdXNlclNlcnZpY2U7Cg==</text>
+      <register name="6" type="4">
+        <text>,
+                             keyValue(&quot;record.key&quot;, record.key())</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -867,13 +861,21 @@ select * from Claim_Type_</text>
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgVXNlclNlcnZpY2UgdXNlclNlcnZpY2U7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBNREMucHV0KCIiKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5jbGFpbXMudXRpbC5FbnZpcm9ubWVudFNlcnZpY2U7Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>ect * from Claim_Type ct join Claim_Type_Hide_Filter f on ct.Id = f.Claim_Type_Id where ct.Claim_Lob_Id = 5 and f.Country_Id = 2
+
+select * from Claim_Type where Claim_Lob_Id = 5
+
+select * from Claim_Cause where Claim_Lob_Id = 5
+
+select * from Claim_Type_Hide_Filter where
+
+select * from Claim_Type_</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

@@ -53,8 +53,8 @@
       <file name="$USER_HOME$/repos/claims-mail-app/web/public/locales/en.json" timestamp="1547645454231">
         <mark key="[" line="17" column="48" />
       </file>
-      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/resources/application-dev.properties" timestamp="1554813830158">
-        <mark key="[" line="5" column="15" />
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/resources/application-dev.properties" timestamp="1554904988219">
+        <mark key="[" line="48" column="21" />
         <mark key="]" line="5" column="24" />
         <mark key="." line="5" column="24" />
         <mark key="^" line="5" column="24" />
@@ -414,6 +414,9 @@
       <file name="/Equals/HashCodeBuilder (Apache commons-lang 3) hashCode" timestamp="1550580724330">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimRegistrationService.java" timestamp="1554903940124">
+        <mark key="'" line="28" column="64" />
+      </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/ForsiKafkaTopics.java" timestamp="1552050591274">
         <mark key="[" line="2" column="29" />
         <mark key="]" line="1" column="22" />
@@ -545,10 +548,10 @@
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/integration-test/resources/test.yml" timestamp="1537884714157">
         <mark key="[" line="158" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/consumers/ForsiReceivedEventConsumer.java" timestamp="1554897967967">
-        <mark key="[" line="15" column="0" />
-        <mark key="]" line="15" column="0" />
-        <mark key="." line="15" column="0" />
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/consumers/ForsiReceivedEventConsumer.java" timestamp="1554904401799">
+        <mark key="[" line="59" column="0" />
+        <mark key="]" line="59" column="0" />
+        <mark key="." line="59" column="0" />
       </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsi/reports/messaging/Sender.java" timestamp="1540993118750">
         <mark key="[" line="12" column="26" />
@@ -574,7 +577,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="122" column="28" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/AppraisalsView.jsx" />
       <jump line="38" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/DamageInfo.jsx" />
       <jump line="3" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/DamageInfo.jsx" />
       <jump line="8" column="0" filename="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/ClaimsInfo.jsx" />
@@ -674,6 +676,7 @@
       <jump line="31" column="29" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiToClaimProcessor.java" />
       <jump line="54" column="30" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiToClaimProcessor.java" />
       <jump line="18" column="157" filename="$USER_HOME$/repos/claims/claims-async-mode/src/test/groovy/protector/claims/forsiprocessing/ForsiPaymentServiceSpec.groovy" />
+      <jump line="28" column="64" filename="$USER_HOME$/repos/claims/eclaim/src/main/java/protector/claims/eclaim/service/ClaimRegistrationService.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -683,7 +686,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5jbGFpbXMudXRpbC5FbnZpcm9ubWVudFNlcnZpY2U7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBNREMucHV0KCIiKQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -739,13 +742,13 @@
         <text>e forsiPaymentService = new ForsiPaymentService(roleForHeaderRetrieveService, outgoingTransactionService, userService, forsiSystemUs</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx1c2VyU2VydmljZVw+</text>
+        <text encoding="base64">XDxrZXlWYWx1ZVw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBMb2NhbERhdGUgcmVtaW5kZXIgPSBldmVudFJlbWluZGVyU2VydmljZS5maW5kRGVmYXVsdFJlbWluZGVyRGF0ZShDb3VudHJ5RW51bS5ERU5NQVJLLCBBVVRPLCBldmVudFR5cGVEZXNjcmlwdGlvbi5nZXRJZCgpKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5jbGFpbXMudXRpbC5FbnZpcm9ubWVudFNlcnZpY2U7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBNREMucHV0KCIiKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -790,7 +793,10 @@
           <key char="98" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5jbGFpbXMudXRpbC5FbnZpcm9ubWVudFNlcnZpY2U7Cg==</text>
+      </register>
+      <register name="3" type="4">
         <text>ect * from Claim_Type ct join Claim_Type_Hide_Filter f on ct.Id = f.Claim_Type_Id where ct.Claim_Lob_Id = 5 and f.Country_Id = 2
 
 select * from Claim_Type where Claim_Lob_Id = 5
@@ -801,17 +807,14 @@ select * from Claim_Type_Hide_Filter where
 
 select * from Claim_Type_</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">aW1wb3J0IHByb3RlY3Rvci5jbGFpbXMudXNlci5Vc2VyU2VydmljZQo=</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgIFVzZXJTZXJ2aWNlIHVzZXJTZXJ2aWNlID0gTW9jayhVc2VyU2VydmljZSkKICAgIExvbmcgZm9yc2lTeXN0ZW1Vc2VySWQgPSAxMjM0Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLnVzZXJTZXJ2aWNlID0gdXNlclNlcnZpY2U7Cg==</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgVXNlclNlcnZpY2UgdXNlclNlcnZpY2U7Cg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnVzZXJTZXJ2aWNlID0gdXNlclNlcnZpY2U7Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -864,30 +867,29 @@ select * from Claim_Type_</text>
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgVXNlclNlcnZpY2UgdXNlclNlcnZpY2U7Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBUaHJlYWRMb2NhbEN1cnJlbnRVc2VyLmdldCgpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx1c2VyU2VydmljZVw+</last-search>
+      <last-search encoding="base64">XDxrZXlWYWx1ZVw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx1c2VyU2VydmljZVw+</last-pattern>
+      <last-pattern encoding="base64">XDxrZXlWYWx1ZVw+</last-pattern>
       <last-replace>\1</last-replace>
       <last-substitute encoding="base64">XDxwYXlsb2FkXD4=</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxjcmVhdGVNb2RlXD4=</entry>
         <entry encoding="base64">XDxyZXBvcnRNZXRhZGF0YVRvcGljXD4=</entry>
         <entry encoding="base64">XDxwZGZNZXRhZGF0YVRvcGljXD4=</entry>
         <entry encoding="base64">XDxyZXBvcnREYXRhVG9waWNcPg==</entry>
@@ -907,6 +909,7 @@ select * from Claim_Type_</text>
         <entry encoding="base64">XDxSb2xlQ3JlYXRlU2VydmljZVw+</entry>
         <entry encoding="base64">XDxVc2VyU2VydmljZVw+</entry>
         <entry encoding="base64">XDx1c2VyU2VydmljZVw+</entry>
+        <entry encoding="base64">XDxrZXlWYWx1ZVw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4vdHJhbnNhY3Rpb24vaW5UcmFuc2FjdGlvbi9n</entry>

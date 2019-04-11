@@ -53,10 +53,8 @@
       <file name="$USER_HOME$/repos/claims-mail-app/web/public/locales/en.json" timestamp="1547645454231">
         <mark key="[" line="17" column="48" />
       </file>
-      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/resources/application-dev.properties" timestamp="1554978575087">
-        <mark key="[" line="4" column="24" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/resources/application-dev.properties" timestamp="1554982087247">
+        <mark key="[" line="48" column="85" />
         <mark key="^" line="4" column="23" />
       </file>
       <file name="$USER_HOME$/repos/dbs/app/src/main/resources/application-test.properties" timestamp="1552657817634">
@@ -97,8 +95,10 @@
         <mark key="." line="55" column="15" />
         <mark key="^" line="55" column="15" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/RoleForHeaderRetrieveJdbcDao.java" timestamp="1554469131403">
-        <mark key="'" line="12" column="6" />
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/logging/LogConstants.java" timestamp="1554983222035">
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/FileServiceRepository.java" timestamp="1550060605378">
         <mark key="[" line="52" column="31" />
@@ -157,11 +157,12 @@
         <mark key="." line="173" column="105" />
         <mark key="^" line="173" column="105" />
       </file>
-      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiToClaimProcessor.java" timestamp="1554978512341">
-        <mark key="'" line="376" column="16" />
-        <mark key="[" line="128" column="0" />
-        <mark key="]" line="128" column="0" />
-        <mark key="." line="128" column="0" />
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiToClaimProcessor.java" timestamp="1554983104320">
+        <mark key="'" line="365" column="16" />
+        <mark key="[" line="211" column="0" />
+        <mark key="]" line="211" column="0" />
+        <mark key="^" line="489" column="58" />
+        <mark key="." line="211" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/test.yml" timestamp="1550499024661">
         <mark key="[" line="170" column="20" />
@@ -175,8 +176,9 @@
         <mark key="." line="19" column="0" />
         <mark key="^" line="33" column="48" />
       </file>
-      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiEventService.java" timestamp="1554908296808">
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiEventService.java" timestamp="1554982572657">
         <mark key="'" line="67" column="12" />
+        <mark key="[" line="93" column="130" />
       </file>
       <file name="$USER_HOME$/repos/claims-mail-app/web/src/redux/reducers/reducer_filtertext.js" timestamp="1548675732839">
         <mark key="[" line="2" column="36" />
@@ -433,6 +435,9 @@
         <mark key="]" line="163" column="0" />
         <mark key="." line="163" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/resources/log-config-test.xml" timestamp="1554981832550">
+        <mark key="[" line="5" column="50" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/BankHolidayService.java" timestamp="1553592580027">
         <mark key="[" line="213" column="0" />
         <mark key="]" line="213" column="0" />
@@ -506,11 +511,11 @@
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/resources/log-config-prod.xml" timestamp="1554981877908">
+        <mark key="[" line="5" column="48" />
+      </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/test/java/protector/forsireports/ws/forsioutputservice/util/ForsiUtilsSpec.groovy" timestamp="1541077972515">
         <mark key="[" line="6" column="36" />
-      </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/RoleRetrieveJdbcDao.java" timestamp="1554469020314">
-        <mark key="'" line="39" column="13" />
       </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaConfig.java" timestamp="1554294722611">
         <mark key="[" line="93" column="61" />
@@ -544,11 +549,11 @@
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/integration-test/resources/test.yml" timestamp="1537884714157">
         <mark key="[" line="158" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/consumers/ForsiReceivedEventConsumer.java" timestamp="1554905664353">
-        <mark key="'" line="36" column="8" />
-        <mark key="[" line="61" column="53" />
-        <mark key="]" line="22" column="0" />
-        <mark key="." line="22" column="0" />
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/consumers/ForsiReceivedEventConsumer.java" timestamp="1554982198527">
+        <mark key="'" line="51" column="48" />
+        <mark key="[" line="60" column="0" />
+        <mark key="]" line="60" column="0" />
+        <mark key="." line="60" column="0" />
       </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsi/reports/messaging/Sender.java" timestamp="1540993118750">
         <mark key="[" line="12" column="26" />
@@ -574,8 +579,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="0" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/AppraisalProcessedProducer.java" />
-      <jump line="27" column="4" filename="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/AppraisalToClaimsProducer.java" />
       <jump line="130" column="23" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/SubAutoClaim/create-claim-sub-auto-ctrl.js" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-admin-ctrl.js" />
       <jump line="104" column="4" filename="$USER_HOME$/repos/claims/frontend/components/admin/assignment/assignee-pool-admin-ctrl.js" />
@@ -674,6 +677,8 @@
       <jump line="43" column="0" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiToClaimProcessor.java" />
       <jump line="38" column="8" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/consumers/ForsiReceivedEventConsumer.java" />
       <jump line="376" column="16" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiToClaimProcessor.java" />
+      <jump line="51" column="48" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/consumers/ForsiReceivedEventConsumer.java" />
+      <jump line="52" column="48" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/consumers/ForsiReceivedEventConsumer.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -683,7 +688,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">I2thZmthLnNlcnZlcnMgPSBwZnN2bm9rYWZrYXQwMTo5MDkyCg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIEFDVElPTl9DUkVBVEVfQ0xBSU1fSEVBREVSID0gCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -736,7 +741,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>e forsiPaymentService = new ForsiPaymentService(roleForHeaderRetrieveService, outgoingTransactionService, userService, forsiSystemUs</text>
+        <text>logging.pattern.level=consumer:%X{consumer} topic:%X{topic} record.key:%X{record.key} %5p</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxrZXlWYWx1ZVw+</text>
@@ -745,7 +750,7 @@
         <text encoding="base64">aW1wb3J0IHN0YXRpYyBuZXQubG9nc3Rhc2gubG9nYmFjay5hcmd1bWVudC5TdHJ1Y3R1cmVkQXJndW1lbnRzLmtleVZhbHVlOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">I2thZmthLnNlcnZlcnMgPSBwZnN2bm9rYWZrYXQwMTo5MDkyCg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIEFDVElPTl9DUkVBVEVfQ0xBSU1fSEVBREVSID0gCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -790,20 +795,20 @@
           <key char="98" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBMT0cuaW5mbygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJOZXcgY2xhaW0gaGVhZGVyIGNyZWF0ZWQge30ge30ge30iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5VmFsdWUoTE9HX0tFWV9BQ1RJT04sICJjcmVhdGVkX2hlYWRlciIpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5VmFsdWUoTE9HX0tFWV9DTEFJTV9IRUFERVIsIGNsYWltSGVhZGVyLmdldElkKCkpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5VmFsdWUoTE9HX0tFWV9FVkVOVCwgZXZlbnRJZCkpOw==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">PT09PT09PQovLyAgICAgICAgICAgICAgICBMT0cuaW5mbygiQXN5bmNNb2RlIChGb3JzaVRvQ2xhaW1Qcm9jZXNzb3IgLSBObyBmdW5jdGlvbmFsaXR5IGZvciB0aGlzIHR5cGUgb2YgcmVwb3J0ICh7fSkuKSBTZW5kIHRvIEV4Y2VwdGlvbkhhbmRsaW5nLiIsIG1lc3NhZ2UuZ2V0UmVwb3J0VHlwZSgpKTsKICAgICAgICAgICAgICAgIExPRy5pbmZvKCJObyBmdW5jdGlvbmFsaXR5IGZvciB0aGlzIHR5cGUgb2YgcmVwb3J0Iik7Cj4+Pj4+Pj4gU3Rhc2hlZCBjaGFuZ2VzCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgIExPRy5pbmZvKCJBc3luY01vZGUgKEZvcnNpVG9DbGFpbVByb2Nlc3NvciAtIE5ldyBjbGFpbSBoZWFkZXIgY3JlYXRlZCBmcm9tIEZvcnNpIGRhdGEpIENsYWltcyBJRDoge30gLSBFdmVudCBjcmVhdGVkIHdpdGggSUQ6IHt9IiwgY2xhaW1IZWFkZXIuZ2V0SWQoKSwgZXZlbnRJZCk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">PT09PT09PQovLyAgICAgICAgICAgICAgICBMT0cuaW5mbygiQXN5bmNNb2RlIChGb3JzaVRvQ2xhaW1Qcm9jZXNzb3IgLSBSZXBvcnQgdHlwZSBILikiKTsKCiAgICAgICAgICAgICAgICBpZiAoaGFzRm9yc2lNZXNzYWdlUmVnaXN0cmF0aW9uTnVtYmVyKG1lc3NhZ2UpKSB7Ci8vICAgICAgICAgICAgICAgICAgICBMT0cuaW5mbygiQXN5bmNNb2RlIChGb3JzaVRvQ2xhaW1Qcm9jZXNzb3IgLSBSZWdpc3RyYXRpb24gbnVtYmVyIGZvdW5kLikge30uIiwgbWVzc2FnZS5nZXRSZWdpc3RyYXRpb25OdW1iZXIoKSk7CiAgICAgICAgICAgICAgICAgICAgTE9HLmluZm8oIlJlcG9ydCBoYXMgcmVnaXN0cmF0aW9uIG51bWJlciB7fSIsIGtleVZhbHVlKCJyZWdudW0iLCBtZXNzYWdlLmdldFJlZ2lzdHJhdGlvbk51bWJlcigpKSk7Cj4+Pj4+Pj4gU3Rhc2hlZCBjaGFuZ2VzCg==</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICBMT0cuaW5mbygiQXN5bmNNb2RlIChGb3JzaVRvQ2xhaW1Qcm9jZXNzb3IgLSBTdGVsIG51bWJlciBub3QgaW1wbGVtZW50ZWQgeWV0LikgU2VuZCB0byBFeGNlcHRpb25IYW5kbGluZy4iKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCj09PT09PT0KLy8gICAgICAgIExPRy5pbmZvKCJBc3luY01vZGUgKEZvcnNpVG9DbGFpbVByb2Nlc3NvciAtIHByb2Nlc3NGb3JzaU1lc3NhZ2UpIE1lc3NhZ2Uga2V5OiB7fSIsIG1lc3NhZ2UuZ2V0UmVwb3J0S2V5KCkpOwoKPj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
+        <text encoding="base64">ICAgICAgICBMT0cuaW5mbygiQXN5bmNNb2RlIChGb3JzaVRvQ2xhaW1Qcm9jZXNzb3IgLSBwcm9jZXNzRm9yc2lNZXNzYWdlKSBNZXNzYWdlIGtleToge30iLCBtZXNzYWdlLmdldFJlcG9ydEtleSgpKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -856,13 +861,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgIExPRy5pbmZvKCJBc3luY01vZGUgKENsYWltc0ZvcnNpUmVjZWl2ZWRFdmVudENvbnN1bWVyIC0gcnVuKSBjbGFpbXMtZm9yc2ktYXBwIC0tPiBjbGFpbXMtYXN5bmMtbW9kZTogQmVmb3JlIHByb2Nlc3Npbmcgb2YgcmVjb3JkIik7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5mbGF0TWFwKGhpZCAtPiBoZWFkZXJTZXJ2aWNlLmdldENvdW50cnlBbmRMb2JGb3JIZWFkZXIoaGlkKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgTE9HLmluZm8oIkFzeW5jTW9kZSAoRm9yc2lUb0NsYWltUHJvY2Vzc29yIC0gUmVwb3J0IG9mIHR5cGUge30uKSIsIG1lc3NhZ2UuZ2V0UmVwb3J0VHlwZSgpKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IG5ldC5sb2dzdGFzaC5sb2diYWNrLmFyZ3VtZW50LlN0cnVjdHVyZWRBcmd1bWVudHM7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgTE9HLmluZm8oInt9Iiwga2V5VmFsdWUoInJlcG9ydC50eXBlIiwgbWVzc2FnZS5nZXRSZXBvcnRUeXBlKCkpKTsK</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

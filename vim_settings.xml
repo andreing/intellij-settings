@@ -35,10 +35,11 @@
       <file name="/java.util.Objects.equals and hashCode (java 7+) hashCode" timestamp="1550580724347">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/resources/application-localprod.properties" timestamp="1554124752657">
-        <mark key="[" line="15" column="0" />
-        <mark key="]" line="15" column="0" />
-        <mark key="." line="15" column="0" />
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/resources/application-localprod.properties" timestamp="1556106795622">
+        <mark key="[" line="14" column="45" />
+        <mark key="]" line="14" column="42" />
+        <mark key="^" line="14" column="42" />
+        <mark key="." line="14" column="42" />
       </file>
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ContractController.java" timestamp="1556021329342" />
       <file name="$USER_HOME$/repos/forsi-reports/settings.gradle" timestamp="1542899814616">
@@ -243,9 +244,9 @@
         <mark key="." line="13" column="13" />
         <mark key="^" line="13" column="13" />
       </file>
-      <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/AppraisalToClaimsProducer.java" timestamp="1553071563800">
+      <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/AppraisalToClaimsProducer.java" timestamp="1556107286190">
         <mark key="'" line="32" column="4" />
-        <mark key="[" line="26" column="36" />
+        <mark key="[" line="32" column="5" />
         <mark key="]" line="26" column="35" />
         <mark key="." line="26" column="35" />
         <mark key="^" line="26" column="35" />
@@ -276,6 +277,7 @@
         <mark key="^" line="31" column="0" />
         <mark key="." line="29" column="99" />
       </file>
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/resources/application.properties" timestamp="1556106788309" />
       <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/PageHeader.jsx" timestamp="1550587195281">
         <mark key="[" line="8" column="43" />
       </file>
@@ -317,10 +319,16 @@
         <mark key="^" line="35" column="17" />
         <mark key="." line="35" column="17" />
       </file>
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/test/groovy/protector/forsireports/messaging/mapping/ClaimsMessageMapperSpec.groovy" timestamp="1553609198766">
-        <mark key="[" line="73" column="0" />
-        <mark key="]" line="73" column="0" />
-        <mark key="." line="73" column="0" />
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/mapping/ClaimsMessageMapper.java" timestamp="1556108133950">
+        <mark key="[" line="160" column="65" />
+        <mark key="]" line="162" column="0" />
+        <mark key="^" line="162" column="56" />
+        <mark key="." line="162" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/test/groovy/protector/forsireports/messaging/mapping/ClaimsMessageMapperSpec.groovy" timestamp="1556107755945">
+        <mark key="[" line="72" column="49" />
+        <mark key="]" line="74" column="0" />
+        <mark key="." line="74" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/UnmappedForsiReportConsumer.java" timestamp="1548078084030">
         <mark key="[" line="20" column="30" />
@@ -368,7 +376,7 @@
         <mark key="." line="42" column="11" />
         <mark key="^" line="42" column="11" />
       </file>
-      <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/AppraisalsKafkaConfig.java" timestamp="1552998639804">
+      <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/AppraisalsKafkaConfig.java" timestamp="1556106859097">
         <mark key="[" line="144" column="36" />
         <mark key="]" line="144" column="51" />
         <mark key="." line="144" column="51" />
@@ -701,7 +709,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -763,7 +771,7 @@
         <text encoding="base64">aW1wb3J0IHN0YXRpYyBuZXQubG9nc3Rhc2gubG9nYmFjay5hcmd1bWVudC5TdHJ1Y3R1cmVkQXJndW1lbnRzLmtleVZhbHVlOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -809,19 +817,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gcmVnTnIuY29uY2F0KFN0cmluZy5mb3JtYXQoIiUxJCIgKyBrbnJMZW5ndGggKyAicyIsIGtvbnRvbnIpLnJlcGxhY2UoJyAnLCAnMCcpKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAga2V5VmFsdWUoInByb2R1Y2VyLmlkIiwgImZvcnNpLWV4Y2VwdGlvbi1ldmVudFByb2R1Y2VyIiksCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoaGFzRm9yc2lNZXNzYWdlU3RlbE51bW1lcihtZXNzYWdlKSkgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">ICAKICAgIHB1YmxpYyBib29sZWFuIGhhc0ZvcnNpTWVzc2FnZVJlZ2lzdHJhdGlvbk51bWJlcihGb3JzaUNsYWltc01lc3NhZ2UgbWVzc2FnZSkgewogICAgICAgIHJldHVybiAobWVzc2FnZS5nZXRSZWdpc3RyYXRpb25OdW1iZXIoKSAhPSBudWxsICYmIG1lc3NhZ2UuZ2V0UmVnaXN0cmF0aW9uTnVtYmVyKCkubGVuZ3RoKCkgPiAwKTsKICAgIH0KCiAgICBwdWJsaWMgYm9vbGVhbiBoYXNGb3JzaU1lc3NhZ2VDbGFpbU51bWJlcihGb3JzaUNsYWltc01lc3NhZ2UgbWVzc2FnZSkgewogICAgICAgIHJldHVybiAobWVzc2FnZS5nZXRDbGFpbU51bWJlcigpICE9IG51bGwgJiYgbWVzc2FnZS5nZXRDbGFpbU51bWJlcigpLmxlbmd0aCgpID4gMCk7CiAgICB9CgogICAgcHVibGljIGJvb2xlYW4gaGFzRm9yc2lNZXNzYWdlU3RlbE51bW1lcihGb3JzaUNsYWltc01lc3NhZ2UgbWVzc2FnZSkgewogICAgICAgIHJldHVybiAobWVzc2FnZS5nZXRTdGVsTnVtbWVyKCkgIT0gbnVsbCAmJiBtZXNzYWdlLmdldFN0ZWxOdW1tZXIoKS5sZW5ndGgoKSA+IDApOwogICAgfQo=</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAga2V5VmFsdWUoInByb2R1Y2VyLmlkIiwgImZvcnNpLWV4Y2VwdGlvbi1ldmVudFByb2R1Y2VyIiksCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAoaGFzRm9yc2lNZXNzYWdlU3RlbE51bW1lcihtZXNzYWdlKSkgewo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -873,14 +881,14 @@
           <key char="104" code="0" mods="0" />
         </keys>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBib29sZWFuIGgK</text>
+      <register name="7" type="4">
+        <text encoding="base64">ICAKICAgIHB1YmxpYyBib29sZWFuIGhhc0ZvcnNpTWVzc2FnZVJlZ2lzdHJhdGlvbk51bWJlcihGb3JzaUNsYWltc01lc3NhZ2UgbWVzc2FnZSkgewogICAgICAgIHJldHVybiAobWVzc2FnZS5nZXRSZWdpc3RyYXRpb25OdW1iZXIoKSAhPSBudWxsICYmIG1lc3NhZ2UuZ2V0UmVnaXN0cmF0aW9uTnVtYmVyKCkubGVuZ3RoKCkgPiAwKTsKICAgIH0KCiAgICBwdWJsaWMgYm9vbGVhbiBoYXNGb3JzaU1lc3NhZ2VDbGFpbU51bWJlcihGb3JzaUNsYWltc01lc3NhZ2UgbWVzc2FnZSkgewogICAgICAgIHJldHVybiAobWVzc2FnZS5nZXRDbGFpbU51bWJlcigpICE9IG51bGwgJiYgbWVzc2FnZS5nZXRDbGFpbU51bWJlcigpLmxlbmd0aCgpID4gMCk7CiAgICB9CgogICAgcHVibGljIGJvb2xlYW4gaGFzRm9yc2lNZXNzYWdlU3RlbE51bW1lcihGb3JzaUNsYWltc01lc3NhZ2UgbWVzc2FnZSkgewogICAgICAgIHJldHVybiAobWVzc2FnZS5nZXRTdGVsTnVtbWVyKCkgIT0gbnVsbCAmJiBtZXNzYWdlLmdldFN0ZWxOdW1tZXIoKS5sZW5ndGgoKSA+IDApOwogICAgfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGxvbmcgZm9yc2lTeXN0ZW1Vc2VySWQgPSAxMjM0Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAvL0ZJWE1FIHRoaXMgaXMgbm90IGNvcnJlY3Q/Cg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBib29sZWFuIGgK</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

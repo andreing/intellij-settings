@@ -276,6 +276,11 @@
         <mark key="^" line="31" column="0" />
         <mark key="." line="29" column="99" />
       </file>
+      <file name="$USER_HOME$/repos/claimsgateway/secrets.js" timestamp="1556178675481">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/resources/application.properties" timestamp="1556106788309" />
       <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/PageHeader.jsx" timestamp="1550587195281">
         <mark key="[" line="8" column="43" />
@@ -343,6 +348,9 @@
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" timestamp="1553603949230">
         <mark key="[" line="0" column="15" />
+      </file>
+      <file name="$USER_HOME$/repos/claimsgateway/config/custom-environment-variables.yaml" timestamp="1556178087543">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/resources/application-arild.properties" timestamp="1552469240838">
         <mark key="[" line="15" column="54" />
@@ -480,6 +488,9 @@
         <mark key="." line="37" column="57" />
         <mark key="^" line="37" column="57" />
       </file>
+      <file name="$USER_HOME$/repos/claimsgateway/secrets/foo" timestamp="1556178438877">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="/dummy.sql" timestamp="1556023320647">
         <mark key="[" line="0" column="0" />
       </file>
@@ -512,6 +523,9 @@
       </file>
       <file name="$USER_HOME$/repos/claims-mail-app/web/src/components/appraisals_view/DamPos.jsx" timestamp="1547730588636">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/claimsgateway/server.js" timestamp="1556178545199">
+        <mark key="[" line="17" column="37" />
       </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/CustomSerdes.java" timestamp="1549539096006">
         <mark key="[" line="16" column="0" />
@@ -713,7 +727,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">Y29uc3QgY29uZmlnID0gcmVxdWlyZSgnY29uZmlnJykucGRmZ2VuZXJhdG9yOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -766,7 +780,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Q29uc3VtZXJSZWNvcmRzPFN0cmluZywgU3RyaW5nPiByZWNvcmRzID0g</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpc0dsYXNzRGFtYWdlXD4=</text>
@@ -775,7 +789,7 @@
         <text encoding="base64">aW1wb3J0IHN0YXRpYyBuZXQubG9nc3Rhc2gubG9nYmFjay5hcmd1bWVudC5TdHJ1Y3R1cmVkQXJndW1lbnRzLmtleVZhbHVlOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">Y29uc3QgY29uZmlnID0gcmVxdWlyZSgnY29uZmlnJykucGRmZ2VuZXJhdG9yOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -821,19 +835,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoaXNHbGFzc0RhbWFnZShtZXNzYWdlKSkgewogICAgICAgICAgICBjbGFpbXNEYW1hZ2VJbmZvLnNldFdpbmRzaGllbGREYW1hZ2UodHJ1ZSk7CiAgICAgICAgfSBlbHNlIHsK</text>
+        <text encoding="base64">Y29uc3QgZG9ja2VyU2VjcmV0cyA9IHJlcXVpcmUoJ2RvY2tlci1zd2FybS1zZWNyZXRzJyk7Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBsb2FkaW5nOiAgICAgICAgICBzdGF0ZS5pbnZvaWNlcyA9PSBudWxsID8gdHJ1ZSA6IHN0YXRlLmludm9pY2VzLmxvYWRpbmdJbnZvaWNlcwo=</text>
+      <register name="3" type="4">
+        <text encoding="base64">aWYgKHByb2Nlc3MuZW52Lk5PREVfRU5WICE9PSAnZGV2JykgewogICAgY29uc3Qgb3B0aW9ucyA9IHsKICAgICAgICBlbmNvZGluZzogJ3V0Zi04JywKICAgICAgICBzZWNyZXRzRGlyOiAnLi9ydW4vc2VjcmV0cycsCiAgICAgICAgaWdub3JlSlNPTjogZmFsc2UsCiAgICAgICAgZGVidWc6IGZhbHNlCiAgICB9OwogICAgZG9ja2VyU2VjcmV0cy5yZWFkU2VjcmV0KGAke2NvbmZpZy5saWNlbnNlS2V5U2VjcmV0TmFtZX1gLCBvcHRpb25zLCAoZXJyLCByZXN1bHQpID0+IHsKICAgICAgICBpZiAoZXJyKSB7CiAgICAgICAgICAgIGxvZy5lcnJvcihlcnIpOwogICAgICAgICAgICBsaWNlbnNlS2V5ID0gJyc7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgbG9nLmluZm8ocmVzdWx0KTsKICAgICAgICAgICAgbGljZW5zZUtleSA9IHJlc3VsdDsKICAgICAgICB9CiAgICB9KTsKfQ==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgIAogICAgY29uc3QgZm9ybWF0QmFua0FjY291bnROdW1iZXIgPSBudW0gPT4ge307</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBpZiAoaXNHbGFzc0RhbWFnZShtZXNzYWdlKSkgewogICAgICAgICAgICBjbGFpbXNEYW1hZ2VJbmZvLnNldFdpbmRzaGllbGREYW1hZ2UodHJ1ZSk7CiAgICAgICAgfSBlbHNlIHsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gcmVnTnIuY29uY2F0KFN0cmluZy5mb3JtYXQoIiUxJCIgKyBrbnJMZW5ndGggKyAicyIsIGtvbnRvbnIpLnJlcGxhY2UoJyAnLCAnMCcpKTsK</text>
+        <text encoding="base64">ICAgICAgICAvLyBsb2FkaW5nOiAgICAgICAgICBzdGF0ZS5pbnZvaWNlcyA9PSBudWxsID8gdHJ1ZSA6IHN0YXRlLmludm9pY2VzLmxvYWRpbmdJbnZvaWNlcwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -885,14 +899,14 @@
           <key char="104" code="0" mods="0" />
         </keys>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgIAogICAgY29uc3QgZm9ybWF0QmFua0FjY291bnROdW1iZXIgPSBudW0gPT4ge307</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAga2V5VmFsdWUoInByb2R1Y2VyLmlkIiwgImZvcnNpLWV4Y2VwdGlvbi1ldmVudFByb2R1Y2VyIiksCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gcmVnTnIuY29uY2F0KFN0cmluZy5mb3JtYXQoIiUxJCIgKyBrbnJMZW5ndGggKyAicyIsIGtvbnRvbnIpLnJlcGxhY2UoJyAnLCAnMCcpKTsK</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

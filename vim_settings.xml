@@ -83,6 +83,10 @@
         <mark key="." line="31" column="10" />
         <mark key="^" line="31" column="10" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/mark-deleted/claim-header-mark-deleted-ctrl.js" timestamp="1557323368611">
+        <mark key="[" line="0" column="66" />
+        <mark key="]" line="0" column="100" />
+      </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/test/groovy/protector/forsireports/utils/MessageMapperSpec.groovy" timestamp="1546528960978">
         <mark key="[" line="30" column="44" />
         <mark key="]" line="26" column="19" />
@@ -164,11 +168,11 @@
         <mark key="." line="58" column="0" />
         <mark key="^" line="109" column="53" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-routes.js" timestamp="1557321347327">
-        <mark key="[" line="107" column="30" />
-        <mark key="]" line="6" column="33" />
-        <mark key="^" line="6" column="33" />
-        <mark key="." line="6" column="33" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-routes.js" timestamp="1557323102691">
+        <mark key="[" line="100" column="43" />
+        <mark key="]" line="2" column="0" />
+        <mark key="^" line="50" column="30" />
+        <mark key="." line="2" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/java/protector/claims/kafka/MessageSender.java" timestamp="1550145136357">
         <mark key="[" line="38" column="41" />
@@ -195,7 +199,7 @@
         <mark key="." line="16" column="23" />
         <mark key="^" line="16" column="23" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" timestamp="1557322145629" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" timestamp="1557323631662" />
       <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/services/FileService.java" timestamp="1550060660834">
         <mark key="[" line="36" column="15" />
         <mark key="]" line="35" column="17" />
@@ -219,6 +223,13 @@
         <mark key="]" line="4" column="68" />
         <mark key="^" line="4" column="67" />
         <mark key="." line="4" column="67" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/mark-deleted/claim-header-mark-deleted-module.js" timestamp="1557323317963">
+        <mark key="'" line="2" column="0" />
+        <mark key="[" line="4" column="3" />
+        <mark key="]" line="3" column="29" />
+        <mark key="." line="3" column="29" />
+        <mark key="^" line="3" column="29" />
       </file>
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/actuator/KafkaStreamsHealth.java" timestamp="1551959456556">
         <mark key="[" line="17" column="0" />
@@ -330,9 +341,9 @@
         <mark key="." line="128" column="27" />
         <mark key="^" line="128" column="27" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-module.js" timestamp="1557322235304">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-module.js" timestamp="1557323615763">
         <mark key="'" line="0" column="55" />
-        <mark key="[" line="1" column="74" />
+        <mark key="[" line="0" column="28" />
         <mark key="]" line="9" column="36" />
         <mark key="^" line="9" column="36" />
         <mark key="." line="9" column="36" />
@@ -401,7 +412,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="15" column="0" filename="$USER_HOME$/repos/forsi-reports/app/src/main/resources/application-test.properties" />
       <jump line="5" column="0" filename="$USER_HOME$/repos/forsi-reports/app/src/main/resources/application.properties" />
       <jump line="49" column="87" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiEventService.java" />
       <jump line="57" column="33" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiEventService.java" />
@@ -501,6 +511,7 @@
       <jump line="19" column="67" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/create/new-header-ctrl.js" />
       <jump line="0" column="55" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-module.js" />
       <jump line="4" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/list/header-list-ctrl.js" />
+      <jump line="2" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/mark-deleted/claim-header-mark-deleted-module.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -509,8 +520,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>$http, contractId, $rootScope</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Ly8gaW1wb3J0IHtjbGFpbXNNYXJrRGVsZXRlZENvbnRyb2xsZXJ9IGZyb20gJy4vY2xhaW0taGVhZGVyL21hcmstZGVsZXRlZC9tYXJrLWRlbGV0ZWQtY2xhaW0taGVhZGVyLWN0cmwuanMnOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -568,11 +579,11 @@
       <register name="/" type="4">
         <text encoding="base64">XDxvYmplY3RNYXBwZXJcPg==</text>
       </register>
-      <register name="0" type="4">
-        <text>$http, contractId, $rootScope</text>
+      <register name="0" type="2">
+        <text encoding="base64">ZXhwb3J0IGNvbnN0IGNsYWltc01hcmtEZWxldGVkQ29udHJvbGxlciA9IGFuZ3VsYXIubW9kdWxlKCdjbGFpbXMubWFya0RlbGV0ZWRIZWFkZXIuY29udHJvbGxlcicsIFtdKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gaW1wb3J0IHtjbGFpbXNNYXJrRGVsZXRlZENvbnRyb2xsZXJ9IGZyb20gJy4vY2xhaW0taGVhZGVyL21hcmstZGVsZXRlZC9tYXJrLWRlbGV0ZWQtY2xhaW0taGVhZGVyLWN0cmwuanMnOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -618,20 +629,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZXhwb3J0IGNvbnN0IEhlYWRlckxpc3RDdHJNb2R1bGUgPSBhbmd1bGFyLm1vZHVsZSgiY2xhaW1zLmhlYWRlci5saXN0LmN0cmwiLCBbXSkKICAgIC5jb250cm9sbGVyKCJoZWFkZXJMaXN0Q29udHJvbGxlciIsIGZ1bmN0aW9uICgkaHR0cCwgJHNjb3BlLCBjb250cmFjdElkLCAkcm9vdFNjb3BlKSB7CiAgICAgICAgJGh0dHAuZ2V0KCRyb290U2NvcGUuYXBpQmFzZVVybCArICJjbGFpbWhlYWRlcnMvY29udHJhY3QvIiArIGNvbnRyYWN0SWQpLnRoZW4ocmVzID0+IHJlcy5kYXRhKS50aGVuKGZ1bmN0aW9uIChoZWFkZXJJZHMpIHsKICAgICAgICAgICAgJHNjb3BlLmhlYWRlcklkcyA9IGhlYWRlcklkczsKICAgICAgICB9KTsKICAgIH0pOwo=</text>
+        <text encoding="base64">Ly8gaW1wb3J0IHtjbGFpbXNIZWFkZXJDb250cm9sbGVyfSBmcm9tICcuL2NsYWltLWhlYWRlci9jbGFpbS1oZWFkZXItY3RybC5qcyc7Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">IHsKICAgICAgICAkaHR0cC5nZXQoJHJvb3RTY29wZS5hcGlCYXNlVXJsICsgImNsYWltaGVhZGVycy9jb250cmFjdC8iICsgY29udHJhY3RJZCkKICAgICAgICAgICAgLnRoZW4ocmVzID0+IHJlcy5kYXRhKQogICAgICAgICAgICAudGhlbihmdW5jdGlvbiAoaGVhZGVySWRzKSB7CiAgICAgICAgICAgICAgICAkc2NvcGUuaGVhZGVySWRzID0gaGVhZGVySWRzOwogICAgICAgICAgICB9KTsKICAgIH0pOw==</text>
+      <register name="3" type="2">
+        <text encoding="base64">Ly8gaW1wb3J0IHtjbGFpbXNOZXdIZWFkZXJDb250cm9sbGVyfSBmcm9tICcuL2NsYWltLWhlYWRlci9jcmVhdGUvY2xhaW0taGVhZGVyLWNyZWF0ZS1tb2R1bGUnOwo=</text>
       </register>
-      <register name="4" type="4">
-        <text>import ClaimHeaderController from './claim-header-ctrl';
-import ClaimHeaderCreateModule from './create/claim-header-create-module';</text>
+      <register name="4" type="2">
+        <text encoding="base64">Ly8gaW1wb3J0IHtIZWFkZXJMaXN0Q3RyTW9kdWxlfSBmcm9tICcuL2NsYWltLWhlYWRlci9saXN0L2hlYWRlci1saXN0LWN0cmwuanMnOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICdjbGFpbXMuaGVhZGVyLmNvbnRyb2xsZXInLAo=</text>
+        <text encoding="base64">ICAgICAgICBjbGFpbXNOZXdIZWFkZXJDb250cm9sbGVyLm5hbWUsCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjbGFpbXNIZWFkZXJDb250cm9sbGVyLm5hbWUsCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -684,13 +694,13 @@ import ClaimHeaderCreateModule from './create/claim-header-create-module';</text
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIC5jb250cm9sbGVyKCduZXdIZWFkZXJDb250cm9sbGVyJywgKCRzY29wZSwgJGh0dHAsICRyb3V0ZVBhcmFtcywgJHJvb3RTY29wZSkgPT4gewogICAgICAgICRzY29wZS5sb2JJZCA9ICRyb3V0ZVBhcmFtcy5sb2JJZDsKCiAgICAgICAgJGh0dHAuZ2V0KCRyb290U2NvcGUuYXBpQmFzZVVybCArICdpbmZvL2NvdW50cmllcycpCiAgICAgICAgICAgIC50aGVuKHJlc3BvbnNlID0+IHJlc3BvbnNlLmRhdGEpCiAgICAgICAgICAgIC50aGVuKGNvdW50cmllcyA9PiB7CiAgICAgICAgICAgICAgICAkc2NvcGUuY291bnRyaWVzID0gW107CiAgICAgICAgICAgICAgICBjb3VudHJpZXMuZm9yRWFjaChjb3VudHJ5ID0+ICRzY29wZS5jb3VudHJpZXMucHVzaCh7aWQ6IGNvdW50cnkuaWQsIGRlc2NyaXB0aW9uOiBjb3VudHJ5LmxhYmVsfSkpOwogICAgICAgICAgICB9KTsKICAgIH0pOwo=</text>
+        <text encoding="base64">ICAgICAgICBjbGFpbXNNYXJrRGVsZXRlZENvbnRyb2xsZXIubmFtZSwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLl9TdGF0aWNEYXRhUmVzb3VyY2UgPSBTdGF0aWNEYXRhUmVzb3VyY2U7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZXhwb3J0IGNvbnN0IGNsYWltc05ld0hlYWRlckNvbnRyb2xsZXIgPSBhbmd1bGFyLm1vZHVsZSgnY2xhaW1zLm5ld0hlYWRlci5jb250cm9sbGVyJywgW10pCg==</text>
+        <text encoding="base64">ZXhwb3J0IGNvbnN0IEhlYWRlckxpc3RDdHJNb2R1bGUgPSBhbmd1bGFyLm1vZHVsZSgiY2xhaW1zLmhlYWRlci5saXN0LmN0cmwiLCBbXSkKICAgIC5jb250cm9sbGVyKCJoZWFkZXJMaXN0Q29udHJvbGxlciIsIGZ1bmN0aW9uICgkaHR0cCwgJHNjb3BlLCBjb250cmFjdElkLCAkcm9vdFNjb3BlKSB7CiAgICAgICAgJGh0dHAuZ2V0KCRyb290U2NvcGUuYXBpQmFzZVVybCArICJjbGFpbWhlYWRlcnMvY29udHJhY3QvIiArIGNvbnRyYWN0SWQpLnRoZW4ocmVzID0+IHJlcy5kYXRhKS50aGVuKGZ1bmN0aW9uIChoZWFkZXJJZHMpIHsKICAgICAgICAgICAgJHNjb3BlLmhlYWRlcklkcyA9IGhlYWRlcklkczsKICAgICAgICB9KTsKICAgIH0pOwo=</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

@@ -65,6 +65,9 @@
         <mark key="^" line="162" column="56" />
         <mark key="." line="162" column="0" />
       </file>
+      <file name="/TestProtect.Protect2.Claims_Daysy_Report [TESTProtect@test.sql.protector.local]" timestamp="1559041232159">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-roles/parts-and-roles.html" timestamp="1558431685359">
         <mark key="[" line="18" column="31" />
       </file>
@@ -172,6 +175,7 @@
         <mark key="." line="1" column="35" />
         <mark key="^" line="1" column="35" />
       </file>
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9478d2df-dc62-4557-b855-2a701181b2dc/console_2.sql" timestamp="1559041227422" />
       <file name="$USER_HOME$/repos/claims/frontend/components/calculations/calculations-ctrl.js" timestamp="1557401934542">
         <mark key="'" line="0" column="73" />
         <mark key="[" line="79" column="2" />
@@ -330,6 +334,9 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-roles/parties-and-claims-directive.js" timestamp="1558439156954">
         <mark key="[" line="1" column="5" />
       </file>
+      <file name="$USER_HOME$/repos/claims/reporting/src/main/java/protector/claims/reporting/daysy/DaysyReportService.java" timestamp="1559040778823">
+        <mark key="'" line="29" column="19" />
+      </file>
       <file name="/fragment.java" timestamp="1558955439405">
         <mark key="[" line="0" column="0" />
       </file>
@@ -342,7 +349,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="37" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/online-summary/claim-form-data.ctrl.js" />
       <jump line="91" column="23" filename="$USER_HOME$/repos/claims/frontend/components/claim/online-summary/claim-form-data.ctrl.js" />
       <jump line="82" column="36" filename="$USER_HOME$/repos/claims/frontend/components/claim/online-summary/claim-form-data.ctrl.js" />
       <jump line="43" column="18" filename="$USER_HOME$/repos/claims/frontend/components/claim/online-summary/claim-form-submission-resource.js" />
@@ -442,6 +448,7 @@
       <jump line="377" column="35" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
       <jump line="396" column="11" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
       <jump line="401" column="16" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
+      <jump line="29" column="19" filename="$USER_HOME$/repos/claims/reporting/src/main/java/protector/claims/reporting/daysy/DaysyReportService.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -507,7 +514,7 @@
         <text>,</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjbG9uZVRyZWVcPg==</text>
+        <text encoding="base64">XDxUQVJHRVRfRElSXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8dGFibGUgY2xhc3M9InRhYmxlIiBzdHlsZT0idGFibGUtbGF5b3V0OiBmaXhlZCI+Cg==</text>
@@ -637,17 +644,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjbG9uZVRyZWVcPg==</last-search>
+      <last-search encoding="base64">XDxUQVJHRVRfRElSXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjbG9uZVRyZWVcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxUQVJHRVRfRElSXD4=</last-pattern>
       <last-replace>static</last-replace>
       <last-substitute>function</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxhcHBlbmRUcmFuc2Zvcm1cPg==</entry>
         <entry>function</entry>
         <entry>forms</entry>
         <entry encoding="base64">XDxsb2FkXD4=</entry>
@@ -667,6 +673,7 @@
         <entry encoding="base64">XDxjbGFpbUNvbnRyb2xsZXJcPg==</entry>
         <entry encoding="base64">XDxnZXRDbGFpbXNcPg==</entry>
         <entry encoding="base64">XDxjbG9uZVRyZWVcPg==</entry>
+        <entry encoding="base64">XDxUQVJHRVRfRElSXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3RoaXNcLnRyYW5zYWN0aW9uL3N1Yi9n</entry>

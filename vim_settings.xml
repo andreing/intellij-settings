@@ -303,8 +303,8 @@
         <mark key="." line="465" column="0" />
         <mark key="^" line="465" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" timestamp="1557742699800">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" timestamp="1559721392748">
+        <mark key="'" line="281" column="62" />
         <mark key="[" line="0" column="23" />
         <mark key="]" line="0" column="3" />
         <mark key="." line="0" column="3" />
@@ -354,20 +354,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="20" column="31" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-directive.js" />
-      <jump line="38" column="39" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-directive.js" />
-      <jump line="52" column="27" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-directive.js" />
-      <jump line="59" column="38" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-directive.js" />
-      <jump line="28" column="19" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-directive.js" />
-      <jump line="1" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-directive.js" />
-      <jump line="2" column="36" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-resource.js" />
-      <jump line="5" column="33" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-resource.js" />
-      <jump line="13" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-resource.js" />
-      <jump line="12" column="68" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-resource.js" />
-      <jump line="53" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-directive.js" />
-      <jump line="25" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-resource.js" />
-      <jump line="28" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-resource.js" />
-      <jump line="20" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-resource.js" />
       <jump line="71" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-directive.js" />
       <jump line="45" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-resource.js" />
       <jump line="60" column="14" filename="$USER_HOME$/repos/claims/frontend/components/claim/notes/claim-note-directive.js" />
@@ -454,6 +440,20 @@
       <jump line="127" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="129" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="234" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
+      <jump line="27" column="11" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" />
+      <jump line="92" column="58" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" />
+      <jump line="172" column="23" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" />
+      <jump line="173" column="36" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" />
+      <jump line="179" column="47" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" />
+      <jump line="280" column="33" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" />
+      <jump line="282" column="23" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" />
+      <jump line="658" column="14" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" />
+      <jump line="660" column="28" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" />
+      <jump line="661" column="20" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" />
+      <jump line="662" column="46" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" />
+      <jump line="41" column="11" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" />
+      <jump line="278" column="43" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" />
+      <jump line="281" column="62" filename="$USER_HOME$/repos/claims/frontend/components/claim/event/events-ctrl.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -519,7 +519,7 @@
         <text>don't know what to replace this with, but must go away!</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxmaXJzdFRpbWVcPg==</text>
+        <text encoding="base64">XDxvcmlnaW5hbEV2ZW50c1w+</text>
       </register>
       <register name="0" type="4">
         <text>$http, $scope, linkService, flash, new_editRoleService, $filter, $rootScope, RobotHandling, DamageInfoSubAuto</text>
@@ -649,9 +649,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxmaXJzdFRpbWVcPg==</last-search>
+      <last-search encoding="base64">XDxvcmlnaW5hbEV2ZW50c1w+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxmaXJzdFRpbWVcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxvcmlnaW5hbEV2ZW50c1w+</last-pattern>
       <last-replace>static</last-replace>
       <last-substitute>function</last-substitute>
       <last-dir>1</last-dir>
@@ -659,8 +659,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxVdGlsaXRpZXNcPg==</entry>
-        <entry encoding="base64">XDx1dGlsaXRpZXNcPg==</entry>
         <entry encoding="base64">XDxoYXNBZnRlcm1hdGhQcm9taXNlXD4=</entry>
         <entry encoding="base64">XDxGb3JtU3VibWlzc2lvbkZhY3RvcnlcPg==</entry>
         <entry encoding="base64">XDxGb3JtU3VibWlzc2lvblJlc291cmNlXD4=</entry>
@@ -679,6 +677,8 @@
         <entry encoding="base64">XDxnZXRMaXN0VmFsdWVzXD4=</entry>
         <entry encoding="base64">XDxmaW5kRWxlbWVudEJ5SWRcPg==</entry>
         <entry encoding="base64">XDxmaXJzdFRpbWVcPg==</entry>
+        <entry encoding="base64">XDxldmVudFR5cGVzXD4=</entry>
+        <entry encoding="base64">XDxvcmlnaW5hbEV2ZW50c1w+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3RoaXNcLnRyYW5zYWN0aW9uL3N1Yi9n</entry>

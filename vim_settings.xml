@@ -219,9 +219,9 @@
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/resources/logback.xml" timestamp="1559907330011">
         <mark key="[" line="4" column="79" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" timestamp="1560341758345">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" timestamp="1560344754787">
         <mark key="'" line="212" column="17" />
-        <mark key="[" line="180" column="14" />
+        <mark key="[" line="176" column="20" />
         <mark key="]" line="113" column="28" />
         <mark key="." line="113" column="28" />
         <mark key="^" line="113" column="28" />
@@ -266,8 +266,8 @@
         <mark key="^" line="0" column="63" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" timestamp="1560342588380">
-        <mark key="'" line="39" column="16" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" timestamp="1560345749017">
+        <mark key="'" line="276" column="12" />
       </file>
       <file name="$USER_HOME$/repos/claims-mail-app/backend/src/main/java/com/protectorinsurance/claimsmailmapper/messaging/AppraisalToClaimsProducer.java" timestamp="1556107286190">
         <mark key="'" line="32" column="4" />
@@ -353,12 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="204" column="50" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
-      <jump line="209" column="37" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
-      <jump line="213" column="38" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
-      <jump line="250" column="33" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
-      <jump line="137" column="41" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
-      <jump line="145" column="50" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
       <jump line="150" column="37" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
       <jump line="154" column="38" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
       <jump line="191" column="33" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
@@ -453,6 +447,12 @@
       <jump line="39" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
       <jump line="113" column="20" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="212" column="17" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
+      <jump line="46" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
+      <jump line="48" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
+      <jump line="152" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
+      <jump line="199" column="17" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
+      <jump line="215" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
+      <jump line="276" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -518,7 +518,7 @@
         <text encoding="base64">IHs=</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxkaXNwbGF5UnJFcnJvckJveFw+</text>
+        <text encoding="base64">XDxmaXJzdFRpbWVcPg==</text>
       </register>
       <register name="0" type="4">
         <text>lash.error( $filter('translate')(&quot;Type og årsak er oppdatert, men en feil oppsto ved lagring av naturskade&quot;))</text>
@@ -648,9 +648,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxkaXNwbGF5UnJFcnJvckJveFw+</last-search>
+      <last-search encoding="base64">XDxmaXJzdFRpbWVcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxkaXNwbGF5UnJFcnJvckJveFw+</last-pattern>
+      <last-pattern encoding="base64">XDxmaXJzdFRpbWVcPg==</last-pattern>
       <last-replace>static</last-replace>
       <last-substitute>function</last-substitute>
       <last-dir>1</last-dir>
@@ -664,7 +664,6 @@
         <entry encoding="base64">XDxjbG9uZVRyZWVcPg==</entry>
         <entry encoding="base64">XDxUQVJHRVRfRElSXD4=</entry>
         <entry encoding="base64">XDxmaW5kRWxlbWVudEJ5SWRcPg==</entry>
-        <entry encoding="base64">XDxmaXJzdFRpbWVcPg==</entry>
         <entry encoding="base64">XDxldmVudFR5cGVzXD4=</entry>
         <entry encoding="base64">XDxvcmlnaW5hbEV2ZW50c1w+</entry>
         <entry encoding="base64">XDxyb290U2NvcGVcPg==</entry>
@@ -678,6 +677,7 @@
         <entry encoding="base64">XDxnZXREYXRhXD4=</entry>
         <entry encoding="base64">XDxyZWZyZXNoVHJhbnNhY3Rpb25JbmZvXD4=</entry>
         <entry encoding="base64">XDxkaXNwbGF5UnJFcnJvckJveFw+</entry>
+        <entry encoding="base64">XDxmaXJzdFRpbWVcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3RoaXNcLnRyYW5zYWN0aW9uL3N1Yi9n</entry>

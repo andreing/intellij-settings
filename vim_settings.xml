@@ -106,11 +106,12 @@
         <mark key="." line="3" column="6" />
         <mark key="^" line="3" column="6" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/common/directive/single-commit-directive.js" timestamp="1560429499851">
-        <mark key="[" line="36" column="71" />
-        <mark key="]" line="36" column="33" />
-        <mark key="." line="36" column="33" />
-        <mark key="^" line="36" column="33" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/common/directive/single-commit-directive.js" timestamp="1560432625705">
+        <mark key="'" line="59" column="18" />
+        <mark key="[" line="16" column="55" />
+        <mark key="]" line="16" column="54" />
+        <mark key="." line="16" column="54" />
+        <mark key="^" line="16" column="54" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/event/claim-event-module.js" timestamp="1557497360946">
         <mark key="'" line="5" column="25" />
@@ -168,7 +169,6 @@
         <mark key="[" line="386" column="0" />
         <mark key="]" line="386" column="0" />
         <mark key="." line="386" column="0" />
-        <mark key="^" line="377" column="119" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/electronic-invoicing/electronic-invoicing-module.js" timestamp="1557406328635">
         <mark key="'" line="5" column="4" />
@@ -231,12 +231,12 @@
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/resources/logback.xml" timestamp="1559907330011">
         <mark key="[" line="4" column="79" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" timestamp="1560423614419">
-        <mark key="'" line="114" column="20" />
-        <mark key="[" line="119" column="0" />
-        <mark key="]" line="119" column="0" />
-        <mark key="^" line="117" column="36" />
-        <mark key="." line="119" column="0" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" timestamp="1560433155424">
+        <mark key="'" line="172" column="8" />
+        <mark key="[" line="223" column="6" />
+        <mark key="]" line="223" column="4" />
+        <mark key="." line="223" column="4" />
+        <mark key="^" line="223" column="4" />
       </file>
       <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/ForsiEventService.java" timestamp="1554985272378">
         <mark key="'" line="68" column="12" />
@@ -255,8 +255,11 @@
         <mark key="." line="0" column="0" />
         <mark key="^" line="5" column="70" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/event/create-event.html" timestamp="1560425969259">
-        <mark key="[" line="11" column="89" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/event/create-event.html" timestamp="1560431003409">
+        <mark key="[" line="368" column="50" />
+        <mark key="]" line="368" column="0" />
+        <mark key="^" line="368" column="53" />
+        <mark key="." line="368" column="0" />
       </file>
       <file name="/dummy.sql" timestamp="1559897173814">
         <mark key="[" line="0" column="0" />
@@ -377,7 +380,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="83" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="101" column="10" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="50" column="10" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="51" column="10" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
@@ -467,7 +469,6 @@
       <jump line="125" column="36" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="141" column="42" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="128" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
-      <jump line="171" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="187" column="24" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="204" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="368" column="20" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
@@ -477,6 +478,8 @@
       <jump line="147" column="27" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="117" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="115" column="20" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
+      <jump line="52" column="18" filename="$USER_HOME$/repos/claims/frontend/components/common/directive/single-commit-directive.js" />
+      <jump line="171" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -486,7 +489,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pOwo=</text>
+        <text encoding="base64">ICAgICRzY29wZQouCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -539,7 +542,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>buttonTextWhileEnabled</text>
+        <text encoding="base64">ZnVuY3Rpb24g</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxkaXNwbGF5UnJFcnJvckJveFw+</text>
@@ -548,7 +551,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zdCB1c2VyTXNnID0gZXJyTXNnIHx8ICJFbiBmZWlsIG9wcHN0byB2ZWQgb3BwZGF0ZXJpbmcgYXYgZGVsc2thZGVuIjsKICAgICAgICAgICAgICAgICAgICB0aGlzLmZsYXNoLmVycm9yKHRoaXMuJGZpbHRlcigndHJhbnNsYXRlJykodXNlck1zZykpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pOwo=</text>
+        <text encoding="base64">ICAgICRzY29wZQouCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -593,20 +596,20 @@
           <key char="98" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfSk7Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICAgICBmdW5jdGlvbiBkaXNwbGF5UnJFcnJvckJveChyZW1haW5pbmdRdWVzdGlvbnMpIHsKICAgICAgICAgICAgbGV0IHF1ZXN0aW9uTGlzdCA9ICcnOwogICAgICAgICAgICByZW1haW5pbmdRdWVzdGlvbnMuZm9yRWFjaCgocXVlc3Rpb24pID0+IHsKICAgICAgICAgICAgICAgIHF1ZXN0aW9uTGlzdCArPSBxdWVzdGlvbi5jb250ZW50ICsgJzxici8+JzsKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIGJvb3Rib3guZGlhbG9nKHsKICAgICAgICAgICAgICAgIG1lc3NhZ2U6ICdUaGVzZSBSUiBxdWVzdGlvbiBoYXZlIGFuc3dlcnMgdGhhdCBkbyBub3QgZXhpc3QgaW4gdGhlIG5ldyBjbGFpbSB0eXBlIDogPGJyLz4nICsgcXVlc3Rpb25MaXN0ICsKICAgICAgICAgICAgICAgICAgICAnIFBsZWFzZSByZW1vdmUgdGhlbSBiZWZvcmUgY2hhbmdpbmcgY2xhaW0gdHlwZSAnLAogICAgICAgICAgICAgICAgdGl0bGU6ICJFeGlzdGluZyBSUiBxdWVzdGlvbnMiLAogICAgICAgICAgICAgICAgYnV0dG9uczogewogICAgICAgICAgICAgICAgICAgIG9rOiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxhYmVsOiAib2siLAogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU6ICJidG4tcHJpbWFyeSIsCiAgICAgICAgICAgICAgICAgICAgICAgIGNhbGxiYWNrOiBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0pOwogICAgICAgIH0=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICh0eXBlb2YgZXJyTXNnID09PSAnc3RyaW5nJykgeyAvL1RPRE8gZml4CiAgICAgICAgICAgICAgICAgICAgY29uc3QgdXNlck1zZyA9IGVyck1zZyB8fCAiRW4gZmVpbCBvcHBzdG8gdmVkIG9wcGRhdGVyaW5nIGF2IGRlbHNrYWRlbiI7CiAgICAgICAgICAgICAgICAgICAgdGhpcy5mbGFzaC5lcnJvcih0aGlzLiRmaWx0ZXIoJ3RyYW5zbGF0ZScpKHVzZXJNc2cpKTsKICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAodHlwZW9mIGVyck1zZyA9PT0gJ29iamVjdCcpIHsKICAgICAgICAgICAgICAgICAgICB0aGlzLmRpc3BsYXlkaXNwbGF5UnJFcnJvckJveChlcnJNc2cpOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhlcnJNc2cpOwogICAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygnc2luZ2xlLWNvbW1pdCBldmVudG5hbWU9JU8gYnV0dG9uPSVPIGZuPSVPJywgZXZlbnROYW1lLCBzdWJtaXRCdXR0b25zLCBvbkNsaWNrT3JTdWJtaXRGdW5jdGlvbik7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coInNpbmdsZSBjb21taXQgZXZlbnQgaGFuZGxlciBldmVudD0lTyIsIGV2ZW50KTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlIHsKICAgICAgICAgICAgZXZlbnROYW1lID0gJ2NsaWNrJzsKICAgICAgICAgICAgc3VibWl0QnV0dG9uID0gZWxlbTsKICAgICAgICAgICAgb25DbGlja09yU3VibWl0RnVuY3Rpb24gPSB0aGlzLiRwYXJzZShhdHRycy5vbkNsaWNrKTsKICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coJ3NpbmdsZSBjb21taXQgZXhlY3V0ZScpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZXhwb3J0IGRlZmF1bHQgY2xhc3MgRGlzYWJsZURvdWJsZVN1Ym1pdERpcmVjdGl2ZSB7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -659,13 +662,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb25DbGlja09yU3VibWl0UmV0dXJuVmFsdWUgPSBQcm9taXNlLnJlc29sdmUob25DbGlja09yU3VibWl0UmV0dXJuVmFsdWUpOwogICAgICAgICAgICAKICAgICAgICAgICAgb25DbGlja09yU3VibWl0UmV0dXJuVmFsdWUK</text>
+        <text encoding="base64">ICAgIC8qIFRPRE8K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAqLwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlOwo=</text>
+        <text encoding="base64">ICAgICAqIC0gbW9yZSBjaGVja3Mgb24gZWxlbWVudCB0eXBlIChidXR0b24gbWF5YmUpPwo=</text>
       </register>
       <register name=":" type="4">
         <text>close</text>

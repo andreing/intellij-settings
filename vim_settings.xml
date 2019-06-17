@@ -20,8 +20,8 @@
         <mark key="." line="182" column="0" />
         <mark key="^" line="182" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-roles/parties-and-claims.html" timestamp="1560522415068">
-        <mark key="[" line="34" column="50" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-roles/parties-and-claims.html" timestamp="1560773367651">
+        <mark key="[" line="34" column="43" />
         <mark key="]" line="35" column="58" />
         <mark key="^" line="35" column="58" />
         <mark key="." line="35" column="58" />
@@ -217,7 +217,7 @@
       <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" timestamp="1560507461827">
         <mark key="'" line="65" column="42" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin.html" timestamp="1560521560322">
+      <file name="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin.html" timestamp="1560772944538">
         <mark key="[" line="99" column="0" />
         <mark key="]" line="99" column="60" />
       </file>
@@ -403,6 +403,10 @@
         <mark key="." line="107" column="10" />
         <mark key="^" line="107" column="10" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claims.html" timestamp="1560773428875">
+        <mark key="'" line="43" column="45" />
+        <mark key="[" line="88" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header.html" timestamp="1560521635775">
         <mark key="'" line="103" column="0" />
         <mark key="[" line="103" column="0" />
@@ -423,11 +427,11 @@
         <mark key="^" line="23" column="7" />
         <mark key="." line="100" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-roles/parties-and-claims-directive.js" timestamp="1560771986412">
-        <mark key="[" line="33" column="48" />
-        <mark key="]" line="46" column="6" />
-        <mark key="^" line="46" column="6" />
-        <mark key="." line="46" column="6" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-roles/parties-and-claims-directive.js" timestamp="1560773105981">
+        <mark key="[" line="82" column="17" />
+        <mark key="]" line="29" column="62" />
+        <mark key="^" line="29" column="62" />
+        <mark key="." line="29" column="62" />
       </file>
       <file name="$USER_HOME$/repos/claims/reporting/src/main/java/protector/claims/reporting/daysy/DaysyReportService.java" timestamp="1559040778823">
         <mark key="'" line="29" column="19" />
@@ -450,9 +454,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="152" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
-      <jump line="215" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
-      <jump line="276" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
       <jump line="303" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="506" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="125" column="36" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
@@ -550,6 +551,9 @@
       <jump line="41" column="27" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimRoleMapper.java" />
       <jump line="103" column="42" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimRoleMapper.java" />
       <jump line="32" column="35" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimRoleMapper.java" />
+      <jump line="40" column="68" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claims.html" />
+      <jump line="41" column="45" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claims.html" />
+      <jump line="43" column="45" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claims.html" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -615,7 +619,7 @@
         <text encoding="base64">Lm1hcChjbiA9PiBjbi52YWx1ZS5jaGlsZHJlbi5jb25jYXQoY24ucm9sZXMubWFwKG1ha2VOb2RlKSk=</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwcm9wZXJ0eURhb1w+</text>
+        <text encoding="base64">XDxyb2xlc0xpc3RDb2xsYXBzZWRcPg==</text>
       </register>
       <register name="0" type="4">
         <text>LAIM</text>
@@ -745,9 +749,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxwcm9wZXJ0eURhb1w+</last-search>
+      <last-search encoding="base64">XDxyb2xlc0xpc3RDb2xsYXBzZWRcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwcm9wZXJ0eURhb1w+</last-pattern>
+      <last-pattern encoding="base64">XDxyb2xlc0xpc3RDb2xsYXBzZWRcPg==</last-pattern>
       <last-replace>static</last-replace>
       <last-substitute>function</last-substitute>
       <last-dir>1</last-dir>
@@ -755,7 +759,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxEYW1hZ2VJbmZvU3ViQ2xhaW1DdHJsTW9kdWxlXD4=</entry>
         <entry encoding="base64">XDxnZXREYXRhXD4=</entry>
         <entry encoding="base64">XDxmaXJzdFRpbWVcPg==</entry>
         <entry encoding="base64">XDxzYXZlQXV0b0NsYWltXD4=</entry>
@@ -775,6 +778,7 @@
         <entry encoding="base64">XDxVc2VyRGFvXD4=</entry>
         <entry encoding="base64">XDx1c2VyRGFvXD4=</entry>
         <entry encoding="base64">XDxwcm9wZXJ0eURhb1w+</entry>
+        <entry encoding="base64">XDxyb2xlc0xpc3RDb2xsYXBzZWRcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3RoaXNcLnRyYW5zYWN0aW9uL3N1Yi9n</entry>

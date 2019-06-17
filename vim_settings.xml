@@ -108,11 +108,12 @@
         <mark key="." line="55" column="15" />
         <mark key="^" line="55" column="15" />
       </file>
-      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/RoleForHeaderRetrieveJdbcDao.java" timestamp="1560769534648">
-        <mark key="[" line="25" column="50" />
-        <mark key="]" line="25" column="80" />
-        <mark key="^" line="25" column="80" />
-        <mark key="." line="25" column="80" />
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/RoleForHeaderRetrieveJdbcDao.java" timestamp="1560770094460">
+        <mark key="'" line="27" column="29" />
+        <mark key="[" line="27" column="48" />
+        <mark key="]" line="27" column="50" />
+        <mark key="^" line="28" column="25" />
+        <mark key="." line="27" column="50" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/mark-deleted/claim-header-mark-deleted-module.js" timestamp="1557398741619">
         <mark key="'" line="2" column="0" />
@@ -260,6 +261,9 @@
       </file>
       <file name="$USER_HOME$/repos/claims-reporting-web/claims-reporting-core/src/main/resources/logback.xml" timestamp="1559907330011">
         <mark key="[" line="4" column="79" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimRoleMapper.java" timestamp="1560770747935">
+        <mark key="'" line="32" column="35" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" timestamp="1560508927238">
         <mark key="'" line="351" column="4" />
@@ -446,15 +450,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="85" column="32" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
-      <jump line="250" column="20" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
-      <jump line="34" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/update-reserves.js" />
-      <jump line="12" column="20" filename="$USER_HOME$/repos/claims/frontend/components/claim/transactions/update-reserves.js" />
-      <jump line="364" column="17" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
-      <jump line="39" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
-      <jump line="212" column="17" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
-      <jump line="46" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
-      <jump line="48" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
       <jump line="152" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
       <jump line="215" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
       <jump line="276" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
@@ -546,6 +541,15 @@
       <jump line="36" column="20" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-roles/parties-and-claims.html" />
       <jump line="65" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-roles/parties-and-claims-directive.js" />
       <jump line="37" column="20" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-roles/parties-and-claims.html" />
+      <jump line="27" column="29" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/RoleForHeaderRetrieveJdbcDao.java" />
+      <jump line="40" column="23" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimRoleMapper.java" />
+      <jump line="60" column="26" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimRoleMapper.java" />
+      <jump line="14" column="29" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimRoleMapper.java" />
+      <jump line="31" column="26" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimRoleMapper.java" />
+      <jump line="37" column="103" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimRoleMapper.java" />
+      <jump line="41" column="27" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimRoleMapper.java" />
+      <jump line="103" column="42" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimRoleMapper.java" />
+      <jump line="32" column="35" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/dao/ClaimRoleMapper.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -554,8 +558,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8cGFydHNhbmRyb2xlcyBjbGFpbS1oZWFkZXItaWQ9Int7dm0uaGVhZGVyLmlkfX0iIGhlYWRlcj0idm0uaGVhZGVyIiByb2xlcz0idm0udW53cmFwQ2hpbGRyZW4obm9kZSkiIGdldC1yb2xlcz0iZ2V0Um9sZXMoKSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwaWEtYmFzZS11cmw9Int7cGlhQmFzZVVybH19Ij48L3BhcnRzYW5kcm9sZXM+Cgo=</text>
+      <register name="&quot;" type="4">
+        <text>LAIM</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -611,10 +615,10 @@
         <text encoding="base64">Lm1hcChjbiA9PiBjbi52YWx1ZS5jaGlsZHJlbi5jb25jYXQoY24ucm9sZXMubWFwKG1ha2VOb2RlKSk=</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx2YWx1ZVw+</text>
+        <text encoding="base64">XDxwcm9wZXJ0eURhb1w+</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">PCEtLSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhcnRzYW5kcm9sZXMgY2xhaW0taGVhZGVyLWlkPSJ7e2NsYWltSGVhZGVySWR9fSIgaGVhZGVyPSJoZWFkZXIiIHJvbGVzPSJyb2xlcyIgZ2V0LXJvbGVzPSJnZXRSb2xlcygpIi0tPgo8IS0tICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwaWEtYmFzZS11cmw9Int7cGlhQmFzZVVybH19Ij48L3BhcnRzYW5kcm9sZXM+LS0+Cg==</text>
+      <register name="0" type="4">
+        <text>LAIM</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA8cGFydHNhbmRyb2xlcyBjbGFpbS1oZWFkZXItaWQ9Int7dm0uaGVhZGVyLmlkfX0iIGhlYWRlcj0idm0uaGVhZGVyIiByb2xlcz0idm0udW53cmFwQ2hpbGRyZW4obm9kZSkiIGdldC1yb2xlcz0iZ2V0Um9sZXMoKSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwaWEtYmFzZS11cmw9Int7cGlhQmFzZVVybH19Ij48L3BhcnRzYW5kcm9sZXM+Cgo=</text>
@@ -741,19 +745,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx2YWx1ZVw+</last-search>
+      <last-search encoding="base64">XDxwcm9wZXJ0eURhb1w+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx2YWx1ZVw+</last-pattern>
+      <last-pattern encoding="base64">XDxwcm9wZXJ0eURhb1w+</last-pattern>
       <last-replace>static</last-replace>
       <last-substitute>function</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxBUFBSQUlTQUxfSU5fUFJPR1JFU1NfU1RPUkVfTkFNRVw+</entry>
-        <entry encoding="base64">XDxzZXRBdXRvQ2xhaW1WYWx1ZXNcPg==</entry>
-        <entry encoding="base64">XDxnZXRMaXN0VmFsdWVzXD4=</entry>
         <entry encoding="base64">XDxEYW1hZ2VJbmZvU3ViQ2xhaW1DdHJsTW9kdWxlXD4=</entry>
         <entry encoding="base64">XDxnZXREYXRhXD4=</entry>
         <entry encoding="base64">XDxmaXJzdFRpbWVcPg==</entry>
@@ -771,6 +772,9 @@
         <entry encoding="base64">XDx0ZW1wbGF0ZVRyZWVcPg==</entry>
         <entry encoding="base64">XDxyb290XD4=</entry>
         <entry encoding="base64">XDx2YWx1ZVw+</entry>
+        <entry encoding="base64">XDxVc2VyRGFvXD4=</entry>
+        <entry encoding="base64">XDx1c2VyRGFvXD4=</entry>
+        <entry encoding="base64">XDxwcm9wZXJ0eURhb1w+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3RoaXNcLnRyYW5zYWN0aW9uL3N1Yi9n</entry>

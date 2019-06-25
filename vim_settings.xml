@@ -114,12 +114,12 @@
         <mark key="^" line="451" column="115" />
         <mark key="." line="451" column="115" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" timestamp="1561452469262">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" timestamp="1561456182046">
         <mark key="'" line="87" column="8" />
-        <mark key="[" line="169" column="0" />
-        <mark key="]" line="169" column="0" />
-        <mark key="." line="169" column="0" />
-        <mark key="^" line="168" column="44" />
+        <mark key="[" line="181" column="0" />
+        <mark key="]" line="181" column="0" />
+        <mark key="." line="181" column="0" />
+        <mark key="^" line="181" column="58" />
       </file>
       <file name="/a.sql" timestamp="1561021257550">
         <mark key="[" line="0" column="0" />
@@ -292,7 +292,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICRzY29wZS4kZW1pdCgibmV3LXJvbGUtYWRkZWQiKTsKICAgICAgICAgICAgICAgICRzY29wZS4kZW1pdCgnYXV0b0NsYWltVXBkYXRlZCcsIHt9KTsK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -354,7 +354,7 @@
         <text encoding="base64">ICAgICAgICBmdW5jdGlvbiByZWZyZXNoVHJhbnNhY3Rpb25JbmZvKCkgewogICAgICAgICAgICAkc2NvcGUuJGVtaXQoJ3JlZnJlc2gtdHJhbnNhY3Rpb24taW5mbycsIHt9KTsKICAgICAgICB9Cgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICRzY29wZS4kZW1pdCgibmV3LXJvbGUtYWRkZWQiKTsKICAgICAgICAgICAgICAgICRzY29wZS4kZW1pdCgnYXV0b0NsYWltVXBkYXRlZCcsIHt9KTsK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -400,19 +400,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIF9mb28oJHNjb3BlKSB7CiAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICByZW1haW5pbmdRdWVzdGlvbnMuZm9yRWFjaCgocXVlc3Rpb24pID0+IHsKICAgICAgICAgICAgcXVlc3Rpb25MaXN0ICs9IHF1ZXN0aW9uLmNvbnRlbnQgKyAnPGJyLz4nOwogICAgICAgIH0pOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAkc2NvcGUuJGVtaXQoJ2F1dG9DbGFpbVVwZGF0ZWQnLCB7fSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICRzY29wZS4kZW1pdCgibmV3LXJvbGUtYWRkZWQiKTsKICAgICAgICAgICAgICAgICRzY29wZS4kZW1pdCgnYXV0b0NsYWltVXBkYXRlZCcsIHt9KTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIF9mb28oJHNjb3BlKSB7CiAgICB9Cgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAkc2NvcGUuJGVtaXQoIm5ldy1yb2xlLWFkZGVkIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAkc2NvcGUuJGVtaXQoJ2F1dG9DbGFpbVVwZGF0ZWQnLCB7fSk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAkc2NvcGUuJGVtaXQoIm5ldy1yb2xlLWFkZGVkIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -465,13 +465,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAkc2NvcGUuJGVtaXQoIm5ldy1yb2xlLWFkZGVkIik7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAkc2NvcGUuJHdhdGNoKAogICAgICAgICAgICAoKSA9PiB0aGlzLmhlYWRlci5jbGFpbXMsCiAgICAgICAgICAgICgpID0+IHsKICAgICAgICAgICAgICAgIGlmICh0eXBlb2YgdGhpcy5oZWFkZXIgIT09ICd1bmRlZmluZWQnICYmIHR5cGVvZiB0aGlzLmhlYWRlci5jbGFpbXMgIT09ICd1bmRlZmluZWQnICYmIHRoaXMuaGVhZGVyICYmIHRoaXMuaGVhZGVyLmNsYWltcykgewogICAgICAgICAgICAgICAgICAgIHRoaXMuY2xhaW1zID0gdGhpcy5oZWFkZXIuY2xhaW1zOwogICAgICAgICAgICAgICAgICAgIHRoaXMuZ2V0TGlzdFZhbHVlcygpOwoKICAgICAgICAgICAgICAgICAgICB0aGlzLmNsYWltcy5mb3JFYWNoKGVudHJ5ID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgZW50cnkuZWRpdE1vZGUgPSBmYWxzZTsKICAgICAgICAgICAgICAgICAgICAgICAgZW50cnkucm9sZXNMaXN0Q29sbGFwc2VkID0gdHJ1ZTsKCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChlbnRyeS50cmVhdG1lbnREYXRlICYmICEoZW50cnkudHJlYXRtZW50RGF0ZSBpbnN0YW5jZW9mIERhdGUpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbnRyeS50cmVhdG1lbnREYXRlID0gbW9tZW50KGVudHJ5LnRyZWF0bWVudERhdGUpLnRvRGF0ZSgpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0pOwo=</text>
+        <text encoding="base64">ICAgICAgICAkc2NvcGUuJGVtaXQoIm5ldy1yb2xlLWFkZGVkIik7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLiRzY29wZSA9ICRzY29wZTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>reg</text>

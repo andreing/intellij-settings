@@ -39,11 +39,11 @@
         <mark key="^" line="683" column="12" />
         <mark key="." line="683" column="12" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" timestamp="1561720708365">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" timestamp="1561724920753">
         <mark key="'" line="158" column="16" />
-        <mark key="[" line="160" column="0" />
-        <mark key="]" line="160" column="0" />
-        <mark key="." line="160" column="0" />
+        <mark key="[" line="162" column="0" />
+        <mark key="]" line="162" column="0" />
+        <mark key="." line="162" column="0" />
         <mark key="^" line="159" column="51" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims-core-module.js" timestamp="1561641411883">
@@ -138,6 +138,13 @@
         <mark key="^" line="13" column="1" />
         <mark key="." line="13" column="1" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/summary/closing/header-closer.js" timestamp="1561724370285">
+        <mark key="'" line="185" column="46" />
+        <mark key="[" line="0" column="27" />
+        <mark key="]" line="0" column="19" />
+        <mark key="^" line="0" column="19" />
+        <mark key="." line="0" column="19" />
+      </file>
       <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9478d2df-dc62-4557-b855-2a701181b2dc/console.sql" timestamp="1561374066361">
         <mark key="'" line="19" column="0" />
         <mark key="[" line="66" column="0" />
@@ -174,6 +181,12 @@
         <mark key="." line="117" column="29" />
         <mark key="^" line="117" column="29" />
       </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/DefaultTransactionApprovalService.java" timestamp="1561723984991">
+        <mark key="[" line="102" column="41" />
+        <mark key="]" line="102" column="40" />
+        <mark key="^" line="102" column="40" />
+        <mark key="." line="102" column="40" />
+      </file>
       <file name="$USER_HOME$/repos/claims/.idea/workspace.xml" timestamp="1561715413754">
         <mark key="'" line="236" column="62" />
       </file>
@@ -192,10 +205,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="191" column="33" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
-      <jump line="219" column="17" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
-      <jump line="385" column="51" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
-      <jump line="394" column="48" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
       <jump line="403" column="51" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
       <jump line="137" column="41" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
       <jump line="145" column="50" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" />
@@ -292,6 +301,10 @@
       <jump line="76" column="27" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
       <jump line="38" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/sub-claim-resource.js" />
       <jump line="134" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/sub-claim-resource.js" />
+      <jump line="11" column="25" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/summary/closing/header-closer.js" />
+      <jump line="182" column="47" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/summary/closing/header-closer.js" />
+      <jump line="183" column="49" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/summary/closing/header-closer.js" />
+      <jump line="184" column="46" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/summary/closing/header-closer.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -301,7 +314,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoY2xhaW0gPT4gdGhpcy5fbGlua1NlcnZpY2UucmVzb2x2ZShjbGFpbSwgJ2RlbGV0ZScpICE9PSBmYWxzZSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IGhlYWRlci5jbGFpbXMubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgICAgICAgICAgICAgaGVhZGVyLmNsYWltc1tpXS5kZWxldGFibGUgPSBsaW5rU2VydmljZS5yZXNvbHZlKGhlYWRlci5jbGFpbXNbaV0sICdkZWxldGUnKSAhPT0gZmFsc2U7CiAgICAgICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -357,13 +370,13 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>delete</text>
+        <text encoding="base64">XDxyb290U2NvcGVcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiAoZW50cnkudHJlYXRtZW50RGF0ZSAmJiAhKGVudHJ5LnRyZWF0bWVudERhdGUgaW5zdGFuY2VvZiBEYXRlKSkgewogICAgICAgICAgICAgICAgICAgICAgICBlbnRyeS50cmVhdG1lbnREYXRlID0gbW9tZW50KGVudHJ5LnRyZWF0bWVudERhdGUpLnRvRGF0ZSgpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICByZXR1cm4gZW50cnk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoY2xhaW0gPT4gdGhpcy5fbGlua1NlcnZpY2UucmVzb2x2ZShjbGFpbSwgJ2RlbGV0ZScpICE9PSBmYWxzZSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IGhlYWRlci5jbGFpbXMubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgICAgICAgICAgICAgaGVhZGVyLmNsYWltc1tpXS5kZWxldGFibGUgPSBsaW5rU2VydmljZS5yZXNvbHZlKGhlYWRlci5jbGFpbXNbaV0sICdkZWxldGUnKSAhPT0gZmFsc2U7CiAgICAgICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -409,19 +422,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoY2xhaW0gPT4gdGhpcy5fbGlua1NlcnZpY2UucmVzb2x2ZShjbGFpbSwgJ2RlbGV0ZScpICE9PSBmYWxzZSkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlbnRyeS5kZWxldGFibGUgPSBsaW5rU2VydmljZS5yZXNvbHZlKGhlYWRlci5jbGFpbXNbaV0sICdkZWxldGUnKSAhPT0gZmFsc2U7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlbnRyeS5kZWxldGFibGUgPSBsaW5rU2VydmljZS5yZXNvbHZlKGhlYWRlci5jbGFpbXNbaV0sICdkZWxldGUnKSAhPT0gZmFsc2U7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgaGVhZGVyLmNsYWltcy5sZW5ndGg7IGkrKykgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJGh0dHAuZ2V0KGxpbmtTZXJ2aWNlLnJlc29sdmUoaGVhZGVyLCAnY2xhaW1zJykpCiAgICAgICAgICAgICAgICAudGhlbihyZXMgPT4gcmVzLmRhdGEpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgaGVhZGVyLmNsYWltcy5sZW5ndGg7IGkrKykgewo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -474,26 +487,26 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgJGh0dHAuZ2V0KGxpbmtTZXJ2aWNlLnJlc29sdmUoaGVhZGVyLCAnY2xhaW1zJykpCiAgICAgICAgICAgICAgICAudGhlbihyZXMgPT4gcmVzLmRhdGEpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAvL0ZJWE1FIHRyeSB0byBlbGltaW5hdGUgdGhpcyBjb2RlCiAgICAgICAgICAgICAgICAgICAgdGhpcy5jbGFpbXMuZm9yRWFjaChlbnRyeSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChlbnRyeS50cmVhdG1lbnREYXRlICYmICEoZW50cnkudHJlYXRtZW50RGF0ZSBpbnN0YW5jZW9mIERhdGUpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbnRyeS50cmVhdG1lbnREYXRlID0gbW9tZW50KGVudHJ5LnRyZWF0bWVudERhdGUpLnRvRGF0ZSgpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoZW50cnkgPT4gewogICAgICAgICAgICAgICAgICAgIGlmIChlbnRyeS50cmVhdG1lbnREYXRlICYmICEoZW50cnkudHJlYXRtZW50RGF0ZSBpbnN0YW5jZW9mIERhdGUpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGVudHJ5LnRyZWF0bWVudERhdGUgPSBtb21lbnQoZW50cnkudHJlYXRtZW50RGF0ZSkudG9EYXRlKCk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJldHVybiBlbnRyeTsKICAgICAgICAgICAgICAgIH0pOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAvL0ZJWE1FIHRyeSB0byBlbGltaW5hdGUgdGhpcyBjb2RlCiAgICAgICAgICAgICAgICAgICAgdGhpcy5jbGFpbXMuZm9yRWFjaChlbnRyeSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChlbnRyeS50cmVhdG1lbnREYXRlICYmICEoZW50cnkudHJlYXRtZW50RGF0ZSBpbnN0YW5jZW9mIERhdGUpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbnRyeS50cmVhdG1lbnREYXRlID0gbW9tZW50KGVudHJ5LnRyZWF0bWVudERhdGUpLnRvRGF0ZSgpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>
       </register>
     </registers>
     <search>
-      <last-search>delete</last-search>
+      <last-search encoding="base64">XDxyb290U2NvcGVcPg==</last-search>
       <last-offset />
-      <last-pattern>delete</last-pattern>
+      <last-pattern encoding="base64">XDxyb290U2NvcGVcPg==</last-pattern>
       <last-replace>:</last-replace>
       <last-substitute>=</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -510,13 +523,13 @@
         <entry>98</entry>
         <entry encoding="base64">XDxkaXZcPg==</entry>
         <entry encoding="base64">XDxsaW5rU2VydmljZVw+</entry>
-        <entry encoding="base64">XDxyb290U2NvcGVcPg==</entry>
         <entry encoding="base64">XDx1c2VyTGlzdFw+</entry>
         <entry encoding="base64">XDxSb2JvdEhhbmRsaW5nXD4=</entry>
         <entry encoding="base64">XDxfZW1pdE5ld1JvbGVBZGRlZFw+</entry>
         <entry encoding="base64">XDxfZW1pdFN1YmNsYWltU2VsZWN0aW9uQ2hhbmdlZFw+</entry>
         <entry encoding="base64">XDx0cmVhdG1lbnREYXRlXD4=</entry>
         <entry>delete</entry>
+        <entry encoding="base64">XDxyb290U2NvcGVcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLyQvXFwv</entry>

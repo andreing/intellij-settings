@@ -175,6 +175,7 @@
         <mark key="." line="30" column="43" />
         <mark key="^" line="30" column="43" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/package.json" timestamp="1561985805097" />
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/resource.js" timestamp="1561645314227">
         <mark key="[" line="34" column="21" />
         <mark key="]" line="35" column="16" />
@@ -197,11 +198,12 @@
       <file name="$USER_HOME$/repos/claims/.idea/workspace.xml" timestamp="1561715413754">
         <mark key="'" line="236" column="62" />
       </file>
-      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" timestamp="1561967931562">
-        <mark key="'" line="53" column="39" />
-        <mark key="[" line="87" column="0" />
-        <mark key="]" line="87" column="0" />
-        <mark key="." line="87" column="0" />
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" timestamp="1561987043953">
+        <mark key="'" line="124" column="26" />
+        <mark key="[" line="93" column="35" />
+        <mark key="]" line="67" column="66" />
+        <mark key="." line="67" column="66" />
+        <mark key="^" line="67" column="66" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/damage-info-sub-claim-ctrl.js" timestamp="1561459351360">
         <mark key="'" line="233" column="0" />
@@ -215,12 +217,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="5" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-module.js" />
-      <jump line="17" column="41" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
-      <jump line="491" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
-      <jump line="507" column="7" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
-      <jump line="233" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/damage-info-sub-claim-ctrl.js" />
-      <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="454" column="34" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="19" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="96" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
@@ -299,7 +295,6 @@
       <jump line="87" column="16" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
       <jump line="93" column="16" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
       <jump line="98" column="9" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
-      <jump line="108" column="12" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
       <jump line="110" column="13" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
       <jump line="133" column="16" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
       <jump line="114" column="46" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
@@ -315,6 +310,13 @@
       <jump line="137" column="17" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/mailprocessing/messaging/consumers/ClaimsMailProcessedEventConsumer.java" />
       <jump line="119" column="16" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/mailprocessing/messaging/consumers/ClaimsMailProcessedEventConsumer.java" />
       <jump line="125" column="16" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/mailprocessing/messaging/consumers/ClaimsMailProcessedEventConsumer.java" />
+      <jump line="99" column="0" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
+      <jump line="109" column="0" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
+      <jump line="97" column="8" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
+      <jump line="108" column="66" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
+      <jump line="68" column="22" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
+      <jump line="113" column="22" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
+      <jump line="124" column="26" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -324,7 +326,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIEBEZXByZWNhdGVkKCkK</text>
+        <text encoding="base64">ICAgICAgICAvKmF0dGVtcHQgdG8gIm1vdmUiIGV4aXN0aW5nIGFuc3dlcnMgdG8gcXVlc3Rpb25zIHdpdGggdGhlIHNhbWUgY29udGVudCBmb3IgdGhlIG5ldyBjbGFpbSB0eXBlLCBhcyB0aGUgZXhpc3RpbmcgcXVlc3Rpb24gZm9yIHRoZSBwcmV2aW91cyBjbGFpbVR5cGUqLwogICAgICAgIENsYWltSGVhZGVyIGggPSBoZWFkZXJTZXJ2aWNlLmdldENsYWltSGVhZGVyQnlJZChvcmlnaW5hbENsYWltLmdldENsYWltSGVhZGVySWQoKSwgZmFsc2UsIGZhbHNlKTsKICAgICAgICBMaXN0PExvbmc+IGNsYWltVHlwZUlkc0ZvckhlYWRlciA9IGhlYWRlclNlcnZpY2UuZ2V0Q2xhaW1UeXBlcyhoLmdldElkKCksIHRydWUpOwogICAgICAgIE1hcDxSUlF1ZXN0aW9uLCBSUkFuc3dlcj4gb2xkUnJRdWVzdGlvblRvUlJBbnN3ZXJNYXAgPSByckFuc3dlclF1ZXN0aW9uU2VydmljZS5tYXBBbnN3ZXJzVG9RdWVzdGlvbnNCeUhlYWRlcihjbGFpbVR5cGVJZHNGb3JIZWFkZXIsIGguZ2V0SWQoKSk7CiAgICAgICAgU2V0PExvbmc+IGNsYWltVHlwZUlkc0ZvckhlYWRlckZvck5ld0NsYWltID0gU3RyZWFtLm9mKHR5cGVJZCkuY29sbGVjdChDb2xsZWN0b3JzLnRvU2V0KCkpOwogICAgICAgIExpc3Q8UlJRdWVzdGlvbj4gYW5zd2VyTm90QXZhaWxhYmxlID0gcnJRdWVzdGlvblNlcnZpY2Uuc2F2ZU9sZEFuc3dlckZvck5ld1R5cGUob2xkUnJRdWVzdGlvblRvUlJBbnN3ZXJNYXAsIGguZ2V0Q291bnRyeSgpLCBoLmdldENsYWltTG9iSWQoKSwgaC5nZXRDcmVhdGVkKCksIGguZ2V0SWQoKSwgY2xhaW1UeXBlSWRzRm9ySGVhZGVyRm9yTmV3Q2xhaW0pOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -380,10 +382,10 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzZW5kXD4=</text>
+        <text encoding="base64">XDx1cGRhdGVUeXBlQW5kQ2F1c2VGb3JDbGFpbVw+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIFN1YkNsYWltUmVzb3VyY2UuZ2V0U3ViQ2xhaW1zRm9yKGhlYWRlcikK</text>
+        <text encoding="base64">ICAgICAgICAvKmF0dGVtcHQgdG8gIm1vdmUiIGV4aXN0aW5nIGFuc3dlcnMgdG8gcXVlc3Rpb25zIHdpdGggdGhlIHNhbWUgY29udGVudCBmb3IgdGhlIG5ldyBjbGFpbSB0eXBlLCBhcyB0aGUgZXhpc3RpbmcgcXVlc3Rpb24gZm9yIHRoZSBwcmV2aW91cyBjbGFpbVR5cGUqLwogICAgICAgIENsYWltSGVhZGVyIGggPSBoZWFkZXJTZXJ2aWNlLmdldENsYWltSGVhZGVyQnlJZChvcmlnaW5hbENsYWltLmdldENsYWltSGVhZGVySWQoKSwgZmFsc2UsIGZhbHNlKTsKICAgICAgICBMaXN0PExvbmc+IGNsYWltVHlwZUlkc0ZvckhlYWRlciA9IGhlYWRlclNlcnZpY2UuZ2V0Q2xhaW1UeXBlcyhoLmdldElkKCksIHRydWUpOwogICAgICAgIE1hcDxSUlF1ZXN0aW9uLCBSUkFuc3dlcj4gb2xkUnJRdWVzdGlvblRvUlJBbnN3ZXJNYXAgPSByckFuc3dlclF1ZXN0aW9uU2VydmljZS5tYXBBbnN3ZXJzVG9RdWVzdGlvbnNCeUhlYWRlcihjbGFpbVR5cGVJZHNGb3JIZWFkZXIsIGguZ2V0SWQoKSk7CiAgICAgICAgU2V0PExvbmc+IGNsYWltVHlwZUlkc0ZvckhlYWRlckZvck5ld0NsYWltID0gU3RyZWFtLm9mKHR5cGVJZCkuY29sbGVjdChDb2xsZWN0b3JzLnRvU2V0KCkpOwogICAgICAgIExpc3Q8UlJRdWVzdGlvbj4gYW5zd2VyTm90QXZhaWxhYmxlID0gcnJRdWVzdGlvblNlcnZpY2Uuc2F2ZU9sZEFuc3dlckZvck5ld1R5cGUob2xkUnJRdWVzdGlvblRvUlJBbnN3ZXJNYXAsIGguZ2V0Q291bnRyeSgpLCBoLmdldENsYWltTG9iSWQoKSwgaC5nZXRDcmVhdGVkKCksIGguZ2V0SWQoKSwgY2xhaW1UeXBlSWRzRm9ySGVhZGVyRm9yTmV3Q2xhaW0pOwo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIEBEZXByZWNhdGVkKCkK</text>
@@ -510,9 +512,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxzZW5kXD4=</last-search>
+      <last-search encoding="base64">XDx1cGRhdGVUeXBlQW5kQ2F1c2VGb3JDbGFpbVw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzZW5kXD4=</last-pattern>
+      <last-pattern encoding="base64">XDx1cGRhdGVUeXBlQW5kQ2F1c2VGb3JDbGFpbVw+</last-pattern>
       <last-replace>:</last-replace>
       <last-substitute>=</last-substitute>
       <last-dir>1</last-dir>
@@ -520,8 +522,6 @@
     </search>
     <history>
       <history-search>
-        <entry>asdasd</entry>
-        <entry encoding="base64">XDxfcmVtb3ZlT2xkUmVzcG9uc2liaWxpdHlUeXBlc1w+</entry>
         <entry>98</entry>
         <entry encoding="base64">XDxkaXZcPg==</entry>
         <entry encoding="base64">XDxsaW5rU2VydmljZVw+</entry>
@@ -540,6 +540,8 @@
         <entry encoding="base64">XDxyckFuc3dlclF1ZXN0aW9uU2VydmljZVw+</entry>
         <entry encoding="base64">XDxwcm9kdWNlclw+</entry>
         <entry encoding="base64">XDxzZW5kXD4=</entry>
+        <entry encoding="base64">XDxjbGFpbUlkXD4=</entry>
+        <entry encoding="base64">XDx1cGRhdGVUeXBlQW5kQ2F1c2VGb3JDbGFpbVw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLyQvXFwv</entry>

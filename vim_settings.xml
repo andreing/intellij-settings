@@ -147,12 +147,12 @@
       <file name="/Protect.Protect2.Claim_Header_Adjusted_Reserves [Protect@prod.sql.protector.local]" timestamp="1559896488049">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/rolls-royce/src/main/java/protector/claims/rr/core/RrAnswerQuestionService.java" timestamp="1561993987055">
-        <mark key="'" line="34" column="36" />
-        <mark key="[" line="33" column="35" />
-        <mark key="]" line="33" column="34" />
-        <mark key="^" line="33" column="34" />
-        <mark key="." line="33" column="34" />
+      <file name="$USER_HOME$/repos/claims/rolls-royce/src/main/java/protector/claims/rr/core/RrAnswerQuestionService.java" timestamp="1562064861159">
+        <mark key="'" line="84" column="45" />
+        <mark key="[" line="80" column="67" />
+        <mark key="]" line="80" column="66" />
+        <mark key="^" line="80" column="66" />
+        <mark key="." line="80" column="66" />
       </file>
       <file name="$USER_HOME$/repos/claims/rolls-royce/src/main/java/protector/claims/rr/approval/RrAnswerApprovalService.java" timestamp="1561989122276">
         <mark key="'" line="35" column="88" />
@@ -236,10 +236,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="102" column="8" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
-      <jump line="342" column="21" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
-      <jump line="390" column="21" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
-      <jump line="60" column="50" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="237" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/a0d6137a-c479-41d8-820f-95b36121f5c4/console.sql" />
       <jump line="244" column="4" filename="$APPLICATION_CONFIG_DIR$/consoles/db/a0d6137a-c479-41d8-820f-95b36121f5c4/console.sql" />
       <jump line="105" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header.html" />
@@ -336,6 +332,10 @@
       <jump line="445" column="53" filename="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/DefaultClaimsService.java" />
       <jump line="0" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/a0d6137a-c479-41d8-820f-95b36121f5c4/console.sql" />
       <jump line="1" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/4cc6c404-b029-4ad1-a813-d8130ded4434/console.sql" />
+      <jump line="74" column="25" filename="$USER_HOME$/repos/claims/rolls-royce/src/main/java/protector/claims/rr/core/RrAnswerQuestionService.java" />
+      <jump line="82" column="12" filename="$USER_HOME$/repos/claims/rolls-royce/src/main/java/protector/claims/rr/core/RrAnswerQuestionService.java" />
+      <jump line="75" column="38" filename="$USER_HOME$/repos/claims/rolls-royce/src/main/java/protector/claims/rr/core/RrAnswerQuestionService.java" />
+      <jump line="81" column="45" filename="$USER_HOME$/repos/claims/rolls-royce/src/main/java/protector/claims/rr/core/RrAnswerQuestionService.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -401,7 +401,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxoZWFkZXJTZXJ2aWNlXD4=</text>
+        <text encoding="base64">XDxuZXdSUlF1ZXN0aW9uc01hcFw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">c2VsZWN0ICogZnJvbSBDbGFpbV9UcmFuc2FjdGlvbl9BcHByb3ZhbF9MaW1pdCB3aGVyZSBVc2VyX0lkID0gNjkgYW5kIENsYWltX0xvYl9JZCA9IDMK</text>
@@ -531,9 +531,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxoZWFkZXJTZXJ2aWNlXD4=</last-search>
+      <last-search encoding="base64">XDxuZXdSUlF1ZXN0aW9uc01hcFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxoZWFkZXJTZXJ2aWNlXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxuZXdSUlF1ZXN0aW9uc01hcFw+</last-pattern>
       <last-replace>:</last-replace>
       <last-substitute>=</last-substitute>
       <last-dir>1</last-dir>
@@ -541,8 +541,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxSUlF1ZXN0aW9uXD4=</entry>
-        <entry encoding="base64">XDxSclF1ZXN0aW9uU2VydmljZVw+</entry>
         <entry encoding="base64">XDxyclF1ZXN0aW9uU2VydmljZVw+</entry>
         <entry encoding="base64">XDxSckFuc3dlclF1ZXN0aW9uU2VydmljZVw+</entry>
         <entry encoding="base64">XDxyckFuc3dlclF1ZXN0aW9uU2VydmljZVw+</entry>
@@ -561,6 +559,8 @@
         <entry encoding="base64">XDxjbGFpbVR5cGVJZHNGb3JIZWFkZXJcPg==</entry>
         <entry encoding="base64">XDxIZWFkZXJTZXJ2aWNlXD4=</entry>
         <entry encoding="base64">XDxoZWFkZXJTZXJ2aWNlXD4=</entry>
+        <entry encoding="base64">XDxuZXdSUlF1ZXN0aW9uc1w+</entry>
+        <entry encoding="base64">XDxuZXdSUlF1ZXN0aW9uc01hcFw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLyQvXFwv</entry>

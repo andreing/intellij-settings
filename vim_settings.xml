@@ -42,6 +42,11 @@
         <mark key="." line="162" column="0" />
         <mark key="^" line="159" column="51" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims-core-module.js" timestamp="1561641411883">
+        <mark key="[" line="44" column="0" />
+        <mark key="]" line="44" column="0" />
+        <mark key="." line="44" column="0" />
+      </file>
       <file name="$APPLICATION_CONFIG_DIR$/consoles/db/4cc6c404-b029-4ad1-a813-d8130ded4434/console.sql" timestamp="1562073013200">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="14" column="0" />
@@ -80,11 +85,7 @@
         <mark key="^" line="28" column="25" />
         <mark key="." line="27" column="50" />
       </file>
-      <file name="$USER_HOME$/repos/claims/rolls-royce/src/main/java/protector/claims/rr/core/RrQuestionService.java" timestamp="1561989675493">
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="7" column="0" />
-        <mark key="." line="7" column="0" />
-      </file>
+      <file name="/RrQuestionServiceSpec.groovy" timestamp="1562235977745" />
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/parts-and-roles-ctrl.js" timestamp="1561469253697">
         <mark key="'" line="13" column="1" />
         <mark key="[" line="45" column="2" />
@@ -99,6 +100,7 @@
         <mark key="^" line="0" column="19" />
         <mark key="." line="0" column="19" />
       </file>
+      <file name="$USER_HOME$/repos/claims/rolls-royce/src/test/groovy/protector/claims/rr/core/RrQuestionServiceSpec.groovy" timestamp="1562234684443" />
       <file name="$APPLICATION_CONFIG_DIR$/consoles/db/9478d2df-dc62-4557-b855-2a701181b2dc/console.sql" timestamp="1561374066361">
         <mark key="'" line="19" column="0" />
         <mark key="[" line="66" column="0" />
@@ -149,11 +151,10 @@
       <file name="/Protect.Protect2.Claim_Header_Adjusted_Reserves [Protect@prod.sql.protector.local]" timestamp="1559896488049">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/rolls-royce/src/main/java/protector/claims/rr/core/RrAnswerQuestionService.java" timestamp="1562233360913">
-        <mark key="'" line="12" column="24" />
-        <mark key="[" line="105" column="0" />
-        <mark key="]" line="105" column="0" />
-        <mark key="." line="105" column="0" />
+      <file name="$USER_HOME$/repos/claims/rolls-royce/src/main/java/protector/claims/rr/core/RrAnswerQuestionService.java" timestamp="1562236491519">
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="20" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/rolls-royce/src/main/java/protector/claims/rr/approval/RrAnswerApprovalService.java" timestamp="1561989122276">
         <mark key="'" line="35" column="88" />
@@ -192,7 +193,7 @@
       <file name="/Protect.Protect2.Claim_Transaction [Protect@prod.sql.protector.local]" timestamp="1561020694868">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/rolls-royce/src/test/groovy/protector/claims/rr/core/RrAnswerQuestionServiceSpec.groovy" timestamp="1562233387027">
+      <file name="$USER_HOME$/repos/claims/rolls-royce/src/test/groovy/protector/claims/rr/core/RrAnswerQuestionServiceSpec.groovy" timestamp="1562233762044">
         <mark key="'" line="103" column="94" />
       </file>
       <file name="/dummy.sql" timestamp="1561374288658">
@@ -206,6 +207,9 @@
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/common/directive/common-directive-module.js" timestamp="1560422513083">
         <mark key="[" line="5" column="64" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/mailprocessing/messaging/consumers/ClaimsMailProcessedEventConsumer.java" timestamp="1561980378190">
+        <mark key="'" line="125" column="16" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" timestamp="1561987985985">
         <mark key="'" line="23" column="0" />
@@ -346,7 +350,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBMT0cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihSckFuc3dlclF1ZXN0aW9uU2VydmljZS5jbGFzcyk7Cgo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -408,7 +412,7 @@
         <text encoding="base64">ICAgIGRlZiBuZXdBbnN3ZXIoZG91YmxlIHNhdmluZ3MsIGJvb2xlYW4gcGVyZm9ybWVkLCBib29sZWFuIG5hLCBsb25nIGlkLCBSckFuc3dlckFwcHJvdmFsU3RhdGUgc3RhdGUpIHsKICAgICAgICBSUkFuc3dlciBhID0gbmV3IFJSQW5zd2VyKCkKICAgICAgICBhLnNldElkKGlkKQogICAgICAgIGEuc2V0U2F2aW5ncyhzYXZpbmdzKQogICAgICAgIGEuc2V0UGVyZm9ybWVkKHBlcmZvcm1lZCkKICAgICAgICBhLnNldE5BKG5hKQogICAgICAgIGEuc2V0U3RhdGUoc3RhdGUpCiAgICAgICAgcmV0dXJuIGEKICAgIH0KCiAgICBkZWYgbmV3UXVlc3Rpb24oaWQsIGhlYWRpbmcsIGNvbnRlbnQsIG5hKSB7CiAgICAgICAgUlJRdWVzdGlvbiBxID0gbmV3IFJSUXVlc3Rpb24oKQogICAgICAgIHEuc2V0SWQoaWQpCiAgICAgICAgcS5zZXROQShuYSkKICAgICAgICBxLnNldEhlYWRpbmcoaGVhZGluZykKICAgICAgICBxLnNldENvbnRlbnQoY29udGVudCkKICAgICAgICBxLnNldENsYWltTG9iKExpbmVPZkJ1c2luZXNzRW51bS5MSUZFKQogICAgICAgIHEuc2V0Q2xhaW1Mb2JJZChxLmdldENsYWltTG9iKCkuZ2V0TG9iSWQoKSkKICAgICAgICBxLnNldENsYWltVHlwZUlkKDFMKQogICAgICAgIHEuc2V0Q291bnRyeSgxTCkKICAgICAgICBxLnNldFNhdmluZ3ModHJ1ZSkKICAgICAgICBxLnNldFNhdmluZ3NEZWZhdWx0KDBEKQogICAgICAgIHJldHVybiBxCiAgICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBMT0cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihSckFuc3dlclF1ZXN0aW9uU2VydmljZS5jbGFzcyk7Cgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -454,19 +458,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBMT0cuaW5mbygiMiB7fSIsIG9sZFJyUXVlc3Rpb25Ub1JSQW5zd2VyTWFwKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CiAgICAgICAgTGlzdDxSUlF1ZXN0aW9uPiBuZXdSUlF1ZXN0aW9ucyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICAgIE1hcDxTdHJpbmcsIExpc3Q8UlJRdWVzdGlvbj4+IG5ld1JSUXVlc3Rpb25zTWFwID0gcnJRdWVzdGlvblNlcnZpY2UuZ2V0UXVlc3Rpb25zRm9ySGVhZGVyKAogICAgICAgICAgICAgICAgY291bnRyeUlkRm9yVXBkYXRlZENsYWltLAogICAgICAgICAgICAgICAgbG9iSWRGb3JVcGRhdGVkQ2xhaW0sCiAgICAgICAgICAgICAgICBoZWFkZXJDcmVhdGVkRm9yVXBkYXRlZENsYWltLAogICAgICAgICAgICAgICAgaGVhZGVySWRGb3JVcGRhdGVkQ2xhaW0sCiAgICAgICAgICAgICAgICBjbGFpbVR5cGVJZHNGb3JVcGRhdGVkQ2xhaW0pOwogICAgICAgIGZvciAoTGlzdDxSUlF1ZXN0aW9uPiBxdWVzdGlvbkxpc3QgOiBuZXdSUlF1ZXN0aW9uc01hcC52YWx1ZXMoKSkgewogICAgICAgICAgICBuZXdSUlF1ZXN0aW9ucy5hZGRBbGwocXVlc3Rpb25MaXN0KTsKICAgICAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICBMT0cuaW5mbygiMSB7fSIsIG5ld1JSUXVlc3Rpb25zKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgb2xkUXVlc3Rpb25NYXAK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIFJyUXVlc3Rpb25EYW8gcnJRdWVzdGlvbkRhbyA9IE1vY2soUnJRdWVzdGlvbkRhbykK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CiAgICAgICAgTGlzdDxSUlF1ZXN0aW9uPiBuZXdSUlF1ZXN0aW9ucyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICAgIE1hcDxTdHJpbmcsIExpc3Q8UlJRdWVzdGlvbj4+IG5ld1JSUXVlc3Rpb25zTWFwID0gcnJRdWVzdGlvblNlcnZpY2UuZ2V0UXVlc3Rpb25zRm9ySGVhZGVyKAogICAgICAgICAgICAgICAgY291bnRyeUlkRm9yVXBkYXRlZENsYWltLAogICAgICAgICAgICAgICAgbG9iSWRGb3JVcGRhdGVkQ2xhaW0sCiAgICAgICAgICAgICAgICBoZWFkZXJDcmVhdGVkRm9yVXBkYXRlZENsYWltLAogICAgICAgICAgICAgICAgaGVhZGVySWRGb3JVcGRhdGVkQ2xhaW0sCiAgICAgICAgICAgICAgICBjbGFpbVR5cGVJZHNGb3JVcGRhdGVkQ2xhaW0pOwogICAgICAgIGZvciAoTGlzdDxSUlF1ZXN0aW9uPiBxdWVzdGlvbkxpc3QgOiBuZXdSUlF1ZXN0aW9uc01hcC52YWx1ZXMoKSkgewogICAgICAgICAgICBuZXdSUlF1ZXN0aW9ucy5hZGRBbGwocXVlc3Rpb25MaXN0KTsKICAgICAgICB9Cgo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -519,13 +523,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgICAgICBkZWYgb2xkUXVlc3Rpb25NYXAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIFJSQW5zd2VyU2VydmljZSByckFuc3dlclNlcnZpY2UgPSBNb2NrKFJSQW5zd2VyU2VydmljZSkK</text>
+        <text encoding="base64">ICAgIFJyUXVlc3Rpb25EYW8gcnJRdWVzdGlvbkRhbyA9IE1vY2soUnJRdWVzdGlvbkRhbykK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIFVzZXJTZXJ2aWNlIHVzZXJTZXJ2aWNlID0gTW9jayhVc2VyU2VydmljZSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

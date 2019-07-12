@@ -49,7 +49,12 @@
       <file name="/TestProtect.Protect2.Claims_Daysy_Report [TESTProtect@test.sql.protector.local]" timestamp="1559041232159">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" timestamp="1562915475063" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" timestamp="1562916089055">
+        <mark key="[" line="40" column="12" />
+        <mark key="]" line="40" column="13" />
+        <mark key="." line="40" column="13" />
+        <mark key="^" line="40" column="13" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-roles/parts-and-roles.html" timestamp="1558431685359">
         <mark key="[" line="18" column="31" />
       </file>
@@ -97,6 +102,9 @@
         <mark key="]" line="0" column="19" />
         <mark key="^" line="0" column="19" />
         <mark key="." line="0" column="19" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-content.html" timestamp="1562916073513">
+        <mark key="'" line="455" column="53" />
       </file>
       <file name="$USER_HOME$/repos/claims/rolls-royce/src/test/groovy/protector/claims/rr/core/RrQuestionServiceSpec.groovy" timestamp="1562251798469">
         <mark key="'" line="25" column="8" />
@@ -266,7 +274,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="86" column="16" filename="$USER_HOME$/repos/claims/rolls-royce/src/main/java/protector/claims/rr/core/RrQuestionService.java" />
       <jump line="18" column="34" filename="$USER_HOME$/repos/claims/rolls-royce/src/main/java/protector/claims/rr/core/RrQuestionService.java" />
       <jump line="21" column="99" filename="$USER_HOME$/repos/claims/rolls-royce/src/main/java/protector/claims/rr/core/RrQuestionService.java" />
       <jump line="24" column="31" filename="$USER_HOME$/repos/claims/rolls-royce/src/main/java/protector/claims/rr/core/RrQuestionService.java" />
@@ -366,6 +373,7 @@
       <jump line="37" column="38" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
       <jump line="43" column="47" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
       <jump line="46" column="36" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimController.java" />
+      <jump line="455" column="53" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-content.html" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -374,8 +382,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIEBEZXByZWNhdGVkCg==</text>
+      <register name="&quot;" type="4">
+        <text>/</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -428,10 +436,10 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>.flatMap()</text>
+        <text>/</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxoZWFkZXJDbG9zaW5nU2VydmljZVw+</text>
+        <text encoding="base64">XDxzdWJtaXRcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGNsYWltc1NlcnZpY2UudXBkYXRlVHlwZUFuZENhdXNlRm9yQ2xhaW0odHlwZUlkLCB0eXBlSWQsIGNsYWltSWQpOwo=</text>
@@ -561,9 +569,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxoZWFkZXJDbG9zaW5nU2VydmljZVw+</last-search>
+      <last-search encoding="base64">XDxzdWJtaXRcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxoZWFkZXJDbG9zaW5nU2VydmljZVw+</last-pattern>
+      <last-pattern encoding="base64">XDxzdWJtaXRcPg==</last-pattern>
       <last-replace>:</last-replace>
       <last-substitute>=</last-substitute>
       <last-dir>1</last-dir>
@@ -571,7 +579,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxyckFuc3dlclNlcnZpY2VcPg==</entry>
         <entry encoding="base64">XDxzdGF0ZVw+</entry>
         <entry encoding="base64">XDxjbGFpbVR5cGVJZHNGb3JVcGRhdGVkQ2xhaW1cPg==</entry>
         <entry encoding="base64">XDx0eXBlSWRcPg==</entry>
@@ -591,6 +598,7 @@
         <entry encoding="base64">XDxIZWFkZXJTZXJ2aWNlXD4=</entry>
         <entry encoding="base64">XDxoZWFkZXJTZXJ2aWNlXD4=</entry>
         <entry encoding="base64">XDxoZWFkZXJDbG9zaW5nU2VydmljZVw+</entry>
+        <entry encoding="base64">XDxzdWJtaXRcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zLyQvXFwv</entry>

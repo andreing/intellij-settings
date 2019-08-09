@@ -17,10 +17,10 @@
         <mark key="^" line="683" column="12" />
         <mark key="." line="683" column="12" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" timestamp="1565340278515">
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" timestamp="1565344437023">
         <mark key="'" line="116" column="22" />
-        <mark key="[" line="116" column="22" />
-        <mark key="]" line="116" column="63" />
+        <mark key="[" line="121" column="0" />
+        <mark key="]" line="121" column="113" />
         <mark key="." line="736" column="0" />
         <mark key="^" line="734" column="9" />
       </file>
@@ -115,9 +115,12 @@
         <mark key="." line="64" column="8" />
         <mark key="^" line="42" column="11" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/service/claim-role-service.js" timestamp="1565340280683">
-        <mark key="'" line="21" column="4" />
-        <mark key="[" line="23" column="14" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/service/claim-role-service.js" timestamp="1565344448002">
+        <mark key="'" line="23" column="55" />
+        <mark key="[" line="30" column="18" />
+        <mark key="]" line="30" column="17" />
+        <mark key="^" line="30" column="17" />
+        <mark key="." line="30" column="17" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claims_vm.html" timestamp="1565270162134">
         <mark key="'" line="52" column="0" />
@@ -130,8 +133,8 @@
         <mark key="'" line="2" column="0" />
         <mark key="[" line="2" column="0" />
         <mark key="]" line="4" column="5" />
-        <mark key="." line="30" column="43" />
-        <mark key="^" line="30" column="43" />
+        <mark key="." line="31" column="43" />
+        <mark key="^" line="31" column="43" />
       </file>
       <file name="$USER_HOME$/repos/claims/core/src/test/groovy/protector/claims/service/claims/DefaultClaimsServiceSpec.groovy" timestamp="1562745552359">
         <mark key="'" line="58" column="0" />
@@ -243,7 +246,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="90" column="13" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="225" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-edit-modal.html" />
       <jump line="12" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/edit-template.html" />
@@ -341,8 +343,9 @@
       <jump line="222" column="27" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" />
       <jump line="2" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/sub-claim-resource.js" />
       <jump line="2" column="4" filename="$USER_HOME$/repos/claims/frontend/components/service/claim-role-service.js" />
-      <jump line="23" column="4" filename="$USER_HOME$/repos/claims/frontend/components/service/claim-role-service.js" />
       <jump line="116" column="22" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" />
+      <jump line="24" column="58" filename="$USER_HOME$/repos/claims/frontend/components/service/claim-role-service.js" />
+      <jump line="23" column="55" filename="$USER_HOME$/repos/claims/frontend/components/service/claim-role-service.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -351,8 +354,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>linkService.resolve(header, 'rolesByType')</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAkc2NvcGUucm9sZXMuZm9yRWFjaChyb2xlID0+IHJvbGUuZGVsZXRhYmxlID0gbGlua1NlcnZpY2UucmVzb2x2ZShyb2xlLCAnZGVsZXRlJykgIT09IGZhbHNlKTsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -405,13 +408,13 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>c.roles.deletable</text>
+        <text>this._getLink(claimHeader, 'rolesByType')</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxnZXRDbGFpbXNcPg==</text>
       </register>
-      <register name="0" type="4">
-        <text>linkService.resolve(header, 'rolesByType')</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAkc2NvcGUucm9sZXMuZm9yRWFjaChyb2xlID0+IHJvbGUuZGVsZXRhYmxlID0gbGlua1NlcnZpY2UucmVzb2x2ZShyb2xlLCAnZGVsZXRlJykgIT09IGZhbHNlKTsK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIHN0YXRpYyBmYWN0b3J5KCkgewogICAgICAgIHJldHVybiBuZXcgQ2xhaW1Sb2xlUmVzb3VyY2UoJGopCiAgICB9Cg==</text>

@@ -10,9 +10,6 @@
         <mark key="." line="8" column="27" />
         <mark key="^" line="8" column="27" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/sub-claim/header-sub-claim-module.js" timestamp="1565266505103">
-        <mark key="[" line="3" column="61" />
-      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/transaction/Transaction.java" timestamp="1561370852843">
         <mark key="'" line="81" column="23" />
         <mark key="[" line="683" column="49" />
@@ -20,10 +17,10 @@
         <mark key="^" line="683" column="12" />
         <mark key="." line="683" column="12" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" timestamp="1565336694655">
-        <mark key="'" line="222" column="27" />
-        <mark key="[" line="736" column="0" />
-        <mark key="]" line="736" column="0" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" timestamp="1565340278515">
+        <mark key="'" line="116" column="22" />
+        <mark key="[" line="116" column="22" />
+        <mark key="]" line="116" column="63" />
         <mark key="." line="736" column="0" />
         <mark key="^" line="734" column="9" />
       </file>
@@ -60,9 +57,6 @@
         <mark key="]" line="32" column="50" />
         <mark key="." line="32" column="50" />
         <mark key="^" line="32" column="50" />
-      </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-roles.html" timestamp="1565263730380">
-        <mark key="[" line="23" column="116" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/css/claims.css" timestamp="1561381098114">
         <mark key="'" line="721" column="1" />
@@ -121,6 +115,10 @@
         <mark key="." line="64" column="8" />
         <mark key="^" line="42" column="11" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/service/claim-role-service.js" timestamp="1565340280683">
+        <mark key="'" line="21" column="4" />
+        <mark key="[" line="23" column="14" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claims_vm.html" timestamp="1565270162134">
         <mark key="'" line="52" column="0" />
         <mark key="[" line="52" column="0" />
@@ -128,10 +126,10 @@
         <mark key="^" line="60" column="39" />
         <mark key="." line="52" column="149" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/sub-claim-resource.js" timestamp="1561723007839">
-        <mark key="'" line="134" column="0" />
-        <mark key="[" line="30" column="44" />
-        <mark key="]" line="30" column="43" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/sub-claim-resource.js" timestamp="1565340214331">
+        <mark key="'" line="2" column="0" />
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="4" column="5" />
         <mark key="." line="30" column="43" />
         <mark key="^" line="30" column="43" />
       </file>
@@ -245,10 +243,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-edit-modal.js" />
-      <jump line="64" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
-      <jump line="96" column="13" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
-      <jump line="90" column="49" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claims_vm.html" />
       <jump line="90" column="13" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="225" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-edit-modal.html" />
@@ -345,6 +339,10 @@
       <jump line="144" column="15" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" />
       <jump line="149" column="66" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" />
       <jump line="222" column="27" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" />
+      <jump line="2" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/sub-claim-resource.js" />
+      <jump line="2" column="4" filename="$USER_HOME$/repos/claims/frontend/components/service/claim-role-service.js" />
+      <jump line="23" column="4" filename="$USER_HOME$/repos/claims/frontend/components/service/claim-role-service.js" />
+      <jump line="116" column="22" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -353,8 +351,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmNsYWltcy5mb3JFYWNoKGMgPT4gewogICAgICAgICAgICBjLnJvbGVzID0gYy5yb2xlcy5tYXAoYSA9PiB0aGlzLnJvbGVzLmZpbmQoYiA9PiBiLmlkID09PSBhLmlkKSk7CiAgICAgICAgfSk7Cg==</text>
+      <register name="&quot;" type="4">
+        <text>linkService.resolve(header, 'rolesByType')</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -412,11 +410,11 @@
       <register name="/" type="4">
         <text encoding="base64">XDxnZXRDbGFpbXNcPg==</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICRzY29wZS4kZW1pdCgnbmV3LXJvbGUtYWRkZWQnKTsK</text>
+      <register name="0" type="4">
+        <text>linkService.resolve(header, 'rolesByType')</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmNsYWltcy5mb3JFYWNoKGMgPT4gewogICAgICAgICAgICBjLnJvbGVzID0gYy5yb2xlcy5tYXAoYSA9PiB0aGlzLnJvbGVzLmZpbmQoYiA9PiBiLmlkID09PSBhLmlkKSk7CiAgICAgICAgfSk7Cg==</text>
+        <text encoding="base64">ICAgIHN0YXRpYyBmYWN0b3J5KCkgewogICAgICAgIHJldHVybiBuZXcgQ2xhaW1Sb2xlUmVzb3VyY2UoJGopCiAgICB9Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -462,20 +460,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAkc2NvcGUucmVmcmVzaEZyb21QSUEgPSAoKSA9PiB7CiAgICAgICAgICAgICRodHRwLnB1dChsaW5rU2VydmljZS5yZXNvbHZlKCRzY29wZS5oZWFkZXIsICdyZWZyZXNoUm9sZXMnKSwge30pCiAgICAgICAgICAgICAgICAudGhlbihyZXMgPT4gcmVzLmRhdGEpCiAgICAgICAgICAgICAgICAudGhlbihyb2xlc0RhdGEgPT4gewogICAgICAgICAgICAgICAgICAgIHRoaXMucm9sZXMgPSByb2xlc0RhdGEuQWxsOwogICAgICAgICAgICAgICAgICAgIHRoaXMucm9sZXMuZm9yRWFjaChyb2xlID0+IHJvbGUuZGVsZXRhYmxlID0gdGhpcy5saW5rU2VydmljZS5yZXNvbHZlKHJvbGUsICdkZWxldGUnKSAhPT0gZmFsc2UpOwogICAgICAgICAgICAgICAgfSk7CiAgICAgICAgfTsKICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmNsYWltcy5mb3JFYWNoKGMgPT4gewogICAgICAgICAgICBjLnJvbGVzID0gYy5yb2xlcy5tYXAoYSA9PiB0aGlzLnJvbGVzLmZpbmQoYiA9PiBiLmlkID09PSBhLmlkKSk7CiAgICAgICAgfSk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIHRoaXMuZ2V0Q2xhaW1zKHRoaXMuaGVhZGVyKTsK</text>
+        <text encoding="base64">ICAgICAgICAkc2NvcGUucmVmcmVzaEZyb21QSUEgPSAoKSA9PiB7CiAgICAgICAgICAgICRodHRwLnB1dChsaW5rU2VydmljZS5yZXNvbHZlKCRzY29wZS5oZWFkZXIsICdyZWZyZXNoUm9sZXMnKSwge30pCiAgICAgICAgICAgICAgICAudGhlbihyZXMgPT4gcmVzLmRhdGEpCiAgICAgICAgICAgICAgICAudGhlbihyb2xlc0RhdGEgPT4gewogICAgICAgICAgICAgICAgICAgIHRoaXMucm9sZXMgPSByb2xlc0RhdGEuQWxsOwogICAgICAgICAgICAgICAgICAgIHRoaXMucm9sZXMuZm9yRWFjaChyb2xlID0+IHJvbGUuZGVsZXRhYmxlID0gdGhpcy5saW5rU2VydmljZS5yZXNvbHZlKHJvbGUsICdkZWxldGUnKSAhPT0gZmFsc2UpOwogICAgICAgICAgICAgICAgfSk7CiAgICAgICAgfTsKICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIHRoaXMuZ2V0Q2xhaW1zKHRoaXMuaGVhZGVyKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaXMuX2luaXQoKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text>claimsWithRoles = this.getSubclaimAndRoles(this.roles, this.claims);
-        console.log(this);</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaXMuX2luaXQoKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -527,14 +524,15 @@
           <key char="104" code="0" mods="0" />
         </keys>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">CiAgICBpbml0KGNsYWltKSB7CiAgICAgICAgcmV0dXJuIHtuYXR1cmVEYW1hZ2U6IGZhbHNlfTsgLy9UT0RPCiAgICB9Cg==</text>
+      <register name="7" type="4">
+        <text>claimsWithRoles = this.getSubclaimAndRoles(this.roles, this.claims);
+        console.log(this);</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAvLyB0aGlzLmluaXQoY2xhaW0pOwo=</text>
+        <text encoding="base64">CiAgICBpbml0KGNsYWltKSB7CiAgICAgICAgcmV0dXJuIHtuYXR1cmVEYW1hZ2U6IGZhbHNlfTsgLy9UT0RPCiAgICB9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmNsYWltcy5mb3JFYWNoKGMgPT4gYy5lZGl0TW9kZSA9IGZhbHNlKTsK</text>
+        <text encoding="base64">ICAgICAgICAvLyB0aGlzLmluaXQoY2xhaW0pOwo=</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

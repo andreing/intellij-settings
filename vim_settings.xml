@@ -10,6 +10,9 @@
         <mark key="." line="8" column="27" />
         <mark key="^" line="8" column="27" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/sub-claim/header-sub-claim-module.js" timestamp="1565266505103">
+        <mark key="[" line="3" column="61" />
+      </file>
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/domain/transaction/Transaction.java" timestamp="1561370852843">
         <mark key="'" line="81" column="23" />
         <mark key="[" line="683" column="49" />
@@ -29,6 +32,12 @@
         <mark key="]" line="30" column="20" />
         <mark key="^" line="30" column="20" />
         <mark key="." line="30" column="20" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/admin/4eyes/4eyes-ctrl.js" timestamp="1562926948272">
+        <mark key="[" line="25" column="12" />
+        <mark key="]" line="28" column="34" />
+        <mark key="." line="28" column="34" />
+        <mark key="^" line="28" column="34" />
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/consoles/db/4cc6c404-b029-4ad1-a813-d8130ded4434/console.sql" timestamp="1562073013200">
         <mark key="'" line="0" column="0" />
@@ -57,6 +66,18 @@
         <mark key="]" line="32" column="50" />
         <mark key="." line="32" column="50" />
         <mark key="^" line="32" column="50" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" timestamp="1565355896345">
+        <mark key="'" line="201" column="38" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-roles.html" timestamp="1565263730380">
+        <mark key="[" line="23" column="116" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/service/service-module.js" timestamp="1565357228798">
+        <mark key="[" line="11" column="7" />
+        <mark key="]" line="11" column="0" />
+        <mark key="^" line="11" column="0" />
+        <mark key="." line="11" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/css/claims.css" timestamp="1561381098114">
         <mark key="'" line="721" column="1" />
@@ -115,12 +136,12 @@
         <mark key="." line="64" column="8" />
         <mark key="^" line="42" column="11" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/service/claim-role-service.js" timestamp="1565344448002">
+      <file name="$USER_HOME$/repos/claims/frontend/components/service/claim-role-service.js" timestamp="1565357076473">
         <mark key="'" line="23" column="55" />
-        <mark key="[" line="30" column="18" />
-        <mark key="]" line="30" column="17" />
-        <mark key="^" line="30" column="17" />
-        <mark key="." line="30" column="17" />
+        <mark key="[" line="32" column="66" />
+        <mark key="]" line="33" column="82" />
+        <mark key="." line="33" column="82" />
+        <mark key="^" line="33" column="82" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claims_vm.html" timestamp="1565270162134">
         <mark key="'" line="52" column="0" />
@@ -210,6 +231,15 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" timestamp="1562928079677">
         <mark key="'" line="96" column="13" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/service/claim-role-resource.js" timestamp="1565357330241">
+        <mark key="[" line="37" column="5" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/ClaimsService.java" timestamp="1562744458538">
+        <mark key="[" line="76" column="39" />
+        <mark key="]" line="76" column="38" />
+        <mark key="^" line="76" column="38" />
+        <mark key="." line="76" column="38" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/sub-claim-entry-directive.js" timestamp="1565277388942">
         <mark key="'" line="92" column="13" />
         <mark key="[" line="140" column="50" />
@@ -246,7 +276,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="225" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-edit-modal.html" />
       <jump line="12" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/edit-template.html" />
       <jump line="1" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-edit-modal.html" />
@@ -346,6 +375,7 @@
       <jump line="116" column="22" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" />
       <jump line="24" column="58" filename="$USER_HOME$/repos/claims/frontend/components/service/claim-role-service.js" />
       <jump line="23" column="55" filename="$USER_HOME$/repos/claims/frontend/components/service/claim-role-service.js" />
+      <jump line="201" column="38" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -355,7 +385,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAkc2NvcGUucm9sZXMuZm9yRWFjaChyb2xlID0+IHJvbGUuZGVsZXRhYmxlID0gbGlua1NlcnZpY2UucmVzb2x2ZShyb2xlLCAnZGVsZXRlJykgIT09IGZhbHNlKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgZm9yIChsZXQga2V5IG9mIHJvbGVzKSB7CgogICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -411,13 +441,13 @@
         <text>this._getLink(claimHeader, 'rolesByType')</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxnZXRDbGFpbXNcPg==</text>
+        <text encoding="base64">XDxjbGFpbVJvbGVzVG9SZXNvdXJjZXNcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAkc2NvcGUucm9sZXMuZm9yRWFjaChyb2xlID0+IHJvbGUuZGVsZXRhYmxlID0gbGlua1NlcnZpY2UucmVzb2x2ZShyb2xlLCAnZGVsZXRlJykgIT09IGZhbHNlKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHN0YXRpYyBmYWN0b3J5KCkgewogICAgICAgIHJldHVybiBuZXcgQ2xhaW1Sb2xlUmVzb3VyY2UoJGopCiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgZm9yIChsZXQga2V5IG9mIHJvbGVzKSB7CgogICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -463,19 +493,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmNsYWltcy5mb3JFYWNoKGMgPT4gewogICAgICAgICAgICBjLnJvbGVzID0gYy5yb2xlcy5tYXAoYSA9PiB0aGlzLnJvbGVzLmZpbmQoYiA9PiBiLmlkID09PSBhLmlkKSk7CiAgICAgICAgfSk7Cg==</text>
+        <text encoding="base64">ICAgIHN0YXRpYyBmYWN0b3J5KCkgewogICAgICAgIHJldHVybiBuZXcgQ2xhaW1Sb2xlUmVzb3VyY2UoJGopCiAgICB9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAkc2NvcGUucmVmcmVzaEZyb21QSUEgPSAoKSA9PiB7CiAgICAgICAgICAgICRodHRwLnB1dChsaW5rU2VydmljZS5yZXNvbHZlKCRzY29wZS5oZWFkZXIsICdyZWZyZXNoUm9sZXMnKSwge30pCiAgICAgICAgICAgICAgICAudGhlbihyZXMgPT4gcmVzLmRhdGEpCiAgICAgICAgICAgICAgICAudGhlbihyb2xlc0RhdGEgPT4gewogICAgICAgICAgICAgICAgICAgIHRoaXMucm9sZXMgPSByb2xlc0RhdGEuQWxsOwogICAgICAgICAgICAgICAgICAgIHRoaXMucm9sZXMuZm9yRWFjaChyb2xlID0+IHJvbGUuZGVsZXRhYmxlID0gdGhpcy5saW5rU2VydmljZS5yZXNvbHZlKHJvbGUsICdkZWxldGUnKSAhPT0gZmFsc2UpOwogICAgICAgICAgICAgICAgfSk7CiAgICAgICAgfTsKICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmNsYWltcy5mb3JFYWNoKGMgPT4gewogICAgICAgICAgICBjLnJvbGVzID0gYy5yb2xlcy5tYXAoYSA9PiB0aGlzLnJvbGVzLmZpbmQoYiA9PiBiLmlkID09PSBhLmlkKSk7CiAgICAgICAgfSk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIHRoaXMuZ2V0Q2xhaW1zKHRoaXMuaGVhZGVyKTsK</text>
+        <text encoding="base64">ICAgICAgICAkc2NvcGUucmVmcmVzaEZyb21QSUEgPSAoKSA9PiB7CiAgICAgICAgICAgICRodHRwLnB1dChsaW5rU2VydmljZS5yZXNvbHZlKCRzY29wZS5oZWFkZXIsICdyZWZyZXNoUm9sZXMnKSwge30pCiAgICAgICAgICAgICAgICAudGhlbihyZXMgPT4gcmVzLmRhdGEpCiAgICAgICAgICAgICAgICAudGhlbihyb2xlc0RhdGEgPT4gewogICAgICAgICAgICAgICAgICAgIHRoaXMucm9sZXMgPSByb2xlc0RhdGEuQWxsOwogICAgICAgICAgICAgICAgICAgIHRoaXMucm9sZXMuZm9yRWFjaChyb2xlID0+IHJvbGUuZGVsZXRhYmxlID0gdGhpcy5saW5rU2VydmljZS5yZXNvbHZlKHJvbGUsICdkZWxldGUnKSAhPT0gZmFsc2UpOwogICAgICAgICAgICAgICAgfSk7CiAgICAgICAgfTsKICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIHRoaXMuZ2V0Q2xhaW1zKHRoaXMuaGVhZGVyKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaXMuX2luaXQoKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -527,24 +557,24 @@
           <key char="104" code="0" mods="0" />
         </keys>
       </register>
-      <register name="7" type="4">
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaXMuX2luaXQoKTsK</text>
+      </register>
+      <register name="8" type="4">
         <text>claimsWithRoles = this.getSubclaimAndRoles(this.roles, this.claims);
         console.log(this);</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">CiAgICBpbml0KGNsYWltKSB7CiAgICAgICAgcmV0dXJuIHtuYXR1cmVEYW1hZ2U6IGZhbHNlfTsgLy9UT0RPCiAgICB9Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAvLyB0aGlzLmluaXQoY2xhaW0pOwo=</text>
+        <text encoding="base64">CiAgICBpbml0KGNsYWltKSB7CiAgICAgICAgcmV0dXJuIHtuYXR1cmVEYW1hZ2U6IGZhbHNlfTsgLy9UT0RPCiAgICB9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxnZXRDbGFpbXNcPg==</last-search>
+      <last-search encoding="base64">XDxjbGFpbVJvbGVzVG9SZXNvdXJjZXNcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxnZXRDbGFpbXNcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxjbGFpbVJvbGVzVG9SZXNvdXJjZXNcPg==</last-pattern>
       <last-replace />
       <last-substitute>vm\.</last-substitute>
       <last-dir>1</last-dir>
@@ -552,7 +582,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxpc1NvZnRWYWxpZFw+</entry>
         <entry encoding="base64">XDxjcmVhdGVNb2RlXD4=</entry>
         <entry encoding="base64">XDxlZGl0TW9kZVw+</entry>
         <entry encoding="base64">XDx1aWJNb2RhbEluc3RhbmNlXD4=</entry>
@@ -572,6 +601,7 @@
         <entry encoding="base64">XDxwaWFCYXNlVXJsXD4=</entry>
         <entry encoding="base64">XDxnZXRSb2xlU2VydmljZVw+</entry>
         <entry encoding="base64">XDxnZXRDbGFpbXNcPg==</entry>
+        <entry encoding="base64">XDxjbGFpbVJvbGVzVG9SZXNvdXJjZXNcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3BheWxvYWQvcmVwb3J0RGF0YS8=</entry>

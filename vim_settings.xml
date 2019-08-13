@@ -208,8 +208,8 @@
         <mark key="^" line="451" column="115" />
         <mark key="." line="451" column="115" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" timestamp="1565685035808">
-        <mark key="'" line="170" column="0" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" timestamp="1565687483430">
+        <mark key="'" line="229" column="4" />
         <mark key="[" line="170" column="0" />
         <mark key="]" line="175" column="5" />
         <mark key="^" line="458" column="26" />
@@ -281,8 +281,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="376" column="50" filename="$USER_HOME$/repos/claims/web/src/main/java/protector/claims/api/controllers/ClaimHeaderController.java" />
-      <jump line="38" column="17" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
       <jump line="57" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
       <jump line="15" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
       <jump line="16" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
@@ -381,6 +379,8 @@
       <jump line="469" column="21" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="170" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
       <jump line="244" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
+      <jump line="187" column="25" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
+      <jump line="229" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl_new.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -446,7 +446,7 @@
         <text>this._getLink(claimHeader, 'rolesByType')</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxnZXRDbGFpbXNcPg==</text>
+        <text encoding="base64">XDxkaXNwbGF5UnJFcnJvckJveFw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGdldENsYWltcygpIHsKICAgICAgICByZXR1cm4gdGhpcy5TdWJDbGFpbVJlc291cmNlLmdldFN1YkNsYWltc0Zvcih0aGlzLl9oZWFkZXIpCiAgICAgICAgICAgIC50aGVuKGNsYWltcyA9PiB7CiAgICAgICAgICAgICAgICB0aGlzLmNsYWltcyA9IHRoaXMuX2hlYWRlci5jbGFpbXMgPSBjbGFpbXM7CiAgICAgICAgICAgIH0pOwogICAgfQo=</text>
@@ -576,9 +576,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxnZXRDbGFpbXNcPg==</last-search>
+      <last-search encoding="base64">XDxkaXNwbGF5UnJFcnJvckJveFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxnZXRDbGFpbXNcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxkaXNwbGF5UnJFcnJvckJveFw+</last-pattern>
       <last-replace />
       <last-substitute>vm\.</last-substitute>
       <last-dir>1</last-dir>
@@ -586,7 +586,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxkYW1hZ2Vab25lVHlwZVw+</entry>
         <entry encoding="base64">XDxnZXRMaWFiaWxpdHlGaWVsZExvY2tlZFw+</entry>
         <entry encoding="base64">XDxfcmVtb3ZlT2xkUmVzcG9uc2liaWxpdHlUeXBlc1w+</entry>
         <entry encoding="base64">XDxfc2V0QXNzaWduZWRVc2VyT25DbGFpbVw+</entry>
@@ -606,6 +605,7 @@
         <entry encoding="base64">XDxuZXdUeXBlQ2hvc2VuXD4=</entry>
         <entry encoding="base64">XDxjcmVhdGVDbGFpbVw+</entry>
         <entry encoding="base64">XDxnZXRDbGFpbXNcPg==</entry>
+        <entry encoding="base64">XDxkaXNwbGF5UnJFcnJvckJveFw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3BheWxvYWQvcmVwb3J0RGF0YS8=</entry>

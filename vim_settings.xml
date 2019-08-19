@@ -56,8 +56,8 @@
         <mark key="." line="1" column="0" />
         <mark key="^" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" timestamp="1562918119625">
-        <mark key="'" line="279" column="12" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" timestamp="1566224260005">
+        <mark key="'" line="147" column="35" />
         <mark key="[" line="40" column="12" />
         <mark key="]" line="40" column="13" />
         <mark key="." line="40" column="13" />
@@ -120,6 +120,9 @@
         <mark key="^" line="157" column="83" />
         <mark key="." line="157" column="83" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-content.html" timestamp="1566224036664">
+        <mark key="'" line="455" column="133" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" timestamp="1566218814475">
         <mark key="'" line="59" column="20" />
         <mark key="[" line="110" column="69" />
@@ -165,11 +168,6 @@
         <mark key="'" line="2" column="4" />
         <mark key="[" line="2" column="4" />
         <mark key="]" line="3" column="39" />
-      </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/damage-info-sub-claim/damage-info-sub-claim-directive.js" timestamp="1565957604187">
-        <mark key="[" line="19" column="0" />
-        <mark key="]" line="19" column="0" />
-        <mark key="." line="19" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/sub-claim/header-sub-claim-ctrl.js" timestamp="1565882039745">
         <mark key="'" line="191" column="11" />
@@ -318,13 +316,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="65" column="29" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
-      <jump line="101" column="13" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
-      <jump line="95" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
-      <jump line="99" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
-      <jump line="62" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
-      <jump line="63" column="37" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
-      <jump line="78" column="21" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
       <jump line="90" column="13" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
       <jump line="75" column="13" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
       <jump line="67" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
@@ -418,6 +409,13 @@
       <jump line="159" column="8" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" />
       <jump line="60" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/parts-and-roles-list.html" />
       <jump line="57" column="28" filename="$USER_HOME$/repos/claims/frontend/components/claim/claims/parts-and-roles-list.html" />
+      <jump line="454" column="54" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-content.html" />
+      <jump line="455" column="133" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-content.html" />
+      <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" />
+      <jump line="282" column="31" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" />
+      <jump line="284" column="35" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" />
+      <jump line="4" column="15" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" />
+      <jump line="147" column="35" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -483,7 +481,7 @@
         <text encoding="base64">ICAgICAgICBTdHJlYW1TdXBwb3J0LnN0cmVhbShTcGxpdGVyYXRvcnMuc3BsaXRlcmF0b3IoZmV0Y2gsIDEwLCAxKSwgZmFsc2Up</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxpblByb2dyZXNzU3RvcmVcPg==</text>
+        <text encoding="base64">XDxyb2xlRXhpc3RzXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9IiIgbmctY2xpY2s9InZtLm1vdmVSb2xlKHJvbGUsIGNsYWltKSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge3tjbGFpbS5jbGFpbVR5cGUgfCB0cmFuc2xhdGV9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGVkaXQtdHJhbnNsYXRpb249ImNsYWltcy5yZWFzb24iPijDhXJzYWs8L3NwYW4+OiB7e2NsYWltLmNsYWltQ2F1c2UgfCB0cmFuc2xhdGV9fSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYT4K</text>
@@ -613,9 +611,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxpblByb2dyZXNzU3RvcmVcPg==</last-search>
+      <last-search encoding="base64">XDxyb2xlRXhpc3RzXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxpblByb2dyZXNzU3RvcmVcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxyb2xlRXhpc3RzXD4=</last-pattern>
       <last-replace />
       <last-substitute>vm\.</last-substitute>
       <last-dir>1</last-dir>
@@ -623,8 +621,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxnZXRSb2xlc1w+</entry>
-        <entry encoding="base64">XDxnZXRDbGFpbXNcPg==</entry>
         <entry encoding="base64">XDxodHRwXD4=</entry>
         <entry encoding="base64">XDxsaW5rU2VydmljZVw+</entry>
         <entry encoding="base64">XDxjbGFpbVJvbGVTZXJ2aWNlXD4=</entry>
@@ -643,6 +639,8 @@
         <entry encoding="base64">XDxzb3J0YWJsZU9wdGlvbnNcPg==</entry>
         <entry encoding="base64">XDxtb3ZlUm9sZUZuXD4=</entry>
         <entry encoding="base64">XDxpblByb2dyZXNzU3RvcmVcPg==</entry>
+        <entry encoding="base64">XDxhbHJlYWR5RXhpc3RzXD4=</entry>
+        <entry encoding="base64">XDxyb2xlRXhpc3RzXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3BheWxvYWQvcmVwb3J0RGF0YS8=</entry>

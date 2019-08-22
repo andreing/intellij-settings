@@ -152,11 +152,9 @@
         <mark key="^" line="19" column="18" />
         <mark key="." line="19" column="18" />
       </file>
-      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/GlobalKVStore.java" timestamp="1566215013924">
-        <mark key="[" line="28" column="0" />
-        <mark key="]" line="28" column="0" />
-        <mark key="^" line="28" column="33" />
-        <mark key="." line="28" column="0" />
+      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/GlobalKVStore.java" timestamp="1566480137889">
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="37" column="67" />
       </file>
       <file name="$USER_HOME$/repos/claims/integration/src/main/java/protector/claims/integration/at/net/ClaimantInformation.java" timestamp="1565949131455">
         <mark key="[" line="19" column="52" />
@@ -286,11 +284,11 @@
         <mark key="^" line="0" column="19" />
         <mark key="." line="0" column="19" />
       </file>
-      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" timestamp="1566381813688">
-        <mark key="[" line="153" column="0" />
-        <mark key="]" line="104" column="15" />
-        <mark key="^" line="104" column="15" />
-        <mark key="." line="104" column="15" />
+      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" timestamp="1566481094417">
+        <mark key="[" line="184" column="53" />
+        <mark key="]" line="173" column="60" />
+        <mark key="." line="173" column="60" />
+        <mark key="^" line="173" column="60" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-content.html" timestamp="1566224036664">
         <mark key="'" line="455" column="133" />
@@ -429,10 +427,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="64" column="8" filename="$USER_HOME$/repos/claims/frontend/components/service/claim-role-resource.js" />
-      <jump line="47" column="13" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
-      <jump line="33" column="13" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
-      <jump line="59" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
       <jump line="46" column="12" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
       <jump line="54" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-claims-directive.js" />
       <jump line="84" column="0" filename="$USER_HOME$/repos/claims/frontend/components/admin/templates/template-admin-ctrl.js" />
@@ -529,6 +523,10 @@
       <jump line="8" column="4" filename="$USER_HOME$/repos/claims/common/src/main/java/protector/claims/togglz/ClaimsFeatures.java" />
       <jump line="138" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/sub-claim/claim-edit-modal.js" />
       <jump line="34" column="50" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/sub-claim/claim-edit-modal.js" />
+      <jump line="58" column="4" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" />
+      <jump line="199" column="20" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" />
+      <jump line="208" column="20" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" />
+      <jump line="188" column="24" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -537,8 +535,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text encoding="base64">PCEtLTwvZGl2Pi0tPg==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhciBrZXlWYWx1ZSA9IChLZXlWYWx1ZSlrdjsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -591,16 +589,16 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">PCEtLTwvZGl2Pi0tPg==</text>
+        <text>APPRAISAL_IN_PROGRESS_STORE_NAME</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxfZW1pdFN1YmNsYWltU2VsZWN0aW9uQ2hhbmdlZFw+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">aW1wb3J0IFBhcnRzQW5kUm9sZUxpc3QgZnJvbSAnLi4vY2xhaW0taGVhZGVyL2hlYWRlci10YWJzL2hlYWRlci1jbGFpbS10YWIvcGFydHMtYW5kLXJvbGVzL3BhcnRzLWFuZC1yb2xlcy1saXN0JzsKaW1wb3J0IFBhcnRzQW5kUm9sZURpcmVjdGl2ZSBmcm9tICcuLi9jbGFpbS1oZWFkZXIvaGVhZGVyLXRhYnMvaGVhZGVyLWNsYWltLXRhYi9wYXJ0cy1hbmQtcm9sZXMvcGFydHMtYW5kLXJvbGVzLWN0cmwnOwo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gU3RyZWFtU3VwcG9ydC5zdHJlYW0oaXRlcmFibGUuc3BsaXRlcmF0b3IoKSwgZmFsc2UpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhciBrZXlWYWx1ZSA9IChLZXlWYWx1ZSlrdjsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -646,19 +644,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEBMYWJlbCgiU3ViY2xhaW0vcm9sZSBsaXN0IikKICAgIFNVQl9DTEFJTV9ST0xFX0xJU1QK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgU3RyZWFtU3VwcG9ydC5zdHJlYW0oaXRlcmFibGUuLnNwbGl0ZXJhdG9yKCksIGZhbHNlKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy9uZXdUeXBlQ2hvc2VuOiAnJicsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZm9yRWFjaFJlbWFpbmluZyhrdiAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhciBrZXlWYWx1ZSA9ICgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygiUGFydGllc0FuZENsYWltcyBpbml0ICIsIHRoaXMuY2xhaW1zLCB0aGlzLnJvbGVzKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIHRoaXMuZGRfZW1pdE5ld1JvbGVBZGRlZCgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaXRlcmFibGUuCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIF9lbWl0TmV3Um9sZUFkZGVkKCRzY29wZSkgewogICAgICAgICRzY29wZS4kZW1pdCgibmV3LXJvbGUtYWRkZWQiKTsKICAgIH0KCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -711,13 +709,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLl9lbWl0TmV3Um9sZUFkZGVkID0gdGhpcy5fZW1pdE5ld1JvbGVBZGRlZC5iaW5kKHRoaXMsICRzY29wZSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgSXRlcmFibGU8S2V5VmFsdWU8U3RyaW5nLCBTdHJpbmc+PiBpdGVyYWJsZSA9ICgpIC0+IGtleVZhbHVlU3RvcmUuYWxsKCk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICBfZW1pdE5ld1JvbGVBZGRlZCgkc2NvcGUpIHsKICAgICAgICAkc2NvcGUuJGVtaXQoIm5ldy1yb2xlLWFkZGVkIik7CiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaXMuX2VtaXROZXdSb2xlQWRkZWQoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdmFyIHNlc3Npb24gPSB0aGlzLnNlc3Npb25TdG9yZTsKICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGtleVZhbHVlID0gdGhpcy5rZXlWYWx1ZVN0b3JlOwo=</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

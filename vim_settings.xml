@@ -91,14 +91,9 @@
         <mark key="^" line="19" column="18" />
         <mark key="." line="19" column="18" />
       </file>
-      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/GlobalKVStore.java" timestamp="1566485200812">
-        <mark key="[" line="36" column="61" />
-        <mark key="]" line="37" column="67" />
-      </file>
       <file name="$USER_HOME$/repos/claims/integration/src/main/java/protector/claims/integration/at/net/ClaimantInformation.java" timestamp="1565949131455">
         <mark key="[" line="19" column="52" />
       </file>
-      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/ClaimsAsyncConsumerBootstrap.java" timestamp="1566555515819" />
       <file name="/sub-claim-entry.html" timestamp="1566466436244" />
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/sub-claim/sub-claim-entry-directive.js" timestamp="1566395451549">
         <mark key="'" line="12" column="12" />
@@ -143,6 +138,13 @@
       </file>
       <file name="/Protect.Protect2.Claim_Role [Protect@prod.sql.protector.local]" timestamp="1566222286796">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/SubAutoClaim/create-claim-sub-auto.html" timestamp="1566813366521">
+        <mark key="'" line="12" column="16" />
+        <mark key="[" line="15" column="29" />
+        <mark key="]" line="13" column="32" />
+        <mark key="." line="13" column="32" />
+        <mark key="^" line="13" column="32" />
       </file>
       <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/resources/application-test.properties" timestamp="1566549945237" />
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-module.js" timestamp="1566377360063">
@@ -193,9 +195,10 @@
         <mark key="]" line="25" column="0" />
         <mark key="." line="25" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/sub-claim/claim-edit-modal.html" timestamp="1566467071873">
-        <mark key="[" line="1" column="27" />
-        <mark key="]" line="1" column="27" />
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/sub-claim/claim-edit-modal.html" timestamp="1566812952127">
+        <mark key="'" line="15" column="0" />
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="16" column="51" />
         <mark key="." line="1" column="27" />
         <mark key="^" line="1" column="27" />
       </file>
@@ -246,6 +249,9 @@
       <file name="$USER_HOME$/repos/claims/core/src/main/java/protector/claims/service/claims/EventLinkService.java" timestamp="1565859113807">
         <mark key="'" line="55" column="40" />
       </file>
+      <file name="$USER_HOME$/repos/claims/frontend/components/claim/create/SubAutoClaim/create-claim-sub-auto-ctrl.js" timestamp="1566813337341">
+        <mark key="'" line="30" column="66" />
+      </file>
       <file name="/dummy.sql" timestamp="1566222290262">
         <mark key="[" line="0" column="0" />
       </file>
@@ -285,10 +291,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="454" column="54" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-content.html" />
-      <jump line="455" column="133" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-content.html" />
-      <jump line="0" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" />
-      <jump line="282" column="31" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" />
       <jump line="284" column="35" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" />
       <jump line="4" column="15" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" />
       <jump line="147" column="35" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/role/edit-role-modal-controller.js" />
@@ -385,6 +387,10 @@
       <jump line="64" column="31" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" />
       <jump line="62" column="23" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-streams/2.0.1/d6e66daf5bd727bd4ec3a4370dc03a785392cad2/kafka-streams-2.0.1-sources.jar!/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java" />
       <jump line="204" column="54" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" />
+      <jump line="11" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/SubAutoClaim/create-claim-sub-auto.html" />
+      <jump line="15" column="0" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/sub-claim/claim-edit-modal.html" />
+      <jump line="12" column="16" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/SubAutoClaim/create-claim-sub-auto.html" />
+      <jump line="30" column="66" filename="$USER_HOME$/repos/claims/frontend/components/claim/create/SubAutoClaim/create-claim-sub-auto-ctrl.js" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -394,7 +400,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHdpbmRvdy5vdmVybGFwKCkpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZ2V0LXJvbGVzPSJ2bS5nZXRSb2xlcyh2bS5oZWFkZXIpIgogICAgICAgICAgICB1cGRhdGUtY2xhaW09InZtLnVwZGF0ZUNsYWltKHZtLmNsYWltKSIK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -450,13 +456,13 @@
         <text>then</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx3aW5kb3dzXD4=</text>
+        <text encoding="base64">XDxjYXVzZXNCeVR5cGVzXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBXaW5kb3cgbmV3V2luZG93ID0gbmV3IFNlc3Npb25XaW5kb3codGltZXN0YW1wLCB0aW1lc3RhbXAgKyB3aW5kb3dzLmluYWN0aXZpdHlHYXAoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZ2V0LXJvbGVzPSJ2bS5nZXRSb2xlcyh2bS5oZWFkZXIpIgogICAgICAgICAgICB1cGRhdGUtY2xhaW09InZtLnVwZGF0ZUNsYWltKHZtLmNsYWltKSIK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHdpbmRvdy5vdmVybGFwKCkpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -502,19 +508,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgV2luZG93IG5ld1dpbmRvdyA9IG5ldyAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHdpbmRvdy5vdmVybGFwKCkpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAiZHNhODkwZXF3bm0sIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IFtdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgV2luZG93IG5ld1dpbmRvdyA9IG5ldyAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAiaW9pb3Bmc2RrbCBQUmktNzg5MzEyLCBkc2FqZGFrbGQgIyMgLy8gamtkZmxzZmpsIDwgcFJ6LTc4OTMxMiIgICAgICAgICAgICB8IFtdCiAgICAgICAgImpma2xkamZrbHNkamZrbHNkamZrbCBQUmktNzg5MzEyLCBkc2FqZGFrbGQgIyMgLy8gamtkZmxzZmpsIDwgcFJ6LTc4OTMxMiIgfCBbXQo=</text>
+        <text encoding="base64">ICAgICAgICAiZHNhODkwZXF3bm0sIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IFtdCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAiaW9pb3Bmc2RrbCBQUmktNzg5MzEyLCBkc2FqZGFrbGQgIyMgLy8gamtkZmxzZmpsIDwgcFJ6LTc4OTMxMiIgICAgICAgICAgICB8IFtdCg==</text>
+        <text encoding="base64">ICAgICAgICAiaW9pb3Bmc2RrbCBQUmktNzg5MzEyLCBkc2FqZGFrbGQgIyMgLy8gamtkZmxzZmpsIDwgcFJ6LTc4OTMxMiIgICAgICAgICAgICB8IFtdCiAgICAgICAgImpma2xkamZrbHNkamZrbHNkamZrbCBQUmktNzg5MzEyLCBkc2FqZGFrbGQgIyMgLy8gamtkZmxzZmpsIDwgcFJ6LTc4OTMxMiIgfCBbXQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAiZHNhODkwZXF3bm0sIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IFtdCg==</text>
+        <text encoding="base64">ICAgICAgICAiaW9pb3Bmc2RrbCBQUmktNzg5MzEyLCBkc2FqZGFrbGQgIyMgLy8gamtkZmxzZmpsIDwgcFJ6LTc4OTMxMiIgICAgICAgICAgICB8IFtdCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -567,26 +573,22 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAvL291dHB1dCBpcyBQcm9taXNlPFNvbWV0aGluZz4gd2hlcmUgc29tZXRoaW5nLmdldE1hdGNoZXMoKSBpcyBhIFNldAo=</text>
+        <text encoding="base64">ICAgICAgICAiZHNhODkwZXF3bm0sIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IFtdCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBleHBlY3RlZE91dHB1dEFzU2V0ID0K</text>
+        <text encoding="base64">ICAgICAgICAvL291dHB1dCBpcyBQcm9taXNlPFNvbWV0aGluZz4gd2hlcmUgc29tZXRoaW5nLmdldE1hdGNoZXMoKSBpcyBhIFNldAo=</text>
       </register>
-      <register name="9" type="8">
-        <text>| skipIfEmpty
-| true
-| false
-| true
-| true</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBleHBlY3RlZE91dHB1dEFzU2V0ID0K</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx3aW5kb3dzXD4=</last-search>
+      <last-search encoding="base64">XDxjYXVzZXNCeVR5cGVzXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx3aW5kb3dzXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxjYXVzZXNCeVR5cGVzXD4=</last-pattern>
       <last-replace />
       <last-substitute>vm\.</last-substitute>
       <last-dir>1</last-dir>
@@ -594,7 +596,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxyb2xlVHlwZUlkXD4=</entry>
         <entry encoding="base64">XDxoZWFkZXJcPg==</entry>
         <entry encoding="base64">XDxub1RvdWNoZWROZ0NsaWNrXD4=</entry>
         <entry encoding="base64">XDxFZGl0YWJsZUlucHV0TW9kdWxlXD4=</entry>
@@ -614,6 +615,7 @@
         <entry encoding="base64">XDxjbGFpbVw+</entry>
         <entry encoding="base64">XDxBUFBSQUlTQUxfUFJPQ0VTU0VEX1RPUElDXD4=</entry>
         <entry encoding="base64">XDx3aW5kb3dzXD4=</entry>
+        <entry encoding="base64">XDxjYXVzZXNCeVR5cGVzXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3BheWxvYWQvcmVwb3J0RGF0YS8=</entry>

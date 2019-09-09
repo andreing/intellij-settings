@@ -230,11 +230,10 @@
         <mark key="." line="66" column="171" />
         <mark key="^" line="66" column="171" />
       </file>
-      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/integration-test/groovy/protector/claimsatnet/test/RetentionTest.groovy" timestamp="1567775811160">
-        <mark key="'" line="91" column="0" />
-        <mark key="[" line="49" column="14" />
-        <mark key="]" line="118" column="99" />
-        <mark key="." line="118" column="99" />
+      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/integration-test/groovy/protector/claimsatnet/test/RetentionTest.groovy" timestamp="1568025254663">
+        <mark key="]" line="105" column="47" />
+        <mark key="^" line="105" column="47" />
+        <mark key="." line="105" column="47" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/sub-claim-entry.html" timestamp="1566307472572">
         <mark key="'" line="8" column="4" />
@@ -356,7 +355,7 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/parties-and-roles/parts-and-roles-list.html" timestamp="1566544907773">
         <mark key="[" line="28" column="35" />
       </file>
-      <file name="/Dummy.txt" timestamp="1566827003171">
+      <file name="/Dummy.txt" timestamp="1568022821139">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claims/claim-ctrl.js" timestamp="1562931277919">
@@ -437,14 +436,11 @@
         <mark key="." line="41" column="0" />
         <mark key="^" line="42" column="35" />
       </file>
-      <file name="/fragment.java" timestamp="1567771718656">
+      <file name="/fragment.java" timestamp="1568022821176">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="48" column="70" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/parties-and-claims/parties-and-claims-directive.js" />
-      <jump line="489" column="19" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" />
-      <jump line="589" column="42" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" />
       <jump line="591" column="41" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" />
       <jump line="144" column="15" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" />
       <jump line="149" column="66" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/claim-header-ctrl.js" />
@@ -542,6 +538,9 @@
       <jump line="163" column="79" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" />
       <jump line="182" column="79" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" />
       <jump line="39" column="4" filename="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/parties-and-claims/parties-and-claims-ctrl.js" />
+      <jump line="78" column="8" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/integration-test/groovy/protector/claimsatnet/test/RetentionTest.groovy" />
+      <jump line="103" column="0" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/integration-test/groovy/protector/claimsatnet/test/RetentionTest.groovy" />
+      <jump line="85" column="8" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/integration-test/groovy/protector/claimsatnet/test/RetentionTest.groovy" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -551,7 +550,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIHRoaXMub25Sb2xlc0NoYW5nZWQoKTsK</text>
+        <text encoding="base64">ICAgICAgICBkZWYgcmVzdWx0MiA9IG5ldyBCbG9ja2luZ1ZhcmlhYmxlPENvbnN1bWVyUmVjb3JkPFN0cmluZywgU3RyaW5nPj4oNSwgVGltZVVuaXQuU0VDT05EUykKICAgICAgICBkZWYgY29udGFpbmVyMiA9IHRlc3RDb25zdW1lcigidGVzdEdyb3VwMiIsIG91dF90b3BpYywgcmVzdWx0MikKCg==</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -610,10 +609,10 @@
         <text encoding="base64">XDxvblJvbGVzQ2hhbmdlZFw+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CiAgICBkZWYgJ3NpbXBsZSB3cml0ZSBhbmQgcmVhZCB0byB0b3BpYycoKSB7CiAgICAgICAgZ2l2ZW46CiAgICAgICAgZGVmIHRlc3RNZXNzYWdlID0gIlRoaXMgaXMgYSB0ZXN0IG1lc3NhZ2UiCiAgICAgICAgZGVmIHRlc3RLZXkgPSAiYWJjMTIzIgogICAgICAgIGRlZiBpbl90b3BpYyA9IEthZmthU3RyZWFtc0NvbmZpZy5BUFBSQUlTQUxfSU5DT01JTkdfREFUQV9UT1BJQwogICAgICAgIGRlZiBvdXRfdG9waWMgPSBLYWZrYVN0cmVhbXNDb25maWcuQVBQUkFJU0FMX0lOX1BST0dSRVNTX1RPUElDCgogICAgICAgIEJsb2NraW5nVmFyaWFibGU8Q29uc3VtZXJSZWNvcmQ8U3RyaW5nLCBTdHJpbmc+PiByZXN1bHQgPSB0ZXN0Q29uc3VtZXIoaW5fdG9waWMsIDUpCgogICAgICAgIHdoZW46CiAgICAgICAgdGVtcGxhdGUuc2VuZChpbl90b3BpYywgdGVzdEtleSwgdGVzdE1lc3NhZ2UpCgogICAgICAgIHRoZW46CiAgICAgICAgZGVmIHJlY29yZCA9IHJlc3VsdC5nZXQoKQogICAgICAgIGFzc2VydCByZWNvcmQua2V5KCkgPT0gdGVzdEtleQogICAgICAgIGFzc2VydCByZWNvcmQudmFsdWUoKSA9PSB0ZXN0TWVzc2FnZQogICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICBkZWYgcmVzdWx0MiA9IG5ldyBCbG9ja2luZ1ZhcmlhYmxlPENvbnN1bWVyUmVjb3JkPFN0cmluZywgU3RyaW5nPj4oNSwgVGltZVVuaXQuU0VDT05EUykKICAgICAgICBkZWYgY29udGFpbmVyMiA9IHRlc3RDb25zdW1lcigidGVzdEdyb3VwMiIsIG91dF90b3BpYywgcmVzdWx0MikKCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIHRoaXMub25Sb2xlc0NoYW5nZWQoKTsK</text>
+        <text encoding="base64">ICAgICAgICBkZWYgaW5fdG9waWMgPSBLYWZrYVN0cmVhbXNDb25maWcuQVBQUkFJU0FMX0lOQ09NSU5HX0RBVEFfVE9QSUMK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -659,19 +658,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEBTaGFyZWQK</text>
+        <text encoding="base64">ICAgICAgICBkZWYgdGVzdE1lc3NhZ2UyID0gIlRlc3QgbWVzc2FnZSBudW1iZXIgMiIKICAgICAgICBkZWYgdGVzdEtleTIgPSAiYWJjMjM0IgogICAgICAgIGRlZiBpbl90b3BpYyA9IEthZmthU3RyZWFtc0NvbmZpZy5BUFBSQUlTQUxfSU5DT01JTkdfREFUQV9UT1BJQwogICAgICAgIGRlZiBvdXRfdG9waWMgPSBLYWZrYVN0cmVhbXNDb25maWcuQVBQUkFJU0FMX0lOX1BST0dSRVNTX1RPUElDCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEBTaGFyZWQK</text>
+        <text encoding="base64">ICAgICAgICBkZWYgdGVzdE1lc3NhZ2UyID0gIlRlc3QgbWVzc2FnZSBudW1iZXIgMiIKICAgICAgICBkZWYgdGVzdEtleTIgPSAiYWJjMjM0IgogICAgICAgIGRlZiBpbl90b3BpYyA9IEthZmthU3RyZWFtc0NvbmZpZy5BUFBSQUlTQUxfSU5DT01JTkdfREFUQV9UT1BJQwogICAgICAgIGRlZiBvdXRfdG9waWMgPSBLYWZrYVN0cmVhbXNDb25maWcuQVBQUkFJU0FMX0lOX1BST0dSRVNTX1RPUElDCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIEBJZ25vcmUK</text>
+        <text encoding="base64">ICAgICAgICBDb250YWluZXJUZXN0VXRpbHMK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgcmVjb3JkID0gcmVzdWx0LmdldCgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIHRoaXMub25Sb2xlc0NoYW5nZWQoKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgcmVjb3JkID0gcmVzdWx0LmdldCgpCg==</text>
+        <text encoding="base64">ICAgIEBTaGFyZWQK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -724,13 +723,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBlbWJlZGRlZEthZmthLmNvbnN1bWVGcm9tQW5FbWJlZGRlZFRvcGljKCkK</text>
+        <text encoding="base64">ICAgIEBTaGFyZWQK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgY2YgPSBzdHJpbmdDb25zdW1lcigpCiAgICAgICAgZGVmIGNvbnN1bWVyID0gY2YuY3JlYXRlQ29uc3VtZXIoKQogICAgICAgIGVtYmVkZGVkS2Fma2EuY29uc3VtZUZyb21BbkVtYmVkZGVkVG9waWMoY29uc3VtZXIsICIiKQo=</text>
+        <text encoding="base64">ICAgIEBJZ25vcmUK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBkZWYgcmVjb3JkID0gcmVzdWx0LmdldCgpCg==</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

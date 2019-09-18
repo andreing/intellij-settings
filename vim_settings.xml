@@ -271,8 +271,8 @@
       <file name="/Protect.Protect2.Claim_Role [Protect@prod.sql.protector.local]" timestamp="1566222286796">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/domain/ScanResult.java" timestamp="1568808876708">
-        <mark key="[" line="24" column="22" />
+      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/domain/ScanResult.java" timestamp="1568809591577">
+        <mark key="[" line="24" column="40" />
         <mark key="]" line="17" column="24" />
         <mark key="." line="17" column="24" />
         <mark key="^" line="17" column="24" />
@@ -387,11 +387,11 @@
         <mark key="^" line="266" column="73" />
         <mark key="." line="266" column="73" />
       </file>
-      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/FileScannerService.java" timestamp="1568808917442">
-        <mark key="[" line="65" column="55" />
-        <mark key="]" line="70" column="0" />
-        <mark key="^" line="70" column="0" />
-        <mark key="." line="70" column="0" />
+      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/FileScannerService.java" timestamp="1568810975831">
+        <mark key="[" line="64" column="110" />
+        <mark key="]" line="67" column="11" />
+        <mark key="^" line="67" column="11" />
+        <mark key="." line="67" column="11" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/parties-and-claims/parties-and-claims-module.js" timestamp="1566383324857">
         <mark key="[" line="2" column="55" />
@@ -483,10 +483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="59" column="4" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" />
-      <jump line="7" column="0" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/resources/application-test.properties" />
-      <jump line="10" column="0" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/resources/application-dev.properties" />
-      <jump line="8" column="0" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/resources/application-prod.properties" />
       <jump line="11" column="0" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/resources/application-dev.properties" />
       <jump line="4" column="4" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/ScanResult.java" />
       <jump line="23" column="21" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/service/MessageStoreService.java" />
@@ -583,6 +579,10 @@
       <jump line="29" column="65" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/FileStorageService.java" />
       <jump line="34" column="103" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/FileStorageService.java" />
       <jump line="38" column="21" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/FileStorageService.java" />
+      <jump line="46" column="8" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/FileScannerService.java" />
+      <jump line="30" column="4" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/FileScannerService.java" />
+      <jump line="102" column="12" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/FileScannerService.java" />
+      <jump line="87" column="8" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/FileScannerService.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -592,7 +592,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmthZmthVGVtcGxhdGUgPSBrYWZrYVRlbXBsYXRlOwogICAgICAgIHRoaXMub2JqZWN0TWFwcGVyID0gb2JqZWN0TWFwcGVyOwo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -651,10 +651,10 @@
         <text encoding="base64">XDxzdG9yZVw+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgU3RyaW5nIGhvc3Q7CiAgICBwcml2YXRlIExvbmcgcG9ydDsKICAgIHByaXZhdGUgTG9uZyB0aW1lb3V0bXM7Cg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgU3RyaW5nIHRvcGljOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmthZmthVGVtcGxhdGUgPSBrYWZrYVRlbXBsYXRlOwogICAgICAgIHRoaXMub2JqZWN0TWFwcGVyID0gb2JqZWN0TWFwcGVyOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -700,19 +700,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyAKICAgIHN0YXRpYyB7CiAgICAgICAgCiAgICB9Cg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgS2Fma2FUZW1wbGF0ZTxTdHJpbmcsIFN0cmluZz4ga2Fma2FUZW1wbGF0ZTsKICAgIHByaXZhdGUgZmluYWwgT2JqZWN0TWFwcGVyIG9iamVjdE1hcHBlcjsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBvYmplY3RNYXBwZXIuY29uZmlndXJlKFNlcmlhbGl6YXRpb25GZWF0dXJlLldSSVRFX0VOVU1TX1VTSU5HX0lOREVYKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGJvb2xlYW4gc2Nhbm5lZCA9IGZhbHNlOwogICAgYm9vbGVhbiBzY2FubmVkT2sgPSBmYWxzZTsKICAgIFN0cmluZyBtZXNzYWdlOwoKICAgIHB1YmxpYyBib29sZWFuIGlzU2Nhbm5lZCgpIHsKICAgICAgICByZXR1cm4gc2Nhbm5lZDsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRTY2FubmVkKGJvb2xlYW4gc2Nhbm5lZCkgewogICAgICAgIHRoaXMuc2Nhbm5lZCA9IHNjYW5uZWQ7CiAgICB9CgogICAgcHVibGljIGJvb2xlYW4gaXNTY2FubmVkT2soKSB7CiAgICAgICAgcmV0dXJuIHNjYW5uZWRPazsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRTY2FubmVkT2soYm9vbGVhbiBzY2FubmVkT2spIHsKICAgICAgICB0aGlzLnNjYW5uZWRPayA9IHNjYW5uZWRPazsKICAgIH0KCiAgICBwdWJsaWMgU3RyaW5nIGdldE1lc3NhZ2UoKSB7CiAgICAgICAgcmV0dXJuIG1lc3NhZ2U7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0TWVzc2FnZShTdHJpbmcgbWVzc2FnZSkgewogICAgICAgIHRoaXMubWVzc2FnZSA9IG1lc3NhZ2U7CiAgICB9CgogICAgLy9UT0RPIHByb3BlcnRpZXMgd2lsbCBwcm9iYWJseSBjaGFuZ2UuIEFkZCBidWlsZGVyIHdoZW4gc3RhYmxlCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgR2xvYmFsS1ZTdG9yZTxTdHJpbmcsIENsYWltc0F0TmV0RmlsZU1ldGFkYXRhPiBzdG9yZTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgdm9pZCBzY2FuKFN0cmluZyBmaWxlc2VydmljZUlEKSB7CiAgICAgICAgdHJ5IChCeXRlQXJyYXlPdXRwdXRTdHJlYW0gb3V0ID0gbmV3IEJ5dGVBcnJheU91dHB1dFN0cmVhbSgpKSB7CiAgICAgICAgICAgIGZpbGVTZXJ2aWNlQ2xpZW50LmdldEZpbGVEYXRhKGZpbGVzZXJ2aWNlSUQsIG91dCk7CiAgICAgICAgICAgIHNjYW5uZXJTZXJ2aWNlLnNjYW50ZXN0KG91dC50b0J5dGVBcnJheSgpKTsKICAgICAgICB9IGNhdGNoIChJT0V4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIExPRy5lcnJvcihlLmdldE1lc3NhZ2UoKSwgZSk7CiAgICAgICAgfQogICAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -765,13 +765,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNjYW50ZXN0KGJ5dGVbXSBieXRlcykgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGJ5dGVbXSByZXN1bHRzID0gY2xhbUFWQ2xpZW50LnNjYW4oYnl0ZXMpOwogICAgICAgICAgICBMT0cuaW5mbyhuZXcgU3RyaW5nKHJlc3VsdHMpLCBTdGFuZGFyZENoYXJzZXRzLlVTX0FTQ0lJKTsKICAgICAgICAgICAgTE9HLmluZm8oImlzQ2xlYW5SZXBseToge30iLCBDbGFtQVZDbGllbnQuaXNDbGVhblJlcGx5KHJlc3VsdHMpKTsKICAgICAgICB9IGNhdGNoIChJT0V4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIExPRy5lcnJvcihlLmdldE1lc3NhZ2UoKSwgZSk7CiAgICAgICAgfQoKICAgIH0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzY2FuKHNhdmVkTWV0YWRhdGEuZ2V0SWQoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnJlcGx5VG9waWMgPSBrCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIExPRy5kZWJ1ZygpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3MuY29ubmVjdChpcyk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

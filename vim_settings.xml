@@ -14,6 +14,9 @@
       </file>
       <file name="$USER_HOME$/repos/pfs/file-service/src/test/groovy/protector/fileservice/document/DocumentControllerSpec.groovy" timestamp="1568903062268" />
       <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/resources/application-dev.properties" timestamp="1568891635215" />
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/KafkaStreamsConfig.java" timestamp="1569419340736">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_child_municipal_confirmation.xml" timestamp="1568882618101" />
       <file name="$USER_HOME$/repos/pfs/file-service/src/main/java/protector/fileservice/gridfs/GridFsCriteriaCustom.java" timestamp="1568901367829">
         <mark key="[" line="15" column="0" />
@@ -121,7 +124,10 @@
       <file name="$USER_HOME$/repos/file-service/src/main/resources/application-test.properties" timestamp="1568293557699">
         <mark key="[" line="1" column="56" />
       </file>
-      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/netregistration/consumers/NetRegistrationPdfConsumer.java" timestamp="1569411547017" />
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/netregistration/consumers/NetRegistrationPdfConsumer.java" timestamp="1569419160594">
+        <mark key="'" line="34" column="17" />
+        <mark key="[" line="47" column="62" />
+      </file>
       <file name="/sbtShell" timestamp="1568900647740">
         <mark key="[" line="0" column="0" />
       </file>
@@ -164,7 +170,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="84" column="129" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" />
       <jump line="35" column="8" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/GlobalKVStoreSpring.java" />
       <jump line="39" column="8" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/GlobalKVStoreSpring.java" />
       <jump line="15" column="31" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/actuator/KafkaStreamsHealth.java" />
@@ -264,6 +269,7 @@
       <jump line="91" column="8" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/FileScannerService.java" />
       <jump line="57" column="20" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/FileStorageService.java" />
       <jump line="47" column="4" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/FileScannerService.java" />
+      <jump line="34" column="17" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/netregistration/consumers/NetRegistrationPdfConsumer.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -329,7 +335,7 @@
         <text>streamsBuilderFactoryBean.getKafkaStreams().store</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxqb2luXD4=</text>
+        <text encoding="base64">XDxzZXR1cENvbnN1bWVyXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIEBTdXBwcmVzc1dhcm5pbmdzKCJ1bnVzZWQiKQo=</text>
@@ -459,9 +465,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxqb2luXD4=</last-search>
+      <last-search encoding="base64">XDxzZXR1cENvbnN1bWVyXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxqb2luXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxzZXR1cENvbnN1bWVyXD4=</last-pattern>
       <last-replace />
       <last-substitute encoding="base64">XDxBUFBSQUlTQUxfSU5fUFJPR1JFU1NfVE9QSUNcPg==</last-substitute>
       <last-dir>1</last-dir>
@@ -469,7 +475,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxyZWdpc3RyYXRpb25EYXRhVG9waWNcPg==</entry>
         <entry encoding="base64">XDxjbGFpbXNEYXRhVG9waWNcPg==</entry>
         <entry encoding="base64">XDxzdHJlYW1zQXBwbGljYXRpb25JZFw+</entry>
         <entry encoding="base64">XDxJTkNPTUlOR19EQVRBX1RPUElDXD4=</entry>
@@ -489,6 +494,7 @@
         <entry encoding="base64">XDxwcm9jZXNzZWRTdHJlYW1cPg==</entry>
         <entry encoding="base64">XDxQUk9DRVNTRURfVE9QSUNcPg==</entry>
         <entry encoding="base64">XDxqb2luXD4=</entry>
+        <entry encoding="base64">XDxzZXR1cENvbnN1bWVyXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3BheWxvYWQvcmVwb3J0RGF0YS8=</entry>

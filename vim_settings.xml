@@ -23,11 +23,17 @@
       <file name="$USER_HOME$/repos/pfs/file-service/src/main/java/protector/fileservice/gridfs/GridFsCriteriaCustom.java" timestamp="1568901367829">
         <mark key="[" line="15" column="0" />
       </file>
+      <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/ClaimsRestService.java" timestamp="1569494286097" />
       <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/MetadataImportListener.java" timestamp="1569336183340">
         <mark key="[" line="37" column="0" />
         <mark key="]" line="37" column="31" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_group_fatality_confirmation.xml" timestamp="1568882932800" />
+      <file name="$USER_HOME$/repos/dbs/ws/fakturagrunnlag-ws/src/main/java/protector/dbs/ws/fakturagrunnlag/service/RequestHandlerBase.java" timestamp="1569494174297">
+        <mark key="[" line="86" column="0" />
+        <mark key="]" line="86" column="0" />
+        <mark key="." line="86" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/resources/application-dev.properties" timestamp="1569243121687">
         <mark key="'" line="9" column="0" />
         <mark key="[" line="13" column="18" />
@@ -269,8 +275,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>//Spring Boot 2.1 users should use 2.2.x</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoKQo=</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -332,7 +338,7 @@
         <text encoding="base64">ICAgIEBTdXBwcmVzc1dhcm5pbmdzKCJ1bnVzZWQiKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIC8vaWdub3JlIHVudXNlZAoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -378,19 +384,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBSZXNwb25zZUVudGl0eS5jcmVhdGVkKCkK</text>
+        <text encoding="base64">ICAgIC8vaWdub3JlIHVudXNlZAoK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgdm9pZCBkZWxldGVSZWZlcmVuY2VzVG9GaWxlcyhTdHJpbmcgc3VibWlzc2lvbklkKSB7CiAgICAgICAgZmluZEFsbEJ5U3VibWlzc2lvbklkKHN1Ym1pc3Npb25JZCkKICAgICAgICAgICAgICAgIC5maWx0ZXIobWV0YWRhdGEgLT4gIW1ldGFkYXRhLmdldFNjYW5SZXN1bHQoKS5pc1Bhc3NlZCgpKQogICAgICAgICAgICAgICAgLmZvckVhY2gobWV0YWRhdGEgLT4gewogICAgICAgICAgICAgICAgICAgIGthZmthVGVtcGxhdGUuc2VuZChGSUxFX1NBVkVEX1RPUElDLCBtZXRhZGF0YS5nZXRFeHRlcm5hbEZpbGVJZCgpLCBudWxsKTsgLy8gZGVsZXRlIGZyb20gaW50ZXJuYWwgbWFwcGluZyBzdG9yZQogICAgICAgICAgICAgICAgfSk7CgogICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICBSZXNwb25zZUVudGl0eS5jcmVhdGVkKCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CiAgICAgICAgLy9ub3cgZGVsZXRlIHJlZmVyZW5jZXMgdG8gZmlsZXMgd2hpY2ggYXJlIHNjYW5ubmVkCiAgICAgICAgZGVsZXRlUmVmZXJlbmNlc1RvRmlsZXMoc3VibWlzc2lvbklkKTsK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgdm9pZCBkZWxldGVSZWZlcmVuY2VzVG9GaWxlcyhTdHJpbmcgc3VibWlzc2lvbklkKSB7CiAgICAgICAgZmluZEFsbEJ5U3VibWlzc2lvbklkKHN1Ym1pc3Npb25JZCkKICAgICAgICAgICAgICAgIC5maWx0ZXIobWV0YWRhdGEgLT4gIW1ldGFkYXRhLmdldFNjYW5SZXN1bHQoKS5pc1Bhc3NlZCgpKQogICAgICAgICAgICAgICAgLmZvckVhY2gobWV0YWRhdGEgLT4gewogICAgICAgICAgICAgICAgICAgIGthZmthVGVtcGxhdGUuc2VuZChGSUxFX1NBVkVEX1RPUElDLCBtZXRhZGF0YS5nZXRFeHRlcm5hbEZpbGVJZCgpLCBudWxsKTsgLy8gZGVsZXRlIGZyb20gaW50ZXJuYWwgbWFwcGluZyBzdG9yZQogICAgICAgICAgICAgICAgfSk7CgogICAgfQoK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIobWV0YWRhdGEgLT4gbWV0YWRhdGEuZ2V0U2NhblJlc3VsdCgpLmlzUGFzc2VkKCkpCg==</text>
+        <text encoding="base64">CiAgICAgICAgLy9ub3cgZGVsZXRlIHJlZmVyZW5jZXMgdG8gZmlsZXMgd2hpY2ggYXJlIHNjYW5ubmVkCiAgICAgICAgZGVsZXRlUmVmZXJlbmNlc1RvRmlsZXMoc3VibWlzc2lvbklkKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAga2Fma2FUZW1wbGF0ZS5zZW5kKEZJTEVfU0FWRURfVE9QSUMsIG1ldGFkYXRhLmdldEV4dGVybmFsRmlsZUlkKCksIG51bGwpOyAvLyBkZWxldGUgZnJvbSBpbnRlcm5hbCBtYXBwaW5nIHN0b3JlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maWx0ZXIobWV0YWRhdGEgLT4gbWV0YWRhdGEuZ2V0U2NhblJlc3VsdCgpLmlzUGFzc2VkKCkpCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -443,13 +449,13 @@
         </keys>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAga2Fma2FUZW1wbGF0ZS5zZW5kKEZJTEVfU0FWRURfVE9QSUMsIG1ldGFkYXRhLmdldEV4dGVybmFsRmlsZUlkKCksIG51bGwpOyAvLyBkZWxldGUgZnJvbSBpbnRlcm5hbCBtYXBwaW5nIHN0b3JlCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIExPRy5lcnJvcigiRXJyb3IgZGVsZXRpbmcgZmlsZSAiKyBtZXRhZGF0YS5nZXRJZCgpLCBlKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>noh</text>

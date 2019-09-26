@@ -3,17 +3,13 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/repos/pfs/file-service/src/integration-test/groovy/protector/fileservice/integrationtest/RestIntegrationBase.groovy" timestamp="1568902562514">
-        <mark key="[" line="4" column="48" />
-        <mark key="]" line="4" column="48" />
-        <mark key="^" line="4" column="48" />
-        <mark key="." line="4" column="48" />
-      </file>
       <file name="/a.dummy" timestamp="1568188368381">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims/claims-async-mode/build.gradle" timestamp="1569484343295">
-        <mark key="[" line="58" column="41" />
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/build.gradle" timestamp="1569490831038">
+        <mark key="[" line="58" column="51" />
+        <mark key="]" line="58" column="51" />
+        <mark key="." line="58" column="51" />
       </file>
       <file name="$USER_HOME$/repos/pfs/file-service/src/test/groovy/protector/fileservice/document/DocumentControllerSpec.groovy" timestamp="1568903062268" />
       <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/resources/application-dev.properties" timestamp="1568891635215" />
@@ -32,12 +28,6 @@
         <mark key="]" line="37" column="31" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_group_fatality_confirmation.xml" timestamp="1568882932800" />
-      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/ClaimsAtNetFileMetadata.java" timestamp="1568103133515">
-        <mark key="[" line="6" column="23" />
-        <mark key="]" line="6" column="21" />
-        <mark key="." line="6" column="21" />
-        <mark key="^" line="6" column="21" />
-      </file>
       <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/resources/application-dev.properties" timestamp="1569243121687">
         <mark key="'" line="9" column="0" />
         <mark key="[" line="13" column="18" />
@@ -62,20 +52,11 @@
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/parties-and-claims/parties-and-claims.html" timestamp="1566914170010">
         <mark key="[" line="40" column="94" />
       </file>
-      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/FileStoreService.java" timestamp="1568188229896">
-        <mark key="[" line="32" column="58" />
-        <mark key="]" line="32" column="54" />
-        <mark key="." line="32" column="54" />
-        <mark key="^" line="32" column="54" />
-      </file>
       <file name="/Protect.Protect2.Claim_Role [Protect@prod.sql.protector.local]" timestamp="1566222286796">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/domain/ScanResult.java" timestamp="1568812926380">
-        <mark key="[" line="7" column="26" />
-        <mark key="]" line="17" column="24" />
-        <mark key="." line="17" column="24" />
-        <mark key="^" line="17" column="24" />
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/spar/SparPersonChangedConsumer.java" timestamp="1569490306987">
+        <mark key="[" line="45" column="72" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/parties-and-claims/parties-and-roles.html" timestamp="1565263730380">
         <mark key="[" line="23" column="116" />
@@ -153,6 +134,9 @@
       </file>
       <file name="/Dummy.txt" timestamp="1568900585457">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/mailprocessing/messaging/consumers/ClaimsMailProcessedEventConsumer.java" timestamp="1569490279501">
+        <mark key="[" line="56" column="72" />
       </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/parties-and-roles/parties-and-roles-module.js" timestamp="1566547870483">
         <mark key="[" line="0" column="67" />
@@ -282,8 +266,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIC8vaWdub3JlIHVudXNlZAoK</text>
+      <register name="&quot;" type="4">
+        <text>//Spring Boot 2.1 users should use 2.2.x</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -336,7 +320,7 @@
         <text>jdd</text>
       </register>
       <register name="-" type="4">
-        <text>streamsBuilderFactoryBean.getKafkaStreams().store</text>
+        <text>//Spring Boot 2.1 users should use 2.2.x</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxzZXR1cENvbnN1bWVyXD4=</text>

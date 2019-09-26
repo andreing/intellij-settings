@@ -20,7 +20,7 @@
       <file name="$USER_HOME$/repos/pfs/file-service/src/test/groovy/protector/fileservice/document/DocumentControllerSpec.groovy" timestamp="1568903062268" />
       <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/resources/application-dev.properties" timestamp="1568891635215" />
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-streams/2.0.1/d6e66daf5bd727bd4ec3a4370dc03a785392cad2/kafka-streams-2.0.1-sources.jar!/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java" timestamp="1569498071667" />
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaStreamsConfig.java" timestamp="1569498175328">
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaStreamsConfig.java" timestamp="1569498990967">
         <mark key="'" line="56" column="18" />
         <mark key="[" line="89" column="53" />
         <mark key="]" line="89" column="37" />
@@ -38,10 +38,6 @@
         <mark key="[" line="15" column="0" />
       </file>
       <file name="$USER_HOME$/repos/dbs/claimsclient/src/main/java/protector/dbs/claims/rest/ClaimsRestService.java" timestamp="1569494286097" />
-      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/messaging/MetadataImportListener.java" timestamp="1569336183340">
-        <mark key="[" line="37" column="0" />
-        <mark key="]" line="37" column="31" />
-      </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_group_fatality_confirmation.xml" timestamp="1568882932800" />
       <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/ClaimsAtNetFileMetadata.java" timestamp="1568103133515">
         <mark key="[" line="6" column="23" />
@@ -144,6 +140,12 @@
         <mark key="." line="45" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_offhours_confirmation.xml" timestamp="1568883202271" />
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/netregistration/producers/ClaimCreatedProducer.java" timestamp="1569499373739">
+        <mark key="'" line="13" column="4" />
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="13" column="44" />
+        <mark key="." line="13" column="0" />
+      </file>
       <file name="$USER_HOME$/repos/claims/frontend/components/claim/claim-header/header-tabs/header-claim-tab/parties-and-claims/parties-and-claims-module.js" timestamp="1566383324857">
         <mark key="[" line="2" column="55" />
       </file>
@@ -164,7 +166,10 @@
       <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/mailprocessing/messaging/consumers/ClaimsMailReceivedEventConsumer.java" timestamp="1569487430654">
         <mark key="[" line="56" column="86" />
       </file>
-      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/producers/ForsiExceptionEventProducer.java" timestamp="1569497097900" />
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/producers/ForsiExceptionEventProducer.java" timestamp="1569499337468">
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="23" column="44" />
+      </file>
       <file name="/dummy.sql" timestamp="1569422855380">
         <mark key="[" line="0" column="0" />
       </file>
@@ -204,7 +209,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="15" column="31" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/actuator/KafkaStreamsHealth.java" />
       <jump line="18" column="30" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/actuator/KafkaStreamsHealth.java" />
       <jump line="19" column="8" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/actuator/KafkaStreamsHealth.java" />
       <jump line="40" column="35" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/actuator/KafkaStreamsHealth.java" />
@@ -304,6 +308,7 @@
       <jump line="34" column="17" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/netregistration/consumers/NetRegistrationPdfConsumer.java" />
       <jump line="54" column="31" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" />
       <jump line="56" column="18" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaStreamsConfig.java" />
+      <jump line="8" column="4" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/netregistration/producers/ClaimCreatedProducer.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -313,7 +318,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoKQo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgT2JqZWN0TWFwcGVyIG9iamVjdE1hcHBlcjsK</text>
       </register>
       <register name="c" type="4">
         <text>angular.toJson($scope.form)</text>
@@ -372,7 +377,7 @@
         <text encoding="base64">XDxMb2dBbmRGYWlsRXhjZXB0aW9uSGFuZGxlclw+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEBTdXBwcmVzc1dhcm5pbmdzKCJ1bnVzZWQiKQo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgT2JqZWN0TWFwcGVyIG9iamVjdE1hcHBlcjsK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAoKQo=</text>

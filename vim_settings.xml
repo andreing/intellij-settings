@@ -19,6 +19,14 @@
       </file>
       <file name="$USER_HOME$/repos/pfs/file-service/src/test/groovy/protector/fileservice/document/DocumentControllerSpec.groovy" timestamp="1568903062268" />
       <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/resources/application-dev.properties" timestamp="1568891635215" />
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-streams/2.0.1/d6e66daf5bd727bd4ec3a4370dc03a785392cad2/kafka-streams-2.0.1-sources.jar!/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java" timestamp="1569498071667" />
+      <file name="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaStreamsConfig.java" timestamp="1569498175328">
+        <mark key="'" line="56" column="18" />
+        <mark key="[" line="89" column="53" />
+        <mark key="]" line="89" column="37" />
+        <mark key="^" line="89" column="37" />
+        <mark key="." line="89" column="37" />
+      </file>
       <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/KafkaStreamsConfig.java" timestamp="1569419340736">
         <mark key="[" line="0" column="0" />
       </file>
@@ -109,7 +117,8 @@
         <mark key="." line="51" column="0" />
       </file>
       <file name="$USER_HOME$/repos/webformdefinitions/forms/xml/norway/life/no_life_occupational_confirmation.xml" timestamp="1568883099157" />
-      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" timestamp="1569325051677">
+      <file name="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" timestamp="1569497699872">
+        <mark key="'" line="54" column="31" />
         <mark key="[" line="55" column="64" />
         <mark key="]" line="11" column="0" />
         <mark key="." line="11" column="0" />
@@ -155,6 +164,7 @@
       <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/mailprocessing/messaging/consumers/ClaimsMailReceivedEventConsumer.java" timestamp="1569487430654">
         <mark key="[" line="56" column="86" />
       </file>
+      <file name="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/forsiprocessing/producers/ForsiExceptionEventProducer.java" timestamp="1569497097900" />
       <file name="/dummy.sql" timestamp="1569422855380">
         <mark key="[" line="0" column="0" />
       </file>
@@ -194,8 +204,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="35" column="8" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/GlobalKVStoreSpring.java" />
-      <jump line="39" column="8" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/GlobalKVStoreSpring.java" />
       <jump line="15" column="31" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/actuator/KafkaStreamsHealth.java" />
       <jump line="18" column="30" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/actuator/KafkaStreamsHealth.java" />
       <jump line="19" column="8" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/actuator/KafkaStreamsHealth.java" />
@@ -294,6 +302,8 @@
       <jump line="57" column="20" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/FileStorageService.java" />
       <jump line="47" column="4" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/files/FileScannerService.java" />
       <jump line="34" column="17" filename="$USER_HOME$/repos/claims/claims-async-mode/src/main/java/protector/claims/netregistration/consumers/NetRegistrationPdfConsumer.java" />
+      <jump line="54" column="31" filename="$USER_HOME$/repos/claims-at-net-registration/app/src/main/java/protector/claimsatnet/KafkaStreamsConfig.java" />
+      <jump line="56" column="18" filename="$USER_HOME$/repos/forsi-reports/app/src/main/java/protector/forsireports/KafkaStreamsConfig.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -359,7 +369,7 @@
         <text>//Spring Boot 2.1 users should use 2.2.x</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzZXR1cENvbnN1bWVyXD4=</text>
+        <text encoding="base64">XDxMb2dBbmRGYWlsRXhjZXB0aW9uSGFuZGxlclw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIEBTdXBwcmVzc1dhcm5pbmdzKCJ1bnVzZWQiKQo=</text>
@@ -489,18 +499,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxzZXR1cENvbnN1bWVyXD4=</last-search>
+      <last-search encoding="base64">XDxMb2dBbmRGYWlsRXhjZXB0aW9uSGFuZGxlclw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzZXR1cENvbnN1bWVyXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxMb2dBbmRGYWlsRXhjZXB0aW9uSGFuZGxlclw+</last-pattern>
       <last-replace />
       <last-substitute encoding="base64">XDxBUFBSQUlTQUxfSU5fUFJPR1JFU1NfVE9QSUNcPg==</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxjbGFpbXNEYXRhVG9waWNcPg==</entry>
-        <entry encoding="base64">XDxzdHJlYW1zQXBwbGljYXRpb25JZFw+</entry>
         <entry encoding="base64">XDxJTkNPTUlOR19EQVRBX1RPUElDXD4=</entry>
         <entry encoding="base64">XDxrYWZrYVN0cmVhbXNcPg==</entry>
         <entry encoding="base64">XDxLYWZrYVN0cmVhbXNcPg==</entry>
@@ -519,6 +527,8 @@
         <entry encoding="base64">XDxQUk9DRVNTRURfVE9QSUNcPg==</entry>
         <entry encoding="base64">XDxqb2luXD4=</entry>
         <entry encoding="base64">XDxzZXR1cENvbnN1bWVyXD4=</entry>
+        <entry encoding="base64">XDxGSUxFX1NBVkVEX1RPUElDXD4=</entry>
+        <entry encoding="base64">XDxMb2dBbmRGYWlsRXhjZXB0aW9uSGFuZGxlclw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zL3BheWxvYWQvcmVwb3J0RGF0YS8=</entry>

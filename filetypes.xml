@@ -7,6 +7,7 @@
       <mapping ext="avsc" type="JSON" />
       <mapping pattern="proxyRequestEncoder" type="JavaScript" />
       <mapping pattern=".Python" type="PLAIN_TEXT" />
+      <mapping pattern="elastic_creds" type="PLAIN_TEXT" />
       <mapping pattern="form-blacklist" type="PLAIN_TEXT" />
       <mapping pattern="test-licence" type="PLAIN_TEXT" />
       <mapping pattern="elastic_servers" type="PLAIN_TEXT" />
@@ -14,7 +15,6 @@
       <mapping pattern="history" type="PLAIN_TEXT" />
       <mapping pattern="cacerts" type="PLAIN_TEXT" />
       <mapping pattern="foo" type="PLAIN_TEXT" />
-      <mapping pattern="elastic_creds" type="PLAIN_TEXT" />
       <mapping pattern="pre-commit" type="PLAIN_TEXT" />
       <mapping ext="qvs" type="PLAIN_TEXT" />
       <mapping ext="logger" type="PLAIN_TEXT" />

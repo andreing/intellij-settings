@@ -1,6 +1,6 @@
 <application>
-  <component name="FileTypeManager" version="17">
-    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;bundle.js*;rcs;" />
+  <component name="FileTypeManager" version="18">
+    <ignoreFiles list="*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;bundle.js*;rcs;" />
     <extensionMap>
       <mapping pattern="DockerfileAsyncMode" type="Dockerfile" />
       <mapping ext="tpl" type="Groovy" />
@@ -11,20 +11,21 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="history" type="PLAIN_TEXT" />
       <mapping pattern="kafka_client_secret_test" type="PLAIN_TEXT" />
+      <mapping pattern="globalnames" type="PLAIN_TEXT" />
+      <mapping pattern="elastic_creds" type="PLAIN_TEXT" />
+      <mapping pattern=".Python" type="PLAIN_TEXT" />
       <mapping pattern="META-INF" type="PLAIN_TEXT" />
+      <mapping pattern="foo" type="PLAIN_TEXT" />
       <mapping pattern="form-blacklist" type="PLAIN_TEXT" />
       <mapping pattern="pre-commit" type="PLAIN_TEXT" />
       <mapping pattern="test-licence" type="PLAIN_TEXT" />
       <mapping pattern="cacerts" type="PLAIN_TEXT" />
-      <mapping pattern="globalnames" type="PLAIN_TEXT" />
-      <mapping pattern="elastic_creds" type="PLAIN_TEXT" />
-      <mapping pattern=".Python" type="PLAIN_TEXT" />
-      <mapping pattern="foo" type="PLAIN_TEXT" />
       <mapping pattern="elastic_servers" type="PLAIN_TEXT" />
       <mapping ext="logger" type="PLAIN_TEXT" />
       <mapping ext="ps1" type="PLAIN_TEXT" />
       <mapping ext="qvs" type="PLAIN_TEXT" />
       <mapping pattern="claims_2947" type="SQL" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="nodebunyan" type="CommandLine" />
     </extensionMap>

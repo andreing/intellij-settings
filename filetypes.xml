@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <ignoreFiles list="*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;bundle.js*;rcs;" />
     <extensionMap>
+      <removed_mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="forsi_kafka_client" type="AUTO_DETECTED" />
       <mapping pattern="blizzard_kafka_client" type="AUTO_DETECTED" />
       <mapping pattern="kafka_servers" type="AUTO_DETECTED" />
@@ -10,8 +11,6 @@
       <mapping ext="tmpl" type="HTML" />
       <mapping ext="avsc" type="JSON" />
       <mapping pattern="proxyRequestEncoder" type="JavaScript" />
-      <mapping ext="gradle.kts" type="Kotlin" />
-      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="history" type="PLAIN_TEXT" />
       <mapping pattern="kafka_client_secret_test" type="PLAIN_TEXT" />
       <mapping pattern="globalnames" type="PLAIN_TEXT" />
